@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="gbk">
+		<meta name="author" content="Tencent-CP">
+		<meta name="Copyright" content="Tencent">
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="viewport" id="viewport" content="initial-scale=1, maximum-scale=5, minimum-scale=0.5, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="Keywords" content="九月生日神秘商店" />
+		<meta name="Description" content="九月生日神秘商店，FIFA，FIFA游戏官网，FIFA手游，腾讯游戏官网，腾讯FIFA，手机游戏，手机游戏下载" />
+		<title>九月生日神秘商店-FIFA Online3官方网站-腾讯游戏</title>
+		<!-- //game.gtimg.cn/images/actdaoju/act/a20190912brithdaym/ -->
+
+		<link rel="stylesheet" type="text/css" href="index.css" />
+	</head>
+	<body>
+		<h1 class="hid">九月生日神秘商店</h1>
+		<div class="wrap" id="wrap">
+			<div class="head">
+				<p class="act-time">活动日期：9月23日-10月18日</p>
+				<div class="login">
+					<div id="unlogin">您好，请
+						<a href="javascript:;" id="ptLoginBtn" onclick="PTTSendClick('btn', 'login', '登录');">【登录】</a>
+					</div>
+					<div style="display:none;" id="logined">欢迎您，
+						<span id="userinfo"></span>
+						<span id="spanNotBind_541367"><a href="javascript:;" class="bindArea" onclick="PTTSendClick('btn', 'bindArea', '绑定大区');">【绑定大区】</a></span>
+						<span id="spanBind_541367" style="display:none">
+							<span id="area_info_541367"></span>
+							<span id="role_info_541367"></span>
+							<a href="javascript:;" class="bindArea" onclick="PTTSendClick('btn', 'bindChange', '更改绑定');">【更改绑定】</a>
+							<br>
+							<!--<a href="javascript:record(1);" onclick="PTTSendClick('btn', 'shopRecord', '查看购买记录');">【我的购买记录】</a>-->
+						</span>
+						<a href="javascript:;" id="ptLogoutBtn" style="display:none;" onclick="PTTSendClick('btn', 'unlogin', '注销');">【注销】</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="content">
+				<!--八月生日礼包-->
+				<div class="con1">
+					<div class="prop-con">
+						<div class="prop-ul1">
+							<p class="title1 hid">九月生日礼包</p>
+							<div class="prop-ul1-left">
+								<ul class="prop1-ul1-name">
+									<li class="prop1-box prop1-box1">
+										<img src="//game.gtimg.cn/images/actdaoju/act/a20190912brithdaym/prop1-1.png" width="216" height="215" alt="精选赛季(CC&CP&LP)150人包(3强)×1" />
+										<p>精选赛季(CC&CP&LP)<br />150人包(3强)×1</p>
+									</li>
+									<li class="prop1-box prop1-box2">
+										<img src="//game.gtimg.cn/images/actdaoju/act/a20190912brithdaym/prop1-2.png" width="216" height="215" alt="20级经验卡×2" />
+										<p>20级经验卡×2</p>
+									</li>
+									<li class="prop1-box prop1-box3">
+										<img src="//game.gtimg.cn/images/actdaoju/act/a20190912brithdaym/prop1-3.png" width="216" height="215" alt="荣耀传奇球星包×1" />
+										<p>荣耀传奇球星包×1</p>
+										
+									</li>
+									<li class="prop1-box prop1-box4">
+										<img src="//game.gtimg.cn/images/actdaoju/act/a20190912brithdaym/prop1-4.png" width="216" height="215" alt="5亿 EP" />
+										<p>5亿 EP</p>
+									</li>
+									<li class="prop1-box prop1-box5">
+										<img src="//game.gtimg.cn/images/actdaoju/act/a20190912brithdaym/prop1-5.png" width="216" height="215" alt="足坛大师球员包×1" />
+										<p>足坛大师球员包×1</p>
+									</li>
+								</ul>
+							</div>
+							<!--<div class="prop-ul1-right">
+								<img src="//game.gtimg.cn/images/actdaoju/act/a20190912brithdaym/prop1-1.png" alt="" />
+							</div>-->
+						</div>
+						<!--已领取的类请切换类为 .btn-got-->
+						<a id="lott" class="spr btn-get hid" title="点击领取" href="javascript:;" onclick="PTTSendClick('btn', 'btn-get', '点击领取');">点击领取</a>
+						<!-- <a class="spr btn-got hid" href="javascript:;">已领取</a> -->
+					</div>
+				</div>
+				<!--神秘折扣专区-->
+				<div class="con2">
+					<p class="title2 hid">神秘折扣专区</p>
+					<p id="countdown" class="count-down">礼包刷新倒计时：0小时0分0秒</p>
+					<a id="disbtn" class="spr btn-extract" title="抽取神秘折扣" href="javascript:;" onclick="PTTSendClick('btn', 'btn-extract', '抽取神秘折扣');">抽取神秘折扣</a>
+					<a href="javascript:record(1);;" class="btn-record" onclick="PTTSendClick('btn', 'btn-record', '购买记录');"></a>
+					<p class="tip-refresh">[每日16:00和24:00将重新抽取折扣并刷新礼包]</p>
+					<div class="prop-con1">
+						<!--如果未登录前不需要道具图片，请将神秘折扣专区道具图片的路径改为prop2-no.png-->
+						<ul class="prop-ul2 clearfix" id="dj1">
+							<li>
+								<div class="fluid-txt">
+									<div class="fluid-wraper">
+										<div class="fluid-inner">
+											<p>
+												???
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="prop">
+									<img src="//game.gtimg.cn/images/actdaoju/act/a20190912brithdaym/prop2-no.png" alt="">
+									<p class="prop-desc"><span>???</span></p>
+								</div>
+								<p class="origin">原价：<span>??Q币</span></p>
+								<p class="now">现价：<span><strong>???</strong> Q币</span></p>
+								<a href="javascript:alert('请先开启折扣');" class="spr btn-buy hid" title="直接购买" onclick="PTTSendClick('btn', 'btn-buy-1', '立即购买');">立即购买</a>
+								<!-- 已购买请切换类：.btn-bought -->
+							</li>
+							<li>
+								<div class="fluid-txt">
+									<div class="fluid-wraper">
+										<div class="fluid-inner">
+											<p>
+												???
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="prop">
+									<img src="//game.gtimg.cn/images/actdaoju/act/a20190912brithdaym/prop2-no.png" alt="">
+									<p class="prop-desc"><span>???</span></p>
+								</div>
+								<p class="origin">原价：<span>??Q币</span></p>
+								<p class="now">现价：<span><strong>???</strong> Q币</span></p>
+								<a href="javascript:alert('请先开启折扣');" class="spr btn-buy hid" title="直接购买" onclick="PTTSendClick('btn', 'btn-buy-1', '立即购买');">立即购买</a>
+								<!-- 已购买请切换类：.btn-bought -->
+							</li>
+							<li  class="last">
+								<div class="fluid-txt">
+									<div class="fluid-wraper">
+										<div class="fluid-inner">
+											<p>
+												???
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="prop">
+									<img src="//game.gtimg.cn/images/actdaoju/act/a20190912brithdaym/prop2-no.png" alt="">
+									<p class="prop-desc"><span>???</span></p>
+								</div>
+								<p class="origin">原价：<span>??Q币</span></p>
+								<p class="now">现价：<span><strong>???</strong> Q币</span></p>
+								<a href="javascript:alert('请先开启折扣');" class="spr btn-buy hid" title="直接购买" onclick="PTTSendClick('btn', 'btn-buy-1', '立即购买');">立即购买</a>
+								<!-- 已购买请切换类：.btn-bought -->
+							</li>
+							<li>
+								<div class="fluid-txt">
+									<div class="fluid-wraper">
+										<div class="fluid-inner">
+											<p>
+												???
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="prop">
+									<img src="//game.gtimg.cn/images/actdaoju/act/a20190912brithdaym/prop2-no.png" alt="">
+									<p class="prop-desc"><span>???</span></p>
+								</div>
+								<p class="origin">原价：<span>??Q币</span></p>
+								<p class="now">现价：<span><strong>???</strong> Q币</span></p>
+								<a href="javascript:alert('请先开启折扣');" class="spr btn-buy hid" title="直接购买" onclick="PTTSendClick('btn', 'btn-buy-1', '立即购买');">立即购买</a>
+								<!-- 已购买请切换类：.btn-bought -->
+							</li>
+							<li>
+								<div class="fluid-txt">
+									<div class="fluid-wraper">
+										<div class="fluid-inner">
+											<p>
+												???
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="prop">
+									<img src="//game.gtimg.cn/images/actdaoju/act/a20190912brithdaym/prop2-no.png" alt="">
+									<p class="prop-desc"><span>???</span></p>
+								</div>
+								<p class="origin">原价：<span>??Q币</span></p>
+								<p class="now">现价：<span><strong>???</strong> Q币</span></p>
+								<a href="javascript:alert('请先开启折扣');" class="spr btn-buy hid" title="直接购买" onclick="PTTSendClick('btn', 'btn-buy-1', '立即购买');">立即购买</a>
+								<!-- 已购买请切换类：.btn-bought -->
+							</li>
+							<li class="last">
+								<div class="fluid-txt">
+									<div class="fluid-wraper">
+										<div class="fluid-inner">
+											<p>
+												???
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="prop">
+									<img src="//game.gtimg.cn/images/actdaoju/act/a20190912brithdaym/prop2-no.png" alt="">
+									<p class="prop-desc"><span>???</span></p>
+								</div>
+								<p class="origin">原价：<span>??Q币</span></p>
+								<p class="now">现价：<span><strong>???</strong> Q币</span></p>
+								<a href="javascript:alert('请先开启折扣');" class="spr btn-buy hid" title="直接购买" onclick="PTTSendClick('btn', 'btn-buy-1', '立即购买');">立即购买</a>
+								<!-- 已购买请切换类：.btn-bought -->
+							</li>
+						</ul>
+						<!--道具展示-->
+						<script type="text/html" id="tpl1">
+							{var i=1} {for g in tpl1}
+							<li  class="{if i%2==0}last{/if}"  id="_${g.iGoodsId}" data="${i++}">
+								<div class="fluid-txt">
+									<div class="fluid-wraper">
+										<div class="fluid-inner">
+											<p>
+											{for n in g.sGoodsDesc.split(',')}
+												${n}<br>
+											{/for}
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="prop">
+									<img src="//game.gtimg.cn/images/actdaoju/act/a20190912brithdaym/${g.src}" alt="${g.sGoodsName}">
+									<p class="prop-desc"><span>${g.sGoodsName}</span></p>
+								</div>
+								<p class="origin">原价：<span>${g.oldPrice}</span>&nbsp;Q币</p>
+								<p class="now">现价：<span>${g.curPrice}</span>&nbsp;Q币</p>
+								<a class="spr btn-buy hid" title="立即购买" href="javascript:w.hsSubmit(${g.iGoodsId});" onclick="PTTSendClick('btn', 'btn-buy2', '立即购买');">立即购买</a>
+							</li>
+							{/for}
+						</script>
+					</div>
+				</div>
+				<!--每日惊喜大礼-->
+				<div class="con3">
+					<!--如果未登录前不需要道具图片，请将每日惊喜大礼专区道具图片的路径改为prop2-no.png-->
+					<p class="title3 hid">每日惊喜大礼</p>
+					<div class="gift-con clearfix" id="dj2">
+						<div class="half gift-prop">
+							<div class="fluid-txt">
+								<div class="fluid-wraper">
+									<div class="fluid-inner">
+										<p>
+											???
+										</p>
+									</div>
+								</div>
+							</div>
+							<p class="discount tit-3-1 hid">3折优惠</p>
+							<img src="//game.gtimg.cn/images/actdaoju/act/a20190912brithdaym/prop2-no.png" alt="">
+							<p class="current-price"><span>???</span></p>
+							<div class="price">
+								<p class="origin">原价：<span>??Q币</span></p>
+								<p class="now">现价：<span><strong>10</strong>Q币</span></p>
+
+							</div>
+							<a class="spr btn-buy hid" title="立即购买" href="javascript:;" onclick="PTTSendClick('btn', 'btn-buy-7', '立即购买7');">立即购买</a>
+							<!-- 已购买请切换类：.btn-buy2on -->
+						</div>
+						<div class="half half2 last">
+							<div class="fluid-txt">
+								<div class="fluid-wraper">
+									<div class="fluid-inner">
+										<p>
+											???
+										</p>
+									</div>
+								</div>
+							</div>
+							<p class="discount tit-3-2 hid">2折优惠</p>
+							<img src="//game.gtimg.cn/images/actdaoju/act/a20190912brithdaym/prop2-no.png" alt="">
+							<p class="current-price"><span>???</span></p>
+							<div class="price">
+								<p class="origin">原价：<span>???Q币</span></p>
+								<p class="now">现价：<span><strong>???</strong>Q币</span></p>
+							</div>
+							<a class="spr btn-buy hid" title="立即购买" href="javascript:;" onclick="PTTSendClick('btn', 'btn-buy-8', '立即购买8');">立即购买</a>
+							<!-- 已购买请切换类：.btn-buy2on -->
+						</div>
+					</div>
+					<script type="text/html" id="tpl2">
+						{var i=1} {for g in tpl2} {if i==1}
+						<div class="half gift-prop" data-i="${i++}">
+							<div class="fluid-txt">
+								<div class="fluid-wraper">
+									<div class="fluid-inner">
+										<p>{for m in g.extend.split(',')}${m}<br>{/for}</p>
+									</div>
+								</div>
+							</div>
+							
+							<p class="discount tit-3-1 hid">3折优惠！</p>
+							<img src="//game.gtimg.cn/images/actdaoju/act/a20190912brithdaym${g.img}" alt="???">
+							<p class="current-price"><span>${g.name}</span></p>
+							<!--在原来基础添加了盒子price-->
+							<div class="price">
+								<p class="origin">原价：<span>${g.oPrice}</span>&nbsp;Q币</p>
+								<p class="now">现价：<span>${g.cPrice}</span>&nbsp;Q币</p>
+							</div>
+							<a data-type="3" data-md="${g.md}" class="spr btn-buy hid _${g.iSeqId}" title="立即购买" href="javascript:;">立即购买</a>
+						</div>
+						{else}
+						<div class="half gift-prop" data-i="${i++}">
+							<div class="fluid-txt">
+								<div class="fluid-wraper">
+									<div class="fluid-inner">
+										<p>{for m in g.extend.split(',')}${m}<br>{/for}</p>
+									</div>
+								</div>
+							</div>
+							<p class="discount tit-3-2 hid">2折优惠！</p>
+							<img src="//game.gtimg.cn/images/actdaoju/act/a20190912brithdaym${g.img}" alt="???">
+							<p class="current-price"><span>${g.name}</span></p>
+							<div class="price">
+								<p class="origin">原价：<span>${g.oPrice}</span>&nbsp;Q币</p>
+								<p class="now">现价：<span>${g.cPrice}</span>&nbsp;Q币</p>
+							</div>
+							<a data-type="2" data-md="${g.md}" class="spr btn-buy hid _${g.iSeqId} hid" title="立即购买" href="javascript:;">立即购买</a>
+						</div>
+						{/if} {/for}
+					</script>
+				</div>
+				<!--活动规则-->
+				<div class="rule">
+					<p class="title4 hid">活动规则</p>
+					<ul class="rule-ul">
+						<li class="clearfix"><span>1</span>
+							<p>2019年9月23日之前成功注册游戏角色的玩家可在页面领取9月生日礼包1个;</p>
+						</li>
+						<li class="clearfix"><span>2</span>
+							<p>神秘折扣专区每天16:00和24:00可在活动页面抽取神秘折扣，16:00抽取的折扣，限16:00-24:00使用，24:00抽取的折扣，限00:00-16:00使用;</p>
+						</li>
+						<li class="clearfix"><span>3</span>
+							<p>神秘折扣专区在活动期间页面每天16:00和24:00自动刷新幸运礼包，每个时间段更新6个礼包;</p>
+						</li>
+						<li class="clearfix"><span>4</span>
+							<p>神秘折扣专区在当日15:59:50—16:00:10和当日23:59:50—次日00:00:10为折扣和礼包更新时间，期间暂不能抽取折扣和购买礼包;</p>
+						</li>
+						<li class="clearfix"><span>5</span>
+							<p> 每日惊喜大礼专区每天0:00自动刷新当日惊喜大礼，每天更新1个礼包，购买该礼包可享受超低惊喜价;</p>
+						</li>
+						<li class="clearfix"><span>6</span>
+							<p>每日惊喜大礼专区在每日23:59:50—次日00:00:10为礼包更新时间，期间暂不能购买礼包;</p>
+						</li>
+						<li class="clearfix"><span>7</span>
+							<p>每个QQ号在活动期间内每天限购一次同一幸运礼包；</p>
+						</li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+		<div class="dialog1" id="test1" style="display:none1;">
+			<div class="dia-con">
+				<!--<p class="dia-s1">我的购买记录</p>-->
+				<table class="tab" cellpadding="0" cellspacing="0" width="730" border="0">
+					<thead>
+						<tr>
+							<th>购买时间</th>
+							<th>购买礼包</th>
+							<th>价格</th>
+						</tr>
+					</thead>
+					<tbody id="dj4">
+						<tr>
+							<td colspan="3">暂无记录</td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<td colspan="3" id="">
+								<span id="page">1/1页</span>
+								<a id="prev" title="上一页" class="tab_a" href="javascript:;">上一页</a>
+								<span></span>
+								<a id="next" title="下一页" class="tab_a" href="javascript:;">下一页</a>
+							</td>
+						</tr>
+					</tfoot>
+				</table>
+				<script type="text/html" id="tpl4">
+					{for g in tpl4}
+					<tr>
+						<td width="30%">${g.dtBuyTime.substring(0,10)}</td>
+						<td width="45%">${g.sGoodsName}</td>
+						<td width="25%">${g.sPrice}</td>
+					</tr>
+					{/for}
+				</script>
+			</div>
+			<a class="sp dia-close" href="javascript:showDialog.hide();" title="关闭"></a>
+		</div>
+		<script src="//js01.daoju.qq.com/common/js/act/dj_header_h5.js"></script>
+		<script src="//ossweb-img.qq.com/images/js/zepto/zepto.min.js"></script>
+		<script src="//ossweb-img.qq.com/images/js/mobile_bundle/milo.js"></script>
+		<script src="//act.daoju.qq.com/act/a20190805birthday/index.js"></script>
+		<script src="//ossweb-img.qq.com/images/js/TGMobileShare/TGMobileShare.min.js"></script>
+		<script>
+			// 分享
+			TGMobileShare({
+				shareTitle: '九生日神秘商店', //不设置或设置为空时，页面有title，则调取title
+				shareDesc: '九生日神秘商店', //不设置或设置为空时，页面有Description，则调取Description
+				shareImgUrl: 'http://game.gtimg.cn/images/actdaoju/act/a20190912brithdaym/share.jpg', //分享图片尺寸200*200，且填写绝对路径
+				shareLink: '', //分享链接要跟当前页面同域名(手Q分享有这个要求) ,不设置或设置为空时，默认调取当前URL
+				actName: 'a20190912brithdaym' //点击流命名，用于统计分享量，专题一般采用目录名称如a20151029demo
+			});
+
+			// 点击抽取奖励显示浮层
+			//缩放代码
+			var cwid = document.documentElement.clientWidth || document.body.clientWidth,
+				viewport = document.getElementById('viewport');
+			if (navigator.appVersion.indexOf('iPhone') != -1 || navigator.appVersion.indexOf('iPad') != -1) {
+				viewport.setAttribute('content', 'width=375,minimum-scale=0.5,maximum-scale=5,user-scalable=no');
+			} else if (navigator.appVersion.indexOf('Android') != -1) {
+				document.getElementById('wrap').style.zoom = cwid / 375;
+			}
+		</script>
+		<script src="//game.gtimg.cn/images/js/2018foot/foot.js"></script>
+		<!--通用统计代码-->
+		<script src="//ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js"></script>
+		<script>
+			//此段代码不能放到外链JS中，
+			var setSite = { //设置网站属性
+				siteType: "a20190912brithdaym", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+				pageType: "index", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN
+				pageName: "首页", //必填项:页面中文名
+				osact: 0, //选填项:是否是官网专题(在官网运营的专题)boolean；默认是0；可以在链接上加入参数osact=1来灵活设置
+				ingame: 0, //选填项:是否投放在游戏APP内boolean；默认是0；可以在链接上加入参数ingame=1来灵活设置
+				stayTime: 0 //选填项:是否需要统计停留时长boolean；默认是0
+			};
+			if (typeof(pgvMain) == 'function') pgvMain(); //千万不能忘记！
+		</script>
+	</body>
+
+</html>
