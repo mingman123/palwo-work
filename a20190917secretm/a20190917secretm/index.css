@@ -1,0 +1,130 @@
+html{font-size:0.5rem;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,figure{margin:0;padding:0;border:0;vertical-align:baseline;border-radius:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+ol,ul{list-style:none}
+body{font-family:"Microsoft YaHei",Helvetica,sans-serif;color:#333;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:none;-webkit-touch-callout:none;-webkit-user-select:text;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent;word-break:break-all;word-wrap:break-word;}
+table{border-collapse:collapse;border-spacing:0}
+h1,h2,h3,h4,h5,h6{font-weight:normal}
+h1.seotit{width:100%;height:0;font-size:0;text-indent:-9999em;line-height:500%;overflow:hidden;}
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{font-weight:inherit}
+input,select,form,textarea{vertical-align:middle;outline:none}
+img{display:block;outline:none;}
+strong,b,em,i{font-weight:normal;font-style:normal;}
+a{text-decoration:none;outline:0;color:#333}
+div,a,input,select,option{outline:none}
+table{border-collapse:collapse;border-spacing:0}
+.clearfix:after,.clearfix:before{content:"";display:table;}
+.clearfix:after{clear:both;}
+.hid{display:none;font-size:0;text-indent:-999em;}
+#loginStatusSyncFrame_ams_ame{display:none;}
+html,body{width: 100%;height: 100%;position: relative;}
+body{background-color: #f5f5f5;}
+/* foot */
+.foot{font-size:0.12rem;text-align:center;padding:0.2rem 0;background:#000;color:#fff;}
+.foot a{color:#fff;text-decoration:none;}
+#loginStatusSyncFrame_ams_ame{display:none;}
+/* wrap */
+.wrap{width:7.5rem;height:auto;position:relative;overflow: hidden;}
+.cont1,.cont2{display: block;margin: 0 auto;position: relative;overflow: hidden;width: 7.5rem;}
+.cont1{background: url(//game.gtimg.cn/images/actdaoju/act/a20190917secretm/app/bg1.jpg) no-repeat;width: 7.5rem;height: 4.42rem;background-size: 7.5rem 4.42rem;}
+.cont2{background: url(//game.gtimg.cn/images/actdaoju/act/a20190917secretm/app/bg2.jpg) no-repeat;width: 7.5rem;height: 52.50rem;background-size: 7.5rem 52.50rem;margin-top: -0.01rem;}
+.spr{background: url(//game.gtimg.cn/images/actdaoju/act/a20190917secretm/app/spr.png) no-repeat;background-size: 10rem 10rem;}
+/* cont1 */
+.logo{position: absolute;top: 0.88rem;left: 50%;margin-left: -3.04rem;background: url(//game.gtimg.cn/images/actdaoju/act/a20190917secretm/app/logo.png) no-repeat;width: 2.70rem;height: 0.41rem;background-size: 2.70rem 0.41rem;}
+.time{position: absolute;top: 1.4rem;left: 50%;margin-left: -3.6rem;width: 4.04rem;height: 0.41rem;font-size: 0.18rem;line-height: 0.40rem;color: #1a1a1a;text-align: center;font-weight: bold;}
+.login-box{font-size: 0.18rem;line-height: 0.26rem;color: #1a1a1a;text-align: center;padding-top: 3.9rem;}
+.login-box a{color: #1a1a1a;}
+/* cont2 */
+/*main1*/
+.main1{width: 100%;height: 11.04rem;margin: 0 auto;}
+.main1 .title{background-position: 0 0rem;width:2.39rem;height: 0.71rem;margin: 0rem auto 0;}
+.box-dj{width: 7.45rem;height: 8.04rem;margin: 0rem auto;font-size: 0;}
+.dj{background: url(//game.gtimg.cn/images/actdaoju/act/a20190917secretm/app/bg-prize.png) no-repeat;width: 2.26rem;height: 3.26rem;background-size: 100%;display: inline-block;text-align: center;margin-left: 0.94rem; margin-top: 0.38rem;vertical-align: middle;margin-bottom: 0.2rem;}
+.dj2,.dj4{margin-left: 1.06rem;}
+.dj img{width: 2.26rem;height: 2.56rem;background-size: 100% 100%;display: block;margin: 0rem auto 0;}
+.dj span{display: block;width: 100%;font-size: 0.18rem; color: #ffdb16;line-height: 0.28rem;margin: 0 auto; text-align: center;}
+.dj4 span{padding-top: 0.14rem;}
+.dj3 span{position: relative;top: -0.1rem;left:0;width: 88%;line-height: 0.24rem;}
+
+
+.btn-collection{background-position: -5.51rem 0rem;width: 2.60rem;height: 0.7rem;display: block;margin: 0 auto;font-size: 0.3rem; color: #43301d;font-weight: bold;line-height: 0.68rem;text-align: center;}
+.btn-collection.on{background-position: -5.51rem -1.54rem;width: 2.60rem;height: 0.7rem;display: block;margin: 0 auto;font-size: 0.3rem; color: #43301d;font-weight: bold;line-height: 0.68rem;text-align: center;}
+
+
+.main2{width: 100%;height: 11.18rem;margin: 0 auto;}
+.main2 .title{background-position: 0 -1.4rem;width: 2.06rem;height: 0.70rem;margin: 0rem auto 0;}
+.main2 .txt-shop{display: block;width: 92%;margin: 0 auto 0.2rem;line-height: 0.48rem;font-size: 0.2rem; color: #c1e8c8;text-align: center;}
+.main2 .one-shop{width: 100%;height: 7.64rem;margin: 0 auto;font-size: 0;}
+.main2 .one-shop li{position: relative;background: url(//game.gtimg.cn/images/actdaoju/act/a20190917secretm/app/bg-prop2.png) no-repeat;background-size: 1.86rem 3.26rem;width:1.86rem;height: 3.26rem;display: inline-block;*display:inline; vertical-align: top;/* IE6¡¢7 block ÔªËØ */ *zoom:1;margin:0 0.12rem 0.48rem;}
+.main2 .one-shop li.on{position: relative;background: url(//game.gtimg.cn/images/actdaoju/act/a20190917secretm/app/bg-prop2on.png) no-repeat;background-size: 1.86rem 3.26rem;width:1.86rem;height: 3.26rem;display: inline-block;*display:inline;vertical-align: top; /* IE6¡¢7 block ÔªËØ */ *zoom:1;margin:0 0.12rem 0.48rem;}
+.main2 .one-shop li img{width:1.86rem;height: 2.54rem;background-size: 100% 100%;display: block;margin: 0 auto 0;}
+.main2 .one-shop li a{position: absolute;top: 0;left: 0;width: 100%;height: 100%;display: block;z-index: 10;}
+/*.main2 .one-shop li .shop-mc{display: none;}*/
+/*.main2 .one-shop li.on .shop-mc{position: absolute; top: 0;left: 0;display: block;background: url(//game.gtimg.cn/images/actdaoju/act/a20190917secretm/app/bg-mc.png) no-repeat;background-size: 2.44rem 4.21rem;width:2.44rem;height: 4.21rem;z-index: 10;pointer-events: none;opacity: 0.37;}*/
+.main2 .one-shop li p{width: 100%;font-size: 0.18rem; color: #151515;line-height: 0.3rem;text-align: center; margin: 0 auto;}
+.main2 .one-shop .first{margin-left: 1.76rem;}
+.main2 .one-shop li.on.first{margin-left: 1.76rem;} 
+.main2 .one-shop .second{margin-left: 0.70rem;}
+.main2 .one-shop li.on.second{margin-left: 0.70rem;}
+.main2 .one-shop .first p{position: relative;left: 0;top: -0.1rem;line-height: 0.22rem;} 
+
+.main2 .new-btn{background-position: -5.51rem 0rem;width: 2.60rem;height: 0.7rem;display: block;margin: 0 auto;font-size: 0.3rem; color: #43301d;font-weight: bold;line-height: 0.68rem;text-align: center;}
+.main2 .new-btn.on{background-position: -5.51rem -1.54rem;width: 2.60rem;height: 0.7rem;display: block;margin: 0 auto;font-size: 0.3rem; color: #43301d;font-weight: bold;line-height: 0.68rem;text-align: center;}
+
+
+.main3{width: 7.5rem;height: 22.52rem;margin: 0 auto;}
+.main3 .title{background-position: 0 -3.17rem;width: 3.30rem;height: 0.67rem;margin: 0 auto;}
+.main3 .txt{width: 100%;font-size: 0.2rem;color: #555555;line-height: 0.26rem;text-align: center;margin: 0.1rem auto 0.18rem;}
+/*.main3 .bg-refresh{width: 6.77rem;height:3.76rem;background: url(//game.gtimg.cn/images/actdaoju/act/a20190917secretm/app/bg-newbox.png) no-repeat;background-size: 6.77rem 3.76rem;margin: 0 auto 0.3rem;}*/
+.main3 .txt-time{width: 100%;font-size: 0.18rem;line-height: 0.24rem;color: #171717;text-align: center;margin-bottom: 0.08rem;padding-top: 0.08rem;}
+.countdown{background-position: -5.31rem -2.87rem;width: 4.19rem;height: 0.92rem; margin: 0 auto; font-size: 0.22rem;color: #43301d;text-align: center;line-height: 0.84rem;letter-spacing: 0.01rem;}
+.countdown span{font-size: 0.56rem;color: #43301d;line-height: 0.92rem;}
+.countdown em{width: 1.38rem;height: 0.92rem;line-height: 0.92rem;text-align: center;display:inline-block ;*display:inline;vertical-align: top; /* IE6¡¢7 block ÔªËØ */ *zoom:1;}
+.btn-discount{background-position: -5.51rem 0rem;width: 2.60rem;height: 0.7rem;display: block;margin: 0.4rem auto 0rem;font-size: 0.3rem; color: #43301d;font-weight: bold;line-height: 0.68rem;text-align: center;}
+.btn-discounton{background-position: -5.51rem -1.54rem;width: 2.60rem;height: 0.7rem;display: block;margin: 0.4rem auto 0rem;font-size: 0.3rem; color: #43301d;font-weight: bold;line-height: 0.68rem;text-align: center;}
+.txt-explain{font-size: 0.2rem; color: #555555;text-align: center;line-height: 0.42rem;padding-bottom: 0.16rem;}
+.btn-check{display: block;width: 2rem;height: 0.32rem;font-size: 0.24rem;font-weight: bold; color: #171717;line-height: 0.30rem;border-bottom: 2px solid #585a5b;margin: 0rem auto 0.62rem;z-index:20;text-align: center;}
+
+.main3 .box-prize{width: 6.56rem;height: 17.4rem; margin: 0 auto;text-align: center;font-size: 0;}
+
+.main3 .prize{position: relative;display: inline-block;width: 2.56rem;height: 5.66rem;text-align: center;margin: 0rem 0.36rem 0;}
+.prize .tk{font-size: 0.2rem;width: 6.35rem;height: 2.55rem;color: #ffffff;display: flex;display: -webkit-flex;align-items: center;z-index: 9999999;}
+.prize .tk1{display:none;background: url(//game.gtimg.cn/images/actdaoju/act/a20190917secretm/app/tk1.png) no-repeat;background-size: 6.35rem 2.55rem;position: absolute;top: -2.4rem;right: -3.06rem;align-items: center;}
+.prize .tk2{display:none;background: url(//game.gtimg.cn/images/actdaoju/act/a20190917secretm/app/tk2.png) no-repeat;background-size: 6.35rem 2.55rem;position: absolute;top: -2.4rem;right: -0.78rem;align-items: center;}
+.prize:hover .tk{display: block;}
+.tk p{width:90%;text-align: center;line-height: 0.28rem;font-size: 0.2rem; letter-spacing: -0.005rem; color: #fff;margin: 0 auto;height: 1.84rem;padding-top: 0.56rem;}
+/*.main3 .last{margin-right: 0;}*/
+.bg-prize{background: url(//game.gtimg.cn/images/actdaoju/act/a20190917secretm/app/bg-prop3.png) no-repeat;width: 2.56rem;height: 3.36rem;background-size: 2.56rem 3.36rem;overflow: hidden;}
+.bg-prize img{width: 2.56rem;height:2.66rem;background-size: 100% 100%;margin: 0 auto 0.2rem;}
+.bg-prize span{width: 88%;display: block;font-size: 0.2rem; color: #fff; line-height: 0.24rem;margin: 0 auto;}
+.oldprice{font-size: 0.18rem;color: #666666;text-decoration:line-through;line-height: 0.22rem;margin-bottom: 0.06rem;margin-top: 0.2rem;}
+.newprice{font-size: 0.24rem; color: #171717;font-weight:bold;line-height: 0.32rem;margin-bottom: 0.18rem;}
+.newprice span{font-size: 0.3rem;}
+
+.btn-get{background-position: -5.38rem -4.03rem;width: 1.81rem;height: 0.49rem;display: block;margin: 0 auto;font-size: 0.24rem; color: #43301d;line-height:0.48rem;text-align: center;font-weight: bold;}
+.btn-get.on{background-position: -5.38rem -5rem;width: 1.81rem;height: 0.49rem;display: block;margin: 0 auto;font-size: 0.24rem; color: #43301d;line-height:0.48rem;text-align: center;font-weight: bold;}
+
+.btn-change i{background-position: -1.94rem -5.82rem;width: 0.16rem;height: 0.2rem;display: inline-block;vertical-align: middle;padding-right: 0.08rem;}
+.btn-change{display: block;margin: 0.1rem auto;font-size: 0.2rem; color: #1a1a1a;text-align: center;}
+
+.main4{width: 100%;height: 5.44rem;margin: 0 auto;}
+.main4 .title{background-position: 0 -4.51rem;width: 1.4rem;height: 0.35rem;
+text-align: left;margin-left: 0.36rem;}
+.rule{width: 6.6rem;height: 7.57rem;margin: 0 auto;font-size: 0.24rem; color: #52483f;}
+.rule li{position: relative;width: 96%;margin-left: 0.3rem;line-height: 0.34rem; letter-spacing: 0.008rem;margin-bottom: 0.22rem;}
+.rule li span{position: absolute;top:0.08rem;left:-0.3rem;text-align: center;line-height: 0.24rem;margin-right: 0.1rem;}
+
+/*µ¯´°*/
+.tc1{position: relative;width: 6.54rem;height: 4.56rem;background: url(//game.gtimg.cn/images/actdaoju/act/a20190917secretm/app/bg-tc.png) no-repeat;background-size: 6.54rem 4.56rem;}
+.tc1 .title{width: 3.2rem;height: 0.38rem; font-size: 0.38rem;line-height: 0.38rem;color: #FFFFFF;font-weight: bold; margin: 0.35rem auto 0.16rem;text-align: center;}
+.tc1 .fgx{width: 100%;height: 0.25rem;}
+.tc1 .close{position: absolute;top: 0.2rem;right: -0.44rem;background: url(//game.gtimg.cn/images/actdaoju/act/a20190917secretm/app/close.png) no-repeat;width: 0.35rem;height: 0.35rem;background-size: 0.35rem 0.35rem;}
+.table{width: 100%;height: 1.6rem;margin: 0 auto;}
+.tit{font-size: 0.26rem;font-weight: bold; color: #FFFFFF; text-align: center;}
+.tit span{display: inline-block;width: 1.6rem;height: 0.36rem;line-height: 0.36rem;font-weight: bold;}
+.tc1 .lb{width: 3rem;}
+.line{width:5.38rem;height: 0.02rem;background: #FFFFFF;margin: 0.12rem auto;}
+.record{font-size: 0.24rem; color: #FFFFFF;text-align: center;}
+.record span{display: inline-block;width: 1.6rem;height: 0.36rem;line-height: 0.36rem;text-align: center;}
+.page{font-size: 0.26rem;color: #FFFFFF;text-align: center;}
+.page a{width: 0.8rem;height: 0.3rem;line-height: 0.3rem;color: #FFFFFF;display: inline-block;}
