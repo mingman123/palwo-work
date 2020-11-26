@@ -1,0 +1,96 @@
+html{font-size:50px;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,figure{margin:0;padding:0;border:0;vertical-align:baseline;border-radius:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+ol,ul{list-style:none}
+body{font-family:"Microsoft YaHei",Helvetica,sans-serif;color:#333;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:none;-webkit-touch-callout:none;-webkit-user-select:text;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent;word-break:break-all;word-wrap:break-word;}
+table{border-collapse:collapse;border-spacing:0}
+h1,h2,h3,h4,h5,h6{font-weight:normal}
+h1.seotit{width:100%;height:0;font-size:0;text-indent:-9999em;line-height:500%;overflow:hidden;}
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{font-weight:inherit}
+input,select,form,textarea{vertical-align:middle;outline:none}
+img{display:block;outline:none;}
+strong,b,em,i{font-weight:normal;font-style:normal;}
+a{text-decoration:none;outline:0;color:#333}
+div,a,input,select,option{outline:none}
+table{border-collapse:collapse;border-spacing:0}
+.clearfix:after,.clearfix:before{content:"";display:table;}
+.clearfix:after{clear:both;}
+.hid{display:none;font-size:0;text-indent:-999em;}
+#loginStatusSyncFrame_ams_ame{display:none;}
+html,body{width: 100%;position: relative;}
+body{background-color: #232fa5;padding-bottom: 1.66rem;}
+/* foot */
+.foot{font-size:.12rem;text-align:center;padding:.2rem 0;background:#000;color:#fff;}
+.foot a{color:#fff;text-decoration:none;}
+#loginStatusSyncFrame_ams_ame{display:none;}
+
+/*logo*/
+.logo{display: block;background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/logo.png) no-repeat;background-size:100% 100%;width:1.47rem;height:.53rem;position: absolute;top: .14rem;left:.18rem;z-index: 99;}
+
+.login{position: absolute;top: .24rem;right:.16rem;z-index: 99;width: 40%;text-align:right ;color:#5e8bb8;font-size: .18rem;}
+.login a{color:#5e8bb8;}
+
+.btns{background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/bg-btn.png) no-repeat;background-size:100% 100%;width:7.5rem;height:1.56rem;position:fixed;bottom:0rem;left: 0;font-size: 0;padding-top: .1rem;z-index: 4;}
+.btns a{display: inline-block;}
+.btns .left{margin-left: .18rem;}
+.btns .right{margin-left: -.14rem;}
+.btns .btn-go{background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/btn-go.png) no-repeat;background-size:100% 100%;width:3.66rem;height:1.44rem;}
+.btns .btn-goes{background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/btn-goes.png) no-repeat;background-size:100% 100%;width:3.66rem;height:1.44rem;}
+.btns .btn-check{background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/btn-check.png) no-repeat;background-size:100% 100%;width:3.66rem;height:1.44rem;}
+.btns .btn-back{background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/btn-back.png) no-repeat;background-size:100% 100%;width:3.66rem;height:1.44rem;}
+.btns .btn-prev{background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/btn-prev.png) no-repeat;background-size:100% 100%;width:3.66rem;height:1.44rem;}
+.btns .btn-sub{background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/btn-sub.png) no-repeat;background-size:100% 100%;width:3.66rem;height:1.44rem;}
+.btns .btn-rule{background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/btn-rule.png) no-repeat;background-size:100% 100%;width:3.66rem;height:1.44rem;}
+.btns .btn-back1{background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/btn-back1.png) no-repeat;background-size:100% 100%;width:3.66rem;height:1.44rem;}
+.btns .btn-my{background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/btn-my.png) no-repeat;background-size:100% 100%;width:3.66rem;height:1.44rem;}
+.btns .btn-prev1{background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/btn-prev1.png) no-repeat;background-size:100% 100%;width:7.21rem;height:1.44rem;margin: 0 auto;display: block;}
+
+/*侧进度*/
+.ce{width: .64rem;height: 1rem;position: fixed;right:.1rem;bottom: 2.4rem;z-index: 6;}
+.ce img{width: .64rem;height: .7rem;display: block;}
+.ce .speed{width: .64rem;height: .26rem;display: block;color: #a9f8ff;font-size: .18rem; background-color:rgba(21,28,99,.6);border-radius: .06rem;text-align: center;line-height: .26rem;}
+.ce .speed.on{background-color:rgba(216,196,119,1);color: #081381;}
+
+
+
+/* 作品列表 */
+.pac{position: absolute; top: 0; left: 0; right: 0; bottom: 0; margin: auto;}
+.work-list-box{width: 7.5rem; height: auto; margin: 0 auto; position: relative;}
+.work-list{position: relative; display: block; width: 7.5rem; height: 6.12rem; background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/work-list-bg.png) no-repeat center top; background-size: 100% auto;}
+.work-list-center{width: 6.68rem; height: auto; overflow: hidden; padding-top: .3rem; margin: 0 auto;}
+.work-pic-box{position: relative; display: block; width: 6.68rem; height: 3.78rem; overflow: hidden; font-size: 0; text-align: left;}
+.work-pic{display: inline-block; vertical-align: top; width: 6.7rem; height: 3.78rem;}
+.work-msg{display: block; width: 6.68rem; height: 1.74rem; overflow: hidden; text-align: left; font-size: 0;}
+.work-msg>div{position: relative; display: inline-block; vertical-align: top; overflow: hidden; height: 1.74rem;}
+.work-head{width: 1.36rem;}
+.work-head-box{position: absolute; left: .24rem; top: 50%; margin-top: -.5rem; display: inline-block; vertical-align: top; width: 1rem; height: 1rem; border-radius: 50%; overflow: hidden;}
+.work-head-pic{display: block; width: .86rem; height: .86rem; z-index: 1; border-radius: 50%;}
+.work-head-rim{display: block; width: 1rem; height: 1rem; background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/c-head-rim.png) no-repeat center top; background-size: 100% 100%; z-index: 2;}
+.work-txt{width: 3.1rem; text-align: left;}
+.work-txt1{width: 2.6rem; height: .22rem; margin-top: .44rem; margin-bottom: .12rem; color: #a9f8ff; font-size: .22rem; line-height: .22rem; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.work-txt2{width: 2.8rem; height: .26rem; color: #8aceff; font-size: .2rem; line-height: .26rem; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.work-vote{width: 1.98rem;}
+.work-vote-num{width: 1.98rem; height: .54rem; margin-top: .2rem; color: #ffe469; font-weight: bold; text-align: center;}
+.work-vote-num span{ font-size: .42rem;line-height: .42rem; height: .42rem;}
+.work-vote-num em{ height: .22rem; line-height: .22rem; font-size: .22rem}
+.btn-work-vote{display: block; margin: 0 auto; font-size: 0; background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/btn-work-vote.png) no-repeat center top; background-size: 100% auto; overflow: hidden; width: 1.96rem; height: .82rem;}
+.btn-work-voted{display: block; margin: 0 auto; font-size: 0; background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/btn-work-voted.png) no-repeat center top; background-size: 100% auto; overflow: hidden; width: 1.96rem; height: .82rem;}
+
+
+.icon-rank1,.icon-rank2,.icon-rank3{display: block; position: absolute; top: 0; right: .12rem; width: 1.14rem; height: 1.22rem; font-size: 0; overflow: hidden;}
+.icon-rank1{background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/icon-rank1.png) no-repeat center top; background-size: 100% auto;}
+.icon-rank2{background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/icon-rank2.png) no-repeat center top; background-size: 100% auto;}
+.icon-rank3{background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/icon-rank3.png) no-repeat center top; background-size: 100% auto;}
+.icon-rank{position: absolute; top: .27rem; right: .4rem; width: 1.16rem; height: .48rem; background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/icon-rank.png) no-repeat center top; background-size: 100% auto; line-height: .48rem; font-size: .3rem; text-indent: .66rem; color: #2e51d7; text-align: left;font-weight: bold;}
+/* 作品详情 */
+.work-list-details{position: relative; display: block; width: 7.5rem; height: 8.7rem; background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/work-list-details-bg.png) no-repeat center top; background-size: 100% auto;}
+.work-pic-scroll{position: absolute; top: 0; left: 0; width: 21rem; text-align: left; font-size: 0; height: 3.78rem; transition: all .5s;}
+.btn-work-prev,.btn-work-next{position: absolute; top: 50%; margin-top: -.2rem; width: .62rem; height: .42rem;}
+.btn-work-prev{background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/icon-prev.png) no-repeat center top; background-size: 100% auto; left: .1rem;}
+.btn-work-next{background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/icon-next.png) no-repeat center top; background-size: 100% auto; right: .1rem;}
+.work-list-details .work-txt1{margin-top: .54rem; margin-bottom: .2rem;}
+.work-name,.work-intr{width: 6.14rem;  text-align: left; margin: 0 auto; font-size: .2rem; line-height: .2rem;}
+.work-name{height: .68rem;}
+.work-intr{height: 1.4rem;}
+.work-name h3, .work-intr h3{color: #a9f8ff; font-weight: bold; height: .24rem; font-size: .2rem}
+.work-name p, .work-intr p{color: #8aceff;line-height: .28rem; font-size: .2rem;}

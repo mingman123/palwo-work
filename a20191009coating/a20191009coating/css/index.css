@@ -1,0 +1,112 @@
+/* wrap */
+.wrap{width:7.5rem; height:auto; position:relative; overflow: hidden;}
+.cont1,.cont2,.cont3,.cont4{display: none; position: relative; overflow: hidden; width: 7.5rem; height: auto; margin: 0 auto; padding-top: 7.6rem;padding-bottom:.2rem;}
+.cont1{background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/bg1.jpg) no-repeat;background-size:100% auto;}
+.cont2,.cont3,.cont4{background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/bg2.jpg) no-repeat;background-size:100% auto;}
+
+/* cont1 */
+
+.cont1 .act{color: #8aceff;font-size:.22rem;text-align: center;line-height:.4rem;}
+.cont1 .box1{padding-top:.4rem;position: relative;}
+.cont1 .box1 .title1-1{background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/title1-1.png) no-repeat;background-size:100% 100%; width: 7.5rem; height: 1.02rem;margin: 0 auto;}
+.cont1 .box1 li{background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/time1.png) no-repeat;background-size:100% 100%; width: 1.95rem; height: 1.43rem;color: #a9f8ff;font-size:.22rem;text-align: center;float: left;margin: 0 .18rem;position: relative;}
+.cont1 .box1 li .time{font-size: .28rem;font-weight: bold;line-height: .54rem;padding-top: .1rem;}
+.cont1 .box1 li.on{background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/time1on.png) no-repeat;background-size:100% 100%; width: 1.95rem; height: 1.43rem;color: #ffe469;}
+.cont1 .box1 li.first{margin-left: .46rem;}
+.cont1 .box1 li .icon{position: absolute;top: .46rem;right:-.3rem;background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/time1-ic.png) no-repeat;background-size:100% 100%; width: .23rem; height: .53rem;}
+
+
+.cont1 .box2{padding-top: .78rem;}
+.cont1 .box2 .title1-2{background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/title1-2.png) no-repeat;background-size:100% 100%; width: 7.5rem; height: 1.02rem;margin: 0 auto;}
+.cont1 .box2 li{background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/bg-award1.png) no-repeat;background-size:100% 100%; width: 2.89rem; height: 4.12rem;color: #a9f8ff;font-size: .22rem;font-weight:bold;text-align: center;float: left;margin: -.3rem -.24rem -.12rem;}
+.cont1 .box2 li.second{background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/bg-award1on.png) no-repeat;background-size:100% 100%; width: 2.89rem; height: 4.12rem;color: #ffe469;}
+.cont1 .box2 li img{width: 2.05rem;height: 1.55rem;margin: 0 auto;}
+.cont1 .box2 li.first{margin-left: -.1rem;}
+.cont1 .box2 li .rank{font-size: .34rem;line-height: .48rem;}
+.cont1 .box2 li .rank .rank-desc{font-size: .22rem;font-weight: normal;}
+.cont1 .box2 li.second .rank{font-size: .4rem;padding-top: .3rem;}
+.cont1 .box2 li .dj{line-height: .38rem;padding-top: .14rem;}
+.cont1 .box2 li.second .dj{padding-top: .06rem;}
+.cont1 .box2 li.same .rank{padding-top: .74rem;}
+.cont1 .box2 .mood{background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/bg-awardrq1.png) no-repeat;background-size:100% 100%; width: 7.28rem; height: 2.16rem;margin:-.26rem auto 0;}
+.cont1 .box2 .mood .first{margin-left: 2.74rem;}
+.cont1 .box2 .mood>div{width: 1.62rem; height: 1.56rem;float: left;}
+.cont1 .box2 .mood>div img{width: 1.04rem; height: .9rem;margin: .14rem auto 0;}
+.cont1 .box2 .mood>div p{color: #a9f8ff;font-size: .22rem;font-weight:bold;text-align: center;line-height: .26rem;}
+
+
+.cont1 .box3{padding-top: .6rem;}
+.cont1 .box3 .title1-3{background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/title1-3.png) no-repeat;background-size:100% 100%; width: 7.5rem; height: 1.02rem;margin: 0 auto;}
+.cont1 .box3 li{float: left;width: 2.16rem; height: 3.4rem;text-align: center;}
+.cont1 .box3 li img{width: 2.01rem; height: 2.01rem;margin: 0 auto;}
+.cont1 .box3 li .name{color: #a9f8ff;font-size: .28rem;font-weight:bold;line-height:.4rem;}
+.cont1 .box3 li .int{color: #8aceff;font-size: .22rem;line-height:.36rem;}
+.cont1 .box3 li.second{margin-top: -.06rem;}
+.cont1 .box3 li.same{margin-top:.26rem;}
+.cont1 .box3 li.first{margin-left:.5rem;}
+
+
+.cont1 .box4{padding-top: .06rem;position: relative;}
+.cont1 .box4 .title1-4{background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/title1-4.png) no-repeat;background-size:100% 100%; width: 7.32rem; height: 1rem;margin: 0 auto;}
+.cont1 .box4 ul{background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/bg-rule1.png) no-repeat;background-size:100% 100%; width: 7.27rem; height: 4.36rem;margin: -.2rem auto .3rem;padding-top: .7rem;}
+.cont1 .box4 li{color: #a9f8ff;font-size: .22rem;font-weight:bold;width: 80%;margin-left:.92rem;position: relative;padding-bottom: .12rem;}
+.cont1 .box4 li p{line-height: .3rem;}
+.cont1 .box4 li strong{color: #ffe469;font-weight:bold;}
+.cont1 .box4 li span{position: absolute;top: 0rem;left: -.34rem;background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/rule-ic.png) no-repeat;background-size:100% 100%; width: .28rem; height: .31rem;color: #2e51d7;text-align: center;}
+
+/*cont2*/
+.cont2 .title2-1{background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/title2-1.png) no-repeat;background-size:100% 100%; width: 7.32rem; height: 1rem;margin: 0 auto -.2rem;}
+.cont2 .work-list-box .work-txt{width: 5rem; text-align: left;}
+.cont2 .work-list-box .work-txt1{width: 4.6rem; height: .22rem; margin-top: .44rem; margin-bottom: .12rem; color: #a9f8ff; font-size: .22rem; line-height: .22rem; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.cont2 .work-list-box .work-txt2{width: 4.6rem; height: .26rem; color: #8aceff; font-size: .2rem; line-height: .26rem; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+
+
+
+/*cont3*/
+.cont3 .title3-1{background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/title3-1.png) no-repeat;background-size:100% 100%; width: 7.32rem; height: 1rem;margin: 0 auto -.2rem;}
+.cont3 .work-list-box .work-txt{width: 5rem; text-align: left;}
+.cont3 .work-list-box .work-txt1{width: 4.6rem; height: .22rem; margin-top: .44rem; margin-bottom: .12rem; color: #a9f8ff; font-size: .22rem; line-height: .22rem; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.cont3 .work-list-box .work-txt2{width: 4.6rem; height: .26rem; color: #8aceff; font-size: .2rem; line-height: .26rem; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+
+
+/*cont4*/
+.cont4 .title4-1{background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/title4-1.png) no-repeat;background-size:100% 100%; width: 7.32rem; height: 1rem;margin: 0 auto 0;}
+.cont4 .box1{background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/bg-opus.png) no-repeat;background-size:100% 100%; width: 6.66rem; height:8.69rem;margin: -.26rem auto 0;padding-left: .5rem;position: relative;font-size: 0;}
+.cont4 .box1 .sczp{color: #a9f8ff;font-size: .22rem;padding-top: .5rem;padding-bottom: .1rem;}
+.cont4 .box1 .sczp span{color: #ffe469;font-weight: bold;}
+.cont4 .box1 .zp{display: inline-block;position: relative;width: 1.92rem;height: 1.92rem;overflow: hidden;}
+.cont4 .box1 .zp.second{margin: 0 .2rem;}
+.cont4 .box1 .zp .photo{background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/bg-photo.png) no-repeat;background-size:100% 100%; width: 1.92rem; height:1.92rem;color: transparent;opacity: 0;z-index: 1;position: absolute;top: 0;left: 0;}
+.cont4 .box1 .zp .bg-photo{background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/bg-photo.png) no-repeat;background-size:100% 100%; width: 1.92rem; height:1.92rem;position: absolute;top: 0;left: 0;}
+.cont4 .box1 .zp  .btn-del{background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/btn-del4.png) no-repeat;background-size:100% 100%; width: .4rem; height:.4rem;position: absolute;top: 0;right: 0;z-index: 2;display: none;}
+.cont4 .box1 .zp img{width:1.92rem; height:1.92rem;position: absolute;top: 0;left: 0;display: none;}
+
+
+.cont4 .box1 .zpmc{color: #ffe469;font-weight: bold;font-size: .22rem;line-height: .46rem;padding-top: .48rem;}
+.cont4 .box1 .input-zpmc{-webkit-appearance:none;-moz-appearance: none;outline:0;height:.6rem;width:6.18rem;font-size:.22rem;font-weight: bold;border-radius:.1rem;border:1px solid #11aff9;color:#a9f8ff;background-color: #1659d2;box-sizing: border-box;padding: 0 .16rem;}
+.cont4 .box1 .input-zpmc.on{border:2px solid #ff8fc6;}
+.cont4 .box1 .input-zpmc::-webkit-input-placeholder{color:#a9f8ff;font-size:.22rem;font-weight: bold;}
+.cont4 .box1 .zpmc-desc{color: #ff8fc6;font-size: .2rem;position: absolute;top: 4.44rem;left: .5rem;display: none;}
+
+
+.cont4 .box1 .zpjj{color: #ffe469;font-weight: bold;font-size: .22rem;line-height: .46rem;padding-top: .7rem;}
+.cont4 .box1 .zpjs-text{outline:none;resize:none;font-size:.22rem;height:2.14rem;width:6.18rem;border-radius:.1rem;border:1px solid #11aff9;color:#5394e0;outline:0;background-color: #1659d2;box-sizing: border-box;padding: 0 .16rem;}
+.cont4 .box1 .zpjs-text::-webkit-input-placeholder{color:#5394e0;font-size:.22rem;}
+.cont4 .box1 .zpjj-num{position: absolute;top:7rem;right: .7rem;color: #5394e0;font-size: .22rem;}
+.cont4 .box1 .zpjs-text.on{border:2px solid #ff8fc6;}
+
+
+
+
+/*µ¯´°*/
+.dialog{position: relative;}
+.dia1{background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/bg-tc1.png) no-repeat;background-size:100% 100%;width:6.33rem;height:6.25rem;}
+.dialog .dia-close{background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/tc-close.png) no-repeat;background-size:100% 100%;width:.5rem;height:.5rem;position: absolute;top: .08rem;right:0rem;}
+.dia1 .tc-title1{color:#a9f8ff;font-size: .48rem;font-weight: bolder;text-align: center;padding-top: .5rem;}
+.dia1 .tc-title1-desc{color:#8aceff;font-size: .2rem;text-align: center;padding-bottom: .16rem;}
+.dia1 select{-webkit-appearance:none;appearance:none;border:none;display:block;box-sizing:border-box;background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/tc-sel.png) no-repeat;background-size:100% 100%;width:4rem;height:.6rem;font-size:.22rem;padding:0px .1rem;font-weight: bold;color:#8aceff;margin: 0 auto;margin-bottom: .12rem;}
+.dia1 select.on{color:#ff8ec4;background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/tc-selon.png) no-repeat;background-size:100% 100%;width:4rem;height:.6rem;}
+.dia1 .btn{width:4.5rem;height: 1.16rem;margin: .2rem auto;font-size: 0;}
+.dia1 .btn a{display: inline-block;width: 2.35rem;height: 1.16rem;}
+.dia1 .btn .btn-sure{background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/tc-btn-sure.png) no-repeat;background-size:100% 100%;margin-right: -.2rem;}
+.dia1 .btn .btn-off{background: url(//game.gtimg.cn/images/wepop/cp/a20191009coating/tc-btn-off.png) no-repeat;background-size:100% 100%;}

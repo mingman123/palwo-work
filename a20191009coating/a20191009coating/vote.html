@@ -1,0 +1,474 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="gbk">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta content="yes" name="mobile-web-app-capable">
+  <meta content="yes" name="apple-mobile-web-app-capable">
+  <meta name="robots" content="all">
+  <meta name="author" content="Tencent-CP" />
+  <meta name="Copyright" content="Tencent" />
+  <meta name="Description" content="跑跑卡丁车官方网站2.0,跑跑卡丁车官方网站，跑跑卡丁车2.0，跑跑卡丁车，不只是漂移，全民漂移" />
+  <meta name="Keywords" content="跑跑2.0,跑跑，卡丁车2.0,TC,天成,nexon,kart,popkart,kartrider,道具赛,竞速赛,跑跑卡丁车,世纪天成" />
+  <title>赛车涂装大赛-跑跑卡丁车官网-腾讯游戏</title>
+  <link rel="stylesheet" href="css/vote.css">
+  <link rel="stylesheet" href="css/comm.css">
+  <!-- 设计：cp  | 重构：cp | 创建：2019-10-09  -->
+  <script>
+    // 屏幕适配函数
+    (function (doc, win) {
+      var docEl = doc.documentElement;
+      var resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize';
+      var recalc = function () {
+        var clientWidth = docEl.clientWidth;
+        if (!clientWidth) {
+          return
+        }
+        docEl.style.fontSize = 100 * (clientWidth / 750) + 'px'
+      }
+      if (!doc.addEventListener) {
+        return
+      }
+      recalc();
+      win.addEventListener(resizeEvt, recalc, false)
+      doc.addEventListener('DOMContentLoaded', recalc, false)
+    })(document, window)
+  </script>
+</head>
+
+<body>
+  <div class="wrap">
+    <h1 class="hid">赛车涂装大赛</h1>
+    <a class="logo" title="跑跑卡丁车" href="//wepop.qq.com/main.shtml" target="_blank" onclick="PTTSendClick('btn', 'logo', '跑跑卡丁车');"></a>
+    <div id="ams_loginbar" class="login">
+      <div id="unlogin">
+        您好，请<a id="ptLoginBtn" href="javascript:;" style="cursor: pointer;">【登录】</a>
+        <!--<a id="wxloginBtn" href="javascript:void(0);">[微信登录]</a>-->
+      </div>
+      <div id="logined" style="display: none;">
+        <span>欢迎您，</span>
+        <span id="userinfo">1079682165</span>
+                     【<a id="ptLogoutBtn" href="javascript:;" style="cursor: pointer;">注销</a>】
+      </div>
+    </div>
+    <!-- 首页 -->
+    <div class="cont1" style="display: block;">
+      <div class="c-title"></div>
+      <div class="c-search-box">
+      	<div class="left">
+      		<img src="//game.gtimg.cn/images/wepop/cp/a20191009coating/big.png" width="74" height="80" alt="道具" />
+      		<p>道具名称×99</p>
+      		<!--领取切换class btn-vote-->
+      		<!--已领取切换class btn-votedd-->
+      		<a href="javascript:;" class="btn-voted" title="投票" onclick="PTTSendClick('btn','btn-vote','投票');">投4票可领</a>
+      	</div>
+      	<p class="line"></p>
+      	<div class="right">
+      		<p>评选期间，车手可以为喜欢的涂装投票；每人每天最多可以投出5票给5个不同的作品；投出5票后即可领取每日投票奖励。</p>
+      		<div class="search">
+      			<input type="text" placeholder="请输入作品编号搜索" />
+      			<a href="javascript:;" class="btn-search" onclick="PTTSendClick('btn','btn-search','搜索');"></a>
+      		</div>
+      	</div>
+      </div>
+      <div class="c-rank">
+        <!-- 查找前 -->
+        <div class="search-before">
+          <!-- 排行榜tab -->
+          <div class="rank-tabs rank-tabs1">
+            <a href="javascript:;" class="tab-all" title="全部" onclick="PTTSendClick('btn','tab-all','全部');">全部</a>
+            <a href="javascript:;" class="tab-top50" title="人气top50" onclick="PTTSendClick('btn','tab-top50','人气top50');">人气top50</a>
+          </div>
+          <!-- 排行榜 -->
+          <div class="rank-box">
+            <!-- 全部排行榜 -->
+            <div class="rank-lists rank-all">
+              <div class="work-list">
+                <div class="work-list-center">
+                  <div class="work-pic-box">
+                    <img src="//game.gtimg.cn/images/wepop/cp/a20191009coating/work.jpg" class="work-pic" alt="作品图片">
+                  </div>
+                  <div class="work-msg">
+                    <div class="work-head">
+                      <div class="work-head-box">
+                        <img src="//game.gtimg.cn/images/wepop/cp/a20191009coating/c-head.jpg" class="work-head-pic pac" alt="头像">
+                        <i class="work-head-rim pac"></i>
+                      </div>
+                    </div>
+                    <div class="work-txt">
+                      <p class="work-txt1">作品ID:2019091</p>
+                      <p class="work-txt2">用户昵称:用户昵称用户昵称</p>
+                      <p class="work-txt2">作品名称:用户昵称用户昵称用户昵称</p>
+                    </div>
+                    <div class="work-vote">
+                      <div class="work-vote-num">
+                        <span>49759</span><em>票</em>
+                      </div>
+                      <!--已投票  切换class  btn-work-voted-->
+                      <a href="javascript:;" class="btn-work-vote" title="投票" onclick="PTTSendClick('btn','btn-work-vote','投票');">投票</a>
+                    </div>
+                  </div>
+                </div>
+                <i class="icon-rank1">1</i>
+              </div>
+              <div class="work-list">
+                <div class="work-list-center">
+                  <div class="work-pic-box">
+                    <img src="//game.gtimg.cn/images/wepop/cp/a20191009coating/work.jpg" class="work-pic" alt="作品图片">
+                  </div>
+                  <div class="work-msg">
+                    <div class="work-head">
+                      <div class="work-head-box">
+                        <img src="//game.gtimg.cn/images/wepop/cp/a20191009coating/c-head.jpg" class="work-head-pic pac" alt="头像">
+                        <i class="work-head-rim pac"></i>
+                      </div>
+                    </div>
+                    <div class="work-txt">
+                      <p class="work-txt1">作品ID:2019091</p>
+                      <p class="work-txt2">用户昵称:用户昵称用户昵称</p>
+                      <p class="work-txt2">作品名称:用户昵称用户昵称用户昵称</p>
+                    </div>
+                    <div class="work-vote">
+                      <div class="work-vote-num">
+                        <span>49759</span><em>票</em>
+                      </div>
+                      <a href="javascript:;" class="btn-work-vote" title="投票" onclick="PTTSendClick('btn','btn-work-vote','投票');">投票</a>
+                    </div>
+                  </div>
+                </div>
+                <i class="icon-rank2">2</i>
+              </div>
+              <div class="work-list">
+                <div class="work-list-center">
+                  <div class="work-pic-box">
+                    <img src="//game.gtimg.cn/images/wepop/cp/a20191009coating/work.jpg" class="work-pic" alt="作品图片">
+                  </div>
+                  <div class="work-msg">
+                    <div class="work-head">
+                      <div class="work-head-box">
+                        <img src="//game.gtimg.cn/images/wepop/cp/a20191009coating/c-head.jpg" class="work-head-pic pac" alt="头像">
+                        <i class="work-head-rim pac"></i>
+                      </div>
+                    </div>
+                    <div class="work-txt">
+                      <p class="work-txt1">作品ID:2019091</p>
+                      <p class="work-txt2">用户昵称:用户昵称用户昵称</p>
+                      <p class="work-txt2">作品名称:用户昵称用户昵称用户昵称</p>
+                    </div>
+                    <div class="work-vote">
+                      <div class="work-vote-num">
+                        <span>49759</span><em>票</em>
+                      </div>
+                      <a href="javascript:;" class="btn-work-vote" title="投票" onclick="PTTSendClick('btn','btn-work-vote','投票');">投票</a>
+                    </div>
+                  </div>
+                </div>
+                <i class="icon-rank3">3</i>
+              </div>
+              <div class="work-list">
+                <div class="work-list-center">
+                  <div class="work-pic-box">
+                    <img src="//game.gtimg.cn/images/wepop/cp/a20191009coating/work.jpg" class="work-pic" alt="作品图片">
+                  </div>
+                  <div class="work-msg">
+                    <div class="work-head">
+                      <div class="work-head-box">
+                        <img src="//game.gtimg.cn/images/wepop/cp/a20191009coating/c-head.jpg" class="work-head-pic pac" alt="头像">
+                        <i class="work-head-rim pac"></i>
+                      </div>
+                    </div>
+                    <div class="work-txt">
+                      <p class="work-txt1">作品ID:2019091</p>
+                      <p class="work-txt2">用户昵称:用户昵称用户昵称</p>
+                      <p class="work-txt2">作品名称:用户昵称用户昵称用户昵称</p>
+                    </div>
+                    <div class="work-vote">
+                      <div class="work-vote-num">
+                        <span>49759</span><em>票</em>
+                      </div>
+                      <a href="javascript:;" class="btn-work-vote" title="投票" onclick="PTTSendClick('btn','btn-work-vote','投票');">投票</a>
+                    </div>
+                  </div>
+                </div>
+                <i class="icon-rank">4</i>
+              </div>
+            </div>
+            <!-- top50排行榜 -->
+            <div class="rank-lists rank-top50">
+              <div class="work-list">
+                <div class="work-list-center">
+                  <div class="work-pic-box">
+                    <img src="//game.gtimg.cn/images/wepop/cp/a20191009coating/work.jpg" class="work-pic" alt="作品图片">
+                  </div>
+                  <div class="work-msg">
+                    <div class="work-head">
+                      <div class="work-head-box">
+                        <img src="//game.gtimg.cn/images/wepop/cp/a20191009coating/c-head.jpg" class="work-head-pic pac" alt="头像">
+                        <i class="work-head-rim pac"></i>
+                      </div>
+                    </div>
+                    <div class="work-txt">
+                      <p class="work-txt1">作品ID:204547865</p>
+                      <p class="work-txt2">用户昵称:用户昵称用户昵称</p>
+                      <p class="work-txt2">作品名称:用户昵称用户昵称用户昵称</p>
+                    </div>
+                    <div class="work-vote">
+                      <div class="work-vote-num">
+                        <span>49759</span><em>票</em>
+                      </div>
+                      <a href="javascript:;" class="btn-work-vote" title="投票" onclick="PTTSendClick('btn','btn-work-vote','投票');">投票</a>
+                    </div>
+                  </div>
+                </div>
+                <i class="icon-rank1">1</i>
+              </div>
+              <div class="work-list">
+                <div class="work-list-center">
+                  <div class="work-pic-box">
+                    <img src="//game.gtimg.cn/images/wepop/cp/a20191009coating/work.jpg" class="work-pic" alt="作品图片">
+                  </div>
+                  <div class="work-msg">
+                    <div class="work-head">
+                      <div class="work-head-box">
+                        <img src="//game.gtimg.cn/images/wepop/cp/a20191009coating/c-head.jpg" class="work-head-pic pac" alt="头像">
+                        <i class="work-head-rim pac"></i>
+                      </div>
+                    </div>
+                    <div class="work-txt">
+                      <p class="work-txt1">作品ID:204547865</p>
+                      <p class="work-txt2">用户昵称:用户昵称用户昵称</p>
+                      <p class="work-txt2">作品名称:用户昵称用户昵称用户昵称</p>
+                    </div>
+                    <div class="work-vote">
+                      <div class="work-vote-num">
+                        <span>49759</span><em>票</em>
+                      </div>
+                      <a href="javascript:;" class="btn-work-vote" title="投票" onclick="PTTSendClick('btn','btn-work-vote','投票');">投票</a>
+                    </div>
+                  </div>
+                </div>
+                <i class="icon-rank2">2</i>
+              </div>
+              <div class="work-list">
+                <div class="work-list-center">
+                  <div class="work-pic-box">
+                    <img src="//game.gtimg.cn/images/wepop/cp/a20191009coating/work.jpg" class="work-pic" alt="作品图片">
+                  </div>
+                  <div class="work-msg">
+                    <div class="work-head">
+                      <div class="work-head-box">
+                        <img src="//game.gtimg.cn/images/wepop/cp/a20191009coating/c-head.jpg" class="work-head-pic pac" alt="头像">
+                        <i class="work-head-rim pac"></i>
+                      </div>
+                    </div>
+                    <div class="work-txt">
+                      <p class="work-txt1">作品ID:204547865</p>
+                      <p class="work-txt2">用户昵称:用户昵称用户昵称</p>
+                      <p class="work-txt2">作品名称:用户昵称用户昵称用户昵称</p>
+                    </div>
+                    <div class="work-vote">
+                      <div class="work-vote-num">
+                        <span>49759</span><em>票</em>
+                      </div>
+                      <a href="javascript:;" class="btn-work-vote" title="投票" onclick="PTTSendClick('btn','btn-work-vote','投票');">投票</a>
+                    </div>
+                  </div>
+                </div>
+                <i class="icon-rank3">3</i>
+              </div>
+              <div class="work-list">
+                <div class="work-list-center">
+                  <div class="work-pic-box">
+                    <img src="//game.gtimg.cn/images/wepop/cp/a20191009coating/work.jpg" class="work-pic" alt="作品图片">
+                  </div>
+                  <div class="work-msg">
+                    <div class="work-head">
+                      <div class="work-head-box">
+                        <img src="//game.gtimg.cn/images/wepop/cp/a20191009coating/c-head.jpg" class="work-head-pic pac" alt="头像">
+                        <i class="work-head-rim pac"></i>
+                      </div>
+                    </div>
+                    <div class="work-txt">
+                      <p class="work-txt1">作品ID:204547865</p>
+                      <p class="work-txt2">用户昵称:用户昵称用户昵称</p>
+                      <p class="work-txt2">作品名称:用户昵称用户昵称用户昵称</p>
+                    </div>
+                    <div class="work-vote">
+                      <div class="work-vote-num">
+                        <span>49759</span><em>票</em>
+                      </div>
+                      <a href="javascript:;" class="btn-work-vote" title="投票" onclick="PTTSendClick('btn','btn-work-vote','投票');">投票</a>
+                    </div>
+                  </div>
+                </div>
+                <i class="icon-rank">4</i>
+              </div>
+            </div>
+          </div>
+          <div class="btns">
+        		<a class="btn-my left" href="javascript:;" onclick="PTTSendClick('btn', 'btn-my', '我的投稿');"></a>
+        		<a class="btn-rule right" href="javascript:;" onclick="PTTSendClick('btn', 'btn-rule', '查看活动规则');"></a>
+      		</div>
+      	</div>
+        <!-- 查找后 -->
+        <div class="search-after">
+          <div class="work-list-details">
+            <div class="work-list-center">
+              <div class="work-pic-box">
+                <div class="work-pic-scroll" data-idx="0">
+                  <img src="//game.gtimg.cn/images/wepop/cp/a20191009coating/work.jpg" class="work-pic" alt="作品图片">
+                  <img src="//game.gtimg.cn/images/wepop/cp/a20191009coating/work.jpg" class="work-pic" alt="作品图片">
+                  <img src="//game.gtimg.cn/images/wepop/cp/a20191009coating/work.jpg" class="work-pic" alt="作品图片">
+                </div>
+                <a href="javascript:;" class="btn-work-prev" title="上一页" onclick="PTTSendClick('btn','btn-work-prev','上一页');">上一页</a>
+                <a href="javascript:;" class="btn-work-next" title="下一页" onclick="PTTSendClick('btn','btn-work-next','下一页');">下一页</a>
+              </div>
+              <div class="work-msg">
+                <div class="work-head">
+                  <div class="work-head-box">
+                    <img src="//game.gtimg.cn/images/wepop/cp/a20191009coating/c-head.jpg" class="work-head-pic pac" alt="头像">
+                    <i class="work-head-rim pac"></i>
+                  </div>
+                </div>
+                <div class="work-txt">
+                  <p class="work-txt1">作品ID:2019091</p>
+                  <p class="work-txt2">用户昵称:用户昵称用户昵称</p>
+                </div>
+                <div class="work-vote">
+                  <div class="work-vote-num">
+                    <span>49.6W</span><em>票</em>
+                  </div>
+                  <a href="javascript:;" class="btn-work-vote" title="投票" onclick="PTTSendClick('btn','btn-work-vote','投票');">投票</a>
+                </div>
+              </div>
+              <div class="work-name">
+                <h3>作品名称:</h3>
+                <p>十五个字的作品名称十五个字的作</p>
+              </div>
+              <div class="work-intr">
+                <h3>作品简介:</h3>
+                <p>在繁琐的日常生活中，你是否也想试着放飞自我，来一次漂亮的弯道超车呢？今天《跑跑卡丁车官方竞速版》放出的创意视频，就抓住了一个职场小细节。在办公室里爆发全速，完美入弯极限拖漂，抢占职场最佳位置，跑跑卡丁车</p>
+              </div>
+            </div>
+            <i class="icon-rank1"></i>
+          </div>
+          <!-- 查找错误 -->
+          <div class="search-none">
+            <p class="search-none-txt">抱歉，暂时没有找到相关内容请检查作品ID输入是否正确</p>
+          </div>
+          <div class="btns">
+        		<a class="btn-my left" href="javascript:;" onclick="PTTSendClick('btn', 'btn-my', '我的投稿');"></a>
+        		<a class="btn-back right" href="javascript:;" onclick="PTTSendClick('btn', 'btn-back', '返回首页');"></a>
+        	</div>
+      	</div>
+      	<!--侧进度-->
+	  		<div class="ce">
+					<img src="//game.gtimg.cn/images/wepop/cp/a20191009coating/small.png" width="64" height="70" alt=""/>
+	  			<p class="speed">1/5</p>
+	  			<!--领取时添加class on修改样式-->
+	  			<!--已领取时去掉class on修改样式-->
+	  		</div>
+	  	</div>
+    </div>
+
+    <!-- 我的投稿页 -->
+    <div class="cont2"  style="display: none;">
+      <div class="c-title"></div>
+        <div class="work-list-details">
+          <div class="work-list-center">
+            <div class="work-pic-box">
+              <div class="work-pic-scroll" data-idx="0">
+                <img src="//game.gtimg.cn/images/wepop/cp/a20191009coating/work.jpg" class="work-pic" alt="作品图片">
+                <img src="//game.gtimg.cn/images/wepop/cp/a20191009coating/work.jpg" class="work-pic" alt="作品图片">
+                <img src="//game.gtimg.cn/images/wepop/cp/a20191009coating/work.jpg" class="work-pic" alt="作品图片">
+              </div>
+              <a href="javascript:;" class="btn-work-prev" title="上一页" onclick="PTTSendClick('btn','btn-work-prev','上一页');">上一页</a>
+              <a href="javascript:;" class="btn-work-next" title="下一页" onclick="PTTSendClick('btn','btn-work-next','下一页');">下一页</a>
+            </div>
+            <div class="work-msg">
+              <div class="work-head">
+                <div class="work-head-box">
+                  <img src="//game.gtimg.cn/images/wepop/cp/a20191009coating/c-head.jpg" class="work-head-pic pac" alt="头像">
+                  <i class="work-head-rim pac"></i>
+                </div>
+              </div>
+              <div class="work-txt">
+                <p class="work-txt1">作品ID:2019091</p>
+                <p class="work-txt2">用户昵称:用户昵称用户昵称</p>
+              </div>
+              <div class="work-vote">
+                <div class="work-vote-num">
+                  <span>49.6W</span><em>票</em>
+                </div>
+                <a href="javascript:;" class="btn-work-vote" title="投票" onclick="PTTSendClick('btn','btn-work-vote','投票');">投票</a>
+              </div>
+            </div>
+            <div class="work-name">
+              <h3>作品名称:</h3>
+              <p>十五个字的作品名称十五个字的作</p>
+            </div>
+            <div class="work-intr">
+              <h3>作品简介:</h3>
+              <p>在繁琐的日常生活中，你是否也想试着放飞自我，来一次漂亮的弯道超车呢？今天《跑跑卡丁车官方竞速版》放出的创意视频，就抓住了一个职场小细节。在办公室里爆发全速，完美入弯极限拖漂，抢占职场最佳位置，跑跑卡丁车</p>
+            </div>
+          </div>
+          <i class="icon-rank1"></i>
+        </div>
+        <div class="ask">
+        	<p>邀请好友为我投票</p>
+        	<a class="btn-ask" href="javascript:TGDialogS('dia2')" onclick="PTTSendClick('btn', 'btn-ask', '邀请');"></a>
+        </div>
+        <div class="btns">
+        		<a class="btn-prev1" href="javascript:;" onclick="PTTSendClick('btn', 'btn-prev1', '返回上一页');"></a>
+        </div>
+    </div>
+  </div>
+  
+  
+  
+  <!--弹窗-->
+  <!--分享-->
+  <div class="dialog dia2" id="dia2" style="display:none">
+    <p>请点击右上角的<span>‘···’</span>分享给<br />好友，邀请朋友们来为你的<br />座驾打CALL吧！</p>
+    <a class="dia-close" href="javascript:showDialog.hide()" title="关闭"></a>
+  </div>
+  <!--恭喜您获得以下奖励-->
+  <div class="dialog dia3" id="dia3" style="display:none">
+    <p class="tc-title3">恭喜您获得以下奖励</p>
+    <p class="tc-title3-desc">请前往游戏内邮箱中查收</p>
+    <img src="//game.gtimg.cn/images/wepop/cp/a20191009coating/big.png" width="74" height="80" alt="道具" />
+    <p class="img-desc">道具名称×99</p>
+    <a class="btn-sure" href="javascript:;" onclick="PTTSendClick('btn', 'btn-sure', '确认');"></a>
+  	<a class="dia-close" href="javascript:showDialog.hide()" title="关闭"></a>
+  </div>
+  <!--今日投票次数已达上限-->
+  <div class="dialog dia4" id="dia4" style="display:none">
+    <p class="tc-title4">今日投票次数已达上限</p>
+    <p class="tc-title4-desc">车友可明日再来为喜爱的作品投票</p>
+    <a class="btn-sure" href="javascript:;" onclick="PTTSendClick('btn', 'btn-sure', '确认');"></a>
+   	<a class="dia-close" href="javascript:showDialog.hide()" title="关闭"></a>
+  </div>
+  <script src="//ossweb-img.qq.com/images/js/zepto/zepto1.2.min.js"></script>
+  <script src="//ossweb-img.qq.com/images/js/mobile_bundle/milo.js"></script>
+  <script src="//game.gtimg.cn/images/js/2018foot/foot.js"></script>
+  <script src="//ossweb-img.qq.com/images/js/TGMobileShare/TGMobileShare.min.js"></script>
+  <script src="js/comm.js"></script>
+  <script src="js/vote.js"></script>
+  <!-- 统计代码 -->
+  <script src="//ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js"></script>
+  <script>
+    // 此段代码不能放到外链JS中，
+    var setSite = { // 设置网站属性
+      siteType: "a20191009coating", // 必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+      pageType: "vote", // 必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN,不支持点(.)、下划线(_)
+      pageName: "投票页", // 必填项:页面中文名
+      project: "other", // 选填项:如果是官网模块则是必填;按照模块内容，填写固定的对应值;原生官网base;微社区ingame;同人站doujin;赛事match;故事站story;文化站history;粉丝站fans;爆料站coming;论坛bbs;皮肤skin;默认other;
+      osact: 0 // 选填项:默认是0。osact=0表示非官网专题；osact=pc表示pc官网/pc官网专题；osact=m表示移动官网/移动官网专题；osact=ingame表示微社区/微社区专题
+    };
+    if (typeof (pgvMain) == 'function') pgvMain();// 千万不能忘记！
+  </script>
+</body>
+
+</html>
