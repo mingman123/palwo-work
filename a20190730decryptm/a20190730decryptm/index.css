@@ -1,0 +1,80 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+ol,ul{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+input,textarea,select{font-size:100%;}
+input,a{text-decoration: none; outline: none; color: #FFFFFF;-webkit-appearance: none; -webkit-tap-highlight-color:rgba(255,255,255,0);}
+.hid{text-indent:-9999px;font-size:0px;overflow:hidden;width:0px;height:0px;display:block;}
+.hidden{text-indent:-9999px;font-size:0px;}
+body,button,input,select,textarea{font:12px/1.5 "Microsoft YaHei",Helvetica,\5b8b\4f53,sans-serif;}
+body{width:100%;background: #ffebc8;}
+/*<!--IEG通用底部 css样式-->*/
+#afooter { position:relative; padding: 10px 0; text-align:center; font:normal 12px/19px Tahoma;z-index:10; background-color: #000;}
+#afooter .e { font:normal 10px/19px Tahoma;}
+#afooter, #afooter a { color:#c0c0c0; text-decoration:none;}
+
+/*清除浮动*/
+.clearfix:after,.clearfix:before{content:"";display:table;}
+.clearfix:after{clear:both;}
+.clearfix{ *zoom:1; }
+ /* 背景 */
+.wrap{background: url(//game.gtimg.cn/images/dnf/cp/a20190730decryptm/bgc.jpg) no-repeat;background-size: 100%;width:7.5rem;height:33.85rem;overflow: hidden;}
+ /*logo*/
+.logo{background: url(//game.gtimg.cn/images/dnf/cp/a20190730decryptm/logo.png) no-repeat;background-size:100%;width:0.94rem;height:0.54rem;display: block;margin: 0.2rem 6.4rem 2.7rem 0.14rem;}
+.head{width:100%;height: 6.55rem;margin: 0 auto;position: relative;}
+.head-desc{font-size: 0.18rem;color: #f4e0c1;text-align: center;background: url(//game.gtimg.cn/images/dnf/cp/a20190730decryptm/bg-top.png) no-repeat;background-size: 100%;width: 3.43rem;height: 0.36rem;margin: 0 auto;line-height: 0.36rem;letter-spacing: 0.12rem;font-weight: bold;}
+.act-time{font-size: 0.18rem;color: #6e2815;width: 100%;text-align: center;font-weight: bold;}
+
+.content{width:7.5rem;height:27.2rem;}
+
+.box1{background: url(//game.gtimg.cn/images/dnf/cp/a20190730decryptm/box1.png) no-repeat;background-size: 100%;width: 7.5rem;height: 5.85rem;padding-bottom: 0.44rem;text-align: center;}
+.box1 img{width:2.89rem;height:2.87rem;}
+.box2{background: url(//game.gtimg.cn/images/dnf/cp/a20190730decryptm/box2.png) no-repeat;background-size: 100%;width: 7.5rem;height: 4.44rem;padding-bottom: 0.8rem;}
+.box2 table{width: 6.63rem;height: 2.08rem;border: 0.02rem solid #c19d75;margin: 0 auto 0.08rem;border-top: 0.01rem;}
+.box2 table th{font-size:0.24rem ;color: #9a603b;font-weight: bold;text-align: center;height: 0.48rem;background-color: #fbcb78;border: 0.01rem solid #c19d75;width: 2.21rem;}
+.box2 table td{font-size:0.18rem ;color: #9a603b;text-align: center;background-color: #f1d7ab;border: 0.01rem solid #c19d75;width: 2.21rem;}
+
+
+.box3{background: url(//game.gtimg.cn/images/dnf/cp/a20190730decryptm/box3.png) no-repeat;background-size: 100%;width: 7.5rem;height: 13.79rem;margin: 0 auto;text-align: center;}
+.box3 .award1-box{width: 6.72rem;height: 6.67rem;margin: 0 auto;padding-bottom: 0.28rem;}
+.box3 .award1{width: 6.72rem;height: 6.67rem;}
+.box3 .award2-box{width: 6.72rem;height: 4.87rem;margin: 0 auto;}
+.box3 .award2{width: 6.72rem;height: 4.87rem;}
+
+/*公共*/
+.box3 table{border: 0.02rem solid #c19d75;margin:0 auto;border-top:0.01rem;}
+.box3 .single{background-color: #f6dcaf;}
+.box3 .double{background-color: #fbe4bd;}
+.box3 table th{font-size:0.24rem ;color: #9a603b;font-weight: bold;text-align: center;height: 0.48rem;border: 0.01rem solid #c19d75;background-color: #f8d08b;}
+.box3 table td{font-size:0.18rem ;color: #9a603b;text-align: center;border: 0.01rem solid #c19d75;}
+.box3 .award1 .one,.box3 .award1 .two{width: 1.68rem;}
+.box3 .award1 .three{width: 2.06rem;}
+.box3 .award1 .four{width: 1.3rem;}
+.box3 .award2 .frist{width: 1.68rem;}
+.box3 .award2 .second{width: 3.5rem;}
+.box3 .award2 .third{width: 1.54rem;}
+
+
+.box4{width:7.5rem;height:1.6rem;margin: 0 auto;position: relative;}
+.box4 .tips{font-size:0.34rem ;color: #9a603b;font-weight: bold;text-align: center;line-height:0.54rem;}
+.box4 ul{width:82%;height: 1rem;margin: 0 auto;color: #9a603b;font-size: 0.18rem;}
+.box4 ul li{line-height: 0.23rem;position: relative;margin-left: 0.36rem;padding-bottom: 0.06rem;}
+.box4 ul span{background: url(//game.gtimg.cn/images/dnf/cp/a20190730decryptm/rule-num.png) no-repeat;background-size: 100%;width:0.23rem;height:0.23rem;text-align: center;color: #FFFFFF;font-size: 0.12rem;position: absolute;top: 0;left: -0.30rem;}
+
+
+.title{margin: 0 auto;height: 0.77rem;}
+.title1{background: url(//game.gtimg.cn/images/dnf/cp/a20190730decryptm/title1.png) no-repeat;background-size: 100%;width: 4.91rem;}
+.title2{background: url(//game.gtimg.cn/images/dnf/cp/a20190730decryptm/title2.png) no-repeat;background-size: 100%;width: 7.5rem;}
+.title3{background: url(//game.gtimg.cn/images/dnf/cp/a20190730decryptm/title3.png) no-repeat;background-size: 100%;width: 4.91rem;}
+.title-desc{font-size:0.18rem ;text-align: center;line-height: 0.26rem;width: 90%;margin: 0 auto;}
+.title-desc1{color: #784a2d;padding-bottom: 0.14rem;padding-top: 0.08rem;}
+.title-desc2{color: #9a603b;padding-bottom: 0.24rem;padding-top: 0.1rem;}
+.title-desc3{font-size:0.2rem ;color: #784a2d;padding-top: 0.16rem;padding-bottom: 0.30rem;}
