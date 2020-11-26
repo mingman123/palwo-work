@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="gbk" /> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="robots" content="all">
+<meta name="author" content="Tencent-CP" />
+<meta name="Copyright" content="Tencent" />
+<meta name="Description" content="妖王争霸赛-2018全服PK赛,腾讯旗舰自研大作《斗战神》是量子工作室历时五年潜心打造的3DMMORPG精品之作。游戏以其“世界架构师”今何在先生代表作《悟空传》为蓝本，通过成人的视角重读西游，重塑西游。" />
+<meta name="Keywords" content="妖王争霸赛-2018全服PK赛,斗战神,灵猴,牛魔,神将,龙女,玉狐,罗刹,昆仑山,南天门,五庄观,西游记,孙悟空,猪八戒,沙僧,牛魔王,如来佛,玉皇大帝,最好玩的网游,大作,自研,腾讯,量子工作室,次世代网游,dzs,asura,热血,开放式战斗2.0网游" />
+
+<!-- 设计：cp  | 重构：cp | 创建：2019-06-25 -->
+<title>妖王争霸赛-2019全服PK赛-官方网站-腾讯游戏-开放式战斗2.0网游</title>
+<!--默认开启内联样式-->
+<link rel="stylesheet" href="index.css" />
+
+</head>
+<body>
+<div class="wrapper">
+	<h1 class="hid"> 绿茵劳模,无处不在</h1>
+	<div class="content1">
+		<a  class="logo" href="//dzs.qq.com/ " title="斗战神" target="_black"  onclick="PTTSendClick('btn','dzs-logo','斗战神logo');"></a>
+		<div class="link">
+			<a class="home" href="//dzs.qq.com/main.shtml" target="_blank" onclick="PTTSendClick('btn','home','进入官网');"><p>进入官网</p></a>
+			<a class="down" href="//dzs.qq.com/download.shtml" target="_blank" onclick="PTTSendClick('btn','down','游戏下载');"><p>游戏下载</p></a>
+		</div>
+		<div class="cont1">
+			<div>
+    			<a class="personal" href="javascript:" target="_blank" onclick="PTTSendClick('btn','personal','个人赛');"></a>
+				<a class="home-page" href="javascript:" target="_blank" onclick="PTTSendClick('btn','home-page','主页');"></a>
+				<a class="team" href="javascript:" target="_blank" onclick="PTTSendClick('btn','team','团队赛');"></a>
+				<div class="nav">
+					<a class="guize" href="page1.html" onclick="PTTSendClick('btn','guize','奖励×规则');"><p>奖励×规则</p></a>
+					<a class="jingcai on" href="javascript:;" onclick="PTTSendClick('btn','jingcai','比赛竞猜');"><p>比赛竞猜</p></a>
+					<a class="duihuan" href="page3.html" onclick="PTTSendClick('btn','duihuan','兑换奖励');"><p>兑换奖励</p></a>
+				</div>
+    		</div>
+		</div>
+	</div>
+	<div class="content2">
+		<div class="cont2">
+			<!--登陆组件,一般在第一个切图中-->
+			<div class="login_box">
+				<!--登录前状态 Start-->
+			    <div id="unlogin" class="login" style="display: block;">
+			        您好，请【<a id="btn_qqlogin" href="javascript:void(0)" title="QQ登录">登录</a>】
+			     </div>
+			    <!--登录前状态 End-->
+			    <!--登录后状态 Start-->
+			    <div id="logined" class="login" style="display: none;  ">
+			        欢迎您，<span id="login_qq_span"></span> 
+			        <span id="ams_user_headimg"></span>　
+			       【<a id="btn_logout" href="javascript:void(0)" title="注销">注销</a>】
+			    </div>
+			    <!--登录后状态 End-->
+			</div>
+			<div class="rule" >
+				<p class="spr title1 spr"></p>
+				<div class="cont">
+					<div class="left">
+						<p>	1、竞猜点领取条件：等级≥40级，当日活跃值达到60<br>
+							2、竞猜点领取数量及时间：每周一至周五可领取200点/日。<br>
+							3、每轮只可竞猜本职业的三甲选手，竞猜时不分冠亚季军顺序，三甲玩家的名称猜对即可。<br>
+							4、三甲全对返还2倍积分，猜中2位返还1倍积分，猜中1位返还0.3倍积分，没猜中无积分。<br>
+							5、当轮竞猜点的未使用部分将过期作废，不能继续竞猜，也无法转换成积分。（竞猜截止当周周六18点）<br>
+							6、参与竞猜即可获得竞猜礼包，猜对后的积分还可用于兑换超值奖励。</p>
+					</div>
+					<div class="right">
+						<h3>竞猜日期</h3>
+						<div>
+							<span>第一轮</span>
+							<span>8月14日 - 8月18日</span>
+						</div>
+						<div>
+							<span>第二轮</span>
+							<span>8月14日 - 8月18日</span>
+						</div>
+						<div>
+							<span>第三轮</span>
+							<span>8月28日 - 9月1日</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="guess-one">
+				<p class="spr title2 spr"></p>
+				<p class="time">8月14日 - 8月18日</p>
+				<p class="sign-in">签到区</p>
+				<p class="line"></p>
+				<ul class="ul-signin">
+					<li class="on">
+						<img src="//game.gtimg.cn/images/dzs/cp/a20190624demon/prop-on.png" width="90" height="61" alt="" />
+						<p>竞猜点 × 200</p>
+						<a class="btn-get spr" href="javascript:;" onclick="PTTSendClick('btn','btn-get1','领取点数');"></a>
+						<i class="spr"></i>
+						<span>8月14日</span>
+					</li>
+					<li class="on">
+						<img src="//game.gtimg.cn/images/dzs/cp/a20190624demon/prop-on.png" width="90" height="61" alt="" />
+						<p>竞猜点 × 200</p>
+						<a class="btn-get spr" href="javascript:;" onclick="PTTSendClick('btn','btn-get1','领取点数');"></a>
+						<i class="spr"></i>
+						<span>8月14日</span>
+					</li>
+					<li class="cur">
+						<img src="//game.gtimg.cn/images/dzs/cp/a20190624demon/prop.png" width="90" height="61" alt="" />
+						<p>竞猜点 × 200</p>
+						<a class="btn-get spr" href="javascript:;" onclick="PTTSendClick('btn','btn-get1','领取点数');"></a>
+						<i class="spr"></i>
+						<span>8月14日</span>
+					</li>
+					<li>
+						<img src="//game.gtimg.cn/images/dzs/cp/a20190624demon/prop.png" width="90" height="61" alt="" />
+						<p>竞猜点 × 200</p>
+						<a class="btn-get spr" href="javascript:;" onclick="PTTSendClick('btn','btn-get1','领取点数');"></a>
+						<i class="spr"></i>
+						<span>8月14日</span>
+					</li>
+					<li>
+						<img src="//game.gtimg.cn/images/dzs/cp/a20190624demon/prop.png" width="90" height="61" alt="" />
+						<p>竞猜点 × 200</p>
+						<a class="btn-get spr" href="javascript:;" onclick="PTTSendClick('btn','btn-get1','领取点数');"></a>
+						<i class="icon spr"></i>
+						<span>8月14日</span>
+					</li>
+				</ul>
+				<p class="txt">请在下方输入选择押注的玩家ID</p>
+				<div class="items">
+					<div class="item1">
+						<i class="spr"></i>
+						<input type="text" name="" id="" value="" placeholder="请输入玩家ID..."/>
+					</div>
+					<div class="item2">
+						<i class="spr"></i>
+						<input type="text" name="" id="" value="" placeholder="请输入玩家ID..."/>
+					</div>
+					<div class="item3">
+						<i class="spr"></i>
+						<input type="text" name="" id="" value="" placeholder="请输入玩家ID..."/>
+					</div>
+				</div>
+				<p class="bet">请输入押注点数<span>押注<input type="text" placeholder="30"/>点</span></p>
+				<div class="btns">
+					<!--已领取添加on-->
+					<a class="confirm spr" href="javascript:;" onclick="PTTSendClick('btn','confirm','确认');"></a>
+					<a class="get spr" href="javascript:;" onclick="PTTSendClick('btn','get','领取');"></a>
+				</div>
+			</div>
+			<div class="guess-two">
+				<p class="spr title3 spr"></p>
+				<p class="time">8月14日 - 8月18日</p>
+				<p class="sign-in">签到区</p>
+				<p class="line"></p>
+				<ul class="ul-signin">
+					<li class="on">
+						<img src="//game.gtimg.cn/images/dzs/cp/a20190624demon/prop-on.png" width="90" height="61" alt="" />
+						<p>竞猜点 × 200</p>
+						<a class="btn-get spr" href="javascript:;" onclick="PTTSendClick('btn','btn-get1','领取点数');"></a>
+						<i class="spr"></i>
+						<span>8月14日</span>
+					</li>
+					<li class="on">
+						<img src="//game.gtimg.cn/images/dzs/cp/a20190624demon/prop-on.png" width="90" height="61" alt="" />
+						<p>竞猜点 × 200</p>
+						<a class="btn-get spr" href="javascript:;" onclick="PTTSendClick('btn','btn-get1','领取点数');"></a>
+						<i class="spr"></i>
+						<span>8月14日</span>
+					</li>
+					<li class="cur">
+						<img src="//game.gtimg.cn/images/dzs/cp/a20190624demon/prop.png" width="90" height="61" alt="" />
+						<p>竞猜点 × 200</p>
+						<a class="btn-get spr" href="javascript:;" onclick="PTTSendClick('btn','btn-get1','领取点数');"></a>
+						<i class="spr"></i>
+						<span>8月14日</span>
+					</li>
+					<li>
+						<img src="//game.gtimg.cn/images/dzs/cp/a20190624demon/prop.png" width="90" height="61" alt="" />
+						<p>竞猜点 × 200</p>
+						<a class="btn-get spr" href="javascript:;" onclick="PTTSendClick('btn','btn-get1','领取点数');"></a>
+						<i class="spr"></i>
+						<span>8月14日</span>
+					</li>
+					<li>
+						<img src="//game.gtimg.cn/images/dzs/cp/a20190624demon/prop.png" width="90" height="61" alt="" />
+						<p>竞猜点 × 200</p>
+						<a class="btn-get spr" href="javascript:;" onclick="PTTSendClick('btn','btn-get1','领取点数');"></a>
+						<i class="icon spr"></i>
+						<span>8月14日</span>
+					</li>
+				</ul>
+				<p class="txt">请在下方输入选择押注的玩家ID</p>
+				<div class="items">
+					<div class="item1">
+						<i class="spr"></i>
+						<input type="text" name="" id="" value="" placeholder="请输入玩家ID..."/>
+					</div>
+					<div class="item2">
+						<i class="spr"></i>
+						<input type="text" name="" id="" value="" placeholder="请输入玩家ID..."/>
+					</div>
+					<div class="item3">
+						<i class="spr"></i>
+						<input type="text" name="" id="" value="" placeholder="请输入玩家ID..."/>
+					</div>
+				</div>
+				<p class="bet">请输入押注点数<span>押注<input type="text" placeholder="30"/>点</span></p>
+				<div class="btns">
+					<!--已领取添加on-->
+					<a class="confirm spr" href="javascript:;" onclick="PTTSendClick('btn','confirm','确认');"></a>
+					<a class="get spr" href="javascript:;" onclick="PTTSendClick('btn','get','领取');"></a>
+				</div>
+			</div>
+			<div class="guess-three">
+				<p class="spr title4 spr"></p>
+				<p class="time">8月14日 - 8月18日</p>
+				<p class="sign-in">签到区</p>
+				<p class="line"></p>
+				<ul class="ul-signin">
+					<li class="on">
+						<img src="//game.gtimg.cn/images/dzs/cp/a20190624demon/prop-on.png" width="90" height="61" alt="" />
+						<p>竞猜点 × 200</p>
+						<a class="btn-get spr" href="javascript:;" onclick="PTTSendClick('btn','btn-get1','领取点数');"></a>
+						<i class="spr"></i>
+						<span>8月14日</span>
+					</li>
+					<li class="on">
+						<img src="//game.gtimg.cn/images/dzs/cp/a20190624demon/prop-on.png" width="90" height="61" alt="" />
+						<p>竞猜点 × 200</p>
+						<a class="btn-get spr" href="javascript:;" onclick="PTTSendClick('btn','btn-get1','领取点数');"></a>
+						<i class="spr"></i>
+						<span>8月14日</span>
+					</li>
+					<li class="cur">
+						<img src="//game.gtimg.cn/images/dzs/cp/a20190624demon/prop.png" width="90" height="61" alt="" />
+						<p>竞猜点 × 200</p>
+						<a class="btn-get spr" href="javascript:;" onclick="PTTSendClick('btn','btn-get1','领取点数');"></a>
+						<i class="spr"></i>
+						<span>8月14日</span>
+					</li>
+					<li>
+						<img src="//game.gtimg.cn/images/dzs/cp/a20190624demon/prop.png" width="90" height="61" alt="" />
+						<p>竞猜点 × 200</p>
+						<a class="btn-get spr" href="javascript:;" onclick="PTTSendClick('btn','btn-get1','领取点数');"></a>
+						<i class="spr"></i>
+						<span>8月14日</span>
+					</li>
+					<li>
+						<img src="//game.gtimg.cn/images/dzs/cp/a20190624demon/prop.png" width="90" height="61" alt="" />
+						<p>竞猜点 × 200</p>
+						<a class="btn-get spr" href="javascript:;" onclick="PTTSendClick('btn','btn-get1','领取点数');"></a>
+						<i class="icon spr"></i>
+						<span>8月14日</span>
+					</li>
+				</ul>
+				<p class="txt">请在下方输入选择押注的玩家ID</p>
+				<div class="items">
+					<div class="item1">
+						<i class="spr"></i>
+						<input type="text" name="" id="" value="" placeholder="请输入玩家ID..."/>
+					</div>
+					<div class="item2">
+						<i class="spr"></i>
+						<input type="text" name="" id="" value="" placeholder="请输入玩家ID..."/>
+					</div>
+					<div class="item3">
+						<i class="spr"></i>
+						<input type="text" name="" id="" value="" placeholder="请输入玩家ID..."/>
+					</div>
+				</div>
+				<p class="bet">请输入押注点数<span>押注<input type="text" placeholder="30"/>点</span></p>
+				<div class="btns">
+					<!--已领取添加on-->
+					<a class="confirm spr" href="javascript:;" onclick="PTTSendClick('btn','confirm','确认');"></a>
+					<a class="get spr" href="javascript:;" onclick="PTTSendClick('btn','get','领取');"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</div>
+
+<!--IEG通用头部-->
+ <script src="//ossweb-img.qq.com/images/js/title.js"></script>
+<!--IEG通用底部-->
+<script id="afooter" src="//game.gtimg.cn/images/js/2018foot/foot.js"></script>
+<!--登录-->
+<script src="//ossweb-img.qq.com/images/js/milo_bundle/milo.js"></script>
+    <script>	
+			//登陆start
+	        milo.ready(function () {
+	   		 need("biz.login",function(LoginManager){
+	        //QQ登录
+	        milo.addEvent(g('btn_qqlogin'),'click',function(e){
+	            LoginManager.login();
+	        });
+	      	
+	        //注销
+	        milo.addEvent(g("btn_logout"),"click",function(){
+	            LoginManager.logout();
+	        })
+	
+	        var chkLoginFunc=function(str){
+	            LoginManager.checkLogin(function(){
+	                console.log("已登录: "+str);
+	            },function(){
+	                console.log("未登录: "+str);
+	            })
+	        }
+	        //执行验证登陆操作
+	        LoginManager.checkLogin(function(userinfo){
+	            //此处返回用户的基本信息
+	            console.log("已登录：\n",userinfo);
+	            //如果登陆类型是qq，使用LoginManager.getUserFace方法去获取头像
+	            if (userinfo.logtype=="qq"){
+	                LoginManager.getUserFace(function(data){
+	                    $("#ams_user_headimg").html("<img src=\""+data.userFace+"\"> ");
+	                });
+	            }else if(userinfo.logtype=="wx"){
+	                //如果登陆类型是wx微信，就直接获取基本信息里的头像
+	                $("#ams_user_headimg").html("<img src=\""+userinfo.headimgurl+"/64\"> ");
+	            }
+	
+	        },function(){
+	            console.log("未登录");
+	            //LoginManager.init();
+	        });
+	    });
+	});
+	//登陆end
+	</script>
+<!--通用统计代码-->
+<script src="//ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js"></script>
+<script>
+//此段代码不能放到外链JS中，
+var setSite={ //设置网站属性
+ siteType:"a20190624demon", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+ pageType:"page2", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN
+ pageName:"比赛竞猜", //必填项:页面中文名
+ osact:0, //选填项:是否是官网专题(在官网运营的专题)boolean；默认是0；可以在链接上加入参数osact=1来灵活设置
+ ingame:0, //选填项:是否投放在游戏APP内boolean；默认是0；可以在链接上加入参数ingame=1来灵活设置
+ stayTime:0 //选填项:是否需要统计停留时长boolean；默认是0
+}
+if(typeof(pgvMain)=='function')pgvMain();//千万不能忘记！
+</script>
+</body>
+</html>
