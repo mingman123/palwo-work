@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="gbk" />
+		<meta name="robots" content="all" />
+		<meta name="author" content="Tencent-cp" />
+		<meta name="Description" content="《疾风之刃》是一款超动作3D动漫风网游。作为新一代动作游戏，《疾风之刃》呈现出极致华丽的动作表演，精心打磨出的打击感震撼人心。多变创新的战斗系统，配合丰富的连续技，给玩家最爽快、最带感的战斗体验。玩家们将化身个性十足的动漫人物，亲自在“一部可以玩的动漫片”中，尽情释放超动作。" />
+		<meta name="Keywords" content="莉莉丝的惊喜盲盒,疾风,疾风之刃,疾风之刃官网,疾风之刃官方网站,疾风首测,疾风封测,疾风之刃首次封测,疾风下载,疾风之刃下载,超动作,超动作网游,一部可以玩的动漫片" />
+		<!-- 让IE以最高版本方式显示页面 -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<!-- 让QQ、360等双核浏览器以chrome的核心显示页面 -->
+		<meta name="renderer" content="webkit">
+		<!-- 设计：cp  | 重构：cp | 创建：2019-10-20  -->
+		<title>莉莉丝的惊喜盲盒</title>
+		<!-- //game.gtimg.cn/images/jf/act/a20191020blind/ -->
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+	</head>
+
+	<body>
+
+		<div class="wrapper">
+			<h1 class="hid">莉莉丝的惊喜盲盒</h1>
+			<div class="content1">
+				<div class="cont1">
+					<div class="logo-box">
+						<a class="logo" href="//jf.qq.com/main.shtml" target="_blank" onClick="PTTSendClick('btn','btn-logo','logo')"></a>
+					</div>
+					<p class="time"></p>
+					<div class="login-box">
+						<!--登录前状态 Start-->
+					    <div id="unlogin" class="login" style="display: block;">
+					        你好，请<a id="btn_qqlogin" href="javascript:void(0)" title="QQ登录">登录</a>
+					     </div>
+					    <!--登录前状态 End-->
+					    <!--登录后状态 Start-->
+					    <div id="logined" class="login" style="display: none;  ">
+					        欢迎您，<span id="login_qq_span"></span> 
+					       <!-- <span id="ams_user_headimg"></span>　-->
+							<a href="javascript:record(1);" onclick="PTTSendClick('btn', 'shopRecord', '查看购买记录');">【我的购买记录】</a>
+					        <a id="btn_logout" href="javascript:void(0)" title="注销">注销</a>
+					    </div>
+					    <!--登录后状态 End-->
+					</div>
+					<div class="btn-box">
+						<a class="btn-ten spr" href="javascript:;" onClick="PTTSendClick('btn','btn-ten','充值10Q币')"></a>
+						<a class="btn-hundred spr" href="javascript:;" onClick="PTTSendClick('btn','btn-hundred','充值100Q币')"></a>
+						<a class="btn-pay spr" href="javascript:;" onClick="PTTSendClick('btn','btn-ten','充值Q币')"></a>
+					</div>
+					<div class="txt-box">
+						<p class="txt-1">活动期间，购买强化石礼包可获得相应莉莉丝币，消耗不同幸运<br />币开启惊喜盲盒，更有几率开到隐藏道具</p>
+						<p class="txt-2">剩余幸运币:<span>99999999</span></p>
+					</div>
+					
+				</div>
+			</div>
+			<div class="content2">
+				<div class="cont2">
+					
+					<!--惊喜时装盲盒start-->
+					<div class="skin-box">
+						<div class="title-box">
+							<p class="skin-title spr"></p>
+							<p class="pay-num"><span>200幸运币</span>/次</p>
+						</div>
+						<div class="blind-box1">
+							<a href="javascript:TGDialogS('dialog2');" class="box1 box"></a>
+							<a href="javascript:TGDialogS('dialog2');" class="box2 box"></a>
+							<a href="javascript:TGDialogS('dialog2');" class="box3 box"></a>
+							<a href="javascript:TGDialogS('dialog2');" class="box4 box"></a>
+							<a href="javascript:TGDialogS('dialog2');" class="box5 box"></a>
+							<a href="javascript:TGDialogS('dialog2');" class="box6 box"></a>
+						</div>
+						<p class="box-cover1"></p>
+					</div>
+					<!--惊喜时装盲盒end-->
+					
+					<!--惊喜宠物盲盒start-->
+					<div class="pets-box">
+						<div class="title-box">
+							<p class="pets-title spr"></p>
+							<p class="pay-num"><span>150幸运币</span>/次</p>
+						</div>
+						<div class="blind-box2">
+							<a href="javascript:TGDialogS('dialog3');" class="box1 box"></a>
+							<a href="javascript:TGDialogS('dialog3');" class="box2 box"></a>
+							<a href="javascript:TGDialogS('dialog3');" class="box3 box"></a>
+							<a href="javascript:TGDialogS('dialog3');" class="box4 box"></a>
+							<a href="javascript:TGDialogS('dialog3');" class="box5 box"></a>
+							<a href="javascript:TGDialogS('dialog3');" class="box6 box"></a>
+						</div>
+						<p class="box-cover2"></p>
+					</div>
+					<!--惊喜宠物盲盒end-->
+					
+					<!--惊喜强化盲盒start-->
+					<div class="strengthen-box">
+						<div class="title-box">
+							<p class="strengthen-title spr"></p>
+							<p class="pay-num"><span>100幸运币</span>/次</p>
+						</div>
+						<div class="blind-box3">
+							<a href="javascript:TGDialogS('dialog4');" class="box1 box"></a>
+							<a href="javascript:TGDialogS('dialog4');" class="box2 box"></a>
+							<a href="javascript:TGDialogS('dialog4');" class="box3 box"></a>
+							<a href="javascript:TGDialogS('dialog4');" class="box4 box"></a>
+							<a href="javascript:TGDialogS('dialog4');" class="box5 box"></a>
+							<a href="javascript:TGDialogS('dialog4');" class="box6 box"></a>
+						</div>
+						<p class="box-cover3"></p>
+					</div>
+					<!--惊喜强化盲盒end-->
+					
+					<!--惊喜卡牌盲盒start-->
+					<div class="cards-box">
+						<div class="title-box">
+							<p class="cards-title spr"></p>
+							<p class="pay-num"><span>200幸运币</span>/次</p>
+						</div>
+						<div class="blind-box4">
+							<a href="javascript:TGDialogS('dialog5');" class="box1 box"></a>
+							<a href="javascript:TGDialogS('dialog5');" class="box2 box"></a>
+							<a href="javascript:TGDialogS('dialog5');" class="box3 box"></a>
+							<a href="javascript:TGDialogS('dialog5');" class="box4 box"></a>
+							<a href="javascript:TGDialogS('dialog5');" class="box5 box"></a>
+							<a href="javascript:TGDialogS('dialog5');" class="box6 box"></a>
+						</div>
+						<p class="box-cover4"></p>
+					</div>
+					<!--惊喜卡牌盲盒end-->
+					
+					
+					
+					<!--活动规则start-->
+					<div class="ruleBox">
+						<p class="title-rule spr"></p>
+						
+						<ul class="rule-box">
+							 <li class="clearfix">
+								<span>1</span>
+								<p>活动时间：2019年10月28-2019年11月4日；</p>
+							</li> 
+							<li class="clearfix">
+								<span>2</span>
+								<p>活动范围：疾风之刃全体玩家；</p>
+							</li>
+							<li class="clearfix">
+								<span>3</span>
+								<p>活动期间，购买强化石礼包可获得相应莉莉丝币，消耗不同幸运币开启惊喜盲盒，更有几率开到隐藏道具；</p>
+							</li>
+							<li class="clearfix">
+								<span>4</span>
+								<p>盲盒抽中的物品部分道具为“角色绑定”，“角色绑定”物品抽中即为获得，请各位勇士开启盲盒前确认开启账号；</p>
+							</li>
+							<li class="clearfix">
+								<span>5</span>
+								<p>获奖道具直接发送至游戏内邮箱，根据网络环境不同到账可能会有5-10分钟延迟。</p>
+							</li>
+						</ul>
+						
+					</div>
+					<!--活动规则end-->
+				</div>
+			</div>
+		</div>
+		<!--购买记录弹窗-->
+		<div class="dialog1" id="test1" style="display:none">
+			<div class="dia-con">
+				<p class="dia-s1">我的购买记录</p>
+				<table class="tab" cellpadding="0" cellspacing="0" width="750" border="0">
+					<thead>
+						<tr>
+							<th>所在大区</th>
+							<th>所获礼包</th>
+							<th>获取时间</th>
+						</tr>
+					</thead>
+					<tbody>	
+						<tr class="single">
+							<td>大区名称</td>
+							<td>强化使（LV66~70/账号绑定）*1000</td>
+							<td>2019-09-26  14:19:19</td>
+						</tr>
+						<tr class="even">
+							<td>大区名称</td>
+							<td>强化使（LV66~70/账号绑定）*1000</td>
+							<td>2019-09-26  14:19:19</td>
+						</tr>
+						<tr class="single">
+							<td>大区名称</td>
+							<td>强化使（LV66~70/账号绑定）*1000</td>
+							<td>2019-09-26  14:19:19</td>
+						</tr>
+						<tr class="even"><td>大区名称</td>
+							<td>强化使（LV66~70/账号绑定）*1000</td>
+							<td>2019-09-26  14:19:19</td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<td colspan="3" id="">
+								
+								<a id="prev" title="上一页" class="tab_a" href="javascript:;">上一页</a>
+								<em><span id="page">1</span>/1页</em>
+								<span></span>
+								<a id="next" title="下一页" class="tab_a" href="javascript:;">下一页</a>
+							</td>
+						</tr>
+					</tfoot>
+				</table>
+			</div>
+			<a class="spr dia-close" href="javascript:showDialog.hide();" title="关闭"></a>
+		</div>
+		
+		<!--时装盲盒弹窗-->
+		<div class="dialog2" id="dialog2" style="display:none">
+			<p class="icon-prize1"></p>
+			<div class="dia-con">
+				<a class="btn-open spr" href="javascript:TGDialogS('dialog6');" onClick="PTTSendClick('btn','btn-open','立即开启')"></a>
+				<div class="prize-list">
+					<p class="title">可能获得:</p>
+					<p class="prop">
+						<img src="//game.gtimg.cn/images/jf/act/a20191020blind/prop1.png" alt="" />
+						<span>高级徽章套装宝箱*1（角色绑定） </span>
+					</p>
+					<p class="prop">
+						<img src="//game.gtimg.cn/images/jf/act/a20191020blind/prop2.png" alt="" />
+						<span>罗格贝特的黄金钥匙*3（角色绑定） </span>
+					</p>
+					<p class="prop">
+						<img src="//game.gtimg.cn/images/jf/act/a20191020blind/prop3.png" alt="" />
+						<span>稀有徽章宝箱（随机)*3（角色绑定）</span>
+					</p>
+					<p class="prop">
+						<img src="//game.gtimg.cn/images/jf/act/a20191020blind/prop4.png" alt="" />
+						<span>传说徽章随机宝箱*1（角色绑定）</span>
+					</p>
+					<p class="title title2">稀有隐藏道具</p>
+					<p class="prop  prop-rare">
+						<img src="//game.gtimg.cn/images/jf/act/a20191020blind/prop2-1.png" alt="" />
+						<span>传说徽章宝箱（可选）*1（角色绑定）</span>
+					</p>
+					<p class="prop prop-rare">
+						<img src="//game.gtimg.cn/images/jf/act/a20191020blind/prop2-2.png" alt="" />
+						<span>3期稀有时装宝箱（可选）*1（角色绑定） </span>
+					</p>
+				</div>
+				
+			</div>
+			<a class="spr dia-close" href="javascript:showDialog.hide();" title="关闭"></a>
+		</div>
+		
+		<!--宠物盲盒弹窗-->
+		<div class="dialog3" id="dialog3" style="display:none">
+			<p class="icon-prize2"></p>
+			<div class="dia-con">
+				<a class="btn-open spr" href="javascript:TGDialogS('dialog6');" onClick="PTTSendClick('btn','btn-open','立即开启')"></a>
+				<div class="prize-list">
+					<p class="title">可能获得:</p>
+					<p class="prop">
+						<img src="//game.gtimg.cn/images/jf/act/a20191020blind/prop5.png" alt="" />
+						<span>宠物成长宝玉*1（账号绑定） </span>
+					</p>
+					<p class="prop">
+						<img src="//game.gtimg.cn/images/jf/act/a20191020blind/prop6.png" alt="" />
+						<span>特别稀有赤榴石宝箱*1（角色绑定）</span>
+					</p>
+					<p class="prop">
+						<img src="//game.gtimg.cn/images/jf/act/a20191020blind/prop7.png" alt="" />
+						<span>特别稀有琥珀石宝箱*5（角色绑定）</span>
+					</p>
+					<p class="prop">
+						<img src="//game.gtimg.cn/images/jf/act/a20191020blind/prop8.png" alt="" />
+						<span>[传说]海蓝石宝箱*3（角色绑定）</span>
+					</p>
+					<p class="title title2">稀有隐藏道具</p>
+					<p class="prop  prop-rare">
+						<img src="//game.gtimg.cn/images/jf/act/a20191020blind/prop2-3.png" alt="" />
+						<span>海盗秘宝宠物宝箱（可选）*1(角色绑定)</span>
+					</p>
+					<p class="prop prop-rare">
+						<img src="//game.gtimg.cn/images/jf/act/a20191020blind/prop2-4.png" alt="" />
+						<span>特殊宠物宝箱（可选）*1（角色绑定）</span>
+					</p>
+				</div>
+			</div>
+			<a class="spr dia-close" href="javascript:showDialog.hide();" title="关闭"></a>
+		</div>
+		
+		<!--强化盲盒弹窗-->
+		<div class="dialog4" id="dialog4" style="display:none">
+			<p class="icon-prize3"></p>
+			<div class="dia-con">
+				<a class="btn-open spr" href="javascript:TGDialogS('dialog6');" onClick="PTTSendClick('btn','btn-open','立即开启')"></a>
+				<div class="prize-list">
+					<p class="title">可能获得:</p>
+					<p class="prop">
+						<img src="//game.gtimg.cn/images/jf/act/a20191020blind/prop9.png" alt="" />
+						<span>完美强化熔丝（+9~+16装备专用）*1（角色绑定）</span>
+					</p>
+					<p class="prop">
+						<img src="//game.gtimg.cn/images/jf/act/a20191020blind/prop10.png" alt="" />
+						<span>[辅助装备]完美强化保护熔丝*1（角色绑定）</span>
+					</p>
+					<p class="prop">
+						<img src="//game.gtimg.cn/images/jf/act/a20191020blind/prop11.png" alt="" />
+						<span>符文宝箱（可选）*1（账号绑定）</span>
+					</p>
+					<p class="prop">
+						<img src="//game.gtimg.cn/images/jf/act/a20191020blind/prop12.png" alt="" />
+						<span>神话辅助装备强化宝箱*1（角色绑定）</span>
+					</p>
+					<p class="title title2">稀有隐藏道具</p>
+					<p class="prop  prop-rare">
+						<img src="//game.gtimg.cn/images/jf/act/a20191020blind/prop2-5.png" alt="" />
+						<span>符文宝箱（可选）*1（账号绑定）</span>
+					</p>
+					<p class="prop prop-rare">
+						<img src="//game.gtimg.cn/images/jf/act/a20191020blind/prop2-6.png" alt="" />
+						<span>神话辅助装备强化宝箱*1（角色绑定） </span>
+					</p>
+				</div>
+			</div>
+			<a class="spr dia-close" href="javascript:showDialog.hide();" title="关闭"></a>
+		</div>
+		
+		<!--卡牌盲盒弹窗-->
+		<div class="dialog5" id="dialog5" style="display:none">
+			<p class="icon-prize4"></p>
+			<div class="dia-con">
+				<a class="btn-open spr" href="javascript:TGDialogS('dialog6');" onClick="PTTSendClick('btn','btn-open','立即开启')"></a>
+				<div class="prize-list">
+					<p class="title">可能获得:</p>
+					<p class="prop">
+						<img src="//game.gtimg.cn/images/jf/act/a20191020blind/prop13.png" alt="" />
+						<span>4级注灵石可选宝箱*2(角色绑定) </span>
+					</p>
+					<p class="prop">
+						<img src="//game.gtimg.cn/images/jf/act/a20191020blind/prop14.png" alt="" />
+						<span>稀有红水晶宝箱*2（角色绑定）</span>
+					</p>
+					<p class="prop">
+						<img src="//game.gtimg.cn/images/jf/act/a20191020blind/prop15.png" alt="" />
+						<span>浪漫七夕貂蝉时装卡牌*3（账号绑定）</span>
+					</p>
+					<p class="prop">
+						<img src="//game.gtimg.cn/images/jf/act/a20191020blind/prop16.png" alt="" />
+						<span>浪漫七夕吕布时装卡牌*3（账号绑定）</span>
+					</p>
+					<p class="title title2">稀有隐藏道具</p>
+					<p class="prop  prop-rare">
+						<img src="//game.gtimg.cn/images/jf/act/a20191020blind/prop2-7.png" alt="" />
+						<span>秩序主宰卡牌*1（角色绑定）</span>
+					</p>
+					<p class="prop prop-rare">
+						<img src="//game.gtimg.cn/images/jf/act/a20191020blind/prop2-8.png" alt="" />
+						<span>4期稀有时装宝箱（可选）*1（角色绑定） </span>
+					</p>
+				</div>
+			</div>
+			<a class="spr dia-close" href="javascript:showDialog.hide();" title="关闭"></a>
+		</div>
+		
+		<!--开启盲盒奖励弹窗-->
+		<div class="dialog6" id="dialog6" style="display:none">
+			<p class="title-tc">恭喜您获得以下奖励<span>请前往游戏内邮箱领取</span></p>
+			<div class="dia-con">
+				<div class="prop-box">
+					<div class="prop1" style="display: none;">
+						<img src="//game.gtimg.cn/images/jf/act/a20191020blind/general1.png" alt="" />
+						<p>传说秘藏 ×1</p>
+					</div>
+					<!--普通道具命名general1~general12共12个-->
+					<div class="prop2" style="display: none1;">
+						<em class="icon-rare"></em>
+						<img src="//game.gtimg.cn/images/jf/act/a20191020blind/rare1.png" alt="" />
+						<p>完美强化熔丝（+9~+16装备专用） ×1（角色绑定）</p>
+					</div>
+					<!--稀有道具命名rare1~rare6共6个-->
+				</div>
+				<a class="btn-true spr" href="javascript:;" onClick="PTTSendClick('btn','btn-true','确定')"></a>
+			</div>
+			<a class="spr dia-close" href="javascript:showDialog.hide();" title="关闭"></a>
+		</div>
+
+
+		<script src="//ossweb-img.qq.com/images/js/jquery/jquery-1.7.2.min.js"></script>
+		<script src="//ossweb-img.qq.com/images/js/milo_bundle/milo.js"></script>
+		<script src="//game.gtimg.cn/images/js/title.js"></script>
+		<script src="//game.gtimg.cn/images/js/2018foot/foot.js"></script>
+		<script src="js/index.js"></script>
+		<!--通用统计代码-->
+		<script src="//ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js"></script>
+		<script>
+			//此段代码不能放到外链JS中，
+			var setSite = { //设置网站属性
+				siteType: "a20191020blind", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+				pageType: "index", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN
+				pageName: "首页", //必填项:页面中文名
+				osact: 0, //选填项:是否是官网专题(在官网运营的专题)boolean；默认是0；可以在链接上加入参数osact=1来灵活设置
+				ingame: 0, //选填项:是否投放在游戏APP内boolean；默认是0；可以在链接上加入参数ingame=1来灵活设置
+				stayTime: 0 //选填项:是否需要统计停留时长boolean；默认是0
+			}
+			if(typeof(pgvMain) == 'function') pgvMain(); //千万不能忘记！
+		</script>
+	</body>
+
+</html>
