@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="gbk" /> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="robots" content="all">
+<meta name="author" content="Tencent-CP" />
+<meta name="Copyright" content="Tencent" />
+<meta name="Description" content="天之骄子闪耀周年,无处不在,世界杯官方手游,顶级引擎还原真实足球体验,FIFA Online4,FIFA Online4官方下载" />
+<meta name="Keywords" content="FIFA Online4,天之骄子闪耀周年,无处不在,中国地区唯一的国际足联官方授权游戏，全球最受欢迎真实3D足球网游系列，拥有逼真的球员形象，丰富的球员球队养成，快速匹配全球玩家，带给你超拟真绿茵乐趣" />
+
+<!-- 设计：cp  | 重构：cp | 创建：2018-8-06 -->
+<title>天之骄子闪耀周年 - FIFA ONLINE4官方网站 - 腾讯游戏</title>
+<style type="text/css">
+	/*reset*/
+	body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{-webkit-text-size-adjust: none;margin:0;padding:0;}body,button,input,select,textarea{font:12px/1.5 tahoma,arial,\5b8b\4f53,sans-serif;}h1,h2,h3,h4,h5,h6{font-size:100%;}address,cite,dfn,em,var{font-style:normal;}code,kbd,pre,samp{font-family:courier new,courier,monospace;}small{font-size:12px;}ul,ol{list-style:none;}a{text-decoration:none;outline:0 none}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}legend{color:#000;}fieldset,img{border:0;}button,input,select,textarea{font-size:100%;resize: none;}table{border-collapse:collapse;border-spacing:0;}
+	i,b{font-style: normal;}
+	.fix:after{content:'\20';display:block;height:0;clear:both;font-family:\5FAE\8F6F\96C5\9ED1;}
+	.fix{*zoom:1;}
+	.hid{text-indent:-9999px;font-size:0px;overflow:hidden;width:0px;height:0px;display:block}	
+	body{background: #30ADF6;}
+	
+	/*清除浮动*/
+	.clearfix:after{content:""; display:block; height:0; clear:both; }
+	.clearfix{ *zoom:1; }
+	.wrapper{font-family:'\5FAE\8F6F\96C5\9ED1';}
+	.spr{background: url(ossweb-img/spr-nav.png) no-repeat;}
+	/*content1*/
+	.content1{min-width: 1200px; height: 900px; background: url(ossweb-img/p1-bg1.jpg) no-repeat 50% 0;overflow: hidden;}
+	.cont1{position: relative; width: 1200px; height: 900px; background: url(ossweb-img/p1-bgs1.jpg) no-repeat 50% 0; margin: 0 auto;overflow: hidden;} 
+	.logo{display: block;position: absolute; top: 38px; left: 0; width: 201px; height: 65px; background: url(ossweb-img/logo.png) no-repeat;}
+	.login-box{position: absolute;top: 100px;left: 0; display: block; width: 100%; text-align: center; font-size: 14px;  color: #fff;z-index: 99; }  
+	.login-box a{color: #fff;}
+	.btns{position: absolute;top: 47px;right: 0;width: 462px;height: 45px;}
+	.btns a{display: block;float: left;width: 142px;height: 45px;}
+	.btns a.btn-bc{margin-right: 18px;background: url(ossweb-img/btn-bc.png) no-repeat;}
+	.btns a.btn-bc:hover{background: url(ossweb-img/btn-bcon.png) no-repeat;}
+	.btns a.btn-os{margin-right: 18px;background: url(ossweb-img/btn-os.png) no-repeat;}
+	.btns a.btn-os:hover{background: url(ossweb-img/btn-oson.png) no-repeat;}
+	.btns a.btn-dw{background: url(ossweb-img/btn-dw.png) no-repeat;}
+	.btns a.btn-dw:hover{background: url(ossweb-img/btn-dwon.png) no-repeat;}
+	.btn-play span{display: block;width: 69px;height: 69px;background: url(ossweb-img/btn-play.png) no-repeat;position: absolute;top: 371px;right: 309px;animation: playRotate 15s linear infinite;}
+	.btn-play i{display: block;width: 14px;height: 20px;background: url(ossweb-img/player.png) no-repeat;position: absolute;top: 396px;right: 334px;}
+	.detail{position: absolute;top: 380px;right: 264px;}
+	.ul-flag{width: 1140px;height: 360px;margin: 0 auto; padding-top: 520px;}
+	.ul-flag li{float: left;width: 237px;height: 315px;margin: 0 18px;transition: all .5s;}
+	.ul-flag li div{width: 237px;height: 315px;}
+	.ul-flag li:hover{transform: translateY(-10px);}
+	.ul-flag li p{text-align: center;color: #fff;font-weight: bold;font-size: 24px;padding-top: 108px;}
+	.ul-flag li span{display: block; width: 100%;height: 24px; line-height: 24px;color: #836b45;text-align: center;font-size: 16px;}
+	.ul-flag li strong{display: block;width: 115px;height: 32px;line-height: 32px;text-align: center;color: #d8caa4;border: 1px solid #ccba85; margin: 22px auto 0;background: #6f5f3d;}
+	.ul-flag li.li-1 div{background-position: -5px 0;}
+	.ul-flag li.li-1 div:hover{background-position: -5px -393px;}
+	.ul-flag li.li-2{margin-top: 60px;}
+	.ul-flag li.li-2 div{background-position: -279px -60px;}
+	.ul-flag li.li-2 div:hover{background-position: -279px -453px;}
+	.ul-flag li.li-3{margin-top: 60px;}
+	.ul-flag li.li-3 div{background-position: -554px -60px;}
+	.ul-flag li.li-3 div:hover{background-position: -554px -453px;}
+	.ul-flag li.li-4 div{background-position: -828px 0;}
+	.ul-flag li.li-4 div:hover{background-position: -828px -393px;}
+	.biaoqian{position: absolute;top: 274px;left: 782px;}
+/*	/*
+	.ul-flag li.li-1{background-position: -5px 0;}
+	.ul-flag li.li-1:hover{background-position: -5px -393px;transform: translateY(10px);}
+	.ul-flag li.li-2{background-position: -279px -60px;margin-top: 60px;}
+	.ul-flag li.li-2:hover{background-position: -279px -453px;transform: translateY(10px);}
+	.ul-flag li.li-3{background-position: -554px -60px;margin-top: 60px;}
+	.ul-flag li.li-3:hover{background-position: -554px -453px;transform: translateY(10px);}
+	.ul-flag li.li-4{background-position: -828px 0;}
+	.ul-flag li.li-4:hover{background-position: -828px -393px;transform: translateY(10px);}*/
+	/*afooter*/
+	#afooter{text-align:center; line-height:20px;color: #9a9a9a;background-color: #0e0e0e;padding: 20px 0;margin-bottom: -20px;}
+	#afooter a{ color: #9a9a9a;}
+
+	/* 视频弹窗 */
+	.dia-video{width:864px; height:486px; background-color:#121628; outline:none;}
+	.dia-video .dia-con{width:100%; height:100%;}
+	.dia-video .dia-close{position: absolute; top:-70px; right:-20px; background:url(ossweb-img/dia-close.png) no-repeat 0 0; background-size:100% 100%; width:80px; height:80px; outline:none;}
+	
+	
+@keyframes  playRotate{
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+</style>
+
+</head>
+<body>
+<div class="wrapper">
+	<h1 class="hid"> 绿茵劳模,无处不在</h1>
+	<div class="content1">
+		<div class="cont1">
+			<a class="hid logo" href="//fo4.qq.com/" title="FIFA ONLINE 4官网" target="_blank" onclick="PTTSendClick('btn','gofo4','FIFA ONLINE 4官网')">FIFA ONLINE 4官网</a>
+			<div class="btns">
+				<a class="btn-bc hid" href="index.html" title="进入官网" target="_blank" onclick="PTTSendClick('btn','btn-os','进入官网')">返回首页</a>
+				<a class="btn-os hid" href="//fo4.qq.com/" title="进入官网" target="_blank" onclick="PTTSendClick('btn','btn-os','进入官网')">进入官网</a>
+				<a class="btn-dw hid" href="//fo4.qq.com/web201802/down.shtml" title="下载游戏" target="_blank" onclick="PTTSendClick('btn','btn-dw','下载游戏')">下载游戏</a>
+			</div>
+			<a class="btn-play" href="javascript:showVideoDia('p0885xptseh');" onclick="PTTSendClick('btn','btn-play','查看视频')"><span></span><i></i></a>
+			<img src="ossweb-img/detail.png" width="37" height="54" alt="查看版本详情内容"  class="detail"/>
+			<img src="ossweb-img/biaoqian.png" width="248" height="62" alt="卡卡"  class="biaoqian"/>
+			
+			<ul class="ul-flag">
+				<li class="li-1 spr">
+					<div class="spr">
+						<a href="//fo4.qq.com/cp/a20190613gloryback/index.html" target="_blank" onclick="PTTSendClick('btn','nav1','查看详情')"><p>世界传奇 闪耀登场</p><span> 卡卡、古蒂、哈格上线</span><strong>查看详情</strong></a>
+					</div>
+				</li>
+				<li class="li-2">
+					<div class="spr">
+						<a href="http://test.1pix.cn/a20190318amusemode_1560414521/shot.html" target="_blank" onclick="PTTSendClick('btn','nav1','查看详情')"><p>远射进球 双倍得分</p><span>远射模式登场</span><strong>查看详情</strong></a>
+					</div>
+				</li>
+				<li class="li-3">
+					<div class="spr">
+						<a href="//fo4.qq.com/cp/a20190613challenge/index.html " target="_blank" onclick="PTTSendClick('btn','nav1','查看详情')"><p>操作引擎 优化升级</p>
+						<span>体验全面优化</span><strong>查看详情</strong></a>
+					</div>
+				</li>
+				<li class="li-4 ">
+					<div class="spr">
+						<a href="//fo4.qq.com/cp/a20190523sbcteam/index.html " target="_blank" onclick="PTTSendClick('btn','nav1','查看详情')"><p>组合交换 点石成金</p>
+						<span>组合交换系统上线</span><strong>查看详情</strong></a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+</div>
+
+<!-- 视频弹窗 -->
+<div class="dia-video" id="video1" style="display:none">
+	<div class="dia-con" id="tv1"></div>
+	<a class="spr dia-close" id="close1" href="javascript:showDialog.hide()" title="关闭"></a>
+</div>
+
+<script src="//ossweb-img.qq.com/images/js/jquery/jquery-1.9.0.min.js"></script>
+<!--IEG通用头部-->
+ <script src="//ossweb-img.qq.com/images/js/title.js"></script>
+<!--IEG通用底部-->
+<script id="afooter" src="//game.gtimg.cn/images/js/2018foot/foot.js"></script>
+<!--通用统计代码-->
+<script src="//ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js"></script>
+<script src="//vm.gtimg.cn/tencentvideo/txp/js/txplayer.js"></script>
+<script src="//ossweb-img.qq.com/images/js/milo_bundle/milo.js"></script>
+<script>
+
+	// 视频弹窗
+	function showVideoDia(vid) {
+		var player = new Txplayer({
+			containerId: 'tv1',
+			vid: vid,
+			width: '100%',
+			height: '100%',
+			autoplay: true
+		});
+		TGDialogS('video1');
+	}
+	$('#close1').click(function(){
+		$('#tv1').html('');
+	})
+	function TGDialogS(e){
+		// 利用milo库引入dialog组件
+		need("biz.dialog",function(Dialog){
+			Dialog.show({
+				id:e,
+				bgcolor:'#000', //弹出“遮罩”的颜色，格式为"#FF6600"，可修改，默认为"#fff"
+				opacity:90 //弹出“遮罩”的透明度，格式为｛10-100｝，可选
+			});
+		});
+	}
+	function closeDialog(){
+		// 利用milo库引入dialog组件
+		need("biz.dialog",function(Dialog){
+			Dialog.hide();
+		});
+	}
+	
+</script>
+
+	
+<script>
+//此段代码不能放到外链JS中，
+var setSite={ //设置网站属性
+ siteType:"a20190614jiaozhu", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+ pageType:"page1", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN
+ pageName:"首页", //必填项:页面中文名
+ osact:0, //选填项:是否是官网专题(在官网运营的专题)boolean；默认是0；可以在链接上加入参数osact=1来灵活设置
+ ingame:0, //选填项:是否投放在游戏APP内boolean；默认是0；可以在链接上加入参数ingame=1来灵活设置
+ stayTime:0 //选填项:是否需要统计停留时长boolean；默认是0
+}
+if(typeof(pgvMain)=='function')pgvMain();//千万不能忘记！
+</script>
+</body>
+</html>
