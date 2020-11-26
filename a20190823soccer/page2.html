@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="gbk">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="robots" content="all">
+		<meta name="author" content="Tencent-CP">
+		<meta name="Copyright" content="Tencent">
+		<meta name="Description" content="足球之家,《FIFA Online 4》官方网站。中国地区唯一的国际足联官方授权游戏，全球最受欢迎真实3D足球网游系列，拥有逼真的球员形象，丰富的球员球队养成，快速匹配全球玩家，带给你超拟真绿茵乐趣。">
+		<meta name="Keywords" content="足球之家,FIFA Online4,FIFA Online4官方下载,FIFA下载,足球在线,FIFAOL4,FIFA,3D,足球,网游,体育,世界杯,欧冠,中超,球员,梅西,C罗,内马尔,转会,电子竞技,腾讯,网络游戏">
+		<title>足球之家- FIFA Online 4官方网站 - 腾讯游戏</title>
+		<!--//game.gtimg.cn/images/fo4/cp/a20190823soccer/-->
+		<!-- 页面设计：cp | 页面制作：cp | 创建：2019-08-23-->
+		<style>
+			/*reset*/        
+			body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+			table{border-collapse:collapse;border-spacing:0;}
+			fieldset,img{border:0;}
+			address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+			ol,ul{list-style:none;}
+			caption,th{text-align:left;}
+			h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+			q:before,q:after{content:'';}
+			abbr,acronym{border:0;font-variant:normal;}
+			sup{vertical-align:text-top;}
+			sub{vertical-align:text-bottom;}
+			input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+			input,textarea,select{font-size:100%;}
+			input,a{text-decoration: none; outline: none; color: #FFFFFF;-webkit-appearance: none; -webkit-tap-highlight-color:rgba(255,255,255,0);}
+			.hid{text-indent:-9999px;font-size:0px;overflow:hidden;width:0px;height:0px;display:block;}
+			.hidden{text-indent:-9999px;font-size:0px;}
+			body,button,input,select,textarea{font:12px/1.5 "Microsoft YaHei",Helvetica,\5b8b\4f53,sans-serif;}
+			body{ padding-top: 130px!important;}
+			/*清除浮动*/
+			.clearfix:after,.clearfix:before{content:"";display:table;}
+			.clearfix:after{clear:both;}		
+	        /*foot*/
+			#afooter {position:relative; padding:30px 0; text-align:center; font:normal 12px/19px Tahoma; z-index:10; background-color:#000;}
+			#afooter, #afooter a {color:#c0c0c0; text-decoration:none;}	        
+			/*page*/
+	        body{padding-top:130px !important;min-width:1200px; /*font: 12px/150% tahoma,'\5b8b\4f53',sans-serif;*/}
+	        .bg1,.bg2{min-width:1200px;overflow:hidden; font-family:"Microsoft YaHei";}
+	        .bg1{ background:url("ossweb-img/p2-bg.jpg") no-repeat 50% 0;}
+	        .bg2{ background:url("ossweb-img/p2-bg01.jpg") no-repeat 50% 0;}
+            .header,.wrap2{width: 1200px;margin: 0 auto;position: relative;text-align: center;}
+            .header{height: 611px;}
+            .wrap2{height: 2739px;}						
+			/*logo*/
+			.logos{background: url(ossweb-img/logo.png) no-repeat;width:368px;height:84px;display: block;position: absolute;top: 16px;left: 0px;}
+			.logos a{height: 84px;float: left;}
+			.logos .logo2{padding-right: 8px;width: 192px;}
+			.logos .logo1{width: 168px;}
+			/*links*/
+			.links{width:501px;height:35px;background: url(ossweb-img/links.png) no-repeat;position: absolute;top:28px;right: 0;}
+			.links a{height:35px;display: block;float: left;}
+			.links .btn-fo4{margin-right: 13px;width: 268px;}
+			.links .btn-ffm{width: 220px;}
+			/*nav*/
+			.navspr{background: url(ossweb-img/navspr.png) no-repeat;}
+			.navs{width:1200px;height:122px;position: absolute;top:424px;right: 0;}
+			.navs a{width:240px;height:122px;float: left;}
+			.navs .btn-rec{background-position: 0 0px;}
+			.navs .btn-act{background-position: -240px 0px;}
+			.navs .btn-cul{background-position: -480px 0px;}
+			.navs .btn-ball{background-position: -720px 0px;}
+			.navs .btn-wel{background-position: -960px 0px;}
+			.navs .btn-rec:hover{background-position: 0 -195px;}
+			.navs .btn-act:hover{background-position: -240px -195px;}
+			.navs .btn-cul:hover{background-position: -480px -195px;}
+			.navs .btn-ball:hover{background-position: -720px -195px;}
+			.navs .btn-wel:hover{background-position: -960px -195px;}
+			.navs .btn-rec.on{background-position: 0 -195px;}
+			.navs .btn-act.on{background-position: -240px -195px;}
+			.navs .btn-cul.on{background-position: -480px -195px;}
+			.navs .btn-ball.on{background-position: -720px -195px;}
+			.navs .btn-wel.on{background-position: -960px -195px;}
+			/*登录*/
+			.login{position: absolute;top: 558px;left: 0; display: block; width: 100%; text-align: center; font-size: 22px;  color: #FFFFFF;z-index: 99; }  
+			.login a{color: #b5da7c;}		
+			/*sprite*/
+			.spr{background: url(ossweb-img/p2-sprite.png) no-repeat;}
+			.act-title1.spr,.act-title2.spr{width: 558px;height: 70px;margin-top: -90px;}
+            .date-ball.spr{width: 408px;height: 70px;}
+			.act-title1{background-position: 0 0;position: absolute;left: 17px;}
+			.act-title2{background-position: 0 -71px;position: absolute;left: 17px;}
+			.date-ball{background-position: 0 -142px;margin: 0 auto;}		
+			/*active*/
+            .active{width: 1200px; height: 1050px;text-align: center; position: relative;}
+            .active .act-left{left: -17px; top: 150px; width: 626px;height: 790px; float: left;background: url(ossweb-img/p2-active-bg.png) no-repeat;position: absolute;}
+            .active .act-right{right: -17px; top: 150px; width: 626px;height: 790px;float:right; background: url(ossweb-img/p2-active-bg.png) no-repeat;position: absolute;}
+            .active .act-img1{margin-top: 20px;}
+            .active .content1{width: 100%;height: 112px;padding-top: 8px;display: block;}
+            .active .content2{padding-top: 8px;display: block;}
+            .active .content1 p,.active .content2 p{font-size: 16px;color: #8b4e34;line-height: 24px;}
+            /*date*/
+            .date{width: 1200px;overflow: hidden;}
+            .date-cont{margin: 30px auto 30px;font-size: 18px;color: #1a7363;}
+            .date .match .match-li{width: 1067px;height: 258px;background: url(ossweb-img/p2-date-bg.png) no-repeat;margin: 0 auto 40px;}
+            .date .match-left{width:35%;height: 100%;margin-left: 32px;float: left;}
+            .date .match-left .cont1{font-size: 38px;color: #feff83;font-weight: bold;padding: 110px 0 20px 0;}
+            .date .match-left .cont2{font-size: 22px;color: #b9f6f8;}
+            .date .match-right{width:62%;height: 100%;float: right;}
+            .date .match-right ul{width: 65%;height: 100%;margin: 0 auto;}
+            .date .match-right li{width: 33%;height: 170px; float: left;margin-top: 50px;}
+            .date .match-right img{display: block;margin: 0 auto;}
+            .match-right .match-team{font-size: 18px;font-weight: bold;color: #19696a;}
+            .match-right .match-vs{font-size: 40px;color: #359e9f;font-weight: bold;line-height: 150px;}
+            
+            
+            /*弹窗*/
+			.dia2{background: url(ossweb-img/bg-tc.png) no-repeat;width: 755px;height: 587px;position: relative;}
+			.dia2 .expect{width: 755px;height: 470px;text-align: center;padding-top: 32px;}
+			.dia2 .tc-logo{background: url(ossweb-img/tc-logo.png) no-repeat;width: 306px;height: 49px;    margin-left: 235px;}
+			.dia2 .tc-logo a{width: 142px;height:49px;float: left;}
+			.dia2 .tc-logo .logo2{padding-right: 12px;width: 152px;}
+			.dia2 .expect img{padding-top: 204px;padding-left: 27px;}
+			.dia2 .dia-close{background: url(ossweb-img/close.png) no-repeat;width: 52px;height: 50px;position: absolute;top: 0;right: -40px;}
+		</style>
+	</head>
+	<body>
+		<div class="bg1">
+            <h1 class="hid">足球之家</h1>
+			<div class="header">
+					<div class="logos">
+						<a class="logo2 hidden" title="FIFA Online 4" href="//fo4.qq.com/main.shtml" target="_blank" onclick="PTTSendClick('btn', 'go', 'FIFA Online 4');">FIFA Online 4</a>
+						<a class="logo1 hidden" title="FIFA 足球世界" href="//ffm.qq.com/main.html" target="_blank" onclick="PTTSendClick('btn', 'go', '足球世界');">足球世界</a>
+						
+					</div>
+					<div class="links">
+						<a class="btn-fo4" href="//fo4.qq.com/main.shtml" title="进入FO4官网" target="_blank" onclick="PTTSendClick('btn','btn-fo4','进入FO4官网')"></a>
+						<a class="btn-ffm" href="//ffm.qq.com/main.html" title="进入FFM官网" target="_blank" onclick="PTTSendClick('btn','btn-ffm','进入FFM官网')"></a>
+					</div>
+					<div class="navs">
+						<a class="btn-rec navspr" href="index.html" title="球迷大数据" onclick="PTTSendClick('btn','btn-rec','球迷大数据')"></a>
+						<a class="btn-act navspr  on" href="javascript:;" title="活动专区" onclick="PTTSendClick('btn','btn-act','活动专区')"></a>
+						<a class="btn-cul navspr" href="page3.html" title="足球文化之旅" onclick="PTTSendClick('btn','btn-cul','足球文化之旅')"></a>
+						<a class="btn-ball navspr" href="page4.html" title="球星专区" onclick="PTTSendClick('btn','btn-ball','球星专区')"></a>
+						<a class="btn-wel navspr" href="javascript:TGDialogS(dia2);" title="福利中心" onclick="PTTSendClick('btn','btn-wel','福利中心')"></a>
+					</div>
+					<!--登陆组件,一般在第一个切图中-->
+					<div class="login" style="display: none;">
+					    <p id="unlogin" style="display: block;"> 亲爱的用户，请<a href="javascript:;" id="dologin">【登录】</a></p>
+					    <p id="logined" style="display:none">欢迎您，<span id="login_qq_span"></span>，
+					        <span id="spanNotBind_525639">
+					           <a href="javascript:amsInit(178183, 525638);">【绑定大区】</a>
+					        </span>
+					        <span id="spanBind_525639" style="display:none">
+					           <span id="area_info_525639"></span>
+					           <span id="role_info_525639"></span>
+					           <a href="javascript:amsInit(178183, 525638);">【更改绑定】</a>
+					        </span>
+					        <a href="javascript:;" id="dologout">【注销】</a>
+					    </p>
+					</div>
+			</div>
+		</div>
+		<div class="bg2">
+			<div class="wrap2">
+                <div class="active">
+                    <div class="act-left">
+                        <p class="act-title1 spr hid">FIFA Online 4 活动专区</p>
+                        <img class="act-img1" src="ossweb-img/p2-active1.png" width="526" height="268" alt="暑期巨献">
+                        <a class="content1" href="//fo4.qq.com/cp/a20190722heroes/index.html"  target="_blank" onclick="PTTSendClick('btn','content1','新闻')">
+                            <p>总有一些球员，提起他的名字便能想起一支球队；</p>
+                            <p>总有一些球员，凭借一己之力给球队带来胜利；</p>
+                            <p>总有一些球员，与球队不离不弃，我们称之为球队精神领袖。</p>
+                            <p>队魂赛季暑期特别呈现，一起细数球队英雄！</p>
+                        </a>
+                        <img class="act-img2" src="ossweb-img/p2-active2.png" width="526" height="268" alt="挑战李毅大帝">
+                        <a class="content2" href="//fo4.qq.com/cp/a20190806challenge/index.html"  target="_blank" onclick="PTTSendClick('btn','content2','新闻')">
+                            <p>阵容挑战模式中，玩家将与其他玩家的阵容/欧冠阵容/球星大咖</p>
+                            <p>组建的阵容进行对战。</p>
+                            <p>李毅大帝的“蚌埠回旋代表队”阵容，快来挑战吧！</p>
+                        </a>
+                    </div>
+                    <div class="act-right">
+                        <p class="act-title2 spr hid">FIFA 足球世界 活动专区</p>
+                        <img class="act-img1" src="ossweb-img/p2-active3.png" width="526" height="268" alt="中超风云再起">
+                        <a class="content1" href="//ffm.qq.com/cp/a20190718zcm/index.html"  target="_blank" onclick="PTTSendClick('btn','content3','新闻')">
+                            <p>中超风云再起，梦回国足黄金一代<br />世界杯首战17周年，梦回国足黄金一代！<br />再现国足高光时刻，致敬中超传奇。<br />赢取熟悉的阵容，让辉煌永不落幕</p>                            
+                        </a>    
+                        <img class="act-img2" src="ossweb-img/p2-active4.png" width="526" height="268" alt="英超新赛季">
+                        <a class="content2" href="//ffm.qq.com/webplat/info/news_version3/34631/35925/35926/35927/m20757/201907/820877.shtml"  target="_blank" onclick="PTTSendClick('btn','content4','新闻')">
+                            <p>来自英超的球队们将英格兰最原汁原味的足球激情带到了</p>
+                            <p>南京与上海、带到了中国球迷们的身边！然而与足球相关的快乐</p>
+                            <p>可不仅仅是现实的比赛，虚拟的绿茵同样精彩</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="date">
+                    <p class="date-ball spr hid">看球日历</p>
+                    <p class="date-cont">每周重点赛事，一手掌握</p>
+                    <ul class="match">
+                        <li class="match-li">
+                            <div class="match-left">
+                                <p class="cont1">亚洲联赛冠军杯</p>
+                                <p class="cont2">8.27&nbsp;19:30</p>
+                            </div>
+                            <div class="match-right">
+                                <ul>
+	                                <li class="match-team">
+	                                    <img src="ossweb-img/p2-date1.png" width="142" height="142" alt="球队">
+	                                    上海上港
+	                                </li>
+	                                <li class="match-vs">vs</li>
+	                                <li class="match-team">
+	                                    <img src="ossweb-img/p2-date2.png" width="142" height="142" alt="球队">
+	                                    浦和红钻
+	                                </li>
+                            	</ul>
+                         	</div>
+                        </li>
+                        <li class="match-li">
+                            <div class="match-left">
+                                <p class="cont1">亚洲联赛冠军杯</p>
+                                <p class="cont2">8.28&nbsp;20:00</p>
+                            </div>
+                            <div class="match-right">
+                                <ul>
+	                                <li class="match-team">
+	                                    <img src="ossweb-img/p2-date3.png" width="142" height="142" alt="球队">
+	                                    广州恒大淘宝
+	                                </li>
+	                                <li class="match-vs">vs</li>
+	                                <li class="match-team">
+	                                    <img src="ossweb-img/p2-date4.png" width="142" height="142" alt="球队">
+	                                    鹿岛鹿角
+	                                </li>
+                           	 	</ul>
+                            </div>
+                        </li>
+                        <li class="match-li">
+                            <div class="match-left">
+                                <p class="cont1">欧足联欧洲联赛</p>
+                                <p class="cont2">8.30&nbsp;01:00</p>
+                            </div>
+                            <div class="match-right">
+	                            <ul>
+	                                <li class="match-team">
+	                                    <img src="ossweb-img/p2-date5.png" width="142" height="142" alt="球队">
+	                                    西班牙人
+	                                </li>
+	                                <li class="match-vs">vs</li>
+	                                <li class="match-team">
+	                                    <img src="ossweb-img/p2-date6.png" width="142" height="142" alt="球队">
+	                                    索尔亚
+	                                </li>
+	                            </ul>
+                            </div>
+                        </li>
+                        <li class="match-li">
+                            <div class="match-left">
+                                <p class="cont1">德国足球甲级联赛</p>
+                                <p class="cont2">8.31&nbsp;21:30</p>
+                            </div>
+                            <div class="match-right">
+                                <ul>
+	                                <li class="match-team">
+	                                    <img src="ossweb-img/p2-date7.png" width="142" height="142" alt="球队">
+	                                    拜仁慕尼黑
+	                                </li>
+	                                <li class="match-vs">vs</li>
+	                                <li class="match-team">
+	                                    <img src="ossweb-img/p2-date8.png" width="142" height="142" alt="球队">
+	                                    美因茨
+	                                </li>
+	                            </ul>
+                            </div>
+                        </li>
+                        <li class="match-li">
+                            <div class="match-left">
+                                <p class="cont1">英格兰足球超级联赛</p>
+                                <p class="cont2">9.01&nbsp;23:30</p>
+                            </div>
+                            <div class="match-right">
+                                <ul>
+	                                <li class="match-team">
+	                                    <img src="ossweb-img/p2-date9.png" width="142" height="142" alt="球队">
+	                                    阿森纳
+	                                </li>
+	                                <li class="match-vs">vs</li>
+	                                <li class="match-team">
+	                                    <img src="ossweb-img/p2-date10.png" width="142" height="142" alt="球队">
+	                                    热刺
+	                                </li>
+	                            </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+			</div>
+		</div>	
+		
+		<!--敬请期待-->
+	    <div class="dia dia2" id="dia2" style="display:none">
+	        <div class="expect">
+	        	<div class="tc-logo">
+	        		<a class="logo2 hidden" title="FIFA Online 4" href="//fo4.qq.com/main.shtml" target="_blank" onclick="PTTSendClick('btn', 'go', 'FIFA Online 4');">FIFA Online 4</a>
+	        		<a class="logo1 hidden" title="FIFA 足球世界" href="//ffm.qq.com/main.html" target="_blank" onclick="PTTSendClick('btn', 'go', '足球世界');">足球世界</a>
+					
+	        	</div>
+	        	<img src="ossweb-img/expect.png" width="411" height="147" />
+	        </div>
+	        <a class="spr dia-close" href="javascript:showDialog.hide()" title="关闭"></a>
+	    </div>
+	    
+		<!--登录-->
+		<script src="//ossweb-img.qq.com/images/js/milo_bundle/milo.js"></script>
+		 <!--IEG通用头部-->
+	 	<script src="//ossweb-img.qq.com/images/js/title.js"></script>
+		<!--IEG通用底部-->
+		<script id="afooter" src="//game.gtimg.cn/images/js/2018foot/foot.js"></script>
+		<!--引入jQuery-->
+		<script src="//ossweb-img.qq.com/images/js/jquery/jquery-1.11.1.min.js"></script>
+		<!--fo4通用头部-->
+		<script src="//game.gtimg.cn/images/fo4/act/a20190424top/actnav.js"></script>
+		<!--视频-->
+		<script src='//vm.gtimg.cn/tencentvideo/txp/js/txplayer.js'></script>
+		<script>
+			//登录start
+			milo.addEvent(g("dologin"), "click", function() {
+			  	need("biz.login", function(LoginManager){
+			        LoginManager.init({
+			            needReloadPage : true
+			        });
+			      	LoginManager.login();
+			  	});
+			  	return false;
+			});
+			milo.addEvent(g("dologout"), "click", function() {
+			  	need("biz.login", function(LoginManager){
+			     	LoginManager.logout();
+			  	});
+			 	return false;
+			});
+			 milo.ready(function() {
+			  	need("biz.login", function(LoginManager){
+			        LoginManager.checkLogin(function(){
+			            g("login_qq_span").innerText=LoginManager.getUserUin();//获取QQ号
+			                amsInit(178183, 525639);
+			        });
+			    });
+			});
+			//登录end
+
+		
+
+
+
+
+
+
+			//弹窗start
+			function TGDialogS(e){
+			    // 利用milo库引入dialog组件
+			    need("biz.dialog",function(Dialog){
+			        Dialog.show({
+			            id:e,
+			            bgcolor:'#000', //弹出“遮罩”的颜色，格式为"#FF6600"，可修改，默认为"#fff"
+			            opacity:60 //弹出“遮罩”的透明度，格式为｛10-100｝，可选
+			            
+			        });
+			    });
+			}
+			function closeDialog(){
+			  // 利用milo库引入dialog组件
+			  need("biz.dialog",function(Dialog){
+			          Dialog.hide();
+			      });
+			  }
+//			弹窗end
+		</script>
+		
+
+
+        <!--通用统计代码-->
+		<script src="//ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js"></script>
+		<script>
+			//此段代码不能放到外链JS中，
+			var setSite={ //设置网站属性 
+			    siteType:"a20190823soccer", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+			    pageType:"活动专区", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN,不支持点(.)、下划线(_)
+			    pageName:"page2", //必填项:页面中文名 
+			    project:"other", //选填项:如果是官网模块则是必填;按照模块内容，填写固定的对应值;原生官网base;微社区ingame;同人站doujin;赛事match;故事站story;文化站history;粉丝站fans;爆料站coming;论坛bbs;皮肤skin;默认other;
+			    osact:0 //选填项:默认是0。osact=0表示非官网专题；osact=pc表示pc官网/pc官网专题；osact=m表示移动官网/移动官网专题；osact=ingame表示微社区/微社区专题
+			};
+			if(typeof(pgvMain)=='function')pgvMain();//千万不能忘记！
+		</script>
+	</body>
+</html>

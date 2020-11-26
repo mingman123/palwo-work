@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="gbk">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="robots" content="all">
+		<meta name="author" content="Tencent-CP">
+		<meta name="Copyright" content="Tencent">
+		<meta name="Description" content="足球之家,《FIFA Online 4》官方网站。中国地区唯一的国际足联官方授权游戏，全球最受欢迎真实3D足球网游系列，拥有逼真的球员形象，丰富的球员球队养成，快速匹配全球玩家，带给你超拟真绿茵乐趣。">
+		<meta name="Keywords" content="足球之家,FIFA Online4,FIFA Online4官方下载,FIFA下载,足球在线,FIFAOL4,FIFA,3D,足球,网游,体育,世界杯,欧冠,中超,球员,梅西,C罗,内马尔,转会,电子竞技,腾讯,网络游戏">
+		<title>足球之家- FIFA Online 4官方网站 - 腾讯游戏</title>
+		<!--//game.gtimg.cn/images/fo4/cp/a20190823soccer/-->
+		<!-- 页面设计：cp | 页面制作：cp | 创建：2019-08-23-->
+		<style>
+			/*reset*/        
+			body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+			table{border-collapse:collapse;border-spacing:0;}
+			fieldset,img{border:0;}
+			address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+			ol,ul{list-style:none;}
+			caption,th{text-align:left;}
+			h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+			q:before,q:after{content:'';}
+			abbr,acronym{border:0;font-variant:normal;}
+			sup{vertical-align:text-top;}
+			sub{vertical-align:text-bottom;}
+			input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+			input,textarea,select{font-size:100%;}
+			input,a{text-decoration: none; outline: none; color: #FFFFFF;-webkit-appearance: none; -webkit-tap-highlight-color:rgba(255,255,255,0);}
+			.hid{text-indent:-9999px;font-size:0px;overflow:hidden;width:0px;height:0px;display:block;}
+			.hidden{text-indent:-9999px;font-size:0px;}
+			body,button,input,select,textarea{font:12px/1.5 "Microsoft YaHei",Helvetica,\5b8b\4f53,sans-serif;}
+			body{ padding-top: 130px!important;}
+			/*清除浮动*/
+			.clearfix:after,.clearfix:before{content:"";display:table;}
+			.clearfix:after{clear:both;}		
+	        /*foot*/
+			#afooter {position:relative; padding:30px 0; text-align:center; font:normal 12px/19px Tahoma; z-index:10; background-color:#000;}
+			#afooter, #afooter a {color:#c0c0c0; text-decoration:none;}	        
+			/*page*/
+	        body{padding-top:130px !important;min-width:1200px; /*font: 12px/150% tahoma,'\5b8b\4f53',sans-serif;*/}
+	        .bg1,.bg2{min-width:1200px;font-family:"Microsoft YaHei";}
+	        .bg1{ background:url("ossweb-img/p3-bg.jpg") no-repeat 50% 0;}
+	        .bg2{ background:url("ossweb-img/p3-bg01.jpg") no-repeat 50% 0;position: relative;}
+            .header,.wrap2{width: 1200px;margin: 0 auto;position: relative;text-align: center;}
+            .header{height: 611px;}
+            .wrap2{height: 4601px;}						
+			/*logo*/
+			.logos{background: url(ossweb-img/logo.png) no-repeat;width:368px;height:84px;display: block;position: absolute;top: 16px;left: 0px;}
+			.logos a{height: 84px;float: left;}
+			.logos .logo2{padding-right: 8px;width: 192px;}
+			.logos .logo1{width: 168px;}
+			/*links*/
+			.links{width:501px;height:35px;background: url(ossweb-img/links.png) no-repeat;position: absolute;top:28px;right: 0;}
+			.links a{height:35px;display: block;float: left;}
+			.links .btn-fo4{margin-right: 13px;width: 268px;}
+			.links .btn-ffm{width: 220px;}
+			/*nav*/
+			.navspr{background: url(ossweb-img/navspr.png) no-repeat;}
+			.navs{width:1200px;height:122px;position: absolute;top:424px;right: 0;z-index: 9;}
+			.navs a{width:240px;height:122px;float: left;}
+			.navs .btn-rec{background-position: 0 0px;}
+			.navs .btn-act{background-position: -240px 0px;}
+			.navs .btn-cul{background-position: -480px 0px;}
+			.navs .btn-ball{background-position: -720px 0px;}
+			.navs .btn-wel{background-position: -960px 0px;}
+			.navs .btn-rec:hover{background-position: 0 -195px;}
+			.navs .btn-act:hover{background-position: -240px -195px;}
+			.navs .btn-cul:hover{background-position: -480px -195px;}
+			.navs .btn-ball:hover{background-position: -720px -195px;}
+			.navs .btn-wel:hover{background-position: -960px -195px;}
+			.navs .btn-rec.on{background-position: 0 -195px;}
+			.navs .btn-act.on{background-position: -240px -195px;}
+			.navs .btn-cul.on{background-position: -480px -195px;}
+			.navs .btn-ball.on{background-position: -720px -195px;}
+			.navs .btn-wel.on{background-position: -960px -195px;}
+			/*登录*/
+			.login{position: absolute;top: 558px;left: 0; display: block; width: 100%; text-align: center; font-size: 22px;  color: #FFFFFF;z-index: 99; }  
+			.login a{color: #b5da7c;}		
+			/*sprite*/
+			.spr{background: url(ossweb-img/p3-sprite.png) no-repeat;}
+			.date-title.spr,.active-title.spr,.gift-title.spr{width: 1200px;}
+            .date-title.spr{height: 54px;background-position: 0 0;margin-top: 100px;}
+			.active-title.spr{height: 112px;background-position: 0 -86px;}
+			.gift-title.spr{height: 41px;background-position: 0 -228px;}	
+			/*  */
+			.cont-bg{width: 100%; height: 418px;padding-top: 300px; background: url(ossweb-img/p3-cont-bg.png) no-repeat 50% 0;position: absolute;top: -260px;left: 0;}
+
+			/*date*/			
+			.date{height: 650px;}
+			.date-cont{width: 1050px;margin: 0 auto; padding-left: 50px; text-align: left; font-size: 18px;color: #b5460f;line-height: 26px;margin-bottom: 10px;}
+			.date-cont.cont1{padding-top: 30px;}
+            .date-btn{width: 1019px;height: 285px;background: url(ossweb-img/p3-date-btn.png) no-repeat;margin: 30px auto 0;position: relative;}
+			.date-btn a{float: left;width: 252px;height: 285px;background-repeat:no-repeat;}
+			.date-btn .btn1{background-position: 0 0px;}
+			.date-btn .btn2{background-position: -252px 0px;}
+			.date-btn .btn3{background-position: -504px 0;}
+			.date-btn .btn4{background-position: -756px 0;}
+			.date-btn a:hover{background-image: url(ossweb-img/p3-date-btn1.png);}
+            /*active*/
+            .active{width: 1200px;height: 1420px;position: relative;}
+            .active .people{background: url(ossweb-img/p3-people.png) no-repeat;width: 383px;height: 814px;position: absolute;top: 174px;right: -80px;}
+            .active .bg-road{background: url(ossweb-img/p3-road.png) no-repeat;width: 1920px;height: 1084px;position: absolute;top: 332px;left: -360px;}
+            .active .team-box{width: 868px;height: 388px;margin: 0 auto;padding-top: 18px;}
+            .active .team-box li{float:left}
+            .active .team-box .team{background: url(ossweb-img/p3-team-bg.png) no-repeat;width: 298px;height: 322px;}
+            .active .team-box .cheer-box{width: 272px;height: 330px;}
+            .active .team-box .team img{margin: 50px 0 54px;}
+            .active .team-box .team p{color: #125116;font-size: 24px;line-height: 42px;}
+            .active .team-box .cheer-box img{margin: 58px 0 42px;}
+		    .active .team-box .cheer-box a{background: url(ossweb-img/p3-team-btn.png) no-repeat;width: 221px;height: 74px;margin: 0 auto;display: block;animation: light 1.4s linear infinite;}
+		    .cheer-inner{position: relative;}
+			.cheer-inner p{font-size: 16px;color: #fff;}
+			.cheer-inner .span1 p{width: 256px;text-align: left;margin: 0 auto;padding-top: 258px;}
+			.cheer-inner .span2 p{width: 202px;text-align: left;margin: 0 auto;padding: 20px 0 0 290px;}
+			.cheer-inner .span3 p{width: 256px;text-align: left;margin: 0 auto;padding: 255px 0 0 0;}
+			.cheer-inner .span4 p{width: 256px;text-align: left;margin: 0 auto;padding: 255px 0 0 0;}
+			.cheer-inner .span5 p{width: 272px;text-align: left;margin: 0 auto;padding: 7px 0 0 0;}
+			.cheer-inner .span1{display: block; width: 290px;height: 314px;background: url(ossweb-img/p3-active1.png) no-repeat;position: absolute;top: 16px;left: 20px;}
+			.cheer-inner .span2{display: block; width: 517px;height: 265px;background: url(ossweb-img/p3-active2.png) no-repeat;position: absolute;top: -18px;left: 360px;}
+		    .cheer-inner .span3{display: block; width: 290px;height: 361px;background: url(ossweb-img/p3-active3.png) no-repeat;position: absolute;top: 120px;left: 885px;}
+		    .cheer-inner .span4{display: block; width: 290px;height: 315px;background: url(ossweb-img/p3-active4.png) no-repeat;position: absolute;top: 435px;left: 570px;} 
+		    .cheer-inner .span5{display: block; width: 290px;height: 329px;background: url(ossweb-img/p3-active5.png) no-repeat;position: absolute;top: 395px;left: 220px;} 
+			/*gift*/
+			.culture{font-size: 18px;width: 1106px;margin: 0 auto;padding-top: 36px;}
+            .culture li{position: relative;text-align: left;margin-left: 50px;}
+            .culture li span{background: url(ossweb-img/p3-li.png) no-repeat;width: 21px;height: 21px;position: absolute;top: 2px;left: -32px;}
+            .culture .part1{color: #134826;padding-bottom: 18px;}
+            .culture .part2{width: 1100px;height: 1768px;margin: 0 auto;text-align: center;}
+            .title{margin: 98px auto 16px;}
+            .title1{background: url(ossweb-img/p3-gift-title1.png) no-repeat;width: 203px;height: 73px;}
+            .title2{background: url(ossweb-img/p3-gift-title2.png) no-repeat;width:194px;height: 75px;}
+            .title3{background: url(ossweb-img/p3-gift-title3.png) no-repeat;width:152px;height: 75px;}
+            .title4{background: url(ossweb-img/p3-gift-title4.png) no-repeat;width: 178px;height: 74px;}
+            .culture li .gift-box{display: inline-block;*display:inline;*zoom:1;vertical-align:top;}
+            .culture li .gift-box1{background: url(ossweb-img/p3-gift-bg1.png) no-repeat;width: 539px;height: 908px;margin-top: 42px;}
+            .culture li .gift-box2{background: url(ossweb-img/p3-gift-bg2.png) no-repeat;width: 544px;height: 905px;margin-top: 40px;}
+            .culture li .gift-box3{background: url(ossweb-img/p3-gift-bg3.png) no-repeat;width: 539px;height: 708px;margin-top: 48px;}
+            .culture li .gift-box4{background: url(ossweb-img/p3-gift-bg4.png) no-repeat;width: 544px;height: 704px;margin-top: 46px;}
+            .culture li .gift-box1 img{margin-bottom: 12px;}
+            .culture li .gift-box2 img{margin-bottom: 18px;}
+            .culture .part2 .img-desc{color: #854c1f;}
+            .culture li .gift-box3 .img-desc,.culture li .gift-box4 .img-desc{text-align: left;}
+            .culture li .gift-box3 .img-desc{position: relative;top: -20px;left: 0;margin-left: 54px;width: 90%;}
+            .culture li .gift-box4 .img-desc{position: relative;top: -34px;left: 0;margin-left: 66px;width: 88%;}
+            .culture .part3{color: #ab6a1d;padding-bottom: 28px;}
+            
+
+
+
+            /*弹窗*/
+			.dia .dia-close{background: url(ossweb-img/close.png) no-repeat;width: 52px;height: 50px;position: absolute;top: 0;right: -80px;}
+			.dia1{width: 800px;height: 600px;position: relative;}				
+			.dia2{background: url(ossweb-img/bg-tc.png) no-repeat;width: 755px;height: 587px;position: relative;}
+			.dia2 .expect{width: 755px;height: 470px;text-align: center;padding-top: 32px;}
+			.dia2 .tc-logo{background: url(ossweb-img/tc-logo.png) no-repeat;width: 306px;height: 49px;    margin-left: 235px;}
+			.dia2 .tc-logo a{width: 142px;height:49px;float: left;}
+			.dia2 .tc-logo .logo2{padding-right: 12px;width: 152px;}
+			.dia2 .expect img{padding-top: 204px;padding-left: 27px;}
+			.dia2 .dia-close{position: absolute;top: 0;right: -40px;}
+			@keyframes light{
+				0%{transform: scale(1);opacity: 0.9;}
+				50%{transform: scale(1.1);opacity: 1;}
+				100%{transform: scale(1);opacity: 0.9;}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="bg1">
+            <h1 class="hid">足球之家</h1>
+			<div class="header">
+					<div class="logos">
+						<a class="logo2 hidden" title="FIFA Online 4" href="//fo4.qq.com/main.shtml" target="_blank" onclick="PTTSendClick('btn', 'go', 'FIFA Online 4');">FIFA Online 4</a>
+						<a class="logo1 hidden" title="FIFA 足球世界" href="//ffm.qq.com/main.html" target="_blank" onclick="PTTSendClick('btn', 'go', '足球世界');">足球世界</a>
+						
+					</div>
+					<div class="links">
+						<a class="btn-fo4" href="//fo4.qq.com/main.shtml" title="进入FO4官网" target="_blank" onclick="PTTSendClick('btn','btn-fo4','进入FO4官网')"></a>
+						<a class="btn-ffm" href="//ffm.qq.com/main.html" title="进入FFM官网" target="_blank" onclick="PTTSendClick('btn','btn-ffm','进入FFM官网')"></a>
+					</div>
+					<div class="navs">
+						<a class="btn-rec navspr" href="index.html" title="球迷大数据" onclick="PTTSendClick('btn','btn-rec','球迷大数据')"></a>
+						<a class="btn-act navspr" href="page2.html" title="活动专区" onclick="PTTSendClick('btn','btn-act','活动专区')"></a>
+						<a class="btn-cul navspr on" href="javascript:;" title="足球文化之旅" onclick="PTTSendClick('btn','btn-cul','足球文化之旅')"></a>
+						<a class="btn-ball navspr" href="page4.html" title="球星专区" onclick="PTTSendClick('btn','btn-ball','球星专区')"></a>
+						<a class="btn-wel navspr" href="javascript:TGDialogS(dia2);" title="福利中心" onclick="PTTSendClick('btn','btn-wel','福利中心')"></a>
+					</div>
+					<!--登陆组件,一般在第一个切图中-->
+					<div class="login" style="display: none;">
+					    <p id="unlogin" style="display: block;"> 亲爱的用户，请<a href="javascript:;" id="dologin">【登录】</a></p>
+					    <p id="logined" style="display:none">欢迎您，<span id="login_qq_span"></span>，
+					        <span id="spanNotBind_525639">
+					           <a href="javascript:amsInit(178183, 525638);">【绑定大区】</a>
+					        </span>
+					        <span id="spanBind_525639" style="display:none">
+					           <span id="area_info_525639"></span>
+					           <span id="role_info_525639"></span>
+					           <a href="javascript:amsInit(178183, 525638);">【更改绑定】</a>
+					        </span>
+					        <a href="javascript:;" id="dologout">【注销】</a>
+					    </p>
+					</div>
+			</div>
+		</div>
+		<div class="bg2">
+			<div class="cont-bg"></div>
+			<div class="wrap2">
+				<div class="date">
+					<p class="date-cont cont1">每一个热爱足球的人，是否都梦想着能亲临球场为自己的主队呐喊助威，每一个热爱足球的人，是否都梦想能朝圣每一座足球名<br>城，探寻足球传奇曾经的足迹？</p>
+					<p class="date-cont">FIFA品类足球文化之旅旨在为广大球迷提供现场助威欧洲顶级足球赛事、探访足球名城，零距离接触足球名宿的平台，通过精品小<br>众化定制路线，独家球星资源，多样福利活动和贴心的服务体系让每一个热爱足球的人感受足球魅力，探寻足球文化。</p>
+					<p class="date-title spr hid">观赛日历</p>
+					<div class="date-btn">
+						<a class="btn1" href="page3.html" onclick="PTTSendClick('btn','btn1','曼彻斯特')"></a>
+						<a class="btn2" href="javascript:alert('敬请期待！')"  onclick="PTTSendClick('btn','btn2','巴塞罗那')"></a>
+						<a class="btn3" href="javascript:alert('敬请期待！')"  onclick="PTTSendClick('btn','btn3','巴塞罗那')"></a>
+						<a class="btn4" href="javascript:alert('敬请期待！')"  onclick="PTTSendClick('btn','btn4','伦敦')"></a>
+					</div>
+				</div>
+				<div class="active">
+					<p class="active-title spr hid">YoYo领队相约名宿里瑟  助威英超双红会</p>
+					<ul class="team-box">
+						<li class="team">
+							<img src="ossweb-img/p3-team1.png" width="152" height="152"alt="曼联"/>
+							<p>曼联</p>
+						</li>
+						<li class="cheer-box">
+							<img src="ossweb-img/p3-team-vs.png" width="149" height="132"alt="时间"/>
+							<a class="Cheer" href="//mp.bcvbw.com/trip/travel-detail/index/index.html"onclick="PTTSendClick('btn','Cheer','报名现场助威')"></a>
+						</li>
+						<li class="team">
+							<img src="ossweb-img/p3-team2.png" width="152" height="152"alt="利物浦"/>
+							<p>利物浦</p>
+						</li>
+					</ul>
+					<p class="people"></p>
+					<p class="bg-road"></p>
+					<div class="cheer-inner">
+						<span class="span1">
+							<p>
+								从报名玩家所在城市飞往英国足球名<br>城曼彻斯特
+							</p>
+						</span>
+						<span class="span2">
+							<p>
+								游览曼彻斯特大学、<br>足球博物馆等景点<br><br>现场观赛【曼联vs利物浦】<br>前往著名的曼联92班酒店<br>HOTEL FOOTBALL餐厅就餐<br>
+							</p>
+						</span>
+						<span class="span3">
+							<p>
+								游览老特拉福德球场博物馆和利物浦<br>名宿里瑟面对面，零距离交流<br>(据场地和天气情况或踢球或冷餐会<br>等活动)
+							</p>
+						</span>
+						<span class="span4">
+							<p>
+								游览安菲尔德球场博物馆<br>利物浦博物馆、品尝英式下午茶
+							</p>
+						</span>
+						<span class="span5">
+							<p>
+								结束英超足球文化之旅，搭乘航班返回<br>国内
+							</p>
+						</span>
+					</div>
+				</div>				
+				<div class="gift">
+					<p class="gift-title spr hid">足球文化之旅项目介绍</p>
+					<ul class="culture">
+						<li class="part1">
+							<span></span>现场助威五大联赛，零距离接触足球名宿，感受足球魅力，探寻足球文化；精品小众化定制路线，精心打造足球主题文化之旅；
+						</li>
+						<li class="part1">
+							<span></span>英超足球文化之旅时间2019年10月18日~2019年10月23日，报名截止时间2019年9月18日；将与利物浦传奇球星里瑟面对面互动，并现场助威英超双红会对决；
+   
+						</li>
+						<li class="part1">
+							<span></span>前10名报名并选择FIFA ONLINE 4礼包套餐并成功支付的玩家，将获得价值2万元的【FIFA ONLINE 4助威双红会限定礼包】一份；前10名报名选择FIFA足球世界礼包套餐并成功支付的玩家，将获得价值2万元的【FIFA足球世界助威双红会观赛限定礼包】一份。礼包将在玩家实际行程结束后发放；
+						</li>
+						<li class="part1">
+							<span></span>两人同行，一人减免签证费用，并赠送限量精美周边；
+						</li>
+						<li class="part1">
+							<span></span>赠送尊享俱乐部定级积分1,000,000积分 消耗积分1,000,000分，等同于充值10,000元所获积分；
+						</li>
+						<li class="part1">
+							<span></span>获得FIFA 品类2019年~2020年任意线下活动入场券，与国际一线巨星面对面，近距离观看最高水平FIFA赛事（限国内赛事及活动）
+						</li>
+						<li class="part1">
+							<span></span>尊享专人拍摄套餐，你的VLOG将在FIFA ONLINE 4,FIFA足球世界公众号、微博推广。
+						</li>
+						<li class="part2">
+							<div class="gift-box1 gift-box">
+								<p class="title1 title"></p>
+								<img src="ossweb-img/p3-gift-img1.png" width="349" height="295" />
+								<p class="img-desc">
+									19世界传奇卡卡球员包*1 <br />19世界传奇球员包*5<br />欧洲传奇球员包（5强）*2<br />HOT/TC/GR全赛季5强球员包}<br />（90能力值及以上）*3<br />TC赛季1名指定球员包（7强）*1<br />100亿BP
+								</p>
+							</div>
+							<div class="gift-box2 gift-box">
+								<p class="title2 title"></p>
+								<img src="ossweb-img/p3-gift-img2.png" width="373" height="280" />
+								<p class="img-desc">
+									传奇阵容11人<br />前锋 至尊 亨利<br />右边锋 普传 罗纳尔迪尼奥<br />左边锋 奥维马斯<br />中前卫 至尊 古利特<br />中前卫 至尊 巴拉克<br />后腰 普传 维埃拉<br />中卫 至尊 德塞利<br />中卫 普传 坎贝尔右<br />后卫 普传 普约尔<br />左后卫 普传 卡洛斯<br />门将 至尊 范德萨
+								</p>
+							</div>
+							<div class="gift-box3 gift-box">
+								<p class="title3 title"></p>
+								<img src="ossweb-img/p3-gift-img3.png" width="211" height="310" />
+								<p class="img-desc">
+									足球文化之旅提供与传奇球星，利物浦名宿里瑟零距离<br />互动，面对面交流的独家机会，根据场地和天气情况，还<br />将与球星进行友谊赛或冷餐会等活动。
+								</p>
+							</div>
+							<div class="gift-box4 gift-box">
+								<p class="title4 title"></p>
+								<img src="ossweb-img/p3-gift-img4.png" width="144" height="326" />
+								<p class="img-desc">
+									FIFA知名美女主播裴优将担任足球文化之旅领队，全程<br />带队和玩家共同现场助威双红会，深度探访足球名城曼<br />彻斯特、利物浦，感受足球带来的热情澎湃，领略足球<br />圣地的风土人情。
+								</p>
+							</div>
+						</li>
+						<li class="part3">
+							<span></span>在本次旅游中，腾讯公司仅提供报名宣传，本身不提供具体的旅游服务，且不与您签订任何相关协议；报名相关行为将由本页面跳转至旅游公司后发生；参加本次旅游所发生的费用均由您自行承担，本次旅游服务由该旅游公司向您提供。报名后您将与旅游公司签署协议，有关本次旅游服务的任何咨询或投诉以及您在享受本次旅游服务过程中的人身、财产安全均由该旅游公司负责。
+						</li>
+						<li class="part3">
+							<span></span>如该旅游公司提供的旅游服务不符合附件行程单要求、中国大陆地区法律法规及政策规定，或您在享受本次旅游服务过程中受到人身伤亡、财产损失的，也均由该旅游公司负责解决和赔偿，腾讯公司对此也不承担任何责任。
+						</li>
+						<li class="part3">
+							<span></span>您应遵守相关法律法规及政策并尊重当地的风俗，如您在本次旅游过程中给该旅游公司或其他任何第三方造成损失的，均由您自行承担，如因此造成腾讯公司损失的，您应予赔偿。
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>	
+		
+		<!--敬请期待-->
+	    <div class="dia dia2" id="dia2" style="display:none">
+	        <div class="expect">
+	        	<div class="tc-logo">
+	        		<a class="logo2 hidden" title="FIFA Online 4" href="//fo4.qq.com/main.shtml" target="_blank" onclick="PTTSendClick('btn', 'go', 'FIFA Online 4');">FIFA Online 4</a>
+	        		<a class="logo1 hidden" title="FIFA 足球世界" href="//ffm.qq.com/main.html" target="_blank" onclick="PTTSendClick('btn', 'go', '足球世界');">足球世界</a>
+					
+	        	</div>
+	        	<img src="ossweb-img/expect.png" width="411" height="147" />
+	        </div>
+	        <a class="spr dia-close" href="javascript:showDialog.hide()" title="关闭"></a>
+	    </div>
+	    
+		<!--登录-->
+		<script src="//ossweb-img.qq.com/images/js/milo_bundle/milo.js"></script>
+		 <!--IEG通用头部-->
+	 	<script src="//ossweb-img.qq.com/images/js/title.js"></script>
+		<!--IEG通用底部-->
+		<script id="afooter" src="//game.gtimg.cn/images/js/2018foot/foot.js"></script>
+		<!--引入jQuery-->
+		<script src="//ossweb-img.qq.com/images/js/jquery/jquery-1.11.1.min.js"></script>
+		<!--fo4通用头部-->
+		<script src="//game.gtimg.cn/images/fo4/act/a20190424top/actnav.js"></script>
+		<!--视频-->
+		<script src='//vm.gtimg.cn/tencentvideo/txp/js/txplayer.js'></script>
+		<script>
+			//登录start
+			milo.addEvent(g("dologin"), "click", function() {
+			  	need("biz.login", function(LoginManager){
+			        LoginManager.init({
+			            needReloadPage : true
+			        });
+			      	LoginManager.login();
+			  	});
+			  	return false;
+			});
+			milo.addEvent(g("dologout"), "click", function() {
+			  	need("biz.login", function(LoginManager){
+			     	LoginManager.logout();
+			  	});
+			 	return false;
+			});
+			 milo.ready(function() {
+			  	need("biz.login", function(LoginManager){
+			        LoginManager.checkLogin(function(){
+			            g("login_qq_span").innerText=LoginManager.getUserUin();//获取QQ号
+			                amsInit(178183, 525639);
+			        });
+			    });
+			});
+			//登录end
+
+		
+
+
+
+
+
+
+			//弹窗start
+			function TGDialogS(e){
+			    // 利用milo库引入dialog组件
+			    need("biz.dialog",function(Dialog){
+			        Dialog.show({
+			            id:e,
+			            bgcolor:'#000', //弹出“遮罩”的颜色，格式为"#FF6600"，可修改，默认为"#fff"
+			            opacity:60 //弹出“遮罩”的透明度，格式为｛10-100｝，可选
+			            
+			        });
+			    });
+			}
+			function closeDialog(){
+			  // 利用milo库引入dialog组件
+			  need("biz.dialog",function(Dialog){
+			          Dialog.hide();
+			      });
+			  }
+//			弹窗end
+		</script>
+		
+
+
+       
+         <!--通用统计代码-->
+		<script src="//ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js"></script>
+		<script>
+			//此段代码不能放到外链JS中，
+			var setSite={ //设置网站属性 
+			    siteType:"a20190823soccer", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+			    pageType:"足球文化之旅", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN,不支持点(.)、下划线(_)
+			    pageName:"page3", //必填项:页面中文名 
+			    project:"other", //选填项:如果是官网模块则是必填;按照模块内容，填写固定的对应值;原生官网base;微社区ingame;同人站doujin;赛事match;故事站story;文化站history;粉丝站fans;爆料站coming;论坛bbs;皮肤skin;默认other;
+			    osact:0 //选填项:默认是0。osact=0表示非官网专题；osact=pc表示pc官网/pc官网专题；osact=m表示移动官网/移动官网专题；osact=ingame表示微社区/微社区专题
+			};
+			if(typeof(pgvMain)=='function')pgvMain();//千万不能忘记！
+		</script>
+	</body>
+</html>
