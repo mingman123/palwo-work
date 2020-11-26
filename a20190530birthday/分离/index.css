@@ -1,0 +1,175 @@
+/*reset*/
+	body,dl,dd,ul,ol,h1,h2,h3,h4,h5,h6,p,form,header,section,article,footer{margin:0;}
+	body,button,input,select,textarea{font:12px/1.5 tahoma,'\5FAE\8F6F\96C5\9ED1',sans-serif}
+	html{box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;}
+	*,*:after,*:before{box-sizing: inherit;-moz-box-sizing: inherit;-webkit-box-sizing: inherit;}
+	h1,h2,h3,h4,h5,h6{font-size:100%}
+	em,b{font-style:normal}
+	a{text-decoration:none} 
+	a:hover{text-decoration:none}
+	img{border:0}
+	ul,li{ list-style: none;}
+	button,input,select,textarea{font-size:100%;outline:none}
+	table{border-collapse:collapse;border-spacing:0}
+	td,th,ul,ol{padding:0}
+	html,body{ width: 100%;background-color: #0e0e0e;}
+	html{box-sizing: border-box;}
+	.hid{text-indent:-9999px;font-size:0px;overflow:hidden;width:0px;height:0px;display:block}
+ 	.spr{background:url(//game.gtimg.cn/images/actdaoju/act/a20190530birthday/spr.png) no-repeat;}
+	.wrap{width: 100%;height: auto;font-family:'\5FAE\8F6F\96C5\9ED1';}
+	.clearfix:after,.clearfix:before{content: "";display: table;}
+	.clearfix:after{clear: both;}
+	.clearfix{*zoom: 1;}
+	body{padding-top: 42px !important;}
+	.content1{min-width: 1200px; height: 942px; background: url(//game.gtimg.cn/images/actdaoju/act/a20190530birthday/bg1.jpg) no-repeat 50% 0;overflow: hidden;}
+	.cont1{position: relative; width: 1200px; height: 942px; background: url(//game.gtimg.cn/images/actdaoju/act/a20190530birthday/bgs1.jpg) no-repeat; margin: 0 auto;overflow: hidden;}
+	.logo-box{height:45px;width:427px;position:absolute; top: 36px; left: 95px;background-position:0 -1279px;}
+	.logo-box a{display: block;float: left;height: 50px;}
+	.logo-box a.logo{width: 217px;}
+	.logo-box a.logo-djc{ width: 155px;margin-right:43px;}
+	.login-box{position: absolute;top: 884px;left: 518px;width: 100%; color: #fff; font-size: 24px; }
+	.login-box a{color: #ee614b;}
+	.act-time{width:383px;height: 70px;position: absolute;top: 842px;left: 410px;font-size: 24px;line-height: 34px;color: #fff;}
+	/* .logo-djc{position:absolute;top:34px;left:585px;width: 124px;height: 45px;} */
+
+
+	/*5月生日礼包*/
+	.content2{min-width: 1200px; height: 3380px; background: url(//game.gtimg.cn/images/actdaoju/act/a20190530birthday/bg2.jpg) no-repeat 50% 0;overflow: hidden;}
+	.cont2{position:relative; width: 1200px; height: 3380px; background: url(//game.gtimg.cn/images/actdaoju/act/a20190530birthday/bgs2.jpg) no-repeat; margin: 0 auto;overflow: visible;}	
+	.gifBox{position:relative; width: 1200px; height: 656px; padding-top: 22px;}
+	.prop-box1{width: 1200px; height: 280px; overflow: hidden; margin: 0 auto; position: relative; }
+	.prop-box1 li{height:280px;width:208px;float: left; margin-right: 40px;background-position:0 -80px;}
+	.prop-box1 li.last{margin-right: 0;}
+	.prop-box1 li .num{width: 100%;color: #ffe9b2;text-align: center;padding-top: 32px;font-size: 20px;}
+	.prop-box1 li img{display: block;margin: 10px auto 0; }
+	.prop-txt1{width: 100%; height:66px;font-size:16px; color: #fff; text-align: center; display: table;padding-right: 8px;}
+	.prop-txt1 span{display: table-cell;width: 100%; height: 66px;vertical-align: middle;}
+	.btn{display: block;height:114px;width:294px;margin: 40px auto 0;}
+	.btn.btn-get{background-position:0 -1628px;}
+	.btn.btn-get:hover{
+		-webkit-filter:brightness(1.1);
+		-o-filter:brightness(1.1);
+		-moz-filter:brightness(1.1);
+		filter:brightness(1.1);
+	}
+	.btn.btn-got{height:114px;width:294px;background-position:-428px -1628px;}
+	 
+	 /*神秘折扣专区*/
+	.discountBox{position:relative; width: 1200px; height: 1462px;}
+	.countdown{width:100%; height:98px; line-height:98px; font-size: 24px; color: #fff; text-align: center;}
+	.countdown em{font-weight:bold; color:#fff;}
+	.discountBox .btn-discount{margin-left:212px;display: inline-block; height:83px;width:320px;background-position:-26px -886px;font-size:30px; color: #fff; line-height: 74px; text-align: center;}
+	.discountBox .btn-discount:hover{
+		-webkit-filter:brightness(1.1);
+		-o-filter:brightness(1.1);
+		-moz-filter:brightness(1.1);
+		filter:brightness(1.1);
+	}
+	.discountBox .btn-discount.on{ background-position: 0 -785px;color: #3e3e3e;}
+	.discountBox .btn-record{display: inline-block; font-size:26px;margin-left:106px; color:#925d2a;height:83px;width:320px;background-position:-360px -888px;line-height: 83px; text-align: center;}
+	.discountBox .btn-record:hover{font-weight: bold;background-position:-366px -990px;height:83px;width:320px;}
+	.discountBox .refresh{width:1200px; height:92px;  font-size:20px; color:#fff3e4; line-height:92px; text-align:center;}
+	.discountBox .prop-box2{width:1137px; height:1068px; margin:0 auto;}
+	.prop-box2 li{position:relative; width:347px; height:534px; float:left; margin:0 16px; background:url(//game.gtimg.cn/images/actdaoju/act/a20190530birthday/bg-prop2.png) no-repeat top center; }
+	.prop-box2 li img{display: block;margin: 0 auto;}
+	.prop-box2 li:hover .fluid-txt{display:block;}   
+    .prop-box2 .fluid-txt{display:none;position:absolute;left:50%; margin-left:-204px; top:-236px; height:227px;width:391px;background-position:0 -643px;z-index: 1;}
+    .prop-box2 .fluid-wraper{position:relative;display: table;width:100%;height:138px; }
+    .prop-box2 .fluid-inner{margin-top: 20px; *position:absolute; *top:50%; *left:50%; width:100%;height:227px;color:#ffecd6;font-size:18px; text-align:center;display: table-cell;vertical-align: middle;}
+	.prop-box2 .fluid-inner p{position:relative; *top:-50%; *left:-50%;line-height:30px;}
+	.prop-box2 .prop-txt2{width: 85%; height:42px; margin: 0 auto; line-height: 24px; text-align: center; font-size: 16px;font-weight: 600; color: #fff;overflow:hidden;position: relative;top: -16px;left: 0;} 
+	.prop-box2 .price{width: 100%; height: 70px; margin:0 auto; text-align:center;}
+	.prop-box2 .original-price{float: right; width: 44%; height: 70px; line-height:40px; font-size: 16px;font-weight: 600;color: #f6c161; margin-right: 4px;text-align: right;}
+	.prop-box2 .current-price{float: right; width: 50%; height:70px; line-height:36px; font-size: 20px;font-weight: 600; color: #f6c160;margin-left: 4px;text-align: left;}	
+	.prop-box2 .current-price span{color: #ffe951;}
+	.prop-box2 .current-price strong{color: #ffe951;font-size:20px;}
+	.prop-box2 .btn1{margin: 50px auto 0; display: block; height:82px;width:210px;}
+	.prop-box2 .btn-buy{background-position:0 -362px;}
+	.prop-box2 .btn-buy:hover{
+		-webkit-filter:brightness(1.1);
+		-o-filter:brightness(1.1);
+		-moz-filter:brightness(1.1);
+		filter:brightness(1.1);
+	}
+	.prop-box2 .btn-bought{background-position:-224px -362px;}
+	
+	/*每日惊喜大礼*/
+	.surpriseBox{width: 1200px; height: 776px;}
+	.prop-box3{position:relative; width: 1090px; height: 490px; margin:0 auto;}
+	.prop-box3 li{position:relative; float:left; width: 513px; height:470px;  background:url(//game.gtimg.cn/images/actdaoju/act/a20190530birthday/bg-prop3.png) no-repeat top center;}
+	.prop-box3 li.li-1{margin-right: 64px;}
+	.prop-box3 li:hover .fluid-txt{display:block;}
+    .prop-box3 .fluid-txt{display:none;position:absolute;left:50%; margin-left:-194px; top:-234px; height:227px;width:391px;background-position:0 -643px;z-index: 1;}
+    .prop-box3 .fluid-wraper{position:relative;display: table;width:100%;height:227px; }
+    .prop-box3 .fluid-inner{*position:absolute; *top:50%; *left:50%; width:100%;color:#ffecd6;font-size:18px; text-align:center;display: table-cell;vertical-align: middle;}
+    .prop-box3 .fluid-inner p{position:relative; *top:-50%; *left:-50%;line-height:30px;}
+	.prop-box3 li .discount{height:148px;width:113px;background-position:-165px -472px; position: absolute;top: 20px;left: 20px;}
+	.prop-box3 li.li-1 .discount{background-position:-13px -473px;}
+	.prop-box3 li img{display: block;margin: 0 auto;}
+	.prop-box3 .txt-lb{width: 85%; height:42px; margin:0 auto; line-height: 24px; text-align: center; font-size: 16px;font-weight: 600; color: #fff;overflow:hidden;position: relative;top: -16px;left: 0;} 
+	.prop-box3 .price{width: 100%; height: 70px; margin:0 auto; text-align:center;}
+	.prop-box3 .original-price{float: right; width: 44%; height: 70px; line-height:40px; font-size: 16px;font-weight: 600;color: #f6c161; margin-right: 8px;text-align: right;}
+	.prop-box3 .current-price{float: right; width: 50%; height:70px; line-height:36px; font-size: 20px;font-weight: 600; color: #f6c160;margin-left: 8px;text-align: left;}	
+	.prop-box3 .current-price span{color: #ffe951;}
+	.prop-box3 .current-price strong{color: #ffe951;font-size: 20px;}
+	
+	/*.prop-box3  .price{width: 100%; height: auto; margin:0 auto; text-align:center;}
+	.prop-box3  .original-price{width: 100%; height: 31px; line-height:28px; font-size: 16px; color: #684509; text-decoration:line-through;text-align: center;}
+	.prop-box3  .current-price{width: 100%;height:40px; line-height:55px; font-size: 20px; color: #926a13; text-align: center;margin-top: 50px;font-weight: bold;}*/
+	.prop-box3 .btn1{margin: 50px auto 0; display: block; height:82px;width:210px;}
+	.prop-box3 .btn1.btn-buy2{background-position:0 -362px;}
+	.prop-box3 .btn1.btn-buy2:hover{
+		-webkit-filter:brightness(1.1);
+		-o-filter:brightness(1.1);
+		-moz-filter:brightness(1.1);
+		filter:brightness(1.1);
+	}
+	.prop-box3 .btn1.btn-buy2on{background-position:-224px -362px;}
+	
+	/*活动规则*/
+	.ruleBox{width: 1200px; height: 472px; }
+	.rule-box {width: 90%; margin: 28px auto;}
+	.rule-box li{width: 100%;}
+	.rule-box span{display: block;height:16px;width:16px;float: left;margin: 12px 0 0 12px;border-radius: 50%;border: 1px solid #8e7034;line-height: 14px;text-align: center;color: #8e7034;}
+	.rule-box p{width:96%;float: left;margin-left: 6px; font-size: 16px; line-height: 40px; color: #8e7034;} 
+	
+	/*title*/
+	.title{height:94px;width:518px;margin: 0 auto;}
+	.title.title-1{background-position:0 -1328px;margin: 0 auto 40px;}
+	.title.title-2{background-position:0 -1430px;}
+	.title.title-3{background-position:0 -1529px;margin: 0 auto 73px;}
+	.title.title-4{height:34px;width:138px;background-position:0 -1232px;margin-left: 60px;}
+
+	
+	/*道具城二维码*/
+	.sid {
+	    width: 208px;
+	    height: 208px;
+	    background: url(//game.gtimg.cn/images/actdaoju/act/a20190530birthday/bg-ewm.png) no-repeat;
+	    position: fixed;
+	    top: 250px;
+	    right: 138px;
+	    z-index: 99;
+	}
+	.sid p{    font-size: 20px; color: #8a3614; line-height: 22px; text-align: center;padding: 20px 14px;}
+	.sid img{ width: 200px;height: 200px;display: block;margin: 4px auto;}
+	.sid-btn2 {width: 41px; height: 41px; display: block; position: absolute; top:0; right:-50px; background:url(//game.gtimg.cn/images/actdaoju/act/a20190530birthday/btn-close.png) no-repeat; }
+
+	
+	/*afooter*/
+	#afooter{text-align:center; line-height:20px;color: #9a9a9a;background-color: #0e0e0e;padding: 20px 0;}
+	#afooter a{ color: #9a9a9a;}
+	body{padding-top: 45px;}
+	.dialog1{width: 800px; position: relative;background: #f4f5fa;}
+	.dia-close{height:80px;width:80px;background-position:0 0; display: block; position: absolute; top: 0; right: -80px; }
+	.dialog1 .dia-s1{font-size: 24px; color: #fff; line-height: 80px; height: 80px; text-align: center; background: #e6b75b}
+	.dialog1 .dia-con{padding: 0 0;}
+	.dialog1 .tab{width: 750px; margin: 0 auto;}
+	.dialog1 .tab tr th{line-height: 60px; font-size: 16px; color: #333; height: 60px; text-align: center; font-weight: bold; border-bottom: solid 1px #d5d7df;}
+	.dialog1 .tab tr td{font-size: 16px; color: #333; line-height: 36px; text-align: center;}
+	.dialog1 .tab tfoot tr td{height: 60px; line-height: 60px; font-size: 16px;}
+	.dialog1 .tab input{width: 44px; height: 24px; border: solid 1px #fff; background: #365bad; text-align: center; color: #fff}
+	.dialog1 .tab a{color: #333; text-decoration: underline; margin: 0 10px;}
+	
+	
+	
