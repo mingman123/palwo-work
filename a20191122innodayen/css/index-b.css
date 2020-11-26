@@ -1,0 +1,141 @@
+/* reset */
+body,dl,dd,ul,ol,h1,h2,h3,h4,h5,h6,p,form,header,section,article,footer{margin:0;}
+body,button,input,select,textarea{font:12px/1.5 tahoma,'\5FAE\8F6F\96C5\9ED1',sans-serif; font-family: '\5FAE\8F6F\96C5\9ED1';}
+h1,h2,h3,h4,h5,h6{font-size:100%}
+em,b{font-style:normal}
+a{text-decoration:none; outline: none;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);} 
+a:hover{text-decoration:none; filter:brightness(1.2);}
+img{border:0} 
+button,input,select,textarea{font-size:100%;outline:none}
+video{outline:none}
+table{border-collapse:collapse;border-spacing:0}
+td,th,ul,ol{padding:0;list-style: none;}
+body {background: #202020;}
+iframe {display: block}
+div,a,img{outline: none;}
+.hidden{display: none; font-size: 0; text-indent: -999em;}
+html.body{position: relative; max-width: 1024px; min-width: 880px; font-family: 'OPPOSansM';}
+/*body::-webkit-scrollbar {display:none}*/
+.clearfix:after {visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
+.clearfix{*zoom:1;}
+/*.pac{display: block; position: absolute;top: 50%;left: 50%; -webkit-transform: translate(-50%,-50%);-ms-transform: translate(-50%,-50%);transform: translate(-50%,-50%);}*/
+/*.wrap{max-width: 1024px; min-width: 880px; margin: 0 auto; position: relative; text-align: center; height: 32000px;}*/
+@font-face {
+  font-family: "OPPOSansB";
+  src: url("//assorted.downloads.oppo.com/static/assets/fonts/OPPOSans/OPPOSans-Bold.ttf");
+}
+@font-face {
+  font-family: "OPPOSansH";
+  src: url("//assorted.downloads.oppo.com/static/assets/fonts/OPPOSans/OPPOSans-Heavy.ttf");
+}
+@font-face {
+  font-family: "OPPOSansM";
+  src: url("//assorted.downloads.oppo.com/static/assets/fonts/OPPOSans/OPPOSans-Medium.ttf");
+}
+
+.inner{position: fixed; width: 100%; height: 100%; overflow: hidden;background:rgba(22,22,22,1);}
+.wrap{max-width: 1024px;min-width: 816px; margin: 0 auto; position: relative; text-align: center;height: auto;transform: translate3d(0, 0, 0);}
+.content{display: block; width: 100%; height: 100%;background:rgba(22,22,22,1);}
+.bg-video{width: 100%;height: 100%;position: absolute;top: 0;left: 0;}
+.video-bg{width: 100%;height: 100%;position: absolute;top:50%;left: 50%;transform: translate(-50%, -50%);display: block;object-fit: cover;}
+.wrap2{position: relative;z-index: 2;}
+.wrap2 .content{background: none;}
+.wrap3{height: 430px;}
+.wrap4{height: 100px;}
+.wrap4 .cont21{position: absolute;top: 0;left: 50%;transform: translate3d(-50%, 0, 0);z-index: 1;text-align: center;}
+
+.head{width: 100%;height: 100vh;position: relative;}
+.head .nav-box{width:100%;height: 46px;margin: 0 auto;font-size: 0;position: relative;z-index: 2;}
+.head .nav-box a,.head .nav-box .language{display: inline-block; *display: inline; *zoom: 1; vertical-align: top;font-size:14px;color:#FFFFFF;line-height:44px;font-family: "OPPOSansB"; }
+.nav1{background: url(../img/logo.png) no-repeat center center; background-size: 100% auto;width: 76px; height: 46px;}
+.nav1{margin-right: 62px;}
+.nav2{margin-right: 40px;}
+.nav3{margin-right: 462px;}
+.language b{width: 2px;height: 14px;background: #FFFFFF;display: inline-block; *display: inline; *zoom: 1; vertical-align: top;margin: 18px 4px 0;}
+.language em,.btn,.nav4{display: none!important;}
+
+.head .head-title-box{width:816px;height:auto;padding-top: 286px;position: relative;z-index: 1;margin:0 auto;}
+.head .head-title{width:816px;height:200px;color:#ffffff;font-family:"OPPOSansB";font-weight:bold;font-size:48px;line-height:72px;text-align:center;margin:0 auto;}
+.head .act{width:816px;height:110px;color:#ffffff;font-family:"OPPOSansB";font-weight:bold;font-size:20px;line-height:32px;text-align:center;margin:0 auto;}
+
+/*cont1*/
+.cont1{width: 816px;height: 510px;margin: 0 auto;position: relative;}
+.cont1 p{width: 600px;height: 124px;color:#ffffff;font-family:"OPPOSansB";font-weight:bold;font-size:20px;line-height:30px;padding-top: 118px;margin: 0 auto;}
+.cont1 a{background: url(../img/btn-video.png) no-repeat center center; background-size: 100% auto;width: 160px; height: 40px;display: block;margin: 48px auto;line-height: 40px;font-family:"OPPOSansM";font-size:14px;color: #333333;}
+.cont1 a i{background: url(../img/btn-video-i.png) no-repeat center center; background-size: 100% auto;width: 12px; height: 40px;display: inline-block; *display: inline; *zoom: 1; vertical-align: top;margin-left: 8px;}
+
+/*图片*/
+.bg-pic1{width: 816px; height: 430px;display: block;margin: 0 auto;position: absolute;top: -50px;left: 50%;transform: translate3d(-50%, 0, 0);z-index: 1;} 
+.bg-pic1 .pic{width: 816px; height: 430px;display: block;border-radius: 8px;}
+.bg-pic1 .pic1{position: absolute;top: 0;left: 0;z-index: 8;background: url(../img/pic1.jpg) no-repeat center top; background-size: 100% 100%;}
+.bg-pic1 .pic2{position: absolute;top: 0;left: 0;z-index: 7;display: none;background: url(../img/pic2.jpg) no-repeat center top; background-size: 100% 100%;}
+.bg-pic1 .pic3{position: absolute;top: 0;left: 0;z-index: 6;display: none;background: url(../img/pic3.jpg) no-repeat center top; background-size: 100% 100%;}
+.bg-pic1 .pic4{position: absolute;top: 0;left: 0;z-index: 5;display: none;background: url(../img/pic4.jpg) no-repeat center top; background-size: 100% 100%;}
+.bg-pic1 .pic5{position: absolute;top: 0;left: 0;z-index: 4;display: none;background: url(../img/pic5.jpg) no-repeat center top; background-size: 100% 100%;}
+.bg-pic1 .pic6{position: absolute;top: 0;left: 0;z-index: 3;display: none;background: url(../img/pic6.jpg) no-repeat center top; background-size: 100% 100%;}
+.bg-pic1 .pic7{position: absolute;top: 0;left: 0;z-index: 2;display: none;background: url(../img/pic7.jpg) no-repeat center top; background-size: 100% 100%;}
+.bg-pic1 .pic8{position: absolute;top: 0;left: 0;z-index: 1;display: none;background: url(../img/pic8.jpg) no-repeat center top; background-size: 100% 100%;} 
+
+
+
+/*cont2*/
+.cont2{width: 816px;height: auto;margin: 0 auto;position: relative;padding-bottom: 150px;}
+
+.cont2 .txt-same{width:816px;height:76px;font-size:56px;font-family:"OPPOSansB";font-weight:bold;color:#2DC84D;line-height:76px;}
+.cont2 .same-txt{width:816px;height:76px;font-size:56px;font-family:"OPPOSansB";font-weight:bold;color:#FFFFFF;line-height:76px;}
+/*.cont2 .int1{position: relative;padding-top: 0px;}
+.cont2 .int2{position: relative;padding-top: 360px;}*/
+.cont2 .int .name{padding-top: 60px;width:816px;height:50px;font-size:32px;font-family:"OPPOSansB";font-weight:bold;color:#FFFFFF;line-height:50px;text-align: left;padding-left: 84px;padding-bottom: 10px;}
+.cont2 .int .name-desc{padding-bottom: 38px;width:816px;height:18px;font-size:14px;font-family:"OPPOSansM";color:#FFFFFF;line-height:18px;text-align: left;padding-left: 84px;} 
+.cont2 .desc1,.cont2 .desc2{width:320px;height:auto;font-size:16px;font-family:"OPPOSansB";font-weight:bold;color:#FFFFFF;line-height:24px;text-align: left;position: relative;margin-left:84px;}
+/*.cont2 .desc2{margin-bottom: 400px;}*/
+.cont2 .desc1::before ,.cont2 .desc2::before ,.cont2 .desc2::after{content: '';background: url(../img/b-p-left.png) no-repeat center center; background-size: 100% auto;width: 18px; height:18px;display:block;}
+.cont2 .desc1::after,.cont2 .desc2::after{content: '';background: url(../img/b-p-right.png) no-repeat center center; background-size: 100% auto;width: 18px; height:18px;display:block;}
+.cont2 .desc1::before ,.cont2 .desc2::before {position: absolute;top: -16px;left: -20px;}
+.cont2 .desc1::after ,.cont2 .desc2::after {position: absolute;bottom: -16px;right: -8px;}
+.cont2 .int-box{position: relative;padding-top: 150px;height: 434px;}
+.cont2 .int-box1{position: relative;padding-top: 0px;}
+.cont2 .int-box8{opacity: 1 !important;}
+/*cont3*/
+.cont3{width: 816px;height:800px;margin: 0 auto;position: relative;}
+
+.cont3 .bg-pic2{background: url(../img/bg-pic2.png) no-repeat center center; background-size: 100% auto;width: 816px; height: 430px;display: block;margin: 0 auto;left: 50%;position: relative;transform: translate3d(-50%, 0, 0);top: -50px;} 
+.cont3 .bg-pic2 video{width: 100%;height: auto;display: none;border-radius: 8px;}
+.cont3 .bg-pic2 a{color: #FFFFFF;font-family:"OPPOSansB";font-weight:bold;font-size:20px;line-height: 32px;display: block;position: absolute;top: 186px;left:0;width: 100%;}
+.cont3 .bg-pic2 a i{background: url(../img/btn-video2.png) no-repeat center center; background-size: 100% auto;width:56px; height: 56px;display: inline-block; *display: inline; *zoom: 1; vertical-align: top;margin-left: 12px;}
+
+/*公共标题*/
+.headline{width:816px;height:50px;font-size:40px;font-family:"OPPOSansB";font-weight:bold;color:#2DC84D;line-height:50px;}
+.subtitle{width:816px;height:50px;font-size:40px;font-family:"OPPOSansB";font-weight:bold;color:#FFFFFF;line-height:50px;letter-spacing: -2px;}
+
+/*弹窗*/
+.dialog{width: 100%;position: fixed;bottom: 0;z-index: 999;display: none;}   
+.dialog .video-box{width: 100%;height: 100%;background: rgba(0,0,0,1);position: fixed;/*top: 0;left: 0;*/z-index: 99;}
+.dialog .video-contain{position: absolute;top: 50%;left: 50%;width: 816px;height: 460px;margin-left: -420px;margin-top: -230px;}
+.dialog .video-contain2{position: absolute;top: 50%;left: 50%;width: 816px;height: 348px;margin-left: -420px;margin-top: -174px;}
+.dialog-close {position: absolute;width: 56px;height: 56px;background-size: cover;cursor: pointer;right: 0;top: -70px;font-size: 50px;color: #fff;display: block;line-height: 56px;text-align: right;}
+
+/* 底部 */
+.foot-box{width: 100%;height:104px;background:#000;position: relative;padding-top: 48px;}
+.foot{position: relative; width: 880px;height:auto; margin:0 auto;}
+.foot-logo{width: 76px; height: 18px; background: url(../img/logo-foot.png) no-repeat left top; background-size:100%  auto ; margin-bottom: 10px;display: block;}
+.foot-line{display: block;width:880px; height: 1px; background-color: #333333;margin-bottom: 8px;}
+.touch{font-size: 12px; line-height: 18px;color:#717171;font-family:'OPPOSansM';text-align: left;}
+.web1{font-size: 12px; line-height: 18px;color:#717171;font-family:'OPPOSansM';text-align: right;position: absolute;right: 0;bottom: 0;display: block;}
+/*.web2,.web3,.web4{display: none;}*/
+
+/*针对谷歌浏览器内核支持的CSS样式*/
+/*@media screen and (-webkit-min-device-pixel-ratio:0) {
+.wrap{ transition:  all .3s;}
+.wrap4 .cont21{transition: all .3s;}
+.bg-pic1{transition:  all .3s;} 
+.cont3 .bg-pic2{transition:  all .3s;}
+}*/
+
+/*针对Firefox浏览器的内核CSS写法：*/
+/*@-moz-document url-prefix() {
+.wrap{ transition:  all .3s;}
+.wrap4 .cont21{transition: all .3s;}
+.bg-pic1{transition:  all .3s;} 
+.cont3 .bg-pic2{transition:  all .3s;}
+}*/

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="robots" content="all">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui" />
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="msapplication-tab-highlight" content="no">
+    <meta name="Description" content="Media Kit for OPPO INNO DAY 2019">
+    <meta name="Keywords" content="OPPO INNO DAY;INNO DAY">
+    <title>OPPO INNO DAY 2019 Newsroom</title>
+    <link rel="stylesheet" href="css/swiper-4.3.3.min.css">
+    <link rel="stylesheet" id="css-pc" href="css/media.css" media="screen and (min-width: 1201px)">
+    <link rel="stylesheet" id="css-b" href="css/media-b.css" media="screen and (min-width: 768px) and (max-width: 1200px)">
+    <link rel="stylesheet" id="css-m" href="css/media-m.css" media="screen and (max-device-width: 767px)">
+</head>
+<script>
+    // 判断系统语言
+    var nal = (navigator.language || navigator.browserLanguage).toLowerCase();
+    var name = 'lang';
+    var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)', 'i');
+    var r = window.location.search.substr(1).match(reg);
+    var lan;
+    if (r!==null) {
+        lan = unescape(r[2]);
+    }
+    if (nal.indexOf('zh') >= 0 && lan !== 'en') {
+        // 浏览器语言是英文 并且 参数lan不等于en
+//      window.location.href = '//events.oppo.com/cn/innoday/media.html?lang=cn';   //中文media页
+    }
+    if (/(iPhone|iPad|iPod|iOS|Android|Windows Phone|BlackBerry|SymbianOS)/i.test(navigator.userAgent)) {
+        var h = document.getElementsByTagName("head")[0];
+        h.insertAdjacentHTML('beforeEnd', '<meta name="apple-mobile-web-app-capable" content="yes">');
+        h.insertAdjacentHTML('beforeEnd', '<meta name="apple-mobile-web-app-status-bar-style" content="black">');
+        h.insertAdjacentHTML('beforeEnd', '<meta name="format-detection" content="telephone=no">');
+        h.insertAdjacentHTML('beforeEnd', '<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui" />');
+        document.getElementById('css-b').href = 'css/media-m.css';
+    }
+</script>
+
+<body>
+    <div class="wrap" id="wrap">
+        <div class="header">
+            <p class="header-title">Newsroom</p>
+            <div class="nav-inner">
+                <a href="javascript:;" class="nav1"></a>
+                <a href="javascript:;" class="btn"><i class="line1 line"></i><i class="line2 line"></i></a>
+                <a href="//events.oppo.com/en/innoday/?lang=en" class="nav2">Home</a><!--//events.oppo.com/en/innoday/?lang=en--><!-- 英文首页-->
+                <a href="javascript:;" class="nav3">Newsroom</a>
+                <a href="https://www.oppo.com/cn/" class="nav4">OPPO &gt;</a>
+                <div href="javascript:;" class="language">
+                    <em>Languages</em>
+                    <a href="javascript:;" class="nav5 on">EN</a>
+                    <b></b>
+                    <a href="//events.oppo.com/cn/innoday/media.html?lang=cn" class="nav6">中文</a><!--https://events.oppo.com/cn/innoday/media.html?lang=cn--><!--中文media页-->
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="nav-box">
+                <div class="navs">
+                    <a href="javascript:;" class="nav on">Event Information</a>
+                    <a href="javascript:;" class="nav">Event Picture</a>
+                    <a href="javascript:;" class="nav">Exhibition Picture</a>
+                    <i class="nav-icon"></i>
+                </div>
+            </div>
+            <!-- Swiper -->
+            <div class="swiper-container conts">
+                <div class="swiper-wrapper">
+                    <!-- 活动资料下载 -->
+                    <div class="swiper-slide actdata">
+                        <div class="slide-box">
+                            <div class="actdata-item">
+                                <img src="img/pdf.png" alt="doc">
+                                <div class="actdata-txt">
+                                    <p class="txt1">OPPO plans $7bn R&D push to build a multiple-access smart device ecosystem for the era of intelligent connectivity</p>
+                                    <p class="txt2">2019.12.10</p>
+                                </div>
+                                <a class="actdata-pic" href="img/pdf1.pdf" download="OPPO plans $7bn R&D push to build a multiple-access smart device ecosystem for the era of intelligent connectivity"><i></i><span>download</span><em>download</em></a>
+                            </div>
+                            <div class="actdata-item">
+                                <img src="img/pdf.png" alt="doc">
+                                <div class="actdata-txt">
+                                    <p class="txt1">OPPO and IHS Markit unveil Intelligent Connectivity whitepaper at OPPO INNO DAY 2019</p>
+                                    <p class="txt2">2019.12.10</p>
+                                </div>
+                                <a class="actdata-pic" href="img/pdf2.pdf" download="OPPO and IHS Markit unveil Intelligent Connectivity whitepaper at OPPO INNO DAY 2019"><i></i><span>download</span><em>download</em></a>
+                            </div>
+                            <div class="actdata-item">
+                                <img src="img/pdf.png" alt="doc">
+                                <div class="actdata-txt">
+                                    <p class="txt1">Intelligent-Connectivity-Unleashing-Opportunities-with-the-Power-of-5G-AI-and-Cloud</p>
+                                    <p class="txt2">2019.12.10</p>
+                                </div>
+                                <a class="actdata-pic" href="img/pdf3.pdf" download="Intelligent-Connectivity-Unleashing-Opportunities-with-the-Power-of-5G-AI-and-Cloud"><i></i><span>download</span><em>download</em></a>
+                            </div>
+                            <div class="actdata-item">
+                                <img src="img/pdf.png" alt="doc">
+                                <div class="actdata-txt">
+                                    <p class="txt1">keynote-The Integration of Technologies, the Emergence of Innovation</p>
+                                    <p class="txt2">2019.12.10</p>
+                                </div>
+                                <a class="actdata-pic" href="img/pdf3.pdf" download="keynote-The Integration of Technologies, the Emergence of Innovation"><i></i><span>download</span><em>download</em></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 活动图片 -->
+                    <div class="swiper-slide picture">
+                        <div class="slide-box">
+                            <!-- <div class="picture-item">
+                                <img src="" alt="">
+                                <div class="download-mc">
+                                    <a href="" download="图片" class="btn-download"></a>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                    <!-- 产品场景图 -->
+                    <div class="swiper-slide scene">
+                        <div class="slide-box">
+                            <!-- <div class="scene-item">
+                                <img src="" alt="">
+                                <div class="download-mc">
+                                    <a href="img/logo.png" download="图片" class="btn-download"></a>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="foot-box">
+            <p class="yd"></p>
+            <div class="foot">
+                <a href="javascript:;" class="foot-logo" ></a>
+                <p class="foot-line"></p>
+                <p class="touch">Copyright © 2019 OPPO. All rights reserved.</p>
+			    <a href="https://www.oppo.com/cn/" class="web1">OPPO &gt;</a>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="//res.wx.qq.com/open/js/jweixin-1.4.0.js"></script>
+    <script src="js/swiper4.js"></script>
+    <script src="js/media.js"></script>
+</body>
+
+</html>

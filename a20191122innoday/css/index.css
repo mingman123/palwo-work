@@ -1,0 +1,158 @@
+/* reset */
+body,dl,dd,ul,ol,h1,h2,h3,h4,h5,h6,p,form,header,section,article,footer{margin:0;}
+body,button,input,select,textarea{font:12px/1.5 tahoma,'\5FAE\8F6F\96C5\9ED1',sans-serif; font-family: '\5FAE\8F6F\96C5\9ED1';}
+h1,h2,h3,h4,h5,h6{font-size:100%}
+em,b{font-style:normal}
+a{text-decoration:none; outline: none;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);} 
+a:hover{text-decoration:none; filter:brightness(1.2);}
+img{border:0} 
+button,input,select,textarea{font-size:100%;outline:none}
+video{outline:none}
+table{border-collapse:collapse;border-spacing:0}
+td,th,ul,ol{padding:0;list-style: none;}
+body {background:rgba(22,22,22,1);}
+iframe {display: block}
+div,a,img{outline: none;}
+.hidden{display: none; font-size: 0; text-indent: -999em;}
+html,body{position: relative; max-width: 2560px; min-width: 1200px; font-family: 'OPPOSansM';}
+.clearfix:after {visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
+.clearfix{*zoom:1;}
+
+
+@font-face {
+  font-family: "OPPOSansB";
+  src: url("//assorted.downloads.oppo.com/static/assets/fonts/OPPOSans/OPPOSans-Bold.ttf");
+}
+@font-face {
+  font-family: "OPPOSansH";
+  src: url("//assorted.downloads.oppo.com/static/assets/fonts/OPPOSans/OPPOSans-Heavy.ttf");
+}
+@font-face {
+  font-family: "OPPOSansM";
+  src: url("//assorted.downloads.oppo.com/static/assets/fonts/OPPOSans/OPPOSans-Medium.ttf");
+}
+.inner{position: fixed; width: 100%; height: 100%; overflow: hidden;background:rgba(22,22,22,1);;}
+.wrap{max-width: 2560px; min-width: 1200px; margin: 0 auto; position: relative; text-align: center;height: auto;transform: translate3d(0, 0, 0);}
+
+
+.bg-video{width: 100%;height: 100%;position: absolute;top: 0;left: 0;}
+.video-bg{width: 100%;height: 100%;position: absolute;top:50%;left: 50%;transform: translate(-50%, -50%);display: block;object-fit: cover;}
+.wrap2{position: relative;z-index: 2;}
+.wrap2 .content{background: none;}
+.wrap3{height: 640px;}
+.wrap4{height: 152px;}
+.wrap4 .cont21{position: absolute;top: 0;left: 50%;transform: translate3d(-50%, 0, 0);z-index: 1;text-align: center;}
+.content{display: block; width: 100%; height: 100%;background:rgba(22,22,22,1);}
+.head{width: 100%;height: 100vh;position: relative;}
+.head .nav-box{width: 1200px;height: 46px;margin: 0 auto;font-size: 0;position: relative;z-index: 1;}
+.head .nav-box a,.head .nav-box .language{display: inline-block; *display: inline; *zoom: 1; vertical-align: top;font-size:14px;color:#FFFFFF;line-height:44px;font-family: "OPPOSansB";font-weight: bold; }
+.nav1{background: url(../img/logo.png) no-repeat center center; background-size: 100% auto;width: 76px; height: 46px;}
+.nav1{margin-right: 80px;}
+.nav2{margin-right: 40px;}
+.nav3{margin-right: 814px;}
+.language b{width: 2px;height: 14px;background: #FFFFFF;display: inline-block; *display: inline; *zoom: 1; vertical-align: top;margin: 18px 4px 0;}
+.language em,.btn,.nav4{display: none!important;}
+
+.head .head-title-box{width:1100px;height:auto;padding-top: 290px;position: relative;z-index: 1;margin:0 auto;}
+.head .head-title{width:1100px;height:280px;color:#ffffff;font-family:"OPPOSansB";font-weight:bold;font-size:68px;line-height:116px;text-align:center;margin:0 auto;}
+.head .act{width:1100px;height:110px;color:#ffffff;font-family:"OPPOSansB";font-weight:bold;font-size:24px;line-height:30px;text-align:center;margin:0 auto;}
+
+/*cont1*/
+.cont1{width: 1100px;height: 686px;margin: 0 auto;position: relative;}
+.cont1 p{width: 880px;height: 120px;color:#ffffff;font-family:"OPPOSansB";font-weight:bold;font-size:24px;line-height:34px;padding-top: 150px;margin: 0 auto;}
+.cont1 a{background: url(../img/btn-video.png) no-repeat center center; background-size: 100% auto;width: 130px; height: 48px;display: block;margin: 56px auto;line-height: 46px;font-family:"OPPOSansM";font-size:16px;color: #333333;}
+.cont1 a i{background: url(../img/btn-video-i.png) no-repeat center center; background-size: 100% auto;width: 14px; height: 48px;display: inline-block; *display: inline; *zoom: 1; vertical-align: top;margin-left: 10px;}
+
+/*图片*/
+.bg-pic1{width: 1200px; height: 640px;display: block;margin: 0 auto;position: absolute;top: -76px;left: 50%;transform: translate3d(-50%, 0, 0);z-index: 1;}
+.bg-pic1 .pic{width: 1200px; height: 640px;display: block;border-radius: 8px;}
+.bg-pic1 .pic1{position: absolute;top: 0;left: 0;z-index: 8;background: url(../img/pic1.jpg) no-repeat center top; background-size: 100% 100%;}
+.bg-pic1 .pic2{position: absolute;top: 0;left: 0;z-index: 7;display: none;background: url(../img/pic2.jpg) no-repeat center top; background-size: 100% 100%;}
+.bg-pic1 .pic3{position: absolute;top: 0;left: 0;z-index: 6;display: none;background: url(../img/pic3.jpg) no-repeat center top; background-size: 100% 100%;}
+.bg-pic1 .pic4{position: absolute;top: 0;left: 0;z-index: 5;display: none;background: url(../img/pic4.jpg) no-repeat center top; background-size: 100% 100%;}
+.bg-pic1 .pic5{position: absolute;top: 0;left: 0;z-index: 4;display: none;background: url(../img/pic5.jpg) no-repeat center top; background-size: 100% 100%;}
+.bg-pic1 .pic6{position: absolute;top: 0;left: 0;z-index: 3;display: none;background: url(../img/pic6.jpg) no-repeat center top; background-size: 100% 100%;}
+.bg-pic1 .pic7{position: absolute;top: 0;left: 0;z-index: 2;display: none;background: url(../img/pic7.jpg) no-repeat center top; background-size: 100% 100%;}
+.bg-pic1 .pic8{position: absolute;top: 0;left: 0;z-index: 1;display: none;background: url(../img/pic8.jpg) no-repeat center top; background-size: 100% 100%;}  
+
+/*cont2*/
+.cont2{width: 1200px;height: auto;margin: 0 auto;position: relative;padding-bottom: 300px;}
+
+.cont2 .txt-same{width:1200px;height:76px;font-size:56px;font-family:"OPPOSansB";font-weight: bold;color:#2DC84D;line-height:76px;}
+.cont2 .same-txt{width:1200px;height:76px;font-size:56px;font-family:"OPPOSansB";font-weight: bold;color:#FFFFFF;line-height:76px;}
+
+.cont2 .int2{}
+.cont2 .int .name{width:80%;height:56px;font-size:40px;font-family:"OPPOSansB";font-weight: bold;color:#FFFFFF;line-height:56px;text-align: left;padding-left: 120px;padding-bottom: 10px;}
+.cont2 .int .name-desc{padding-bottom: 46px;width:80%;height:22px;font-size:16px;font-family: "OPPOSansM";color:#FFFFFF;line-height:22px;text-align: left;padding-left: 120px;} 
+.cont2 .desc1,.cont2 .desc2{width:450px;height:auto;font-size:20px;font-family:"OPPOSansB";font-weight:bold;color:#FFFFFF;line-height:27px;text-align: left;position: relative;margin-left:120px;}
+
+/*.cont2 .desc2{margin-bottom: 750px;}*/
+.cont2 .desc1::before ,.cont2 .desc2::before ,.cont2 .desc2::after{content: '';background: url(../img/p-left.png) no-repeat center center; background-size: 100% auto;width: 26px; height:26px;display:block;}
+.cont2 .desc1::after,.cont2 .desc2::after{content: '';background: url(../img/p-right.png) no-repeat center center; background-size: 100% auto;width: 26px; height:26px;display:block;}
+.cont2 .desc1::before ,.cont2 .desc2::before {position: absolute;top: -10px;left: -40px;}
+.cont2 .desc1::after ,.cont2 .desc2::after {position: absolute;bottom: 0px;right: -30px;}
+.cont2 .int-box{position: relative;padding-top: 200px;height:428px;padding-bottom: 200px;}
+.cont2 .int-box1{position: relative;padding-top: 60px;}
+.cont2 .int-box8{opacity: 1 !important;}
+/*cont3*/
+.cont3{width: 1200px;height:1110px;margin: 0 auto;position: relative;}
+
+.cont3 .bg-pic2{background: url(../img/bg-pic2.png) no-repeat center center; background-size: 100% auto;width: 1200px; height: 640px;display: block;margin: 0 auto;left: 50%;position: relative;transform: translate3d(-50%, 0, 0);top: -80px;border-radius:8px ;} 
+.cont3 .bg-pic2 video{width: 100%;height:auto;display: none;border-radius: 8px;}
+.cont3 .bg-pic2 a{color: #FFFFFF;font-family:"OPPOSansB";font-weight:bold;font-size:30px;line-height: 40px;display: block;position: absolute;top: 282px;left: 0;width: 100%;}
+.cont3 .bg-pic2 a i{background: url(../img/btn-video2.png) no-repeat center center; background-size: 100% auto;width:74px; height: 74px;display: inline-block; *display: inline; *zoom: 1; vertical-align: top;margin-left: 14px;}
+/*cont4*/
+.cont4{width: 1200px;height:1260px;margin: 0 auto;position: relative;}
+/*.cont4 .subtitle{padding-bottom:88px;}*/
+.cont4 ul{width: 1200px;height:900px;position: relative;margin: 0 auto;padding-top: 88px;}
+.cont4 ul li{float: left;width: 362px;height: 434px;position: relative;}
+.cont4 ul li:nth-child(3n-1){margin:0 56px;}
+.news-item{width:362px; height:434px;;}
+.news-pic{display: block; width: 362px; height: 240px; margin-bottom: 8px;border-radius: 8px; overflow: hidden;}
+.news-pic1{background: url(../img/img1.jpg) no-repeat center top; background-size: 100% 100%;}
+.news-pic2{background: url(../img/img2.jpg) no-repeat center top; background-size: 100% 100%;}
+.news-pic3{background: url(../img/img3.jpg) no-repeat center top; background-size: 100% 100%;}
+.news-pic4{background: url(../img/img4.jpg) no-repeat center top; background-size: 100% 100%;}
+.news-pic5{background: url(../img/img5.jpg) no-repeat center top; background-size: 100% 100%;}
+.news-pic6{background: url(../img/img6.jpg) no-repeat center top; background-size: 100% 100%;}
+/*.news-pic img{display: block; width: 100%; height: 100%; object-fit: cover;}*/
+.news-txt{display: block; width: 100%; height: 72px; line-height: 34px; font-size: 24px; font-family: 'OPPOSansB'; font-weight: bold; color: #fff; text-align: left;text-overflow: -o-ellipsis-lastline;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;line-clamp: 2;-webkit-box-orient: vertical;padding-top: 16px;}
+.news-time{display: block; width: 100%; height: 28px; font-size: 16px; line-height: 28px; text-align: left; color: #D5D5D5;font-family: "OPPOSansM";}
+
+/*公共标题*/
+.headline{width:1200px;height:76px;font-size:56px;font-family:"OPPOSansB";font-weight:bold;color:#2DC84D;line-height:76px;}
+.subtitle{width:1200px;height:76px;font-size:56px;font-family:"OPPOSansB";font-weight:bold;color:#FFFFFF;line-height:76px;}
+
+
+/*弹窗*/
+.dialog{width: 100%;position: fixed;bottom: 0;z-index: 999;display: none;}   
+.dialog .video-box{width: 100%;height: 100%;background: rgba(0,0,0,1);position: fixed;/*top: 0;left: 0;*/z-index: 99;}
+.dialog .video-contain{position: absolute;top: 50%;left: 50%;width: 1200px;height: 676px;margin-left: -600px;margin-top: -338px;}
+.dialog-close {position: absolute;width: 56px;height: 56px;background-size: cover;cursor: pointer;right: 0;top: -90px;font-size: 50px;color: #fff;display: block;line-height: 56px;text-align: right;}
+.dialog .video-contain2{position: absolute;top: 50%;left: 50%;width: 1200px;height: 512px;margin-left: -600px;margin-top: -256px;}
+/* 底部 */
+.foot-box{width: 100%;height: 104px;background:#000;position: relative;padding-top: 48px;}
+.foot{position: relative; width: 1200px;height:auto; margin:0 auto;}
+.foot-logo{width: 76px; height: 18px; background: url(../img/logo-foot.png) no-repeat left top; background-size:100%  auto ; margin-bottom: 10px;display: block;}
+.foot-line{display: block;width: 1200px; height: 1px; background-color: #333333;margin-bottom: 8px;}
+.touch{font-size: 12px; line-height: 18px;color:#717171;font-family:'OPPOSansM';text-align: left;}
+.web1{font-size: 12px; line-height: 18px;color:#717171;font-family:'OPPOSansM';text-align: right;position: absolute;right: 0;bottom: 0;display: block;}
+/*.web2,.web3,.web4{display: none;}*/
+
+
+
+/*针对谷歌浏览器内核支持的CSS样式*/
+/*@media screen and (-webkit-min-device-pixel-ratio:0) {
+.wrap{ transition:  all .3s;}
+.wrap4 .cont21{transition: all .3s;}
+.bg-pic1{transition:  all .3s;} 
+.cont3 .bg-pic2{transition:  all .3s;}
+}*/
+
+/*针对Firefox浏览器的内核CSS写法：*/
+/*@-moz-document url-prefix() {
+.wrap{ transition:  all .3s;}
+.wrap4 .cont21{transition: all .3s;}
+.bg-pic1{transition:  all .3s;} 
+.cont3 .bg-pic2{transition:  all .3s;}
+}*/

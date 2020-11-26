@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="robots" content="all">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui" />
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="msapplication-tab-highlight" content="no">
+    <meta name="Description" content="OPPO未来科技大会媒体中心资料下载">
+    <meta name="Keywords" content="OPPO未来科技大会;未来科技大会">
+    <title>OPPO 未来科技大会 媒体中心</title>
+    <link rel="stylesheet" href="css/swiper-4.3.3.min.css">
+    <link rel="stylesheet" id="css-pc" href="css/media.css" media="screen and (min-width: 1201px)">
+    <link rel="stylesheet" id="css-b" href="css/media-b.css" media="screen and (min-width: 768px) and (max-width: 1200px)">
+    <link rel="stylesheet" id="css-m" href="css/media-m.css" media="screen and (max-device-width: 767px)">
+</head>
+<script>
+    // 判断系统语言
+    var nal = (navigator.language || navigator.browserLanguage).toLowerCase();
+    var name = 'lang';
+    var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)', 'i');
+    var r = window.location.search.substr(1).match(reg);
+    var lan;
+    if (r!==null) {
+        lan = unescape(r[2]);
+    }
+    if (nal.indexOf('zh') < 0 && lan !== 'cn') {
+        // 浏览器语言是英文 并且 参数lan不等于cn
+//      window.location.href = 'https://events.oppo.com/en/innoday/media.html?lang=en';  //英文media页
+    }
+    if (/(iPhone|iPad|iPod|iOS|Android|Windows Phone|BlackBerry|SymbianOS)/i.test(navigator.userAgent)) {
+        var h = document.getElementsByTagName("head")[0];
+        h.insertAdjacentHTML('beforeEnd', '<meta name="apple-mobile-web-app-capable" content="yes">');
+        h.insertAdjacentHTML('beforeEnd', '<meta name="apple-mobile-web-app-status-bar-style" content="black">');
+        h.insertAdjacentHTML('beforeEnd', '<meta name="format-detection" content="telephone=no">');
+        h.insertAdjacentHTML('beforeEnd', '<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui" />');
+        document.getElementById('css-b').href = 'css/media-m.css';
+    }
+
+</script>
+
+<body>
+    <div class="wrap" id="wrap">
+        <div class="header">
+            <p class="header-title">媒体中心</p>
+            <div class="nav-inner">
+                <a href="javascript:;" class="nav1"></a>
+                <a href="javascript:;" class="btn"><i class="line1 line"></i><i class="line2 line"></i></a>
+                <a href="//events.oppo.com/cn/innoday/?lang=cn" class="nav2">首页</a><!--//events.oppo.com/cn/innoday/?lang=cn--><!--中文首页-->
+                <a href="javascript:;" class="nav3">媒体中心</a>
+                <a href="https://www.oppo.com/cn/" class="nav4">OPPO 官网 &gt;</a>
+                <div href="javascript:;" class="language">
+                    <em>语言</em>
+                    <a href="//events.oppo.com/en/innoday/media.html?lang=en" class="nav5 on">EN</a><!--英文media页--><!--https://events.oppo.com/en/innoday/media.html?lang=en-->
+                    <b></b>
+                    <a href="javascript:;" class="nav6">中文</a>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="nav-box">
+                <div class="navs">
+                    <a href="javascript:;" class="nav on">大会资料</a>
+                    <a href="javascript:;" class="nav">活动照片</a>
+                    <a href="javascript:;" class="nav">展区图片</a>
+                    <i class="nav-icon"></i>
+                </div>
+            </div>
+            <!-- Swiper -->
+            <div class="swiper-container conts">
+                <div class="swiper-wrapper">
+                    <!-- 活动资料下载 -->
+                    <div class="swiper-slide actdata">
+                        <div class="slide-box">
+                            <div class="actdata-item">
+                                <img src="img/pdf.png" alt="doc">
+                                <div class="actdata-txt">
+                                    <p class="txt1">【新闻稿】三年投入500亿研发 OPPO布局5G万物互融新生态</p>
+                                    <p class="txt2">2019.12.10</p>
+                                </div>
+                                <a class="actdata-pic" href="img/pdf1.pdf" download="【新闻稿】三年投入500亿研发 OPPO布局5G万物互融新生态"><i></i><span>下载</span><em>点击下载</em></a>
+                            </div>
+                            <div class="actdata-item">
+                                <img src="img/pdf.png" alt="doc">
+                                <div class="actdata-txt">
+                                    <p class="txt1">【新闻稿】OPPO与IHS Markit发布智能互融白皮书 5G将与AI、云、边缘计算合力爆发</p>
+                                    <p class="txt2">2019.12.10</p>
+                                </div>
+                                <a class="actdata-pic" href="img/pdf2.pdf" download="【新闻稿】OPPO与IHS Markit发布智能互融白皮书 5G将与AI、云、边缘计算合力爆发"><i></i><span>下载</span><em>点击下载</em></a>
+                            </div>
+                            <div class="actdata-item">
+                                <img src="img/pdf.png" alt="doc">
+                                <div class="actdata-txt">
+                                    <p class="txt1">IHS白皮书：《智能互融：借助5G、人工智能和云技术，释放机遇》</p>
+                                    <p class="txt2">2019.12.10</p>
+                                </div>
+                                <a class="actdata-pic" href="img/pdf4.pdf" download="IHS白皮书：《智能互融：借助5G、人工智能和云技术，释放机遇》"><i></i><span>下载</span><em>点击下载</em></a>
+                            </div>
+                            <div class="actdata-item">
+                                <img src="img/pdf.png" alt="doc">
+                                <div class="actdata-txt">
+                                    <p class="txt1">主题演讲《技术互融 万物更新》</p>
+                                    <p class="txt2">2019.12.10</p>
+                                </div>
+                                <a class="actdata-pic" href="img/pdf3.pdf" download="主题演讲《技术互融 万物更新》"><i></i><span>下载</span><em>点击下载</em></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 活动图片 -->
+                    <div class="swiper-slide picture">
+                        <div class="slide-box">
+                            <!-- <div class="picture-item">
+                                <img src="" alt="">
+                                <div class="download-mc">
+                                    <a href="" download="图片" class="btn-download"></a>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                    <!-- 产品场景图 -->
+                    <div class="swiper-slide scene">
+                        <div class="slide-box">
+                            <!-- <div class="scene-item">
+                                <img src="" alt="">
+                                <div class="download-mc">
+                                    <a href="img/logo.png" download="图片" class="btn-download"></a>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="foot-box">
+            <p class="yd"></p>
+            <div class="foot">
+                <a href="javascript:;" class="foot-logo"></a>
+                <p class="foot-line"></p>
+                <p class="touch">OPPO版权所有 粤ICP备08130115号-1<span>联系方式：4001-666-888</span></p>
+                <a href="https://www.oppo.com/cn/" class="web1">OPPO 官网 &gt;</a>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="//res.wx.qq.com/open/js/jweixin-1.4.0.js"></script>
+    <script src="js/swiper4.js"></script>
+    <script src="js/media.js"></script>
+</body>
+
+</html>

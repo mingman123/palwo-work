@@ -1,0 +1,118 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,figure{margin:0;padding:0;border:0;vertical-align:baseline;border-radius:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+ol,ul{list-style:none}
+table{border-collapse:collapse;border-spacing:0}
+h1,h2,h3,h4,h5,h6{font-weight:normal}
+h1.seotit{width:100%;height:0;font-size:0;text-indent:-9999em;line-height:500%;overflow:hidden;}
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{font-weight:inherit}
+input,select,form,textarea{vertical-align:middle;outline:none}
+img{display:block;outline:none;}
+strong,b,em,i{font-weight:normal;font-style:normal;}
+a,img,div{text-decoration:none;outline:0;;-webkit-tap-highlight-color: transparent;-webkit-touch-callout: none;-webkit-user-select: none;}
+div,a,input,select,option{outline:none}
+table{border-collapse:collapse;border-spacing:0}
+.clearfix:after,.clearfix:before{content:"";display:table;}
+.clearfix:after{clear:both;}
+.hid{display:none;font-size:0;text-indent:-999em;}
+#loginStatusSyncFrame_ams_ame{display:none;}
+html,body{position: relative; width: 100%;height: auto;background: rgba(22,22,22,1);position: relative;-webkit-user-select: none;user-select: none;overflow: auto;font-family: "OPPOSansB", "Microsoft YaHei", sans-serif;overflow: auto;overflow: auto; -webkit-overflow-scrolling: touch; overflow-scrolling: touch; font-size: 0;}
+.hidden{display: none; font-size: 0; text-indent: -999em;}
+html {
+  font-size: 50px;/* 兼容不支持vw的系统 */
+  font-size: 13.33333333vw;/* 7.5rem === 100vw */
+}
+/*body::-webkit-scrollbar {display:none}*/
+@font-face {
+  font-family: "OPPOSansB";
+  src: url("//assorted.downloads.oppo.com/static/assets/fonts/OPPOSans/OPPOSans-Bold.ttf");
+}
+@font-face {
+  font-family: "OPPOSansH";
+  src: url("//assorted.downloads.oppo.com/static/assets/fonts/OPPOSans/OPPOSans-Heavy.ttf");
+}
+@font-face {
+  font-family: "OPPOSansM";
+  src: url("//assorted.downloads.oppo.com/static/assets/fonts/OPPOSans/OPPOSans-Medium.ttf");
+}
+
+.wrap{width: 100%; margin: 0 auto; position: relative; text-align: center; overflow: hidden; height: auto;}
+/* header */
+.header{position: relative; display: block; width: 100%; height: 6.4rem; background: url(../img/pm-bg.png) no-repeat center top; background-size: 100% auto;}
+
+.nav-inner{width:7.5rem;height:1.28rem;margin: 0 auto;font-size: 0;position: fixed;top: 0;left: 0;transition: all .8s;overflow: hidden;transform: translate3d(0, 0, 0);z-index: 2;text-align: left;}
+.nav-inner.on{height: auto!important;}
+.nav-inner a{font-size:0.32rem;color:#FFFFFF;line-height:1rem;font-family: "OPPOSansM";}
+.nav1{background: url(../img/logo.png) no-repeat center center; background-size: 100% auto;width: 1.28rem; height: 1.28rem;margin-left: .48rem;margin-right: 4.7rem;height: 1.28rem;}
+.nav1,.btn{display: inline-block;vertical-align: top;margin-bottom: .1rem;}
+.btn{position: relative;width:1rem;height: 1.28rem;}
+.btn i{width: .48rem;height: .04rem;display: block;background:rgba(255,255,255,1);transition: all .2s;}
+.btn i.line1{position: absolute;top: .46rem;right:.4rem;}
+.btn i.line2{position: absolute;top: .66rem;right:.4rem;}
+.btn.on i.line1{transform: rotate(45deg); top: .6rem;}
+.btn.on i.line2{transform: rotate(-45deg);top: .6rem;}
+.nav2,.nav3,.nav4,.language{display: block;width:6.2rem;margin: 0 auto;}
+.nav2,.nav3,.nav4{border-bottom: 2px solid #2A2A2A;}
+.language{font-size: 0;padding-bottom: .7rem;}
+.language em{font-size:0.32rem;color:#FFFFFF;line-height:1rem;padding-right:3.4rem ;}
+.language em,.language b,.language a{display: inline-block;vertical-align: top;}
+.language b{width: 2px;height: .32rem;background: #717171;margin: .36rem .48rem 0 .48rem;}
+.language a.on{color:#717171;}
+
+.header-title{display: block; position: absolute; top: 50%; left: 0; margin-top: -.42rem; height: .84rem; width: 100%; font-size: .84rem; line-height: .6rem; text-align: left; font-family: 'OPPOSansB'; color: #fff; font-weight: bold; text-indent: .48rem;}
+
+/* content */
+.content{width:100%; margin:0 auto; overflow:hidden; position:relative; padding-bottom: 2rem;}
+.nav-box{width: 100%; height: 0.94rem; font-size: 0; text-align: center; position: relative; padding-top: .64rem; margin: 0 auto; overflow-x: auto;}
+.navs{width: 7.2rem; height: 0.94rem; font-size: 0; text-align: center; position: relative; margin: 0 auto;}
+.navs::-webkit-scrollbar {display:none}
+.nav{display: inline-block; *display: inline; *zoom: 1; vertical-align: top; margin: 0 0.08rem; height: 0.8rem; font-size: 0.32rem; line-height: 0.38rem; color: #757575; font-family: 'OPPOSansB'; font-weight: bold; transition: all .4s;width: 2.24rem;}
+.nav.on{color: #fff;}
+.nav-icon{transition: all .3s; position: absolute; bottom: 0; left: 0; width: 0; height: 0.04rem; background: #2DC84D; border-radius: 0.01rem;}
+
+
+/* Swiper */
+ .conts{width:6.54rem;}
+.swiper-slide{width: 100%;}
+.slide-box{position: relative; display: block; margin: 0 auto; height: auto; font-size: 0; text-align: left;}
+/* 活动资料下载 */
+ /*.actdata .slide-box{width: 6.54rem; padding-top: 1.52rem;}
+.actdata-item{position: relative; display: inline-block; *display: inline; *zoom: 1; vertical-align: top; width: 6.54rem; height:4rem; border-radius: 0.08rem; margin: 0 auto 0.24rem; background: #515151;}
+.actdata-pic{position: relative; display: block;width:2.4rem; height:2.4rem; margin: .4rem auto 0rem;}
+.actdata-pic img{display: block; width: 100%; height: 100%; object-fit: cover;}
+.actdata-txt{display: block; width: 100%; text-align: center; font-size: 0.32rem; line-height: .8rem; color: #fff; font-family: 'OPPOSansB'; font-weight: bold;}*/
+/* 活动资料下载 */
+.actdata .slide-box{width: 6.54rem; padding-top: .9rem;}
+.actdata-item{position: relative;width: 6.54rem; height: 1.28rem;margin: 0 auto;border-bottom: 0.02rem solid #757575;padding-top: 0.48rem;}
+.actdata img,.actdata-txt{ float: left; }
+.actdata img{display: block; width: 0.66rem; height: 0.76rem;margin: 0.12rem 0 0.12rem 0.14rem; }
+.actdata-txt{width:4.6rem;padding-left: 0.42rem;}
+.actdata-txt .txt1{font-size:0.28rem;line-height:0.42rem;color:#FFFFFF!important;font-family: "OPPOSansB";font-weight: bold;height: 0.6rem; overflow: hidden; text-overflow:ellipsis; white-space: nowrap;}
+.actdata-txt .txt2{font-size:0.24rem;line-height:0.36rem;color:#D9D9D9;font-family: "OPPOSansM";}
+.actdata-pic{font-size:0.24rem;font-family: "OPPOSansM";color:#D9D9D9;line-height:0.36rem;display: block;text-align: right;position: absolute;top: 1.08rem;right: 0;border-bottom: .02rem solid #D9D9D9;}
+.actdata-pic i,.actdata-pic span{display: none;}
+
+
+
+/* 活动图片 */
+ .picture .slide-box{width: 6.54rem; padding-top: 0.7rem;}
+.picture-item{position: relative; display: inline-block; *display: inline; *zoom: 1; vertical-align: top; width: 3.16rem; height: 2.3rem; border-radius: 0.08rem; margin-bottom:.24rem;background: #515151;}
+.picture-item img{display: block; width: 100%; height: 100%; object-fit: cover;}
+.picture-item:nth-child(odd){margin-right: .2rem;}
+.download-mc{position: absolute; bottom: 0; left: 0; display: block; width: 100%; height: 0.8rem;background: url(../img/btn-down.png) no-repeat;background-size: 100% 100%;/* background: linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(0,0,0,0.37) 100%);border-radius: 0 0 .08rem .08rem;*/}
+.btn-download{position: absolute; bottom: 0; left: 0;display: block; width: 100%; height: 2.3rem;}
+/* 产品场景图 */
+ .scene .slide-box{width: 6.54rem; padding-top: 0.7rem;}
+.scene-item{position: relative; display: inline-block; *display: inline; *zoom: 1; vertical-align: top; width: 3.16rem; height: 2.3rem; border-radius: 0.08rem; /*margin: 0 0.12rem 0.24rem;*/margin-bottom:.24rem; background: #515151;}
+.scene-item img{display: block; width: 100%; height: 100%; object-fit: cover;}
+.scene-item:nth-child(odd){margin-right: .2rem;}
+
+/* 底部 */
+.foot-box{width: 100%;height:2.66rem;background:rgba(22,22,22,1);position: relative;padding-top: .48rem;}
+.foot{position: relative; width:6.54rem;height:auto; margin:0 auto;}
+.foot-logo{width:1.5rem; height: .34rem; background: url(../img/logo-foot.png) no-repeat left top; background-size:auto 100%; margin-bottom:.2rem;display: block;}
+.foot-line{display: block;width: 6.54rem; height: .02rem; background-color: #333333;position: absolute;bottom: .56rem;left: 0;}
+.touch{font-size: .24rem; line-height: .32rem;color:#717171;font-family:'OPPOSansM';text-align: left;width: 4.2rem;padding-bottom: .56rem;}
+/*.web2,.web3,.web4{font-size: .24rem; line-height: .32rem;color:#717171;font-family:'OPPOSansM';text-align: left;display: inline-block;}
+.web3{margin: 0 .36rem;}*/
+.web1{font-size: .24rem; line-height: .32rem;color:#717171;font-family:'OPPOSansM';text-align: left;display: block;}
+.yd{width: 7.5rem; height: 1px; overflow: hidden; opacity: 0; position: fixed;top: 200%; left: 0; pointer-events: none;}
