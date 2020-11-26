@@ -1,0 +1,116 @@
+/*reset*/
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{-webkit-text-size-adjust: none;margin:0;padding:0;}body,button,input,select,textarea{font:12px/1.5 tahoma,arial,\5b8b\4f53,sans-serif;}h1,h2,h3,h4,h5,h6{font-size:100%;}address,cite,dfn,em,var{font-style:normal;}code,kbd,pre,samp{font-family:courier new,courier,monospace;}small{font-size:12px;}ul,ol{list-style:none;}a{text-decoration:none;outline:0 none}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}legend{color:#000;}fieldset,img{border:0;}button,input,select,textarea{font-size:100%;resize: none;}table{border-collapse:collapse;border-spacing:0;}
+.clearfix:after,.clearfix:before{content: "";display: table;}
+.clearfix:after{clear: both;}
+.clearfix{*zoom: 1;}
+.hid{font-size: 0; text-indent: -999em;}
+html{box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;}
+*,*:hover,*:after{box-sizing: inherit;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;}
+body{font-style:normal;font-family:\5FAE\8F6F\96C5\9ED1;}
+i{font-style:normal;display:none;}
+body,.wrap,.head{width:100%;}
+/*beijing*/
+.head,.content{position:relative; width:375px; background-repeat:no-repeat; background-size:100% 100%; overflow:hidden; }
+.head{height:379px; background-image:url(//game.gtimg.cn/images/actdaoju/act/a20190530birthdaym/bg1.jpg);}
+.content{height:1516px; background-image:url(//game.gtimg.cn/images/actdaoju/act/a20190530birthdaym/bg2.jpg);}
+
+.con1{height:484px; padding-top: 21px;}
+.con2{height:478px;position: relative;}
+.con3{height:263px;}
+.rule{height:286px; }
+.wrap{position:relative; width:375px; height:auto; overflow:hidden;}
+.btns-logo{width:155.5px;height:20px; margin:9px auto 0;background: url(//game.gtimg.cn/images/actdaoju/act/a20190530birthdaym/logo.png) no-repeat; background-size: 100% 100%;}
+.goit1{display:inline-block;width:89.5px;height:20px;}
+.goit2{display:inline-block; width:65px;height:20px; }
+.login{margin-left: 158px; width:100%;color:#fff;font-size:11px;color: #fff; line-height:10px;}
+.login a{color:#ee614b;}
+.act-time{height: 8px;width: 100%;margin: 347px 0 12px 100px;font-size: 11px;color: #fff;line-height: 16px;}
+
+/* 4月生日礼包 */
+.title1{width:191px;height:35px;margin: 0 auto 26px; background: url(//game.gtimg.cn/images/actdaoju/act/a20190530birthdaym/title-1.png) no-repeat;background-size: 100% 100%;}
+.con1 .prop-con{width:375px; height:787px; margin:0 auto;}
+.prop-ul1{width:374px; height:306px; margin: 0px auto ; position:relative;}
+.prop-ul1 li{float:left;width:104px;height:139.5px;margin: 0 9px 18px; background:url(//game.gtimg.cn/images/actdaoju/act/a20190530birthdaym/bg-prop1.png) no-repeat top center;background-size: 100% 100%; }
+.prop-ul1 li.last1{margin-left: 74.5px;}
+.prop-ul1 li .num{width: 100%;height: 40px;line-height: 44px; font-size: 9px;color: #ffe9b2;text-align: center;}
+.prop-ul1 li .prop{width: 66px;height: 47px;margin: 0 auto;}
+.prop-ul1 li .prop img{display: block; width: 62px;height: 44px;}
+.prop-ul1 li .prop-txt1{width: 100%;height: 32px;display: table;margin: 0 auto;font-size: 8px;text-align: center;color: #fff;line-height: 10px;padding-right: 5px;}
+.prop-ul1 li .prop-txt1 span{display: table-cell;width: 100%;height: 32px;vertical-align: middle;}
+.prop-ul1 .prop-desc{width:100%;color:#f7fafe;font-size:7px;text-align:center;line-height:8px;}
+.con1 .btn-get{display:block;width:123px;height:47.5px;background: url(//game.gtimg.cn/images/actdaoju/act/a20190530birthdaym/btn-lq.png) no-repeat;background-size: 100% 100%;  text-align:center;line-height:47.5px;color:#684509;font-size:15px;margin:0 auto;font-weight: bold;}
+.con1 .btn-got{display:block;width:123px;height:47.5px;background: url(//game.gtimg.cn/images/actdaoju/act/a20190530birthdaym/btn-lqon.png) no-repeat;background-size: 100% 100%; text-align:center;line-height:47.5px;color:#fff;font-size:15px;margin:0 auto;font-weight: bold;}
+
+/* 神秘折扣专区 */
+.title2{width:191px;height:35px;margin: 0 auto;background: url(//game.gtimg.cn/images/actdaoju/act/a20190530birthdaym/title-2.png) no-repeat;background-size: 100% 100%;}
+.count-down{width:100%; text-align:center; font-size:9px; color:#FFFFFF;height: 35px;line-height: 34px;}
+.con2 .prop-con1{width:100%; height:330px; margin:0 auto;}
+.btn-extract{display: inline-block;width:135px;height:35px;background: url(//game.gtimg.cn/images/actdaoju/act/a20190530birthdaym/btn-zk.png) no-repeat;background-size:100% 100%;text-align:center;line-height:32px;color:#fff;font-size:13px;margin-left:28px;}
+.con2 .btn-record{display: inline-block;margin:0 auto; text-align:center; font-size:12px;line-height:32px; color:#925d2a;width:132.5px;height:31.5px;background: url(//game.gtimg.cn/images/actdaoju/act/a20190530birthdaym/btn-jl.png) no-repeat;background-size:100% 100%;margin-left:44px;}
+.con2 .tip-refresh{display:block; width:100%;height: 39px; line-height:40px; text-align:center; font-size: 7px; color:#fff3e4;}
+.prop-ul2{width:336px; height:330px; margin:0 auto;}
+.prop-ul2 li{float:left; position:relative; width:102.5px; height:160px; margin-right: 14px;background:url(//game.gtimg.cn/images/actdaoju/act/a20190530birthdaym/bg-prop2.png) no-repeat top center; background-size:102.5px 125.5px;}
+.prop-ul2 li.last{margin-right: 0;}
+.prop-ul2 li:hover .fluid-txt{display:block;}
+.prop-ul2 li .fluid-txt{z-index:1; display:none;position:absolute;left:50%;margin-left:-67px;top:-84px;width:190px;height:80px;background:url(//game.gtimg.cn/images/actdaoju/act/a20190530birthdaym/bg-tx.png) no-repeat;background-size:100% 100%;}
+.prop-ul2 li .zuihou{z-index:1; display:none;position:absolute;left:50%;margin-left:-122px;top:-84px;width:190px;height:80px;background:url(//game.gtimg.cn/images/actdaoju/act/a20190530birthdaym/bg-tx.png) no-repeat;background-size:100% 100%;}
+.prop-ul2 li .fluid-wraper{position:relative;display: table;width:100%;height:60px;text-align: center;}
+.prop-ul2 li .fluid-inner{display: table;  width:100%;color:#ffecd6;font-size:9px; text-align:center;height: 80px;}
+.prop-ul2 li .fluid-inner p{display: table-cell;line-height:12px;height: 60px;width: 100%;vertical-align: middle;text-align: center;}
+.prop-ul2 .prop{position:relative; width:100%; height:94px; }
+.prop-ul2 .prop img{display:block; width:92.5px; height: 82px; margin:0 auto;}
+.prop-ul2 .prop-desc{width: 100%; text-align:center; font-size:9px; color:#fff; overflow:hidden;line-height: 10px;display: table;margin: 0 auto;height: 29px;padding-right: 3px;position: relative;top: -16px;left: 0;}
+.prop-ul2 .prop-desc span{display: table-cell; width: 100%;height: 20px;vertical-align: middle;}
+.prop-ul2 .origin{ width: 100%; height: 10px; line-height:10px; font-size: 6px;color: #f6c161; font-weight: 600;text-align: center;}
+.prop-ul2 .now{ width: 100%; height:10px; line-height:11px; font-size: 7px; color: #f6c160;font-weight: 600;text-align: center;}	
+.prop-ul2 .now span{color: #ffe951;font-weight: bold;}
+.prop-ul2 .now strong{color: #ffe951;font-size:7px;}
+.con2 .btn-buy{display:block; width:70px; height:27.5px; background:url(//game.gtimg.cn/images/actdaoju/act/a20190530birthdaym/btn-get.png) no-repeat; background-size: 100% 100%;  margin: 16px auto 0;}
+.con2 .btn-bought{display:block; width:70px; height:27.5px;background:url(//game.gtimg.cn/images/actdaoju/act/a20190530birthdaym/btn-geton.png) no-repeat; background-size: 100% 100%;  margin: 16px auto 0;}
+
+/* 每日惊喜大礼 */
+.title3{width:191px;height:35px;margin: 0 auto 18px; background: url(//game.gtimg.cn/images/actdaoju/act/a20190530birthdaym/title-3.png) no-repeat;background-size: 100% 100%;}
+.con3 .gift-con{ width:345px; height:240px; margin: 0 auto ;}
+.con3 .half{ position:relative; width:162px; height:150px;margin-right: 20px;background:url(//game.gtimg.cn/images/actdaoju/act/a20190530birthdaym/bg-prop3.png) no-repeat top center; background-size: 162px 119.5px;float: left;}
+.con3 .half.half2{margin-right: 0px;}
+.con3 .half:hover .fluid-txt{display:block;}
+.con3 .half .fluid-txt{z-index:1; display:none;position:absolute;left:50%;margin-left:-94px;top:-84px;width:190px;height:80px;background:url(//game.gtimg.cn/images/actdaoju/act/a20190530birthdaym/bg-tx.png) no-repeat;background-size:100% 100%;}
+.con3 .half .fluid-wraper{position:relative;display: table;width:100%;height:80px; }
+.con3 .half .fluid-inner{display: table;  width:100%;color:#ffecd6;font-size:9px; text-align:center;height: 80px;}
+.con3 .half .fluid-inner p{display: table-cell;line-height:12px;height: 80px;width: 100%;vertical-align: middle;text-align: center;}
+.con3 .half .discount{width:42px; height:35.5px; position: absolute;top: 5px;left: 5px;}
+.con3 .half .discount.tit-3-1{background:url(//game.gtimg.cn/images/actdaoju/act/a20190530birthdaym/zk-3.png) no-repeat; background-size:100% 100%;}
+.con3 .half .discount.tit-3-2{background:url(//game.gtimg.cn/images/actdaoju/act/a20190530birthdaym/zk-2.png) no-repeat; background-size:100% 100%;}
+.con3 .half img{display:block;width:144px; height:81px;margin: 0 auto; overflow:hidden; background-size:100% 100%;}
+.con3 .half .current-price{display: table; width: 100%; height:12px; text-align:center; font-size:9px; color:#fff; margin: 0 auto;overflow:hidden;position: relative;top: -8px;left: 2px;}
+.con3 .half .current-price span{display: table-cell;width: 100%;height: 12px;}
+.con3 .half .price{width: 100%; height: 21px; margin:0 auto; text-align:center;}
+.con3 .half  .origin{float: right; width: 48%; height: 12px; line-height:10px; font-size: 6px;color: #f6c161; font-weight: 600;margin-right: 2px;text-align: right;}
+.con3 .half  .now{float: right; width: 48%; height:12px; line-height:10px; font-size: 7px; color: #f6c160;font-weight: 600;margin-left: 2px;text-align: left;}	
+.con3 .half  .now span{color: #ffe951;font-weight: bold;}
+.con3 .half  .now strong{color: #ffe951;font-size:7px;}
+.con3 .btn-buy{display:block; width:70px; height:27.5px;background:url(//game.gtimg.cn/images/actdaoju/act/a20190530birthdaym/btn-get.png) no-repeat; background-size: 100% 100%;  margin: 16px auto 0;}
+.con3 .btn-bought{display:block; width:70px; height:27.5px; background:url(//game.gtimg.cn/images/actdaoju/act/a20190530birthdaym/btn-geton.png) no-repeat; background-size: 100% 100%;  margin: 16px auto 0;}
+/* 活动规则 */
+.title4{width:63.5px;height:14px;margin: 0 0 11px 25px; background: url(//game.gtimg.cn/images/actdaoju/act/a20190530birthdaym/title-4.png) no-repeat;background-size: 100% 100%;}
+.rule .line{height:1px;width:337.5px;background: url(//game.gtimg.cn/images/actdaoju/act/a20190530birthdaym/line.png) no-repeat;background-size: 100% 100%;margin: 0 auto; }
+.rule .rule-ul{width:324px; height:auto; margin:10px auto;}
+.rule .rule-ul li{width:100%; overflow:hidden;}
+.rule .rule-ul li span{margin:4.5px 2.5px 0 0; float:left; width:9.5px; height:9px;line-height: 9px;color: #8e7034;text-align: center;border-radius: 50%;border: 1px solid #8e7034;font-size: 6px;}
+.rule .rule-ul li p{float:left; width:95%; line-height:19px; font-size: 9px; color:#8e7034;}
+
+/*afooter*/
+#afooter{text-align:center; line-height:10px;color: #9a9a9a;background-color: #0e0e0e;padding: 5px 0;font-size: 8px;}
+#afooter a{ color: #9a9a9a;}
+
+.dialog1{width: 330px; position: relative;background: #f4f5fa;}
+.dia-close{width: 35px; height: 35px; display: block; position: absolute; top: 0; right: -35px; background: url(//game.gtimg.cn/images/actdaoju/act/a20190530birthdaym/btn-close.png) no-repeat; background-size: 100% 100%;}
+.dialog1 .dia-s1{font-size: 12px; color: #fff; line-height: 35px; height: 35px; text-align: center; background: #e6b75b}
+.dialog1 .dia-con{padding: 0 0;}
+.dialog1 .tab{width: 330px; margin: 0 auto;}
+.dialog1 .tab tr th{line-height: 20px; font-size: 8px; color: #333; height: 20px; text-align: center; font-weight: bold; border-bottom: solid 1px #d5d7df;}
+.dialog1 .tab tr td{font-size: 8px; color: #333; line-height: 18px; text-align: center;}
+.dialog1 .tab tfoot tr td{height: 30px; line-height: 30px; font-size: 8px;}
+.dialog1 .tab input{width: 22px; height: 12px; border: solid 1px #fff; background: #365bad; text-align: center; color: #fff}
+.dialog1 .tab a{color: #333; text-decoration: underline; margin: 0 5px;}
+
