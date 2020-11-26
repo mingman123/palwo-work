@@ -1,0 +1,62 @@
+.wrap{width:7.5rem;height: auto;background: url(//game.gtimg.cn/images/wpzs/cp/a20191018twins/bg1.jpg) no-repeat center top;background-size: 100% auto;position: relative;overflow: hidden;}
+.wrap .header{height:7.26rem;;}
+.links{padding-bottom: 1.4rem;}
+.links .btn-my{background: url(//game.gtimg.cn/images/wpzs/cp/a20191018twins/btn-my.png) no-repeat;background-size: 100% 100%;}
+.links .btn-help{background: url(//game.gtimg.cn/images/wpzs/cp/a20191018twins/btn-help.png) no-repeat;background-size: 100% 100%;margin-left: .14rem;}
+
+.header .ce{position: absolute;top: 6rem;right: .16rem;}
+.header .ce a{background: url(//game.gtimg.cn/images/wpzs/cp/a20191018twins/btn-rule.png) no-repeat;background-size: 100% 100%;width: .56rem;height: 1.26rem;display: block;}
+.login{position: absolute;top: 6.7rem;left: 0;}
+.cont2{padding-top: 1.34rem;}
+
+
+
+.cont3 .title5{background: url(//game.gtimg.cn/images/wpzs/cp/a20191018twins/title5.png) no-repeat;background-size: 100% 100%;width:5.6rem;height: .84rem;margin: 0 auto 1rem;}
+.cont3 .bg-speed{background: url(//game.gtimg.cn/images/wpzs/cp/a20191018twins/bg-speed.png) no-repeat;background-size: 100% 100%;width:7rem;height: 1.04rem;margin: 0 auto .5rem;position: relative;}
+.cont3 .fc-icon{background: url(//game.gtimg.cn/images/wpzs/cp/a20191018twins/fc-icon.png) no-repeat;background-size: 100% 100%;width:1.42rem;height: 1.04rem;position: absolute;top: 0;right: -.1rem;z-index: 4;}
+.cont3 .speed{background: url(//game.gtimg.cn/images/wpzs/cp/a20191018twins/speed.png) no-repeat;background-size:7rem 1.04rem;width:10%;height: 1.04rem;margin: 0 auto .5rem;position: absolute;top: 0;left: 0;}
+
+.cont3 .bg-speed ul li{position: absolute;top: -.68rem;text-align: center;}
+.cont3 .bg-speed .fc{background: url(//game.gtimg.cn/images/wpzs/cp/a20191018twins/bg-fc.png) no-repeat;background-size: 100% 100%;width:1.26rem;height: .96rem;margin: 0 auto;visibility:hidden;}
+.cont3 .bg-speed .fc img{width: 1.24rem;height: .46rem;display: block;}
+.cont3 .bg-speed .fc p{color: #000000;font-size: .14rem;text-align: center;line-height: .2rem;}
+.cont3 .bg-speed ul li.on .fc{visibility:visible;;}
+.cont3 .bg-speed ul li .reach{background: url(//game.gtimg.cn/images/wpzs/cp/a20191018twins/reach.png) no-repeat;background-size: 100% 100%;width:.16rem;height: .16rem;margin: .2rem auto .2rem;}
+.cont3 .bg-speed ul li.on .reach{background: url(//game.gtimg.cn/images/wpzs/cp/a20191018twins/reachon.png) no-repeat;background-size: 100% 100%;width:.16rem;height: .16rem;margin: .2rem auto .2rem;}
+.cont3 .bg-speed ul li .reachs{background: url(//game.gtimg.cn/images/wpzs/cp/a20191018twins/reachs.png) no-repeat;background-size: 100% 100%;width:.2rem;height: .2rem;margin: 0 auto;}
+.cont3 .bg-speed ul li.on .reachs{background: url(//game.gtimg.cn/images/wpzs/cp/a20191018twins/reachson.png) no-repeat;background-size: 100% 100%;width:.2rem;height: .2rem;margin: 0 auto;}
+
+
+.cont3 .bg-speed ul .first{left:-.2rem;}
+.cont3 .bg-speed ul .second{left:.5rem;}
+.cont3 .bg-speed ul .third{left:1.2rem;}
+.cont3 .bg-speed ul .fourth{left:1.9rem;}
+.cont3 .bg-speed ul .fifth{left:2.6rem;}
+.cont3 .bg-speed ul .sixth{left:3.3rem;}
+.cont3 .bg-speed ul .seventh{left:4rem;}
+.cont3 .bg-speed ul .eighth{left:4.7rem;}
+
+
+/*µ¯´°*/
+.dia1{background: url(//game.gtimg.cn/images/wpzs/cp/a20191018twins/bg-tc1.png) no-repeat;background-size: 5.34rem 7rem;width: 5.34rem;height: 8.2rem;}
+.dia1 ul{width: 4.8rem;margin: 0 auto;padding-top: .6rem;}
+.dia1 ul li{color: #FFFFFF;font-size: .28rem;padding-bottom: .26rem;}
+.dia1{margin-top: -3.52rem!important;margin-left: -2.53rem!important;}
+
+
+
+.dia4{background: url(//game.gtimg.cn/images/wpzs/cp/a20191018twins/bg-tc3.png) no-repeat;background-size: 4.9rem 2.3rem;width: 4.9rem;height: 3.5rem;}
+.dia4 p{color: #ffbe22;font-size: .28rem;font-weight: bold;padding-top: .4rem;text-align: center;padding-bottom: .3rem;}
+.dia4 .btn-want{background: url(//game.gtimg.cn/images/wpzs/cp/a20191018twins/btn-want.png) no-repeat;background-size:3.06rem .8rem;width: 3.06rem;height: .8rem;display: block;margin: 0 auto;}
+.dia4{margin-top: -1.8rem!important;}
+
+.dia6{background: url(//game.gtimg.cn/images/wpzs/cp/a20191018twins/bg-tc2.png) no-repeat;background-size: 4.9rem 1.6rem;width: 4.9rem;height: 2.8rem;    margin-top: -2.4rem!important;margin-left: -2.4rem!important;}
+.dia6 p{color: #ffbe22;font-size: .28rem;font-weight: bold;padding-top: .56rem;text-align: center;}
+
+
+
+
+/* footer */
+#afooter{text-align:center; line-height:.20rem;color: #b3c8d9;padding: .2rem 0; position: relative; z-index: 2; margin-top: 0;font-size: .2rem;background: #000000;}
+#afooter a{ color: #000;}
+#loginStatusSyncFrame_ams_ame{ display: none;}

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+  <meta charset="gbk">
+  <meta name="applicable-device" content="mobile">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,maximum-scale=1" />
+  <meta name="robots" content="all" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="author" content="Tencent-TGideas" />
+  <meta name="Copyright" content="Tencent" />
+  <meta name="Description" content="好友来助力、选手免费领,《王牌战士》是由腾讯魔方工作室自研出品的热血漫枪战手游。感受FPS第一人称射击的畅快淋漓！没有固定套路，单局之内随意切换角色，多人组队，PVP公平竞技！更有据点争夺、骇客入侵、团队对抗、机甲乱斗等多种玩法模式，带来燃爆的热血战斗体验！" />
+  <meta name="Keywords" content="好友来助力、选手免费领,王牌战士,王牌战士手游,王牌战士官方网站,王牌战士预约,王牌战士下载,fps,第一人称射击,PVP,枪战手游,热血漫" />
+  <title>好友来助力  选手免费领- 王牌战士官方下载站 - 腾讯游戏</title>
+  <!-- 设计：cp  | 重构：cp | 创建：2019-10-18-->
+  <!-- //game.gtimg.cn/images/wpzs/cp/a20191018twins/ -->
+  <link rel="stylesheet" href="//ossweb-img.qq.com/images/js/swiper/swiper-4.3.3.min.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/comm.css">
+ 	<script>
+    // 屏幕适配函数
+    (function (doc, win) {
+      var docEl = doc.documentElement;
+      var resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize';
+      var recalc = function () {
+        var clientWidth = docEl.clientWidth;
+        if (!clientWidth) {
+          return
+        }
+        docEl.style.fontSize = 100 * (clientWidth / 750) + 'px'
+      }
+      if (!doc.addEventListener) {
+        return
+      }
+      recalc();
+      win.addEventListener(resizeEvt, recalc, false)
+      doc.addEventListener('DOMContentLoaded', recalc, false)
+    })(document, window)
+  </script>
+</head>
+
+<body>
+	<div class="contents">
+	  <h1 class="hid">好友来助力 选手免费领</h1>
+	  <div class="screen">
+	  	<div class="left" id="ani">
+	  		<img src="//game.gtimg.cn/images/wpzs/cp/a20191018twins/left.png" alt="" />
+	  	</div>
+	  	<div class="right">
+	  			<img src="//game.gtimg.cn/images/wpzs/cp/a20191018twins/right.png" alt="" />
+	  	</div>
+	  		<a class="btn-act"  href="javascript:;"  onclick="PTTSendClick('btn', 'btn-act', '开始');"></a>
+	  </div>
+	  <div class="wrap">
+	  	<div class="header">
+	  		<a class="logo" title="王牌战士" href="//wpzs.qq.com/m/main.shtml" target="_blank" onclick="PTTSendClick('btn', 'logo', '王牌战士');"></a>
+	  		<div class="links">
+	  			<a class="btn-down"  href="//wpzs.qq.com/zlkdatasys/mct/d/play1.shtml"  onclick="PTTSendClick('btn', 'btn-down', '下载游戏');"></a>
+	  			<a class="btn-ask"  href="javascript:share();"  onclick="PTTSendClick('btn', 'btn-ask', '邀请好友助力');"></a>
+	  		</div>
+	  		<div id="ams_loginbar" class="login">
+			    <div id="unlogin">
+			       亲爱的用户，请<a id="ptLoginBtn" href="javascript:;" style="cursor: pointer;">【登录】<span id="spanNotBind_525639">
+	               <a href="javascript:amsInit(178183, 525638);">【绑定大区】</a>
+	           </span></a>
+			        <!--<a id="wxloginBtn" href="javascript:void(0);">[微信登录]</a>-->
+			    </div>
+			    <div id="logined" style="display: none;">
+			        <span>欢迎您，</span>
+			        <span id="userinfo">1079682165</span>
+							<span id="spanBind_525639" style="display:none">
+	               <span id="area_info_525639"></span>
+	               <span id="role_info_525639"></span>
+	               <a href="javascript:amsInit(178183, 525638);">【更改绑定】</a>
+	           </span>
+							
+							
+			        【<a id="ptLogoutBtn" href="javascript:;" style="cursor: pointer;">注销</a>】
+			    </div>
+				</div>
+			</div>
+	  	<div class="cont1">
+	  		<p class="title1"></p>
+	  		<p class="title1-desc"></p>
+	  		<div class="award-box">
+	  			<!--li添加class on，变成可领取状态-->
+	  			<ul class="award-box1">
+	  				<li class="award1">
+		  				<img src="//game.gtimg.cn/images/wpzs/cp/a20191018twins/prop1-2.png" alt="" />
+			  			<p class="img-desc">钻石<br />x188</p>
+		  				<p class="mc"></p>
+		  				<a class="btn-lq"  href="javascript:;"  onclick="PTTSendClick('btn', 'btn-lq', '领奖');"></a>
+		  			<!--已领取，切换class btn-ylq -->
+		  			</li>
+		  			<li class="award2 on">
+			  				<img src="//game.gtimg.cn/images/wpzs/cp/a20191018twins/prop1-1.png" alt="" />
+				  			<p class="img-desc">金币<br />x688</p>
+			  				<p class="mc"></p>
+			  				<a class="btn-lq"  href="javascript:;"  onclick="PTTSendClick('btn', 'btn-lq', '领奖');"></a>
+		  			</li>
+		  			<li class="award3 on">
+			  				<img src="//game.gtimg.cn/images/wpzs/cp/a20191018twins/prop1-6.png" alt="" />
+				  			<p class="img-desc">随机限时贴纸<br />x1（7天）</p>
+			  				<p class="mc"></p>
+			  				<a class="btn-lq"  href="javascript:;"  onclick="PTTSendClick('btn', 'btn-lq', '领奖');"></a>
+		  			</li>
+	  			</ul>
+	  			<ul class="award-box2">
+	  				<li class="award4">
+		  				<img src="//game.gtimg.cn/images/wpzs/cp/a20191018twins/prop1-5.png" alt="" />
+			  			<p class="img-desc">随机限时时装<br />x1（7天）</p>
+		  				<p class="mc"></p>
+		  				<a class="btn-lq"  href="javascript:;"  onclick="PTTSendClick('btn', 'btn-lq', '领奖');"></a>
+		  			</li>
+		  			<li class="award5">
+			  				<img src="//game.gtimg.cn/images/wpzs/cp/a20191018twins/prop1-4.png" alt="" />
+				  			<p class="img-desc">双子<br />（7天体验卡）</p>
+			  				<p class="mc"></p>
+			  				<a class="btn-lq"  href="javascript:;"  onclick="PTTSendClick('btn', 'btn-lq', '领奖');"></a>
+		  			</li>
+		  		</ul>
+		  		<ul class="award-box3">
+	  				<li class="award6">
+		  				<img src="//game.gtimg.cn/images/wpzs/cp/a20191018twins/prop1-1.png" alt="" />
+			  			<p class="img-desc">金币<br />x1288</p>
+		  				<p class="mc"></p>
+		  				<a class="btn-lq"  href="javascript:;"  onclick="PTTSendClick('btn', 'btn-lq', '领奖');"></a>
+		  			</li>
+		  			<li class="award7 on">
+			  				<img src="//game.gtimg.cn/images/wpzs/cp/a20191018twins/prop1-3.png" alt="" />
+				  			<p class="img-desc">随机战备物资<br />x5</p>
+			  				<p class="mc"></p>
+			  				<a class="btn-lq"  href="javascript:;"  onclick="PTTSendClick('btn', 'btn-lq', '领奖');"></a>
+		  			</li>
+		  			<li class="award8">
+			  				<img src="//game.gtimg.cn/images/wpzs/cp/a20191018twins/prop1-2.png" alt="" />
+				  			<p class="img-desc">钻石<br />x88</p>
+			  				<p class="mc"></p>
+			  				<a class="btn-lq"  href="javascript:;"  onclick="PTTSendClick('btn', 'btn-lq', '领奖');"></a>
+		  			</li>
+	  			</ul>
+	  			<!--award-box4添加class on，变成可领取状态-->
+	  			<div class="award-box4 on">
+	  				<p>永久选手-双子</p>
+	  				<a class="btn-red"  href="javascript:;"  onclick="PTTSendClick('btn', 'btn-red', '领奖');"></a>
+		  			<!--已领取，切换class 	btn-reded -->
+	  			
+	  			</div>
+	  		</div>
+	  		<div class="rule">
+	  			<p class="title1-1"></p>
+	  			<ul>
+	  				<li>
+	  					<span>1、</span>玩家登陆参与活动，即可邀请好友助力解锁奖励；
+	  				</li>
+	  				<li>
+	  					<span>2、</span>每名玩家拥有3次为其他玩家助力的机会，不可重复助力。
+	  				</li>
+	  					<li>
+	  					<span>3、</span>新玩家在页面上下载注册游戏后，即可领取入营注册礼包；
+	  				</li>
+	  				<li>
+	  					<span>4、</span>活动奖励需注册绑定游戏大区方可领取，请于游戏内邮件查收。
+	  				</li>
+	  				<li>
+	  					<span>5、</span>已拥有永久双子选手的玩家，参与解锁双子奖励后将自动兑换为880钻石由邮件中心领取。
+	  				</li>
+	  				<li>
+	  					<span>6、</span>该活动每名玩家仅可参与一次；
+	  				</li>
+	  			</ul>
+	  		</div>
+	  	</div>
+	  	<div class="cont2">
+	  		<p class="title2"></p>
+	  		<p class="title2-desc"></p>
+	  		<ul>
+	  			<li>
+	  				<img src="//game.gtimg.cn/images/wpzs/cp/a20191018twins/prop2-1.png" alt="钻石×188" />
+	  				<p>钻石×188</p>
+	  			</li>
+	  			<li>
+	  				<img src="//game.gtimg.cn/images/wpzs/cp/a20191018twins/prop2-2.png" alt="随机选手体验卡(3天)×4" />
+	  				<p>随机选手体验卡(3天)×4</p>
+	  			</li>
+	  			<li>
+	  				<img src="//game.gtimg.cn/images/wpzs/cp/a20191018twins/prop2-3.png" alt="金币×888" />
+	  				<p>金币×888</p>
+	  			</li>
+	  		</ul>
+	  		<a class="btn-get"  href="javascript:;"  onclick="PTTSendClick('btn', 'btn-get', '立即领取');"></a>
+		  <!--已领取，切换class 	btn-geted -->
+	  		
+	  	</div>
+	  	<div class="cont3">
+	  		<p class="title3"></p>
+	  		<div class="video">
+		  		<div id="container" class="cont-video"></div>
+		  		<a class="btn-player"  href="javascript:;" onclick="PTTSendClick('btn', 'btn-player', '播放');"></a>
+	  		</div>
+	  	</div>
+	  	<div class="cont4">
+  		<p class="title4"></p>
+  		<div class="swiper-container">
+		    <ul class="swiper-wrapper">
+		      <li class="swiper-slide">
+		      	<img src="//game.gtimg.cn/images/wpzs/cp/a20191018twins/swiper1.png" alt="" />
+		      </li>
+		      <li class="swiper-slide">
+		      	<img src="//game.gtimg.cn/images/wpzs/cp/a20191018twins/swiper2.png" alt="" />
+		      </li>
+		      <li class="swiper-slide">
+		      	<img src="//game.gtimg.cn/images/wpzs/cp/a20191018twins/swiper3.png" alt="" />
+		      </li>
+		      <li class="swiper-slide">
+		      	<img src="//game.gtimg.cn/images/wpzs/cp/a20191018twins/swiper4.png" alt="" />
+		      </li>
+		      <li class="swiper-slide">
+		      	<img src="//game.gtimg.cn/images/wpzs/cp/a20191018twins/swiper5.png" alt="" />
+		      </li>
+		    </ul>
+		    <!-- Add Arrows -->
+		    <div class="swiper-button-next"></div>
+		    <div class="swiper-button-prev"></div>
+		  </div>
+  	</div>
+  	</div>
+	</div>
+	
+	  <!--弹窗-->
+	  <!--奖励领取成功-->
+  <div class="dialog dia2" id="dia2" style="display:none">
+  	<p>恭喜你，奖励领取成功～<br />请前往游戏内查看！</p>
+    <a class="dia-close" href="javascript:showDialog.hide()" title="关闭"></a>
+	</div>
+		<!--绑定账号信息-->
+	 <div class="dialog dia3" id="dia3" style="display:none">
+  	<p>对不起，请先绑定账号信息后<br />再领取奖励。</p>
+    <a class="dia-close" href="javascript:showDialog.hide()" title="关闭"></a>
+	</div>
+		<!--敬请期待-->
+	 <div class="dialog dia5" id="dia5" style="display:none">
+  	<p>活动尚未开启，敬请期待！</p>
+    <a class="dia-close" href="javascript:showDialog.hide()" title="关闭"></a>
+	</div>
+		<!--活动已经结束-->
+	 <div class="dialog dia6" id="dia6" style="display:none">
+  	<p>对不起，活动已经结束！</p>
+    <a class="dia-close" href="javascript:showDialog.hide()" title="关闭"></a>
+	</div>
+
+	<!-- share -->
+	<div id="s4Share" class="s4_share" style="display: none;">
+	    <div class="fenx">
+	        <img src="//game.gtimg.cn/images/wpzs/cp/a20191018twins/share-pic.png" class="share-arr"  alt="点击分享">
+	    </div>
+	</div>
+	
+	
+	
+	
+	
+  <script src="//ossweb-img.qq.com/images/js/mobile_bundle/milo.js"></script>
+  <script src="//game.gtimg.cn/images/js/2018foot/foot.js"></script>
+  <script src="//ossweb-img.qq.com/images/js/TGMobileShare/TGMobileShare.min.js"></script>
+  <script src="//ossweb-img.qq.com/images/js/zepto/zepto.modules.min.js"></script>
+	<script src='//vm.gtimg.cn/tencentvideo/txp/js/txplayer.js'></script>
+	<script src="//ossweb-img.qq.com/images/js/swiper4_component/js/swiper.min.js"></script> 
+  <script src="js/comm.js"></script>
+  <script src="js/index.js"></script>
+  
+  <script>
+    //此段代码不能放到外链JS中，
+    var setSite = { //设置网站属性 
+      siteType: "a20191018twins", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+      pageType: "index", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN,不支持点(.)、下划线(_)
+      pageName: "首页", //必填项:页面中文名 
+      project: "other", //选填项:如果是官网模块则是必填;按照模块内容，填写固定的对应值;原生官网base;微社区ingame;同人站doujin;赛事match;故事站story;文化站history;粉丝站fans;爆料站coming;论坛bbs;皮肤skin;默认other;
+      osact: 0 //选填项:默认是0。osact=0表示非官网专题；osact=pc表示pc官网/pc官网专题；osact=m表示移动官网/移动官网专题；osact=ingame表示微社区/微社区专题
+    };
+    if (typeof (pgvMain) == 'function') pgvMain();//千万不能忘记！
+  </script>
+</body>
+
+</html>
