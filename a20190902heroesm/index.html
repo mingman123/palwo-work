@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="gbk">
+		 <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+		 <meta name="format-detection" content="telephone=no">
+		 <meta content="yes" name="mobile-web-app-capable">
+		 <meta content="yes" name="apple-mobile-web-app-capable">
+		 <meta name="robots" content="all">
+		 <meta name="author" content="Tencent-CP" />
+		 <meta name="Copyright" content="Tencent" />
+    	<meta name="Description" content="群雄十年经典重得，起凡游戏平台，基于自主开发的三国争霸系列游戏为玩家提供竞技游戏平台的终极体验, 是全球唯一支持10V10三国类对战游戏平台，游戏包括三国争霸5V5、群雄逐鹿10V10、攻略等">
+    	<meta name="Keywords" content="群雄十年经典重得，起凡、起凡游戏、7fgame、竞技平台、群雄逐鹿、10V10">
+		<title>群雄十年 经典重铸-群雄逐鹿官网-起凡游戏</title>
+		<!--//game.gtimg.cn/images/fo4/cp/a20190902heroesm/-->
+		<!-- 页面设计：cp | 页面制作：cp | 创建：2019-09-02-->
+		<link rel="stylesheet" href="swiper.css" />
+		<link rel="stylesheet" href="index.css" />
+		<script>
+			// 屏幕适配函数
+		  (function (doc, win) {
+		   var docEl = doc.documentElement,
+		    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+		    recalc = function () {
+		     var clientWidth = docEl.clientWidth;
+		     if (!clientWidth)
+		      return
+		     docEl.style.fontSize = 100 * (clientWidth / 750) + 'px'
+		    }
+		   if (!doc.addEventListener)
+		    return
+		   recalc();
+		   win.addEventListener(resizeEvt, recalc, false)
+		   doc.addEventListener('DOMContentLoaded', recalc, false)
+		  })(document, window)
+		</script>
+	</head>
+	<body>
+		<div class="wrap">
+			<div class="inner">
+				<div class="head" id="head">
+					<h1 class="hid">群雄十年经典重得</h1>
+					<!--登陆组件,一般在第一个切图中-->
+					<div class="login">
+					    <p id="unlogin" style="display: block;"> 亲爱的用户，请<a href="javascript:;" id="dologin">【登录】</a></p>
+					    <p id="logined" style="display:none">欢迎您，<span id="login_qq_span"></span>，
+					        <span id="spanNotBind_525639">
+					           <a href="javascript:amsInit(178183, 525638);">【绑定大区】</a>
+					        </span>
+					        <span id="spanBind_525639" style="display:none">
+					           <span id="area_info_525639"></span>
+					           <span id="role_info_525639"></span>
+					           <a href="javascript:amsInit(178183, 525638);">【更改绑定】</a>
+					        </span>
+					        <a href="javascript:;" id="dologout">【注销】</a>
+					    </p>
+					</div>
+					<div class="logos">
+						<a class="logo1 hidden" title="群雄逐鹿" href="http://qxzl.7fgame.com/index.shtml" target="_blank" onclick="PTTSendClick('btn', 'go', '群雄逐鹿');">群雄逐鹿</a>
+						<a class="logo2 hidden" title="游戏下载" href="//act.wegame.com.cn/online/qxzl20190605/index.html" target="_blank" onclick="PTTSendClick('btn', 'dw', '游戏下载');">游戏下载</a>
+					</div>
+					<div class="act-time-box">
+					<p>10v10国风MOBA大作公测预约开启</p>
+					<p class="act-time">9月25日 正式开启公测</p>	
+					</div>
+					
+						<a class="btn-play" href="javascript:showVideoDia('d0876fpnifw');" onclick="PTTSendClick('btn','btn-play','视频播放')"><i class=""></i></a>
+					
+					<div class="links">
+						<a class="btn-order " href="javascript:;" onclick="PTTSendClick('btn','btn-bc','立即预约')"></a>
+						<!--<a class="btn-ordered " href="javascript:;"  onclick="PTTSendClick('btn','btn-bc','已预约')"></a>-->
+						<a class="btn-check" href="#box1" onclick="PTTSendClick('btn','btn-ac','查看预约奖励')">查看预约奖励</a>
+					</div>
+					
+				</div>
+			</div>
+			<div class="content">
+			    <div class="cont">
+					<div class="box1" id="box1">
+						<p class="title title1 ">领取wegame群雄逐鹿<br />专属预约礼包</p>
+						<ul class="prop1">
+							<li class="first gif">
+								<img src="ossweb-img/prop1-1.png" width="178" height="163" alt="赵云黄金战甲皮肤" />
+								<p>Wegame孔明灯</p>
+								
+							</li>
+							<li>
+								<img src="ossweb-img/prop1-2.png" width="178" height="163" alt="100虎符" />
+								<p>虎符&nbsp;x100</p>
+							</li>
+							<li>
+								<img src="ossweb-img/prop1-3.png" width="178" height="163" alt="100将星石" />
+								<p>将星石&nbsp;x100</p>
+							</li>
+							<li>
+								<img src="ossweb-img/prop1-4.png" width="178" height="163" alt="100灵魂碎片" />
+								<p>灵魂碎片&nbsp;x100</p>
+							</li>
+							<li class="last">
+								<img src="ossweb-img/prop1-5.png" width="178" height="163" alt="灵魂精粹" />
+								<p>灵魂精粹&nbsp;x1</p>
+							</li>
+						</ul>
+						<!--<div class="gif1 on">
+							<img src="ossweb-img/prop1-1.gif" width="200" height="269" />
+						</div>-->
+					</div>
+					<div class="box2" id="box2">
+						<p class="title title2 ">已有XX名豪杰预约</p>
+						<div class="num">
+							<p class="num1 on"><span>10</span>万</p>
+							<p class="num2 on"><span>20</span>万</p>
+							<p class="num3"><span>30</span>万</p>
+							<p class="num4"><span>50</span>万</p>
+						</div>
+						<div class="progress-bar">
+							<div class="progress">
+								<p class="speeded"></p>
+								<p class="speed"></p>
+								<!--调整宽度百分比-->
+							</div>
+						</div>
+						<ul class="prop2">
+							<li class="on first">
+								<i class=""></i>
+								<img src="ossweb-img/prop2-1.png" width="78" height="78" alt="四转虎符"/>
+								<p>四转虎符&nbsp;x100</p>
+								<img src="ossweb-img/prop2-2.png" width="78" height="78" alt="灵魂碎片"/>
+								<p>灵魂碎片&nbsp;x100</p>
+								<a class="btn-got " href="javascript:;" onclick="PTTSendClick('btn','btn-get4','领取')"></a>
+								<!--<a class="btn-got " href="javascript:;" onclick="PTTSendClick('btn','btn-got4','已领取')"></a>-->
+							</li>
+							<li class="on first">
+								<i class=""></i>
+								<img src="ossweb-img/prop2-3.png" width="78" height="78" alt="将星石"/>
+								<p>将星石&nbsp;x100</p>
+								<img src="ossweb-img/prop2-4.png" width="78" height="78" alt="将星体验卡"/>
+								<p>将星体验卡&nbsp;x3</p>
+								<a class="btn-got " href="javascript:;" onclick="PTTSendClick('btn','btn-get5','领取')"></a>
+							</li>
+							<li class="second">
+								<i class=""></i>
+								<img src="ossweb-img/prop2-5.png" width="116" height="116" alt="纸飞机战鹰"/>
+								<p>Wegame限定战鹰<br />儿时记忆
+</p>
+								<a class="btn-get " href="javascript:;" onclick="PTTSendClick('btn','btn-get6','领取')"></a>
+							</li>
+							<li class="second gif">
+								<i class=""></i>
+								<img src="ossweb-img/prop2-6.png" width="116" height="116"  alt="法正-金色雷神皮肤"/>
+								<p>Wegame限定皮肤<br />法正—金色雷神
+</p>
+								<a class="btn-get " href="javascript:;" onclick="PTTSendClick('btn','btn-get7','领取')"></a>
+							</li>
+						</ul>
+						<!--<div class="gif2 on">
+							<img src="ossweb-img/prop2-4.gif" width="235" height="336" />
+						</div>-->
+					</div>
+					<div class="box3" id="box3">
+						<p class="title title3 ">群雄割据 邀请好友</p>
+						<ul class="prop3">
+							<li class="on">
+								<i class=""></i>
+								<p class="invite-num">邀请 <span>1</span>位好友</p>
+								<div class="left">
+									<img src="ossweb-img/prop3-1.png" width="90" height="90" alt="50四转虎符"/>
+									<p>四转虎符&nbsp;<br />x50</p>
+								</div>
+								<div class="right">
+									<img src="ossweb-img/prop3-2.png" width="90" height="90" alt="将星体验卡" />
+									<p>将星体验卡&nbsp;<br />x1</p>
+								</div>
+								<a class="btn-got " href="javascript:;" onclick="PTTSendClick('btn','btn-get1','领取')"></a>
+								<!--<a class="btn-got " href="javascript:;" onclick="PTTSendClick('btn','btn-got','已领取')"></a>-->
+							</li>
+							<li class="on">
+								<i class=""></i>
+								<p class="invite-num">邀请 <span>3</span>位好友</p>
+								<div class="left">
+									<img src="ossweb-img/prop3-1.png" width="90" height="90" alt="100四转虎符"/>
+									<p>四转虎符&nbsp;<br />x100</p>
+								</div>
+								<div class="right">
+									<img src="ossweb-img/prop3-2.png" width="90" height="90" alt="将星体验卡"/>
+									<p>将星体验卡&nbsp;<br />x2</p>
+								</div>
+								<a class="btn-get " href="javascript:;" onclick="PTTSendClick('btn','btn-get2','领取')"></a>
+							</li>
+							<li>
+								<i class=""></i>
+								<p class="invite-num">邀请 <span>5</span>位好友</p>
+								<div class="left">
+									<img src="ossweb-img/prop3-1.png" width="90" height="90" alt="100四转虎符"/>
+									<p>四转虎符&nbsp;<br />x200</p>
+								</div>
+								<div class="right">
+									<img src="ossweb-img/prop3-2.png" width="90" height="90" alt="将星体验卡"/>
+									<p>将星体验卡&nbsp;<br />x3</p>
+								</div>
+								<a class="btn-get " href="javascript:;" onclick="PTTSendClick('btn','btn-get3','领取')"></a>
+							</li>
+						</ul>
+						<a class="btn-letter " href="javascript:TGDialogS('dia3')" onclick="PTTSendClick('btn','btn-letter','邀请好友')"></a>
+						<a class="letter-desc" href="javascript:TGDialogS('dia4')" onclick="PTTSendClick('btn','btn-letter','邀请好友')">已邀请<span>&nbsp;0&nbsp;</span>位好友</a>
+						
+						
+					</div>
+					<div class="box4" id="box4">
+						<p class="title title4 ">幸运抽奖 豪礼放送</p>
+						<div class="left">
+							<div class="lottery" id="lotterycontent">
+							    <ul class="lettery-box">
+							    	<li>
+							    		<img src="ossweb-img/lettery1.png" width="188" height="150" alt="张飞·烟灰缸" />
+							    		<p>张飞·烟灰缸&nbsp;x1</p>
+							    	</li>
+							    	<li>
+							    		<img src="ossweb-img/lettery2.png" width="188" height="150" alt="电风扇" />
+							    		<p>电风扇&nbsp;x1</p>
+							    	</li>
+							    	<li>
+							    		<img src="ossweb-img/lettery3.png" width="188" height="150" alt="HDT恤" />
+							    		<p>HD&nbsp;T恤&nbsp;x1</p>
+							    	</li>
+							    	<li>
+							    		<img src="ossweb-img/lettery4.png" width="188" height="150" alt="HD马克杯" />
+							    		<p>HD马克杯&nbsp;x1</p>
+							    	</li>
+							    	<li>
+							    		
+							    	</li>
+							    	<li>
+							    		<img src="ossweb-img/lettery5.png" width="188" height="150" alt="将星石" />
+							    		<p>将星石&nbsp;x1</p>
+							    	</li>
+							    	<li>
+							    		<img src="ossweb-img/lettery6.png" width="188" height="150" alt="四转虎符" />
+							    		<p>四转虎符&nbsp;x30</p>
+							    	</li>
+							    	<li>
+							    		<img src="ossweb-img/lettery7.png" width="188" height="150" alt="灵魂碎片" />
+							    		<p>灵魂碎片&nbsp;x20</p>
+							    	</li>
+							    	<li>
+							    		<img src="ossweb-img/lettery8.png" width="188" height="150" alt="10QB" />
+							    		<p>10QB</p>
+							    	</li>
+							    	
+							    </ul>
+							</div>
+						</div>
+						<div class="right">
+							<div class="num">
+								<p class="time">累计获得次数:</p>
+								<p class="num-txt"><span>&nbsp;0&nbsp;</span>次</p>
+								<p class="time">剩余抽奖次数:</p>
+								<p class="num-txt"><span>&nbsp;0&nbsp;</span>次</p>
+							</div>
+							<div class="txt-box">
+								<p class="title-txt">满足以下条件，获取更多抽奖机会</p>
+								<ul class="txt">
+									<li>
+										<div class="txt-desc">
+											<p>预约游戏</p>
+											<i>+1次抽奖机会</i>
+										</div>
+										<!--<a class="btn-ordered " href="javascript:;" onclick="PTTSendClick('btn','btn-ordered1','预约游戏')"></a>-->
+										<a class="btn-ordered " href="javascript:;" onclick="PTTSendClick('btn','btn-order1','预约游戏')"></a>
+										<!--<a class="btn-orderon " href="javascript:;" onclick="PTTSendClick('btn','btn-order1','预约游戏')"></a>-->
+									</li>
+									<li>
+										<div class="txt-desc">
+											<p>绑定手机号</p>
+											<i>+1次抽奖机会</i>
+										</div>
+										<a class="btn-orderon " href="javascript:;" onclick="PTTSendClick('btn','btn-order2','绑定手机号')"></a>
+									</li>
+									<li>
+										<div class="txt-desc">
+											<p>邀请一位好友</p>
+											<i>+1次抽奖机会</i>
+										</div>
+										<a class="btn-orders " href="javascript:;" onclick="PTTSendClick('btn','btn-order3','邀请一位好友')"></a>
+									</li>
+									<li>
+										<div class="txt-desc">
+											<p>登录WeGame&nbsp;&nbsp;APP</p>
+											<i>+1次抽奖机会</i>
+										</div>
+										<a class="btn-order " href="javascript:;" onclick="PTTSendClick('btn','btn-order4','登录WeGame APP')"></a>
+									</li>
+									<li>
+										<div class="txt-desc">
+											<p>预约游戏</p>
+											<i>+1次抽奖机会</i>
+										</div>
+										<a class="btn-order " href="javascript:;" onclick="PTTSendClick('btn','btn-order5','预约游戏')"></a>
+									</li>
+									<li>
+										<div class="txt-desc">
+											<p>预约游戏</p>
+											<i>+1次抽奖机会</i>
+										</div>
+										<a class="btn-order " href="javascript:;" onclick="PTTSendClick('btn','btn-order6','预约游戏')"></a>
+									</li>
+									<li>
+										<div class="txt-desc">
+											<p>预约游戏</p>
+											<i>+1次抽奖机会</i>
+										</div>
+										<a class="btn-order " href="javascript:;" onclick="PTTSendClick('btn','btn-order7','预约游戏')"></a>
+									</li>
+									<li>
+										<div class="txt-desc">
+											<p>预约游戏</p>
+											<i>+1次抽奖机会</i>
+										</div>
+										<a class="btn-order " href="javascript:;" onclick="PTTSendClick('btn','btn-order8','预约游戏')"></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<a class="btn-rule" href="javascript:TGDialogS('dia10')" onclick="PTTSendClick('btn','btn-rule','活动规则')"></a>
+						
+						
+					</div>
+					<div class="box5" id="box5">
+						<p class="title title5 ">迎主公回归 享海量特权</p>
+						<p class="text1">
+							公测开放之际，在《群雄逐鹿HD》Beta版参与过测试的用户可在正式服享有三大特权
+						</p>
+						<ul class="box5-ul">
+							<li class="first">
+								<p class="s1">1</p>
+								<p class="li-cont1">150%通宝福利</p>
+								<p class="li-cont2">在“黄巾之乱”服务器中所有<span>充值通宝（含赠送通宝）</span><br />都将<span>以150%发放到正式服账号。</span>
+								</p>
+							</li>
+							<li class="second">
+								<p class="s1">2</p>
+								<p class="li-cont1">皮肤特效全再享</p>
+								<p class="li-cont2">玩家在“黄巾之乱”账号中拥有的<span>皮肤、特效及头像框道具<br /></span>将<span>完全复刻到正式服</span>！
+								</p>
+							</li>
+							<li class="third">
+								<p class="s1">3</p>
+								<p class="li-cont1">出征奖励助开拓</p>
+								<p class="li-cont2">根据原“黄巾之乱”服务器的平台等级，登录新服后<br />还可额外领取<span>豪华出征奖励</span>！
+								</p>
+								<!--<a class="btn-award " href="javascript:TGDialogS('dia5')" onclick="PTTSendClick('btn','btn-award','查看奖励')"></a>-->
+							</li>
+						</ul>
+						<p class="tips">温馨提示：以上老用户奖励和出征礼包，都将在您新服创建角色后直接发放到您的新角色账号中。</p>
+					</div>
+					<div class="box6" id="box6">
+						<p class="title title6 ">游戏特色</p>
+						<div class="line-box"></div>
+						<div class="device">
+							 <a class="arrow-left "  href="javascript:;"  onclick="PTTSendClick('btn', 'button-prev', '上一张');"></a>
+							<a class="arrow-right "  href="javascript:;"  onclick="PTTSendClick('btn', 'button-prev', '下一张');"></a>
+						    <div class="swiper-container">
+						    	<div class="swiper-wrapper">
+						            <div class="swiper-slide">
+						            	<img src="ossweb-img/swiper1.png" width="600" height="336" alt="" />
+						            </div>
+						            <div class="swiper-slide">
+						            	<img src="ossweb-img/swiper2.png" width="600" height="336" alt="" />
+						            </div>
+						            <div class="swiper-slide">
+						            	<img src="ossweb-img/swiper3.png" width="600" height="336" alt="" />
+						            </div>
+						            <div class="swiper-slide">
+						            	<img src="ossweb-img/swiper4.png" width="600" height="336"  alt="" />
+						            </div>
+						             <div class="swiper-slide">
+						            	<img src="ossweb-img/swiper5.png" width="600" height="336"  alt="" />
+						            </div>
+						             <div class="swiper-slide">
+						            	<img src="ossweb-img/swiper6.png" width="600" height="336"  alt="" />
+						            </div>
+						             <div class="swiper-slide">
+						            	<img src="ossweb-img/swiper7.png" width="600" height="336"  alt="" />
+						            </div>
+						            <div class="swiper-slide">
+						            	<img src="ossweb-img/swiper8.png" width="600" height="336"  alt="" />
+						            </div>
+						        </div>
+					        </div>
+					        <div class="pagination"></div>
+						</div>
+						
+					</div>
+					<div class="box7" id="box7">
+						<p class="title title7 ">弹指挥动间 三国无限精彩<br />尽在“群雄逐鹿HD”</p>
+						<img src="ossweb-img/code.png" width="518" height="195" alt="二维码" />
+						<p class="public1 public">群雄逐鹿HD官方公众号</p>
+						<p class="public public2">下载掌上WeGame，了解更多精彩内容</p>
+					</div>
+				 </div>
+			</div>
+		</div>
+		
+		
+		<!--弹窗-->
+		
+		<!--预约弹窗-->
+		<div class="dialog dia1" id="dia1" style="display:none1">
+	        <p class="tc-title tc-title1">恭喜你预约成功</p>
+	        <div class="title-gift-box">
+		        <p class="tc-title-gift">您的礼包码为：<span></span> </p>
+		        <a class="btn-copies" href="javascript:;" onclick="PTTSendClick('btn','btn-copies1','复制')">复制</a>
+	        </div>
+	         <p class="tc-title-desc">请于9月25日后登录游戏兑换，礼品码也可在我的礼包查看。</p>
+	        <p class="ul-title">回答下面问卷 有机会获得测试服资格 并额外获得以下礼包</p>
+	        <ul>
+	        	<li>
+	        		<img src="ossweb-img/tc-prop1-1.png" width="90" height="90" alt="四转虎符" />
+					<p>四转虎符&nbsp;x100</p>
+	        	</li>
+	        	<li>
+	        		<img src="ossweb-img/tc-prop1-2.png" width="90" height="90" alt="灵魂碎片"/>
+					<p>灵魂碎片&nbsp;x50</p>
+	        	</li>
+	        	<li>
+	        		<img src="ossweb-img/tc-prop1-3.png" width="90" height="90" alt="将星体验卡" />
+					<p>将星体验卡&nbsp;x3</p>
+	        	</li>
+	        </ul>
+	        <p class="line"></p>
+	        <div class="check-box1 check-box">
+	        	<p class="check-title">群雄HD的英雄是否全免费?</p>
+	        	<div class="check check1">
+					<a href="javascript:;" class="on">A、是</a>
+					<a href="javascript:;">B、否</a>
+				</div>
+	        </div>
+	        <div class="check-box2 check-box">
+	        	<p class="check-title">我们的激战模式是几V几?</p>
+	        	<div class="check check2">
+					<a href="javascript:;" class="on">A、是</a>
+					<a href="javascript:;">B、否</a>
+				</div>
+	        </div>
+	        <div class="check-box3 check-box">
+	        	<p class="check-title">马岱的英雄定位是什么？</p>
+	        	<div class="check check3">
+					<a href="javascript:;" class="on">A、战士</a>
+					<a href="javascript:;">B、法师</a>
+					<a href="javascript:;">C、刺客</a>
+					<a href="javascript:;">D、射手</a>
+				</div>
+	        </div>
+	        <div class="check-box4 check-box">
+	        	<p class="check-title">孔明灯的作用是什么？</p>
+	        	<div class="check check4">
+					<a href="javascript:;" class="on">A、装饰</a>
+					<a href="javascript:;">B、玩具</a>
+					<a href="javascript:;" class="special">C、获取视野</a>
+					<a href="javascript:;">D、古玩</a>
+				</div>
+	        </div>
+	       	<a class="btn-sub " href="javascript:TGDialogS('dia2')" onclick="PTTSendClick('btn','btn-sub','答题完毕 领取礼包')"></a>
+	        <a class="dia-close" href="javascript:closeDialog()" title="关闭"></a>
+	    </div>
+	    
+	    
+	    <!--获得礼包-->
+	    <div class="dialog dia2" id="dia2" style="display:none1">
+	        <p class="tc-title tc-title2">恭喜获得以下礼包</p>
+	        <div class="title-gift-box">
+		        <p class="tc-title-gift">您的礼包码为：<span></span> </p>
+		        <a class="btn-copies" href="javascript:;" onclick="PTTSendClick('btn','btn-copies1','复制')">复制</a>
+	        </div>
+	         <p class="tc-title-desc">请于9月25日后登录游戏兑换，礼品码也可在我的礼包查看。</p>
+	         <ul>
+	        	<li>
+	        		<img src="ossweb-img/tc-prop1-1.png" width="90" height="90" alt="四转虎符"/>
+					<p>四转虎符&nbsp;x100</p>
+	        	</li>
+	        	<li>
+	        		<img src="ossweb-img/tc-prop1-2.png" width="90" height="90" alt="灵魂碎片"/>
+					<p>灵魂碎片&nbsp;x50</p>
+	        	</li>
+	        	<li>
+	        		<img src="ossweb-img/tc-prop1-3.png" width="90" height="90" alt="将星体验卡"/>
+					<p>将星体验卡&nbsp;x3</p>
+	        	</li>
+	        </ul>
+	        <p class="tc-end-desc"> 感谢您的参与，测试服将于9月17日10点开放，<br />测试服资格获取通知将由WeGame tips推送，请留意查看。</p>
+	        <a class="dia-close" href="javascript:closeDialog()" title="关闭"></a>
+	    </div>
+	    
+	    <!--邀请好友拿奖励-->
+	    <div class="dialog dia3" id="dia3" style="display:none1">
+	        <p class="tc-title tc-title3">邀请好友拿奖励</p>
+	        <p class="copy">复制链接发送给好友</p>
+	        <textarea>https://baike.baidu.com/item/webp%E6%A0%BC%E5%BC%8F/4077671?fr=aladdin</textarea><br />
+	         <a class="btn-copy" href="javascript:;" onclick="PTTSendClick('btn','btn-copy','复制链接')">复制链接</a>
+	        <a class="dia-close" href="javascript:closeDialog()" title="关闭"></a>
+	    </div>
+	    
+	    <!--已邀请列表-->
+	    <div class="dialog dia4" id="dia4" style="display:none1">
+	        <p class="tc-title tc-title4">已邀请的好友列表</p>
+	        <p class="ask">好友ID</p>
+	        <ul>
+	        	<li>初晴哥哥</li>
+	        	<li>北岸吹雪</li>
+	        	<li>初晴哥哥</li>
+	        	<li>北岸吹雪</li>
+	        	<li>初晴哥哥</li>
+	        	<li>北岸吹雪</li>
+	        	<li>初晴哥哥</li>
+	        	<li>北岸吹雪</li>
+	        	<li>初晴哥哥</li>
+	        	<li>北岸吹雪</li>
+	        	<li>初晴哥哥</li>
+	        	<li>北岸吹雪</li>
+	        </ul>
+	        <a class="dia-close" href="javascript:closeDialog()" title="关闭"></a>
+	    </div>
+	    
+	    <!--查看奖励-->
+	    <!--<div class="dialog dia5" id="dia5" style="display:none1">
+	       <ul class="level">
+	        	<li class="single1 single">“黄巾之乱”等级</li>
+	        	<li class="double1 double">奖励</li>
+	        	<li class="single2 single">1~9级</li>
+	        	<li class="double2 double">战功币x500</li>
+	        	<li class="single3 single">10~34级</li>
+	        	<li class="double3 double">战功币&nbsp;x500、射手将星礼包&nbsp;x1</li>
+	        	<li class="single4 single">35级以上</li>
+	        	<li class="double4 double">战功币&nbsp;x500、射手将星礼包&nbsp;x1、战士将星礼包&nbsp;x1</li>
+	       </ul>
+	       <p>注：以上将星礼包内包含4个3星将星与1000将星石，玩家打开礼包后可选择其一进行领取。</p>
+	       
+	       	<a class="dia-close" href="javascript:closeDialog()" title="关闭"></a>
+	    </div>-->
+	    
+	    <!--视频弹窗-->
+	    <div class="dialog dia6" id="dia6" style="display:none1">
+	     	<div id="video-play" class="video-play"></div>
+	       	<a class="dia-close" href="javascript:closeDialog()" title="关闭"></a>
+	    </div>
+	    
+	    <!--抽奖奖励-->
+	    <div class="dialog dia7" id="dia7" style="display:none1">
+	    	 <p class="tc-title tc-title7">恭喜获得以下礼品</p>
+	     	<img src="ossweb-img/lettery7.png" />
+			<p class="icon-desc">灵魂碎片&nbsp;x20</p>
+	       	<a class="dia-close" href="javascript:closeDialog()" title="关闭"></a>
+	    </div>
+	    
+	    <!--抽奖地址填写-->
+	     <div class="dialog dia8" id="dia8" style="display:none1">
+	    	 <p class="tc-title tc-title8">恭喜获得以下礼品</p>
+	     	<img src="ossweb-img/lettery7.png" />
+			<p class="icon-desc">灵魂碎片&nbsp;x20</p>
+			<div class="name">
+				<span>姓名</span>
+				<input type="text" />
+			</div>
+			<div class="touch">
+			<span>联系方式</span>
+			<input type="text" />
+			</div>
+			<div class="address">
+			<span>地址填写</span>
+			<textarea></textarea>
+			</div>
+	        <a class="btn-sub" href="javascript:;" onclick="PTTSendClick('btn','btn-sub','提交')"></a>
+			<a class="dia-close" href="javascript:closeDialog()" title="关闭"></a>
+	    </div>
+	    
+	    <!--按钮弹窗-->
+	    <div class="dialog dia9" id="dia9" style="display:none1">
+	    	 <p class="tc-title tc-title9">恭喜获得以下礼品</p>
+	     	<div class="title-gift-box">
+		        <p class="tc-title-gift">您的礼包码为：<span></span> </p>
+		        <a class="btn-copies" href="javascript:;" onclick="PTTSendClick('btn','btn-copies1','复制')">复制</a>
+	        </div>
+	         <p class="tc-title-desc">请于9月25日后登录游戏兑换，礼品码也可在我的礼包查看。</p>
+	         <a class="dia-close" href="javascript:closeDialog()" title="关闭"></a>
+	    </div>
+	    
+	    <!--活动规则-->
+	    <div class="dialog dia10" id="dia10" style="display:none1">
+	    	 <p class="tc-title tc-title10">活动规则</p>
+	    	<ul class="rule">
+				<li>
+					<span>1、</span><p>活动时间：2019年9月10日至9月25日10:00结束。</p>
+				</li>
+				<li>
+					<span>2、</span><p>活动期间，玩家预约成功即可获得预约礼包，填写问卷可额外获得问卷礼包并抽取测试服准入资格。</p>
+				</li>
+				<li>
+					<span>3、</span><p>活动期间，玩家成功邀请1、3、5名好友，可获得额外邀请奖励，并可获得额外的抽奖机会。</p>
+				</li>
+				<li>
+					<span>4、</span><p>上述礼包将于活动结束后发放，预约，豪杰礼包，邀请好友，问卷奖励礼包请于Wegame&nbsp;&nbsp;APP群雄逐鹿HD游戏社区礼包中心内领取（创建角色后领取。）</p>
+				</li>
+				<li>
+					<span>5、</span><p>幸运抽奖豪礼放送，玩家可通过预约游戏，邀请好友（邀请好友增加抽奖次数上限6次），下载登陆Wegame APP获取，单用户最多可获得8次抽奖机会。</p>
+				</li>
+				<li>
+					<span>6、</span><p>如使用外挂、作弊器以及其他不正当的方式参加本活动，Wegame及群雄逐鹿HD团队将有权利取消玩家参与资格、获奖资格。<p>
+				</li>
+			</ul>
+	       	<a class="dia-close" href="javascript:closeDialog()" title="关闭"></a>
+	    </div>
+
+		<!--登录-->
+		<script src="//ossweb-img.qq.com/images/js/milo_bundle/milo.js"></script>
+		<!--IEG通用底部-->
+		<script id="afooter" src="//game.gtimg.cn/images/js/2018foot/foot.js"></script>
+		<!--引入jQuery-->
+		<script src="//ossweb-img.qq.com/images/js/jquery/jquery-1.11.1.min.js"></script>
+		<!--抽奖-->
+		<script src="//game.gtimg.cn/images/js/delottery/lottery.js"></script>
+		<!--视频-->
+		<script src='//vm.gtimg.cn/tencentvideo/txp/js/txplayer.js'></script>
+		<script src="swiper.min.js"></script>
+		<script src="index.js"></script>
+		
+	   	<script src="//ossweb-img.qq.com/images/js/TGMobileShare/TGMobileShare.min.js"></script>
+		<script>
+			TGMobileShare({
+			shareTitle:'10v10国风MOBA巨作公测预约开启-群雄逐鹿官网-起凡游戏', //不设置或设置为空时，页面有title，则调取title
+			shareDesc:'《群雄逐鹿》作为起凡平台下一款三国题材的多人竞技MOBA类游戏，伴随了众多玩家一起走过了他们的热血青春，历经十年的积累和沉淀，全新版本《群雄逐鹿HD》重磅归来！9月10日正式登陆腾讯WeGame，开启公测预约！', //不设置或设置为空时，页面有Description，则调取Description
+			shareImgUrl:'ossweb-img/share.jpg', //分享图片尺寸200*200，且填写绝对路径
+			shareLink:'', //分享链接要跟当前页面同域名(手Q分享有这个要求) ,不设置或设置为空时，默认调取当前URL
+			actName:'a20190902heroesm' //点击流命名，用于统计分享量，专题一般采用目录名称如a20151029demo
+			});
+		</script>
+		<!--通用统计代码-->
+		<script src="//ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js"></script>
+		<script>
+			//此段代码不能放到外链JS中，
+			var setSite={ //设置网站属性 
+			    siteType:"a20190902heroesm", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+			    pageType:"index", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN,不支持点(.)、下划线(_)
+			    pageName:"首页", //必填项:页面中文名 
+			    project:"other", //选填项:如果是官网模块则是必填;按照模块内容，填写固定的对应值;原生官网base;微社区ingame;同人站doujin;赛事match;故事站story;文化站history;粉丝站fans;爆料站coming;论坛bbs;皮肤skin;默认other;
+			    osact:0 //选填项:默认是0。osact=0表示非官网专题；osact=pc表示pc官网/pc官网专题；osact=m表示移动官网/移动官网专题；osact=ingame表示微社区/微社区专题
+			};
+			if(typeof(pgvMain)=='function')pgvMain();//千万不能忘记！
+		</script>
+	</body>
+</html>
+
