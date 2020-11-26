@@ -1,0 +1,149 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+ol,ul{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+input,textarea,select{font-size:100%;}
+input,a{text-decoration: none; outline: none; color: #FFFFFF;-webkit-appearance: none; -webkit-tap-highlight-color:rgba(255,255,255,0);}
+.hid{text-indent:-9999px;font-size:0px;overflow:hidden;width:0px;height:0px;display:block;}
+.hidden{text-indent:-9999px;font-size:0px;}
+body,button,input,select,textarea{font:12px/1.5 "Microsoft YaHei",Helvetica,\5b8b\4f53,sans-serif;}
+body{ padding-top: 130px!important;}
+/*清除浮动*/
+.clearfix:after,.clearfix:before{content:"";display:table;}
+.clearfix:after{clear:both;}
+ /* 背景 */
+.spr{background: url(//game.gtimg.cn/images/fo4/cp/a20190807challange/spr.png) no-repeat;}
+.wrap{min-width: 1300px;height:100%;overflow: hidden;}
+.inner{background: url(//game.gtimg.cn/images/fo4/cp/a20190807challange/bg1.jpg) no-repeat center top;min-width: 1300px;height:926px;margin: 0 auto;overflow: hidden;}
+.head{background: url(//game.gtimg.cn/images/fo4/cp/a20190807challange/bgc1.jpg) no-repeat center top;width: 1300px;height:926px;margin: 0 auto;position: relative;overflow: hidden;}
+.content{background: url(//game.gtimg.cn/images/fo4/cp/a20190807challange/bg2.jpg) no-repeat center top;min-width: 1300px;height:5279px;margin: 0 auto;overflow: hidden;}
+.cont{background: url(//game.gtimg.cn/images/fo4/cp/a20190807challange/bgc2.jpg) no-repeat center top;width: 1300px;height:5279px;margin: 0 auto;}
+/*logo*/
+.logo{background: url(//game.gtimg.cn/images/fo4/cp/a20190807challange/logo.png) no-repeat;width:357px;height:113px;display: block;position: absolute;top: 68px;left: 468px;;}
+/*links*/
+.links{width:1122px;height:68px;position: absolute;top:662px;left: 89px;}
+.links a{width: 302px;height:68px;display: block;float: left;margin: 0 36px;}
+.links .btn-bc{background-position: 0 -765px;}
+.links .btn-ac{background-position: -374px -765px;}
+.links .btn-ed{background-position: -752px -765px;}
+.links a:hover{-webkit-filter:brightness(1.1);-o-filter:brightness(1.1);-moz-filter:brightness(1.1);filter:brightness(1.1);}
+
+/*登录*/
+.login{position: absolute;top: 602px;left: 0; display: block; width: 100%; text-align: center; font-size: 18px;  color: #606060;z-index: 99; }  
+.login a{color: #7fcb1b;}
+
+/*cont1*/
+.cont1{width: 1300px;height: 1996px;margin: 0 auto;padding-top: 12px;}
+
+.box1{width: 1300px;height:398px;margin: 0 auto;padding-top: 82px;}
+.cont1 .rule1{color: #ffffff;font-size: 18px;background: url(//game.gtimg.cn/images/fo4/cp/a20190807challange/bg-box1-1.png) no-repeat;width:1290px;height:305px;margin: 0 auto;}
+.cont1 .rule1 li{line-height:30px;margin-left: 106px;}
+.cont1 .rule1 .first{padding-top:40px;}
+.cont1 .rule1 li .underline1{position: relative;top: 0;left: 30px;}
+.cont1 .rule1 li p{border-bottom:1px solid #666db4;line-height:30px;}
+.cont1 .rule1 .number,.cont1 .rule1 p{display: inline-block;*display:inline;*zoom:1;vertical-align:top;}
+.cont1 .rule1 .number{background-position: -759px -894px;width:24px;height:24px;text-align: center;color: #4547a8;margin-right: 6px;vertical-align: middle;line-height: 24px;}
+
+.box2{width: 1192px;height:500px;margin: 0 auto;}
+/*公共*/
+.box2 .box-desc{width:563px;height: 46px;margin: 0 auto;overflow: hidden;padding-bottom: 18px;}
+.box2 .box-desc p{color: #444444;font-size: 30px;font-weight: bold;float: left;}
+.box2 .box-desc1{width:296px;text-align: right;margin-right: 34px;}
+.box2 .box-desc2{width: 228px;text-align: left;}
+.box2 .left,.box2 .right{float: left;margin: 0 16px;width: 564px;height: 480px;position: relative;}
+.box2 ul{background: url(//game.gtimg.cn/images/fo4/cp/a20190807challange/bg-box1-2.png) no-repeat;width:563px;height:329px;padding-top: 16px;}
+.box2 ul li{position: relative;padding-left: 32px;padding-top: 22px;}
+.box2 ul li p,.box2 ul li a{display: inline-block;*display:inline;*zoom:1;vertical-align:top;}
+.box2 .triangle{background-position: 0 -886px;width:9px;height:13px;position: relative;top: 10px;left: 0px;}
+.box2 .line{width: 1px;height: 34px;position: absolute;top: 49px;left: 32px;background-color: #686868;}
+.box2 .type{color: #3e3e3e;font-size: 20px;padding-left: 16px;}
+.box2 .time{color: #3d3d3d;font-size: 20px;font-weight: bold;padding-left: 22px;}
+.box2 .try{color: #4a4a4a;font-size: 20px;padding-left:80px;padding-right: 70px;}
+.box2 .btn-try{background-position: -56px -886px;width:121px;height:32px;color: #ffffff;font-size: 18px;line-height: 32px;text-align: center;}
+.box2 .btn-try.on{background-position: -805px -990px;pointer-events: none; cursor: initial;}
+.box2 .long-line{width: 1px;height: 236px;position: absolute;top: 108px;left:230px;background-color: #b2b2b2;}
+.box2 .btn-try:hover{-webkit-filter:brightness(1.1);-o-filter:brightness(1.1);-moz-filter:brightness(1.1);filter:brightness(1.1);}
+
+.box3{width: 1224px;height:832px;margin: 0 auto;text-align: center;}
+.box3 ul{width: 1224px;height:700px;margin: 0 auto;}
+.box3 .left .box3-title{background-position: -282px -984px;width:159px;height:36px;}
+.box3 .right .box3-title{background-position: 0 -984px;width:158px;height:36px;}
+.box3 .left{background: url(//game.gtimg.cn/images/fo4/cp/a20190807challange/bg-box1-3-1.png) no-repeat;}
+.box3 .right{background: url(//game.gtimg.cn/images/fo4/cp/a20190807challange/bg-box1-3-2.png) no-repeat;}
+
+/*公共*/
+.box3 li{float: left;width:464px;height:685px;margin: 0 74px;}
+.box3 .box3-title{margin: 112px auto 0;}
+.box3 .box3-title-desc{color: #e6d67c;font-size: 18px;line-height: 44px;padding-bottom: 6px;}
+.box3 .img-desc{color: #5d5c5c;font-size: 18px;line-height: 24px;padding-top: 6px;}
+.box3 a{background: url(//game.gtimg.cn/images/fo4/cp/a20190807challange/btn-get.png) no-repeat;width:257px;height:75px;display: inline-block;*display:inline;*zoom:1;vertical-align:top;line-height: 75px;margin: 14px 176px;color: #ffffff;font-size: 28px;font-weight: bold;}
+.box3 .btn-get.on{background: url(//game.gtimg.cn/images/fo4/cp/a20190807challange/btn-geted.png) no-repeat;width:257px;height:75px;}
+.box3 .btn-get:hover{-webkit-filter:brightness(1.1);-o-filter:brightness(1.1);-moz-filter:brightness(1.1);filter:brightness(1.1);}
+/*cont2*/
+.cont2{width: 1300px;height: 2192px;margin: 0 auto;padding-top: 70px;}
+.block1{width: 1300px;height:210px;margin: 0 auto;padding-top: 52px;}
+.cont2 .rule2{color: #4547a8;font-size: 18px;background: url(//game.gtimg.cn/images/fo4/cp/a20190807challange/bg-box2-1.png) no-repeat;width:1295px;height:196px;margin: 0 auto;}
+.cont2 .rule2 li{margin-left: 106px;}
+.cont2 .rule2 .first{padding-top: 34px;}
+.cont2 .rule2 span{background-position: -578px -895px;width:23px;height:23px;text-align: center;color: #ffffff;margin-right: 6px;margin-top: 4px;line-height: 23px;}
+.cont2 .rule2 p{line-height: 32px;}
+.cont2 .rule2 span,.cont2 .rule2 p{display: inline-block;*display:inline;*zoom:1;vertical-align:top;}
+
+.block2{width: 1300px;height:794px;margin: 0 auto;padding-top: 40px;text-align: center;}
+.block2 ul{background: url(//game.gtimg.cn/images/fo4/cp/a20190807challange/bg-box2-2.png) no-repeat;width:1064px;height:714px;margin: 0 auto;}
+.block2 .heading p{color: #ffffff;font-size: 22px;text-align: center;width: 228px;line-height: 70px;}
+.block2 li{width:1064px;height: 63px;margin: 0 auto;font-size: 0;}
+.block2 .heading{width:1064px;height: 71px;margin: 0 auto;}
+.block2 li p{color: #606060;font-size: 20px;line-height: 63px;display: inline-block;*display:inline;*zoom:1;vertical-align:top;}
+.block2 li .rank{width: 150px;}
+.block2 li .one{width: 246px;}
+.block2 li .two{width: 250px;}
+.block2 li .thire{width: 216px;}
+.block2 li .four{width: 202px;}
+.block2 .page{padding-top: 20px;}
+.block2 .page a{color: #606060;font-size: 18px;padding: 0 4px;}
+.block2 .page .btn-prev,.block2 .page .btn-next{border-bottom: 1px solid #606060;padding-bottom: 4px;padding: 0px;margin: 0 8px;}
+
+
+
+
+.block3{width: 1300px;height:800px;margin: 0 auto;padding-top:40px;text-align: center;}
+.block3 ul{width:1236px;height:796px;margin: 0 auto;}
+.block3 ul li{float: left;background: url(//game.gtimg.cn/images/fo4/cp/a20190807challange/bg-box2-3.png) no-repeat;width: 364px;height:396px;margin: 0 24px;}
+.block3 .first{margin:0 48px 0 222px;}
+.block3 ul .num{color: #ffffff;font-size: 22px;line-height: 52px;font-style: italic;}
+.block3 ul .icon-desc{color: #656565;font-size: 15px;line-height: 20px;font-style: italic;}
+.block3 ul a{background-position: -257px -872px;width:208px;height:61px;line-height: 60px;margin: 46px auto 0;color: #ffffff;font-size: 20px;display: block;}
+.block3 a:hover{-webkit-filter:brightness(1.1);-o-filter:brightness(1.1);-moz-filter:brightness(1.1);filter:brightness(1.1);}
+.block3 ul .btn-get.on{background-position: -502px -959px;pointer-events: none; cursor: initial;}
+
+/*cont3*/
+.cont3{width: 1300px;height: 880px;margin: 0 auto;padding-top: 52px;text-align: center;}
+.cont3 ul{width: 1263px;height: 564px;margin: 0 auto;}
+.cont3 li{float: left;background: url(//game.gtimg.cn/images/fo4/cp/a20190807challange/bg-box3.png) no-repeat;width:361px;height:521px;margin: 0 30px;}
+.cont3 .first{background: url(//game.gtimg.cn/images/fo4/cp/a20190807challange/bg-box3-1.png) no-repeat;}
+.cont3 .second{background: url(//game.gtimg.cn/images/fo4/cp/a20190807challange/bg-box3-2.png) no-repeat;}
+.cont3 .third{background: url(//game.gtimg.cn/images/fo4/cp/a20190807challange/bg-box3-3.png) no-repeat;}
+.cont3 .times{color: #FFFFFF;font-size: 32px;line-height: 84px;padding-top: 58px;font-style: italic;}
+.cont3 .pic-desc{color: #4a4a4a;font-size: 18px;line-height: 26px;padding-top: 8px;font-style: italic;}
+
+/*title*/
+.title{margin: 0 auto;height:187px;}
+.title1{background-position: 0 0;width:854px;}
+.title2{background-position: 0 -253px;width:759px;}
+.title3{background-position: 0 -497px;width:701px;}
+.title3-desc{color: #7b7b7b;font-size: 18px;line-height: 26px;padding-bottom: 32px;padding-top: 32px;}
+
+
+
+/*afooter*/
+#afooter{text-align:center; line-height:20px;color: #9a9a9a;background-color: #0e0e0e;padding: 20px 0;margin-bottom: -20px;}
+#afooter a{ color: #9a9a9a;}
