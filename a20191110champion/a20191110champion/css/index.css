@@ -1,0 +1,66 @@
+/* reset */
+body,dl,dd,ul,ol,h1,h2,h3,h4,h5,h6,p,form,header,section,article,footer{margin:0;}
+body,button,input,select,textarea{font:12px/1.5 tahoma,'\5FAE\8F6F\96C5\9ED1',sans-serif; font-family: '\5FAE\8F6F\96C5\9ED1';}
+h1,h2,h3,h4,h5,h6{font-size:100%}
+em,b{font-style:normal}
+a{text-decoration:none; outline: none;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);} 
+a:hover{text-decoration:none; filter:brightness(1.2);}
+img{border:0} 
+button,input,select,textarea{font-size:100%;outline:none}
+table{border-collapse:collapse;border-spacing:0}
+td,th,ul,ol{padding:0;list-style: none;}
+body {padding-top: 42px; background: #201c1e;}
+iframe {display: block}
+div,a,img{outline: none;}
+.hidden{display: none; font-size: 0; text-indent: -999em;}
+.clearfix:after {visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
+.clearfix{*zoom:1;}
+html,body{position: relative; max-width: 1920px; min-width: 1100px; margin: 0 auto;}
+#afooter{text-align:center; line-height:20px;color: #9a9a9a;background-color: #0e0e0e;padding: 20px 0; position: relative; z-index: 2;}
+#afooter a{ color: #9a9a9a;}
+.pac{display: block; position: absolute;top: 50%;left: 50%; -webkit-transform: translate(-50%,-50%);-ms-transform: translate(-50%,-50%);transform: translate(-50%,-50%);}
+.wrap{max-width: 1920px; min-width: 1100px; margin: 0 auto;position: relative;text-align: center;overflow: hidden;}
+.header,.content{position: relative; display: block; margin: 0 auto; width: 100%;}
+/* Í·²¿  */
+.header{background: url(//game.gtimg.cn/images/lpl/act/a20191110champion/bg-top.jpg) no-repeat center top; background-size: 100%; height: 916px;overflow: hidden;}
+.logo-box{position: absolute; top: 40px; right: 30px; display: block; width: 540px; height: 60px; margin: 0 auto; font-size: 0; text-align: right; z-index: 3;}
+.logo-box a{display: inline-block; *display: inline; *zoom: 1; vertical-align: top; height: 60px; margin: 0 14px;}
+.logo-lol{width: 180px; background: url(//game.gtimg.cn/images/lol/logo/middle.png) no-repeat center top; background-size: 100% auto;}
+.logo-world{width: 208px; background: url(//game.gtimg.cn/images/lpl/act/a20191110champion/logo-world.png) no-repeat center top; background-size: 100% auto;}
+.logo-lpl{width: 60px; background: url(//game.gtimg.cn/images/lpl/act/a20191110champion/logo-lpl.png) no-repeat center top; background-size: 100% auto;}
+.video-cont{position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden;z-index: 1;}
+.video-cont video{position: absolute; left: 50%; top: 0;width:100%;transform: translate(-50%,0);    min-width: 1000px;max-height: 916px;}
+.btn-play{position: absolute; top: 122px; left: 50%; margin-left: 150px; display: block; width: 130px; height: 130px; background: url(//game.gtimg.cn/images/lpl/act/a20191110champion/play.png) no-repeat center top; background-size: 100% auto; z-index: 3;}
+/* ÄÚÈÝ */
+.cont0,.cont1,.cont2,.cont3,.cont4,.cont5,.cont6,.cont7,.cont8,.cont9,.cont10{position: relative; display: block; margin: 0 auto; width: 100%;}
+.center{position: relative; display: block; margin: 0 auto; width: 1100px; height: 100%;}
+.icon-tower{position: absolute; top: -54px; right: -54px; display: block; width: 188px; height: 432px; background: url(//game.gtimg.cn/images/lpl/act/a20191110champion/tower.png) no-repeat center top; background-size: 100% auto; z-index: 9;display: none;}
+.cont0{background: url(//game.gtimg.cn/images/lpl/act/a20191110champion/bg0.jpg) no-repeat center top; background-size: 1920px auto; height: 448px;}
+.cont1{background: url(//game.gtimg.cn/images/lpl/act/a20191110champion/bg1.jpg) no-repeat center top; background-size: 1920px auto; height: 492px;}
+.cont2{background: url(//game.gtimg.cn/images/lpl/act/a20191110champion/bg2.jpg) no-repeat center top; background-size: 1920px auto; height: 492px;}
+.cont3{background: url(//game.gtimg.cn/images/lpl/act/a20191110champion/bg3.jpg) no-repeat center top; background-size: 1920px auto; height: 492px;}
+.cont4{background: url(//game.gtimg.cn/images/lpl/act/a20191110champion/bg4.jpg) no-repeat center top; background-size: 1920px auto; height: 492px;}
+.cont5{background: url(//game.gtimg.cn/images/lpl/act/a20191110champion/bg5.jpg) no-repeat center top; background-size: 1920px auto; height: 492px;}
+.cont6{background: url(//game.gtimg.cn/images/lpl/act/a20191110champion/bg6.jpg) no-repeat center top; background-size: 1920px auto; height: 492px;}
+.cont7{background: url(//game.gtimg.cn/images/lpl/act/a20191110champion/bg7.jpg) no-repeat center top; background-size: 1920px auto; height: 492px;}
+.cont8{background: url(//game.gtimg.cn/images/lpl/act/a20191110champion/bg8.jpg) no-repeat center top; background-size: 1920px auto; height: 492px;}
+.cont9{background: url(//game.gtimg.cn/images/lpl/act/a20191110champion/bg9.jpg) no-repeat center top; background-size: 1920px auto; height: 492px;}
+.cont10{background: url(//game.gtimg.cn/images/lpl/act/a20191110champion/bg10.jpg) no-repeat center top; background-size: 1920px auto; height: 380px;}
+/* cont0 */
+.cont0-p1{display: block; padding-top: 172px; padding-left: 10px; font-size: 16px; color: #5c4d2f; text-align: left; line-height: 30px; width: 640px;}
+.cont0-p2{position: absolute; left: 850px; top: 284px; font-size: 12px; line-height: 12px; height: 12px; color: #827762;}
+.cont1-p2{position: absolute; left: 812px; top: 332px; font-size: 12px; line-height: 12px; height: 12px; color: #827762;}
+/* cont */
+.txt{position: absolute; top: 240px; display: block; width: 460px; font-size: 16px; color: #3e2a1a; line-height: 30px; }
+.txt-l{ text-align: left; left: 10px;}
+.txt-r{ text-align: right; right: 10px;}
+.cont3 .txt{top: 250px;}
+.cont5 .txt{width: 430px;}
+.cont8 .txt{top: 190px; width: 460px; text-align: left; left: 650px;}
+.cont8 .txt span{float:left;margin-left: -26px;}
+.cont9 .txt{width: 440px;}
+
+/* µ¯´° */
+.dia-video{position: relative;width: 1000px;height: 600px;display: none;}
+.dia-video-cont{width: 100%;height: 100%;position: absolute;top: 0;left: 0;}
+.dia-close{position: absolute;top: 0;right: -50px; display: block;width: 30px;height: 30px;font-size: 20px;font-weight: bold;text-align: center;line-height: 28px;border-radius: 50%;border: 2px solid #fff;color: #fff;}
