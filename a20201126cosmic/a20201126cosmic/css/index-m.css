@@ -1,0 +1,272 @@
+/* reset */
+html,body,div,p,ul,li,dl,dt,dd,em,i,span,a,img,input,h1,h2,h3,h4,h5 {margin:0;padding:0}
+a,img,input {border:none;}
+body,button,input,select,textarea{font:12px/1.5 '\5FAE\8F6F\96C5\9ED1',tahoma,sans-serif}
+em,b{font-style:normal}
+a {text-decoration:none;}
+ul,li{list-style: none}
+a, img {-webkit-touch-callout: none;-webkit-tap-highlight-color: rgba(0,0,0,0); /* 禁止长按链接与图片弹出菜单，根据需要选择是否删除 */}
+table{border-collapse:collapse;border-spacing:0}
+td,th,ul,ol{padding:0}
+a,img,div{outline: none;}
+button,input,select,textarea{font-size:100%;outline:none}
+html, body {
+    -webkit-user-select: none;   /* 禁止选中文本（如无文本选中需求，此为必选项） */
+    user-select: none;
+}
+/* reset end */
+html {
+  font-size: 50px;/* 兼容不支持vw的系统 */
+  font-size: 13.33333333vw;/* 7.5rem === 100vw */
+}
+
+@media (max-width: 1024px) {
+  html,body {
+    max-width: 1024px;
+  }
+}
+
+#afooter{background-color: #191219;text-align: center;font-size:.22rem;padding:.2rem 0;}
+#afooter, #afooter a{color: #c0c0c0;text-decoration: none;}
+/* 图片分离路径示例 */
+/* .bg{background-image: url(//game.gtimg.cn/images/lol/act/a20200117guardiansofthesand/bg.jpg);} */
+
+.hidden{display: none; font-size: 0; text-indent: -999em;}
+/*金色字体*/
+@font-face {
+    font-family: 'sellnum-4';
+    src: url('//game.gtimg.cn/images/lol/common/sell/font/sellnum-4.eot');
+    src: url('//game.gtimg.cn/images/lol/common/sell/font/sellnum-4.woff') format('woff'),url('//game.gtimg.cn/images/lol/common/sell/font/sellnum-4.ttf') format('truetype'),url('//game.gtimg.cn/images/lol/common/sell/font/sellnum-4.svg') format('svg');
+}
+
+/* 金色字体示例样式 */
+.gold{
+  position: relative;
+  font-size:70px;/* 字体大小 根据实际情况设置 */
+  color:#fce5a7;/* 默认色值 低级浏览器下显示 */
+ font-family: 'sellnum-4';
+}
+
+.wrap{width:750px;height: auto;position: relative;background: #261412;overflow: hidden;margin: 0 auto;}
+/*head*/
+.kv{background: url(//game.gtimg.cn/images/lol/act/a20201126cosmic/m-kv.jpg) no-repeat center top;background-size: 100%;height: 1056px;width:750px;position: relative;margin: 0 auto;}
+.logo{background: url(//game.gtimg.cn/images/lol/logo/middle.png) no-repeat center top;background-size: 100%;width: 200px;height:72px;background-size: 100%;font-size: 0;position: absolute;top: 20px;left: 0;z-index: 2;}
+.kv .line{background: url(//game.gtimg.cn/images/lol/act/a20201126cosmic/line.png) no-repeat;background-size: 960px auto;height:30px;width:960px;position: absolute;bottom: -12px;left:50%;transform: translateX(-50%);z-index: 2;}
+/* bg */
+.main1{background: url(//game.gtimg.cn/images/lol/act/a20201126cosmic/m-bg1.jpg) no-repeat center top;background-size: 750px auto;height: 2133px;}
+.main2{background: url(//game.gtimg.cn/images/lol/act/a20201126cosmic/m-bg2.jpg) no-repeat center top;background-size: 750px auto;height: 2248px;}
+.main3{background: url(//game.gtimg.cn/images/lol/act/a20201126cosmic/m-bg3.jpg) no-repeat center top;background-size: 750px auto;height: 2150px;}
+.main4{background: url(//game.gtimg.cn/images/lol/act/a20201126cosmic/m-bg4.jpg) no-repeat center top;background-size: 750px auto;height: 2064px;}
+.main5{background: url(//game.gtimg.cn/images/lol/act/a20201126cosmic/m-bg5.jpg) no-repeat center top;background-size: 750px auto;height: 2164px;}
+.main6{background: url(//game.gtimg.cn/images/lol/act/a20201126cosmic/m-bg6.jpg) no-repeat center top;background-size: 750px auto;height: 2163px;}
+.main7{background: url(//game.gtimg.cn/images/lol/act/a20201126cosmic/m-bg7.jpg) no-repeat center top;background-size: 750px auto;height: 2090px;}
+.main8{background: url(//game.gtimg.cn/images/lol/act/a20201126cosmic/m-bg8.jpg) no-repeat center top;background-size: 750px auto;height: 2165px;}
+.main9{background: url(//game.gtimg.cn/images/lol/act/a20201126cosmic/m-bg9.jpg) no-repeat center top;background-size: 750px auto;height: 2110px;}
+
+/* common */
+.main{width:750px;position: relative;margin: 0 auto;}
+.main-box{width: 750px;height: 160px;margin: 0 auto;position: relative;display: flex;justify-content: center;align-items: center;padding-top: 800px;}
+.main-box .top-num{width: 92px;height: 110px;position: absolute;top: 40px;right: 40px;}
+
+.main-box .name{width:750px;position: absolute;bottom: 156px;left: 0;text-align: center;}
+.main-box .name .title{margin-top: 4px;margin-right: 40px;}
+.main-box .name p,.main .btn-play2{display: inline-block; *display: inline; *zoom: 1; vertical-align: middle;}
+.main .btn-play2{background: url(//game.gtimg.cn/images/lol/act/a20201126cosmic/btn-play2.png) no-repeat;background-size: 100%;width: 90px;height: 105px;animation:act  linear 1.2s infinite alternate;-webkit-animation:act  linear 1.2s infinite alternate;}
+.name-price-box{position: relative;font-size: 0;background: url(//game.gtimg.cn/images/lol/act/a20201126cosmic/price-bg.png) no-repeat center center;background-size: 100%;width: 297px;height: 136px;text-align: right;}
+.name-price-box .name-price,.name-price-box em{display: inline-block; *display: inline; *zoom: 1; vertical-align: top;}
+.name-price-box .name-price b{font-size: 35px;}
+.name-price-box .name-price{font-size: 70px;line-height: 156px;color: #ddffff; font-family: 'sellnum-4';padding-right: 30px;}
+.name-price-box em{font-size: 25px;color: #f4ac6a;margin-top: 64px;font-weight: bold;font-family: 'sellnum-4';padding-right: 30px;}
+.inner{position: absolute;bottom: 40px;left: 0;display: flex;justify-content: center;align-items: center;width: 750px;height:190px;margin: 0 auto;}
+.inner .left span.title{position: relative;margin-right: 10px;margin-left: 14px;}
+.inner .left{width: 750px;position: absolute;top: -886px;left: 0;text-align: center;}
+.inner .left b{background-position-y:-1350px;width: 192px;height: 64px;margin-top: 2px;}
+.inner .left .include{font-size: 20px;color: #5cdeff;line-height: 32px;padding-top: 36px;width: 92%;margin: 0 auto;text-align: left;}
+.inner .left .include span{color: #5377fd;}
+.inner .left .tips{font-size: 20px;color: #5cdeff;line-height: 32px;padding-bottom: 2px;width: 92%;margin: 0 auto;text-align: left;}
+.inner .left .tips span{color: #5377fd;}
+/*.inner .tips{font-size: 14px;color: #ce6c67;line-height: 18px;padding-left: 6px;width: 90%;}*/
+.inner .center{position: relative;font-size: 0;background: url(//game.gtimg.cn/images/lol/act/a20201126cosmic/price-bg.png) no-repeat center center;background-size: 100%;width: 297px;height: 136px;text-align: right;}
+.inner .center .name-price,.inner .center em{display: inline-block; *display: inline; *zoom: 1; vertical-align: top;}
+.inner .center .name-price{font-size: 70px;line-height: 156px;color: #f4ac6a; font-family: 'sellnum-4';padding-right: 30px;}
+.inner .center .name-price b{font-size: 35px;}
+.inner .center em{font-size: 25px;color: #f4ac6a;margin-top: 64px;font-weight: bold;font-family: 'sellnum-4';padding-right: 30px;}
+.inner .center .price-txt{font-size: 20px;color: #5377fd;line-height: 24px;position: relative;top: -40px;text-align: left;padding-left: 50px;}
+.inner .center .price-txt span{color: #5bddfe;}
+.inner .right{width: 281px;}
+@supports (-webkit-background-clip: text) {
+  .main-box .name-price-box .name-price,.main-box .name-price-box .price-qb,.inner .center .name-price,.inner .center .price-qb{
+    background-image: linear-gradient(#fcffff, #8effff);
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+}
+/*common*/
+.main .bottom-line{background: url(//game.gtimg.cn/images/lol/act/a20201126cosmic/line.png) no-repeat;background-size: 960px auto;height:30px;width:960px;position: absolute;bottom: -12px;left:50%;transform: translateX(-50%);z-index: 2;}
+.main .btn-buy{background: url(//game.gtimg.cn/images/lol/act/a20201126cosmic/btn-buy.png) no-repeat;background-size: 100%;width: 264px;height: 158px;display: block;font-size: 0;margin-top: 30px;}
+.title{background: url(//game.gtimg.cn/images/lol/act/a20201126cosmic/title.png) no-repeat;background-size: 500px 1500px;width:500px;height:80px;font-size: 0;display: inline-block;vertical-align: top;}
+.title1{background-position-y:-0px;width: 475px;}
+.title2{background-position-y:-129px;width: 373px;}
+.title3{background-position-y:-255px;width: 373px;}
+.title4{background-position-y:-396px;width: 373px;}
+.title5{background-position-y:-537px;width: 321px;}
+.title6{background-position-y:-668px;width: 422px;}
+.title7{background-position-y:-818px;width: 422px;}
+.title8{background-position-y:-968px;width: 373px;}
+.title9{background-position-y:-1118px;width: 373px;}
+
+.main1 .top-num{background: url(//game.gtimg.cn/images/lol/act/a20201126cosmic/m-num1.png) no-repeat;background-size: 100%;}
+.main2 .top-num{background: url(//game.gtimg.cn/images/lol/act/a20201126cosmic/m-num2.png) no-repeat;background-size: 100%;}
+/*.main3 .top-num{background: url(//game.gtimg.cn/images/lol/act/a20201126cosmic/m-num3.png) no-repeat;background-size: 100%;}*/
+.main4 .top-num{background: url(//game.gtimg.cn/images/lol/act/a20201126cosmic/m-num4.png) no-repeat;background-size: 100%;}
+.main5 .top-num{background: url(//game.gtimg.cn/images/lol/act/a20201126cosmic/m-num5.png) no-repeat;background-size: 100%;}
+.main6 .top-num{background: url(//game.gtimg.cn/images/lol/act/a20201126cosmic/m-num6.png) no-repeat;background-size: 100%;}
+.main7 .top-num{background: url(//game.gtimg.cn/images/lol/act/a20201126cosmic/m-num7.png) no-repeat;background-size: 100%;}
+.main8 .top-num{background: url(//game.gtimg.cn/images/lol/act/a20201126cosmic/m-num8.png) no-repeat;background-size: 100%;}
+.main9 .top-num{background: url(//game.gtimg.cn/images/lol/act/a20201126cosmic/m-num9.png) no-repeat;background-size: 100%;}
+
+
+.main ul{width: 750px;text-align: center;font-size: 0;margin: 0 auto;padding-top: 310px;}
+.main li{display: inline-block; *display: inline; *zoom: 1; vertical-align: top;width: 170px;height: auto;}
+.main li:nth-child(4n){margin-right: 0;}
+.main li p{font-size: 20px;color: #5cdeff;line-height: 30px;padding-top: 4px;}
+.main li span{font-size:20px;color: #4d68d0;line-height: 32px;display: block;}
+.main li .spe{text-align: center;width:148px;box-sizing: border-box;height: auto;font-size:18px;color: #efdb87;line-height: 24px;padding:4px 0 4px;display: block;margin: 8px auto 0;position: relative;border-bottom:1px solid #fff772;padding:4px 0;border-left:1px solid #fff772;border-right:1px solid #fff772;height: auto;font-weight: normal;}
+.main li .spe:before{content: "";background: url(//game.gtimg.cn/images/lol/act/a20201126cosmic/spe2.png) no-repeat center top;background-size: 100% auto;position: absolute;top: -7px;left: -1px;display: block;width: 148px;height: 8px;}
+.main li i{display:block; margin:0 auto;}
+
+
+
+/* main1 */
+.main1 li{margin-right:8px;padding-top: 30px;/*padding-bottom: 20px;*/overflow: hidden;}
+.main1 li i{background:url(//game.gtimg.cn/images/lol/act/a20201126cosmic/prop1.png) no-repeat 0 0; background-size:1400px 177px; transform:translate3d(-4px,0,0);width: 159px;height:177px;margin-bottom:4px;}
+.main1 li i.colorfulgift1-1{background-position-x:-0px;}
+.main1 li i.colorfulgift1-2{background-position-x:-177px;}
+.main1 li i.colorfulgift1-3{background-position-x:-354px;}
+.main1 li i.colorfulgift1-4{background-position-x:-531px;}
+.main1 li i.colorfulgift1-5{background-position-x:-708px;}
+.main1 li i.colorfulgift1-6{background-position-x:-887px;}
+.main1 li i.colorfulgift1-7{background-position-x:-1063px;}
+.main1 li i.colorfulgift1-8{background-position-x:-1241px;}
+
+/* main2 */
+.main2 .inner .left{top: -980px;}
+.main2 li{margin-right: 12px;margin-bottom: 4px;padding-top: 40px;}
+.main2 li i{background:url(//game.gtimg.cn/images/lol/act/a20201126cosmic/prop2.png) no-repeat 0 0; background-size:1199px 248px; transform:translate3d(-2px,0,0);width: 135px;height:248px;margin-bottom:-18px;}
+.main2 li i.colorfulgift2-1{background-position-x:-0px;}
+.main2 li i.colorfulgift2-2{background-position-x:-152px;}
+.main2 li i.colorfulgift2-3{background-position-x:-304px;}
+.main2 li i.colorfulgift2-4{background-position-x:-456px;}
+.main2 li i.colorfulgift2-5{background-position-x:-608px;}
+.main2 li i.colorfulgift2-6{background-position-x:-760px;}
+.main2 li i.colorfulgift2-7{background-position-x:-912px;}
+.main2 li i.colorfulgift2-8{background-position-x:-1064px;}
+
+/* main3*/
+.main3 .inner .left{top: -906px;}
+.main3 ul{padding-top: 280px;}
+.main3 li{margin-right: 0px;width: 140px;padding-top: 30px;/*margin-bottom: 10px;*/}
+.main3 li i{background:url(//game.gtimg.cn/images/lol/act/a20201126cosmic/prop3.png) no-repeat 0 0; background-size:1205px 204px; transform:translate3d(-2px,0,0);width: 106px;height:204px;margin-bottom:14px;}
+.main3 li:nth-child(4){margin-right: 0px;}
+.main3 li:nth-child(6),.main3 li:nth-child(7),.main3 li:nth-child(8),.main3 li:nth-child(9){margin-right: 10px;}
+.main3 li i.colorfulgift3-1{background-position-x:-0px;}
+.main3 li i.colorfulgift3-2{background-position-x:-138px;}
+.main3 li i.colorfulgift3-3{background-position-x:-275px;}
+.main3 li i.colorfulgift3-4{background-position-x:-412px;}
+.main3 li i.colorfulgift3-5{background-position-x:-550px;}
+.main3 li i.colorfulgift3-6{background-position-x:-688px;}
+.main3 li i.colorfulgift3-7{background-position-x:-826px;}
+.main3 li i.colorfulgift3-8{background-position-x:-962px;}
+.main3 li i.colorfulgift3-9{background-position-x:-1099px;}
+/* main4 */
+.main4 ul{padding-top: 280px;}
+.main4 .inner .left{top: -796px;}
+.main4 li{margin-right: 3px;width: 170px;/*padding-top: 14px;*/padding-bottom: 30px;}
+.main4 li i{background:url(//game.gtimg.cn/images/lol/act/a20201126cosmic/prop4.png) no-repeat 0 0; background-size:1227px 209px; transform:translate3d(8px,0,0);width: 189px;height:209px;margin-bottom:-10px;}
+.main4 li i.colorfulgift4-1{background-position-x:-0px;}
+.main4 li i.colorfulgift4-2{background-position-x:-173px;}
+.main4 li i.colorfulgift4-3{background-position-x:-346px;}
+.main4 li i.colorfulgift4-4{background-position-x:-519px;}
+.main4 li i.colorfulgift4-5{background-position-x:-692px;}
+.main4 li i.colorfulgift4-6{background-position-x:-865px;}
+.main4 li i.colorfulgift4-7{background-position-x:-1038px;}
+/* main5 */
+.main5 ul{padding-top: 340px;}
+.main5 li{margin-right: 0px;width: 168px;padding-top: 20px;}
+.main5 li:first-child{margin-left: -52px;}
+.main5 li:nth-child(5){margin-left: -30px;}
+.main5 li i{background:url(//game.gtimg.cn/images/lol/act/a20201126cosmic/prop5.png) no-repeat 0 0; background-size:1177px 179px; transform:translate3d(20px,0,0);width: 162px;height:179px;margin-bottom:14px;}
+.main5 li i.colorfulgift5-1{background-position-x:-4px;}
+.main5 li i.colorfulgift5-2{background-position-x:-174px;}
+.main5 li i.colorfulgift5-3{background-position-x:-340px;}
+.main5 li i.colorfulgift5-4{background-position-x:-512px;}
+.main5 li i.colorfulgift5-5{background-position-x:-678px;}
+.main5 li i.colorfulgift5-6{background-position-x:-850px;}
+.main5 li i.colorfulgift5-7{background-position-x:-1020px;}
+/* main6*/
+.main6 ul{padding-top: 350px;}
+.main6 li{width: 170px;padding-bottom: 10px;padding-top: 20px;}
+.main6 li:first-child{margin-left: 18px;}
+.main6 li i{background:url(//game.gtimg.cn/images/lol/act/a20201126cosmic/prop6.png) no-repeat 0 0; background-size:1203px 171px; transform:translate3d(-14px,0,0);width: 175px;height:171px;margin-bottom:8px;}
+.main6 li i.colorfulgift6-1{background-position-x:-0px;}
+.main6 li i.colorfulgift6-2{background-position-x:-170px;}
+.main6 li i.colorfulgift6-3{background-position-x:-340px;}
+.main6 li i.colorfulgift6-4{background-position-x:-514px;}
+.main6 li i.colorfulgift6-5{background-position-x:-688px;}
+.main6 li i.colorfulgift6-6{background-position-x:-858px;}
+.main6 li i.colorfulgift6-7{background-position-x:-1028px;}
+/* main7*/
+.main7 .inner .left{top: -826px;}
+.main7 li{margin-right: 0px;width: 138px;padding-top: 50px;padding-bottom: 0px;}
+.main7 li i{background:url(//game.gtimg.cn/images/lol/act/a20201126cosmic/prop7.png) no-repeat 0 0; background-size:1203px 133px; transform:translate3d(-2px,0,0);width: 127px;height:133px;margin-bottom:14px;}
+.main7 li i.colorfulgift7-1{background-position-x:-0px;}
+.main7 li i.colorfulgift7-2{background-position-x:-135px;}
+.main7 li i.colorfulgift7-3{background-position-x:-269px;}
+.main7 li i.colorfulgift7-4{background-position-x:-404px;}
+.main7 li i.colorfulgift7-5{background-position-x:-538px;}
+.main7 li i.colorfulgift7-6{background-position-x:-673px;}
+.main7 li i.colorfulgift7-7{background-position-x:-807px;}
+.main7 li i.colorfulgift7-8{background-position-x:-942px;}
+.main7 li i.colorfulgift7-9{background-position-x:-1076px;}
+/* main8 */
+.main8 .inner .left{top: -916px;}
+.main8 li{margin-right: 34px;width: 140px;padding-top: 40px;padding-bottom: 0px;}
+.main8 li i{background:url(//game.gtimg.cn/images/lol/act/a20201126cosmic/prop8.png) no-repeat 0 0; background-size:1172px 177px; transform:translate3d(0px,0,0);width: 117px;height:177px;margin-bottom:16px;}
+.main8 li i.colorfulgift8-1{background-position-x:-0px;}
+.main8 li i.colorfulgift8-2{background-position-x:-176px;}
+.main8 li i.colorfulgift8-3{background-position-x:-351px;}
+.main8 li i.colorfulgift8-4{background-position-x:-527px;}
+.main8 li i.colorfulgift8-5{background-position-x:-703px;}
+.main8 li i.colorfulgift8-6{background-position-x:-879px;}
+.main8 li i.colorfulgift8-7{background-position-x:-1055px;}
+/* main9 */
+.main9 .inner .left{top: -846px;}
+.main9 li{margin-right: 20px;width: 150px;padding-top: 50px;padding-bottom: 0px;}
+.main9 li i{background:url(//game.gtimg.cn/images/lol/act/a20201126cosmic/prop9.png) no-repeat 0 0; background-size:1193px 153px; transform:translate3d(0px,0,0);width: 141px;height:153px;margin-bottom:0px;}
+.main9 li i.colorfulgift9-1{background-position-x:-0px;}
+.main9 li i.colorfulgift9-2{background-position-x:-150px;}
+.main9 li i.colorfulgift9-3{background-position-x:-301px;}
+.main9 li i.colorfulgift9-4{background-position-x:-451px;}
+.main9 li i.colorfulgift9-5{background-position-x:-601px;}
+.main9 li i.colorfulgift9-6{background-position-x:-751px;}
+.main9 li i.colorfulgift9-7{background-position-x:-902px;}
+.main9 li i.colorfulgift9-8{background-position-x:-1052px;}
+
+/*弹窗*/
+.dia1{position: relative;width: 640px;height: 360px;}
+.dia1 .video-box{width: 640px;height: 360px;border: 1px solid #4d4c46;box-sizing: border-box;}
+.dia1 .video-box:before{content: "";background:url(//game.gtimg.cn/images/lol/act/a20201126cosmic/m-tc-border-top.png) no-repeat center top; background-size:664px auto;position: absolute;top: -20px;left: 50%;width: 664px;height: 39px;transform: translateX(-50%);z-index: 4;}
+.dia1 .video-box:after{content: "";background:url(//game.gtimg.cn/images/lol/act/a20201126cosmic/m-tc-border-bottom.png) no-repeat center top; background-size:648px auto;position: absolute;bottom: -2px;left: 50%;width: 1254px;height: 4px;transform: translateX(-50%);z-index: 4;}
+.dia-close{font-size: 56px;color: #fff;position: absolute;top:-30px;right: -40px;font-weight: bold;}
+
+@keyframes act
+{
+0% {transform: scale(1);}
+100% {transform: scale(0.9);}
+}
+@-webkit-keyframes act
+{
+0% {transform: scale(1);}
+100% {transform: scale(0.9);}
+}
