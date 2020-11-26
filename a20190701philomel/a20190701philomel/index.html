@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="gbk" /> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="robots" content="all">
+<meta name="author" content="Tencent-CP" />
+<meta name="Copyright" content="Tencent" />
+<meta name="Description" content="夜莺谷-新服开启,腾讯旗舰自研大作《斗战神》是量子工作室历时五年潜心打造的3DMMORPG精品之作。游戏以其“世界架构师”今何在先生代表作《悟空传》为蓝本，通过成人的视角重读西游，重塑西游。" />
+<meta name="Keywords" content="夜莺谷-新服开启,斗战神,灵猴,牛魔,神将,龙女,玉狐,罗刹,昆仑山,南天门,五庄观,西游记,孙悟空,猪八戒,沙僧,牛魔王,如来佛,玉皇大帝,最好玩的网游,大作,自研,腾讯,量子工作室,次世代网游,dzs,asura,热血,开放式战斗2.0网游" />
+<!--//game.gtimg.cn/images/dzs/cp/a20190701philomel/-->
+<!-- 设计：cp  | 重构：cp | 创建：2019-07-01 -->
+<title>夜莺谷-新服开启- 官方网站-腾讯游戏-开放式战斗2.0网游</title>
+<style type="text/css">
+	/*reset*/
+	body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{-webkit-text-size-adjust: none;margin:0;padding:0;}body,button,input,select,textarea{font:12px/1.5 tahoma,arial,\5b8b\4f53,sans-serif;}h1,h2,h3,h4,h5,h6{font-size:100%;}address,cite,dfn,em,var{font-style:normal;}code,kbd,pre,samp{font-family:courier new,courier,monospace;}small{font-size:12px;}ul,ol{list-style:none;}a{text-decoration:none;outline:0 none}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}legend{color:#000;}fieldset,img{border:0;}button,input,select,textarea{font-size:100%;resize: none;}table{border-collapse:collapse;border-spacing:0;}
+	i,b{font-style: normal;}
+	.fix:after{content:'\20';display:block;height:0;clear:both;font-family:\5FAE\8F6F\96C5\9ED1;}
+	.fix{*zoom:1;}
+	.hid{text-indent:-9999px;font-size:0px;overflow:hidden;width:0px;height:0px;display:block}	
+	body{background: #30ADF6;}
+	
+	/*清除浮动*/
+	.clearfix:after{content:""; display:block; height:0; clear:both; }
+	.clearfix{ *zoom:1; }
+	.wrapper{font-family:'\5FAE\8F6F\96C5\9ED1';}
+	
+	.spr{background:url(//game.gtimg.cn/images/dzs/cp/a20190701philomel/spr.png)  no-repeat;}
+	/*content1*/
+	.content1{min-width: 1200px; height: 955px; background: url(//game.gtimg.cn/images/dzs/cp/a20190701philomel/bg1.jpg) no-repeat 50% 0;overflow: hidden;}
+	.cont1{position: relative; width: 1200px; height: 955px;margin: 0 auto;overflow: hidden;} 
+	.logo{display: block;position: absolute; top: 10px; left: -24px; height:186px;width:257px;background-position:0 -2330px;}
+	.login-box{position: absolute;top: 886px;left: 0; display: block; width: 100%; text-align: center; font-size: 16px;  color: #fffae7;z-index: 99; }  
+	.login-box a{color: #ffefa6;}
+	.btns{width: 312px;height: 50px;position: absolute;top: 50px;right: 0;}
+	.btns a{display: block;height:50px;width:149px;float: left;}
+	.btns a:hover{filter: brightness(1.1);-webkit-filter: brightness(1.1);}
+	.btns .btn-dw{background-position:0 0;}
+	.btns .btn-os{background-position:0 -50px;margin-right: 12px;}
+	.nav{display: block;height:223px;width:203px;position: absolute;}
+	.nav1{background-position:0 -1438px;top: 347px;left: 0;}
+	.nav2{background-position:0 -992px;top: 562px;left: 189px;}
+	.nav3{background-position:0 -1884px;top: 643px;left: 495px;}
+	.nav4{background-position:0 -323px;top: 562px;right: 197px;}
+	.nav5{background-position:0 -769px;top: 347px;right: 0;}
+	.nav1.on,.nav1:hover{background-position:0 -1215px;}
+	.nav2.on,.nav2:hover{background-position:0 -2107px;}
+	.nav3.on,.nav3:hover{background-position:0 -1661px;}
+	.nav4.on,.nav4:hover{background-position:0 -100px;}
+	.nav5.on,.nav5:hover{background-position:0 -546px;}
+	
+	/*content2*/
+	.content2{min-width: 1000px; height: 4225px; background: url(//game.gtimg.cn/images/dzs/cp/a20190701philomel/bg2.jpg) no-repeat 50% 0;overflow: hidden;}
+	.cont2{width: 1000px; height: 4225px; margin: 0 auto;overflow: hidden;}
+	.main1{height: 770px;}
+	.main2{height: 770px;}
+	.time{width: 101%;line-height: 24px;color: #a35c0d;text-align: center;margin-bottom: 46px;font-size: 16px;}
+	.time strong{color: #ff3c00;}
+	.main3 .time{margin-bottom: 73px;}
+	.main1 img,.main2 img{display: block;margin: 0 auto;}
+	.btn-join{display: block;width: 234px;height: 61px;background-position: -286px -2415px;margin: 0 auto 46px;}
+	.btn-join:hover{filter: brightness(1.1);-webkit-filter: brightness(1.1);}
+	.ul-gif1{width: 770px;height: 766px;margin: 0 auto;}
+	.ul-gif1 li{width: 242px;height: 242px;background: url(//game.gtimg.cn/images/dzs/cp/a20190701philomel/prop-bg1.png) no-repeat;float: left;margin: 0 7px;}
+	.ul-gif1 li img{display: block;margin: 28px auto 12px;}
+	.ul-gif1 li p{width: 100%;line-height: 54px;color: #ffc065;font-size: 18px;text-align: center;}
+	.ul-gif2{width: 100%;height: 705px;margin: 0 auto;}
+	.ul-gif2 li{width: 179px;height: 192px;background: url(//game.gtimg.cn/images/dzs/cp/a20190701philomel/prop-bg2.png) no-repeat;float: left;margin-right: 21px;}
+	.ul-gif2 li img{display: block;margin: 45px auto 32px;}
+	.ul-gif2 li p{width: 100%;line-height: 46px;color: #ffc065;font-size: 16px;text-align: center;}
+	
+	/*抽奖*/
+	.lottery-box{width:571px;height:588px;position:relative;float: left;}
+	.btn-lottery{position:absolute;left:197px;top:198px;display:block;width:179px;height:192px;z-index:9999;}
+	#lotterycontent{width:571px;height:588px;background:url(//game.gtimg.cn/images/dzs/cp/a20190701philomel/prize-bg.png) no-repeat;position:relative;}
+	.prize-content{position:absolute;left:50%;top:0;margin-left:-285px;width:571px;height:588px;}
+	.prize-content li{float:left;width:179px;height:192px;margin-right:15px;margin-bottom:8px;}
+	.prize-content img{display:block;margin: 34px auto 20px;}
+	.prize-content li.last{margin-right:0;}
+	.prize-content p{width:100%;color:#ffc065;font-size:16px;line-height:42px;text-align:center;}
+	
+	.awards-list{width:381px; height:576px; background:url(//game.gtimg.cn/images/dzs/cp/a20190701philomel/rightbox.png) no-repeat; overflow:hidden;float: left;margin: 6px 0 0 48px;}
+	.awards-list ul{width:292px; height:446px; margin:108px auto 0; overflow:hidden;}
+	.awards-list ul > li{width:100%; height:32px; text-align:center; color:#ffeccb; line-height:30px; font-size:0;}
+	.awards-list ul > li > em,.cont4-ul3 > li > span,.cont4-ul3 > li > i,.cont4-ul3 > li > b{font-size:14px; padding:0 2px; display:inline-block;*display:inline;*zoom:1;vertical-align:top;}
+	.awards-list ul > li > em{width:25%}
+	.awards-list ul > li > span{width:56px;}
+	.awards-list ul > li > i{font-style: normal;width:28%;margin-left:20px}
+	.awards-list ul > li > b{font-weight: normal; width:35%;text-align:right}
+	
+	/*title*/
+	.title1{height:122px;width:998px;background-position:0 -2516px;margin: 0 auto 14px;}
+	.title2{height:122px;width:998px;background-position:0 -2760px;margin: 0 auto 14px;}
+	.title3{height:122px;width:998px;background-position:0 -2638px;margin: 0 auto 14px;}
+	
+	/*afooter*/
+	#afooter{text-align:center; line-height:20px;color: #9a9a9a;background-color: #0e0e0e;padding: 20px 0;margin-bottom: -20px;}
+	#afooter a{ color: #9a9a9a;}
+</style>
+</head>
+<body>
+<div class="wrapper">
+	<h1 class="hid"> 夜莺谷-新服开启</h1>
+	<div class="content1">
+		<div class="cont1">
+			<a class="hid logo spr" title="斗战神" href="//dzs.qq.com" target="_blank" onclick="PTTSendClick('btn', 'go', '斗战神');">斗战神</a>
+			<!--下载官网按钮-->
+			<div class="btns">
+				<a class="btn-os spr hid" href="//dzs.qq.com/"  title="进入官网" target="_blank">进入官网</a>
+				<a class="btn-dw spr hid" href="//dzs.qq.com/download.shtml"  title="下载游戏" target="_blank">下载游戏</a>
+			</div>
+			<!--导航-->
+			<a href="javascript:;" class="nav nav1 spr hid on" target="_blank" title="专属活动礼" onclick="PTTSendClick('btn','tab1','专属活动礼')">专属活动礼</a>
+			<a href="page1.html" class="nav nav2 spr hid" target="_blank" title="注册大礼包" onclick="PTTSendClick('btn','tab2','注册大礼包')">注册大礼包</a>
+			<a href="page2.html" class="nav nav3 spr hid" target="_blank" title="斗战心路礼" onclick="PTTSendClick('btn','tab3','斗战心路礼')">斗战心路礼</a>
+			<a href="page3.html" class="nav nav4 spr hid" target="_blank" title="NPC保送60级" onclick="PTTSendClick('btn','tab4','NPC保送60级')">NPC保送60级</a>
+			<a href="page4.html" class="nav nav5 spr hid" target="_blank" title="1元大收益" onclick="PTTSendClick('btn','tab5','1元大收益')">1元大收益</a>
+			<!--登录-->
+			<div class="login-box">
+				 <!--登录前状态 Start-->
+			    <div id="unlogin" class="login" style="display: block;">
+			        你好，请【<a id="btn_qqlogin" href="javascript:void(0)" title="QQ登录">QQ登录</a>】
+			        <!--【<a id="btn_wxlogin" href="javascript:void(0);" title="微信登录">微信登录</a>】-->
+			        <!--【<a id="btn_wxandqqlogin" href="javascript:void(0);" title="一体化登录">QQ微信一体化登录</a>】-->
+			     </div>
+			    <!--登录前状态 End-->
+			    <!--登录后状态 Start-->
+			    <div id="logined" class="login" style="display: none;  ">
+			        欢迎您，<span id="login_qq_span"></span> 
+			        <span id="ams_user_headimg"></span>　
+			       【<a id="btn_logout" href="javascript:void(0)" title="注销">注销</a>】
+			    </div>
+			    <!--登录后状态 End-->
+			</div>	
+			
+		</div>
+	</div>
+	<div class="content2">
+		<div class="cont2">
+			<!--新服签到礼 S-->
+			<div class="main1">
+				<p class="title1 spr hid">新服签到礼</p>
+				<p class="time">2019年3月14日-3月27日，<strong>每日登陆新服</strong>即可领取签到奖励</p>
+				<img src="//game.gtimg.cn/images/dzs/cp/a20190701philomel/img1.png" width="998" height="475" alt="" />
+			</div>
+			<!--新服签到礼 D-->
+			
+			<!--新服冲级礼 S-->
+			<div class="main2">
+				<p class="title2 spr hid">新服冲级礼</p>
+				<p class="time">2019年3月14日-3月27日，<strong>新服达到等级</strong>即可在游戏内领取冲级奖励</p>
+				<img src="//game.gtimg.cn/images/dzs/cp/a20190701philomel/img2.png" width="998" height="475" alt="" />
+			</div>
+			<!--新服冲级礼 D-->
+			<!--充值领好礼 S-->
+			<div class="main3">
+				<p class="title3 spr hid">充值领好礼</p>
+				<p class="time">活动时间：2019年3月14日-4月2日<br>活动规则：活动期间<strong>达到指定充值额度</strong>，即可领取对应奖励及雪球，物品将通过邮件发放到新服角色，雪球可在游戏内NPC用于兑换海量好礼。</p>
+				<a class="btn-join spr hid"  href="javascript:;" onclick="PTTSendClick('btn','btn-join','立即参与')">立即参与</a>
+				<ul class="ul-gif1">
+					<li>
+						<img src="//game.gtimg.cn/images/dzs/cp/a20190701philomel/prop1-1.png" width="139" height="138" alt="礼包" />
+						<p>青狮王</p>
+					</li>
+					<li>
+						<img src="//game.gtimg.cn/images/dzs/cp/a20190701philomel/prop1-2.png" alt="礼包" />
+						<p>隐莲之灵</p>
+					</li>
+					<li>
+						<img src="//game.gtimg.cn/images/dzs/cp/a20190701philomel/prop1-3.png" alt="礼包" />
+						<p>小魔王</p>
+					</li>
+					<li>
+						<img src="//game.gtimg.cn/images/dzs/cp/a20190701philomel/prop1-4.png" alt="礼包" />
+						<p>白象王</p>
+					</li>
+					<li>
+						<img src="//game.gtimg.cn/images/dzs/cp/a20190701philomel/prop1-5.png" alt="礼包" />
+						<p>魔化·隐莲之灵</p>
+					</li>
+					<li>
+						<img src="//game.gtimg.cn/images/dzs/cp/a20190701philomel/prop1-6.png" alt="礼包" />
+						<p>糖长老</p>
+					</li>
+					<li>
+						<img src="//game.gtimg.cn/images/dzs/cp/a20190701philomel/prop1-7.png" alt="礼包" />
+						<p>镇元子</p>
+					</li>
+					<li>
+						<img src="//game.gtimg.cn/images/dzs/cp/a20190701philomel/prop1-8.png" alt="礼包" />
+						<p>真龙女+金角+银角+三公主</p>
+					</li>
+					
+					<li>
+						<img src="//game.gtimg.cn/images/dzs/cp/a20190701philomel/prop1-9.png" alt="礼包" />
+						<p>阿玉</p>
+					</li>
+				</ul>
+				<ul class="ul-gif2">
+					
+					<li  class="last">
+						<img src="//game.gtimg.cn/images/dzs/cp/a20190701philomel/prop2-1.png" width="64" height="64" alt="礼包" />
+						<p>雷无密印</p>
+					</li>
+					<li>
+						<img src="//game.gtimg.cn/images/dzs/cp/a20190701philomel/prop2-2.png" width="64" height="64" alt="礼包" />
+						<p>火无密印</p>
+					</li>
+					<li>
+						<img src="//game.gtimg.cn/images/dzs/cp/a20190701philomel/prop2-3.png" width="64" height="64" alt="礼包" />
+						<p>火无密印</p>
+					</li>
+					<li>
+						<img src="//game.gtimg.cn/images/dzs/cp/a20190701philomel/prop2-4.png" width="64" height="64" alt="礼包" />
+						<p>雷火交动密印</p>
+					</li>
+					<li class="last">
+						<img src="//game.gtimg.cn/images/dzs/cp/a20190701philomel/prop2-5.png" width="64" height="64" alt="礼包" />
+						<p>毗沙门密印</p>
+					</li>
+					<li>
+						<img src="//game.gtimg.cn/images/dzs/cp/a20190701philomel/prop2-6.png" width="64" height="64" alt="礼包" />
+						<p>兜率天火密印</p>
+					</li>
+					<li>
+						<img src="//game.gtimg.cn/images/dzs/cp/a20190701philomel/prop2-7.png" width="64" height="64" alt="礼包" />
+						<p>劫火红莲密印</p>
+					</li>
+					<li>
+						<img src="//game.gtimg.cn/images/dzs/cp/a20190701philomel/prop2-8.png" width="64" height="64" alt="礼包" />
+						<p>风雷无心密印</p>
+					</li>
+					<li>
+						<img src="//game.gtimg.cn/images/dzs/cp/a20190701philomel/prop2-9.png" width="64" height="64" alt="礼包" />
+						<p>往生极乐II</p>
+					</li>
+					<li  class="last">
+						<img src="//game.gtimg.cn/images/dzs/cp/a20190701philomel/prop2-10.png" width="64" height="64" alt="礼包" />
+						<p>九死不悔II</p>
+					</li>
+					<li>
+						<img src="//game.gtimg.cn/images/dzs/cp/a20190701philomel/prop2-11.png" width="64" height="64" alt="礼包" />
+						<p>天人合一II</p>
+					</li>
+					<li>
+						<img src="//game.gtimg.cn/images/dzs/cp/a20190701philomel/prop2-12.png" width="64" height="64" alt="礼包" />
+						<p>心融神会II</p>
+					</li>
+					<li>
+						<img src="//game.gtimg.cn/images/dzs/cp/a20190701philomel/prop2-13.png" width="64" height="64" alt="礼包" />
+						<p>玉晶石·一阶</p>
+					</li>
+					<li>
+						<img src="//game.gtimg.cn/images/dzs/cp/a20190701philomel/prop2-14.png" width="64" height="64" alt="礼包" />
+						<p>高等真言箱II（绑定）</p>
+					</li>
+					<li  class="last">
+						<img src="//game.gtimg.cn/images/dzs/cp/a20190701philomel/prop2-15.png" width="64" height="64" alt="礼包" />
+						<p>高等真言箱III</p>
+					</li>
+					
+				</ul>
+				
+				<p class="time">2019年3月14日-4月2日，每天登录页面即可获得一次抽奖资格</p>
+				
+				 <div class="lottery-box">
+                    <a href="javascript:;" class="btn-lottery" title="立即抽奖" onclick="PTTSendClick('btn','extract','立即抽奖')"></a>
+                    <!--组件-->
+                    <div id="lotterycontent"></div>
+                    <ul class="prize-content">
+                        <li>
+                            <img src="//game.gtimg.cn/images/dzs/cp/a20190701philomel/prize1.png" width="112" height="85" alt="5Q币">
+                            <p>5Q币</p>
+                        </li>
+                        <li>
+                            <img src="//game.gtimg.cn/images/dzs/cp/a20190701philomel/prize2.png" width="112" height="85" alt="10Q币">
+                            <p>10Q币</p>
+                        </li>
+                        <li class="last">
+                            <img src="//game.gtimg.cn/images/dzs/cp/a20190701philomel/prize3.png"width="112" height="85" alt="惨叫鸡">
+                            <p>惨叫鸡</p>
+                        </li>
+                        <li>
+                            <img src="//game.gtimg.cn/images/dzs/cp/a20190701philomel/prize4.png"width="112" height="85" alt="斗气一阶">
+                            <p>斗气一阶</p>
+                        </li>
+                        <li>
+
+                        </li>
+                        <li class="last">
+                            <img src="//game.gtimg.cn/images/dzs/cp/a20190701philomel/prize5.png"width="112" height="85" alt="斗气三阶">
+                            <p>斗气三阶</p>
+                        </li>
+                        <li>
+                            <img src="//game.gtimg.cn/images/dzs/cp/a20190701philomel/prize6.png"width="112" height="85" alt="愤怒的小鸡">
+                            <p>愤怒的小鸡</p>
+                        </li>
+                        <li>
+                            <img src="//game.gtimg.cn/images/dzs/cp/a20190701philomel/prize7.png"width="112" height="85" alt="微笑的鸡蛋">
+                            <p>微笑的鸡蛋</p>
+                        </li>
+                        <li class="last">
+                            <img src="//game.gtimg.cn/images/dzs/cp/a20190701philomel/prize8.png"width="112" height="85" alt="谢谢参与天">
+                            <p>谢谢参与</p>
+                        </li>
+                    </ul>
+                </div>
+				<div class="awards-list">
+                        <ul id="broadcastContent_546306" class="cont4-ul3 real">
+
+                        	<li>
+								<em >1613711**</em>
+								<i >谢谢参与与</i>
+								<b>03-08 15:58</b>
+							</li>
+							<li>
+								<em >1613711**</em>
+								<i >谢谢参与与</i>
+								<b>03-08 15:58</b>
+							</li>
+							<li>
+								<em >1613711**</em>
+								<i >谢谢参与与</i>
+								<b>03-08 15:58</b>
+							</li>
+							<li>
+								<em >1613711**</em>
+								<i >谢谢参与与</i>
+								<b>03-08 15:58</b>
+							</li>
+							<li>
+								<em >1613711**</em>
+								<i >谢谢参与与</i>
+								<b>03-08 15:58</b>
+							</li>
+							<li>
+								<em >1613711**</em>
+								<i >谢谢参与与</i>
+								<b>03-08 15:58</b>
+							</li>
+							<li>
+								<em >1613711**</em>
+								<i >谢谢参与与</i>
+								<b>03-08 15:58</b>
+							</li>
+							<li>
+								<em >1613711**</em>
+								<i >谢谢参与与</i>
+								<b>03-08 15:58</b>
+							</li>
+							<li>
+								<em >1613711**</em>
+								<i >谢谢参与与</i>
+								<b>03-08 15:58</b>
+							</li>
+							<li>
+								<em >1613711**</em>
+								<i >谢谢参与与</i>
+								<b>03-08 15:58</b>
+							</li>
+							<li>
+								<em >1613711**</em>
+								<i >谢谢参与与</i>
+								<b>03-08 15:58</b>
+							</li>
+							<li>
+								<em >1613711**</em>
+								<i >谢谢参与与</i>
+								<b>03-08 15:58</b>
+							</li>
+							<li>
+								<em >1613711**</em>
+								<i >谢谢参与与</i>
+								<b>03-08 15:58</b>
+							</li>
+							<li>
+								<em >1613711**</em>
+								<i >谢谢参与与</i>
+								<b>03-08 15:58</b>
+							</li>
+                        </ul>
+					</div>
+				
+			</div>			
+			<!--充值领好礼 D-->
+			
+		</div>
+	</div>
+	
+</div>
+<script src="//ossweb-img.qq.com/images/js/jquery/jquery-1.9.0.min.js"></script>
+<script src="//game.gtimg.cn/images/js/delottery/lottery.js"></script>
+<!--IEG通用头部-->
+ <script src="//ossweb-img.qq.com/images/js/title.js"></script>
+<!--IEG通用底部-->
+<script id="afooter" src="//game.gtimg.cn/images/js/2018foot/foot.js"></script>
+<!--登录-->
+<script src="//ossweb-img.qq.com/images/js/milo_bundle/milo.js"></script>
+    <script>
+    	//开始抽奖lottery->js
+		function callJsToStart(){
+		    calllotteryToRoll(4);
+		}
+		//开发获得抽奖结果 通知lottery开始播放效果 js->lottery
+		 function calllotteryToRoll(id){
+		    if(lottery)lottery.stopRoll(id);
+		}
+		//动画完成通知js  lottery->js
+		 function callJsToComplete(){
+		    alert('恭喜你获得大奖哟！！');
+		}
+		 
+		    //初始化抽奖的 可以不知道内部
+		 var lottery= new Lottery({
+		    'lighturl':'ossweb-img/light.png',
+		    'starturl':'http://ossweb-img.qq.com/images/js/delottery/blankstartbtn.png',
+		    'total':8,
+		    'width':571,
+		    'height':588,
+		    'sbtnx':198,
+		    'sbtny':206,
+		    'sbtnw':177,
+		    'sbtnh':177,
+		    'boxw':179,
+		    'boxh':192,
+		    'position':"0_0,196_0,392_0,0_199,392_196,0_396,196_397,392_396",
+		    'contentId' : 'lotterycontent',
+		    'onClickRollEvent' : callJsToStart,
+		    'onCompleteRollEvent':callJsToComplete 
+		});
+		  $(".btn-lottery").click(function(){
+		  	callJsToStart();
+		  })
+    	
+    	//登录
+        milo.ready(function () {
+   		 need("biz.login",function(LoginManager){
+        //QQ登录
+        milo.addEvent(g('btn_qqlogin'),'click',function(e){
+            LoginManager.login();
+        });
+       
+
+        //注销
+        milo.addEvent(g("btn_logout"),"click",function(){
+            LoginManager.logout();
+        })
+
+        var chkLoginFunc=function(str){
+            LoginManager.checkLogin(function(){
+                console.log("已登录: "+str);
+            },function(){
+                console.log("未登录: "+str);
+            })
+        }
+        //执行验证登陆操作
+        LoginManager.checkLogin(function(userinfo){
+            //此处返回用户的基本信息
+            console.log("已登录：\n",userinfo);
+            //如果登陆类型是qq，使用LoginManager.getUserFace方法去获取头像
+            if (userinfo.logtype=="qq"){
+                LoginManager.getUserFace(function(data){
+                    $("#ams_user_headimg").html("<img src=\""+data.userFace+"\"> ");
+                });
+            }else if(userinfo.logtype=="wx"){
+                //如果登陆类型是wx微信，就直接获取基本信息里的头像
+                $("#ams_user_headimg").html("<img src=\""+userinfo.headimgurl+"/64\"> ");
+            }
+
+        },function(){
+            console.log("未登录");
+            //LoginManager.init();
+        });
+    });
+});
+</script>	
+<!--通用统计代码-->
+<script src="//ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js"></script>
+<script>
+//此段代码不能放到外链JS中，
+var setSite={ //设置网站属性
+ siteType:"a20190701philomel", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+ pageType:"index", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN
+ pageName:"首页", //必填项:页面中文名
+ osact:0, //选填项:是否是官网专题(在官网运营的专题)boolean；默认是0；可以在链接上加入参数osact=1来灵活设置
+ ingame:0, //选填项:是否投放在游戏APP内boolean；默认是0；可以在链接上加入参数ingame=1来灵活设置
+ stayTime:0 //选填项:是否需要统计停留时长boolean；默认是0
+}
+if(typeof(pgvMain)=='function')pgvMain();//千万不能忘记！
+</script>
+</body>
+</html>
