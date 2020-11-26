@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="gbk">
+    <meta name="robots" content="all">
+    <meta name="author" content="Tencent-TGideas">
+    <meta name="Copyright" content="Tencent">
+    <meta name="Description" content="雄联盟官方网站，海量风格各异的英雄，丰富、便捷的物品合成系统，游戏内置的匹配、排行和竞技系统，独创的“召唤师”系统及技能、符文、天赋等系统组合，必将带你进入一个崭新而又丰富多彩的游戏世界。">
+    <meta name="Keywords" content="英雄联盟,lol,lol新手礼包,lol攻略,lol视频,lol视频攻略,英雄资料,英雄联盟战争学院,明星解说视频,101战争学院,英雄,攻略,WCG,点亮图标,赛事">
+    <title>海克斯科技战利品库 限时销售 - 英雄联盟官网 - 腾讯游戏</title>
+    <link href="index.css" rel="stylesheet" />
+    <!-- 页面设计：cp | 页面制作：cp | 创建：2017-03-07 -->
+</head>
+<body>
+<div class="g-wrap">
+    <div class="bg">
+        <div class="bg-1"></div>
+        <div class="bg-2"></div>
+        <div class="bg-3"></div>
+        <div class="bg-10"></div>
+        <div class="bg-4"></div>
+        <div class="bg-5"></div>
+    </div><!-- 背景们 -->
+    <div class="g-main">
+        <a href="//lol.qq.com/" class="lol_logo" target="_blank" onClick="PTTSendClick('btn','index_logo','index_logo')"></a>
+        <div class="btn clearfix">
+            <a href="//lol.qq.com/act/a20160713loot/?atm_cl=ad&atm_pos=6409&e_code=247369" class="introduce" target="_blank" onClick="PTTSendClick('btn','gnjs','功能完整介绍')" ><i class="spr"></i></a>
+            <a href="inside-page.html" class="reward" target="_blank" onClick="PTTSendClick('btn','ckcsmjl','查看传送门')"><i class="spr"></i></a>
+        </div><!-- 两只大按钮 -->
+        <div class="exchange">
+            <div class="title-box">
+                <p class="big-title"><i class="spr big-title-q"></i>稀有宝石限时兑换限定皮肤<i class="spr big-title-h"></i></p>
+            </div>
+            <p class="s1">活动时间：2017年7月27日—8月31日</p>
+            <div class="login">
+                <!--登录前状态 Start-->
+                <p id="unlogin">亲爱的用户，请 <a href="javascript:;" id="dologin">[登录]</a></p>
+                <!--登录前状态 End-->
+                <!--登录后状态 Start-->
+                <p id="logined" style="display:none">欢迎您，<span id='login_qq_span'></span>， 
+                <span id="areainfo"><a href='javascript:;' onclick="GetAreaInfo();" >[请选择大区]</a></span>，
+                <a href="javascript:;" id="dologout">[注销]</a></p>
+                <!--登录后状态 End-->
+            </div>
+            <a href="javascript:;" class="sp btn-1" title="点击刷新" id="btn_ref" onclick="PTTSendClick('btn','renovate','点击刷新');RefUser();">点击刷新<i class="sp"></i></a>
+            <div class="exchange-con">
+                 <ul class="skin-display clearfix" id="TradeItem_List"></ul>
+            </div>
+        </div>
+        <div class="surprise-bonus">
+            <div class="title-box">
+                <p class="big-title"><i class="spr big-title-q"></i>海克斯科技传送门惊喜奖励<i class="spr big-title-h"></i></p>
+            </div>
+            <p class="notes">使用1个符石可开启1个传送门，并发现惊喜奖励,奖励内容包含皮肤碎片、守卫皮肤碎片、英雄碎片及召唤师图标中的一项。</p>
+            <div class="skin-box" id="nav0">
+                <div class="title-box">
+                    <p class="title"><i class="spr title-q"></i>皮肤奖励<i class="spr title-h"></i></p>
+                </div>
+                <a href="inside-page.html" class="seemore spr" target="_blank" onClick="PTTSendClick('btn','seemore','查看更多')"></a>
+                <ul class="skin-display clearfix">
+                    <li>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/img-1.jpg">
+                        <div class="text-box">
+                            <div class="text-cont">
+                                <p>龙的传人 李青</p>
+                                <span>龙年限定</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/img-2.jpg">
+                        <div class="text-box">
+                            <div class="text-cont">
+                                <p>海克斯科技 安妮</p>
+                                <span>限定皮肤</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/img-3.jpg">
+                        <div class="text-box">
+                            <div class="text-cont">
+                                <p>摄魂使者 薇恩</p>
+                                <span>限定皮肤</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/img-4.jpg">
+                        <div class="text-box">
+                            <div class="text-cont">
+                                <p>银龙裁决 泰隆</p>
+                                <span>龙年限定</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/img-5.jpg">
+                        <div class="text-box">
+                            <div class="text-cont">
+                                <p>钢铁军团 拉克丝</p>
+                                <span>限定皮肤</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="//ossweb-img.qq.com/images/lol/appskin/62003.jpg">
+                        <div class="text-box">
+                            <div class="text-cont">
+                                <p>定海神珍 孙悟空</p>
+                                <span>龙年限定</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/img-7.jpg">
+                        <div class="text-box">
+                            <div class="text-cont">
+                                <p>安妮漫游仙境</p>
+                                <span>一周年限定</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/img-8.jpg">
+                        <div class="text-box">
+                            <div class="text-cont">
+                                <p>你看见过我的熊猫吗</p>
+                                <span>蛇年限定</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/img-9.jpg">
+                        <div class="text-box">
+                            <div class="text-cont">
+                                <p>地底世界 崔斯特</p>
+                                <span>限定皮肤</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/img-10.jpg">
+                        <div class="text-box">
+                            <div class="text-cont">
+                                <p>古琴余韵 娑娜</p>
+                                <span>龙年限定</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/img-11.jpg">
+                        <div class="text-box">
+                            <div class="text-cont">
+                                <p>神龙之翼 库奇</p>
+                                <span>蛇年限定</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/img-12.jpg">
+                        <div class="text-box">
+                            <div class="text-cont">
+                                <p>神龙烈焰 金克丝</p>
+                                <span>羊年限定</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/img-13.jpg">
+                        <div class="text-box">
+                            <div class="text-cont">
+                                <p>电玩女神 厄运小姐</p>
+                                <span>三周年限定</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/img-14.jpg">
+                        <div class="text-box">
+                            <div class="text-cont">
+                                <p>冬季仙境 奥莉安娜</p>
+                                <span>冰雪节限定</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/img-15.jpg">
+                        <div class="text-box">
+                            <div class="text-cont">
+                                <p>SKT T1 李青</p>
+                                <span>限定皮肤</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/img-16.jpg">
+                        <div class="text-box">
+                            <div class="text-cont">
+                                <p>勇敢的心 德莱厄斯</p>
+                                <span>二周年限定</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/img-17.jpg">
+                        <div class="text-box">
+                            <div class="text-cont">
+                                <p>创战纪 希维尔</p>
+                                <span>限定皮肤</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/img-18.jpg">
+                        <div class="text-box">
+                            <div class="text-cont">
+                                <p>卧虎藏龙 贾克斯</p>
+                                <span>限定皮肤</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/img-19.jpg">
+                        <div class="text-box">
+                            <div class="text-cont">
+                                <p>醒狮 克格莫</p>
+                                <span>龙年限定</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/img-20.jpg">
+                        <div class="text-box">
+                            <div class="text-cont">
+                                <p>替父从军 花木兰</p>
+                                <span>马年限定</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div><!-- 皮肤奖励 -->
+            <div class="head-box" id="nav1">
+                <div class="title-box">
+                	<p class="title"><i class="spr title-q"></i>召唤师图标奖励<i class="spr title-h"></i></p>
+                </div>
+                <ul class="head-display clearfix">
+                    <li>
+                    	<img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/stb1.png" width="101" height="101" alt="" />
+                        <p>宇航员魄罗 图标</p>
+                    </li>
+                    <li>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/stb2.png" width="101" height="101" alt="" />
+                        <p>阴燃僵尸 图标</p>
+                    </li>
+                    <li>
+                       	<img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/stb3.png" width="101" height="101" alt="" />
+                        <p>源计划魄罗 图标</p>
+                    </li>
+                    <li>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/stb4.png" width="101" height="101" alt="" />
+                        <p>海牛大大 图标</p>
+                    </li>
+                    <li>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/stb5.png" width="101" height="101" alt="" />
+                        <p>死兆星 图标</p>
+                    </li>
+                </ul>
+            </div><!-- 召唤师图标奖励 -->
+            <div class="guard-box" id="nav2">
+                <div class="title-box">
+                	<p class="title"><i class="spr title-q"></i>守卫皮肤奖励<i class="spr title-h"></i></p>
+                </div>
+                <ul class="head-display clearfix">
+                    <li>
+                       <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/ssw1.png" width="101" height="101" alt="" />
+                        <p>德莱文 守卫</p>
+                    </li>
+                    <li>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/ssw2.png" width="101" height="101" alt="" />
+                        <p>火龙里格 守卫</p>
+                    </li>
+                    <li>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/ssw3.png" width="101" height="101" alt="" />
+                        <p>滑雪企鹅 守卫</p>
+                    </li>
+                    <li>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/ssw4.png" width="101" height="101" alt="" />
+                        <p>霸天零式 守卫</p>
+                    </li>
+                    <li>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/ssw5.png" width="101" height="101" alt="" />
+                        <p>死兆星 守卫</p>
+                    </li>
+                </ul>
+            </div><!-- 守卫皮肤奖励 -->
+            <div class="debris-box" id="nav3">
+                <div class="title-box">
+                    <p class="title"><i class="spr title-q"></i>英雄奖励<i class="spr title-h"></i></p>
+                </div>
+                <ul class="head-display">
+                    <li>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/syx1.png" width="101" height="101" alt="" />
+                        <p>暗夜射手 薇恩</p>
+                    </li>
+                    <li>
+                    	<img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/syx2.png" width="101" height="101" alt="" />
+                        <p>放逐之刃 锐雯</p>
+                    </li>
+                    <li>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/syx3.png" width="101" height="101" alt="" />
+                        <p>光辉女郎 拉克丝</p>
+                    </li>
+                    <li>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/syx4.png" width="101" height="101" alt="" />
+                        <p>卡牌大师 崔斯特</p>
+                    </li>
+                    <li>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/syx5.png" width="101" height="101" alt="" />
+                        <p>影流之主 劫</p>
+                    </li>
+                </ul>
+                <a class="btn_look" href="javascript:TGDialogS('pop_tips2');" onClick="PTTSendClick('btn','look','点击查看详情')">点击查看详情</a>
+
+            </div><!-- 英雄奖励 -->
+        </div>
+        <div class="qtzhshd" id="nav4">
+            <div class="title-box">
+                <p class="big-title"><i class="spr big-title-q"></i>其他召唤师获得<i class="spr big-title-h"></i></p>
+            </div>
+            <div class="skin-box">
+                <div class="title-box">
+                	<p class="title"><i class="spr title-q"></i>皮肤展示<i class="spr title-h"></i></p>
+                </div>
+                <div class="qt-skin" id="qt_skin">
+                    <ul>
+                        <!--JS插入用户中奖皮肤列表-->
+                    </ul>
+
+                </div>
+                <div id="qt_dot" class="dot"></div>
+            </div>
+        </div><!-- 其他召唤师获得 -->
+        <div class="guard" id="nav5">
+            <div class="title-box">
+            	<p class="big-title"><i class="spr big-title-q"></i>珍稀守卫皮肤限时销售<i class="spr big-title-h"></i></p>
+            </div>
+            <p class="notes">附赠海克斯传送门与符石</p>
+            <div class="cont-bg-box">
+                <div class="cont-bg clearfix">
+                    <div class="title-box">
+                        <p class="title"><i class="spr title-q"></i>游戏客户端商城内限时销售<i class="spr title-h"></i></p>
+                    </div>
+                    <div class="buy-box fl">
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/sbuy1.png" width="164" height="159" alt="" />
+                        <div class="text-box">
+                            <p>魄罗守卫7天</p>
+                            <span>（10000点券）</span>
+                        </div>
+                    </div>
+                    <p class="center fl">附赠</p>
+                    <div class="give-box fl">
+                        <div class="left fl">
+                            <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/sgive2.png" width="117" height="117" alt="" />
+                            <div class="text-box">
+                                <p>传送门x11</p>
+                            </div>
+                        </div>
+                        <i class="fl spr"></i>
+                        <div class="right fl">
+                            <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/sgive1.png" width="117" height="117" alt="" />
+                            <div class="text-box">
+                                <p>符石x11</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-cont-bg clearfix">
+                	<div class="c-cont-bg fl">
+                        <div class="buy-box fl">
+                            <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/sbuy2.png" width="164" height="159" alt="" />
+                            <div class="text-box">
+                                <p>阴森枯木守卫7天</p>
+                                <span>（5000点券）</span>
+                            </div>
+                        </div>
+                        <div class="give-box fl">
+                        <div class="left fl">
+                            <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/sgive3.png" width="117" height="117" alt="" />
+                            <div class="text-box">
+                                <p>传送门x5、符石x5、50橙色精萃</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="c-cont-bg fr">
+                        <div class="buy-box fl">
+                            <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/sbuy3.png" width="164" height="159" alt="" />
+                            <div class="text-box">
+                                <p>美味姜饼守卫7天</p>
+                                <span>（1000点券）</span>
+                            </div>
+                        </div>
+                        <div class="give-box fl">
+                        <div class="left fl">
+                            <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/sgive4.png" width="117" height="117" alt="" />
+                            <div class="text-box">
+                                <p>传送门x1、符石x1</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="content-cont-bg clearfix">
+                	<div class="c-cont-bg fl">
+                        <div class="buy-box fl">
+                            <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/sbuy4.png" width="164" height="159" alt="" />
+                            <div class="text-box">
+                                <p>马年铜锣守卫7天</p>
+                                <span>（550点券）</span>
+                            </div>
+                        </div>
+                        <div class="give-box fl">
+                        <div class="left fl">
+                            <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/sgive2.png" width="117" height="117" alt="" />
+                            <div class="text-box">
+                                <p>传送门x1</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="c-cont-bg fr">
+                        <div class="buy-box fl">
+                            <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/sbuy5.png" width="164" height="159" alt="" />
+                            <div class="text-box">
+                                <p>马到成功守卫7天</p>
+                                <span>（550点券）</span>
+                            </div>
+                        </div>
+                        <div class="give-box fl">
+                        <div class="left fl">
+                            <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/sgive1.png" width="117" height="117" alt="" />
+                            <div class="text-box">
+                                <p>符石x1</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <a href="inside-page.html" class="seeabout spr" target="_blank" onClick="PTTSendClick('btn','seeabout','点击查看详情')"></a>
+            <a class="ques" href="//lol.qq.com/act/a20160713loot/?atm_cl=ad&atm_pos=6409&e_code=247369" target="_blank">如何获得免费海克斯传送门与符石？</a>
+        </div><!-- 珍稀守卫皮肤限时销售 -->
+        <div class="question" id="nav6">
+            <div class="title-box">
+                <p class="big-title"><i class="spr big-title-q"></i>FAQ 常见问题解答<i class="spr big-title-h"></i></p>
+            </div>
+            <ul class="ques-cont">
+                <li>
+                	<h5><i class="spr"></i>1、在哪里可以购买传送门和符石？</h5>
+                    <p>答：登录游戏客户端后，进入海克斯战利品系统，点击购买按钮即可进入购买页面。也可以直接进入游戏内商城，进入礼包类型商品页购买。</p>
+                </li>
+                <li>
+                	<h5><i class="spr"></i>2、打开传送门有什么奖励？</h5>
+                    <p>答：使用符石开启传送门，可以获得皮肤、召唤师图标、守卫皮肤及英雄奖励，还有机会获得“海克斯科技 安妮”等限定皮肤奖励，具体请查看奖励展示页面。</p>
+                </li>
+                <li>
+                	<h5><i class="spr"></i>3、传送门获得的奖励如何领取？</h5>
+                    <p>答：开启传送门发现的奖励，会存放于游戏客户端海克斯战利品库内，需要点击“激活”领取至当前大区游戏背包内，之后即可在游戏对局中使用。</p>
+                </li>
+                <li>
+                	<h5><i class="spr"></i>4、我已经有期限守卫皮肤了，再次购买后使用期限如何计算？</h5>
+                    <p>答：期限守卫皮肤可重复购买，购买之后会直接延长原有效期限。</p>
+                </li>
+                
+            </ul>
+        </div><!-- FAQ -->
+        <p class="tc-star"><a href="javascript:TGDialogS('pop_tips2')">海克斯战利品奖励公示</a></p>
+    </div>
+    <div class="side" id="side-index">
+        <a href="javascript:void(0);" hidefocus="true">皮肤奖励</a>
+        <a href="javascript:void(0);" hidefocus="true">召唤师图标奖励</a>
+        <a href="javascript:void(0);" hidefocus="true">守卫皮肤奖励</a>
+        <a href="javascript:void(0);" hidefocus="true">英雄奖励</a>
+        <a href="javascript:void(0);" hidefocus="true">其他召唤师获得</a>
+        <a href="javascript:void(0);" hidefocus="true">购买传送门</a>
+        <a href="javascript:void(0);" hidefocus="true">FAQ</a>
+        <a href="javascript:void(0);" class="top" hidefocus="true">TOP</a>
+    </div><!-- 侧边导航 -->
+</div>
+
+<div class="pop_tips" id="pop_tips" style="display: none;">
+	<a href="javascript:;" class="closebtn" onClick="closeDialog()">关闭</a>
+	<ul class="pop_ul">
+		<li>1、3月24日-31日期间，海克斯战利品限时销售</li>
+		<li>2、开启每个紫色传送门，都有机会额外获得一颗“稀有宝石”</li>
+      <li>3、消耗40颗稀有宝石可兑换“海克斯科技 安妮”限定皮肤</li>
+      <li>4、消耗80颗稀有宝石可兑换“摄魂使者 薇恩”限定皮肤</li>
+	</ul>
+</div>
+
+
+<div class="pop_tips2" id="pop_tips2" style="display: none;">
+    <a href="javascript:;" class="closebtn" onClick="closeDialog()">关闭</a>
+    <h2 class="pop_t">海克斯战利品奖励公示</h2>
+    <p class="pop_c">亲爱的召唤师，<br/>英雄联盟海克斯战利品活动中，紫色传送门奖励概率如下：</p>
+    <ul class="listb">
+        <li><span>英雄碎片</span><span>14.61%</span></li>
+        <li><span>皮肤碎片</span><span>45.135%</span></li>
+        <li><span>永久英雄</span><span>7%</span></li>
+        <li><span>永久皮肤</span><span>29.255%</span></li>
+        <li><span>召唤师图标</span><span>2%</span></li>
+        <li><span>守卫皮肤</span><span>2%</span></li>
+    </ul>
+    <p class="pop_c">关于稀有宝石的概率：</p>
+    <ul class="listb2">
+        <li><span style="width:170px;">稀有宝石产出概率</span><span>20%</span></li>
+        <li>7月21日20:00~7月30日23:59 稀有宝石产出概率提升至30%</li>
+    </ul>
+
+    <!--<a href="javascript:;" class="pop_btn">确定</a>-->
+</div>
+
+<div class="pop_tips3" id="pop_tips3" style="display: none;">
+	<a href="javascript:;" class="closebtn" onClick="closeDialog()">关闭</a>
+	<p class="pop_title">收集MSI魔法引擎，电竞限定皮肤等你拿</p>
+	<div class="pop_box">
+	<p class="pop_p_zt">1、购买古墓天使守卫（7天），获赠MSI魔法引擎，售价：2950点券</p>
+		<ul>
+			<li ><img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/pop_t_1.png" width="146" height="190"><span class="pop_k_zt" >古墓天使守卫（7天）</span></li>
+			<li ><img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/pop_k_1.png" width="50" height="190"></li>
+			<li ><img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/pop_t_2.png" width="146" height="190"><span class="pop_k_zt">MSI魔法引擎</span></li>
+		</ul>
+	</div>
+	<div class="pop_box">
+	<p class="pop_p_zt">2、打开魔法引擎，包含以下道具</p>
+		<ul>
+			<li ><img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/pop_t_3.png" width="146" height="189"><span class="pop_k_zt">1个MSI魔法引擎</span></li>
+			<li ><img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/pop_k_2.png" width="50" height="189"></li>
+			<li ><img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/pop_t_4.png" width="146" height="189"><span class="pop_k_zt">1个电竞皮肤碎片</span></li>
+			<li ><img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/pop_k_3.png" width="20" height="189"></li>
+			<li ><img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/pop_t_5.png" width="146" height="189"><span class="pop_k_zt">1个皮肤碎片</span></li>
+			<li ><img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/pop_k_3.png" width="20" height="189"></li>
+			<li ><img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/pop_t_6.png" width="146" height="189"><span class="pop_k_zt">1个皮肤碎片</span></li>
+			<li ><img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/pop_k_3.png" width="20" height="189"></li>
+			<li ><img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/pop_t_7.png" width="146" height="189"><span class="pop_k_zt k_zt_top" >稀有宝石获取几率<br />比紫色传送门高50%</span></li>
+		</ul>
+	<p class="pop_p_zt p_zt_top">电竞皮肤：FNATIC、TPA、2013 SKT、SSW、2015 SKT战队皮肤或者勇者皮肤中的一款。</p>
+	</div>
+
+</div>
+<!-- 弹出层test1 Start-->
+<div class="dialog1" id="d_userhist" style="display:none">
+    <div class="dia-con">
+        <h2>我的转区记录</h2>
+        <table class="tab" cellpadding="0" cellspacing="0" border="0">
+            <thead>
+            <tr>                
+                <th>道具名称</th>
+                <th>道具数量</th>
+                <th>转入大区</th>
+                <th>消耗精粹</th>
+                <th>处理时间</th>
+                <th>转区状态</th>
+            </tr>
+            </thead>
+            <tbody id="target_list"></tbody>
+            <tfoot id="target_page"></tfoot>
+        </table>
+    </div>
+    <a class="sp dia-close" href='javascript:;' onclick="closeDialog()" title="关闭"></a>
+</div>
+<textarea style="display:none" id="rUserGet_jst">
+		{for p in list}
+		<tr>
+			<td>${p.vInfo}</td>
+			<td>${p.iItemNum}</td>
+			<td>${p.iAreaStr}</td>
+			<td>橙色精萃X${p.iAmount}</td>
+			<td>${p.dtTime}</td>
+			<td>${p.Send}</td>
+		</tr>
+    {forelse}
+			<tr><td colspan="6">暂无记录</td></tr>
+		{/for}
+</textarea>
+<textarea style="display:none" id="rTradeItem_jst">
+		{for p in CHAMPION}
+    <li>
+        <img src="//ossweb-img.qq.com/images/lol/appskin/${p.vItemCode}000.jpg">
+        <div class="text-box">
+            <div class="text-cont">
+                <p>${p.vSubName}<br>${p.vItemName}X${p.num}</p>
+                <span>消耗橙色精萃X${p.iAmount}/个</span>
+            </div>
+        </div>
+        <a href="javascript:;" class="sp btn-2" id="BTN_${p.vItemCode}" onclick="ShowTransArea('${p.item}',${p.num},'${p.type}')">立即转区<i class="sp"></i></a>
+    </li>
+		{/for}
+		{for p in CHAMPION_RENTAL}
+    <li>
+        <img src="//ossweb-img.qq.com/images/lol/appskin/${p.vItemCode}000.jpg">
+        <div class="text-box">
+            <div class="text-cont">
+                <p>${p.vSubName}<br>${p.vItemName}X${p.num}</p>
+                <span>消耗橙色精萃X${p.iAmount}/个</span>
+            </div>
+        </div>
+        <a href="javascript:;" class="sp btn-2" id="BTN_${p.vItemCode}" onclick="ShowTransArea('${p.item}',${p.num},'${p.type}')">立即转区<i class="sp"></i></a>
+    </li>
+		{/for}
+		{for p in CHAMPION_SKIN}
+    <li>
+        <img src="//ossweb-img.qq.com/images/lol/appskin/${p.vItemCode}.jpg">
+        <div class="text-box">
+            <div class="text-cont">
+                <p>${p.vSubName}<br>${p.vItemName}X${p.num}</p>
+                <span>消耗橙色精萃X${p.iAmount}/个</span>
+            </div>
+        </div>
+        <a href="javascript:;" class="sp btn-2" id="BTN_${p.vItemCode}" onclick="ShowTransArea('${p.item}',${p.num},'${p.type}')">立即转区<i class="sp"></i></a>
+    </li>
+		{/for}
+		{for p in CHAMPION_SKIN_RENTAL}
+    <li>
+        <img src="//ossweb-img.qq.com/images/lol/appskin/${p.vItemCode}.jpg">
+        <div class="text-box">
+            <div class="text-cont">
+                <p>${p.vSubName}<br>${p.vItemName}X${p.num}</p>
+                <span>消耗橙色精萃X${p.iAmount}/个</span>
+            </div>
+        </div>
+        <a href="javascript:;" class="sp btn-2" id="BTN_${p.vItemCode}" onclick="ShowTransArea('${p.item}',${p.num},'${p.type}')">立即转区<i class="sp"></i></a>
+    </li>
+		{/for}
+</textarea>
+<!-- 弹出层test1 End-->
+<!-- 弹出层test2 Start-->
+<div class="dialog2" id="test1" style="display:none">
+    <div class="dia-con">
+        <p>是否确认使用<span>XX</span>颗 宝石兑换皮肤 <span>XXX</span><br>并领取至<span>XXX大区</span></p>
+        <div class="dia-btn">
+            <a href="javascript:showDialog.hide();" class="sp btn-2" title="确认">确认<i class="sp"></i></a>
+            <a href="javascript:showDialog.hide();" class="sp btn-3" title="取消">取消<i class="sp"></i></a>
+        </div>
+    </div>
+    <a class="sp dia-close" href='javascript:;' onclick="closeDialog()" title="关闭"></a>
+</div>
+<div class="dialog2" id="sys" style="display:none">
+    <div class="dia-con">
+        <p id="sys_info"></p>
+    </div>
+    <a class="sp dia-close" href='javascript:;' onclick="closeDialog()" title="关闭"></a>
+</div>
+<!-- 弹出层test2 End-->
+
+<script src="//ossweb-img.qq.com/images/lol/title/lol.js"></script>
+<script src="//ossweb-img.qq.com/images/js/foot.js"></script>
+<script src="//ossweb-img.qq.com/images/js/milo/milo-min.js"></script>
+<script src="//ossweb-img.qq.com/images/js/jquery/jquery-1.8.0.min.js"></script>
+<!--<script src="skindata.js"></script>-->
+<script src="/comm-htdocs/js/game_area/lol_server_select.js"></script>
+<script src="//ossweb-img.qq.com/images/lol/hns/RALFSHEN_HEROSKIN.js"></script>
+<script src="//lol.qq.com/act/a20141211icon/js/lolAppIcon.js"></script>
+<script src="index.js"></script>
+<script src="tran.js"></script>
+<!--<script src="//pingjs.qq.com/ping_tcss_ied.js"></script>-->
+<script>
+    milo.addEvent(g("dologin"), "click", function() {
+        need("biz.login",function(LoginManager){
+        LoginManager.init({
+                needReloadPage:true
+            });
+            LoginManager.login();
+        });
+        return false;
+    });
+    milo.addEvent(g("dologout"), "click", function() {
+        need("biz.login",function(LoginManager){
+            LoginManager.logout(function(){location.reload()});
+        });
+        return false;
+    });
+    milo.ready(function() {
+    		InitTrade();
+        need("biz.login",function(LoginManager){
+            LoginManager.checkLogin(function(){
+                g("login_qq_span").innerText= LoginManager.getUserUin();//获取QQ号
+                var cookieKey = "LOL_a20160921hextech_bind_"+LoginManager.getUserUin();
+                var cookieVale=milo.cookie.get(cookieKey);
+                if(typeof(cookieVale) !="undefined" && parseInt(cookieVale) > 0) {
+                   G_AREA=cookieVale;
+                   SetAreaInfo();
+                }
+                else {
+                	//GetAreaInfo();
+                }
+            });
+        });
+    });
+</script>
+<script>
+function TGDialogS(e) {
+	need("biz.dialog-min", function(Dialog) {
+		Dialog.show({
+			id: e,
+			bgcolor: '#000', //弹出“遮罩”的颜色，格式为"#FF6600"，可修改，默认为"#fff"
+			opacity: 50 //弹出“遮罩”的透明度，格式为｛10-100｝，可选
+		});
+	});
+}
+
+function closeDialog() {
+	need("biz.dialog-min", function(Dialog) {
+		Dialog.hide({});
+	});
+}
+
+//TGDialogS("pop_tips2");
+//if (typeof(pgvMain) == 'function') pgvMain();
+</script>
+<script src="//ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js"></script>
+<script>
+//此段代码不能放到外链JS中，
+var setSite = { //设置网站属性
+	siteType: "a20160921hextech", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+	pageType: "tran", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN,不支持点(.)、下划线(_)
+	pageName: "首页", //必填项:页面中文名
+	project: "other", //选填项:如果是官网模块则是必填;按照模块内容，填写固定的对应值;原生官网base;微社区ingame;同人站doujin;赛事match;故事站story;文化站history;粉丝站fans;爆料站coming;论坛bbs;皮肤skin;默认other;
+	osact: 0 //选填项:是否是官网专题(在官网运营的专题)boolean；默认是0；可以在链接上加入参数osact=1来灵活设置
+};
+if(typeof(pgvMain) == 'function') pgvMain(); //千万不能忘记！
+</script>
+</body>
+</html>

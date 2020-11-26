@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="gbk">
+    <meta name="robots" content="all">
+    <meta name="author" content="Tencent-TGideas">
+    <meta name="Copyright" content="Tencent">
+    <meta name="Description" content="雄联盟官方网站，海量风格各异的英雄，丰富、便捷的物品合成系统，游戏内置的匹配、排行和竞技系统，独创的“召唤师”系统及技能、符文、天赋等系统组合，必将带你进入一个崭新而又丰富多彩的游戏世界。">
+    <meta name="Keywords" content="英雄联盟,lol,lol新手礼包,lol攻略,lol视频,lol视频攻略,英雄资料,英雄联盟战争学院,明星解说视频,101战争学院,英雄,攻略,WCG,点亮图标,赛事">
+    <title>海克斯科技 - 战利品库，限时销售 - 英雄联盟官网 - 腾讯游戏</title>
+    <link href="inside-page.css" rel="stylesheet" />
+    <!-- 页面设计：cp | 页面制作：cp | 创建：2017-03-07 -->
+</head>
+<body>
+<div class="g-wrap">
+    <div class="bg">
+        <div class="bg-1"></div>
+        <div class="bg-2"></div>
+        <div class="bg-3"></div>
+        <div class="bg-4"></div>
+        <div class="bg-5"></div>
+        <div class="bg-6"></div>
+    </div><!-- 背景们 -->
+    <div class="g-main">
+        <a href="//lol.qq.com/" class="logo" target="_blank" onclick="PTTSendClick('btn','index_logo','index_logo');"></a>
+        <div class="surprise-bonus">
+            <div class="title-box">
+            	<p class="big-title"><i class="spr big-title-q"></i>海克斯宝箱惊喜奖励<i class="spr big-title-h"></i></p>
+            </div>
+            <p class="notes">使用1把钥匙可开启1个宝箱，并发现惊喜奖励,奖励内容包含皮肤碎片、守卫皮肤碎片、英雄碎片及召唤师图标中的一项。</p>
+            <div class="skin-box" id="pnav0">
+                <div class="title-box">
+                	<p class="title"><i class="spr title-q"></i>皮肤奖励<i class="spr title-h"></i></p>
+                </div>
+                <div class="roll">
+                    <ul class="skin-display clearfix" id="skin_list"></ul>
+                </div>
+            </div><!-- 皮肤奖励 -->
+            <div class="head-box" id="pnav1">
+                <div class="title-box">
+                    <p class="title"><i class="spr title-q"></i>召唤师图标奖励<i class="spr title-h"></i></p>
+                </div>
+                <ul class="head-display head-display-top">
+                	<li>
+                    	<i class="spr"></i>
+                    	<img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/profileIcon743.jpg" width="90" height="90">	
+                        <p>战地机甲魄罗 图标</p>
+                    </li>
+                    <li>
+                    	<i class="spr"></i>
+                    	<img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/profileIcon744.jpg">	
+                        <p>绅士魄罗 图标</p>
+                    </li>
+                    <li>
+                    	<i class="spr"></i>
+                    	<img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/profileIcon745.jpg">	
+                        <p>暗影岛魄罗 图标</p>
+                    </li>
+                    <li>
+                    	<i class="spr"></i>
+                    	<img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/profileIcon746.jpg">	
+                        <p>宇航员魄罗 图标</p>
+                    </li>
+                    <li>
+                    	<i class="spr"></i>
+                    	<img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/profileIcon747.jpg">	
+                        <p>屠龙勇士魄罗 图标</p>
+                    </li>
+                    <li>
+                    	<i class="spr"></i>
+                    	<img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/profileIcon782.jpg">	
+                        <p>心形爆破 图标</p>
+                    </li>
+                    <li>
+                    	<i class="spr"></i>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/profileIcon783.jpg">
+                        <p>轨道激光 图标</p>
+                    </li>
+                    <li>
+                    	<i class="spr"></i>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/profileIcon784.jpg">
+                        <p>海牛幽灵 图标</p>
+                    </li>
+                    <li>
+                    	<i class="spr"></i>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/profileIcon938.jpg">
+                        <p>恶之狼灵 图标</p>
+                    </li>
+                    <li>
+                    	<i class="spr"></i>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/profileIcon939.jpg">
+                        <p>善之羊灵 图标</p>
+                    </li>
+                    <li>
+                    	<i class="spr"></i>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/profileIcon948.jpg">
+                        <p>阴燃僵尸 图标</p>
+                    </li>
+                    <li>
+                    	<i class="spr"></i>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/profileIcon949.jpg">
+                        <p>僵尸杀手潘森 图标</p>
+                    </li>
+                    <li>
+                    	<i class="spr"></i>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/profileIcon979.jpg">
+                        <p>蓝色雪装 图标</p>
+                    </li>
+                    <li>
+                    	<i class="spr"></i>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/profileIcon980.jpg">
+                         <p>红色冬装 图标</p>
+                    </li>
+                    <li>
+                    	<i class="spr"></i>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/profileIcon985.jpg">
+                        <p>源计划魄罗 图标</p>
+                    </li>
+                    <li>
+                    	<i class="spr"></i>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/profileIcon1112.jpg">
+                        <p>德莱文 图标</p>
+                    </li>
+                    <li>
+                    	<i class="spr"></i>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/profileIcon1113.jpg">
+                        <p>德莱德莱文 图标</p>
+                    </li>
+                    <li>
+                    	<i class="spr"></i>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/profileIcon1116.jpg">
+                         <p>海牛大大 图标</p>
+                    </li>
+                	<li>
+                    	<i class="spr"></i>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/profileIcon1211.jpg">
+                        <p>死兆星 图标</p>
+                    </li>
+                	<li>
+                    	<i class="spr"></i>
+                        <img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/profileIcon1115.jpg">
+                        <p>绝对不是一个维克兹 图标</p>
+                    </li>
+                </ul>
+            </div><!-- 召唤师图标奖励 -->
+            <div class="guard-box" id="pnav2">
+                <div class="title-box">
+                    <p class="title"><i class="spr title-q"></i>守卫皮肤奖励<i class="spr title-h"></i></p>
+                </div>
+                <ul class="head-display head-display-sw">
+                    <li>
+                    	<i class="spr"></i>
+                        <div class="img-box">
+                        	<img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/wardskin_11.jpg">
+                        </div>
+                        <p>德莱文 守卫</p>
+                    </li>
+                    <li>
+                    	<i class="spr"></i>
+                        <div class="img-box">
+                        	<img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/wardskin_23.jpg">
+                        </div>
+                        <p>金球 守卫</p>
+                    </li>
+                    <li>
+                    	<i class="spr"></i>
+                        <div class="img-box">
+                        	<img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/wardskin_25.jpg">
+                        </div>
+                         <p>披甲龙龟 守卫</p>
+                    </li>
+                    <li>
+                    	<i class="spr"></i>
+                        <div class="img-box">
+                        	<img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/wardskin_26.jpg">
+                        </div>
+                         <p>殇之木乃伊 守卫</p>
+                    </li>
+                    <li>
+                    	<i class="spr"></i>
+                        <div class="img-box">
+                        	<img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/wardskin_27.jpg">
+                        </div>
+                         <p>恕瑞玛华冠 守卫</p>
+                    </li>
+                    <li>
+                    	<i class="spr"></i>
+                        <div class="img-box">
+                        	<img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/wardskin_49.jpg">
+                        </div>
+                         <p>火龙里格 守卫</p>
+                    </li>
+                    <li>
+                    	<i class="spr"></i>
+                        <div class="img-box">
+                        	<img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/wardskin_52.jpg">
+                        </div>
+                         <p>滑雪企鹅 守卫</p>
+                    </li>
+                    <li>
+                    	<i class="spr"></i>
+                        <div class="img-box">
+                        	<img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/wardskin_56.jpg">
+                        </div>
+                         <p>这货不是眼 守卫</p>
+                    </li>
+                    <li>
+                    	<i class="spr"></i>
+                        <div class="img-box">
+                        	<img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/wardskin_57.jpg">
+                        </div>
+                         <p>霸天零式 守卫</p>
+                    </li>
+                    <li>
+                    	<i class="spr"></i>
+                        <div class="img-box">
+                        	<img src="//ossweb-img.qq.com/images/lol/act/a20160921hextech/wardskin_59.jpg">
+                        </div>
+                         <p>死兆星 守卫</p>
+                    </li>
+                </ul>
+            </div><!-- 守卫皮肤奖励 -->
+            <div class="debris-box" id="pnav3">
+                <div class="title-box">
+                	<p class="title"><i class="spr title-q"></i>英雄奖励<i class="spr title-h"></i></p>
+                </div>
+                <div class="roll">
+                    <ul class="skin-display clearfix" id="hero_list"></ul>
+                </div>
+            </div><!-- 英雄奖励 -->
+            <div class="qtzhshd" id="nav4" style="display: block">
+                <div class="title-box">
+                    <p class="big-title"><i class="spr big-title-q"></i>其他召唤师获得<i class="spr big-title-h"></i></p>
+                </div>
+                <div class="skin-box">
+                    <div class="title-box">
+                        <p class="title"><i class="spr title-q"></i>皮肤展示<i class="spr title-h"></i></p>
+                    </div>
+                    <div class="qt-skin" id="qt_skin">
+                        <ul>
+                            <!--JS插入用户中奖皮肤列表-->
+                        </ul>
+
+                    </div>
+                    <div id="qt_dot" class="dot"></div>
+                </div>
+            </div><!-- 其他召唤师获得 -->
+            <p class="tc-star"><a href="javascript:TGDialogS('pop_tips2')">海克斯战利品奖励公示</a></p>
+
+        </div>
+    </div>
+    <div class="side" id="side-page">
+        <a href="javascript:void(0);" hidefocus="true">皮肤奖励</a>
+        <a href="javascript:void(0);" hidefocus="true">召唤师图标奖励</a>
+        <a href="javascript:void(0);" hidefocus="true">守卫皮肤奖励</a>
+        <a href="javascript:void(0);" hidefocus="true">英雄奖励</a>
+        <a href="javascript:void(0);" hidefocus="true">其他召唤师获得</a>
+        <a href="javascript:void(0);" hidefocus="true">TOP</a>
+    </div><!-- 侧边导航 -->
+</div>
+
+<div class="pop_tips2" id="pop_tips2" style="display: none;">
+    <a href="javascript:;" class="closebtn" onClick="closeDialog()">关闭</a>
+    <h2 class="pop_t">海克斯战利品奖励公示</h2>
+    <p class="pop_c">紫色宝箱奖励概率如下：</p>
+    <ul class="listb">
+        <li><span>英雄碎片</span><span>14.61%</span></li>
+        <li><span>皮肤碎片</span><span>45.135%</span></li>
+        <li><span>永久英雄</span><span>7%</span></li>
+        <li><span>永久皮肤</span><span>29.255%</span></li>
+        <li><span>召唤师图标</span><span>2%</span></li>
+        <li><span>守卫皮肤</span><span>2%</span></li>
+    </ul>
+    <p class="pop_c">杰作宝箱概率如下：</p>
+    <ul class="listb">
+        <li><span>皮肤和皮肤碎片</span><span>100%</span></li>
+        <li><span>本期活动专属惊喜奖励</span><span>3%</span></li>
+    </ul>
+    <ul class="listb2">
+      <li>以上紫色或杰作宝箱稀有宝石产出概率均为20%，且均有0.04%概率掉落海克斯限定永久皮肤</li>
+      <li>本期活动专属惊喜奖励包含：<a href="//lol.qq.com/webplat/info/news_version3/152/4579/4581/m3106/201804/713208.shtml" target="_blank">咕咕鸡的大吉福袋</a>(点击查看详情)</li>
+   </ul>
+    <!--<a href="javascript:;" class="pop_btn">确定</a>-->
+</div>
+
+<script src="//ossweb-img.qq.com/images/lol/title/lol.js"></script>
+<script src="//ossweb-img.qq.com/images/js/foot.js"></script>
+<script src="//ossweb-img.qq.com/images/js/milo/milo-min.js"></script>
+<script src="//ossweb-img.qq.com/images/js/jquery/jquery-1.8.0.min.js"></script>
+<script src="skin.js"></script>
+<script src="hero.js"></script>
+<script>
+
+    //用户中奖皮肤列表轮播
+    need("biz.scroll",function(s){
+        //左右滚动js代码
+        s.init({
+            conId:'qt_skin',//内容容器ID
+            leftId:'m_right',//左箭头ID
+            rightId:'m_left',//右箭头ID
+            frameWidth:'876',//显示框宽度
+            pageSpace:'876',//翻页宽度或高度
+            autoPlay:true,//true为自动播放、false为不自动播放
+            position:'left',//播放方向 left为向左，up为向上,设置为up时必须加上翻页高度pageHeight值
+            autoPlayTime:'3',//自动播放间隔时间(秒)
+            dotListId:'qt_dot'//是否需要分页，不需要则删掉此行，并将页面上相应代码去掉，如此例分页代码为<div id="do" class="do"></div>，删掉即可
+        });
+    });
+    //加载英雄、皮肤图片
+    need(["biz.delayLoad"]);
+    //登录
+    milo.ready(function() {
+        loadScript("skindata.js",function(){loadPrizeList()});
+    });
+
+    function TGDialogS(e) {
+        need("biz.dialog-min", function(Dialog) {
+            Dialog.show({
+                id: e,
+                bgcolor: '#000', //弹出“遮罩”的颜色，格式为"#FF6600"，可修改，默认为"#fff"
+                opacity: 50 //弹出“遮罩”的透明度，格式为｛10-100｝，可选
+            });
+        });
+    }
+
+    function closeDialog() {
+        need("biz.dialog-min", function(Dialog) {
+            Dialog.hide({});
+        });
+    }
+
+  //  TGDialogS("pop_tips2");
+
+for(var i=0;i < AllHero.length;i++)
+{
+	if(typeof(AllHero[i])!="undefined" && AllHero[i]!=null)
+		$("#hero_list").append('<li><img src="//ossweb-img.qq.com/images/lol/appskin/'+AllHero[i][0]+'000.jpg"><div class="text-box"><div class="text-cont"><p>'+AllHero[i][1]+'</p></div></div></li>');
+}
+
+for(var i=0;i < AllSkin.length;i++)
+{
+	if(typeof(AllSkin[i])!="undefined" && AllSkin[i]!=null)
+		$("#skin_list").append('<li><img src="//ossweb-img.qq.com/images/lol/appskin/'+AllSkin[i][0]+'.jpg"><div class="text-box"><div class="text-cont"><p>'+AllSkin[i][1]+'</p></div></div></li>');
+}
+
+var offsets = [$('#pnav0').offset().top-42,$('#pnav1').offset().top-62,$('#pnav2').offset().top-62,$('#pnav3').offset().top-62,$('#nav4').offset().top-62,0];
+$(function(){
+	$('#side-page a').click(function(){
+		var _index=$(this).index();
+		$('body,html').stop(true,true).animate({scrollTop:offsets[_index]},500);
+//		pgvSendClick({hottag:'act.a20160921hextech.page.'+'nav'+ _index});
+		PTTSendClick('btn','nav','nav'+_index);
+	});
+})
+
+
+
+</script>
+<script src="//ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js"></script>
+<script>
+//此段代码不能放到外链JS中，
+var setSite = { //设置网站属性
+	siteType: "a20160921hextech", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+	pageType: "inside-page", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN,不支持点(.)、下划线(_)
+	pageName: "首页", //必填项:页面中文名
+	project: "other", //选填项:如果是官网模块则是必填;按照模块内容，填写固定的对应值;原生官网base;微社区ingame;同人站doujin;赛事match;故事站story;文化站history;粉丝站fans;爆料站coming;论坛bbs;皮肤skin;默认other;
+	osact: 0 //选填项:是否是官网专题(在官网运营的专题)boolean；默认是0；可以在链接上加入参数osact=1来灵活设置
+};
+if(typeof(pgvMain) == 'function') pgvMain(); //千万不能忘记！
+</script>
+</body>
+</html>
