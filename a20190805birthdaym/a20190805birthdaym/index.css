@@ -1,0 +1,120 @@
+/*reset*/
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{-webkit-text-size-adjust: none;margin:0;padding:0;}body,button,input,select,textarea{font:12px/1.5 tahoma,arial,\5b8b\4f53,sans-serif;}h1,h2,h3,h4,h5,h6{font-size:100%;}address,cite,dfn,em,var{font-style:normal;}code,kbd,pre,samp{font-family:courier new,courier,monospace;}small{font-size:12px;}ul,ol{list-style:none;}a{text-decoration:none;outline:0 none}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}legend{color:#000;}fieldset,img{border:0;}button,input,select,textarea{font-size:100%;resize: none;}table{border-collapse:collapse;border-spacing:0;}
+.clearfix:after,.clearfix:before{content: "";display: table;}
+.clearfix:after{clear: both;}
+.clearfix{*zoom: 1;}
+.hid{font-size: 0; text-indent: -999em;}
+html{box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;}
+*,*:hover,*:after{box-sizing: inherit;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;}
+body{font-style:normal;font-family:\5FAE\8F6F\96C5\9ED1;}
+i{font-style:normal;display:none;}
+body,.wrap,.head{width:100%;}
+/*beijing*/
+.head,.content{position:relative; width:375px; background-repeat:no-repeat; background-size:100% 100%; overflow:hidden; }
+.head{height:229px; background-image:url(//game.gtimg.cn/images/actdaoju/act/a20190805brithdaym/bg1.jpg);}
+.content{height:1491px; background-image:url(//game.gtimg.cn/images/actdaoju/act/a20190805brithdaym/bg2.jpg);}
+
+.con1{height:212px; padding-top: 0px;}
+.con2{height:490px;position: relative;}
+.con3{height:460px;}
+.rule{height:286px; }
+.wrap{position:relative; width:375px; height:auto; overflow:hidden;}
+.btns-logo{width:155.5px;height:20px; margin:9px auto 0;background: url(//game.gtimg.cn/images/actdaoju/act/a20190805brithdaym/logo.png) no-repeat; background-size: 100% 100%;}
+.goit1{display:inline-block;width:89.5px;height:20px;}
+.goit2{display:inline-block; width:65px;height:20px; }
+.login{width:100%;font-size:10px;color: #09222a; line-height:10px;text-align: center;position: absolute; top: 193px;right:0px;}
+.login a{color:#09222a;}
+.act-time{position: absolute; top: 175px;right: 95.5px;background: url(//game.gtimg.cn/images/actdaoju/act/a20190805brithdaym/time.png) no-repeat;background-size: 100% 100%;width: 184px;height: 14px;}
+
+/* 4月生日礼包 */
+.title1{width:158px;height:39px;margin: 0 auto 1px; background: url(//game.gtimg.cn/images/actdaoju/act/a20190805brithdaym/title-1.png) no-repeat;background-size: 100% 100%;}
+.con1 .prop-con{width:375px; height:210px; margin:0 auto;}
+.con1 .prop-ul1{width: 375px;height: 146px;margin: 0 auto;}
+.con1 .prop-ul1-left{width: 328px;height: 106px;display: table;margin: 0 auto;}
+.con1 .prop1-ul1-name{text-align:center;display: table-cell;vertical-align: middle;position: relative;}
+.prop1-ul1-name img{width: 71.5px;height: 71.5px;background-size: 100%;}
+.con1 .prop1-ul1-name p{vertical-align: middle;text-align:center;width: 71.5px;font-size: 9px; color: #FFFFFF;line-height: 10px; margin: 0px auto;text-align: center; overflow: hidden;}
+.con1 .prop1-ul1-name li{float: left;background:url(//game.gtimg.cn/images/actdaoju/act/a20190805brithdaym/bg-prop1.png) no-repeat; background-size:71.5px 71.5px;width:71.5px; height:106px; }
+.con1 .prop1-ul1-name .prop1-box1{position: absolute;top: 0px;left: 0px;}
+.con1 .prop1-ul1-name .prop1-box2{position: absolute;top: 0px;left: 64px;}
+.con1 .prop1-ul1-name .prop1-box3{position: absolute;top: 0px;left: 128px;}
+.con1 .prop1-ul1-name .prop1-box4{position: absolute;top: 0px;left: 192px;}
+.con1 .prop1-ul1-name .prop1-box5{background:url(//game.gtimg.cn/images/actdaoju/act/a20190805brithdaym/bg-prop1-5.png) no-repeat; background-size:71.5px 71.5px;position: absolute;top: 0px;left: 256px;}
+/*.con1 .prop-ul1-right{position: absolute;top: 48px;left: 205px;}
+.con1 .prop-ul1-right img{display: block;width: 131px;height: 125px;background-size: 100% 100%;}*/
+.con1 .btn-get{display:block;width:89.5px;height:25px;background: url(//game.gtimg.cn/images/actdaoju/act/a20190805brithdaym/btn-lq.png) no-repeat;background-size: 100% 100%; margin: 0 auto;}
+.con1 .btn-got{display:block;width:89.5px;height:25px;background: url(//game.gtimg.cn/images/actdaoju/act/a20190805brithdaym/btn-lqon.png) no-repeat;background-size: 100% 100%;margin: 0 auto;}
+
+/* 神秘折扣专区 */
+.title2{width:158px;height:39px;margin: 0 auto;background: url(//game.gtimg.cn/images/actdaoju/act/a20190805brithdaym/title-2.png) no-repeat;background-size: 100% 100%;}
+.count-down{width:100%; text-align:center; font-size:10px; color:#515151;height: 19px;line-height: 14px;}
+.con2 .prop-con1{width:100%; height:340px; margin:0 auto;}
+.btn-extract{display: inline-block;width:129px;height:33.5px;background: url(//game.gtimg.cn/images/actdaoju/act/a20190805brithdaym/btn-zk.png) no-repeat;background-size:100% 100%;margin-left:68px;vertical-align: middle;}
+.con2 .btn-record{display: inline-block;margin:0 auto; width:92.5px;height:34.5px;background: url(//game.gtimg.cn/images/actdaoju/act/a20190805brithdaym/btn-jl.png) no-repeat;background-size:100% 100%;margin-left:12px;vertical-align: middle;}
+.con2 .tip-refresh{display:block; width:100%;height: 31px; line-height:30px; text-align:center; font-size: 10px; color:#464646;}
+.prop-ul2{width:312px; height:330px; margin: 11px auto 0;}
+.prop-ul2 li{float:left; position:relative;left: 0px; width:98.5px; height:163px; margin-right: 8px;background:url(//game.gtimg.cn/images/actdaoju/act/a20190805brithdaym/bg-prop2.png) no-repeat top center; background-size:98.5px 88.5px;}
+.prop-ul2 li.last{margin-right: 0;}
+.prop-ul2 li:hover .fluid-txt{display:block;}
+.prop-ul2 li .fluid-txt{z-index:1; display:none;position:absolute;left:50%;margin-left:-68px;top:-135px;width:147.5px;height:136px;background:url(//game.gtimg.cn/images/actdaoju/act/a20190805brithdaym/bg-fc.png) no-repeat;background-size:100% 100%;}
+.prop-ul2 li .zuihou{z-index:1; display:block;position:absolute;left:50%;margin-left:-43px;top:-84px;width:116.5px;height:132px;background:url(//game.gtimg.cn/images/actdaoju/act/a20190805brithdaym/bg-fc.png) no-repeat;background-size:100% 100%;}
+.prop-ul2 li .fluid-wraper{position:relative;display: table;width:90%;height:128px;text-align: center;margin: 0 auto;}
+.prop-ul2 li .fluid-inner{display: table;  width:100%;color:#482200;font-size:9px; text-align:center;height: 80px;}
+.prop-ul2 li .fluid-inner p{display: table-cell;line-height:12px;height: 128px;width: 100%;vertical-align: middle;text-align: center;}
+.prop-ul2 .prop{position:relative;left: -3.5px;top: 0px; width:105px; height:95px; }
+.prop-ul2 .prop img{display:block; width:105px; height: 94px; margin:0 auto;}
+.prop-ul2 .prop-desc{width: 76%; text-align:center; font-size:9px; color:#87a9f5; overflow:hidden;line-height: 10px;display: table;margin: 0 auto;height: 29px;position: relative;top: -34px;left: 0;}
+.prop-ul2 .prop-desc span{display: table-cell; width: 100%;height: 20px;vertical-align: middle;}
+.prop-ul2 .origin{ width: 100%; height: 9px; line-height:9px; font-size: 9px;color: #1b6c7d; text-align: center;margin-bottom: 5px;text-decoration: line-through;}
+.prop-ul2 .now{ width: 100%; height:12px; line-height:12px; font-size: 12px; color: #1b6c7d;text-align: center;margin-bottom: 7px;}	
+.prop-ul2 .now strong{color: #1b6c7d;font-weight: normal;}
+.con2 .btn-buy{display:block; width:83.5px; height:23.5px; background:url(//game.gtimg.cn/images/actdaoju/act/a20190805brithdaym/btn-get.png) no-repeat; background-size: 100% 100%;margin:0 auto;}
+.con2 .btn-bought{display:block; width:83.5px; height:23.5px;background:url(//game.gtimg.cn/images/actdaoju/act/a20190805brithdaym/btn-geton.png) no-repeat; background-size: 100% 100%; margin:0 auto; }
+
+/* 每日惊喜大礼 */
+.title3{width:158px;height:39px;margin: 2px auto 26px; background: url(//game.gtimg.cn/images/actdaoju/act/a20190805brithdaym/title-3.png) no-repeat;background-size: 100% 100%;}
+.con3 .gift-con{ width:265.5px; height:390px; margin: 0 auto ;}
+.con3 .half{ position:relative; width:265.5px; height:182px;background:url(//game.gtimg.cn/images/actdaoju/act/a20190805brithdaym/bg-prop3.png) no-repeat top center; background-size: 265.5px 124.5px;float: left;}
+.con3 .half2{ position:relative; width:265.5px; height:124.5px;background:url(//game.gtimg.cn/images/actdaoju/act/a20190805brithdaym/bg-prop4.png) no-repeat top center; background-size:265.5px 124.5px;float: left;}
+.con3 .half:hover .fluid-txt{display:block;}
+.con3 .half .fluid-txt{z-index:1; display:none;position:absolute;left:50%;margin-left:-74px;top:-132px;width:147.5px;height:136px;background:url(//game.gtimg.cn/images/actdaoju/act/a20190805brithdaym/bg-fc.png) no-repeat;background-size:100% 100%;}
+.con3 .half .fluid-wraper{position:relative;display: table;width:90%;height:128px; margin: 0 auto;}
+.con3 .half .fluid-inner{display: table;  width:100%;color:#482200;font-size:9px; text-align:center;height: 128px;}
+.con3 .half .fluid-inner p{display: table-cell;line-height:12px;height: 124px;width: 100%;vertical-align: middle;text-align: center;}
+.con3 .half .discount{width:56px; height:56px; position: absolute;top: 2px;left: 2px;}
+.con3 .half .discount.tit-3-1{background:url(//game.gtimg.cn/images/actdaoju/act/a20190805brithdaym/zk-3.png) no-repeat; background-size:100% 100%;}
+.con3 .half .discount.tit-3-2{background:url(//game.gtimg.cn/images/actdaoju/act/a20190805brithdaym/zk-2.png) no-repeat; background-size:100% 100%;}
+.con3 .half img{display:block;width:265.6px; height:83px;margin: 0 auto; overflow:hidden; background-size:100% 100%;}
+.con3 .half .current-price{display: table; width: 100%; height:14px; text-align:center; font-size:13px; color:#fff; margin: 0 auto;overflow:hidden;position: relative;top: 2px;left: 0px;}
+.con3 .half .current-price span{display: table-cell;width: 100%;height: 12px;}
+.con3 .half .price{width: 100%; height: 25px; margin:0 auto; text-align:center;position: relative;top: -2px;left: 0px;}
+.con3 .half .origin{display: inline-block;  height: 12px; line-height:11px; font-size: 11px;color: #FFFFFF; vertical-align: middle;text-decoration: line-through;}
+.con3 .half .now{display: inline-block;  height:12px; line-height:11px; font-size: 11px; color: #FFFFFF; vertical-align: middle;margin-left: 10px;}	
+.con3 .half .now strong{font-weight: normal;}
+.con3 .btn-buy{display:block; width:95px; height:27px;background:url(//game.gtimg.cn/images/actdaoju/act/a20190805brithdaym/btn-buy.png) no-repeat; background-size: 100% 100%;  margin: 8px auto 0;}
+.con3 .btn-buy2on{display:block; width:95px; height:27px; background:url(//game.gtimg.cn/images/actdaoju/act/a20190805brithdaym/btn-buyon.png) no-repeat; background-size: 100% 100%;  margin: 8px auto 0;}
+/* 活动规则 */
+.title4{width:94.5px;height:21px;margin: 22px 0 0px 20px; background: url(//game.gtimg.cn/images/actdaoju/act/a20190805brithdaym/title-4.png) no-repeat;background-size: 100% 100%;}
+.rule .line{height:1px;width:337.5px;background: url(//game.gtimg.cn/images/actdaoju/act/a20190805brithdaym/line.png) no-repeat;background-size: 100% 100%;margin: 0 auto; }
+.rule .rule-ul{width:339px; height:auto; margin:16px auto;}
+.rule .rule-ul li{width:100%; overflow:hidden;}
+.rule .rule-ul li span{background: url(//game.gtimg.cn/images/actdaoju/act/a20190805brithdaym/icon-num.png) no-repeat; float:left; width:12.5px; height:12.5px;line-height: 12.5px;color: #5b4646;font-size: 9px;background-size: 100% 100%; text-align: center;margin-top: 4px; vertical-align: middle;}
+.rule .rule-ul li p{float:left; width:95%; line-height:19px; font-size: 9px; color:#5b4646;margin-left: 3px;}
+
+/*afooter*/
+#afooter{text-align:center; line-height:10px;color: #9a9a9a;background-color: #0e0e0e;padding: 5px 0;font-size: 8px;}
+#afooter a{ color: #9a9a9a;}
+
+.dialog1{width: 330px; position: relative;background: #f4f5fa;}
+.dia-close{width: 17.5px; height: 17.5px; display: block; position: absolute; top: 10px; right: 10px; background: url(//game.gtimg.cn/images/actdaoju/act/a20190805brithdaym/close.png) no-repeat; background-size: 100% 100%;}
+.dialog1 .dia-s1{font-size: 12px; color: #fff; line-height: 35px; height: 35px; text-align: center; background: #2aceff}
+.dialog1 .dia-con{padding: 0 0;}
+.dialog1 .tab{width: 330px; margin: 0 auto;}
+.dialog1 .tab tr th{line-height: 20px; font-size: 8px; color: #333; height: 20px; text-align: center; font-weight: bold; border-bottom: solid 1px #d5d7df;}
+.dialog1 .tab tr td{font-size: 8px; color: #333; line-height: 18px; text-align: center;}
+.dialog1 .tab tfoot tr td{height: 30px; line-height: 30px; font-size: 8px;}
+.dialog1 .tab input{width: 22px; height: 12px; border: solid 1px #fff; background: #365bad; text-align: center; color: #fff}
+.dialog1 .tab a{color: #333; text-decoration: underline; margin: 0 5px;}
+
+
+#loginStatusSyncFrame_ams_ame{display: none;}

@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="gbk" />
+		<meta name="robots" content="all" />
+		<meta name="author" content="Tencent-cp" />
+		<meta name="Description" content="FIFA Online3,6月生日神秘商店，5月生日神秘折扣，FIFA游戏官网，FIFA手游，腾讯游戏官网，腾讯FIFA,FIFA Online3官网，FIFA Online3下载，FIFA Online3官方下载" />
+		<meta name="Keywords" content="6月生日神秘商店，5月生日神秘折扣" />
+		<!-- 让IE以最高版本方式显示页面 -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<!-- 让QQ、360等双核浏览器以chrome的核心显示页面 -->
+		<meta name="renderer" content="webkit">
+		<!-- 设计：cp  | 重构：cp | 创建：2019-05-30  -->
+		<title>7月生日神秘商店 - FIFA Online3 - 腾讯游戏</title>
+		<!-- //game.gtimg.cn/images/actdaoju/act/a20190805birthday/ -->
+		<link rel="stylesheet" type="text/css" href="index.css" />
+	</head>
+
+	<body>
+		<div class="sid">
+			<!-- <p>掌上移动购买<br>更便捷</p> -->
+			<img src="ossweb-img/wem.png" width="200" height="200" alt="">
+			<a href="javascript:;" class="sid-btn2" title="关闭"></a>
+		</div>
+
+		<div class="wrapper">
+			<h1 class="hid">7月生日神秘商店</h1>
+			<div class="content1">
+				<div class="cont1">
+					<div class="logo-box">
+						<a class="logo" href="//eafifa.qq.com/main.shtml" target="_blank" onClick="PTTSendClick('btn','btn-logo','logo')"></a>
+						<a class="logo-djc" href="//daoju.qq.com/mall/" target="_blank" onClick="PTTSendClick('btn','btn-djc','logo-djc')"></a>
+
+					</div>
+					<p class="act-time"></p>
+					<div class="login-box">
+						<div id="unlogin">您好，请
+							<a href="javascript:;" id="dologin" onclick="PTTSendClick('btn', 'login', '登录');">【登录】</a>
+						</div>
+						<div style="display:none;" id="logined">欢迎您，
+							<span id="userinfo"></span>
+							<span id="spanNotBind_541367"><a href="javascript:;" class="bindArea" onclick="PTTSendClick('btn', 'bindArea', '绑定大区');">【绑定大区】</a></span>
+							<span id="spanBind_541367" style="display:none">
+								<span id="area_info_541367"></span>
+								<span id="role_info_541367"></span>
+								<a href="javascript:;" class="bindArea" onclick="PTTSendClick('btn', 'bindChange', '更改绑定');">【更改绑定】</a>
+								<br>
+								<a href="javascript:record(1);" onclick="PTTSendClick('btn', 'shopRecord', '查看购买记录');">【我的购买记录】</a>
+							</span>
+							<a href="javascript:;" id="dologout" onclick="PTTSendClick('btn', 'unlogin', '注销');">【注销】</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="content2">
+				<div class="cont2">
+					<!--5月生日礼包start-->
+					<div class="gifBox">
+						<p class="title title-1 hid spr">八月生日礼包</p>
+						<div class="prop-box1">
+							<ul class="prop1-name">
+								<li class="prop1-box prop1-box1">
+									<img src="ossweb-img/prop1-1.png" width="212" height="218" alt="" />
+									<p>精选赛季（CC&CP&LP）<br>150人包（3强）×1</p>
+								</li>
+								<li class="prop1-box prop1-box2">
+									<img src="ossweb-img/prop1-2.png" width="212" height="218" alt="" />
+									<p>20级经验卡×2</p>
+								</li>
+								<li class="prop1-box prop1-box3">
+									<img src="ossweb-img/prop1-3.png" width="212" height="218" alt="" />
+									<p>5亿 EP</p>
+								</li>
+								<li class="prop1-box prop1-box4">
+									<img src="ossweb-img/prop1-4.png" width="212" height="218" alt="" />
+									<p>荣耀传奇球星包×1</p>
+								</li>
+								<li class="prop1-box prop1-box5">
+									<img src="ossweb-img/prop1-5.png" width="212" height="218" alt="" />
+									<p>足坛大师球员包×1</p>
+								</li>
+							</ul>
+							
+							<a id="lott" class="spr btn btn-get" href="javascript:;" onClick="PTTSendClick('btn','btn-djlq','点击领取')">点击领取</a>
+							<!-- <a class="srp btn btn-got" href="">已领取</a> -->
+						</div>
+					</div>
+					<!--5月生日礼包end-->
+
+					<!--神秘折扣专区start-->
+					<div class="discountBox">
+						<p class="title title-2 hid spr">神秘折扣专礼包</p>
+						<p id="countdown" class="countdown">礼包刷新倒计时：0小时0分0秒</p>
+						<div class="btn-box">
+							<a id="disbtn" class="btn-discount spr" href="javascript:;" onClick="PTTSendClick('btn','btn-lqsmzk','抽取神秘折扣')">抽取神秘折扣</a>
+							<!--抽取后样式不变： <a class="btn-discount spr" href="javascript:;">我的折扣：5折</a>-->
+							<a href="javascript:record(1);" class="btn-record spr" onclick="PTTSendClick('btn', 'btn-record', '查看我的购买记录');">购买记录</a>
+						</div>
+
+						<p class="refresh">[每日16:00和24:00将重新抽取折扣并刷新礼包]</p>
+						<ul class="prop-box2 clearfix" id="dj1">
+							<!--如果未登录前不需要道具图片，请将神秘折扣专区道具图片的路径改为prop2-no.png-->
+							<li>
+								<div class="fluid-txt spr">
+									<div class="fluid-wraper">
+										<div class="fluid-inner">
+											<p>
+												???
+											</p>
+										</div>
+									</div>
+								</div>
+								<img src="ossweb-img/prop2-no.png" width="231" height="206" alt="???">
+								<p class="prop-txt2">???</p>
+								<div class="price">
+									<p class="original-price">原价：<span>???Q币</span></p>
+									<p class="current-price">现价：<span><strong>???</strong>Q币</span></p>
+
+								</div>
+								<a class="btn1 btn-buy spr hid" href="javascript:alert('请先开启折扣');" onClick="PTTSendClick('btn','btn-ljgm1','立即购买1')"
+								 title="立即购买">立即购买</a>
+								<!--<a class="btn1 btn-bought spr" href="javascript:;" >已购买</a>-->
+								<!-- 已购买更换类名btn-bought -->
+							</li>
+							<li>
+								<div class="fluid-txt spr">
+									<div class="fluid-wraper">
+										<div class="fluid-inner">
+											<p>
+												???
+											</p>
+										</div>
+									</div>
+								</div>
+								<img src="ossweb-img/prop2-no.png" width="231" height="206" alt="???">
+								<p class="prop-txt2">???</p>
+								<div class="price">
+									<p class="original-price">原价：<span>???Q币</span></p>
+									<p class="current-price">现价：<span><strong>???</strong>Q币</span></p>
+
+								</div>
+								<a class="btn1 btn-buy spr hid" href="javascript:alert('请先开启折扣');" onClick="PTTSendClick('btn','btn-ljgm1','立即购买1')"
+								 title="立即购买">立即购买</a>
+								<!--<a class="btn1 btn-bought spr" href="javascript:;" >已购买</a>-->
+								<!-- 已购买更换类名btn-bought -->
+							</li>
+							<li>
+								<div class="fluid-txt spr">
+									<div class="fluid-wraper">
+										<div class="fluid-inner">
+											<p>
+												???
+											</p>
+										</div>
+									</div>
+								</div>
+								<img src="ossweb-img/prop2-no.png" width="231" height="206" alt="???">
+								<p class="prop-txt2">???</p>
+								<div class="price">
+									<p class="original-price">原价：<span>???Q币</span></p>
+									<p class="current-price">现价：<span><strong>???</strong>Q币</span></p>
+
+								</div>
+								<a class="btn1 btn-buy spr hid" href="javascript:alert('请先开启折扣');" onClick="PTTSendClick('btn','btn-ljgm1','立即购买1')"
+								 title="立即购买">立即购买</a>
+								<!--<a class="btn1 btn-bought spr" href="javascript:;" >已购买</a>-->
+								<!-- 已购买更换类名btn-bought -->
+							</li>
+							<li>
+								<div class="fluid-txt spr">
+									<div class="fluid-wraper">
+										<div class="fluid-inner">
+											<p>
+												???
+											</p>
+										</div>
+									</div>
+								</div>
+								<img src="ossweb-img/prop2-no.png" width="231" height="206" alt="???">
+								<p class="prop-txt2">???</p>
+								<div class="price">
+									<p class="original-price">原价：<span>???Q币</span></p>
+									<p class="current-price">现价：<span><strong>???</strong>Q币</span></p>
+
+								</div>
+								<a class="btn1 btn-buy spr hid" href="javascript:alert('请先开启折扣');" onClick="PTTSendClick('btn','btn-ljgm1','立即购买1')"
+								 title="立即购买">立即购买</a>
+								<!--<a class="btn1 btn-bought spr" href="javascript:;" >已购买</a>-->
+								<!-- 已购买更换类名btn-bought -->
+							</li>
+							<li>
+								<div class="fluid-txt spr">
+									<div class="fluid-wraper">
+										<div class="fluid-inner">
+											<p>
+												???
+											</p>
+										</div>
+									</div>
+								</div>
+								<img src="ossweb-img/prop2-no.png" width="231" height="206" alt="???">
+								<p class="prop-txt2">???</p>
+								<div class="price">
+									<p class="original-price">原价：<span>???Q币</span></p>
+									<p class="current-price">现价：<span><strong>???</strong>Q币</span></p>
+
+								</div>
+								<a class="btn1 btn-buy spr hid" href="javascript:alert('请先开启折扣');" onClick="PTTSendClick('btn','btn-ljgm1','立即购买1')"
+								 title="立即购买">立即购买</a>
+								<!--<a class="btn1 btn-bought spr" href="javascript:;" >已购买</a>-->
+								<!-- 已购买更换类名btn-bought -->
+							</li>
+							<li>
+								<div class="fluid-txt spr">
+									<div class="fluid-wraper">
+										<div class="fluid-inner">
+											<p>
+												???
+											</p>
+										</div>
+									</div>
+								</div>
+								<img src="ossweb-img/prop2-no.png" width="231" height="206" alt="???">
+								<p class="prop-txt2">???</p>
+								<div class="price">
+									<p class="original-price">原价：<span>???Q币</span></p>
+									<p class="current-price">现价：<span><strong>???</strong>Q币</span></p>
+
+								</div>
+								<a class="btn1 btn-buy spr hid" href="javascript:alert('请先开启折扣');" onClick="PTTSendClick('btn','btn-ljgm1','立即购买1')"
+								 title="立即购买">立即购买</a>
+								<!--<a class="btn1 btn-bought spr" href="javascript:;" >已购买</a>-->
+								<!-- 已购买更换类名btn-bought -->
+							</li>
+						</ul>
+						<!--道具展示-->
+						<script type="text/html" id="tpl1">
+							{for g in tpl1}
+							<li id="_${g.iGoodsId}">
+							<div class="fluid-txt spr">
+								<div class="fluid-wraper">
+									<div class="fluid-inner">
+										{for n in g.sGoodsDesc.split(',')}
+										<p>
+											${n}
+										</p>
+										{/for}
+									</div>
+								</div>
+							</div>
+							<img src="ossweb-img/${g.src}" width="264" height="183" alt="${g.sGoodsName}">
+							<p class="prop-txt2">${g.sGoodsName}</p>
+							<div class="price">
+								<p class="original-price">&nbsp;&nbsp;原价：<span>${g.oldPrice}</span>&nbsp;Q币&nbsp;&nbsp;</p>
+								<p class="current-price">现价：<span>${g.curPrice}</span>&nbsp;Q币</p>
+							</div>
+							<a class="btn1 btn-buy spr hid" href="javascript:w.hsSubmit(${g.iGoodsId});" onclick="PTTSendClick('btn','btn-ljgm1','立即购买1')">立即购买 <i class="tri"></i></a>
+							</li>
+							{/for}
+						</script>
+					</div>
+					<!--神秘折扣专区end-->
+					<!--每日惊喜大礼start-->
+					<div class="surpriseBox">
+						<p class="title title-3 hid spr">每日惊喜大礼</p>
+						<ul class="prop-box3 clearfix" id="dj2">
+							<li class="li-1">
+								<!--如果未登录前不需要道具图片，请将每日惊喜大礼专区道具图片的路径改为prop2-no.png-->
+								<div class="fluid-txt spr">
+									<div class="fluid-wraper">
+										<div class="fluid-inner">
+											<p>
+												???
+											</p>
+										</div>
+									</div>
+								</div>
+								<p class="discount tit-3-1 hid"></p>
+								<img src="ossweb-img/prop2-no.png" width="420" height="246" alt="">
+								<p class="txt-lb">???</p>
+								<!--比原来多添加了price盒子-->
+								<div class="price">
+									<p class="current-price">现价：<span><strong>???</strong>Q币</span></p>
+									<p class="original-price">原价：<span>???Q币</span></p>
+								</div>
+								<a class="btn1 btn-buy btn-buy2 spr hid" href="javascript:;" onClick="PTTSendClick('btn','btn-ljgm7','立即购买7')">立即购买</a>
+								<!--已购买样式换类名btn-buy2on-->
+							</li>
+							<li class="li-2">
+								<!--如果未登录前不需要道具图片，请将每日惊喜大礼专区道具图片的路径改为prop2-no.png-->
+								<div class="fluid-txt spr">
+									<div class="fluid-wraper">
+										<div class="fluid-inner">
+											<p>
+												???
+											</p>
+										</div>
+									</div>
+								</div>
+								<p class="discount tit-2-1 hid"></p>
+								<img src="ossweb-img/prop2-no.png" width="420" height="246" alt="">
+								<p class="txt-lb">???</p>
+								<!--比原来多添加了price盒子-->
+								<div class="price">
+									<p class="current-price">现价：<span><strong>???</strong>Q币</span></p>
+									<p class="original-price">原价：<span>???Q币</span></p>
+								</div>
+								<a class="btn1 btn-buy btn-buy2 spr hid" href="javascript:;" onClick="PTTSendClick('btn','btn-ljgm7','立即购买7')">立即购买</a>
+								<!--已购买样式换类名btn-buy2on-->
+							</li>
+						</ul>
+						<script type="text/html" id="tpl2">
+							{var i=1} {for g in tpl2} {if i==1}
+							<li class="li-1" data-i="${i++}">
+								<!--如果未登录前不需要道具图片，请将每日惊喜大礼专区道具图片的路径改为prop2-no.png-->
+								<div class="fluid-txt spr">
+									<div class="fluid-wraper">
+										<div class="fluid-inner">
+												<p>{for m in g.extend.split(',')}${m}<br>{/for}</p>
+										</div>
+									</div>
+								</div>
+								<p class="discount tit-3-1 hid"></p>
+								<img src="ossweb-img/${g.img}" width="420" height="246" alt="${g.name}">
+								<p class="txt-lb">${g.name}</p>
+								<!--比原来多添加了price盒子-->
+								<div class="price">
+									<p class="current-price">现价：<span><strong>${g.cPrice}</strong>Q币</span></p>
+									<p class="original-price">原价：<span>${g.oPrice}Q币</span></p>
+								</div>						
+								<a data-type="3" data-md="${g.md}"  class="btn1 btn-buy btn-buy2 spr hid _${g.iSeqId}" href="javascript:;" onClick="PTTSendClick('btn','btn-ljgm7','立即购买7')">立即购买</a>
+								<!--已购买样式换类名btn-buy2on-->
+							</li>
+							{else}
+							<li class="li-2" data-i="${i++}">
+								<!--如果未登录前不需要道具图片，请将每日惊喜大礼专区道具图片的路径改为prop2-no.png-->
+								<div class="fluid-txt spr">
+									<div class="fluid-wraper">
+										<div class="fluid-inner">
+												<p>{for m in g.extend.split(',')}${m}<br>{/for}</p>
+										</div>
+									</div>
+								</div>
+								<p class="discount tit-2-1 hid"></p>
+								<img src="ossweb-img/${g.img}" width="420" height="246" alt="${g.name}">
+								<p class="txt-lb">${g.name}</p>
+								<!--比原来多添加了price盒子-->
+								<div class="price">
+									<p class="current-price">现价：<span><strong>${g.cPrice}</strong>Q币</span></p>
+									<p class="original-price">原价：<span>${g.oPrice}Q币</span></p>
+								</div>						
+								<a data-type="2" data-md="${g.md}"  class="btn1 btn-buy btn-buy2 spr hid _${g.iSeqId}" href="javascript:;" onClick="PTTSendClick('btn','btn-ljgm7','立即购买7')">立即购买</a>
+								<!--已购买样式换类名btn-buy2on-->
+							</li>
+							{/if} {/for}
+						</script>
+					</div>
+					<!--每日惊喜大礼end-->
+					<!--活动规则start-->
+					<div class="ruleBox">
+						<p class="title title-4 spr hid">活动规则</p>
+
+						<ul class="rule-box">
+							<li class="clearfix">
+								<span>1</span>
+								<p>2019年8月21日之前成功注册游戏角色的玩家可在页面领取8月生日礼包1个;</p>
+							</li>
+							<li class="clearfix">
+								<span>2</span>
+								<p>神秘折扣专区每天16:00和24:00可在活动页面抽取神秘折扣，16:00抽取的折扣，限16:00-24:00使用，24:00抽取的折扣，限00:00-16:00使用;</p>
+							</li>
+							<li class="clearfix">
+								<span>3</span>
+								<p>神秘折扣专区在活动期间页面每天16:00和24:00自动刷新幸运礼包，每个时间段更新6个礼包;</p>
+							</li>
+							<li class="clearfix">
+								<span>4</span>
+								<p>神秘折扣专区在当日15:59:50—16:00:10和当日23:59:50—次日00:00:10为折扣和礼包更新时间，期间暂不能抽取折扣和购买礼包;</p>
+							</li>
+							<li class="clearfix">
+								<span>5</span>
+								<p> 每日惊喜大礼专区每天0:00自动刷新当日惊喜大礼，每天更新1个礼包，购买该礼包可享受超低惊喜价;</p>
+							</li>
+							<li class="clearfix">
+								<span>6</span>
+								<p>每日惊喜大礼专区在每日23:59:50—次日00:00:10为礼包更新时间，期间暂不能购买礼包;</p>
+							</li>
+							<li class="clearfix">
+								<span>7</span>
+								<p>每个QQ号在活动期间内每天限购一次同一幸运礼包；</p>
+							</li>
+							<li class="clearfix">
+								<span>8</span>
+								<p>礼包购买成功后，将自动发放到游戏礼物盒内，请注意查收。</p>
+							</li>
+						</ul>
+
+					</div>
+					<!--活动规则end-->
+				</div>
+			</div>
+		</div>
+		<div class="dialog1" id="test1" style="display:none;">
+			<div class="dia-con">
+				<p class="dia-s1">我的购买记录</p>
+				<table class="tab" cellpadding="0" cellspacing="0" width="750" border="0">
+					<thead>
+						<tr>
+							<th>购买时间</th>
+							<th>购买礼包</th>
+							<th>价格</th>
+						</tr>
+					</thead>
+					<tbody id="dj4">
+						<td colspan="3">暂无记录</td>
+					</tbody>
+					<tfoot>
+						<tr>
+							<td colspan="3" id="">
+								<span id="page">1/1页</span>
+								<a id="prev" title="上一页" class="tab_a" href="javascript:;">上一页</a>
+								<span></span>
+								<a id="next" title="下一页" class="tab_a" href="javascript:;">下一页</a>
+							</td>
+						</tr>
+					</tfoot>
+				</table>
+				<script type="text/html" id="tpl4">
+					{for g in tpl4}
+					<tr>
+						<td width="30%">${g.dtBuyTime.substring(0,10)}</td>
+						<td width="45%">${g.sGoodsName}</td>
+						<td width="25%">${g.sPrice}</td>
+					</tr>
+					{/for}
+				</script>
+			</div>
+			<a class="spr dia-close" href="javascript:showDialog.hide();" title="关闭"></a>
+		</div>
+		<script src="//js01.daoju.qq.com/common/js/act/dj_header_v2.js"></script>
+		<script src="//ossweb-img.qq.com/images/js/jquery/jquery-1.7.2.min.js"></script>
+		<script src="//ossweb-img.qq.com/images/js/milo/milo.js"></script>
+		<script src="//game.gtimg.cn/images/js/2018foot/foot.js"></script>
+		<script src="index.js"></script>
+		<script>
+			//点击隐藏
+			$(".sid-btn2").on("click", function() {
+				$(".sid").hide(); //隐藏
+			})
+		</script>
+		<!--通用统计代码-->
+		<script src="//ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js"></script>
+		<script>
+			//此段代码不能放到外链JS中，
+			var setSite = { //设置网站属性
+				siteType: "a20190805birthday", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+				pageType: "index", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN
+				pageName: "首页", //必填项:页面中文名
+				osact: 0, //选填项:是否是官网专题(在官网运营的专题)boolean；默认是0；可以在链接上加入参数osact=1来灵活设置
+				ingame: 0, //选填项:是否投放在游戏APP内boolean；默认是0；可以在链接上加入参数ingame=1来灵活设置
+				stayTime: 0 //选填项:是否需要统计停留时长boolean；默认是0
+			}
+			if (typeof(pgvMain) == 'function') pgvMain(); //千万不能忘记！
+		</script>
+	</body>
+
+</html>
