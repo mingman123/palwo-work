@@ -1,0 +1,119 @@
+html{font-size:0.5rem;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,figure{margin:0;padding:0;border:0;vertical-align:baseline;border-radius:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+ol,ul{list-style:none}
+body{font-family:"Microsoft YaHei",Helvetica,sans-serif;color:#333;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:none;-webkit-touch-callout:none;-webkit-user-select:text;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent;word-break:break-all;word-wrap:break-word;}
+table{border-collapse:collapse;border-spacing:0}
+h1,h2,h3,h4,h5,h6{font-weight:normal}
+h1.seotit{width:100%;height:0;font-size:0;text-indent:-9999em;line-height:500%;overflow:hidden;}
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{font-weight:inherit}
+input,select,form,textarea{vertical-align:middle;outline:none}
+img{display:block;outline:none;}
+strong,b,em,i{font-weight:normal;font-style:normal;}
+a{text-decoration:none;outline:0;color:#333}
+div,a,input,select,option{outline:none}
+table{border-collapse:collapse;border-spacing:0}
+.clearfix:after,.clearfix:before{content:"";display:table;}
+.clearfix:after{clear:both;}
+.hid{display:none;font-size:0;text-indent:-999em;}
+#loginStatusSyncFrame_ams_ame{display:none;}
+html,body{width: 100%;height: 100%;position: relative;}
+body{background-color: #fcb13e;}
+/* foot */
+.foot{font-size:0.12rem;text-align:center;padding:0.2rem 0;background:#000;color:#fff;}
+.foot a{color:#fff;text-decoration:none;}
+#loginStatusSyncFrame_ams_ame{display:none;}
+/* wrap */
+.wrap{width:7.5rem;height:auto;position:relative;overflow: hidden;}
+.cont1,.cont2{display: block;margin: 0 auto;position: relative;overflow: hidden;width: 7.5rem;}
+.cont1{background: url(ossweb-img/bg1.jpg) no-repeat;width: 7.5rem;height: 5rem;background-size: 7.5rem 5rem;}
+.cont2{background: url(ossweb-img/bg2.jpg) no-repeat;width: 7.5rem;height: 49.47rem;background-size: 7.5rem 49.47rem;}
+.spr{background: url(ossweb-img/spr.png) no-repeat;background-size: 10rem 10rem;}
+/* cont1 */
+.logo{position: absolute;top: 0.74rem;left: 50%;margin-left: -2.74rem;background: url(ossweb-img/logo.png) no-repeat;width: 2.86rem;height: 0.34rem;background-size: 2.86rem 0.34rem;}
+.time{position: absolute;top: 3.46rem;left: 50%;margin-left: -3.36rem;background: url(ossweb-img/time.png) no-repeat;background-size: 4.04rem 0.41rem;width: 4.04rem;height: 0.41rem;font-size: 0.21rem;line-height: 0.40rem;color: #7fb4fe;text-align: center;}
+.login-box{font-size: 0.18rem;line-height: 0.26rem;color: #f3dc97;text-align: center;padding-top: 4.2rem;text-align: left;padding-left: 1.88rem;}
+.login-box a{color: #f3dc97;}
+/* cont2 */
+/*main1*/
+.main1{width: 100%;height: 12.84rem;margin: 0 auto;}
+.main1 .title{background-position: 0 0rem;width: 3.84rem;height: 1.08rem;margin: 0.5rem auto 0;}
+.box-dj{background: url(ossweb-img/bg-prize.png) no-repeat;width: 7.45rem;height: 9.19rem;background-size: 7.45rem 9.19rem;margin: 0.28rem auto;}
+.dj{float: left;text-align: center;margin: 0.42rem 0 0;}
+.dj1,.dj3{margin:0.42rem  1.14rem 0;}
+.dj2,.dj4{margin-right: 1.14rem;}
+.dj img{width: 2rem;height: 3.12rem;background-size: 100% 100%;display: block;margin: 0 auto 0.01rem;}
+.dj span{display: block;width: 92%;font-size: 0.2rem; color: #FFFFFF;line-height: 0.28rem;margin: 0 auto; text-align: center;}
+.btn-collection{background-position: 0 -6.17rem;width: 3.32rem;height: 1.07rem;display: block;margin: 0 auto;font-size: 0.2rem; color: #544114;font-weight: bold;line-height: 1.27rem;text-align: center;}
+.btn-collection.on{background-position: 0 -7.56rem;width: 3.32rem;height: 1.07rem;display: block;margin: 0 auto;font-size: 0.2rem; color: #544114;font-weight: bold;line-height: 1.27rem;text-align: center;}
+
+
+.main2{width: 100%;height: 13.12rem;margin: 0 auto;}
+.main2 .title{background-position: 0 -1.41rem;width: 3.54rem;height: 1.06rem;margin:0 auto;}
+.main2 .txt-shop{display: block;width: 92%;margin: 0 auto;line-height: 0.38rem;font-size: 0.2rem; color: #f9fcff;text-align: center;}
+.main2 .one-shop{width: 100%;height: 9.9rem;margin: 0 auto;font-size: 0;}
+.main2 .one-shop li{position: relative;background: url(ossweb-img/bg-prop2.png) no-repeat;background-size: 2.44rem 4.31rem;width:2.44rem;height: 4.31rem;display: inline-block;*display:inline; vertical-align: top;/* IE6¡¢7 block ÔªËØ */ *zoom:1;margin-top: 0.4rem;}
+.main2 .one-shop li.on{position: relative;background: url(ossweb-img/bg-prop2on.png) no-repeat;background-size: 2.44rem 4.21rem;width:2.44rem;height: 4.21rem;display: inline-block;*display:inline;vertical-align: top; /* IE6¡¢7 block ÔªËØ */ *zoom:1;margin-top: 0.4rem;}
+.main2 .one-shop li img{width: 1.72rem;height: 2.68rem;background-size: 100% 100%;display: block;margin: 0 auto;}
+.main2 .one-shop li a{position: absolute;top: 0;left: 0;width: 100%;height: 100%;display: block;z-index: 10;}
+.main2 .one-shop li .shop-mc{display: none;}
+.main2 .one-shop li.on .shop-mc{position: absolute; top: 0;left: 0;display: block;background: url(ossweb-img/bg-mc.png) no-repeat;background-size: 2.44rem 4.21rem;width:2.44rem;height: 4.21rem;z-index: 10;pointer-events: none;opacity: 0.37;}
+.main2 .one-shop li p{width: 92%;font-size: 0.2rem; color: #fff;line-height: 0.3rem;text-align: center;padding-top: 0.2rem; margin: 0 auto;}
+.main2 .one-shop .first{margin-left: 1.3rem;}
+.main2 .one-shop li.on.first{margin-left: 1.3rem;} 
+.main2 .one-shop .last{margin-right: 1.3rem;}
+.main2 .one-shop li.on.last{margin-right: 1.3rem;} 
+.main2 .one-shop .second{margin-left: 0.08rem;}
+.main2 .one-shop li.on.second{margin-left: 0.08rem;} 
+.main3{width: 7.5rem;height: 17.54rem;margin: 0 auto;}
+.main3 .title{background-position: 0 -2.88rem;width: 5.04rem;height: 1.05rem;margin: 0 auto;}
+.main3 .txt{width: 100%;font-size: 0.2rem;color: #f9fcff;text-align: center;margin: 0.1rem auto 0.4rem;}
+.main3 .txt-time{width: 100%;font-size: 0.18rem;color: #ffffff;text-align: center;margin-bottom: 0.15rem;}
+.countdown{background-position: -5.5rem 0;width: 3rem;height: 0.66rem; margin: 0 auto; font-size: 0.16rem;color: #eecc77;text-align: center;line-height: 0.66rem;letter-spacing: 0.01rem;}
+.countdown span{font-size: 0.4rem;color: #eecc77;line-height: 0.66rem;}
+.countdown em{width: 1rem;height: 0.66rem;text-align: center;display:inline-block ;*display:inline;vertical-align: top; /* IE6¡¢7 block ÔªËØ */ *zoom:1;}
+.btn-discount{background-position: 0 -6.17rem;width: 3.32rem;height: 1.07rem;display: block;margin: 0.2rem auto 0.1rem;font-size: 0.2rem; color: #544114;font-weight: bold;line-height: 1.27rem;text-align: center;}
+.btn-discounton{background-position: 0 -7.56rem;width: 3.32rem;height: 1.07rem;display: block;margin: 0.2rem auto 0.1rem;font-size: 0.2rem; color: #544114;font-weight: bold;line-height:1.27rem;text-align: center;}
+.txt-explain{font-size: 0.18rem; color: #ffffff;text-align: center;}
+.btn-check{position: relative;display: block;width: 1.46rem;height: 0.26rem;font-size: 0.18rem; color: #eecc77;font-weight:bold;line-height: 0.26rem;border-bottom: 1px solid #eecc77;margin: 0.15rem auto 0;z-index:20;}
+
+.main3 .box-prize{width: 7.02rem;height: 11.4rem; margin: 0 auto;}
+.main3 .prize{position: relative;float: left;width: 2.34rem;height: 4.2rem;text-align: center;margin-top: 0.48rem;}
+.prize .tk{font-size: 0.14rem;width: 3.74rem;height: 1.77rem;color: #effef2;display: flex;display: -webkit-flex;align-items: center;z-index: 9999999;}
+.prize .tk1{display:none;background: url(ossweb-img/tk1.png) no-repeat;background-size: 3.74rem 1.7rem;position: absolute;top: -0.74rem;right: -1.7rem;}
+.prize .tk2{display:none;background: url(ossweb-img/tk2.png) no-repeat;background-size: 3.74rem 1.7rem;position: absolute;top: -0.74rem;right:-0.68rem;}
+.prize .tk3{display:none;background: url(ossweb-img/tk3.png) no-repeat;background-size: 3.74rem 1.7rem;position: absolute;top: -0.74rem;right:0.32rem;}
+.prize:hover .tk{display: block;}
+.tk p{width: 3.7rem;text-align: center;line-height: 0.2rem;font-size: 0.14rem; letter-spacing: -0.005rem; color: #effef2;margin: 0 auto;height: 1.4rem;padding-top: 0.28rem;}
+.main3 .last{margin-right: 0;}
+.bg-prize{background: url(ossweb-img/bg-prop3.png) no-repeat;width: 2.3rem;height: 3.38rem;background-size: 2.3rem 3.38rem;overflow: hidden;}
+.bg-prize img{width: 1.44rem;height: 1.19rem;background-size: 100% 100%;margin: 1rem auto 0.32rem;}
+.bg-prize span{width: 92%;display: block;font-size: 0.2rem; color: #fff8f1; line-height: 0.22rem;margin: 0 auto;}
+.oldprice{font-size: 0.18rem;color: #467ed0;text-decoration:line-through;line-height: 0.2rem;}
+.newprice{font-size: 0.18rem; color: #eecc77;font-weight:bold;line-height: 0.28rem;margin-bottom: 0.1rem;}
+.btn-get{background-position: -5.56rem -2.96rem;width: 1.77rem;height: 0.53rem;display: block;margin: 0 auto;font-size: 0.19rem; color: #FFFFFF;line-height:0.48rem;text-align: center;}
+.btn-get.on{background-position: -7.8rem -2.96rem;width: 1.77rem;height: 0.53rem;display: block;margin: 0 auto;font-size: 0.19rem; color: #FFFFFF;line-height:0.48rem;text-align: center;}
+.btn-change{background-position: -6.26rem -4.14rem;width: 0.97rem;height: 0.34rem;display: block;margin: 0.08rem auto;font-size: 0.19rem; color: #FFFFFF;line-height:0.34rem;text-align: center;}
+.box-prize .bottom{margin-top: 1.22rem;}
+
+.main4{width: 100%;height: 5.44rem;margin: 0 auto;}
+.main4 .title{background-position: 0 -4.48rem;width: 3.34rem;height: 1.07rem;margin: 0 auto 0.36rem;}
+.rule{width: 7.09rem;height: 4rem;margin: 0 auto;font-size: 0.18rem; color: #a6c8fc;}
+.rule li{position: relative;margin-left: 0.2rem;line-height: 0.38rem; letter-spacing: 0.008rem;}
+.rule li span{position: absolute;top:0.07rem;left:-0.22rem;text-align: center;line-height: 0.24rem;margin-right: 0.1rem;}
+.rule li em{color: #ecc366!important;}
+
+/*µ¯´°*/
+.tc1{position: relative;width: 6.28rem;height: 4.55rem;background: url(ossweb-img/bg-tc.png) no-repeat;background-size: 6.28rem 4.55rem;}
+.tc1 .title{background-position: 0 -9.05rem;width: 3.2rem;height: 0.37rem;margin: 0.4rem auto 0.16rem;}
+.tc1 .fgx{width: 100%;height: 0.25rem;}
+.tc1 .close{position: absolute;top: 0rem;right: -0.50rem;background: url(ossweb-img/close.png) no-repeat;width: 0.36rem;height: 0.36rem;background-size: 0.36rem 0.36rem;}
+.table{width: 6.52rem;height: 1.6rem;margin: 0 auto;}
+.tit{font-size: 0.16rem;font-weight: bold; color: #2a4057; text-align: center;}
+.tit span{display: inline-block;width: 1.6rem;height: 0.36rem;line-height: 0.36rem;font-weight: bold;}
+.tc1 .lb{width: 3rem;}
+.line{width:5.38rem;height: 0.01rem;background: #dbdfe9;margin: 0.11rem auto;}
+.record{font-size: 0.14rem; color: #5c6874;text-align: center;}
+.record span{display: inline-block;width: 1.6rem;height: 0.36rem;line-height: 0.36rem;text-align: center;}
+.page{font-size: 0.12rem;color: #2a4057;text-align: center;}
+.page a{width: 0.6rem;height: 0.3rem;line-height: 0.3rem;color: #2a4057;display: inline-block;}
