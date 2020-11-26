@@ -1,0 +1,162 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+ol,ul{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+input,textarea,select{font-size:100%;}
+input,a{text-decoration: none; outline: none; color: #FFFFFF;-webkit-appearance: none; -webkit-tap-highlight-color:rgba(255,255,255,0);}
+.hid{text-indent:-9999px;font-size:0px;overflow:hidden;width:0px;height:0px;display:block;}
+.hidden{text-indent:-9999px;font-size:0px;}
+body,button,input,select,textarea{font:12px/1.5 "Microsoft YaHei",Helvetica,\5b8b\4f53,sans-serif;}
+
+/*清除浮动*/
+.clearfix:after,.clearfix:before{content:"";display:table;}
+.clearfix:after{clear:both;}
+/*头部*/
+.blacktop,.blacktop a{color:#fff;text-decoration:none;}
+.blacktop,.blacktop_logo,.blacktop_btnavs .blacktop_bta{background-image:url(//game.gtimg.cn/images/wuxia/picture/blacktop-spr.png);background-repeat:no-repeat;}
+.blacktop{position:relative;height:60px;width:100%;overflow:hidden;background-color:#000;background-position:0 0;background-repeat:repeat-x;z-index:999;box-shadow:0 2px 2px rgba(0,0,0,.3);}
+.blacktop_logo{position:absolute;top:50%;left:20px;width:100px;height:35px;margin:-15px 0 0;background-position:0 100%;text-indent:-9999px;}
+.blacktop_logo a{display:block;height:100%;text-indent:-9999px;}
+.blacktop_topsilder{float:right;}
+.blacktop_topsilder .logfrg{float:right;}
+.blacktop_topsilder .logstate{float:right;line-height:60px;}
+.blacktop_topsilder .logstate p span{color:#2fc3a3;margin-left:5px;font-weight:bold;}
+.blacktop_topsilder .logstate p a,.blacktop_topsilder .logstate .areainfo em{margin:0 5px;}
+.blacktop_topsilder .logined a:hover{color:#fff;}
+.blacktop_topsilder .logstate .dologout{color:#cfae69;}
+.blacktop_topsilder .logstate .bang:hover,.blacktop_topsilder .logstate .rebang:hover{color:#2FC3A3}
+.blacktop_btnavs{width:235px;*width:245px;padding:13px 10px 0;height:100%;float:right;overflow:hidden;*display:inline;}
+.blacktop_btnavs .blacktop_btnav{float:left;border:2px solid #2fc3a3;padding:0 15px;margin:0 0 0 10px;border-radius:15px;line-height:30px;}
+.blacktop_btnavs .blacktop_bta{display:block;padding:0 0 0 20px;font-size:13px;}
+.blacktop_btnavs .blacktop_tohome{background-position:-167px -75px;}
+.blacktop_btnavs .blacktop_toevent{background-position:-167px -135px;}
+.blacktop_btnavs .blacktop_bta:hover{color:#ececec;}
+.c_kj{position:absolute;left:-99999px;}
+/* 背景 */
+.content1{background: url(//game.gtimg.cn/images/wuxia/cp/a20190612eight/bg1.jpg) no-repeat 50% 0;min-width: 1000px;height:796px;}
+.cont1{background: url(//game.gtimg.cn/images/wuxia/cp/a20190612eight/bgs1.jpg) no-repeat center top;height:100%;;width: 1000px;margin: 0 auto;overflow: hidden;}
+.content2{background: url(//game.gtimg.cn/images/wuxia/cp/a20190612eight/bg2.jpg) no-repeat 50% 0;min-width: 1000px;height:2484px;}
+.cont2{background: url(//game.gtimg.cn/images/wuxia/cp/a20190612eight/bgs2.jpg) no-repeat center top;height:100%;width: 1000px;margin: 0 auto;overflow: hidden;}
+.spr{background:url(//game.gtimg.cn/images/wuxia/cp/a20190612eight/spr.png) no-repeat ;}
+ /*logo*/
+.logo_box{width:1000px;height:674px;margin:0 auto;overflow:hidden;}
+.logo{background: url(//game.gtimg.cn/images/wuxia/cp/a20190612eight/logo.png) no-repeat;width:168px;height:60px;display: block;margin: 46px auto;}
+
+/*saishi*/
+.saishi{width:1000px ;height:102px;margin:0 auto;text-align: center;}
+.saishi a{background-position: 0 0;width: 292px;height: 92px;display: inline-block;color: #FFFFFF;font-weight:bold ;font-size: 26px;line-height: 92px;margin: 0 50px;}
+/*saishi*/
+.wrap2{width:1000px ;height:434px;margin:0 auto;text-align: center;}
+.title1{color: #e1b65e;font-weight:bold ;font-size: 50px;line-height: 66px;padding-top: 74px;text-align: left;margin-left: 116px;}
+.title1 span{color:#333333}
+.sai{width:1000px ;height:161px;margin:46px auto 0;background: url(//game.gtimg.cn/images/wuxia/cp/a20190612eight/bg-lcx.png) no-repeat;text-align: center;}
+.sai li{background-position: 0 -109px;width: 156px;height: 156px;display:inline-block;vertical-align: top;*display:inline;*zoom:1;margin:6px 25px;position: relative;}
+.chu ,.fu,.qiang,.xian,.guan{color: #0b4035;font-weight:500 ;font-size: 26px;line-height: 28px;display: block;margin-top: 46px;}
+.guan{margin-top: 20px;}
+.sai span{position: absolute;top: -16px;left:23px;background-position: 0 -287px;width: 110px;height: 38px;color: #FFFFFF;font-size: 14px;line-height: 30px;}
+.sai li .shij{color: #FFFFFF;font-size: 14px;line-height: 22px;margin-top: 8px;}
+.sai li .cha{color: #fcd27b;font-size: 14px;font-weight:bold ;text-decoration:underline;}
+.sai .first{margin-left: 0px !important;}
+.sai .last{margin-right: 0px !important;}
+/*wrap3*/
+.wrap3{width:1000px ;height:886px;margin:0 auto;text-align: center;}
+.title2{color: #e1b65e;font-weight:bold ;font-size: 50px;line-height: 66px;text-align: left;margin-left: 142px;padding-top: 18px;}
+.title2 span{color:#333333}
+.js{width: 1000px;height:102px;margin: 0 auto;padding-top: 18px;text-align: left;}
+.js p{font-size: 14px;line-height: 22px;color: #3a3c3f;}
+.js span{color: #d9332e;}
+.time{width:1000px;height:330px;margin: 0 auto;}
+.jingcai{width:362px;height:320px;float: left;margin: 0 auto;}
+.title2-1{color: #22bc9f;font-weight:bold ;font-size: 27px;text-align: center;}
+.title2-1 span{background-position:-257px -164px;width: 23px;height:23px;display:inline-block;vertical-align: top;*display:inline;*zoom:1;margin-top: 10px;}
+table{width:362px;height:248px;text-align: center;margin: 18px auto 0;}
+table th{font-size: 14px;color: #FFFFFF;font-weight: bold;background-color: #e1b65e;text-align: center;border:1px solid #e1b65e ;}
+table td{font-size: 14px;color: #171a24;border: 1px solid #e1b65e;}
+.guanzhan1{width:196px;height:320px;float: left;margin-left:20px;position: relative;}
+.guanzhan1 img{padding-top: 24px;}
+.fangda{background: url(//game.gtimg.cn/images/wuxia/cp/a20190612eight/jia.png) no-repeat;width:40px ;height:40px;display: block;position: absolute;top: 250px;right: 16px;}
+.guanzhan2{width:418px;height:320px;float: left;margin-left:4px;position: relative;}
+.guanzhan2 img{padding-top: 22px;}
+.fangda{background: url(//game.gtimg.cn/images/wuxia/cp/a20190612eight/jia.png) no-repeat;width:40px ;height:40px;display: block;position: absolute;top: 250px;right: 16px;}
+.duihuan{background: url(//game.gtimg.cn/images/wuxia/cp/a20190612eight/bg-duihuan.png) no-repeat;width:1000px ;height:263px;margin: 0 auto;}
+.duihuan li{float: left;padding-top: 106px;width: 104px;height: 112px;text-align: center;position: relative;}
+.duihuan li img{background-position: 0 -417px;width:74px ;height:74px;}
+.duihuan .first{margin-left: 84px !important;}
+.duihuan .last{margin-right: 84px !important;}
+.duihuan li p{font-size: 14px;color: #5c6d85;}
+.duihuan li .heyi{position: absolute;left: -8px;top: 185px;}
+
+/*wrap4*/
+.wrap4 .title3 {padding: 30px 0 0 140px;font-size: 50px;line-height: 50px;height: 50px;color: #e1b65e;font-weight: bold;}
+.wrap4 .title3 span {color: #333;}
+.online {text-align: center;margin-top: 20px;font-size: 0;}
+.online .left, .online .right {display: inline-block;*display:inline;*zoom:1;width: 480px;vertical-align: top;}
+.online .left {margin-right: 40px}
+.online .ol-title {font-size: 32px;color: #2fc3a3;font-weight: bold;border-bottom: 1px solid #2fc3a3;line-height: 60px;margin-bottom: 15px}
+.online .ol-title:before, .online .ol-title:after {content: ''; display: inline-block;*display:inline;*zoom:1;background: url(//game.gtimg.cn/images/wuxia/cp/a20190612eight/spr.png) no-repeat; background-position: -257px -164px;width: 23px;height: 23px;margin: 0 10px;}
+.online .intr {font-size: 14px;color: #333;text-align: left;height: 70px;}
+.online .left .intr span {font-weight: bold;}
+.online .right .intr span {color: #d4302b;}
+.online .intr .txt, .online .intr a {display: inline-block;*display:inline;*zoom:1;vertical-align: top}
+.online .btn-intr {background-position: 0 -358px;width: 136px;height: 50px;font-size: 16px;font-weight: bold;line-height: 43px;text-align: center}
+.online .gift {width: 480px;height: 249px;margin-bottom: 30px;overflow: hidden;}
+.online .left .gift1 {background: url(//game.gtimg.cn/images/wuxia/cp/a20190612eight/bg-bide.png) no-repeat;}
+.online .left .gift2 {background: url(//game.gtimg.cn/images/wuxia/cp/a20190612eight/bg-feibang.png) no-repeat}
+.online .left .gail{color: #d4302b;font-size: 14px;margin-top: 68px}
+.online .gift1 .items {margin-top: 100px;}
+.online .gift2 .items {margin-top: 14px!important;}
+
+.online .item {display: inline-block;*display:inline;*zoom:1;width: 75px;background: url(//game.gtimg.cn/images/wuxia/cp/a20190612eight/bg-item.jpg) center no-repeat;position: relative;}
+.online .item img {display: block;margin: 0 auto;}
+.online .item .name {font-size: 12px;color: #5c6d85;position: absolute;width: 100%;top: 65px;left: 0;}
+.online .right .gift a {width: 100%;height: 100%;position: relative;display: block}
+.online .right .gift1 {background: url(//game.gtimg.cn/images/wuxia/cp/a20190612eight/bg-bide.png) no-repeat;}
+.online .right .gift2 {background: url(//game.gtimg.cn/images/wuxia/cp/a20190612eight/bg-feibang.png) no-repeat}
+.online .right .gift img {width: 468px;height: 236px;position: absolute;top: 6px;left: 6px;border: 1px solid #5c6d85;}
+.online .right .gift .frame {width: 100%;height: 100%;position: absolute;background: url(//game.gtimg.cn/images/wuxia/cp/a20190612eight/frame.png) no-repeat;top: 0;left: 0;z-index: 2;}
+.online .right .gift a:after {content: ''; width: 40px;height: 40px;background: url(//game.gtimg.cn/images/wuxia/cp/a20190612eight/jia.png) no-repeat;position: absolute;right: 15px;bottom: 15px;z-index: 3;}
+.wrap4 .rules {font-size: 14px;color: #333;}
+.wrap4 .rule-title {font-size: 32px;font-weight: bold;color: #2fc3a3;border-bottom: 1px solid #2fc3a3;line-height: 70px;margin-bottom: 20px}
+.wrap4 .rule-title:before, .wrap4 .rule-title:after {content: ''; display: inline-block;*display:inline;*zoom:1;background: url(//game.gtimg.cn/images/wuxia/cp/a20190612eight/spr.png) no-repeat; background-position: -257px -164px;width: 23px;height: 23px;margin: 0 10px;}
+
+/* dialog */
+.dialog {text-align: center;position: relative;box-sizing: border-box;padding-top: 40px}
+.dia-close {background-position: -322px 0;width: 40px;height: 41px;position: absolute;top: -50px;right: 0;}
+.dia-title {font-size: 34px;color: #22bc9f;font-weight: bold;}
+.dia-title:after, .dia-title:before {content: ''; background: url(//game.gtimg.cn/images/wuxia/cp/a20190612eight/spr.png) no-repeat -317px -162px;width: 26px;height: 26px;display: inline-block;*display:inline;*zoom:1;vertical-align: middle;margin: 0 10px;position: relative;top: -2px;}
+.dia1 {width: 680px;height: 343px;background: url(//game.gtimg.cn/images/wuxia/cp/a20190612eight/bg-dia1.png) no-repeat}
+.dia2 {width: 780px;height: 403px;background: url(//game.gtimg.cn/images/wuxia/cp/a20190612eight/bg-dia2.png) no-repeat}
+.dia3 {width: 780px;height: 337px;background: url(//game.gtimg.cn/images/wuxia/cp/a20190612eight/bg-dia3.png) no-repeat}
+.dia4 {width: 780px;height: 742px;background: url(//game.gtimg.cn/images/wuxia/cp/a20190612eight/bg-dia4.png) no-repeat}
+.dialog table {margin: 0 auto;border: 1px solid #889ab2;margin-top: 20px}
+.dialog th {text-align: center;background: #889ab2;height: 44px;color: #fff;font-size: 16px;font-weight: bold;padding: 0 20px;border: 1px solid #889ab2;}
+.dialog td {border: 1px solid #889ab2;font-size: 14px;color: #4c4c4c;}
+.dialog td span {text-align: left;display: inline-block;*display:inline;*zoom:1;}
+.dia1 table {width: 590px;height: 186px;}
+.dia2 table {width: 690px;height: 246px;}
+.dia3 table {width: 690px;height: 180px;}
+.dia4 table {width: 690px;height: 224px;}
+.dia4 .awards {margin-top: 20px}
+.dia4 .awards > div {display: inline-block;*display:inline;*zoom:1;margin: 0 50px;}
+.dia4 .award1 .aw-title {font-size: 30px;font-weight: bold;color: #ecbc5b;margin-bottom: 5px}
+.dia4 .award2 .aw-title {font-size: 30px;font-weight: bold;color: #22bc9f;margin-bottom: 5px}
+.dia4 .award1 .aw-title:before, .dia4 .award1 .aw-title:after {content: '';display: inline-block;*display:inline;*zoom:1;background: url(//game.gtimg.cn/images/wuxia/cp/a20190612eight/spr.png) no-repeat -287px -162px;width: 26px;height: 26px;margin: 0 10px;vertical-align: top;position: relative;top: 10px;}
+.dia4 .award2 .aw-title:before, .dia4 .award2 .aw-title:after {content: '';display: inline-block;*display:inline;*zoom:1;background: url(//game.gtimg.cn/images/wuxia/cp/a20190612eight/spr.png) no-repeat -317px -162px;width: 26px;height: 26px;margin: 0 10px;vertical-align: top;position: relative;top: 10px;}
+.dia4 .awards .name {font-size: 14px;color: #4c4c4c;font-weight: bold;}
+.dia5 {width: 420px;height: 640px;}
+.dia5 img,.dia6 img,.dia7 img,.dia8 img,.dia9 img{border: 3px solid #889ab2;}
+.dia6 {width: 820px;height: 530px;}
+.dia7 {width: 820px;height: 534px;}
+.dia8 {width: 806px;height:520px;}
+.dia9 {width: 740px;height: 460px;}
+/*afooter*/
+#afooter{text-align:center; line-height:20px;color: #9a9a9a;background-color: #0e0e0e;padding: 20px 0;margin-bottom: -20px;}
+#afooter a{ color: #9a9a9a;}
