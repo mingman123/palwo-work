@@ -1,0 +1,126 @@
+.wrap {width: 100%; min-width: 1220px;}
+
+.header {position: relative; width: 100%; height: 986px; background: url(../ossweb-img/pass_bg1.jpg) no-repeat top center;}
+.login{ width: 100%; position: absolute; bottom: 280px; left: 0; text-align: center; font-size: 20px; color: #31454e;}
+.login a{ color: #db581b;}
+
+.main {width: 100%; height: 1255px; background: url(../ossweb-img/pass_bg2.jpg) no-repeat top center;}
+.cont {position: relative; width: 1220px; height: 100%; margin: 0 auto;}
+
+.cont .title {width: 100%; height: 188px; margin: 0 auto 20px auto;}
+.scroll-box {position: relative; width: 1220px; height: 671px; margin: 0 auto; padding-top: 80px; text-align: center;}
+.scroll-title {position: relative; width: 686px; height: 44px; margin: 0 auto 28px auto; background: url(../ossweb-img/pass_scroll_title.png) no-repeat;}
+.btn-view-rules {position: absolute; top: 4px; right: 0; display: block; width: 96px; height: 32px;}
+
+.avatar-list {width: 930px; height: 166px; font-size: 0; margin-left: 20px; margin-bottom: 54px;}
+.avatar-item {position: relative; vertical-align: top; display: inline-block; width: 152px; height: 166px; margin: 0 17px;}
+.avatar-item .border {position: absolute; top: 0; left: 0; width: 152px; height: 102px; background: url(../ossweb-img/pass_avatar_border.png) no-repeat;}
+.avatar-item img {display: block; width: 86px; height: 86px; border-radius: 50%; margin: 8px auto;}
+.avatar-item p {height: 32px; line-height: 32px; text-align: center; font-weight: 700; font-size: 14px; color: #31454e;}
+.avatar-item .btn-invite {display: block; width: 96px; height: 32px; margin: 0 auto; background: url(../ossweb-img/pass_spr_button.png) no-repeat;}
+.btn-change {position: absolute; top: 212px; right: 62px; width: 161px; height: 43px; background: url(../ossweb-img/pass_spr_button.png) no-repeat; background-position: 0 -160px;}
+
+.prize-box {width: 1200px; height: 250px; margin: 0 auto;}
+.prize-cont {position: relative; vertical-align: top; display: inline-block; width: 562px; height: 250px;}
+.prize-cont:nth-child(1) {margin-right: 70px;}
+.prize-title {width: 320px; height: 40px; line-height: 36px; margin: 0 auto 6px auto; padding-left: 260px; font-size: 26px; color: #31454e; background: url(../ossweb-img/pass_spr_prize.png) no-repeat;}
+.prize-title em {color: #db581b;}
+.prize-title.invite {background-position: 0 0;}
+.prize-title.active {background-position: 0 -40px;}
+.prize-progress {position: absolute; top: 84px; left: 0; width: 562px; height: 30px; background: url(../ossweb-img/pass_spr_progress.png) no-repeat;}
+.prize-progress-on {width: 0; height: 30px; background: url(../ossweb-img/pass_spr_progress.png) no-repeat; background-position: 0 -30px;}
+.prize-progress.on1 .prize-progress-on {width: 65px;}
+.prize-progress.on2 .prize-progress-on {width: 180px;}
+.prize-progress.on3 .prize-progress-on {width: 295px;}
+.prize-progress.on4 .prize-progress-on {width: 409px;}
+.prize-progress.on5 .prize-progress-on {width: 562px;}
+.prize-list {width: 100%; font-size: 0; padding-left: 6px;}
+.prize-item {vertical-align: top; display: inline-block; width: 96px; margin-right: 19px;}
+.prize-item:nth-child(5) {margin-right: 0px;}
+.prize-item .p-tips {height: 46px; line-height: 46px; text-align: center; font-size: 14px; color: #db581b;}
+.prize-item .p-name {vertical-align: top; display: inline-block; height: 22px; line-height: 22px; text-align: center; font-size: 14px; color: #31454e; margin: 36px 0 20px 0;}
+.prize-item img {vertical-align: top; display: inline-block; width: 22px; height: 22px; margin: 36px 6px 20px 6px;}
+.prize-item .btn-get {display: block; width: 96px; height: 32px; margin: 0 auto; background: url(../ossweb-img/pass_spr_button.png) no-repeat; background-position: 0 -80px;}
+.prize-item .btn-get.lock {background-position: 0 -40px; pointer-events: none;}
+.prize-item .btn-get.got {background-position: 0 -120px; pointer-events: none;}
+.btn-friend1 {vertical-align: top; display: inline-block; width: 320px; height: 40px; margin: 80px 40px; background: url(../ossweb-img/pass_spr_prize.png) no-repeat; background-position: 0 -80px;}
+.btn-friend2 {vertical-align: top; display: inline-block; width: 320px; height: 40px; margin: 80px 40px; background: url(../ossweb-img/pass_spr_prize.png) no-repeat; background-position: 0 -120px;}
+
+
+/* side */
+.side {position: fixed; top: 50%; right: 16px; transform: translateY(-50%); display: inline-block; width: 196px; height: 291px; transition: all .5s; overflow: hidden;}
+
+.not-login {display: none; position: relative; width: 196px; height: 135px; padding-top: 24px; background: url(../ossweb-img/pass_side_bg1.png) no-repeat;}
+.not-login .p1 {line-height: 24px; margin-bottom: 6px; text-align: center; font-weight: bold; font-size: 18px; color: #31454e;}
+.not-login .p1 strong {color: #db581b;}
+.not-login .p2 {height: 30px; line-height: 30px; text-align: center; font-size: 16px; color: #31454e;}
+.not-login .p2 img {vertical-align: top; display: inline-block; width: 30px; height: 30px;}
+.not-login .btn-anchor {position: absolute; top: 0; left: 0; display: block; width: 196px; height: 135px; z-index: 9;}
+
+.is-login {transition: all .5s; position: absolute; top: 0; right: 0; display: block; width: 196px; height: 291px; overflow: hidden;}
+.box-list {display: block; width: 196px; height: auto; margin: 0 auto; font-size: 0;}
+.box1 {position: relative; display: block; width: 196px; height: 116px; padding-top: 20px; background: url(../ossweb-img/pass_side_bg2.png) no-repeat; background-position: 0 0; overflow: hidden;}
+.box2 {display: block; width: 196px; height: 99px; padding-top: 16px; background: url(../ossweb-img/pass_side_bg2.png) no-repeat; background-position: 0 -116px; overflow: hidden;}
+.box3 {display: block; width: 196px; height: 76px; padding-top: 20px; background: url(../ossweb-img/pass_side_bg2.png) no-repeat; background-position: 0 -215px; overflow: hidden;}
+
+.is-login .p1 {line-height: 24px; margin-bottom: 6px; text-align: center; font-weight: bold; font-size: 18px; color: #db581b;}
+.is-login .p2 {height: 30px; line-height: 30px; text-align: center; font-size: 16px; color: #31454e;}
+.is-login .p2 img {vertical-align: top; display: inline-block; width: 30px; height: 30px;}
+.is-login .p2 a {vertical-align: top; display: inline-block; width: 45px; height: 30px; line-height: 30px; text-align: center; font-size: 14px; color: #db581b; background: url(../ossweb-img/pass_icon_side.png) no-repeat;}
+.is-login .p3 {text-align: center; cursor: pointer;}
+.is-login .p3>.avatar {vertical-align: top; display: inline-block; width: 36px; height: 36px; margin-right: 10px; border: 1px solid #db581b; border-radius: 50%;}
+.is-login .p3>span {vertical-align: top; display: inline-block; width: auto; height: 36px; line-height: 18px; text-align: left; font-size: 16px; color: #31454e;}
+.is-login .p3 p {text-align: center; height: 22px; line-height: 22px; margin: 8px 0 32px 0; font-size: 16px; color: #db581b;}
+.is-login .p3 p img {vertical-align: top; display: inline-block; width: 22px; height: 22px;}
+.is-login .p4 {text-align: center; height: 30px; line-height: 30px; font-size: 16px; color: #31454e;}
+.is-login .p4 img {vertical-align: top; display: inline-block; width: 30px; height: 30px;}
+.is-login .p4 a {vertical-align: top; display: inline-block; width: 82px; height: 30px; background: url(../ossweb-img/pass_spr_button.png) no-repeat; background-position: 0 -220px;}
+.is-login .btn-anchor {position: absolute; top: 0; left: 0; display: block; width: 196px; height: 114px; z-index: 9;}
+
+.mobile-box-list {display: none;}
+
+.open {transition: all .5s; opacity: 0; pointer-events: none; position: absolute; top: 0; right: 0; display: block; position: relative; width: 555px; height: 291px; padding-top: 38px; text-align: left; font-size: 0; background: url(../ossweb-img/pass_side_bg3.png) no-repeat; overflow: hidden;}
+.open .close {position: absolute; top: 0; left: 0; display: block; width: 30px; height: 291px; }
+.open .open-left {position: relative; vertical-align: top; display: inline-block; width: 230px; margin-left: 42px;}
+.open .open-right {vertical-align: top; display: inline-block; width: 260px;}
+.open .open-left .p1 {height: 56px; line-height: 56px; text-align: center; font-size: 18px; color: #31454e;}
+.open .open-left .p1 span {color: #db581b;}
+.open .open-left .border {position: absolute; top: 56px; left: 50%; transform: translateX(-76px); width: 152px; height: 102px; background: url(../ossweb-img/pass_avatar_border.png) no-repeat;}
+.open .open-left .avatar {display: block; width: 86px; height: 86px; border-radius: 50%; margin: 8px auto 16px auto;}
+.open .open-left .p2 {line-height: 28px; text-align: center; font-size: 14px; color: #31454e;}
+.open .open-right .p1 {height: 56px; line-height: 56px; text-align: center; font-size: 18px; color: #31454e;}
+.open .open-right .p1 span {color: #db581b;}
+.open .open-right img {display: block; width: 85px; height: 86px; margin: 4px auto 20px auto;}
+.open .open-right .btn-confirm {display: block; width: 161px; height: 43px; margin: 0 auto; background: url(../ossweb-img/pass_spr_button.png) no-repeat; background-position: 0 -260px;}
+.open .open-right .btn-got {display: block; width: 161px; height: 43px; margin: 0 auto; background: url(../ossweb-img/pass_spr_button.png) no-repeat; background-position: 0 -400px; pointer-events: none;}
+
+
+.open.show {pointer-events: initial; opacity: 1;}
+.is-login.hide {pointer-events: none; opacity: 0;}
+
+
+/* dialog */
+.dialog {display: none;}
+.dialog .close {position: absolute; top: -24px; right: -68px; display: block; width: 48px; height: 48px; background: url(../ossweb-img/pass_close.png) no-repeat;}
+
+.dialog1 {width: 611px; height: 224px; padding-top: 102px; background: url(../ossweb-img/pass_dialog1_bg.png) no-repeat;}
+.dialog1 .dialog-table {width: 420px; height: 74px; margin: 0 auto; border: 1px solid #d5d2c3; border-bottom: none;}
+.dialog1 .dialog-table tr {height: 38px; border-bottom: 1px solid #d5d2c3; }
+.dialog1 .dialog-table th {border-right: 1px solid #d5d2c3; font-weight: initial; font-size: 18px; color: #db581b;}
+.dialog1 .dialog-table td {border-right: 1px solid #d5d2c3; text-align: center; font-size: 14px; color: #31454e;}
+
+.dialog2 {width: 711px; height: 361px; padding-top: 102px; background: url(../ossweb-img/pass_dialog2_bg.png) no-repeat;}
+.dialog2 .dialog-table {width: 636px; height: auto; margin: 0 auto; border: 1px solid #d5d2c3; border-bottom: none;}
+.dialog2 .dialog-table tr {height: 38px; border-bottom: 1px solid #d5d2c3; }
+.dialog2 .dialog-table th {border-right: 1px solid #d5d2c3; font-weight: initial; font-size: 18px; color: #db581b;}
+.dialog2 .dialog-table td {border-right: 1px solid #d5d2c3; text-align: center; font-size: 14px; color: #31454e;}
+
+.dialog3 {width: 711px; height: 395px; padding: 120px 72px 0 72px; background: url(../ossweb-img/pass_dialog3_bg.png) no-repeat;}
+.dialog3 .rules {width: 100%; height: 224px; overflow-y: auto;}
+.dialog3 .rules::-webkit-scrollbar {width: 0;}
+.dialog3 .rules li {line-height: 32px; font-size: 16px; color: #31454e;}
+
+.dialog4 {width: 316px; height: 188px; padding-top: 42px; text-align: center; background: url(../ossweb-img/pass_dialog4_bg.png) no-repeat;}
+.dialog4 p {text-align: center; font-size: 18px; color: #31454e;}
+.dialog4 .btn-cancel {vertical-align: top; display: inline-block; display: inline-block; width: 98px; height: 32px; margin: 20px 15px; background: url(../ossweb-img/pass_spr_button.png) no-repeat; background-position: 0 -360px;}
+.dialog4 .btn-confirm {vertical-align: top; display: inline-block; display: inline-block; width: 98px; height: 32px; margin: 20px 15px; background: url(../ossweb-img/pass_spr_button.png) no-repeat; background-position: 0 -320px;}

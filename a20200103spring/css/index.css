@@ -1,0 +1,62 @@
+.wrap {width: 100%; min-width: 1220px; overflow-x: hidden;}
+
+.header {position: relative; width: 100%; height: 1028px; background: url(../ossweb-img/index_bg1.jpg) no-repeat center center;}
+.login{ width: 100%; position: absolute; bottom: 280px; left: 0; text-align: center; font-size: 20px; color: #31454e;}
+.login a{ color: #db581b;}
+
+.main {
+	width: 100%;
+	height: 3817px;
+	background-image: url(../ossweb-img/index_bg2.jpg), url(../ossweb-img/index_bg3.jpg), url(../ossweb-img/index_bg4.jpg), url(../ossweb-img/index_bg5.jpg);
+	background-position: center 0px, center 846px, center 2003px, center 2926px;
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+}
+.cont {position: relative; width: 1220px; height: 100%; margin: 0 auto;}
+
+.cont1 {width: 100%; height: 846px; padding-top: 380px; text-align: center; font-size: 0; }
+.cont2 {width: 100%; height: 1157px; padding-top: 226px;}
+.cont3 {position: relative; width: 100%; height: 923px; padding-top: 390px;}
+.cont4 {width: 100%; height: 891px; padding-top: 352px;}
+
+/* cont1 */
+.cont1>p {height: 156px; line-height: 30px; text-align: center; font-size: 18px; color: #000000;}
+.cont1>p span{color: #db581b;}
+.cont1>p i{font-style: normal;}
+.cont1 .gift-box {vertical-align: top; display: inline-block; width: 533px; height: 161px; padding: 28px 35px; margin: 0 10px;}
+.cont1 .gift-box img {vertical-align: top; display: inline-block; width: 105px; height: 105px; border: 2px solid #e1c375; margin-right: 20px;}
+.cont1 .gift-box .info {vertical-align: top; display: inline-block; width: 330px; height: 105px; text-align: left;}
+.cont1 .gift-box .info .p1 {height: 33px; line-height: 30px; margin-bottom: 8px; border-bottom: 1px solid #e5e2bc; font-weight: bold; font-size: 20px; color: #000000;}
+.cont1 .gift-box .info .p2 {line-height: 20px; font-size: 14px; color: #000000;}
+.cont1 .gift-box .info .p2 span {color: #e64b13;}
+
+
+/* cont2 */
+.cont2 .legend1 {position: absolute; top: 670px; left: -350px; width: 521px; height: 682px; background: url(../ossweb-img/index_legend1.png) no-repeat; pointer-events: none; z-index: 9;}
+.cont2 .legend2 {position: absolute; top: 1475px; right: -350px; width: 566px; height: 574px; background: url(../ossweb-img/index_legend2.png) no-repeat; pointer-events: none; z-index: 9;}
+.cont2 .legend-box {position: relative; width: 1200px; height: 676px; margin: 0 auto;}
+.cont2 .video-shadow {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, .5); z-index: 8;}
+.cont2 .btn-play-legend {position: absolute; top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%); display: block; width: 120px; height: 120px; background: url(../ossweb-img/index_spr_video.png) no-repeat; z-index: 9;}
+.cont2 .legend-video {width: 100%; height: 100%;}
+.cont2 .legend-video video {width: 100%; height: 100%;}
+.cont2 .btn-buy {display: block; width: 287px; height: 78px; margin: 32px auto; background: url(../ossweb-img/index_btn_buy.png) no-repeat;}
+
+
+/* cont3 */
+.cont3 .info {float: right; position: relative; width: 460px; margin-right: 52px;}
+.cont3 .info .p1 {height: 134px; line-height: 134px; text-align: right; font-size: 32px; font-weight: bold; color: #31454e;}
+.cont3 .info .p1 span {color: #db581b;}
+.cont3 .info .p2 {height: auto; line-height: 26px; text-align: right; font-size: 16px; color: #31454e;}
+.cont3 .info .btn-play-fight {position: absolute; top: 6px; right: -132px; display: block; width: 120px; height: 120px; background: url(../ossweb-img/index_spr_video.png) no-repeat; background-position: -120px 0;}
+
+/* cont4 */
+.cont4 .info {width: 460px; margin-left: 32px;}
+.cont4 .info .p1 {height: 134px; line-height: 134px; text-align: left; font-size: 32px; font-weight: bold; color: #31454e;}
+.cont4 .info .p1 span {color: #db581b;}
+.cont4 .info .p2 {height: auto; line-height: 26px; text-align: left; font-size: 16px; color: #31454e;}
+
+/* dialog */
+.dialog {display: none;}
+
+.dialog-video {width: 1000px; height: 564px;}
+.dialog-video .close {position: absolute; top: -17px; right: -70px; font-size: 70px; font-weight: bold; color: #ffdca0; line-height: 1;}
+.dialog-video .video-box {width: 1000px; height: 564px; border: 2px solid #ffdca0; background: #000;}

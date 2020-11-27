@@ -1,0 +1,59 @@
+.wrap {width:7.5rem; overflow-x: hidden;}
+.header {position: relative; width: 100%; height: 5.42rem; background: url(../ossweb-img/index_m_bg1.jpg) no-repeat center center;background-size: 100%;}
+.login{ width: 100%; position: absolute; bottom: .8rem; left: 0; text-align: center; font-size: .22rem; color: #31454e;}
+.login a{ color: #db581b;}
+
+.main {width: 7.5rem;height:43.68rem;background: url(../ossweb-img/index_m_bg2.jpg) no-repeat center center;background-size: 100%;}
+.cont {position: relative; width:7.5rem; height: 100%; margin: 0 auto;}
+
+.cont1 {width: 100%; height:10.68rem; padding-top:3.5rem; font-size: 0; }
+.cont2 {width: 100%; height:7.68rem; padding-top:1.84rem;position: relative;}
+.cont3 {position: relative; width: 100%; height: 11.08rem; padding-top:7.92rem;}
+.cont4 {width: 100%; height:auto; padding-top: 7.04rem;}
+
+
+/* cont1 */
+.cont1>p {height: 2.7rem; line-height: 0.38rem; text-align: center; font-size: 0.26rem; color: #000000;}
+.cont1>p i{font-style: normal;display: block;}
+.cont1>p span{color: #db581b;}
+.cont1 .gift-box {width: 7.5rem; height: 1.9rem; padding: 0.18rem 0  0.34rem .98rem; }
+.cont1 .gift-box img {vertical-align: top; display: inline-block; width: 1.1rem; height: 1.1rem; border: 0.02rem solid #e1c375; margin-right: 0.2rem;margin-top: .1rem;}
+.cont1 .gift-box .info {vertical-align: top; display: inline-block; width: 5rem; height: 1.5rem; text-align: left;}
+.cont1 .gift-box .info .p1 {height: 0.33rem; line-height: 0.3rem; margin-bottom: 0.08rem; border-bottom: 0.02rem solid #e5e2bc; font-weight: bold; font-size: 0.24rem; color: #000000;padding-bottom: .4rem;width: 3.6rem;}
+.cont1 .gift-box .info .p2 {line-height: 0.26rem; font-size: 0.18rem; color: #000000;}
+.cont1 .gift-box .info .p2 span {color: #e64b13;display: block;}
+
+
+/* cont2 */
+.cont2 .legend1 {position: absolute; top: .46rem; left: -1.1rem; width:3.22rem; height:3.12rem; background: url(../ossweb-img/index_m_legend1.png) no-repeat; background-size: 100%;pointer-events: none; z-index: 9;}
+.cont2 .legend2 {position: absolute; top: 4.18rem; right: -.9rem;  width:3.22rem; height:3.12rem;  background: url(../ossweb-img/index_m_legend2.png) no-repeat;background-size: 100%; pointer-events: none; z-index: 9;}
+.cont2 .legend-box {position: relative; width: 7.04rem; height: 3.96rem; margin: 0 auto;}
+.cont2 .video-shadow {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, .5); z-index: 8;}
+.cont2 .btn-play-legend {position: absolute; top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%); display: block; width: 1.2rem; height: 1.2rem; background: url(../ossweb-img/index_m_spr_video.png) no-repeat;background-size:2.46rem 1.2rem; z-index: 9;background-position: 0 0;}
+.cont2 .legend-video {width: 100%; height: 100%;}
+.cont2 .legend-video video {width: 100%; height: 100%;}
+.cont2 .btn-buy {display: block; width: 2.86rem; height: 0.78rem; margin: 0.3rem auto; background: url(../ossweb-img/index_m_btn_buy.png) no-repeat;background-size: 100%;}
+
+
+/* cont3 */
+.cont3 .info { position: relative; width: 7.5rem;margin: 0 auto;}
+.cont3 .info .p1 {height: 1.34rem; line-height: 1.34rem; text-align: center; font-size: 0.36rem; font-weight: bold; color: #31454e;}
+.cont3 .info .p1 span {color: #db581b;}
+.cont3 .info .p2 {height: auto; line-height: 0.36rem; text-align: center; font-size: 0.24rem; color: #31454e;}
+.cont3 .info .btn-play-fight {position: absolute; top: -.84rem; right: 3.2rem; display: block; width: 1.2rem; height: 1.2rem; background: url(../ossweb-img/index_m_spr_video.png) no-repeat;background-size:2.46rem 1.2rem;background-position: -1.3rem 0;}
+
+/* cont4 */
+.cont4 .info {width:7.5rem;margin: 0 auto;}
+.cont4 .info .p1 {height: 1.34rem; line-height: 1.34rem; text-align: center; font-size: 0.36rem; font-weight: bold; color: #31454e;}
+.cont4 .info .p1 span {color: #db581b;}
+.cont4 .info .p2 {height: auto; line-height: 0.36rem; text-align: center; font-size: 0.24rem; color: #31454e;}
+.cont4 .info .p2 span{display: block;}
+.cont4 .btn-more {display: block; width: 2.86rem; height: 0.78rem; margin: 0.4rem auto; background: url(../ossweb-img/index_m_btn_more.png) no-repeat;background-size: 100%;}
+
+
+
+/* dialog */
+.dialog {display: none;}
+.dialog-video {width: 6rem; height: 3.4rem;}
+.dialog-video .close {position: absolute; top: -0.17rem; right: -0.7rem; font-size: 0.7rem; font-weight: bold; color: #ffdca0; line-height: 1;}
+.dialog-video .video-box {width: 6rem; height: 3.4rem; border: 0.02rem solid #ffdca0; background: #000;}

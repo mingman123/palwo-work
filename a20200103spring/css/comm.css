@@ -1,0 +1,29 @@
+/* reset */
+body,dl,dd,ul,ol,h1,h2,h3,h4,h5,h6,p,form,header,section,article,footer{margin:0;}
+body,button,input,select,textarea{font:12px/1.5 tahoma,'\5FAE\8F6F\96C5\9ED1',sans-serif}
+h1,h2,h3,h4,h5,h6{font-size:100%}
+em,b{font-style:normal}
+a{text-decoration:none; outline: none;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);} 
+a:hover{text-decoration:none;}
+img{border:0} 
+button,input,select,textarea{font-size:100%;outline:none}
+table{border-collapse:collapse;border-spacing:0}
+td,th,ul,ol{padding:0;list-style: none;}
+* {box-sizing: border-box; outline: none;}
+.hidden{display: none; font-size: 0; text-indent: -999em;}
+.clearfix:after {visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
+.clearfix{*zoom:1;}
+#afooter{text-align:center; line-height: 20px;color: #fff;position: relative; z-index: 2;font-size: 14px;padding: 10px 0;min-width: 1220px;background: #000;margin: 0 auto -2em;max-width: 1920px;}
+#afooter a{ color: #fff;}
+
+.logo {background: url(//game.gtimg.cn/images/lol/logo/middle.png) no-repeat center top; width: 200px; height: 72px; background-size: 100%; font-size: 0; position: absolute; top: 20px; left: 14px;}
+.logo:hover {filter: brightness(1.1);}
+
+.global-nav {position: absolute; bottom: 60px; left: 50%; transform: translateX(-50%); width: 1216px; height: 150px; padding: 0 12px; font-size: 0; background: url(../ossweb-img/global_spr_nav.png) no-repeat;}
+.global-nav.on0 {background-position: 0 -150px;}
+.global-nav.on1 {background-position: 0 -300px;}
+.global-nav.on2 {background-position: 0 -450px;}
+.global-nav.on3 {background-position: 0 -600px;}
+.global-nav.on4 {background-position: 0 -750px;}
+.global-nav a {vertical-align: top; display: inline-block; width: 238px; height: 150px;}
+

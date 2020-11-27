@@ -1,0 +1,99 @@
+.wrap {width: 100%;}
+
+.header {position: relative; width: 100%; height: 5.06rem; background: url(../ossweb-img/pass_m_bg1.jpg) no-repeat top center; background-size: 100%;}
+.login{ width: 100%; position: absolute; bottom: .5rem; left: 0; text-align: center; font-size: .24rem; color: #31454e;}
+.login a{ color: #db581b;}
+
+.main {width: 100%; height: 22.35rem; background: url(../ossweb-img/pass_m_bg2.jpg) no-repeat top center; background-size: 100%;}
+.cont {width: 7.1rem; height: 100%; margin: 0 auto;}
+
+.cont .title {width: 5.26rem; height: 1.37rem; margin: 0 auto .46rem auto; background: url(../ossweb-img/pass_m_title.png) no-repeat; background-size: 100%;}
+.scroll-box {position: relative; width: 7.1rem; height: 17.49rem; padding-top: .42rem; text-align: center; background: url(../ossweb-img/pass_m_scroll_bg.png) no-repeat; background-size: 100%;}
+.scroll-title {position: relative; width: 6rem; height: .38rem; margin: 0 auto .28rem auto; background: url(../ossweb-img/pass_m_scroll_title.png) no-repeat; background-size: 100%;}
+.btn-view-rules {position: absolute; top: 0; right: 0; display: block; width: 1.16rem; height: .38rem;}
+
+.avatar-list {width: 100%; height: 4.3rem; font-size: 0; text-align: center;  margin-bottom: .6rem;}
+.avatar-item {position: relative; vertical-align: top; display: inline-block; width: 1.52rem; height: 1.94rem; margin: 0 .2rem .46rem .2rem;}
+.avatar-item:nth-child(1) {margin-left: 1.8rem;}
+.avatar-item:nth-child(2) {margin-right: 1.8rem;}
+.avatar-item .border {position: absolute; top: 0; left: 0; width: 1.52rem; height: 1.02rem; background: url(../ossweb-img/pass_avatar_border.png) no-repeat; background-size: 100%;}
+.avatar-item img {display: block; width: .86rem; height: .86rem; border-radius: 50%; margin: .08rem auto;}
+.avatar-item p {height: .42rem; line-height: .42rem; text-align: center; font-size: .22rem; color: #31454e;}
+.avatar-item .btn-invite {display: block; width: 1.46rem; height: .48rem; margin: 0 auto; background: url(../ossweb-img/pass_m_spr_button.png) no-repeat; background-size: 4rem 8rem;}
+.btn-change {display: block; width: 2.41rem; height: .63rem; margin: 0 auto .8rem auto; background: url(../ossweb-img/pass_m_spr_button.png) no-repeat; background-size: 4rem 8rem; background-position: 0 -2.4rem;}
+
+.prize-box {width: 6.7rem; height: 10.1rem; margin: 0 auto;}
+.prize-cont {position: relative; display: block; width: 6.7rem; height: 4.3rem; margin-bottom: .76rem;}
+.prize-title {width: 2.6rem; height: .4rem; line-height: .34rem; margin: 0 auto; padding-left: 2.04rem; font-size: .24rem; color: #31454e; background: url(../ossweb-img/pass_m_spr_prize.png) no-repeat; background-size: 3.2rem 1.6rem;}
+.prize-title em {color: #db581b;}
+.prize-title.invite {background-position: 0 0;}
+.prize-title.active {background-position: 0 -.4rem;}
+.prize-progress {pointer-events: none; position: absolute; top: .82rem; left: 50%; margin-left: -3.19rem; width: 6.27rem; height: 2.4rem; background: url(../ossweb-img/pass_m_spr_progress.png) no-repeat; background-size: 6.27rem 14.4rem;}
+.prize-progress-on {width: 6.27rem; height: 2.4rem;}
+.prize-progress.on1 .prize-progress-on {background: url(../ossweb-img/pass_m_spr_progress.png) no-repeat; background-size: 6.27rem 14.4rem; background-position: 0 -2.4rem;}
+.prize-progress.on2 .prize-progress-on {background: url(../ossweb-img/pass_m_spr_progress.png) no-repeat; background-size: 6.27rem 14.4rem; background-position: 0 -4.8rem;}
+.prize-progress.on3 .prize-progress-on {background: url(../ossweb-img/pass_m_spr_progress.png) no-repeat; background-size: 6.27rem 14.4rem; background-position: 0 -7.2rem;}
+.prize-progress.on4 .prize-progress-on {background: url(../ossweb-img/pass_m_spr_progress.png) no-repeat; background-size: 6.27rem 14.4rem; background-position: 0 -9.6rem;}
+.prize-progress.on5 .prize-progress-on {background: url(../ossweb-img/pass_m_spr_progress.png) no-repeat; background-size: 6.27rem 14.4rem; background-position: 0 -12rem;}
+.prize-list {width: 100%; font-size: 0; text-align: left;}
+.prize-item {vertical-align: top; display: inline-block; width: 1.46rem; text-align: center; margin-right: .48rem; margin-bottom: .36rem;}
+.prize-item:nth-child(1) {margin-left: .6rem;}
+.prize-item:nth-child(4) {margin-left: 1.36rem; margin-right: .86rem;}
+.prize-item .p-tips {height: .52ren; line-height: .52rem; text-align: center; font-size: .22rem; color: #db581b;}
+.prize-item .p-name {vertical-align: top; display: inline-block; height: .24rem; line-height: .24rem; text-align: center; font-size: .2rem; color: #31454e; margin: .3rem 0 .2rem 0;}
+.prize-item img {vertical-align: top; display: inline-block; width: .24rem; height: .24rem; margin: .3rem .06rem .2rem .06rem;}
+.prize-item .btn-get {display: block; width: 1.46rem; height: .48rem; margin: 0 auto; background: url(../ossweb-img/pass_m_spr_button.png) no-repeat; background-size: 4rem 8rem; background-position: 0 -1.2rem;}
+.prize-item .btn-get.lock {background-position: 0 -.6rem; pointer-events: none;}
+.prize-item .btn-get.got {background-position: 0 -1.8rem; pointer-events: none;}
+.btn-friend1 {vertical-align: top; display: inline-block; width: 3.2rem; height: .4rem; margin: .3rem 0; background: url(../ossweb-img/pass_m_spr_prize.png) no-repeat; background-size: 3.2rem 1.6rem; background-position: 0 -.8rem;}
+.btn-friend2 {vertical-align: top; display: inline-block; width: 3.2rem; height: .4rem; margin: .3rem 0; background: url(../ossweb-img/pass_m_spr_prize.png) no-repeat; background-size: 3.2rem 1.6rem; background-position: 0 -1.2rem;}
+
+
+/* side */
+.side {display: block; position: fixed; bottom: 1.4rem; right: 0;  width: 100%; height: 1.32rem; text-align: center; overflow: hidden;}
+
+.not-login {display: none; position: absolute; bottom: 0; left: 0; width: 7.5rem; height: 1.32rem; background: url(../ossweb-img/pass_m_side_bg1.png) no-repeat; background-size: 100%;}
+.not-login .p1 {display: none;}
+.not-login .p2 {display: none;}
+.not-login .btn-anchor {position: absolute; top: .34rem; left: 4.28rem; display: block; width: 1.46rem; height: .48rem; z-index: 3;}
+.not-login .btn-close {position: absolute; top: .34rem; left: 6.15rem; display: block; width: .48rem; height: .48rem; z-index: 3;}
+
+.is-login {position: absolute; left: 0; bottom: 0; display: block; width: 100%; height: 1.32rem; text-align: center;}
+.mobile-box-list {position: relative; width: 7.5rem; height: 1.32rem; font-size: 0; text-align: left; padding: .27rem 0 0 .4rem; background: url(../ossweb-img/pass_m_side_bg2.png) no-repeat; background-size: 100%;}
+.mobile-box-list .avatar {vertical-align: top; display: inline-block; width: .6rem; height: .6rem; margin-right: .06rem; border-radius: 50%;}
+.mobile-box-list p {vertical-align: top; display: inline-block; width: 4.3rem; height: .6rem; line-height: .6rem;}
+.mobile-box-list .name {vertical-align: top; display: inline-block; width: 1.72rem; font-size: .24rem; font-weight: bold; color: #31454e; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.mobile-box-list .give {vertical-align: top; display: inline-block;  font-size: .24rem; color: #31454e;}
+.mobile-box-list .give em {color: #db581b;}
+.mobile-box-list .currency {vertical-align: top; display: inline-block;  width: .24rem; height: .24rem; margin: .18rem .04rem;}
+.mobile-box-list .num {vertical-align: top; display: inline-block; font-size: .24rem; font-weight: bold; color: #db581b;}
+.mobile-box-list .btn-go-get {position: absolute; top: .34rem; left: 5.45rem; display: block; width: 1.46rem; height: .48rem; z-index: 3;}
+
+.box-list {display: none;}
+.open {display: none;}
+
+/* dialog */
+.dialog {display: none;}
+.dialog .close {position: absolute; top: -.9rem; right: .2rem; display: block; width: .72rem; height: .72rem; background: url(../ossweb-img/pass_m_close.png) no-repeat; background-size: 100%;}
+
+.dialog1 {width: 6.11rem; height: 2.24rem; padding-top: 1.02rem; background: url(../ossweb-img/pass_m_dialog1_bg.png) no-repeat; background-size: 100%;}
+.dialog1 .dialog-table {width: 5.04rem; height: auto; margin: 0 auto; border: 1px solid #d5d2c3; border-bottom: none;}
+.dialog1 .dialog-table tr {height: .34rem; border-bottom: 1px solid #d5d2c3; }
+.dialog1 .dialog-table th {border-right: 1px solid #d5d2c3; font-weight: initial; text-align: center; font-size: .2rem; color: #db581b;}
+.dialog1 .dialog-table td {border-right: 1px solid #d5d2c3; text-align: center; font-size: .2rem; color: #31454e;}
+
+.dialog2 {width: 7.1rem; height: 3.61rem; padding-top: 1.02rem; background: url(../ossweb-img/pass_m_dialog2_bg.png) no-repeat; background-size: 100%;}
+.dialog2 .dialog-table {width: 6.38rem; height: auto; margin: 0 auto; border: 1px solid #d5d2c3; border-bottom: none;}
+.dialog2 .dialog-table tr {height: .34rem; border-bottom: 1px solid #d5d2c3; }
+.dialog2 .dialog-table th {border-right: 1px solid #d5d2c3; text-align: center; font-size: .2rem; color: #db581b;}
+.dialog2 .dialog-table td {border-right: 1px solid #d5d2c3; text-align: center; font-size: .2rem; color: #31454e;}
+
+.dialog3 {width: 7.1rem; height: 4.31rem; padding: 1.2rem .6rem 0 .6rem; background: url(../ossweb-img/pass_m_dialog3_bg.png) no-repeat; background-size: 100%;}
+.dialog3 .rules {width: 100%; height: 2.6rem; overflow-y: auto;}
+.dialog3 .rules::-webkit-scrollbar {width: 0;}
+.dialog3 .rules li {line-height: .32rem; font-size: .22rem; color: #31454e;}
+
+.dialog4 {width: 3.16rem; height: 1.88rem; padding-top: .38rem; text-align: center; font-size: 0; background: url(../ossweb-img/pass_m_dialog4_bg.png) no-repeat; background-size: 100%;}
+.dialog4 p {text-align: center; font-size: .22rem; color: #31454e;}
+.dialog4 .btn-cancel {vertical-align: top; display: inline-block; display: inline-block; width: 1.06rem; height: .36rem; margin: .2rem .15rem; background: url(../ossweb-img/pass_m_spr_button.png) no-repeat; background-size: 4rem 8rem; background-position: 0 -5rem;}
+.dialog4 .btn-confirm {vertical-align: top; display: inline-block; display: inline-block; width: 1.06rem; height: .36rem; margin: .2rem .15rem; background: url(../ossweb-img/pass_m_spr_button.png) no-repeat; background-size: 4rem 8rem; background-position: 0 -4.4rem;}
