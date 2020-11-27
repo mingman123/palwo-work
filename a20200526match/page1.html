@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="gbk" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="format-detection" content="telephone=no">
+		<meta content="yes" name="mobile-web-app-capable">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta name="robots" content="all">
+		<meta name="author" content="Tencent-CP" />
+		<meta name="Copyright" content="Tencent" />
+		<meta name="description" content="小鹅营地，为青少年提供科技类赛事报名及游戏化学习课程。">
+		<meta name="keywords" content="小鹅营地，腾讯游戏追梦计划，青少年社区，青少年营地，课程，游戏化学习，游戏化创作，游戏化应用，功能游戏，腾讯扣叮，编程课程，科技课程，机器人课程，编程学习，机器人赛事报名，编程报名，青少年科技课程，赛事报名，青少年赛事报名">
+		<title>小鹅营地-首页</title>
+		<!--<link rel="stylesheet" href="css/comm.css" />-->
+		<link rel="stylesheet" href="//ossweb-img.qq.com/images/js/swiper/swiper-4.3.3.min.css">
+		<link rel="stylesheet" href="css/page1.css" />
+		<script>
+			~ function() {
+				var is_pc = function() {
+					var os = new Array("iPad", "Android", "iPhone", "Windows Phone", "iPod", "BlackBerry", "MeeGo", "SymbianOS"); // 其他类型的移动操作系统类型，自行添加
+					var info = navigator.userAgent;
+					var len = os.length;
+					for(var i = 0; i < len; i++) {
+						if(info.indexOf(os[i]) > 0) {
+							return false;
+						}
+					}
+					return true;
+				};
+				// 如果是移动设备就直接跳转到手机网站页面
+				if(!is_pc()) {
+					//	                window.location.href = "//zhuimeng.qq.com/act/2605/a20200331baike/m/page1.html" + location.search;
+				} else {}
+			}();
+		</script>
+	</head>
+
+	<body>
+		<h1 class="hid">赛事活动-填写报名信息 - 小鹅营地</h1>
+		<div class="wrap">
+			<div class="head"></div>
+			<div class="content">
+				<p class="title"></p>
+				<a class="btn-notice" href="javascript:;" onclick="PTTSendClick('btn', 'btn-notice', '报名须知');"><i></i><span>报名须知</span></a>
+				<div class="inner">
+					<div class="cont">
+						<div class="name">
+							<p><span class="lineone"><b>* </b>姓名</span></p>
+							<input type="text" placeholder="请填写您的姓名" />
+						</div>
+						<div class="sex">
+							<p><span class="lineone"><b>* </b>性别</span></p>
+							<div>
+								<input type="radio" name="sex" checked="checked" />
+								<em>男</em>
+								<input type="radio" name="sex" />
+								<em class="right">女</em>
+								<input type="radio" name="sex" />
+								<em class="right">女</em>
+								<input type="radio" name="sex" />
+								<em class="right">女</em>
+								<input type="radio" name="sex" />
+								<em class="right">女</em>
+								<input type="radio" name="sex" />
+								<em class="right">女</em>
+								<input type="radio" name="sex" />
+								<em class="right">女</em>
+							</div>
+
+						</div>
+						<div class="age">
+							<p><span class="lineone"><b>* </b>年龄</span></p>
+							<input type="text" placeholder="请填写您的年龄" />
+						</div>
+						<div class="where">
+							<p><span class="lineone"><b>* </b>省市/地区</span></p>
+							<div>
+								<select>
+									<option>北京</option>
+									<option>上海</option>
+								</select>
+								<select>
+									<option>北京</option>
+									<option>上海</option>
+								</select>
+								<select>
+									<option>北京</option>
+									<option>上海</option>
+								</select>
+							</div>
+						</div>
+						<div class="school">
+							<p><span class="lineone"><b>* </b>学校</span></p>
+							<input type="text" placeholder="请填写您所在的学校" />
+						</div>
+						<div class="phonenumber">
+							<p><span class="lineone"><b>* </b>联系方式</span></p>
+							<input type="text" placeholder="请填写手机号或电子邮箱" />
+						</div>
+						<div class="order">
+							<p class="gap"><span class="lineone">报名赛区</span></p>
+							<select>
+								<option>个人报名</option>
+								<option>个人报名</option>
+							</select>
+						</div>
+						<div class="reason">
+							<p class="gap"><span class="linethree">参赛原因</span></p>
+							<textarea placeholder="介绍您参加本次赛事活动的原因和相关领域的特长，可作为评选加分项。"></textarea>
+						</div>
+						<div class="active">
+							<p class="gap"><span class="linethree">您参加本次赛事活动的原因是?</span><strong>(多选题)</strong></p>
+
+							<div class="choose-box">
+								<div>
+									<input type="checkbox" name="choose" checked="checked" />
+									<em>选项1</em>
+								</div>
+								<div>
+									<input type="checkbox" name="choose" />
+									<em>选项2</em>
+								</div>
+								<div>
+									<input type="checkbox" name="choose" />
+									<em>选项3</em>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--已提交添加class on 切换文案-->
+					<a class="btn-sub" href="javascript:;" onclick="PTTSendClick('btn', 'btn-sub', '提交');">提 交</a>
+				</div>
+
+			</div>
+
+			<!--报名成功-->
+			<div class="pop pop2" id="pop2" style="display:none">
+				<div class="pop-bg">
+					<p class="pop-tzs"></p>
+					<div class="pop-main">
+						<div class="pop-title"><p><span>报名成功</span></p></div>
+						<p class="pop-text">请在电脑操作进行创作</p>
+						<p class="pop-text">点下方按钮前往编程页面。</p>
+						<a class="btn-tocz" target="_blank" id="codeUrl" href="https://coding.qq.com/task/?iClassId=888&iClassType=0&iCourseId=154&iChapterId=181&iLessonId=1150&sLessonName=%E6%B4%97%E6%89%8B%E9%98%B2%E7%96%AB&iBussinessType=1&iCurTaskId=5937&iCurTaskIndex=0" onclick="PTTSendClick('btn','tocz','前往创作')">前往创作</a>
+					</div>
+					<p class="pop-bzs"></p>
+				</div>
+				<a class="btn-close" href="javascript:gotoEvent();"></a>
+			</div>
+
+			<!--报名已完成  s-->
+			<div class="pop pop4 dialog" id="pop4" style="display:none">
+				<div class="pop-bg">
+					<p class="pop-tzs"></p>
+					<div class="pop-main">
+						<p class="pop-pimg"></p>
+						<p class="pop-tit">报名已完成</p>
+						<p class="pop-text">请耐心等待主办方后续通知</p>
+					</div>
+					<p class="pop-bzs"></p>
+				</div>
+				<a class="btn-close" href="javascript:closeDialog();"></a>
+			</div>
+			<!--报名已完成   e-->
+		</div>
+
+		<script src="//ossweb-img.qq.com/images/js/jquery/jquery-1.9.1.min.js"></script>
+		<script src='//vm.gtimg.cn/tencentvideo/txp/js/txplayer.js'></script>
+		<script src="//ossweb-img.qq.com/images/js/milo_bundle/milo.js"></script>
+		<!--head-->
+		<!--传参 data-navidx是选择哪个为选中状态-->
+		<script id="zhuimengTopNav" src="//zhuimeng.qq.com/cp/a20200421pcshare/zhuimeng_top_nav.js?data-navidx=1" charset="gbk"></script>
+		<!--foot-->
+		<script src="//zhuimeng.qq.com/cp/a20200421pcshare/footer-js/zhuimeng_footer.js" charset="gbk"></script>
+
+		<script>
+			function TGDialogS(e) {
+				// 利用milo库引入dialog组件
+				need("biz.dialog", function(Dialog) {
+					Dialog.show({
+						id: e,
+						bgcolor: '#000', //弹出“遮罩”的颜色，格式为"#FF6600"，可修改，默认为"#fff"
+						opacity: 50 //弹出“遮罩”的透明度，格式为｛10-100｝，可选
+					});
+				});
+			}
+
+			function closeDialog() {
+				// 利用milo库引入dialog组件
+				need("biz.dialog", function(Dialog) {
+					Dialog.hide();
+				});
+			}
+		</script>
+
+		<script src="//ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js"></script>
+		<script>
+			var setSite = { //设置网站属性 
+				siteType: "a20200526match", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+				pageType: "detail-apply-id", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN,不支持点(.)、下划线(_)
+				pageName: "填写报名信息", //必填项:页面中文名 
+				project: "community", //选填项:如果是官网模块则是必填;按照模块内容，填写固定的对应值;官网微社区base;同人站doujin;赛事match;故事站story;文化站history;粉丝站fans;爆料站coming;论坛bbs;皮肤skin;默认other;
+				osact: "pc" //选填项:默认是0。osact=0表示非官网专题；osact=pc表示pc官网/pc官网专题；osact=m表示移动官网/移动官网专题；osact=ingame表示微社区/微社区专题
+			};
+			if(typeof(pgvMain) == 'function') pgvMain(); //千万不能忘记！
+		</script>
+	</body>
+
+</html>
