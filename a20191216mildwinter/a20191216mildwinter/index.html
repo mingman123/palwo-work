@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>疾风之刃-官方网站-3D动漫风超动作网游-腾讯游戏</title>
+    <meta charset="gbk">
+    <meta name="Description" content="《疾风之刃》是一款超动作3D动漫风网游。作为新一代动作游戏，《疾风之刃》呈现出极致华丽的动作表演，精心打磨出的打击感震撼人心。多变创新的战斗系统，配合丰富的连续技，给玩家最爽快、最带感的战斗体验。玩家们将化身个性十足的动漫人物，亲自在“一部可以玩的动漫片”中，尽情释放超动作。">
+    <meta name="Keywords" content="疾风，疾风之刃，疾风之刃官网，疾风之刃官方网站，疾风首测，疾风封测，疾风之刃首次封测，疾风下载，疾风之刃下载，超动作，超动作网游，一部可以玩的动漫片">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <!--Encoding: GBK-->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="author" content="Tencent-Tgideas">
+    <script src="//game.gtimg.cn/images/codo/act/lb_atemple/commonV2.js"></script>
+    <script>
+    // pagetype(2=pc,3=h5)
+	var pageType = 2;
+</script>
+<link rel="stylesheet" href="//game.gtimg.cn/images/codo/act/lb_atemple/common.css">
+<!--<link rel="stylesheet" href="//game.gtimg.cn/images/jf/lbact/a20191216mildwinter/custom_1011.css">-->
+<link rel="stylesheet" href="//game.gtimg.cn/images/jf/lbact/a20191216mildwinter/index.css" />
+<!--link rel="stylesheet" href="//game.gtimg.cn/images/codo/act/lb_atemple/common_h5.css"-->
+<!--link rel="stylesheet" href="//game.gtimg.cn/images/jf/lbact/a20191216mildwinter/customM_1011.css"-->
+<!--link rel="stylesheet" href="//game.gtimg.cn/images/jf/lbact/a20191216mildwinter/custom_1011.css"-->
+<!-- //jf.qq.com/lbact/a20191216mildwinter
+    本活动样式路径地址为：//game.gtimg.cn/images/jf/lbact/a20191216mildwinter/x.css
+    本活动图片路径地址为：//game.gtimg.cn/images/jf/lbact/a20191216mildwinter/x.jpg  
+    
+-->
+<!--/lbact/a20191216mildwinter/-->
+</head>
+<style>
+    /*分享浮层与遮罩的样式表 beg*/
+    .mask {
+        position: absolute;
+        background: rgba(0, 0, 0, 0.8);
+        top: 0;
+        left: 0;
+        z-index: 10000;
+        display: none;
+    }
+    #share_shadow {
+        position: absolute;
+        background: rgba(0, 0, 0, 0.8);
+        top: 0;
+        left: 0;
+        z-index: 2;
+        display: none;
+    }
+    #share_shadow img{
+        position: fixed;
+        top: 50px;
+        right: 50px;
+        z-index: 3;
+        width: 30%;
+    }
+    .share_panel {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 90%;
+        overflow: hidden;
+    }
+
+    ul, ol, li {
+        list-style-type: none;
+        vertical-align: 0
+    }
+    .gb_resLay {
+        background: #FFFFFF;
+        height: 170px;
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .gb_res_t {
+        line-height: 58px;
+        height: 58px;
+        position: relative;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .gb_res_t i {
+        background: #FFEC94;
+        height: 1px;
+        overflow: hidden;
+        left: 32px;
+        top: 30px;
+        right: 32px;
+        position: absolute;
+    }
+
+    .gb_res_t span {
+        background: #FFF;
+        display: inline-block;
+        padding: 0px 6px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .gb_resItms {
+        margin: 0px 4%;
+    }
+
+    .gb_resItms li {
+        text-align: center;
+        float: left;
+        width: 25%;
+        padding-bottom: 15px;
+    }
+
+    .share_channel a {
+        width: 60px !important;
+        height: 60px !important;
+        margin: 0 auto 10px !important;
+        float: none !important;
+        padding: 0 !important;
+        display: block;
+    }
+
+    .share_channel .s_wxfrd {
+        background: url(//game.gtimg.cn/images/codo/act/lb_atemple/img/share/frdcircle.png) no-repeat center center/60px 60px;
+    }
+
+    .share_channel .s_qzone {
+        background: url(//game.gtimg.cn/images/codo/act/lb_atemple/img/share/qzone.png) no-repeat center center/60px 60px;
+    }
+
+    .share_channel .s_weixin {
+        background: url(//game.gtimg.cn/images/codo/act/lb_atemple/img/share/weixin.png) no-repeat center center/60px 60px;
+    }
+
+    .share_channel .s_sqq {
+        background: url(//game.gtimg.cn/images/codo/act/lb_atemple/img/share/sqq.png) no-repeat center center/60px 60px;
+    }
+    /*分享浮层与遮罩的样式表 end*/
+	
+</style><body>
+<div id="mask" class="mask" onclick="hideMask()">
+    <div class="share_panel">
+        <div class="gb_resLay">
+            <div class="gb_res_t"><span>您可以通过以下方式进行分享</span><i></i></div>
+            <div class="share_channel">
+                <ul class="gb_resItms">
+                    <li><a title="分享到微信" href="#" class="s_weixin"></a>微信好友 </li>
+                    <li><a title="分享到QQ好友" href="#" class="s_sqq"></a>QQ好友 </li>
+                    <li><a title="分享到QQ空间" href="#" class="s_qzone"></a>QQ空间 </li>
+                    <li><a title="分享到朋友圈" href="#" class="s_wxfrd"></a>朋友圈 </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--此div用于手游游戏内分享-->
+<div id="shouyou_share" style="display:none"></div>
+<div class="wrap">
+    <div class="popup popup-blue" id="popup">
+        <div class="tab-bd" id="tabBd">
+            <div class="js_edit_template theme1" id="recordDom"><div class="luban-template  luban-template1">
+  <img class="luban-template-bg luban-color-bg2" data-index="-1" data-item="bg" src="//game.gtimg.cn/images/jf/lbact/a20191216mildwinter/bg1.jpg">
+  <a class="logo hidden" title="疾风之刃" href="http://jf.qq.com/main.shtml" target="_blank" onclick="PTTSendClick('btn', 'go', '疾风之刃');">疾风之刃</a>	
+  <div class="luban-template-46 clearfix">
+  	<img data-style="" data-index="-1" data-item="img|title" src="//game.gtimg.cn/images/jf/lbact/a20191216mildwinter/head.png" alt="浓情暖冬 辞旧迎新" title="浓情暖冬 辞旧迎新">
+    <span data-style="" class="luban-text" data-index="-1" data-item="desc" style="font-weight:400;letter-spacing:0px;">2019年12月23日-2020年1月14日</span>
+  </div>
+</div>
+<div class="luban-template luban-template2">
+  <img class="luban-template-bg luban-color-bg2" data-index="-1" data-item="bg" src="//game.gtimg.cn/images/jf/lbact/a20191216mildwinter/bg2.jpg">
+  <div class="luban-template-23 clearfix">
+    <div class="login-box container luban-head-qq-login">
+      <p class="luban-color-text" id="unlogin">亲爱的玩家，请
+        <a href="javascript:;" id="dologin" class="color-red">【登录】</a>
+      </p>
+      <p class="luban-color-text" id="logined" style="display:none;">欢迎您，
+        <span id="login_qq_span">
+        </span>，
+        <span id="spanNotBind">
+          <a href="javascript:showSelectZone();" class="luban-head-bindarea color-red">【绑定大区】</a>
+        </span>
+        <span id="spanBind" style="display:none">
+          <span id="area_info">
+          </span>
+          <span id="role_info">
+          </span>
+          <a href="javascript:showSelectZone();" class="luban-head-changearea color-red">【更改绑定】</a>
+        </span>
+        <a href="javascript:showMyGiftList();" class="luban-head-mygift color-red">【我的礼包】</a>
+        <a id="myTrade" style="display:none" class="color-red" href="//daoju.qq.com/mall/trade.shtml" target="_blank">【我的订单】</a>
+        <a href="javascript:;" id="fillAddress" class="color-red" style="display:none">【填写实物发放地址】</a>
+        <a href="javascript:;" id="inviteList" class="color-red" style="display:none">【我的好友邀请】</a>
+        <a href="javascript:;" id="giveList" class="color-red" style="display:none">【我的赠礼列表】</a>
+        <a href="javascript:;" id="dologout" class="luban-head-qq-logout color-red">【注销】</a>
+      </p>
+    </div>
+  </div>
+</div>
+<div class="luban-template luban-template3">
+  <img class="luban-template-bg luban-color-bg2" data-index="-1" data-item="bg" src="//game.gtimg.cn/images/jf/lbact/a20191216mildwinter/bg3.jpg">
+  <div class="luban-template-48 clearfix">
+    <h2 data-style="" data-index="-1" data-item="top" class="luban-text luban-text-title luban-color-text" style="font-weight:700;letter-spacing:0px;">新职业祝福礼包</h2>
+    <p data-style="" data-index="-1" data-item="desc" class="luban-text luban-text-info text1" style="font-weight:700;letter-spacing:0px;">活动期间，创建新职业“鬼剑帝”并登录的玩家，<span>可在本页面领取新职业祝福礼包一份</span></p>
+    <ul>
+    	<li>
+    		<img data-style="" data-index="-1" data-item="img|title" src="//game.gtimg.cn/images/jf/lbact/a20191216mildwinter/item.png" class="img1 luban-img-package" alt="进攻次元之门纹章*300" title="">
+    		<p>进攻次元之门纹章<br />*300</p>
+    	</li>
+    	<li>
+    		<img data-style="" data-index="-1" data-item="img|title" src="//game.gtimg.cn/images/jf/lbact/a20191216mildwinter/item2.png" class="img1 luban-img-package" alt="露西娅的高级微笑水瓶*200" title="">
+    		<p>露西娅的高级微笑水瓶<br />*200</p>
+    	</li>
+    	<li>
+    		<img data-style="" data-index="-1" data-item="img|title" src="//game.gtimg.cn/images/jf/lbact/a20191216mildwinter/item3.png" class="img1 luban-img-package" alt="皇家疲劳纾解药水*5" title="">
+    		<p>皇家疲劳纾解药水<br />*5</p>
+    	</li>
+    	<li>
+    		<img data-style="" data-index="-1" data-item="img|title" src="//game.gtimg.cn/images/jf/lbact/a20191216mildwinter/item4.png" class="img1 luban-img-package" alt="贵族商品30天）" title="">
+    		<p>贵族商品<br />（30天）</p>
+    	</li>
+    	<li>
+    		<img data-style="" data-index="-1" data-item="img|title" src="//game.gtimg.cn/images/jf/lbact/a20191216mildwinter/item5.png" class="img1 luban-img-package" alt="[Lv66~70]强化石（账号绑定）*600" title="">
+    		<p>[Lv66~70]强化石<br />（账号绑定）*600</p>
+    	</li>
+    </ul>
+    <!--已领取 a 标签添加class btn-ylq-->
+    <a data-style="" id="Hold_630596" data-index="0" data-item="click" class="luban-button luban-button-big luban-color-bg luban-button-gift" href="javascript:amsSubmit(276616,630596);" lbmidaction="javascript:lbMidAction(7476)" data-lubanid="7476">
+      <span data-index="0" data-item="text" class="luban-text" data-lubanid="7476">立即领取</span>
+      <img class="luban-button-bg" data-index="0" data-item="btn" src="" data-lubanid="7476">
+      <span class="grey-cover">
+      </span>
+    </a>
+    <p class="luban-text-common luban-color-text text2">
+      <span data-style="" data-index="-1" data-item="text" class="luban-text" style="display:none;font-weight:400;letter-spacing:0px;">剩余领取次数：</span>
+      <span data-style="" id="Hold_0" data-index="-1" data-item="lottery_num_id" class="luban-jf luban-color-text-warning luban-data-jifen" data-dsinfo="Hold_0" style="display:none;">--</span>
+    </p>
+  </div>
+</div>
+<div class="luban-template luban-template4">
+  <img class="luban-template-bg luban-color-bg2" data-index="-1" data-item="bg" src="//game.gtimg.cn/images/jf/lbact/a20191216mildwinter/bg4.jpg">
+  <div class="luban-template-87 clearfix">
+  	<h2 data-style="" data-index="-1" data-item="title" class="luban-text luban-text-title luban-color-text" style="font-weight:700;letter-spacing:0px;">福气每日天天领</h2>
+    <div class="luban-text-common luban-color-text text2">
+    	<p>
+	      <span data-style="" data-index="-1" data-item="text" class="luban-text" style="font-weight:400;letter-spacing:0px;">剩余疾风劵</span>
+	      <span data-style="" id="Jf_697_1" data-index="-1" data-item="lottery_num_id" class="luban-jf luban-color-text-warning luban-data-jifen" data-dsinfo="Jf_697_1">--</span>
+	    </p>
+	    <p>
+	      <span data-style="" data-index="-1" data-item="text2" class="luban-text" style="font-weight:400;letter-spacing:0px;">累计获得疾风劵</span>
+	      <span data-style="" id="Jf_697_2" data-index="-1" data-item="lottery_num_id2" class="luban-jf luban-color-text-warning luban-data-jifen" data-dsinfo="Jf_697_2">--</span>
+      	</p>
+    </div>
+  </div>
+</div>
+<div class="luban-template luban-template5">
+  <img class="luban-template-bg luban-color-bg2" data-index="-1" data-item="bg" src="//game.gtimg.cn/images/jf/lbact/a20191216mildwinter/bg5.jpg">
+  <div class="luban-template-58 clearfix">
+    
+    <p data-style="" data-index="-1" data-item="desc" class="luban-text luban-text-info text1" style="display:none;font-weight:700;letter-spacing:0px;">完成限定任务，即可获取新手大礼包，内含价值超过千元的奖励，赶紧来领取吧！</p>
+    <div class="template-boxs clearfix">
+      <div class="template-box">
+        <div class="template-box-item" style="display: none;">
+          <img data-style="" data-index="0" data-item="img|title" src="//ossweb-img.qq.com/images/codo/act/lb_atemple/luban/prop_box.png" class="img-bg luban-img-package" alt="" title="" data-lubanid="7478">
+        </div>
+        <span data-style="" data-index="0" data-item="name" class="luban-text text good-text luban-text-package" data-lubanid="7478" style="font-weight:400;letter-spacing:0px;">*活动期间每日登录可领取<em>2张疾风劵</em></span>
+        <!--已领取 a 标签添加class btn-got-->
+        <a data-style="" id="Hold_630859" data-index="0" data-item="click" class="luban-button luban-color-bg luban-button-gift btn1" href="javascript:amsSubmit(276616,630859);" lbmidaction="javascript:lbMidAction(7478)" data-lubanid="7478">
+          <span data-index="0" data-item="text" class="luban-text" data-lubanid="7478">立即领取</span>
+          <img class="luban-button-bg" data-index="0" data-item="btn" src="" data-lubanid="7478">
+          <span class="grey-cover">
+          </span>
+        </a>
+      </div>
+      <div class="template-box">
+        <div class="template-box-item" style="display: none;">
+          <img data-style="" data-index="1" data-item="img|title" src="//ossweb-img.qq.com/images/codo/act/lb_atemple/luban/prop_box.png" class="img-bg luban-img-package" alt="" title="" data-lubanid="7479">
+        </div>
+        <span data-style="" data-index="1" data-item="name" class="luban-text text good-text luban-text-package" data-lubanid="7479" style="font-weight:400;letter-spacing:0px;">*每日疲劳消耗至低于50点可领取<em>4张疾风劵</em></span>
+        <a data-style="" id="Hold_630860" data-index="1" data-item="click" class="luban-button luban-color-bg luban-button-gift btn2" href="javascript:amsSubmit(276616,630860);" lbmidaction="javascript:lbMidAction(7479)" data-lubanid="7479">
+          <span data-index="1" data-item="text" class="luban-text" data-lubanid="7479">立即领取</span>
+          <img class="luban-button-bg" data-index="1" data-item="btn" src="" data-lubanid="7479">
+          <span class="grey-cover">
+          </span>
+        </a>
+      </div>
+      <div class="template-box">
+        <div class="template-box-item" style="display: none;">
+          <img data-style="" data-index="2" data-item="img|title" src="//ossweb-img.qq.com/images/codo/act/lb_atemple/luban/prop_box.png" class="img-bg luban-img-package" alt="" title="" data-lubanid="7480">
+        </div>
+        <span data-style="" data-index="2" data-item="name" class="luban-text text good-text luban-text-package" data-lubanid="7480" style="font-weight:400;letter-spacing:0px;">*周末登录游戏可领取<em>2张疾风劵</em></span>
+        <a data-style="" id="Hold_630861" data-index="2" data-item="click" class="luban-button luban-color-bg luban-button-gift btn3" href="javascript:amsSubmit(276616,630861);" lbmidaction="javascript:lbMidAction(7480)" data-lubanid="7480">
+          <span data-index="2" data-item="text" class="luban-text" data-lubanid="7480">立即领取</span>
+          <img class="luban-button-bg" data-index="2" data-item="btn" src="" data-lubanid="7480">
+          <span class="grey-cover">
+          </span>
+        </a>
+      </div>
+    </div>
+    <p class="luban-text-common luban-color-text text2">
+      <span data-style="" data-index="-1" data-item="text" class="luban-text" style="display:none;font-weight:400;letter-spacing:0px;">剩余幸运兑换券数量：</span>
+      <span data-style="" id="Hold_0" data-index="-1" data-item="lottery_num_id" class="luban-jf luban-color-text-warning luban-data-jifen" data-dsinfo="Hold_0" style="display:none;">--</span>
+    </p>
+  </div>
+</div>
+<div class="luban-template luban-template6">
+  <img class="luban-template-bg luban-color-bg2" data-index="-1" data-item="bg" src="//game.gtimg.cn/images/jf/lbact/a20191216mildwinter/bg6.jpg">
+  <div class="luban-template-82 clearfix">
+    <h2 data-style="" data-index="-1" data-item="title" class="luban-text luban-text-title luban-color-text" style="font-weight:700;letter-spacing:0px;">暖冬迎新拼手气</h2>
+    <p data-style="" data-index="-1" data-item="desc" class="luban-text luban-text-info text1" style="font-weight:700;letter-spacing:0px; display: none;">消耗2张疾风券/次</p>
+    <div class="lottery-box" id="lottery1" data-lubanid="7481" lbmidaction="javascript:lbMidAction(7481)" data-flowid="7481" data-rotarymap="10607,10608,10609,10611,10612,10613,10614,10615,10616,10617,10631,10632" mytag="lottery_area" data-key="SWFOBJ1" data-startjs="callJsToStart1" data-completejs="callJsToComplete1">
+      <ul class="luck-lottery">
+        <li class="lottery-unit lottery-unit-0">
+          <img data-style="" data-index="0" data-item="img|title" class="lottery-unit-good luban-img-package" src="//game.gtimg.cn/images/jf/lbact/a20191216mildwinter/lot1.png" alt="" title="">
+          <div class="cover">
+          </div>
+          <span data-style="" data-index="0" data-item="name" class="luban-text luban-text-package" style="font-weight:400;letter-spacing:0px;">骑士帕拉丁</span>
+        </li>
+        <li class="lottery-unit lottery-unit-1">
+          <img data-style="" data-index="1" data-item="img|title" class="lottery-unit-good luban-img-package" src="//game.gtimg.cn/images/jf/lbact/a20191216mildwinter/lot2.png" alt="" title="">
+          <div class="cover">
+          </div>
+          <span data-style="" data-index="1" data-item="name" class="luban-text luban-text-package" style="font-weight:400;letter-spacing:0px;">特殊宠物宝箱<br>（随机）</span>
+        </li>
+        <li class="lottery-unit lottery-unit-2">
+          <img data-style="" data-index="2" data-item="img|title" class="lottery-unit-good luban-img-package" src="//game.gtimg.cn/images/jf/lbact/a20191216mildwinter/lot3.png" alt="" title="">
+          <div class="cover">
+          </div>
+          <span data-style="" data-index="2" data-item="name" class="luban-text luban-text-package" style="font-weight:400;letter-spacing:0px;">神话辅助<br>装备强化宝箱*5</span>
+        </li>
+        <li class="lottery-unit lottery-unit-3">
+          <img data-style="" data-index="3" data-item="img|title" class="lottery-unit-good luban-img-package" src="//game.gtimg.cn/images/jf/lbact/a20191216mildwinter/lot4.png" alt="" title="">
+          <div class="cover">
+          </div>
+          <span data-style="" data-index="3" data-item="name" class="luban-text luban-text-package" style="font-weight:400;letter-spacing:0px;">Lv5注灵石宝箱<br>（可选）</span>
+        </li>
+        <li class="lottery-unit lottery-unit-4">
+          <img data-style="" data-index="4" data-item="img|title" class="lottery-unit-good luban-img-package" src="//game.gtimg.cn/images/jf/lbact/a20191216mildwinter/lot5.png" alt="" title="">
+          <div class="cover">
+          </div>
+          <span data-style="" data-index="4" data-item="name" class="luban-text luban-text-package" style="font-weight:400;letter-spacing:0px;">符文宝箱（可选）</span>
+        </li>
+       
+        <li class="lottery-unit lottery-unit-5">
+          <img data-style="" data-index="5" data-item="img|title" class="lottery-unit-good luban-img-package" src="//game.gtimg.cn/images/jf/lbact/a20191216mildwinter/lot6.png" alt="" title="">
+          <div class="cover">
+          </div>
+          <span data-style="" data-index="5" data-item="name" class="luban-text luban-text-package">888Q币</span>
+        </li>
+         <li class="big-lottery-area">
+          <a data-index="12" class="luban-button luban-button-big submit-btn luban-color-bg luban-button-lottery" href="javascript:void(0)">
+            <img class="luban-button-bg" data-index="12" data-item="btn" src="">
+            <div data-index="12" data-item="text" class="luban-text">消耗2张疾风劵/次</div>
+            <span class="grey-cover" style="display:none;">
+            </span>
+          </a>
+        </li>
+        
+        <li class="lottery-unit lottery-unit-6">
+          <img data-style="" data-index="6" data-item="img|title" class="lottery-unit-good luban-img-package" src="//game.gtimg.cn/images/jf/lbact/a20191216mildwinter/lot7.png" alt="" title="">
+          <div class="cover">
+          </div>
+          <span data-style="" data-index="6" data-item="name" class="luban-text luban-text-package">腾讯视频会员1个月</span>
+        </li>
+        <li class="lottery-unit lottery-unit-7">
+          <img data-style="" data-index="7" data-item="img|title" class="lottery-unit-good luban-img-package" src="//game.gtimg.cn/images/jf/lbact/a20191216mildwinter/lot8.png" alt="" title="">
+          <div class="cover">
+          </div>
+          <span data-style="" data-index="7" data-item="name" class="luban-text luban-text-package" style="font-weight:400;letter-spacing:0px;">稀有红水晶*3</span>
+        </li>
+        <li class="lottery-unit lottery-unit-8">
+          <img data-style="" data-index="8" data-item="img|title" class="lottery-unit-good luban-img-package" src="//game.gtimg.cn/images/jf/lbact/a20191216mildwinter/lot9.png" alt="" title="">
+          <div class="cover">
+          </div>
+          <span data-style="" data-index="8" data-item="name" class="luban-text luban-text-package" style="font-weight:400;letter-spacing:0px;">特别强化石宝册<br>(1个)*3</span>
+        </li>
+        <li class="lottery-unit lottery-unit-9">
+          <img data-style="" data-index="9" data-item="img|title" class="lottery-unit-good luban-img-package" src="//game.gtimg.cn/images/jf/lbact/a20191216mildwinter/lot10.png" alt="" title="">
+          <div class="cover">
+          </div>
+          <span data-style="" data-index="9" data-item="name" class="luban-text luban-text-package" style="font-weight:400;letter-spacing:0px;">辅助装备]<br>完美强化保护熔丝</span>
+        </li>
+        <li class="lottery-unit lottery-unit-10">
+          <img data-style="" data-index="10" data-item="img|title" class="lottery-unit-good luban-img-package" src="//game.gtimg.cn/images/jf/lbact/a20191216mildwinter/lot11.png" alt="" title="">
+          <div class="cover">
+          </div>
+          <span data-style="" data-index="10" data-item="name" class="luban-text luban-text-package" style="font-weight:400;letter-spacing:0px;">完美强化熔丝<br>（+9~+16装备专用）</span>
+        </li>
+        <li class="lottery-unit lottery-unit-11">
+          <img data-style="" data-index="11" data-item="img|title" class="lottery-unit-good luban-img-package" src="//game.gtimg.cn/images/jf/lbact/a20191216mildwinter/lot12.png" alt="" title="">
+          <div class="cover">
+          </div>
+          <span data-style="" data-index="11" data-item="name" class="luban-text luban-text-package" style="font-weight:400;letter-spacing:0px;">[Lv66~70]强化石<br>（账号绑定）*500</span>
+        </li>
+      </ul>
+    </div>
+    <p class="luban-text-common luban-color-text text2">
+      <span data-style="" data-index="-1" data-item="text" class="luban-text" style="display:none;font-weight:400;letter-spacing:0px;">剩余幸运兑换券数量：</span>
+      <span data-style="" id="Hold_7481" data-index="-1" data-item="lottery_num_id" class="luban-jf luban-color-text-warning luban-data-jifen" data-dsinfo="Hold_7481" style="display:none;">--</span>
+    </p>
+  </div>
+</div>
+<div class="luban-template luban-template7">
+  <img class="luban-template-bg luban-color-bg2" data-index="-1" data-item="bg" src="//game.gtimg.cn/images/jf/lbact/a20191216mildwinter/bg7.jpg">
+  <div class="luban-template-28 clearfix">
+    <h2 data-style="" data-index="-1" data-item="title" class="luban-text luban-text-title luban-color-text">活动规则</h2>
+    <ul data-style="" data-index="-1" data-item="text" class="luban-text rule-box luban-color-text luban-text-rule">
+    	<li><i class="one"></i><p>活动时间：2019年12月23日-2020年1月14日23:59；</p></li>
+  			<li><i class="two"></i><p>活动对象：疾风之刃全体玩家；</p></li>
+  			<li class="li-3"><i class="three"></i><p>领取规则：*活动期间每日登录游戏可领取2张疾风劵，单账号每日限领1次；<br>*活动期间每日疲劳值消耗至低于50点，可领取4张疾风劵，单账号每日限领1次；<br>*活动期间周末登录游戏可领取2张疾风劵;<br>*新职业祝福礼包仅限女剑士转职“鬼剑帝”后领取.</p></li>
+  			<li class="li-4"><i class="four"></i><p>奖品获得：消耗2张疾风劵参与一次疾风幸运转盘，100%获奖，获得的游戏道具直接发放至游戏邮箱，获得888Q币大奖及<br>腾讯视频会员，请于10-15分钟登录相关账号查看。</p></li>
+    </ul>
+  </div>
+</div></div>
+        </div>
+        <!--a href="javascript:popup.popHide();" class="popup-close">&times;	</a-->
+    </div>
+    <!--此div用于让qq分享后的缩略图内容显示-->
+    <div style="display: none;">疾风之刃-官方网站-3D动漫风超动作网游-腾讯游戏<p>《疾风之刃》是一款超动作3D动漫风网游。作为新一代动作游戏，《疾风之刃》呈现出极致华丽的动作表演，精心打磨出的打击感震撼人心。多变创新的战斗系统，配合丰富的连续技，给玩家最爽快、最带感的战斗体验。玩家们将化身个性十足的动漫人物，亲自在“一部可以玩的动漫片”中，尽情释放超动作。</div>
+    <div class="act_pop act_pop_blue" id="showAlert" style="display:none;">
+        <a href="javascript:closeDialog();" title="关闭" class="act_pop_close">&times;</a>
+        <h2 class="act_pop_sprite">消息提示</h2>
+        <div class="act_pop_main">
+            <p class="text_c" id="showAlertContent"></p>
+            <a href="javascript:closeDialog();" title="确认" class="btn-submit">确认</a>
+        </div>
+    </div>    
+    
+    
+    <!-- 我的礼包记录 -->
+    <div class="act_pop act_pop_blue" id="showMyGiftContent" style="display:none;">
+        <a href="javascript:giftDialogHide();" title="关闭" class="act_pop_close">&times;</a>
+        <h2 class="act_pop_sprite">我的礼包记录</h2>
+        <div class="act_pop_main">
+            <table class="act_pop_table">
+                <thead>
+                <tr>
+                    <th class="showGiftArea">获奖大区</th>
+                    <th>所获礼包</th>
+                    <th>获奖时间</th>
+                    <th style='display:none;'>CDKEY</th>
+                </tr>
+                </thead>
+                <tbody id="getGiftContent"></tbody>
+                <tfoot>
+                <tr>
+                    <td id="getGiftPageContent" align="center" colspan="4"></td>
+                </tr>
+                </tfoot>
+            </table>
+            <p class="font_s12"><b>温馨提示</b>：虚拟道具奖品将在24小时内发到您的游戏内，请耐心等候，谢谢您的理解与支持！</p>
+        </div>
+    </div>
+    <!--填写实体地址-->
+    <div id="personInfoContent" class="act_pop act_pop_blue"  style="display:none;">
+        <a href="javascript:;" id="colseLayer" class="act_pop_close act_pop_sprite">&times;</a>
+        <h2 class="act_pop_sprite">填写实物收货地址</h2>
+        <div class="act_pop_main">
+            <p class="font_s12"><b>温馨提示</b>：为保证实物奖励能准确邮寄，下面所有项目务必详细填写！<span class="act_pop_orange">未获得实物奖励请勿填写</span></p>
+            <form id="user_userInfoform" name="user_userInfoform_476002">
+                <table  class="adr">
+                    <tbody>
+                    <tr id="tr_package" style='display: none;'>
+                        <td  class="ta-r">所获实物：</td>
+                        <td><select name="sPackageInfo" id="package"></select></td>
+                    </tr>
+                    <tr >
+                        <td class="ta-r" width="100"> 姓名：</td>
+                        <td><input class="ipt1" type="text" name="sName" id="sName"></td>
+                    </tr>
+                    <tr>
+                        <td  class="ta-r"> 身份证号码：</td>
+                        <td><input class="ipt2" type="text" name="sIdentity" id="sIdentity"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="ta-r"> 手机号码：</td>
+                        <td><input name="sMobile" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td class="ta-r">所在城市：</td>
+                        <td><select name="sProvince" id="province" ></select> 省 <select name="sCity" id="city"></select> 市</td>
+                    </tr>
+
+                    <tr>
+                        <td class="ta-r"> 详细地址：</td>
+                        <td><textarea name="sAddress" rows="3" class="ipt2" id="sAddress"></textarea></td>
+
+                    </tr>
+                    <tr>
+                        <td class="ta-r"> 邮编：</td>
+                        <td><input class="ipt1" type="text" name="sPostCode" id="sPostCode"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a href="javascript:;" class="btn-submit" id="personInfoContentBtn">提交</a></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+    </div>
+
+    <!-- 邀请好友的模板-->
+    <div class="act_pop  act_pop_blue" id="invitate" style="display:none;">
+        <a href="javascript:showDialog.hide();" title="关闭" class="act_pop_close">×</a>
+        <h2 class="act_pop_sprite">邀请好友</h2>
+        <div class="act_pop_main">
+            <div class="Qr_code">
+                <span id="qrcode"></span>
+                <p>扫描二维码分享</p>
+            </div>
+            <p class="text_c">你的专属邀请链接为：</p>
+            <div class="cdkey"><input id="copyInput" value=""><a href="javascript:copy()" title="复制" class="btn-copy "><span>复制</span></a></div>
+            <div class="moreBtn">
+                <a href="javascript:invtShareFrd()" title="立即分享" class="btn-submit share-QFrd">分享QQ好友</a>
+                <a href="javascript:shareQZone();" title="立即分享" class="btn-submit share-QZone">分享QQ空间</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 绑定好友的模板 -->
+    <div class="act_pop act_pop_blue" id="BindFriends" style="display:none;">
+        <a href="javascript:showDialog.hide();" title="关闭" class="act_pop_close">×</a>
+        <h2 class="act_pop_sprite">绑定好友</h2>
+        <div class="act_pop_main">
+            <textarea class="text_c" disabled></textarea>
+            <a href="javascript:acceptBind()" title="绑定好友" class="btn-submit">绑定好友</a>
+        </div>
+    </div>
+
+    <!-- 我的赠礼记录的模板 -->
+    <div class="act_pop  act_pop_blue" id="giftList" style="display:none;">
+        <a href="javascript:showDialog.hide();" title="关闭" class="act_pop_close">×</a>
+        <h2 class="act_pop_sprite">我的赠礼记录</h2>
+        <div class="act_pop_main">
+            <table class="act_pop_table">
+                <thead>
+                <tr>
+                    <th>好友</th>
+                    <th>赠礼</th>
+                    <th>时间</th>
+                </tr>
+                </thead>
+                <tbody id="giftListBody"></tbody>
+                <tfoot>
+                <tr>
+                    <td colspan="4"> <span><em class="curPage">1</em>/<em class="totalPage">1</em>页</span> <a title="#" class="pageprenone" href="javascript:prePage('B')">上一页</a><a title="#" class="pagenextnone" href="javascript:nextPage('B')">下一页</a></td>
+                </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+
+    <!--我的邀请列表-->
+    <div class="act_pop  act_pop_blue" id="invitate_record" style="display:none;">
+        <a href="javascript:showDialog.hide();" title="关闭" class="act_pop_close">×</a>
+        <h2 class="act_pop_sprite">我的邀请列表</h2>
+        <div class="act_pop_main">
+            <table class="act_pop_table">
+                <thead>
+                <tr>
+                    <th>用户</th>
+                    <th>关系</th>
+                    <th>状态</th>
+                    <th>时间</th>
+                </tr>
+                </thead>
+                <tbody id="myInviteList"></tbody>
+                <tfoot>
+                <tr>
+                    <td colspan="4"> <span><em class="curPage">1</em>/<em class="totalPage">1</em>页</span> <a title="#" class="pageprenone" href="javascript:prePage('A')">上一页</a><a title="#" class="pagenextnone" href="javascript:nextPage('A')">下一页</a></td>
+                </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+
+</div><div class="act_pop act_pop_blue z_c_box" id="lbConfirmDlg" style="display:none;">
+    <a href="javascript:closeDialog();" title="关闭" class="act_pop_close">&times;</a>
+    <h2 class="act_pop_sprite">消息提示</h2>
+    <div class="act_pop_main">
+        <p class="text_c" id="lbConfirmDlgText"></p>
+        <a href="javascript:showDialog.hide();amsSubmit(iActivityId,0);" title="确认" class="btn-submit">确认</a>
+    </div>
+</div>
+
+<div class="act_pop  act_pop_blue z_c_box" id="showMyGiftContent_0" style="display:none;">
+        <a href="javascript:myGiftList_0.close();" title="关闭" class="act_pop_close">×</a>
+        <h2 class="act_pop_sprite">我的暂存箱</h2>
+        <div class="act_pop_main">
+          <table class="act_pop_table">
+            <thead>
+            <tr>                
+              <th>礼包</th>
+              <th>领取大区</th>
+              <th>操作</th>
+            </tr>
+            </thead>
+            <tbody id="getGiftContent_0">
+            </tbody>
+            <tfoot>
+              <tr>
+              <td id="getGiftPageContent_0" colspan="3"></td>
+              </tr>
+            </tfoot>
+          </table>
+          <p class="font_s12"><b>温馨提示</b>：虚拟道具奖品将在24小时内发到您的游戏内仓库，请耐心等候，谢谢您的理解与支持！</p>
+          </div>
+      </div>
+      <script type="text/html" id="getGiftTemplate_0">
+        {if MyGiftListObject.iRet!='0'}
+        <tr>
+          <td colspan="3" align="center">${MyGiftListObject.sMsg}</td>
+        </tr>
+        {else}
+        {for giftInfo in MyGiftListObject.myGiftList}
+        <tr>                    
+          <td>${giftInfo.packageName}</td>
+          <td>${giftInfo.areaName}</td>
+          <td class="cz_td">
+            {if giftInfo.iStatus == "3"}
+            <span onclick="javascript:doBoxUserGet(${giftInfo.id},${giftInfo.iPackageId},'${giftInfo.packageName}',${giftInfo.iPackageGroupId});">发送到仓库</span>
+            {/if}
+            {if giftInfo.iStatus == "2"}
+            <span>已领取</span>
+            {/if}
+            <span style='display:none;'>分解到积分</span>
+          </td>
+          <!--td>${giftInfo.getTime}</td-->
+        </tr>
+        {forelse}
+        <tr class="noPackage">
+          <td colspan="3">您尚未获得任何礼包</td>
+        </tr>
+        {/for}
+        {/if}
+</script>
+
+<script type="text/html" id="getGiftTemplate">
+    {if MyGiftListObject.iRet!='0'}
+    <tr>
+        <td colspan="4" align="center">${MyGiftListObject.sMsg}</td>
+    </tr>
+    {else}
+    {for giftInfo in MyGiftListObject.myGiftList}
+    <tr>
+        {if window.iGiftArea=='1'}
+        {if giftInfo.areaName !== '0'}
+        <td>${giftInfo.areaName}</td>
+        {else}
+        <td></td>
+        {/if}
+        {/if}
+        <td>${giftInfo.packageName}</td>
+        <td>${giftInfo.getTime}</td>
+        <td style='display:none;'>${giftInfo.sCdkey}</td>
+    </tr>
+    {forelse}
+    <tr>
+        <td colspan="4" align="center">您尚未获得任何礼包</td>
+    </tr>
+    {/for}
+    {/if}
+</script>
+<script>
+	var host = window.location.host ;
+	if(!popup.isMobile()) {
+	    var domain = document.domain ;
+        
+        if(pageType != 3){
+            if(host != "act.daoju.qq.com"){
+                popup.loadjs("//game.gtimg.cn/images/js/title.js",function(){});  
+	    	}else { //djc的头部
+	    	    
+            }
+            popup.loadjs("//game.gtimg.cn/images/js/2018foot/foot.js",function(){});   
+        }
+	}else {
+			if(host == "act.daoju.qq.com"){
+	    		var a = setInterval(function( ){  
+	    			//console.log("inter");
+						if(document.getElementsByClassName("ost_box").length == 1){
+							document.getElementsByClassName("ost_box")[0].style.display = 'none'
+							//console.log("kill");
+							clearInterval(a);
+						}
+					},200);
+	    }
+    }
+
+    // if(pageType == 1 && popup.isMobile() || pageType == 3 || pageType == 2 && popup.isMobile()  ){
+   	//console.log('gogog=====');
+(function(doc, win) {
+    var screenWidth = document.body.clientWidth;
+    if (pageType === 2 && popup.isMobile() && screenWidth < 1000) { // pc在移动端打开进行兼容
+        // var scale = 1 / window.devicePixelRatio;
+        var scale = screenWidth / 1000;
+        document.querySelector('meta[name="viewport"]').setAttribute('content','width=device-width,initial-scale=' + scale + ', user-scalable=no, maximum-scale=' + scale + ', minimum-scale=' + scale);
+    }
+	var docEl = doc.documentElement,
+	    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+        recalc = function() {
+            var clientWidth = docEl.clientWidth;
+            if (!clientWidth) return;
+            docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+        };
+	if (!doc.addEventListener) return;
+	win.addEventListener(resizeEvt, recalc, false);
+	doc.addEventListener('DOMContentLoaded', recalc, false);
+})(document, window);
+//    }
+</script>
+<script src="//ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js"></script>
+<script type="text/javascript" charset="gbk" src="//ossweb-img.qq.com/images/js/jquery/jquery-1.9.1.min.js"></script>
+<script>
+    var NO_ACT_HELPER = 1;
+    // 此段代码不能放到外链JS中，
+    var setSite={ //设置网站属性
+        siteType:"a20191216mildwinter", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+        pageType:"index", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN
+        pageName:"首页", //必填项:页面中文名
+        osact:0, //选填项:是否是官网专题(在官网运营的专题)boolean；默认是0；可以在链接上加入参数osact=1来灵活设置
+        ingame:0, //选填项:是否投放在游戏APP内boolean；默认是0；可以在链接上加入参数ingame=1来灵活设置
+        stayTime:0 //选填项:是否需要统计停留时长boolean；默认是0
+    }
+    if(typeof(pgvMain)=='function')pgvMain();//千万不能忘记！
+
+    //获取url参数
+    function getUrlParam(name, url) {
+        //参数：变量名，url为空则表从当前页面的url中取
+        var u = arguments[1] || window.location.search,
+            reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"),
+            r = u.substr(u.indexOf("\?") + 1).match(reg);
+        return r != null ? r[2] : "";
+    }
+    var basejs = [
+        // '//ossweb-img.qq.com/images/js/jquery/jquery-1.9.1.min.js', // 这里不需要可以删除哈
+        '//ossweb-img.qq.com/images/js/milo_bundle/milo.js',
+    ];
+    var _isMobile_ = function(){
+        return /iphone|ios|android|mini|mobile|mobi|Nokia|Symbian|iPod|iPad|Windows\s+Phone|MQQBrowser|wp7|wp8|UCBrowser7|UCWEB|360\s+Aphone\s+Browser|blackberry/i.test(navigator.userAgent);
+    };
+    if(_isMobile_()){
+        basejs = [
+
+            // '//ossweb-img.qq.com/images/js/jquery/jquery-1.9.1.min.js',// 这里不需要可以删除哈
+            '//ossweb-img.qq.com/images/js/mobile_bundle/util/zepto.js',
+            '//ossweb-img.qq.com/images/js/mobile_bundle/milo.js',
+        ]
+    }
+    for (var i = 0; i < basejs.length; i++) {
+        document.write('<script type="text/javascript" src="' + basejs[i] + '"></s'+'cript>');
+    }
+    //import js of templateLib (include lotteryBox init js)
+    
+function initLotteryEvent(){};
+window.SWFOBJ1 = new Lottery({
+ id: 'lottery1', // id
+ prefix: 'lottery-unit-', // class前缀，编号从0开始
+ circle: 2, // 最少圈数
+ onStart:callJsToStart,
+ callback:callJsToComplete 
+});
+
+function callJsToStart() {
+  SWFOBJ1.stopRoll(3, '恭喜您获得奖励'); // 成功回调中调用
+}
+function callJsToComplete(msg) {
+  alert(msg);
+  SWFOBJ1.enable();
+}
+
+
+//js block from template lib
+
+</script>
+
+<!--script type="text/javascript" src="//jf.qq.com/lbact/a20191216mildwinter/popupJson.js"></script bridgeIndex-->
+<script type="text/javascript" charset="gbk" src="//ossweb-img.qq.com/images/ams/atm/reporting.js?action=276616"></script>
+<script type="text/javascript" charset="gbk" src="//jf.qq.com/lbact/a20191216mildwinter/bridgeTpl_1011.js"></script>
+<script type="text/javascript" charset="gbk" src="//jf.qq.com/lbact/a20191216mildwinter/bridgeIndex_1011_index.js"></script>
+<script type="text/javascript" charset="gbk" src="//jf.qq.com/lbact/a20191216mildwinter/popup.js"></script>
+<!--script charset="gbk" src="//ossweb-img.qq.com/images/js/bsCommonFiles/msdkshare/msdkshare.js"></script-->
+<script type="text/javascript" src="//game.gtimg.cn/images/cf/testToolApp/pageTest.js"></script>
+<script type="text/javascript" src="//jf.qq.com/lbact/a20191216mildwinter/lb_diy_ext_1011.js"></script>
+<!--页面类型-->
+<script type="text/javascript" id="templatetype" pageiBtnGraySwitch='1' templatetype="2" servicetype="jf" gametype="1">window.templatetype=2;window.servicetype="jf";window.gametype=1;</script>
+<script type="text/javascript" id="shareinfooftypeone" sShareTitle='' sShareDesc='' sShareImgUrl='' sShareLink=''></script>
+</body>
+</html>

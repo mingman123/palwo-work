@@ -1,0 +1,178 @@
+/* pc 暂存箱的弹窗 */
+.z_c_box{
+    background: #fff;
+    display: inline-block;
+}
+.z_c_box .act_pop_table th{
+    background-color: #f2f6ff;
+    color:#535456;
+    font-weight: bold;
+    text-align: center
+}
+.z_c_box .act_pop_table td{
+    color: #868686;
+    border: 1px solid #eeeeee
+}
+.z_c_box .cz_td {
+    width: 300px;   
+}
+.z_c_box .cz_td span{
+    display: inline-block;
+    border: 1px solid #dbdbdb;
+    cursor: pointer;
+    padding: 0 8px;
+    margin: 0 4px;
+}
+.z_c_box .noPackage td{
+    color: #7c95b8;
+}
+.z_c_box thead tr{
+    border: 1px solid #eee;
+    border-bottom:none;
+}
+.z_c_box .text_c{
+    color: #868686;
+}
+/* pc 暂存箱的弹窗 */
+/*PC����ʽ*/
+.luban-template-46>img {
+    width: 1000px;
+    height: 480px;
+}
+.luban-template-46>span {
+    position: absolute;
+    bottom: 75px;
+    left: 0;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    color: #999999;
+    min-height: 36px;
+}
+.luban-template-23>div {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.luban-template-23 p {
+    line-height: 24px;
+    font-size: 20px;
+}
+.luban-template-23 .color-red {
+    color: red;
+}
+.luban-template-48 h2 {
+    margin-top: 36px;
+}
+.luban-template-48 .text1 {
+    margin-top: 10px;
+}
+.luban-template-48 .img1 {
+    width: 1000px;
+    height: 500px;
+    margin-top: 20px;
+}
+.luban-template-48 .luban-button {
+    margin-top: 32px;
+}
+.luban-template-48 .text2 {
+    margin-top: 10px;
+    margin-bottom: 26px;
+}
+.luban-template-87 .text2 {
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+.luban-template-58 h2 {
+    margin-top: 36px;
+}
+.luban-template-58 .text1 {
+    margin-top: 10px;
+}
+.luban-template-58 .template-boxs {
+    width: 580px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 0;
+}
+.luban-template-58 .template-box {
+    width: 192px;
+    height: 266px;
+    float: left;
+}
+.luban-template-58 .template-box .template-box-item {
+    position: relative;
+}
+.luban-template-58 .template-box .template-box-item .img-bg {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+.luban-template-58 .template-box .good-text {
+    display: block;
+    line-height: 50px;
+    font-size: 20px;
+    color: #555555;
+    height: 50px;
+}
+.luban-template-58 .luban-button {
+    margin-top: 4px;
+}
+.luban-template-58 .text2 {
+    margin-top: 14px;
+    margin-bottom: 26px;
+}
+.luban-template-82 .lottery-box {
+    height: 420px;
+}
+.luban-template-82 li .luban-button {
+    width: 100%;
+    height: 100%;
+    display: table;
+    cursor: pointer;
+}
+.luban-template-82 li span.grey-cover {
+    display: none;
+    height: 100%;
+}
+.luban-template-82 li .luban-button .luban-text {
+    color: white;
+    font-size: 38px;
+    height: 100%;
+    vertical-align: middle;
+    display: table-cell;
+    position: inherit;
+}
+.luban-template-82 .lottery-box li {
+    width: 20%;
+}
+.luban-template-82 .lottery-box li.big-lottery-area {
+    width: 60%;
+}
+.luban-template-82 h2 {
+    margin-top: 36px;
+}
+.luban-template-82 .text1 {
+    margin-top: 10px;
+}
+.luban-template-82 .luban-button {
+    margin-top: 26px;
+}
+.luban-template-82 .text2 {
+    margin-top: 22px;
+    margin-bottom: 26px;
+}
+.luban-template-28 h2 {
+    margin-top: 36px;
+}
+.luban-template-28 .rule-box {
+    width: 100%;
+    margin-top: 26px;
+    margin-bottom: 46px;
+    padding: 30px 40px;
+    background-color: white;
+    border: 2px solid #cccccc;
+    text-align: left;
+    font-size: 16px;
+    line-height: 30px;
+}
+.luban-template{margin-top:20px;}
