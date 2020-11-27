@@ -1,0 +1,202 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+ol,ul{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+input,textarea,select{font-size:100%;}
+input,a{text-decoration: none; outline: none; color: #FFFFFF;-webkit-appearance: none; -webkit-tap-highlight-color:rgba(255,255,255,0);}
+.hid{text-indent:-9999px;font-size:0px;overflow:hidden;width:0px;height:0px;display:block;}
+.hidden{font-size:0px;}
+body,button,input,select,textarea{font:12px/1.5 "Microsoft YaHei",Helvetica,\5b8b\4f53,sans-serif;}
+
+/*Çå³ý¸¡¶¯*/
+.clearfix:after,.clearfix:before{content:"";display:table;}
+.clearfix:after{clear:both;}
+ /* ±³¾° */
+.spr{background: url(//game.gtimg.cn/images/actdaoju/act/a20200401glory/spr.png) no-repeat;}
+.wrap{min-width: 1200px;height:auto;overflow: hidden;position:relative ;}
+.inner{background: url(//game.gtimg.cn/images/actdaoju/act/a20200401glory/bg1.jpg) no-repeat center top;min-width: 1200px;height:820px;margin: 0 auto;overflow: hidden;}
+.head{background: url(//game.gtimg.cn/images/actdaoju/act/a20200401glory/bgc1.jpg) no-repeat center top;width: 1200px;height:820px;margin: 0 auto;position: relative;overflow: hidden;}
+.content{background: url(//game.gtimg.cn/images/actdaoju/act/a20200401glory/bg2.jpg) no-repeat center top;min-width: 1200px;height:3450px;margin: 0 auto;overflow: hidden;}
+.cont{background: url(//game.gtimg.cn/images/actdaoju/act/a20200401glory/bgc2.jpg) no-repeat center top;width: 1200px;height:3450px;margin: 0 auto;}
+/*logo*/
+.logo1{background: url(//game.gtimg.cn/images/actdaoju/act/a20200401glory/logo1.png) no-repeat;width:216px;height:36px;display: block;position: absolute;top: 68px;left: 156px;}
+.logo2{background: url(//game.gtimg.cn/images/actdaoju/act/a20200401glory/logo2.png) no-repeat;width:110px;height:36px;display: block;position: absolute;top: 68px;left: 390px;}
+/* µÇÂ½ */
+.login{position: absolute;top: 454px;right: 0; display: block; width: 100%; text-align: center; font-size: 16px;  color: #FFFFFF;z-index: 99; }  
+.login a{color: #FFFFFF;}
+.login a:hover{-webkit-filter:brightness(1.1);-o-filter:brightness(1.1);-moz-filter:brightness(1.1);filter:brightness(1.1);}
+.act-time{width: 76%;text-align: center;color: #ffff;font-size: 20px;position: absolute;top: 410px;left: 0px;}
+.head-buy{width: 92%;height: 220px;padding-top: 504px;padding-left: 76px;}
+.head-buy li{float: left;background: url(//game.gtimg.cn/images/actdaoju/act/a20200401glory/bg-head.png) no-repeat;width: 359px;height: 225px;position: relative;font-size: 20px;}
+.head-buy li.second{position: relative;left: -10px;top: 0;}
+.head-buy li.third{position: relative;left: -20px;top: 0;}
+.head-buy span{display: block;position: absolute;top: 9px;left: 12px;color: #ffffff;background-position: -478px 0px;width:151px;height:96px;text-align: center;line-height: 54px;font-size: 16px;}
+.head-buy span i{transform: rotate(-32deg);font-style: normal;display: block;width: 100px;}
+.head-buy p{color: #34040f;text-align: center;padding-top: 48px;padding-bottom: 42px;font-size: 22px;}
+.head-buy b{font-weight: normal;}
+.head-buy .btn-buy{color: #ffffff;text-align: center;font-size: 32px;display: block;}
+.head-buy .btn-buy:hover{-webkit-filter:brightness(1.1);-o-filter:brightness(1.1);-moz-filter:brightness(1.1);filter:brightness(1.1);}
+/* cont1 */
+.cont1{width: 1200px;height: 630px;position: relative;}
+.my-box{text-align: center;padding-top: 4px;width: 1200px;height: 76px;margin: 0 auto;font-size: 0;}
+.my-box p,.my-box a{display: inline-block;*display:inline;*zoom:1;vertical-align:top;}
+.my-box a:hover{-webkit-filter:brightness(1.1);-o-filter:brightness(1.1);-moz-filter:brightness(1.1);filter:brightness(1.1);}
+.my-box p{width: 230px;height: 54px;color: #ffffff;text-align: center;font-size: 18px;line-height: 54px;font-weight: bold;}
+.my-box p span{color: #f0f063;font-size: 22px;display: inline-block;*display:inline;*zoom:1;vertical-align:top;line-height: 54px;}
+.my-box a{background-position: -662px 0;width: 212px;height: 69px;}
+.cont1 ul{background: url(//game.gtimg.cn/images/actdaoju/act/a20200401glory/bg-box1.png) no-repeat;width: 1084px;height:240px;margin: 0 auto;}
+.cont1 ul li{width: 180px;height:auto;float: left;padding-top: 16px;}
+.cont1 ul img{background: url(//game.gtimg.cn/images/actdaoju/act/a20200401glory/bg-prop1.png) no-repeat;width: 135px;height:148px;margin: 0 auto;display: block;}
+.cont1 ul li p{text-align: center;color: #fff7f9;font-size: 14px;line-height: 20px;padding-top: 4px;}
+.cont1 .btn-lot{background-position: -448px -110px;width: 320px;height: 96px;display: block;margin: 8px auto 0;}
+.cont1 .btn-lot:hover{-webkit-filter:brightness(1.1);-o-filter:brightness(1.1);-moz-filter:brightness(1.1);filter:brightness(1.1);}
+.cont1 .lot-txt{text-align: center;color: #FFFFFF;font-size: 16px;line-height:40px;width: 100%;display: none;}
+ 
+/*cont2*/
+.cont2{width: 1200px;height: 1580px;margin: 0 auto;position: relative;}
+
+.cont2 .box2-1{width: 1200px;height:auto;margin: 0 auto;position: relative;}
+.cont2 .box2-1 ul{width: 542px;height: 208px;margin: 0 auto;margin: 0 auto;}
+.cont2 .box2-1 ul li{width: 180px; height: 208px;float: left;position: relative;} 
+.cont2 .box2-1 ul img{background: url(//game.gtimg.cn/images/actdaoju/act/a20200401glory/bg-prop2b.png) no-repeat;width:161px;height:216px;margin: 0 auto;display: block;}
+.cont2 .box2-1 ul .first img{background: url(//game.gtimg.cn/images/actdaoju/act/a20200401glory/bg-prop2-1b.png) no-repeat;}
+.cont2 .box2-1 ul p{width: 84%;color: #901d28;text-align: center;font-size: 15px;line-height: 24px;padding-top: 8px;position: absolute;left: 0px;bottom: 54px;font-weight: bold;}
+.cont2 .box2-1 ol {width: 1080px;height: 400px;margin: 0 auto;}
+.cont2 .box2-1 ol li{width: 180px; height: 192px;float: left;} 
+.cont2 .box2-1 ol img{background: url(//game.gtimg.cn/images/actdaoju/act/a20200401glory/bg-prop2-1s.png) no-repeat;width: 137px;height:152px;margin: 0 auto;display: block;}
+.cont2 .box2-1 ol p{color: #fff7f9;text-align: center;font-size: 14px;line-height: 20px;}
+.cont2 .btns {width: 1200px;height: 78px;text-align: center;padding-top: 10px;}
+.cont2 .btns a{display: inline-block;*display:inline;*zoom:1;vertical-align:top;width:218px;height: 78px;}
+.cont2 .btns a:hover{-webkit-filter:brightness(1.1);-o-filter:brightness(1.1);-moz-filter:brightness(1.1);filter:brightness(1.1);}
+.cont2 .btns .btn-gain1{background-position: -444px -252px;}
+.cont2 .btns .btn-gain10{background-position: -678px -252px;margin-left: 18px;}
+/*.cont2 .btns .btn-choice1{background-position: -465px -368px;margin-left: 46px;margin-right: 18px;}
+.cont2 .btns .btn-choice10{background-position: -703px -368px;}*/
+.cont2 .box2-2{width: 1200px;height: auto;margin: 0 auto;position: relative;text-align: center;font-size: 0;}
+.cont2 .box2-2 li{text-align: center;margin-top: 22px;position: relative;display: inline-block;*display:inline;*zoom:1;vertical-align:top;}
+.cont2 .box2-2 li.second{margin: 22px 30px 0;}
+/*.cont2 .box2-2 li.four{margin: 22px 18px 0 204px;}*/
+.cont2 .box2-2 .pic-box{background: url(//game.gtimg.cn/images/actdaoju/act/a20200401glory/bg-prop2.png) no-repeat;width: 318px;height: 261px;}
+.cont2 .box2-2 .first .pic-box{background: url(//game.gtimg.cn/images/actdaoju/act/a20200401glory/bg-prop2-2.png) no-repeat;}
+.cont2 .box2-2 .pic-box span{display: block;line-height: 44px;color: #fff7f9;font-size: 18px;font-weight: bold;}
+.cont2 .box2-2 .pic-box img{display: block;margin: 0 auto;}
+.cont2 .box2-2 .pic-box p{display: block;line-height: 42px;color: #5a1c26;font-size: 20px;}
+.cont2 .box2-2 .btn-box{padding-top: 14px;text-align: center;display: none;}
+.cont2 .box2-2 a,.cont3 .box2-2 select{display: inline-block;*display:inline;*zoom:1;vertical-align:top;text-align: center;}
+.cont2 .box2-2 a{background-position: -896px 0;width: 140px;height: 46px;margin-right: 20px;}
+.cont2 .box2-2 a:hover{-webkit-filter:brightness(1.1);-o-filter:brightness(1.1);-moz-filter:brightness(1.1);filter:brightness(1.1);}
+.cont2 .box2-2 select{-webkit-appearance:none; -moz-appearance: none;appearance:none;border:none;background: url(//game.gtimg.cn/images/actdaoju/act/a20200401glory/sel.png) no-repeat #7d2735;width: 140px;height: 46px;color: #FFFFFF;font-size: 18px;line-height: 48px;padding-left: 30px;}
+.cont2 .box2-2 select::-ms-expand{color: #fff;font-size:30px;padding:2px 18px;background: #b89e61;}
+.cont2 .txt{text-align: center;height: 150px;}
+.cont2 .txt p{display: inline-block;*display:inline;*zoom:1;vertical-align:top;width:218px;height: 30px;margin: 0 9px;color: #fff7f9;font-size: 14px;line-height:22px;} 
+.cont2 .txt span{color: #f0f063;font-size: 16px;line-height:34px;font-weight: bold;display: block;}
+
+/*cont3*/
+.cont3{width: 1200px;height: 652px;margin: 0 auto;position: relative;}
+.cont3 .box{width: 1200px;height: 342px;margin: 0 auto;position: relative;}
+.cont3 .bg-speed{background: url(//game.gtimg.cn/images/actdaoju/act/a20200401glory/bg-speed.png) no-repeat center top;width: 1028px;height: 38px;position: absolute;top: 40px;left: 82px;}
+.cont3 .speed{background: url(//game.gtimg.cn/images/actdaoju/act/a20200401glory/speed.png) no-repeat left top;width:100%;height: 38px;position: absolute;top: 0;left: 0;max-width: 100%;}
+.cont3 ul {width: 1018px;height: 342px;margin: 0 auto;}
+.cont3 ul li{float: left;width: 134px;height:342px;position: relative;margin-right: 86px;}
+.cont3 ul li.last{margin-right: 0;}
+.cont3 ul li .num{color: #181516;text-align: center;font-size: 20px;line-height: 50px;padding-bottom: 24px;}
+.cont3 ul .img-box{width: 127px;height:148px;position: relative;overflow: hidden;}
+.cont3 ul img{background: url(//game.gtimg.cn/images/actdaoju/act/a20200401glory/bg-prop1.png) no-repeat;width: 135px;height:148px;margin: 0 auto;display: block;position: relative;left: -5px;top: 0;}
+.cont3 ul a{width: 116px;height: 56px;display: block;margin: 2px auto;}
+.cont3 ul a:hover{-webkit-filter:brightness(1.1);-o-filter:brightness(1.1);-moz-filter:brightness(1.1);filter:brightness(1.1);}
+.cont3 ul .btn-geted{background-position: -822px -110px;}
+.cont3 ul .btn-get{background-position: -998px -110px;pointer-events: none; cursor: initial;}
+.cont3 ul .btn-got{background-position: -998px -196px;pointer-events: none; cursor: initial;}
+.cont3 .my-txt{height: 54px;color: #333333;text-align: center;font-size: 16px;line-height:40px;display: inline-block;*display:inline;*zoom:1;vertical-align:top;}
+.cont3 .my-txt1{width: 350px;text-align: right;margin-right: 50px;}
+.cont3 .my-txt2{width: 750px;text-align: left;}
+.cont3 .my-txt span{color: #c12b30;}
+
+
+/*cont4*/
+.cont4{width: 1200px;height: auto;margin: 0 auto;position: relative;}
+.cont4 ul{width: 1170px;height: auto;margin: 0 auto;position: relative;padding-top: 20px;}
+.cont4 ul li{color: #ffffff;font-size: 16px;text-align: left;line-height: 28px;position: relative;padding-left: 20px;padding-bottom: 20px;}
+.cont4 li span{position: absolute;top: 0;left: -4px;}
+/*title*/
+.title{margin: 0 auto;width:360px;height:49px;}
+.title1{background-position: 0 0;}
+.title2{background-position: 0 -147px;}
+.title2-2{background-position: -832px -332px;width:301px;height:57px;}
+.title3{background-position: 0 -268px;}
+.title4{background-position: 0 -389px;}
+.desc{color: #ffffff;font-size: 26px;line-height: 64px;text-align: center;font-weight: bold;}
+.my{width:100%;height: 54px;color: #ffffff;text-align: center;font-size: 18px;line-height: 44px;font-weight: bold;padding-bottom: 6px;}
+.my span{color: #f0f063;font-size: 22px;display: inline-block;*display:inline;*zoom:1;vertical-align:top;line-height: 44px;}
+
+/*¸¡²ã*/
+/*.fc-box1{background: url(//game.gtimg.cn/images/actdaoju/act/a20200401glory/bg-fc1.png) no-repeat;width: 316px;height: 227px;position: absolute;top: -220px;left: 0;z-index: 2;display: none;}
+.fc-box1 .fc{display: table;width: 90%;margin: 0 auto;height: 216px;}*/
+.fc-box1{background: url(//game.gtimg.cn/images/actdaoju/act/a20200401glory/bg-fc2.png) no-repeat;width: 315px;height: 150px;position: absolute;top: -138px;left: -2px;z-index: 2;display: none;}
+.fc-box1 .fc{display: table;width: 90%;margin: 0 auto;height: 136px;}
+.fc p{display: table-cell;vertical-align: middle;text-align: center;text-align: center;color: #fff7f9;font-size: 14px;line-height: 24px;}
+.box2-2 li:hover .fc-box1{display: block;}
+.fc-box2{background: url(//game.gtimg.cn/images/actdaoju/act/a20200401glory/bg-fc2.png) no-repeat;width: 315px;height: 150px;position: absolute;top: -56px;left: -93px;z-index: 2;display: none;}
+.fc-box2 .fc{display: table;width: 90%;margin: 0 auto;height: 136px;}
+.cont3 ul li:hover .fc-box2{display: block;}
+
+/*sid*/
+.sid{position: fixed;top: 50%;right: 110px;margin-top: -198px;background: url(//game.gtimg.cn/images/actdaoju/act/a20200401glory/bg-code.png)no-repeat;width: 238px;height: 396px;}
+.sid img{display: block;margin: 30px auto 14px;}
+.sid p{width: 70%;margin: 0 auto;color: #e9e3e4;font-size: 14px;line-height: 24px;text-align: left;}
+.sid a{background: url(//game.gtimg.cn/images/actdaoju/act/a20200401glory/code-close.png)no-repeat;width: 32px;height: 32px;display: block;position: absolute;bottom: 4px;left: 104px;}
+
+/*µ¯´°*/
+.dialog{position: relative;}
+.dia-close{background: url(//game.gtimg.cn/images/actdaoju/act/a20200401glory/tc-close.png) no-repeat center top;width: 46px;height: 46px;position: absolute;top: 0px;right: -50px;}
+.tc-title{color: #ac1f1c;font-size: 50px;font-weight: bold;text-align: center;line-height: 80px;}
+.dia1{background: url(//game.gtimg.cn/images/actdaoju/act/a20200401glory/tc-bg2.png) no-repeat center top;width: 560px;height: 341px;text-align: center;}
+.dia1 .tc-title{padding-bottom: 40px;}
+.dia1 span{color: #ffffff;font-size: 16px;line-height: 26px;display: block;padding: 150px 0 0px;}
+.dia1 .tc-btns{padding-top: 40px;width: 560px;height: 80px;margin: 0 auto;}
+.dia1 .tc-btns a{width: 216px;height: 78px;display: inline-block;*display:inline;*zoom:1;vertical-align:top;margin: 0 8px;font-size: 0;}
+
+.dia2{background: url(//game.gtimg.cn/images/actdaoju/act/a20200401glory/tc-bg1.png) no-repeat center top;width: 732px;height: 474px;text-align: center;padding-top: 126px;}
+.dia2 .line{width: 600px;height: 1px;background: #666666;position: absolute;top: 180px;left: 50px;}
+.dia2 ul li{font-size: 0;text-align: center;overflow:hidden;}
+.dia2 ul{width:100%;height:370px;margin: 0 auto;display: block;}
+.dia2 .btn-box{width: 100%;text-align: center;font-size: 0;}
+.dia2 .btn-box a{display: inline-block;*display:inline;*zoom:1;vertical-align:top;margin: 0 38px;font-size: 20px;color: #ffffff;}
+
+/*²à¹ö¶¯Ìõ¿í¶È*/
+/*.dia2 ul::-webkit-scrollbar {width: 10px;}*/
+/*²à¹ö¶¯ÌõµÄ±³¾°*/
+/*.dia2 ul::-webkit-scrollbar-track{background-color: #243386;border-radius: 7px;}*/
+/*²à¹ö¶¯Ìõ¹ö¶¯µÄ±³¾°*/
+/*.dia2 ul::-webkit-scrollbar-thumb{border-radius: 7px; background-color: #f0e3c9;}*/
+
+.dia2 span,.dia2 em,.dia2 b{display: inline-block;*display:inline;*zoom:1;vertical-align:top;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+
+.dia2 span{width: 330px;height: 36px;text-align: left;color: #ffffff;font-size: 14px;line-height: 36px;text-align: left;}
+.dia2 em{width: 140px;height: 36px;color: #ffffff;font-size: 14px;line-height: 36px;text-align: center;}
+.dia2 b{width: 200px;height: 36px;font-weight: normal;color: #ffffff;font-size: 14px;line-height: 36px;text-align: center;}
+.dia2 .title{color: #ffffff;font-size: 18px;font-weight: bold;line-height: 36px;padding-bottom: 10px;}
+.dia2 span.title{text-align: center;}
+
+
+.dia3{background: url(//game.gtimg.cn/images/actdaoju/act/a20200401glory/tc-bg3.png) no-repeat center top;width: 560px;height: 540px;text-align: center;padding-top: 147px;}
+.dia3 .tc-title{padding-bottom: 20px;}
+.dia3 span{color: #ffffff;font-size: 16px;line-height: 36px;display: block;}
+.dia3 .tc-btns{padding-top: 40px;width: 560px;height: 80px;margin: 0 auto;}
+.dia3 .tc-btns a{width: 216px;height: 78px;display: inline-block;*display:inline;*zoom:1;vertical-align:top;margin: 0 8px;font-size: 0;}
+.dialog .btn-sure{background: url(//game.gtimg.cn/images/actdaoju/act/a20200401glory/tc-btn-sure.png) no-repeat center top;}
+.dialog .btn-one{background: url(//game.gtimg.cn/images/actdaoju/act/a20200401glory/tc-btn-one.png) no-repeat center top;}
+.dialog .btn-ten{background: url(//game.gtimg.cn/images/actdaoju/act/a20200401glory/tc-btn-ten.png) no-repeat center top;}
+
+.tc-btns a:hover{-webkit-filter:brightness(1.1);-o-filter:brightness(1.1);-moz-filter:brightness(1.1);filter:brightness(1.1);}
+/*afooter*/
+#afooter{text-align:center; line-height:20px;color: #9a9a9a;background-color: #0e0e0e;padding: 20px 0;margin-bottom: -20px;}
+#afooter a{ color: #9a9a9a;}
