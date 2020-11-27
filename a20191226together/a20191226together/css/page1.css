@@ -1,0 +1,137 @@
+/*reset*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}
+ol,ul{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+q:before,q:after{content:''}
+abbr,acronym{border:0;font-variant:normal}
+sup{vertical-align:text-top}
+sub{vertical-align:text-bottom}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}
+input,textarea,select{*font-size:100%}
+a{text-decoration:none;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+.hid{text-indent:-9999px;font-size:0px;overflow:hidden;width:0px;height:0px;display:block}
+div,a{outline: none;}
+iframe{display: block;}
+body{font-family:"Microsoft YaHei",Helvetica,sans-serif;color:#000;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:none;-webkit-touch-callout:none;-webkit-user-select:text;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent;word-break:break-all;word-wrap:break-word; padding-top: 42px;background-color: #000;}
+html,body{position: relative; width: 100%; min-width: 1400px; max-width: 1920px; scroll-behavior:smooth;}
+/*清除浮动代码*/
+.clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.clearfloat{zoom:1}
+/*通用底部样式*/
+#afooter {background: #000000; text-align: center; position: relative; z-index: 10;}
+#afooter .wrap_ieg {width: 1000px; margin: 0 auto; padding: 30px 0;}
+#afooter p {color: #6e6e6e; line-height: 24px; font-size: 10px;}
+#afooter a {color: #6e6e6e; font-size: 12px;}
+
+/* 页面 */
+.wrap {position: relative; width: 100%; min-width: 1400px; max-width: 1920px; margin: 0 auto; overflow: hidden; scroll-behavior:smooth;}
+.main {width: 100%; height: auto; overflow: hidden; position: relative; margin: 0 auto;}
+.content {position: relative; width: 1400px; height: auto; overflow: hidden; margin: 0 auto; height: 100%;}
+.header {background: url(//game.gtimg.cn/images/yxzj/cp/a20191226together/p1-bg0.jpg) no-repeat center top; background-size: 1920px auto; height: 1106px;}
+.main1 {background: url(//game.gtimg.cn/images/yxzj/cp/a20191226together/p1-bg1.jpg) no-repeat center top; background-size: 1920px auto; height: 1156px;}
+.main2 {background: url(//game.gtimg.cn/images/yxzj/cp/a20191226together/p1-bg2.jpg) no-repeat center top; background-size: 1920px auto; height: 2028px;}
+.titles {position: relative; width: 1400px; height: 88px; overflow: hidden; margin: 0 auto; font-size: 0;}
+.main1 .titles{background: url(//game.gtimg.cn/images/yxzj/cp/a20191226together/p1-title1.png) no-repeat center top; background-size: 1400px auto;}
+.main2 .titles{background: url(//game.gtimg.cn/images/yxzj/cp/a20191226together/p1-title2.png) no-repeat center top; background-size: 1400px auto;}
+.main-txt {width: 100%; text-align: center; color: #8176a5; font-size: 20px; line-height: 24px; margin: 0 auto;padding-top: 22px;}
+.btn {transition: all ease-in-out .3s;}
+.btn:hover {transform: scale(1.1); -webkit-transform: scale(1.1); filter: brightness(1.1); -webkit-filter: brightness(1.1);}
+
+/* header */
+.logo {position: absolute; top: 30px; left: 30px; display: block; width: 212px; height: 64px; background: url(//game.gtimg.cn/images/yxzj/cp/a20191226together/logo.png) no-repeat center top; background-size: 100% auto; font-size: 0; overflow: hidden;}
+.btn-play {position: absolute; top: 546px; left: 618px; display: block; background: url(//game.gtimg.cn/images/yxzj/cp/a20191226together/btn-play.png) no-repeat center top; width: 166px; height: 176px;-webkit-animation: active 1.5s ease-out infinite;animation: active 1.5s ease-out infinite;}
+.header-time {position: absolute; top: 484px; left: 526px;background: url(//game.gtimg.cn/images/yxzj/cp/a20191226together/act-time.png) no-repeat;background-size: 346px auto;width: 346px; height: 61px;}
+.header-tab-box {position: absolute;bottom: 60px; left: 0; font-size: 0; text-align: center; margin: 0 auto; width: 100%; height: auto;}
+.header-tab-box i, .header-tab {display: inline-block; *display: inline; *zoom: 1; vertical-align: top; height: 118px; position: relative;}
+.header-tab-box i {width: 20px; background: url(//game.gtimg.cn/images/yxzj/cp/a20191226together/icon1.png) no-repeat center center; background-size: 100% auto;}
+.header-tab {width: 640px; overflow: hidden; text-align: center; font-size: 16px;line-height: 16px;color: #4c1818;}
+.header-tab span {display: block; font-size: 28px; line-height: 28px; width: 100%; font-weight: bold; padding-top: 20px; height: 40px;}
+.header-tab.on{color: #d2c8f5;}
+.header-tab1 {background: url(//game.gtimg.cn/images/yxzj/cp/a20191226together/header-tab1.png) no-repeat center top; background-size: 100% auto; }
+.header-tab2 {background: url(//game.gtimg.cn/images/yxzj/cp/a20191226together/header-tab2.png) no-repeat center top; background-size: 100% auto; transition: all .3s;}
+.header-tab1.on{background: url(//game.gtimg.cn/images/yxzj/cp/a20191226together/header-tab1on.png) no-repeat center top; background-size: 100% auto; }
+.header-tab2.on{background: url(//game.gtimg.cn/images/yxzj/cp/a20191226together/header-tab2on.png) no-repeat center top; background-size: 100% auto; }
+.header-tab:hover {filter: brightness(1.2); -webkit-filter: brightness(1.2);}
+
+/* main1 */
+.box1{background: url(//game.gtimg.cn/images/yxzj/cp/a20191226together/p1-box1.png) no-repeat center top; background-size: 100% auto; width: 1116px; height: 852px;margin: -50px auto 0;}
+.box1>div{display: inline-block; *display: inline; *zoom: 1; vertical-align: top;width: 530px;height: auto;position: relative;}
+.box1 .tit{padding-top: 700px;}
+.box1 .tit i{position: absolute;bottom: 32px;right: 94px;}
+.box1 .tit i{background: url(//game.gtimg.cn/images/yxzj/cp/a20191226together/p1-icon2.png) no-repeat center top; background-size: 100% auto; width: 42px; height: 18px;}
+/* main2 */
+.box2{background: url(//game.gtimg.cn/images/yxzj/cp/a20191226together/p1-box2.png) no-repeat center top; background-size: 100% auto; width: 1112px; height: 894px;margin: -50px auto -20px;}
+.box2>div{display: inline-block; *display: inline; *zoom: 1; vertical-align: top;width: 510px;height: auto;position: relative;}
+.box2 .left{margin-left: 12px;}
+.box2 .tit{padding-top: 716px;}
+.box2 .tit i{background: url(//game.gtimg.cn/images/yxzj/cp/a20191226together/p1-icon2.png) no-repeat center top; background-size: 100% auto; width: 42px; height: 18px;}
+.box2 .left .tit i{position: absolute;bottom: 30px;right: 116px;}
+.box2 .right .tit i{position: absolute;bottom: 30px;right: 96px;}
+
+
+
+.main2 .main2-box{width: 1200px;height: 560px;margin: 0 auto 130px;position: relative;text-align: center;}
+.main2 .swiper-container2 {position: relative; display: block; width: 894px; height:508px;  margin: 0 auto 32px; overflow: hidden;}
+.main2 .swiper-container2 .swiper-wrapper{position: relative;width: 894px; height:508px;  margin: 0 auto;}
+.main2 .swiper-slide {opacity: .5; transition: all .3s;}
+.main2 .swiper-slide-active {opacity: 1;}
+.swiper-banner {display: block; width: 894px; height:508px; overflow: hidden; margin: 0 auto;}
+.swiper-banner img{display: block; width: 894px; height:508px; object-fit: contain; overflow: hidden; margin: 0 auto;}
+.main2 .swiper-button-next, .main2 .swiper-button-prev {width: 57px; height: 171px; margin-top: -160px; transition: all .3s;}
+.main2 .swiper-button-next {background: url(//game.gtimg.cn/images/yxzj/cp/a20191226together/btn-nexton.png) no-repeat center top; background-size: 100% auto; right: 60px;}
+.main2 .swiper-button-prev {background: url(//game.gtimg.cn/images/yxzj/cp/a20191226together/btn-prevon.png) no-repeat center top; background-size: 100% auto; left: 60px;}
+.main2 .swiper-button-next.swiper-button-disabled {background: url(//game.gtimg.cn/images/yxzj/cp/a20191226together/btn-next.png) no-repeat center top; background-size: 100% auto;}
+.main2 .swiper-button-prev.swiper-button-disabled {background: url(//game.gtimg.cn/images/yxzj/cp/a20191226together/btn-prev.png) no-repeat center top; background-size: 100% auto;}
+.swiper-pagination-bullets{width: 100%;text-align: center;font-size: 0px;}
+.main2 .swiper-pagination-bullet {position: relative;display: inline-block; *display: inline; *zoom: 1; vertical-align: top; width: 8px; height: 8px; background: #8176a5; border-radius: 20px; margin: 0 6px !important; opacity: 1; pointer-events: auto; transition: all .3s;}
+.main2 .swiper-pagination-bullet-active {background: #ffd27b; width: 28px;}
+.main2 .swiper-container-horizontal>.swiper-pagination-bullets {bottom: -46px;}
+.main2 .code{width: 609px;height: 134px;margin: 0 auto;}
+.main2 .code img{display: block; width: 100%; height: 100%;}
+
+
+
+/* common */
+.box{font-size: 0;text-align: center;}
+
+.tit{width: 100%; text-align: center; color: #fecc7a; font-size: 34px; line-height: 68px;font-weight: bold;font-style: italic;position: relative;}
+.tit-txt{width: 100%; text-align: center; color: #8176a5; font-size: 16px; line-height: 24px;}
+
+
+
+
+/* side */
+.side-box {position: fixed; top: 10%; right: 0; display: block; width: 202px; height: 652px; background: url(//game.gtimg.cn/images/yxzj/cp/a20191226together/p1-side-bg.png) no-repeat center top; background-size: 100% auto; z-index: 6;}
+.sides {display: block; padding-top: 146px; width: 100%; height: auto; overflow: hidden; position: relative;}
+.sides a {display: block; width: 202px; height: 64px; margin-bottom: 1px; overflow: hidden; position: relative;}
+.side:hover, .side.on {background: url(//game.gtimg.cn/images/yxzj/cp/a20191226together/side-on.png) no-repeat center top; background-size: 100% auto;}
+.side span {display: block; margin-right: 46px; width: 156px; height: 26px; color: #9d8dce; text-align: right; padding-top: 12px;font-size: 14px; line-height: 14px; transition: all .1s;}
+.side em {display: block; margin-right: 46px; width: 156px; height: 14px; text-align: right; color: #9d8dce; font-size: 12px; line-height: 12px; transition: all .1s;}
+.side:hover span, .side.on span {font-size: 20px; line-height: 20px; color: #efedff; font-weight: bold;}
+.side:hover em, .side.on em {font-size: 14px; line-height: 14px; color: #efedff; font-weight: bold;}
+.side-top span {position: absolute; top: 30px; right: 46px; display: block; width: 66px; height: 20px; line-height: 20px; text-align: center; font-size: 12px; color: #1f1a34; background: #b997eb; border-radius: 2px; transition: all .2s;}
+.side-top:hover span {right: 40px; filter: brightness(1.2);}
+
+/*呼吸动画效果*/
+@-webkit-keyframes active{
+    0%{ -webkit-transform: scale(1); -webkit-filter: brightness(100%); filter: brightness(100%);}
+    50%{ -webkit-transform: scale(1.05); -webkit-filter: brightness(115%); filter: brightness(115%);}
+    100%{ -webkit-transform: scale(1);-webkit-filter: brightness(100%); filter: brightness(100%); }
+}
+@keyframes active{
+    0%{ transform: scale(1); }
+    50%{ transform: scale(1.05); }
+    100%{ transform: scale(1); }
+}
+
+
+
+/* 弹窗 */
+.dialog{position: relative;}
+.dia1{width: 1000px;height: 600px;position: relative;}
+.dialog .video-box{width: 1000px;height: 600px;margin: 0 auto;}
+.dia-close{font-size: 50px;font-weight: bold;color: #ffffff;position: absolute;top: -24px;right: -62px;line-height: 60px;}
