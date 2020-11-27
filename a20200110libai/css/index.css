@@ -1,0 +1,179 @@
+/*reset*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}
+ol,ul{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+q:before,q:after{content:''}
+abbr,acronym{border:0;font-variant:normal}
+sup{vertical-align:text-top}
+sub{vertical-align:text-bottom}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}
+input,textarea,select{*font-size:100%}
+a{text-decoration:none;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+.hid{text-indent:-9999px;font-size:0px;overflow:hidden;width:0px;height:0px;display:block}
+div,a{outline: none;}
+iframe{display: block;}
+body{font-family:"Microsoft YaHei",Helvetica,sans-serif;color:#000;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:none;-webkit-touch-callout:none;-webkit-user-select:text;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent;word-break:break-all;word-wrap:break-word; padding-top: 42px;background-color: #d6d2e7;}
+html,body{position: relative; width: 100%; min-width: 1300px; max-width: 1920px;}
+/*清除浮动代码*/
+.clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.clearfloat{zoom:1}
+/*通用底部样式*/
+#afooter {background: #ddd4e5; text-align: center; position: relative; z-index: 10;}
+#afooter .wrap_ieg {width: 1000px; margin: 0 auto; padding: 30px 0;}
+#afooter p {color: #c4a4c1; line-height: 24px; font-size: 10px;}
+#afooter a {color: #c4a4c1; font-size: 12px;}
+
+/* 页面 */
+.wrap {position: relative; width: 100%; min-width: 1300px; max-width: 1920px; margin: 0 auto; overflow: hidden;}
+.header {background: url(../ossweb-img/bg1.jpg) no-repeat center top; background-size: 1920px auto; width: 100%;height: 1090px; overflow: hidden; position: relative; margin: 0 auto;}
+.content {background: url(../ossweb-img/bg2.jpg) no-repeat center top; background-size: 1920px auto; width: 100%;height: 3238px;overflow: hidden; position: relative; margin: 0 auto;}
+.head,.cont1,.cont2,.cont3{width: 1300px;margin: 0 auto;position: relative;}
+.head{height: 1090px;}
+.cont1{height: 912px;padding-top: 50px;font-size: 0;}
+.cont2{height: 1044px;}
+.cont3{height: auto;}
+/* btns */
+.btns {transition: all ease-in-out .3s;}
+.btns:hover { filter: brightness(1.1); -webkit-filter: brightness(1.1);}
+/* title */
+.title1{background: url(../ossweb-img/title1.png) no-repeat center top; background-size: 100% auto;width: 194px; height: 52px;}
+/* header */
+.logo {position: absolute; top: 34px; left: 46px; display: block; width: 194px; height: 52px; background: url(../ossweb-img/logo.png) no-repeat center top; background-size: 100% auto; font-size: 0;pointer-events: none; cursor: initial;}
+.logo2 {position: absolute; top: 34px; right: 140px; display: block; width: 114px; height: 44px; background: url(../ossweb-img/logo2.png) no-repeat center top; background-size: 100% auto; font-size: 0;pointer-events: none; cursor: initial;}
+.logo3 {position: absolute; top: 34px; right: 46px; display: block; width: 70px; height: 42px; background: url(../ossweb-img/logo3.png) no-repeat center top; background-size: 100% auto; font-size: 0;pointer-events: none; cursor: initial;}
+.head-box{background: url(../ossweb-img/top.png) no-repeat center top; background-size: 100% auto; width: 1200px; height:218px;margin: 822px auto 0;position: relative;}
+.btn-go{position: absolute; top: 40px; right: 70px; display: block; width: 364px; height:104px; background: url(../ossweb-img/btn-go.png) no-repeat center top; background-size: 100% auto; font-size: 0;}
+.music-plat{position: absolute; top: 154px; right: 94px; display: block; width: 316px; height:28px; background: url(../ossweb-img/music-plat.png) no-repeat center top; background-size: 100% auto; font-size: 0;}
+/* cont1 */
+.cont1 .left,.cont1 .right{display: inline-block; *display: inline; *zoom: 1; vertical-align: top;text-align: center;}
+.cont1 .left{width:850px;height: 600px;position: relative;}
+.cont1 .left img{width:560px;height: 560px;display: block;position: relative;z-index: 2;}
+.cont1 .btn-play{display: block;background: url(../ossweb-img/btn-pause.png) no-repeat center top;width:194px;height: 194px;position: absolute;top: 160px;left:182px;z-index: 4;}
+.cont1 .btn-play.pause{display: block;background: url(../ossweb-img/btn-play.png) no-repeat center top;}
+.cont1 .left span{display: block; width: 513px;height: 513px; background: url(../ossweb-img/musci-cd.png) no-repeat;position: absolute;top: 20px;right:70px;}
+.cont1 .left span.play{animation:active 1.2s infinite linear;}
+.cont1 .song-title{width: 214px;height: 70px; background: url(../ossweb-img/song-title.png) no-repeat;margin-left: 30px;}
+.cont1 .right .song-txt{color:#8d462d;height:32px;font-size: 16px;line-height:24px;text-align: left;}
+.cont1 .right .song-txt1{padding-left: 34px;padding-top: 14px;}
+.cont1 .right .song-txt2{padding-left: 24px;}
+.cont1 .right{width: 420px;height: 600px;}
+.aplayer{width: 312px;box-shadow:none!important;-webkit-box-shadow:none!important;padding:17px;margin-top:10px!important;padding:0;background:none;overflow: visible;}
+.aplayer .aplayer-pic{display: none !important;}
+.aplayer .aplayer-music{display: none !important;}
+.aplayer.aplayer-withlrc .aplayer-info{margin: 0;height:424px;}
+/* 歌词样式			 */
+.aplayer.aplayer-withlrc .aplayer-lrc{height:424px;width:100%;}
+.aplayer .aplayer-lrc:before,.aplayer .aplayer-lrc:after{display: none;}
+.aplayer .aplayer-lrc p{font-family: 'fz';color:#a7a3b9;height:32px !important;font-size: 16px;line-height:32px !important;opacity:1 !important;text-align: left;padding-left: 20px!important;}
+/* 播放进度 */
+.aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap{margin: 0;}
+.aplayer .aplayer-info .aplayer-controller{width:664px;position: absolute;top:328px;left: -856px;z-index: 5;}
+.aplayer .aplayer-info .aplayer-controller .aplayer-time .aplayer-icon.aplayer-icon-loop{display: none;}
+
+.aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played .aplayer-thumb{-webkit-transform: scale(1);-ms-transform: scale(1);transform: scale(1);}
+.aplayer .aplayer-lrc p.aplayer-lrc-current{color:#4b4269;font-weight: bold} 
+.aplayer .aplayer-lrc p.aplayer-lrc-current:before{content:"";background: url(../ossweb-img/icon1.png) no-repeat center top;width:6px;height: 32px;display: block;position: absolute;left: 2px;}
+.aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played .aplayer-thumb{width:10px!important;height:10px!important;margin-right:-15px!important;margin-top: -3px!important;} 
+.aplayer .aplayer-info .aplayer-controller .aplayer-time{font-size: 16px;color:#e1d6d0;bottom: -28px;right: 120px;}
+.aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar{background:#604c46;height: 4px;}
+.aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played{height: 4px;}
+.aplayer .aplayer-time button{display: none;}
+.aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-loaded{height: 4px!important;}
+
+.btns-box{width: 100%;text-align: center;font-size: 0;padding-top: 10px;}
+.btns-box a{display: inline-block; *display: inline; *zoom: 1; vertical-align: top;width:364px;height: 103px;}
+.btn-hope{background: url(../ossweb-img/btn-hope.png) no-repeat;margin-right: 100px;}
+.btn-skin{background: url(../ossweb-img/btn-skin.png) no-repeat;}
+
+
+/*cont2*/
+.cont2 ul{width: 100%;height: auto;margin: 0 auto;font-size: 0;text-align: center;}
+.cont2 ul li{display: inline-block; vertical-align: top;font-size: 0;margin:34px 14px;}
+.cont2 ul li img{display: inline-block; vertical-align: top;width: 96px;height: 96px;}
+.cont2 ul li em{color: #8d462d;font-size: 18px;line-height: 42px;display: block;padding-bottom: 32px;}
+.cont2 ul li p{color: #787092;font-size: 16px;line-height: 24px;display: block;}
+.cont2 ul li p span{font-weight: bold;color: #4b4269;}
+.cont2 ul li a{display: block;}
+.cont2 li{background: url(../ossweb-img/bg-prop.png) no-repeat;background-size: 100% auto;width:277px;height:425px;text-align: center;padding-top: 32px;}
+.cont2 li .prop-title{width: 277px;height:28px;margin: 0 auto;display: block;}
+.cont2 li .prop-title1{background: url(../ossweb-img/prop1-title.png) no-repeat;background-size: 100% 100%;}
+.cont2 li .prop-title2{background: url(../ossweb-img/prop2-title.png) no-repeat;background-size: 100% 100%;}
+.cont2 li .prop-title3{background: url(../ossweb-img/prop3-title.png) no-repeat;background-size: 100% 100%;}
+.cont2 li .prop-title4{background: url(../ossweb-img/prop4-title.png) no-repeat;background-size: 100% 100%;}
+.cont2 li .prop-title5{background: url(../ossweb-img/prop5-title.png) no-repeat;background-size: 100% 100%;}
+.cont2 li a{width: 198px;height:62px;margin: 0 auto;}
+.cont2 li .btn-enter{background: url(../ossweb-img/btn-enter.png) no-repeat;background-size: 100% 100%;}
+.cont2 li .btn-partake{background: url(../ossweb-img/btn-partake.png) no-repeat;background-size: 100% 100%;}
+.cont2 li .btn-join{background: url(../ossweb-img/btn-join.png) no-repeat;background-size: 100% 100%;}
+.cont2 li .btn-leave{background: url(../ossweb-img/btn-leave.png) no-repeat;background-size: 100% 100%;}
+.cont2 li P{width: 80%;margin: 0 auto;}
+
+.cont2 li:nth-child(1) p{padding-bottom: 48px;}
+.cont2 li:nth-child(2) p{padding-bottom: 24px;}
+.cont2 li:nth-child(3) p{padding-bottom: 28px;}
+.cont2 li:nth-child(4) p{padding-bottom: 10px;}
+.cont2 li img{margin-bottom: 30px;}
+.cont2 li:nth-child(4) img{margin-bottom: 14px;}
+
+.cont2 li.last{background: url(../ossweb-img/bg-prop5.png) no-repeat;width:1200px;height:208px;text-align: center;padding-top: 40px;margin:0 auto;display: block;}
+
+.cont2 li.last .left,.cont2 li.last .right{display: inline-block;vertical-align:top;text-align: center;}
+.cont2 li.last .left{width: 906px;height: 200px;}
+.cont2 li.last .right{width: 280px;height: 200px;}
+.cont2 li.last .left p{width: 98%;margin: 0 auto;}
+.cont2 li.last img{margin: 0 auto 20px;}
+  /*cont3  */
+.cont3 .txt{color: #4b4269;font-size: 30px;line-height: 40px;text-align: center;padding-bottom: 28px;}
+.cont3 .btn-test{display: block;margin: 0 auto;}
+
+/* cont3 */
+.cont3 .btn-test{width:364px ;height: 104px;background: url(../ossweb-img/btn-test.png) no-repeat;background-size: 100% 100%;}
+.cont3 .code{width:224px ;height: 296px;background: url(../ossweb-img/code.png) no-repeat;background-size: 100% 100%;margin: 68px auto 240px;}
+.cont3 .slogo{width:1198px ;height:128px;background: url(../ossweb-img/slogo.png) no-repeat;background-size: 100% 100%;margin: 26px auto;}
+/* title */
+.title1{background: url(../ossweb-img/title1.png) no-repeat center top; ;width: 1390px; height: 85px;margin-left: -45px;}
+.title2{background: url(../ossweb-img/title2.png) no-repeat center top;width: 1758px; height: 94px;margin-left:-229px ;}
+.title3{background: url(../ossweb-img/title3.png) no-repeat center top;width: 691px; height: 91px;margin: 0 auto;}
+
+
+
+
+/*呼吸动画效果*/
+@-webkit-keyframes active{
+    0%{ -webkit-transform: rotate(0deg);}
+   100%{ -webkit-transform: rotate(360deg);}
+}
+@keyframes active{
+    0%{transform: rotate(0deg);}
+   100%{ transform: rotate(360deg); }
+}
+
+
+
+
+/* 弹窗 */
+.dialog{position: relative;}
+.dia1{width: 580px;height:292px;position: relative;}
+.dia-close{position: absolute;top: 10px;right: 10px;}
+.download-popup .dia-con{width:auto;background:none;}
+.dia-download{padding:30px  76px 23px 48px;background:url(../ossweb-img/down_bg.png);overflow: hidden;}
+.dia-download .code{float:left;margin-right:36px;}
+.dia-download .btnlist{float:left;}
+.dia-download .btnlist a, .download-popup .dia-close{width:212px;height:46px;display:block;margin-bottom:9px;background:url(../ossweb-img/down.png);}
+.dia-download .btnlist .pc{background-position:0 -112px;}
+.dia-download .btnlist .ios{background-position:0 -56px;}
+.dia-download .btnlist .android{background-position:0 0;}
+.dia-download .btnlist .android1{background-position:0 -169px;}
+.download-popup .dia-close{width:36px;height:36px;background-position:-264px -17px;}
+
+.dia2{width: 720px;height: 320px;position: relative;}
+.dia2 .tc{background:url(../ossweb-img/bg-tc.png) no-repeat;width: 720px;height: 320px;margin: 0 auto;}
+.dia2 .dia-close{width:48px;height:48px;background:url(../ossweb-img/tc-close.png) no-repeat;top: 50px;right: 60px;}
+
+
+
+
