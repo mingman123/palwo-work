@@ -1,0 +1,289 @@
+body,dl,dd,ul,ol,h1,h2,h3,h4,h5,h6,p,form,header,section,article,footer{margin:0;}
+body,button,input,select,textarea{font:12px/1.5 tahoma,'\5FAE\8F6F\96C5\9ED1',sans-serif}
+h1,h2,h3,h4,h5,h6{font-size:100%}
+em,b{font-style:normal}
+a{text-decoration:none}
+/*a:hover{text-decoration:underline}*/
+img{border:0}
+body{padding-top:42px}
+button,input,select,textarea{font-size:100%;outline:none}
+table{border-collapse:collapse;border-spacing:0}
+td,th,ul,ol{padding:0}
+div,img,a{outline: none;}
+/* reset end */
+/* foot */
+#afooter {
+    position: relative;
+    padding: 30px 0;
+    text-align: center;
+    font: normal 12px/19px Tahoma;
+    z-index: 10;
+    background-color: #19345a;
+}
+#afooter, #afooter a {
+    color: #c0c0c0;
+    text-decoration: none;
+}
+.hidden{display: none; font-size: 0; text-indent: -999em;}
+/* 图片分离路径示例 */
+/* .bg{background-image: url(//game.gtimg.cn/images/lol/act/a20200117guardiansofthesand/bg.jpg);} */
+.btn{transition: all .2s;}
+.content a:hover{  filter: brightness(1.1); -webkit-filter: brightness(1.1);}
+/*售卖价格字体*/
+@font-face {
+    font-family: 'sellnum-4';
+    src: url('//game.gtimg.cn/images/lol/common/sell/font/sellnum-4.eot');
+    src: url('//game.gtimg.cn/images/lol/common/sell/font/sellnum-4.woff') format('woff'),url('//game.gtimg.cn/images/lol/common/sell/font/sellnum-4.ttf') format('truetype'),url('//game.gtimg.cn/images/lol/common/sell/font/sellnum-4.svg') format('svg');
+}
+
+/* 金色字体示例样式 */
+.gold{
+  position: relative;
+  font-size:66px;/* 字体大小 根据实际情况设置 */
+  color:#ddc996;/* 默认色值 低级浏览器下显示 */
+ font-family: 'sellnum-4';
+ font-weight: bold;
+ display: inline-block;
+ width: auto;
+}
+
+@supports (-webkit-background-clip: text) {
+    .gold::before,.gold::after {
+        position: absolute;
+        z-index: 2;
+        top:0;
+        left:0;
+        content: attr(data-num);
+        background-image: linear-gradient(#d3c17f, #e7d2ad);
+        -webkit-background-clip: text;
+        color: transparent;
+        -webkit-text-fill-color: transparent;
+    }
+    .gold::after{
+      z-index: 1;
+      top:0px;
+      background-image: linear-gradient(#d3c17f, #e7d2ad);
+    }
+}
+
+.spr{background: url(../ossweb-img/spr.png) no-repeat;width: 750px;height: 1200px; background-size: 750px 1200px;}
+.wrap{min-width:1300px;max-width: 1920px;position: relative;overflow: hidden;margin: 0 auto;height: 8550px;
+    background:
+    url(../ossweb-img/bg0.jpg) center 0 no-repeat, 
+    url(../ossweb-img/bg1.jpg) center 1056px no-repeat,
+    url(../ossweb-img/bg2.jpg) center 3464px no-repeat,
+    url(../ossweb-img/bg3.jpg) center 5440px no-repeat,
+    url(../ossweb-img/bg4.jpg) center 7090px no-repeat;}
+.head,.content{min-width:1300px;max-width: 1920px;position: relative;margin: 0 auto;}
+.cont{width:1300px;height: auto;position: relative;margin: 0 auto;}
+.head{height: 1046px;}
+
+/*头部 head*/
+.head .head-box{width: 1920px;height: auto;position: absolute;top: -26px;left: 50%;transform:translateX(-50%);}
+.head .head-title{background: url(../ossweb-img/head-titles.png) no-repeat;background-size:1174px 775px;position: absolute;top: 224px;left: 50%;transform:translateX(-50%);width: 1166px;height: 775px;}
+.head .head-mc{background: url(../ossweb-img/head.png) no-repeat;background-size:1920px 1160px;position: absolute;top: 0;left: 50%;transform:translateX(-50%);width: 1920px;height: 1160px;}
+.logo {background: url(//game.gtimg.cn/images/lol/logo/middle-white.png) no-repeat center top; width: 200px; height: 72px; background-size: 100% auto; font-size: 0; position: absolute; top: 20px; left: 14px;}
+.spr-link{background: url(../ossweb-img/spr-link.png) no-repeat;width: 1210px;height: 185px; background-size: 1000px 114px;}
+.btn-links{width: 1200px;height: 140px;position: absolute;bottom: 30px;left: 50%;transform:translateX(-50%) ;font-size: 0;text-align: center;}
+.btn-links a{height: 114px;display: inline-block;*display:inline;*zoom:1;vertical-align:top;margin: 0 -2px;font-weight: bold;position: relative;font-size: 0;z-index: 2;}
+.btn-links a.btn-link1{background-position: -12px 0;width:284px;}
+.btn-links a.btn-link2{background-position: -348px 0;width:306px;}
+.btn-links a.btn-link3{background-position: -706px 0;width:282px;}
+.btn-links a:hover{-webkit-filter:brightness(1.1);-o-filter:brightness(1.1);-moz-filter:brightness(1.1);filter:brightness(1.1);}
+
+
+/*灵魂莲华(2020)通行证*/
+.main1{padding-top: 14px;width:100%;height: auto;margin: 0 auto;padding-bottom: 20px;}
+/*灵能特工通行证*/
+.main1 .main1-1{width:100%;height: auto;margin: 0 auto;font-size: 0;text-align: center;padding-top: 10px;position: relative;padding-bottom: 120px;}
+.main1 .main1-1>div{display: inline-block;*display:inline;*zoom:1;vertical-align:top;height: auto;padding-top: 440px;}
+.main1 .main1-1>div.left{width: 400px;position: relative;}
+.main1 .main1-1>div.left img{display: block;margin: 0 auto 10px;width: 400px;height:auto;position: absolute;top: -40px;left: 0;}
+.main1 .main1-1>div.left .price{margin-top: 6px;}
+.main1 .main1-1>div.left .price span{color: #17181c;font-size: 14px;font-weight: normal;width:20px ;height: 48px;display: inline-block;*display:inline;*zoom:1;vertical-align:top;margin-top: 16px;background: #dcc995;border-radius: 4px;line-height:16px;text-align: center;margin-left: 4px;box-sizing: border-box;padding-top: 10px;font-weight: bold;}
+.main1 .main1-1>div.left b{font-weight: normal;color: #ffffff;font-size: 14px;display: block;line-height: 22px;}
+.main1 .main1-1>div.left b span{font-size: 12px;}
+.main1 .main1-1>div.left b strong{font-weight: normal;}
+.main1 .main1-1>div.left b.txt1{width: 120%;margin-left: -10%;}
+
+/*通行证专属福利*/
+.main1 .main1-3{width: 100%;height: auto;margin: 0 auto;text-align: center;padding-top: 10px;padding-bottom: 50px;}
+/*common*/
+.main1 .main1-3 ul{width: 100%;height: auto;margin: 0 auto;text-align: center;font-size: 0;}
+.main1 .main1-3 ul li{display: inline-block;*display:inline;*zoom:1;vertical-align:top;width: auto;height: auto;position: relative;}
+.main1 .main1-3 .num{width: 102px;height: 14px;padding-bottom: 16px;font-size: 0;}
+.main1 .main1-3 .num1{background-position: 0 -932px;}
+.main1 .main1-3 .num2{background-position: -168px -932px;}
+.main1 .main1-3 .num3{background-position: -324px -932px;}
+.main1 .main1-3 .num4{background-position: -478px -932px;}
+.main1 .main1-3 .main1-3-txt1{color: #e7d2ae;font-size: 14px;line-height: 22px;}
+.main1 .main1-3 .main1-3-txt2{color: #ffffff;font-size: 14px;line-height: 28px;}
+.main1 .main1-3 .img-box{width: 325px;height: 340px;position: absolute;top: 0;right: -80px;}
+.main1 .main1-3 .img-box img{display: block;width: 100%;height: auto;}
+.main1 .main1-3 .pic-box{background: url(../ossweb-img/pic-bg.png) no-repeat;background-size:100% auto ;width:260px;height:260px;margin: 0 auto 8px;}
+.main1 .main1-3 .pic-box img{display: block;width: 100%;height: auto;}
+.main1 .main1-3 .main-img{padding-top: 62px;padding-bottom: 20px;}
+.main1 .main1-3 .main-img li{background: url(../ossweb-img/img-bg.png) no-repeat;background-size:100% auto ;width: 394px;height: 260px;margin: 14px 10px ;position: relative;box-sizing: border-box;padding: 58px 0 0 26px;}
+.main1 .main1-3 .main-img li:nth-child(2){position: relative;top: -42px;}
+.main1 .main1-3 .main-img .main1-3-txt1{color: #e7d2ae;font-size: 24px;line-height: 36px;text-align: left;}
+.main1 .main1-3 .main-img .main1-3-txt1 b{font-size: 18px;}
+.main1 .main1-3 .main-img .main1-3-txt1 span{font-size: 14px;display: block;line-height: 20px;}
+.main1 .main1-3 .btn-gain-txt{color: #e7d2ae;font-size: 16px;text-decoration: underline;position: relative;top: 14px;left: -134px;}
+
+.main1 .main1-3 .tips{color: #ffffff;font-size: 14px;line-height: 36px;padding-bottom: 8px;}
+.main1 .main1-3 .main1-3-4,.main1 .main1-3 .main-pic{display: inline-block;*display:inline;*zoom:1;vertical-align:top;}
+.main1 .main1-3 .main1-3-4{text-align: left;width: 400px;padding-top: 50px;box-sizing: border-box;padding-left: 42px;}
+.main1 .main1-3 .main1-3-4 .num4-txt{text-align: left;}
+.main1 .main1-3 .main-pic{width: 68%;}
+.main1 .main1-3 .main-pic li{width: 280px;}
+.main1 .main1-3 .main-pic li p{position: absolute;bottom: 48px;left: 0;width: 100%;height:32px;}
+
+.main1 .main1-3 .main-prop{padding-top: 28px;width: 100%;margin: 0 auto;}
+.main1 .main1-3 .main-prop li{background: url(../ossweb-img/prop-bg.png) no-repeat;background-size:100% auto;width:230px;height: 225px;margin:0 8px 24px;position: relative;}
+.main1 .main1-3 .main-prop li img{display: block;width: 100%;height: auto;}
+.main1 .main1-3 .main-prop li p{position: absolute;bottom: 8px;left: 0;width: 100%;height:40px;}
+
+
+
+/*灵能(2020) 法球礼包 cont2*/
+.cont2{padding-top: 24px;text-align: center;position: relative;padding-bottom: 20px;}
+.cont2 .title2-desc{color: #e7d2ae;font-size: 14px;line-height: 28px;position: absolute;top: 164px;left: 0;width: 100%;}
+.cont2 .title2-desc span{color: #fff;font-weight: bold;}
+.cont2 .title2-desc a{display: inline-block;*display:inline;*zoom:1;vertical-align:top;width: 70px;height: 22px;color: #e7d2ae;line-height: 20px;box-sizing: border-box;border: 1px solid #e7d2ae;margin: 2px 0 0 14px;}
+
+
+.cont2 ul{width:1440px;height: auto;margin-left: -70px;text-align: center;font-size: 0;position: relative;top: -20px;}
+.cont2 ul li{display: inline-block;*display:inline;*zoom:1;vertical-align:top;background: url(../ossweb-img/bg-draw.png) no-repeat;background-size:100% auto;width:360px;height: 463px;text-align: center;position: relative;}
+
+.cont2 ul li>div{width: 426px;height: 186px;margin: 0 auto;position: relative;}
+
+.cont2 ul li>div img{width: 426px;height:auto;display: block;margin: 0 auto;}
+.cont2 ul li>div.small img {width: 120px;position: relative;top: 10px;}
+.cont2 ul li>div img.spe1{width: 130px;}
+.cont2 ul li>div p{color: #a6acff;font-size: 14px;line-height: 24px;width: 100%;position: absolute;bottom: 0;left: 0;box-sizing: border-box;padding-right: 40px;display: none;}
+.cont2 ul li>div p span{display: inline-block;*display:inline;*zoom:1;vertical-align:top;width: 74px;}
+.cont2 ul li .txt{display: flex;justify-content: center;align-items: center;color: #e7d2ae;font-size: 18px;line-height: 24px;height: 110px;font-weight: bold;}
+.cont2 ul li p.price{font-size: 66px;line-height: 80px;}
+.cont2 ul li p.price span{ color: #17181c;font-size: 14px;font-weight: normal;width:20px ;height: 48px;display: inline-block;*display:inline;*zoom:1;vertical-align:top;margin-top: 6px;background: #dcc995;border-radius: 4px;line-height:16px;text-align: center;margin-left: 4px;box-sizing: border-box;padding-top: 10px;font-weight: bold;}
+
+.cont2 ul li a{background-position: 0 -1022px;width: 254px;height: 64px;display: block;margin: 0 auto;color: #1c1a22;font-size: 22px;font-weight: bold;line-height: 64px;position: relative;top: -10px;}
+
+
+
+
+/*灵能币(2020)兑换商城*/
+.cont3{padding-top:16px;position: relative;}
+.cont3 .title3-desc{color: #e7d2ae;font-size: 14px;line-height: 24px;text-align: center;position: absolute;top: 164px;left: 0;width: 100%;}
+.cont3 .title3-desc span{color: #fff;font-weight: bold;}
+
+/*灵能特工   伊泽瑞尔*/
+.cont3 .main3-1{width: 490px;height: 1020px;margin-left: 866px;position: relative;padding-top: 190px;font-size: 0;box-sizing: border-box;}
+.cont3 .main3-1 .subtitle{font-size: 42px;width: 100%;text-align: right;word-spacing: 8px;letter-spacing: 2px;position: relative;}
+.cont3 .main3-1 .subtitle:after{background: url(../ossweb-img/zhizhen.png) no-repeat;background-size:100% auto ;width:77px;height: 38px;content: "";position: absolute;top: -40px;right: 0;}
+.cont3 .main3-1 .video2-box{background: url(../ossweb-img/bg-video.png) no-repeat;background-size:100% auto ;width:547px;height: 120px;margin-left: 200px;margin-bottom:24px;}
+.cont3 .main3-1 .btn-video2{background-position: -420px -1012px;width:65px;height:65px;display: inline-block;margin: 28px 0 0 116px;}
+.cont3 .main3-1 .money{width: 40%;text-align: left;line-height: 100px;height: auto;}
+.cont3 .main3-1 .money b{font-family: 'sellnum-4';color: #ddc995;font-size: 92px;font-weight: normal;}
+.cont3 .main3-1 .money span{display: inline-block;*display:inline;*zoom:1;vertical-align:top;color: #3b5bb4;font-size: 16px;font-weight: bold;width: 26px;height: 66px;text-align: center;box-sizing: border-box;border-radius: 4px;line-height: 18px;padding-top: 6px;margin: 6px 0 0 10px;background: #e0cc9e;}
+.cont3 .main3-1 .tips{width:54%;text-align: left;line-height: 18px;color: #ffffff;font-size: 14px;padding-top: 36px;padding-right: 10px;}
+.cont3 .main3-1 .tips a{color: #e7d2ae;font-weight: bold;}
+.cont3 .main3-1 .tips,.cont3 .main3-1 .money{display: inline-block; *display: inline; *zoom: 1; vertical-align: top;}
+.cont3 .main3-1 .tips span,.cont3 .main3-1 .tips b{display: inline-block; *display: inline; *zoom: 1; vertical-align: top;}
+.cont3 .main3-1 .tips b{width: 70px;font-weight: normal;}
+.cont3 .main3-1 .tips span{width: 194px;}
+/*100至臻点(2020)+图标：2200灵能币 (2020)*/
+.cont3 .main3-2{width:100%;height:auto;position: relative;padding-top: 16px;}
+.cont3 .main3-2 img{display: block;margin-left: -100px;width: 1547px;height: auto;}
+
+/*main3-com*/
+.main3-com{width:100%;height:auto;position: relative;padding-top: 74px;}
+.main3-com ul{width: 100%;height: auto;text-align: center;font-size: 0;margin: 0 auto;}
+.main3-com ul li{display: inline-block;*display:inline;*zoom:1;vertical-align:top;text-align: center;height: auto;}
+.main3-com ul li p{color: #e7d2ae;font-size: 16px;line-height: 22px;font-weight: bold;padding-top: 16px;}
+.main3-com ul li span{color: #a2a2a2;font-size: 14px;line-height: 26px;}
+
+
+/*灵能特工炫彩+图标：300绽灵币/款*/
+.cont3 .main3-3 li{width: 260px;padding-top:16px;}
+.cont3 .main3-3 li:first-child{margin-left: 90px;}
+.cont3 .main3-3 .paint-box{width:212px;height: 258px;margin-left: 48px;} 
+.cont3 .main3-3 .paint-box img{display: block;width: 100%;height: auto;margin: 0 auto;}
+.cont3 .main3-3 li p{width: 90%;}
+.cont3 .main3-3 li span{width: 90%;display: block;}
+/*灵能特工图标+边框：250绽灵币/款*/
+.cont3 .main3-4 li{width: 250px;padding-top: 26px;}
+.cont3 .main3-4 li .mark-box{width: 187px;height: 274px;margin: 0 auto;}
+.cont3 .main3-4 li .mark-box img{width: 100%;height: auto;margin: 0 auto;display: block;}
+.cont3 .main3-4 li p{padding-top: 0;}
+.cont3 .main3-4{padding-bottom:80px;}
+
+/*云顶之弈 小小英雄蛋*/
+.cont3 .main3-5 li{width: 174px;padding-top: 40px;}
+.cont3 .main3-5 li .egg-box{background: url(../ossweb-img/egg-bg.png) no-repeat;background-size:100% auto ;width: 157px;height: 157px;margin: 0 auto;}
+.cont3 .main3-5 li .egg-box img{width: 90%;height: auto;margin: 5% auto;display: block;}
+.cont3 .main3-5 li .egg-box:first-child img{width:143px;}
+.cont3 .main3-5 li p{height: 50px;}
+.cont3 .main3-5{padding-bottom:10px;}
+/*海克斯战利品*/
+.cont3 .main3-6 ul{height: auto;text-align: center;font-size: 0;}
+.cont3 .main3-6 li{width: 150px;padding-top: 10px;}
+.cont3 .main3-6 li .heks-box{background: url(../ossweb-img/heks-bg.png) no-repeat;background-size:100% auto ;width: 150px;height: 162px;margin: 0 auto;}
+.cont3 .main3-6 li .heks-box img{width: 130px;height: auto;margin: 0 auto;display: block;}
+.cont3 .main3-6 li .heks-box.first img{width:143px;}
+.cont3 .main3-6 li p{padding-top: 8px;height: 46px;}
+
+/*克隆大作战*/
+.cont3 .main3-7{width: 492px;height: auto;padding-top: 120px;position: relative;margin-left: 746px;}
+.cont3 .main3-7 p{padding-top: 240px;width: 564px;height: auto;text-align: left;color: #a2a2a2;font-size: 16px;line-height: 26px;margin: 0 auto;}
+.cont3 .main3-7 .btn-video3{background-position: -522px -996px;display: block;width: 100px;height: 100px;position: absolute;top: 184px;left: 334px;}
+
+.title{width:750px;height: 268px;margin: 0 auto;font-size: 0;}
+.title1{background-position: 0 0;height: 246px;}
+.title2{background-position: 0 -262px;}
+.title3{background-position: 0 -530px;}
+.subtitle{width:1000px;color: #dfcc9c;font-size: 36px;line-height: 60px;/*background-position: 140px -770px;*/height: 70px;text-align: center;margin: 0 auto;position: relative;background-position: 140px 140px;}
+.subtitle b{font-weight: bold;}
+.subtitle span{position: relative;}
+.subtitle span:before,.subtitle span:after{content: "";background: url(../ossweb-img/subtitle-icon.png) no-repeat center center;background-size:auto auto ;width: 100px;height: 46px;position: absolute;top: 0;}
+.subtitle span:before{left: -100px;}
+.subtitle span:after{right: -100px;transform: rotate(180deg);}
+.subtitles{width: 100%;color: #ffecd4;font-size: 28px;line-height: 46px;text-align: center;font-weight: bold;}
+
+.sid{width: 196px;height: 300px;position: fixed;top: 50%;right: 20px;transform: translateY(-56%);box-sizing: border-box;z-index: 22;display: none;}
+.sid a.sid-nav{display: block;height: 42px;line-height:40px;position: relative;width: 100%;color: #8c90d3;font-size: 16px;background: url(../ossweb-img/sid-line.png) no-repeat;background-size:100% auto ;text-align: right;box-sizing: border-box;padding-right: 30px;}
+.sid a.sid-nav span{position: relative;}
+.sid a.sid-nav.on{color: #e7d2ae;font-weight: bold;font-size: 18px;background: url(../ossweb-img/sid-lineon.png) no-repeat;background-size:100% auto ;}
+.sid a.sid-nav.on span:before{content: "";background: url(../ossweb-img/sid-point.png) no-repeat;background-size:100% auto ;width:10px;height: 42px;position: absolute;top: -10px;left: -24px;}
+/*.sid .sid-nav:after{content: "";background: url(../ossweb-img/sid-line.png) no-repeat;background-size:100% auto ;width:19px;height: 67px;position: absolute;top: 0;right: 6px;}
+.sid a.sid-nav.on:after{content: "";background: url(../ossweb-img/sid-lineon.png) no-repeat;background-size:100% auto ;width:19px;height: 67px;position: absolute;top: 0;right: 6px;}*/
+.sid a.sid-nav6{display: block;width: 140px;height: 46px;margin-top: 0px;margin-left: 40px;text-align: right;padding-top: 4px;color: #8c90d3;font-size: 14px;line-height: 36px;background: url(../ossweb-img/sid-top.png) no-repeat center right;background-size:86px auto ;box-sizing: border-box;padding-right: 30px;}
+.sid a.sid-nav:hover{color: #e7d2ae;font-weight: bold;font-size: 18px;background: url(../ossweb-img/sid-lineon.png) no-repeat;background-size:100% auto ;}
+.sid a.sid-nav:hover span:before{content: "";background: url(../ossweb-img/sid-point.png) no-repeat;background-size:100% auto ;width:10px;height: 42px;position: absolute;top: -10px;left: -24px;}
+/*弹窗*/
+.dialog{position: relative;}
+.dia-close{background: url(../ossweb-img/tc-close.png) no-repeat;background-size:100% auto ;width: 56px;height: 56px;position: absolute;top: -12px;right: -4px;}
+
+.dia1{background: url(../ossweb-img/tc-bg1.png) no-repeat;background-size:100% auto ;width:764px;height: 438px;}
+.dia1 .txt-box{width: 646px;margin: 0 auto;height: auto;}
+.dia1 span{display:block;text-align: center;margin: 0 auto;color: #f0c7a9;font-size: 18px;line-height: 36px;font-weight: bold;padding-top: 50px;padding-bottom: 10px;width: auto;margin: 0 auto;border-bottom: 1px solid #40477f;}
+.dia1 p{padding-top: 20px;color: #d2d5f6;font-size: 14px;line-height:22px;}
+.dia1 p:last-child{padding-top: 20px;}
+
+.dia2{background: url(../ossweb-img/tc-bg2.png) no-repeat;background-size:100% auto ;width:764px;height: 418px;padding-top: 40px;box-sizing: border-box;}
+.dia2 table{width: 700px;height:330px;margin: 0 auto;text-align: center;}
+.dia2 table th{color: #f0c7a9;font-size: 18px;font-weight: bold;line-height: 54px;border-bottom: 1px solid #4f64ad;height: 66px;border-right:1px solid #4f64ad;}
+.dia2 table td{color: #d2d5f7;font-size: 14px;line-height: 26px;border-bottom: 1px solid #4f64ad;height: 46px;}
+.dia2 table td:nth-child(-n+3){border-right: 1px solid #4f64ad;}
+.dia2 table tr:last-child td{border: none;height: 46px;color: #f0c7a9;}
+.dia2 table tr:nth-child(4){height: 46px;}
+.dia2 table .spe1{line-height: 34px;}
+.dia2 table th:first-child{width: 23%;}
+.dia2 table th:last-child{border-right: none;}
+.dia2 table th:nth-child(2),.dia2 table th:nth-child(3){width: 26%;}
+.dia2 table th:nth-child(4){width: 25%;}
+.dia2 table td span{display: block;font-size: 12px;}
+
+.dia3{position: relative;width: 1000px;height: 564px;}
+.dia3 .video-box{width: 1000px;height: 564px;}
+.dia3 .dia-close{position: absolute;top: 0px;right: -46px;background: url(../ossweb-img/tc-close2.png) no-repeat;background-size:100% auto ;width: 28px;height: 28px;}
+

@@ -1,0 +1,275 @@
+/* reset */
+html,body,div,p,ul,li,dl,dt,dd,em,i,span,a,img,input,h1,h2,h3,h4,h5 {margin:0;padding:0}
+a,img,input {border:none;}
+body{font: 14px/1.75  -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;-webkit-tap-highlight-color: rgba(0,0,0,0);}
+a {text-decoration:none;}
+ul,li{list-style: none}
+a, img {-webkit-touch-callout: none; /* 禁止长按链接与图片弹出菜单，根据需要选择是否删除 */}
+html, body {
+    -webkit-user-select: none;   /* 禁止选中文本（如无文本选中需求，此为必选项） */
+    user-select: none;
+}
+/* reset end */
+html {
+  font-size: 50px;/* 兼容不支持vw的系统 */
+  font-size: 13.33333333vw;/* 7.5rem === 100vw */
+}
+
+@media (max-width: 1024px) {
+  html,body {
+    max-width: 1024px;
+  }
+}
+
+#afooter{background-color: #191219;text-align: center;font-size:.22rem;padding:.2rem 0;}
+#afooter, #afooter a{color: #c0c0c0;text-decoration: none;}
+/* 图片分离路径示例 */
+/* .bg{background-image: url(//game.gtimg.cn/images/lol/act/a20200117guardiansofthesand/bg.jpg);} */
+div,img,a{outline: none;}
+.hidden{display: none; font-size: 0; text-indent: -999em;}
+
+/*售卖价格字体*/
+@font-face {
+  font-family: 'sellnum-4';
+  src: url('//game.gtimg.cn/images/lol/common/sell/font/sellnum-4.eot');
+  src: url('//game.gtimg.cn/images/lol/common/sell/font/sellnum-4.woff') format('woff'),url('//game.gtimg.cn/images/lol/common/sell/font/sellnum-4.ttf') format('truetype'),url('//game.gtimg.cn/images/lol/common/sell/font/sellnum-4.svg') format('svg');
+}
+
+/* 金色字体示例样式 */
+.gold{
+position: relative;
+font-size:.82rem;/* 字体大小 根据实际情况设置 */
+color:#ddc996;/* 默认色值 低级浏览器下显示 */
+font-family: 'sellnum-4';
+font-weight: bold;
+display: inline-block;
+width: auto;
+}
+
+@supports (-webkit-background-clip: text) {
+  .gold::before,.gold::after {
+      position: absolute;
+      z-index: 2;
+      top:0;
+      left:0;
+      content: attr(data-num);
+      background-image: linear-gradient(#d3c17f, #e7d2ad);
+      -webkit-background-clip: text;
+      color: transparent;
+      -webkit-text-fill-color: transparent;
+  }
+  .gold::after{
+    z-index: 1;
+    top:0rem;
+    background-image: linear-gradient(#d3c17f, #e7d2ad);
+  }
+}
+
+.spr{background: url(//game.gtimg.cn/images/lol/act/a20200904psyopspass/m-spr.png) no-repeat;width: 7.5rem;height: 12rem; background-size: 7.5rem 12rem;}
+.wrap{width:100%;position: relative;overflow: hidden;margin: 0 auto;background: 
+  url(//game.gtimg.cn/images/lol/act/a20200904psyopspass/m-bg0.jpg) center 0 no-repeat, 
+  url(//game.gtimg.cn/images/lol/act/a20200904psyopspass/m-bg1.jpg) center 12.94rem no-repeat,
+  url(//game.gtimg.cn/images/lol/act/a20200904psyopspass/m-bg2.jpg) center 45.2rem no-repeat,
+  url(//game.gtimg.cn/images/lol/act/a20200904psyopspass/m-bg3.jpg) center 70.44rem no-repeat,
+  url(//game.gtimg.cn/images/lol/act/a20200904psyopspass/m-bg4.jpg) center 95.52rem no-repeat;
+  height: 117.9rem; background-size:7.5rem auto;overflow: hidden;}
+.head,.content{width:7.5rem;position: relative;margin: 0 auto;overflow: hidden;}
+.cont{width:7.5rem;height: auto;position: relative;margin: 0 auto;overflow: hidden;}
+.head{height: 12.9rem;overflow: hidden;}
+
+/*头部 head*/
+.logo {background: url(//game.gtimg.cn/images/lol/logo/middle-white.png) no-repeat center top;background-size: 100% auto; width: 2rem; height: 0.72rem;  font-size: 0; position: absolute; top: 0.2rem; left: 0.14rem;}
+.btn-links{background: url(//game.gtimg.cn/images/lol/act/a20200904psyopspass/m-spr-link.png) no-repeat;background-size: 100% auto;width: 7.5rem;height: 1.16rem;position: absolute;bottom: .5rem;left:0;font-size: 0;text-align: center;}
+.btn-links a{width:2.5rem;height: 1.14rem; display: inline-block;*display:inline;*zoom:1;vertical-align:top;position: relative;}
+
+
+
+
+
+/*灵魂莲华(2020)通行证*/
+.main1{padding-top: 0.14rem;width:100%;height: auto;margin: 0 auto;padding-bottom: 0.4rem;}
+/*灵魂莲花通行证*/
+
+.main1 .main1-1{width:100%;height: auto;margin: 0 auto;font-size: 0;text-align: center;padding-top: 0.1rem;position: relative;padding-bottom: 1.2rem;}
+.main1 .main1-1>div{display: inline-block;*display:inline;*zoom:1;vertical-align:top;height: auto;padding-top: 4.6rem;}
+.main1 .main1-1>div.left{width: 3.2rem;position: relative;overflow: hidden;}
+.main1 .main1-1>div.left img{display: block;margin: 0 auto 0.1rem;width: 4rem;height:auto;position: absolute;top: -0.4rem;left: -.4rem;}
+.main1 .main1-1>div.left .price{margin-top: 0.06rem;line-height: .9rem;}
+.main1 .main1-1>div.left .price span{color: #17181c;font-size: 0.14rem;font-weight: normal;width:0.2rem ;height: 0.6rem;display: inline-block;*display:inline;*zoom:1;vertical-align:top;margin-top: 0.02rem;background: #dcc995;border-radius: 0.04rem;line-height:0.16rem;text-align: center;margin-left: 0.04rem;box-sizing: border-box;padding-top: 0.16rem;font-weight: bold;}
+.main1 .main1-1>div.left b{font-weight: normal;color: #ffffff;font-size: 0.18rem;display: block;line-height: 0.28rem;}
+.main1 .main1-1>div.left b span{font-size: 0.12rem;}
+.main1 .main1-1>div.left b strong{display: block;font-weight: normal;}
+
+
+/*通行证专属福利*/
+.main1 .main1-3{width: 100%;height: auto;margin: 0 auto;text-align: center;padding-top: 0.3rem;padding-bottom: 0.5rem;}
+/*common*/
+.main1 .main1-3 ul{width: 100%;height: auto;margin: 0 auto;text-align: center;font-size: 0;}
+.main1 .main1-3 ul li{display: inline-block;*display:inline;*zoom:1;vertical-align:top;width: auto;height: auto;position: relative;}
+.main1 .main1-3 .num{width: 1.02rem;height: 0.14rem;padding-bottom: 0.1rem;font-size: 0;}
+.main1 .main1-3 .num1{background-position: 0 -9.32rem;}
+.main1 .main1-3 .num2{background-position: -1.68rem -9.32rem;padding-bottom: 0.16rem;}
+.main1 .main1-3 .num3{background-position: -3.24rem -9.32rem;}
+.main1 .main1-3 .num4{background-position: -4.78rem -9.32rem;margin:0 auto;}
+.main1 .main1-3 .main1-3-txt1{color: #e7d2ae;font-size: 0.14rem;line-height: 0.22rem;}
+.main1 .main1-3 .main1-3-txt2{color: #ffffff;font-size: 0.18rem;line-height: 0.28rem;}
+.main1 .main1-3 .img-box{width: 2.4rem;height: 2.4rem;position: absolute;top: -.06rem;right: -0.64rem;}
+.main1 .main1-3 .img-box img{display: block;width: 100%;height: auto;}
+.main1 .main1-3 .pic-box{background: url(//game.gtimg.cn/images/lol/act/a20200904psyopspass/pic-bg.png) no-repeat;background-size:100% auto ;width:2.6rem;height:2.6rem;margin: 0 0 0.08rem -.08rem;}
+.main1 .main1-3 .pic-box img{display: block;width: 100%;height: auto;}
+.main1 .main1-3 .main-img{padding-top: 0.12rem;padding-bottom: 2.9rem;position: relative;}
+.main1 .main1-3 .main-img li{background: url(//game.gtimg.cn/images/lol/act/a20200904psyopspass/m-img-bg1.png) no-repeat;background-size:100% auto ;width: 3.12rem;height: 1.8rem;margin: 0.14rem 0.1rem ;position: relative;box-sizing: border-box;padding: 0.3rem 0 0 0.2rem;}
+.main1 .main1-3 .main-img li:nth-child(2){background: url(//game.gtimg.cn/images/lol/act/a20200904psyopspass/m-img-bg2.png) no-repeat;background-size:100% auto ;width: 3.84rem;height: 2.6rem;position: absolute;top: 2.3rem;left:1.82rem;margin: 0;}
+.main1 .main1-3 .main-img li:nth-child(2){padding: 0.58rem 0 0 0.26rem;}
+.main1 .main1-3 .main-img li:nth-child(2) .img-box{width: 3.3rem;position: absolute;top: 0rem;right: -0.94rem;}
+
+.main1 .main1-3 .main-img .main1-3-txt1{color: #e7d2ae;font-size: 0.24rem;line-height: 0.28rem;text-align: left;position: relative;z-index: 2;}
+.main1 .main1-3 .main-img .main1-3-txt1 b{font-size: 0.18rem;}
+.main1 .main1-3 .main-img .main1-3-txt1 span{font-size: 0.18rem;display: block;line-height: 0.2rem;}
+.main1 .main1-3 .btn-gain-txt{color: #e7d2ae;font-size: 0.18rem;text-decoration: underline;position: relative;top: 0.08rem;left: -.96rem;}
+
+.main1 .main1-3 .tips{color: #ffffff;font-size: 0.14rem;line-height: 0.36rem;padding-bottom: 0.08rem;}
+.main1 .main1-3 .main1-3-4,.main1 .main1-3 .main-pic{display: inline-block;*display:inline;*zoom:1;vertical-align:top;}
+.main1 .main1-3 .main1-3-4{text-align: center;width: 7.5rem;padding-top: 0.5rem;box-sizing: border-box;}
+.main1 .main1-3 .main1-3-4 .num4-txt{text-align: center;line-height: .4rem;}
+.main1 .main1-3 .main-pic{width: 100%;padding-top: .26rem;}
+.main1 .main1-3 .main-pic li{width: 2.42rem;overflow: hidden;}
+.main1 .main1-3 .main-pic li p{position: absolute;bottom: 0.48rem;left: 0;width: 100%;height:0.32rem;}
+
+.main1 .main1-3 .main-prop{padding-top: 0.3rem;width: 100%;margin: 0 auto;}
+.main1 .main1-3 .main-prop li{background: url(//game.gtimg.cn/images/lol/act/a20200904psyopspass/m-prop-bg.png) no-repeat;background-size:100% auto;width:2.08rem;height: 2.06rem;margin:0 0.08rem 0.26rem;position: relative;}
+.main1 .main1-3 .main-prop li img{display: block;width: 100%;height: auto;}
+.main1 .main1-3 .main-prop li p{position: absolute;bottom: 0.08rem;left: 0;width: 100%;height:0.4rem;}
+
+
+
+/*灵能(2020) 法球礼包 cont2*/
+.cont2{padding-top: 0.1rem;text-align: center;position: relative;padding-bottom: 0.1rem;}
+.cont2 .title2-desc{color: #e7d2ae;font-size: .18rem;line-height: .28rem;position: absolute;top: 1.5rem;left: 0;width: 100%;}
+.cont2 .title2-desc span{color: #fff;font-weight: bold;}
+.cont2 .title2-desc a{display: inline-block;*display:inline;*zoom:1;vertical-align:top;width: .92rem;height: .26rem;color: #e7d2ae;line-height: 22px;box-sizing: border-box;border: .02rem solid #e7d2ae;margin: 0rem 0 0 .14rem;}
+.cont2 ul{width:7.5rem;height: auto;text-align: center;font-size: 0;position: relative;top: -0.2rem;}
+.cont2 ul li{display: inline-block;*display:inline;*zoom:1;vertical-align:top;background: url(//game.gtimg.cn/images/lol/act/a20200904psyopspass/bg-draw.png) no-repeat;background-size:100% auto;width:3.6rem;height: 4.63rem;text-align: center;position: relative;}
+.cont2 ul li>div{width: 4.26rem;height: 1.86rem;margin: 0 auto;position: relative;}
+.cont2 ul li>div img{width: 4.26rem;height:auto;display: block;margin: 0 auto;}
+.cont2 ul li>div.small img {width: 1.2rem;position: relative;top: 0.1rem;}
+.cont2 ul li>div img.spe1{width: 1.3rem;}
+.cont2 ul li>div p{color: #a6acff;font-size: 0.16rem;line-height: 0.24rem;width: 100%;position: absolute;bottom: 0;left: 0;box-sizing: border-box;padding-right: 0.4rem;display: none;}
+.cont2 ul li>div p span{display: inline-block;*display:inline;*zoom:1;vertical-align:top;width: 0.74rem;}
+.cont2 ul li .txt{display: flex;justify-content: center;align-items: center;color: #e7d2ae;font-size: 0.2rem;line-height: 0.24rem;height: 1.1rem;font-weight: bold;}
+.cont2 ul li p.price{font-size: 0.66rem;line-height: 0.8rem;}
+.cont2 ul li p.price span{ color: #17181c;font-size: 0.14rem;font-weight: normal;width:0.2rem ;height: 0.48rem;display: inline-block;*display:inline;*zoom:1;vertical-align:top;margin-top: 0.06rem;background: #dcc995;border-radius: 0.04rem;line-height:0.16rem;text-align: center;margin-left: 0.04rem;box-sizing: border-box;padding-top: 0.1rem;font-weight: bold;}
+.cont2 ul li a{background-position: 0 -10.22rem;width: 2.54rem;height: 0.64rem;display: block;margin: 0 auto;color: #1c1a22;font-size: 0.22rem;font-weight: bold;line-height: 0.64rem;position: relative;top: -0.1rem;}
+
+
+
+
+/*灵能币(2020)兑换商城*/
+.cont3{padding-top:0.06rem;position: relative;}
+.cont3 .title3-desc{color: #e7d2ae;font-size: .18rem;line-height: .28rem;position: absolute;top: 1.5rem;left: 0;width: 100%;text-align: center;}
+.cont3 .title3-desc span{color: #fff;font-weight: bold;}
+
+/*灵能特工   伊泽瑞尔*/
+.cont3 .main3-1{width: 6.5rem;height: 10.2rem;margin:0 auto;position: relative;padding-top: 6.4rem;font-size: 0;box-sizing: border-box;}
+.cont3 .main3-1 .subtitle{font-size: 0.42rem;width: 100%;text-align: left;word-spacing: 0.08rem;letter-spacing: 0.02rem;position: relative;padding-bottom: .14rem;padding-top: 0.4rem;}
+.cont3 .main3-1 .subtitle:after{background: url(//game.gtimg.cn/images/lol/act/a20200904psyopspass/zhizhen.png) no-repeat;background-size:100% auto ;width:0.77rem;height: 0.38rem;content: "";position: absolute;top: 0rem;left: 0;}
+.cont3 .main3-1 .video2-box{background: url(//game.gtimg.cn/images/lol/act/a20200904psyopspass/m-bg-video.png) no-repeat;background-size:100% auto ;width:3.42rem;height: 1.2rem;position: absolute;bottom: 1.3rem;right: -.5rem;}
+.cont3 .main3-1 .btn-video2{background-position: -4.2rem -10.12rem;width:0.65rem;height:0.65rem;display: inline-block;margin: 0.28rem 0 0 1.16rem;}
+.cont3 .main3-1 .money{width: 40%;text-align: left;line-height: 1rem;height: auto;}
+.cont3 .main3-1 .money b{font-family: 'sellnum-4';color: #203262;font-size: 0.92rem;font-weight: normal;}
+.cont3 .main3-1 .money span{display: inline-block;*display:inline;*zoom:1;vertical-align:top;color: #dcce99;font-size: 0.18rem;font-weight: bold;width: 0.26rem;height: 0.66rem;text-align: center;box-sizing: border-box;border-radius: 0.04rem;line-height: 0.18rem;padding-top: 0.06rem;margin: 0.06rem 0 0 0.1rem;background: #203262;}
+.cont3 .main3-1 .tips{width:52%;text-align:left ;line-height: 0.28rem;color: #2e2e2e;font-size: 0.18rem;padding-right: 0.1rem;position: absolute;bottom: 1.1rem;left: 0;}
+.cont3 .main3-1 .tips a{color: #ffffff;font-weight: bold;}
+.cont3 .main3-1 .tips b{font-weight: normal;}
+
+/*100至臻点(2020)+图标：2200灵能币 (2020)*/
+.cont3 .main3-2{width:100%;height:auto;position: relative;padding-top: 0.76rem;}
+.cont3 .main3-2 img{display: none;}
+.cont3 .main3-2>div{background: url(//game.gtimg.cn/images/lol/act/a20200904psyopspass/m-zhizhen2020.png) no-repeat;background-size:100% auto ;width:6.66rem;height: 4.8rem;margin:0 auto;}
+
+/*main3-com*/
+.main3-com{width:100%;height:auto;position: relative;padding-top: 0rem;}
+.main3-com ul{width: 100%;height: auto;text-align: center;font-size: 0;margin: 0 auto;}
+.main3-com ul li{display: inline-block;*display:inline;*zoom:1;vertical-align:top;text-align: center;height: auto;}
+.main3-com ul li p{color: #e7d2ae;font-size: 0.2rem;line-height: 0.3rem;font-weight: bold;padding-top: 0.16rem;}
+.main3-com ul li span{color: #a2a2a2;font-size: 0.18rem;line-height: 0.36rem;display: block;}
+
+
+/*灵能特工炫彩+图标：300绽灵币/款*/
+.cont3 .main3-3 ul{padding-top:0.2rem;padding-bottom: .7rem;}
+.cont3 .main3-3 li{width: 3.2rem;padding-top:0.16rem;}
+.cont3 .main3-3 li:first-child{margin-left: 0.9rem;}
+.cont3 .main3-3 .paint-box{width:2.6rem;height: 2.9rem;margin-left: 0.48rem;} 
+.cont3 .main3-3 .paint-box img{display: block;width: 100%;height: auto;margin: 0 auto;}
+.cont3 .main3-3 li p{width: 80%;}
+.cont3 .main3-3 li span{width: 80%;display: block;}
+/*灵能特工图标+边框：250绽灵币/款*/
+.cont3 .main3-4 li{width: 2.5rem;padding-top: 0.42rem;}
+.cont3 .main3-4 li .mark-box{width: 1.87rem;height: 2.74rem;margin: 0 auto;}
+.cont3 .main3-4 li .mark-box img{width: 100%;height: auto;margin: 0 auto;display: block;}
+.cont3 .main3-4 li p{padding-top: 0;}
+.cont3 .main3-4{padding-bottom:1.7rem;}
+
+/*云顶之弈 小小英雄蛋*/
+.cont3 .main3-5 ul{padding-top: .16rem;}
+.cont3 .main3-5 li{width: 1.74rem;padding-top: 0.14rem;}
+.cont3 .main3-5 li .egg-box{background: url(//game.gtimg.cn/images/lol/act/a20200904psyopspass/egg-bg.png) no-repeat;background-size:100% auto ;width: 1.57rem;height: 1.57rem;margin: 0 auto;}
+.cont3 .main3-5 li .egg-box img{width: 90%;height: auto;margin: 5% auto;display: block;}
+.cont3 .main3-5 li .egg-box:first-child img{width:1.43rem;}
+.cont3 .main3-5 li p{height: 0.6rem;}
+.cont3 .main3-5{padding-bottom:0.8rem;}
+/*海克斯战利品*/
+.cont3 .main3-6 ul{height: auto;text-align: center;font-size: 0;width: 90%;margin:0 auto;}
+.cont3 .main3-6 li{width: 1.5rem;padding-top: 0.1rem;}
+.cont3 .main3-6 li .heks-box{background: url(//game.gtimg.cn/images/lol/act/a20200904psyopspass/heks-bg.png) no-repeat;background-size:100% auto ;width: 1.5rem;height: 1.62rem;margin: 0 auto;}
+.cont3 .main3-6 li .heks-box img{width: 1.3rem;height: auto;margin: 0 auto;display: block;}
+.cont3 .main3-6 li .heks-box.first img{width:1.43rem;}
+.cont3 .main3-6 li p{padding-top: 0.08rem;height: 0.6rem;}
+
+/*极限闪击*/
+.cont3 .main3-7{width: 100%;height: auto;padding-top: 0.9rem;position: relative;}
+.cont3 .main3-7 p{padding-top: 5.6rem;width: 6.4rem;height: auto;text-align: left;color: #a2a2a2;font-size: 0.18rem;line-height: 0.36rem;margin: 0 auto;}
+.cont3 .main3-7 p span{padding-left: .1rem;color: #879b91;font-size: 0.18rem;line-height: 0.3rem;display: block;}
+.cont3 .main3-7 .btn-video3{background-position: -5.22rem -9.96rem;display: block;width: 1rem;height: 1rem;position: absolute;bottom: 1.36rem;right:2.56rem;}
+
+.title{width:7.5rem;height: 2.68rem;margin: 0 auto;font-size: 0;}
+.title1{background-position: 0 0;height: 2.46rem;}
+.title2{background-position: 0 -2.62rem;}
+.title3{background-position: 0 -5.3rem;}
+.subtitle{width:7.3rem;color: #dfcc9c;font-size: 0.36rem;line-height: 0.6rem;/*background-position: -.1rem -7.7rem;*/height: 0.7rem;text-align: center;margin: 0 auto;position: relative;overflow: hidden;background-position: 1rem 7.7rem;}
+.subtitle b{font-weight: bold;}
+.subtitle span{position: relative;}
+.subtitle span:before,.subtitle span:after{content: "";background: url(//game.gtimg.cn/images/lol/act/a20200904psyopspass/subtitle-icon.png) no-repeat center center;background-size:auto auto ;width: 1rem;height: 0.4rem;position: absolute;top: 0;}
+.subtitle span:before{left: -1rem;}
+.subtitle span:after{right: -1rem;transform: rotate(180deg);}
+.subtitles{width: 100%;color: #ffecd4;font-size: 0.3rem;line-height: 0.56rem;text-align: center;font-weight: bold;}
+.title3-2 span:before,.title3-3 span:before,.title3-4 span:before,.title3-2 span:after,.title3-3 span:after,.title3-4 span:after{display: none!important;}
+.sid{display: none;font-size: 0;}
+
+/*弹窗*/
+.dialog{position: relative;}
+.dia-close{background: url(//game.gtimg.cn/images/lol/act/a20200904psyopspass/tc-close.png) no-repeat;background-size:100% auto ;width: 0.56rem;height: 0.56rem;position: absolute;top: -0.12rem;right: -0.04rem;}
+
+.dia1{background: url(//game.gtimg.cn/images/lol/act/a20200904psyopspass/m-tc-bg1.png) no-repeat;background-size:100% auto ;width:6.94rem;height: 6.78rem;}
+.dia1 .txt-box{width: 6rem;margin: 0 auto;height: auto;}
+.dia1 span{display:block;text-align: center;margin: 0 auto;color: #f0c7a9;font-size: 0.24rem;line-height: 0.36rem;font-weight: bold;padding-top: 0.6rem;padding-bottom: 0.2rem;width: auto;margin: 0 auto;border-bottom: 0.02rem solid #42487f;}
+.dia1 p{padding-top: 0.24rem;color: #d2d5f6;font-size: 0.18rem;line-height:0.28rem;width: 100%;}
+.dia1 p:last-child{padding-top: 0.24rem;}
+
+.dia2{background: url(//game.gtimg.cn/images/lol/act/a20200904psyopspass/m-tc-bg2.png) no-repeat;background-size:100% auto ;width:6.94rem;height: 6.98rem;padding-top: 0.46rem;box-sizing: border-box;}
+.dia2 table{width: 6.2rem;height:4rem;margin: 0 auto;text-align: center;}
+.dia2 table th{color: #f0c7a9;font-size: 0.2rem;font-weight: bold;line-height: 0.26rem;border-bottom: 0.01rem solid #4f64ad;height: 0.6rem;border-right:1px solid #4f64ad;}
+.dia2 table td{color: #d2d5f7;font-size: 0.18rem;line-height: 0.26rem;border-bottom: 0.01rem solid #4f64ad;height: 0.6rem;}
+.dia2 table td:nth-child(-n+3){border-right: 0.01rem solid #4f64ad;}
+.dia2 table tr:last-child td{border: none;height: 0.6rem;color: #f0c7a9;}
+.dia2 table tr:nth-child(4){height: 0.6rem;}
+.dia2 table .spe1{line-height: 0.4rem;}
+.dia2 table th:first-child{width: 20%;}
+.dia2 table th:nth-child(2),.dia2 table th:nth-child(3){width: 29%;}
+.dia2 table th:nth-child(4){width: 24%;border-right: none;}
+.dia2 table td span{display: block;font-size: .16rem;}
+
+.dia3{position: relative;width: 6.4rem;height: 3.6rem;}
+.dia3 .video-box{width: 6.4rem;height: 3.6rem;}
+.dia3 .dia-close{position: absolute;top: -.4rem;right:0;background: url(//game.gtimg.cn/images/lol/act/a20200904psyopspass/tc-close2.png) no-repeat;background-size:100% auto ;width: .28rem;height: .28rem;}
+/* #t6Hl8#C5C210635E6F6F445729C59DCD8D7F1E */
