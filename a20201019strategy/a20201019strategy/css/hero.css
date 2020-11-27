@@ -1,0 +1,361 @@
+blockquote,body,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,pre,select,td,textarea,th,ul{padding:0;margin:0}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}
+address,b,caption,cite,code,dfn,em,strong,th,var{font-weight:400;font-style:normal}
+li,ol,ul{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-weight:400;font-size:100%}
+q:after,q:before{content:""}
+abbr,acronym{border:0}
+strong,th{font-weight:700}
+a{text-decoration:none;cursor:pointer;outline:0}
+button,input,option,select,textarea{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;outline:0}
+input:focus,textarea:focus{outline:0}
+body,html{position:relative;overflow:hidden;width:1055px;height:720px}
+body{font:12px 'LoL Display',"\5FAE\8F6F\96C5\9ED1",TimesNewRoman,'Times New Roman',Times,Baskerville,Georgia,serif;color:#a09b8c;background-color:#000;font-family:"Microsoft YaHei",Helvetica,sans-serif;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;-khtml-user-select:none;user-select:none}
+.hid{text-indent:-9999px;font-size:0;overflow:hidden;width:0;height:0;display:block}
+.fl{float:left}
+.fr{float:right}
+a,div,img,input,select{outline:0}
+@font-face {
+    font-family: 'sellnum-1';
+    src: url('//game.gtimg.cn/images/lol/common/sell/font/sellnum-1.eot');
+    src: url('//game.gtimg.cnimages/lol/common/sell/font/sellnum-1.woff') format('woff'),url('//game.gtimg.cn/images/lol/common/sell/font/sellnum-1.ttf') format('truetype'),url('//game.gtimg.cn/images/lol/common/sell/font/sellnum-1.svg') format('svg');
+}
+.wrap{position:relative;width:1055px;height:720px;/*background:url(//game.gtimg.cn/images/lol/act/a20201019strategy/gameplay/bg.jpg) no-repeat left top;background-size:100% auto;*/overflow:hidden}
+.header{position:fixed;width:985px;margin:0 auto;z-index:1000;top:79px;left:35px}
+.Menu{margin-top:9px}
+.Menu-list{display:-webkit-flex;display:flex;height:40px;text-shadow:0 0 2px #000}
+.Menu-list li{display:flex;position:relative;cursor:pointer;margin-right:30px;min-width:28px;white-space:nowrap;text-overflow:ellipsis}
+.Menu-list a{position:relative;color:#cdbe91;text-align:center;letter-spacing:.1em;-webkit-font-smoothing:subpixel-antialiased;font-family:'LoL Display',"\5FAE\8F6F\96C5\9ED1",'Times New Roman',Times,Baskerville,Georgia,serif}
+.Menu-list li a:hover{color:#f0e6d2}
+.header-esports .esports.active a,.header-hot .hot.active a,.header-ig .ig.active a,.header-video .video.active a{color:#f0e6d2}
+.header-esports .esports.active a:before,.header-hot .hot.active a:before,.header-ig .ig.active a:before,.header-video .video.active a:before{content:'';position:absolute;top:20px;left:0;height:1px;width:100%;background:linear-gradient(to left,transparent,#cdbe91,transparent)}
+.clearfix{zoom:1}
+.clearfix::after{content:'';display:block;height:0;visibility:hidden;clear:both}
+.content{position:absolute;top:80px;left:0;width:100%;height:640px;font-size:0;z-index: 4;}
+.wrapbg-box{width:1055px;height:640px;position: absolute; top: 80px; left: 0px;overflow: hidden;}
+.wrapbg-box .wrapbg{width:auto;height:640px; background-size:100%;margin-left: 138px;}
+.wrapbg-box i{width:1056px;height:640px; background: url(//game.gtimg.cn/images/lol/act/a20201019strategy/hero/bg-mc-img.png) no-repeat;background-size:100% auto;position: absolute; top: 0px; left: 0px;z-index: 1;}
+.tabs-box,.heros-box{display: inline-block; *display: inline; *zoom: 1; vertical-align: top;height: 640px;position: relative;}
+.tabs-box{width: 280px;}
+.heros-box{width: 775px;}
+.hero-title{font-size: 24px; color: #f0e6d2; margin: 38px 0 8px 28px; position: relative;}
+.hero-title span{color: #c1b99e;font-size: 14px;display: inline-block; *display: inline; *zoom: 1; vertical-align: bottom;padding-left: 10px;}
+.heroskill{padding-left: 24px;margin-bottom: 62px;position: relative;}
+.heroskill b{display: inline-block; *display: inline; *zoom: 1; vertical-align: top;width: 30px;height: 30px;margin-right: 10px;}
+.heroskill b.skill1{background:url(//game.gtimg.cn/images/lol/act/a20201019strategy/hero/heroskill1.png) no-repeat;background-size: 100% auto;}
+.heroskill b.on.skill1{background:url(//game.gtimg.cn/images/lol/act/a20201019strategy/hero/heroskill1on.png) no-repeat;background-size: 100% auto;}
+.heroskill b.skill2{background:url(//game.gtimg.cn/images/lol/act/a20201019strategy/hero/heroskill2.png) no-repeat;background-size: 100% auto;}
+.heroskill b.on.skill2{background:url(//game.gtimg.cn/images/lol/act/a20201019strategy/hero/heroskill2on.png) no-repeat;background-size: 100% auto;}
+.heroskill b.skill3{background:url(//game.gtimg.cn/images/lol/act/a20201019strategy/hero/heroskill3.png) no-repeat;background-size: 100% auto;}
+.heroskill b.on.skill3{background:url(//game.gtimg.cn/images/lol/act/a20201019strategy/hero/heroskill3on.png) no-repeat;background-size: 100% auto;}
+.heroskill b.skill4{background:url(//game.gtimg.cn/images/lol/act/a20201019strategy/hero/heroskill4.png) no-repeat;background-size: 100% auto;}
+.heroskill b.on.skill4{background:url(//game.gtimg.cn/images/lol/act/a20201019strategy/hero/heroskill4on.png) no-repeat;background-size: 100% auto;}
+.heroskill b.skill5{background:url(//game.gtimg.cn/images/lol/act/a20201019strategy/hero/heroskill5.png) no-repeat;background-size: 100% auto;}
+.heroskill b.on.skill5{background:url(//game.gtimg.cn/images/lol/act/a20201019strategy/hero/heroskill5on.png) no-repeat;background-size: 100% auto;}
+.tabbox{ width: 280px; height:300px;position: relative;}
+.tabbox a{ width: 280px; height: 90px;font-size: 14px;color: #c5b78c;text-align: left; line-height: 90px;display: block;padding-left: 32px;box-sizing: border-box;position: relative;}
+.tabbox a::before{content: "";display: inline-block; *display: inline; *zoom: 1; vertical-align: top;width: 26px;height: 90px;margin-right: 20px;}
+.tabbox a.tab1::before{background:url(//game.gtimg.cn/images/lol/act/a20201019strategy/hero/icon-nav1.png) no-repeat center center;background-size: 25px auto;}
+.tabbox a.tab1.on::before{background:url(//game.gtimg.cn/images/lol/act/a20201019strategy/hero/icon-nav1on.png) no-repeat center center;background-size: 25px auto;}
+.tabbox a.tab2::before{background:url(//game.gtimg.cn/images/lol/act/a20201019strategy/hero/icon-nav2.png) no-repeat center center;background-size: 25px auto;}
+.tabbox a.tab2.on::before{background:url(//game.gtimg.cn/images/lol/act/a20201019strategy/hero/icon-nav2on.png) no-repeat center center;background-size: 25px auto;}
+.tabbox a.tab3::before{background:url(//game.gtimg.cn/images/lol/act/a20201019strategy/hero/icon-nav3.png) no-repeat center center;background-size: 25px auto;}
+.tabbox a.tab3.on::before{background:url(//game.gtimg.cn/images/lol/act/a20201019strategy/hero/icon-nav3on.png) no-repeat center center;background-size: 25px auto;}
+.tabbox a.on{  color: #f0dbb3;background: url(//game.gtimg.cn/images/lol/act/a20201019strategy/hero/bg-navon.png) no-repeat;background-size:100% auto;}
+.btn-word{width: 154px;height: 33px;margin-top: 46px;margin-left: 30px;}
+.btn-word .button .button-content-wrapper{padding-right: 16px;}
+.btn-word .button .button-content-wrapper:after{content: "";background:url(//game.gtimg.cn/images/lol/act/a20201019strategy/hero/btn-more.png) no-repeat;background-size: 100%;width: 9px;height: 9px;position:absolute;top: 6px;right: 0;}
+.edition-txt{ font-size: 12px; color: #c9a96b; margin: 52px 0 20px 47px; position: relative;}
+.edition-txt::after{ content: ''; background: url(//game.gtimg.cn/images/lol/act/a20201019strategy/hero/sign.png) no-repeat;background-size: 100%; width: 11px; height: 11px; background-size: 100%; position: absolute; top: 3px; left: -15px;}
+.edition-txt span{ display: inline-block; border-bottom: 1px solid #c9a96b;}
+
+
+/* hero1 */
+.hero1 p{font-size: 22px;width: 100%;text-align: center;margin:0 auto;height: 120px;position: absolute;bottom: 0;left: 0;font-weight: bold;color: #8e8b8a;}
+@supports (-webkit-background-clip: text) {
+  .hero1 p{
+    background-image: linear-gradient(#8e8b8a, #c6bfaf);
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+}
+.hero1 .btn-hero1-play{position: absolute;bottom: 176px;left: 50%;transform:translateX(-50%) ;background: url(//game.gtimg.cn/images/lol/act/a20201019strategy/hero/btn-play.png) no-repeat;background-size: 100%; width: 66px; height: 70px;}
+
+/* hero2 */
+.hero2{margin-top:125px;margin-left: 70px;}
+.hero2 .left{float: left;width: 300px;}
+.hero2 .left .main-rune{font-size: 14px;padding-left: 60px;}
+.hero2  .main-rune.yellow{color:#b28d54}
+
+.hero2  .main-rune.yellow img{display: block;margin:5px auto 0;}
+.hero2 .left .main-rune span{margin-left: 17px;vertical-align: 30px;letter-spacing: 2px;}
+.hero2 .left .ul1 li{float: left;width: 53px;height: 53px;position: relative;margin-right: 5px;margin-top:15px;}
+.hero2 .left .ul1 li img{-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray;opacity: .4;cursor:pointer;width: 53px;height: 53px;box-sizing: border-box;}
+.hero2 .left .ul1 li img.on{filter: none;opacity: 1;}
+.hero2 .left .ul1 li i{width:8px;height: 8px;background: #aaaaaa;border-radius: 50%;display: block;position:absolute;left:0;right:0;top:0;bottom:0;margin:auto;}
+.hero2 .left .ul1 li i.on{background:#795d3b}
+.hero2 .left .ul2 li i.on{background:#161717}
+.hero2 .left .ul2 li{float: left;width: 53px;height: 53px;position: relative;margin-right: 25px;margin-top:27.5px;}
+.hero2 .left .ul2 li:first-child{margin-right: 10px;}
+.hero2 .left .ul2 li:last-child{margin-right: 0;}
+.hero2 .left .ul2 li img{display: block;position:absolute;left:0;right:0;top:0;bottom:0;margin:auto;border-radius: 50%;-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray;opacity: .4;cursor:pointer;width: 40px;height: 40px;box-sizing: border-box;}
+.hero2 .left .ul2 li img.yellow{border:2px solid #c8aa6e;filter:none;opacity: 1;}
+.hero2 .left .ul2 li img.red{border:2px solid #d44242;filter:none;opacity: 1;}
+.hero2 .left .ul2 li img.blue{border:2px solid #49aab9;filter:none;opacity: 1;}
+.hero2 .left .ul2 li img.green{border:2px solid #a1d586;filter:none;opacity: 1;}
+.hero2 .left .ul2 li img.purple{border:2px solid #9faafc;filter:none;opacity: 1;}
+
+
+.hero2 .left .ul2 li i{width:8px;height: 8px;background: #aaaaaa;border-radius: 50%;display: block;position:absolute;left:0;right:0;top:0;bottom:0;margin:auto;}
+.hero2 .left .ul2 li i.on{background:#795d3b}
+.hero2 .right{float: left;width: 300px;}
+.hero2 .right .main-rune{font-size: 14px;padding-left: 60px;}
+.hero2 .main-rune.yellow{color:#c8aa6e}
+.hero2 .main-rune.blue{color:#49aab9}
+.hero2 .main-rune.green{color:#a1d586}
+.hero2 .main-rune.red{color:#d44242}
+.hero2 .main-rune.purple{color:#9faafc}
+.hero2  .main-rune.yellow .bg{display: inline-block;width: 59px;height: 62.5px;background: url(//game.gtimg.cn/images/lol/act/a20201019strategy/hero/main-rune1-bg.png) no-repeat;background-size: 100%;}
+.hero2  .main-rune.blue .bg{display: inline-block;width: 59px;height: 62.5px;background: url(//game.gtimg.cn/images/lol/act/a20201019strategy/hero/main-rune2-bg.png) no-repeat;background-size: 100%;}
+.hero2  .main-rune.green .bg{display: inline-block;width: 59px;height: 62.5px;background: url(//game.gtimg.cn/images/lol/act/a20201019strategy/hero/main-rune3-bg.png) no-repeat;background-size: 100%;}
+.hero2  .main-rune.red .bg{display: inline-block;width: 59px;height: 62.5px;background: url(//game.gtimg.cn/images/lol/act/a20201019strategy/hero/main-rune4-bg.png) no-repeat;background-size: 100%;}
+.hero2  .main-rune.purple .bg{display: inline-block;width: 59px;height: 62.5px;background: url(//game.gtimg.cn/images/lol/act/a20201019strategy/hero/main-rune5-bg.png) no-repeat;background-size: 100%;}
+
+.hero2  .main-rune img{display: block;margin:8px auto 0!important;width: 32px;height: 32px;}
+.hero2 .right .main-rune span{margin-left: 17px;vertical-align: 30px;letter-spacing: 2px;}
+.hero2 .right .ul1 li{float: left;width: 53px;height: 53px;position: relative;margin-right: 5px;margin-top:15px;}
+.hero2 .right .ul1 li i{width:8px;height: 8px;background: #aaaaaa;border-radius: 50%;display: block;position:absolute;left:0;right:0;top:0;bottom:0;margin:auto;}
+.hero2 .right .ul1 li i.on{background:#795d3b}
+.hero2 .right .ul2 li{float: left;width: 53px;height: 53px;position: relative;margin-right: 25px;margin-top:5px;}
+.hero2 .right .ul2 li:first-child{margin-right: 10px;}
+.hero2 .right .ul2 li:last-child{margin-right: 0;}
+.hero2 .right .ul2 li img{display: block;position:absolute;left:0;right:0;top:0;bottom:0;margin:auto;border-radius: 50%;-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray;opacity: .4;cursor:pointer;width: 40px;height: 40px;box-sizing: border-box;}
+
+.hero2 .right .ul2 li img.yellow{border:2px solid #c8aa6e;filter:none;opacity: 1;}
+.hero2 .right .ul2 li img.red{border:2px solid #d44242;filter:none;opacity: 1;}
+.hero2 .right .ul2 li img.blue{border:2px solid #49aab9;filter:none;opacity: 1;}
+.hero2 .right .ul2 li img.green{border:2px solid #a1d586;filter:none;opacity: 1;}
+.hero2 .right .ul2 li img.purple{border:2px solid #9faafc;filter:none;opacity: 1;}
+
+
+.hero2 .right .ul2 li i{width:8px;height: 8px;background: #aaaaaa;border-radius: 50%;display: block;position:absolute;left:0;right:0;top:0;bottom:0;margin:auto;}
+.hero2 .right .ul2 li i.on{background:#795d3b}
+
+.hero2 .right .ul3{margin-top:10px}
+.hero2 .right .ul3 li{float: left;width: 30px;height: 30px;position: relative;margin-right: 30px;margin-top:10px;}
+.hero2 .right .ul3 li:first-child{margin-right: 15px;width: 53px;height: 30px;}
+.hero2 .right .ul3 li:last-child{margin-right: 0;}
+.hero2 .right .ul3 li img{display: block;width: 30px;height: 30px;position:absolute;left:0;right:0;top:0;bottom:0;margin:auto;border-radius: 50%;-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray;opacity: .4;cursor:pointer;background: #EB1400;box-sizing: border-box;}
+.hero2 .right .ul3 li img.on{border:1px solid #d0b066;filter: none;opacity: 1;background:#080c0c}
+.hero2 .right .ul3 li i{width:8px;height: 8px;background: #aaaaaa;border-radius: 50%;display: block;position:absolute;left:0;right:0;top:0;bottom:0;margin:auto;}
+.hero2 .right .ul2 li i.on{background:#161717}
+
+.hero2 .supernatant{background:#020a0f;text-align: center;width: 282px;font-size: 12px;color: #8a8575;line-height: 18px;border-top:2px solid #543f17;padding:4px 0;border-left:2px solid #543f17;border-right:2px solid #543f17;display: block;position: absolute;bottom:70px;left: -118px;z-index: 3;}
+.hero2 .supernatant::after {content: "";background: url(//game.gtimg.cn/images/lol/act/a20201019strategy/hero/tank-bottom.png) no-repeat;background-size: 100%;position: absolute;bottom:-14px;left: 0;display: block;width: 282px;height: 15px;}
+.hero2 .supernatant .title{font-size: 14px;color:#fff7d5;text-align: left;width:235px;margin:35px auto 15px;}
+.hero2 .supernatant .mid{width: 235px;margin:0 auto;text-align: left;}
+.hero2 .supernatant .mid p{margin-bottom: 10px;}
+.hero2 .supernatant .mid p:last-child{margin-bottom: 35px;}
+	
+.hero2 .left .line{background: url(//game.gtimg.cn/images/lol/act/a20201019strategy/hero/line.png) no-repeat;width: 251px;height: 9px;background-size: 100%;position: absolute;top:270px;left: 92px;}
+.hero2 .right .line{background: url(//game.gtimg.cn/images/lol/act/a20201019strategy/hero/line.png) no-repeat;width: 251px;height: 9px;background-size: 100%;position: absolute;top:365px;left: 392px;}
+
+.hero2 .left .vertical-line1{background: #222;height: 82px;width: 2px;position: absolute;left: 96px;top: 155px;}
+.hero2 .left .horizontal-line1{background: #222;width: 35px;height: 2px;position: absolute;left: 96px;top:155px}
+.hero2 .left .vertical-line2{background: #222;height: 160px;width: 2px;position: absolute;left: 96px;top: 316px;}
+
+
+.hero2 .right .vertical-line1{background: #222;height: 185px;width: 2px;position: absolute;left: 396px;top: 155px;}
+.hero2 .right .horizontal-line1{background: #222;width: 35px;height: 2px;position: absolute;left: 396px;top:155px}
+.hero2 .right .vertical-line2{background: #222;height: 100px;width: 2px;position: absolute;left: 396px;top: 400px;}   
+
+
+
+
+
+
+/* .hero3 */
+
+
+.hero3{padding-top: 50px;padding-left: 100px;}
+.hero3-nav{background: url(//game.gtimg.cn/images/lol/act/a20201019strategy/hero/bg-mc.png) no-repeat;background-size: 100%; width: 1055px; height: 640px;position: absolute;top: 0;left: 0;}
+.hero3-mc{background: url(//game.gtimg.cn/images/lol/act/a20201019strategy/hero/mc-hero3.png) no-repeat;background-size: 100%; width: 1055px; height: 640px;position: absolute;top: 0;left: 0;}
+.hero3 .hero3-img .hero-put-on-txt,.hero3 .hero3-img img,.hero3 .hero3-img .skill-line{display: inline-block;*display:inline;*zoom:1;vertical-align:top;}
+.hero3 .hero3-img .sub-title{color: #e1dac3;font-size: 18px;line-height: 60px;background: url(//game.gtimg.cn/images/lol/act/a20201019strategy/hero/bg-p.png) no-repeat;width: 457px;height: 60px;background-size: 100%;margin-bottom: 16px; }
+.hero3 .hero3-img .sub-title .q-w{color: #3c3b36;font-size: 12px;padding-left: 14px;font-family: 'sellnum-1';}
+.hero3 .hero3-img img{width: 41px;height: 41px;border: 1px solid #444341;box-sizing: border-box;}
+.hero3 .hero3-img .skill-line{background: url(//game.gtimg.cn/images/lol/act/a20201019strategy/hero/icon0.png) no-repeat;width: 28px;height: 41px;background-size: 100%; }
+.hero3 .add-skill,.hero3 .summoner{display: inline-block;*display:inline;*zoom:1;vertical-align:top;width: 324px;}
+.hero3 .summoner>div{margin-right: 12px;}
+.hero3 .summoner>img:last-child{margin-right: 0;}
+/*.hero3 .add-skill img::after{content: "Q";color: #000;font-size: 12px;background: #0ac8b9;position: absolute;top: 0;right: 0;}*/
+.hero3 .skill-img-box{display: inline-block; *display: inline; *zoom: 1; vertical-align: top;position: relative;}
+.hero3 .add-skill>div b{display: block;width: 14px;height: 14px;color: #f0e6d2;font-size: 12px;line-height: 14px;position: absolute;bottom: 2px;right: 2px;background-color: rgba(0, 0, 0, .7);text-align: center;font-family: 'sellnum-1';font-weight: bold;}
+.hero3 .put-on>div{display: inline-block;*display:inline;*zoom:1;vertical-align:top;height: auto;width: auto;margin-right: 36px;text-align: center;}
+.hero3 .put-on .first{margin-right: 18px;}
+.hero3 .put-on .sub-title{margin-bottom: 10px;}
+.hero3 .put-on>div .hero-put-on-txt{color: #3c3b36;font-size: 12px;line-height: 30px;display: block;text-align: left;}
+
+.hero3 .level{width: 100%;height:90px;padding-top: 20px;}
+.hero3 .level li{display: inline-block; *display: inline; *zoom: 1; vertical-align: top;}
+.hero3 .level p,.hero3 .level li div{width: 41px;height: 41px;border: 1px solid #131313;box-sizing: border-box;position: relative;}
+.hero3 .level p{color: #7b7457;font-size: 12px;line-height: 40px;text-align: center;font-family: 'sellnum-1';font-weight: bold;}
+.hero3 .level li b{position: relative;background: none;text-align: center;width: 100%;height: 100%;color: #7b7457;font-size: 12px;line-height: 41px;text-align: center;display: block;font-family: 'sellnum-1';font-weight: bold;}
+.hero3 .level li img{display: none;}
+.hero3 .level .activation  img{width: 39px;height: 39px;display: block;}
+.hero3 .level .activation  b{width: 14px;height: 14px;line-height: 14px;position: absolute;bottom: 0px;right: 0px;background-color: rgba(0, 0, 0, .7);}
+.hero3 .level .level-color p,.hero3 .level .level-color b{color: #249b91;}
+
+
+.hero-skill{width: 740px;text-align: left;padding-top: 6px;}
+.hero-skill .skill-change{color: #e1dac3;font-size: 18px;line-height: 60px;background: url(//game.gtimg.cn/images/lol/act/a20201019strategy/hero/bg-p.png) no-repeat;width: 457px;height: 60px;background-size: 100%;margin-bottom: 14px;}
+.hero-skill ul{width: 703px;}
+.hero-skill ul li{font-size: 12px;line-height: 16px;}
+.hero-skill ul li span,.hero-skill ul li p{display: inline-block; *display: inline; *zoom: 1; vertical-align: top;}
+.hero-skill ul li span{color: #837b5d;min-width: 80px;font-family: 'sellnum-1';}
+.hero-skill ul li p{color: #3c3b36;}
+
+/*¸¡²ã*/
+.skill-bubble{background:#020a0f;border-top:2px solid #543f17;border-left:2px solid #543f17;border-right:2px solid #543f17;position:absolute;bottom:56px;left:-143px;box-sizing:border-box;width:317px;text-align:left;display:none;z-index:9999;line-height:16px;padding: 2px 16px 6px;}
+.skill-bubble::after {content: "";background: url(//game.gtimg.cn/images/lol/act/a20201019strategy/hero/tank-bottom2.png) no-repeat;background-size: 100%;position: absolute;bottom:-18px;left: 0;display: block;width:315px;height: 18px;}
+.skill-bubble .skill-bubble-name{color:#deb762;font-size:14px;margin:14px 0 0}
+.skill-bubble .skill-bubble-name span{color:#a9a18d;font-size:12px;margin-left:0}
+.skill-bubble .skill-bubble-name i{font-style:normal;color:#fff7d5;font-size:14px;margin-right:74px;}
+.skill-bubble .skill-bubble-name em{color:#a9a18d}
+.skill-bubble .icon-gold-coin{display:inline-block;background: url(//game.gtimg.cn/images/lol/act/a20201019strategy/hero/icon-fc.png) no-repeat center center;background-size:11px auto;width: 12px;height: 10px;margin-right: 0!important;}
+.skill-bubble .skill-bubble-divider{margin:6px 0;opacity:.2;width:100%;visibility: visible;height: 1px;}
+.skill-bubble .skill-bubble-info{color:#a9a18d;font-size:12px;margin:0 0 12px}
+.skill-bubble .skill-bubble-info a{color:#dedede!important}
+.skill-bubble stats{color:#fff7d5}
+.skill-bubble .skill-bubble-desc{color:#fff;font-size:12px}
+.skill-bubble .skill-bubble-desc i{position:relative;text-align:left;color:#fff;bottom:0}
+.skill-bubble .skill-bubble-desc{color:#fff;font-size:12px;margin:10px 0}
+.skill-bubble .skill-bubble-title{position:relative;font-size:14px;color:#26a9a3;padding-left:16px}
+.skill-bubble .skill-bubble-title i{display:inline-block;position:absolute;top:4px;left:0}
+.item-from{position:relative;padding-bottom: 10px;}
+.item-from h5{position:absolute;left:0;top:6px;color:#3c3b36;font-size: 12px;}
+.item-from .item-tree{position:relative;width:100%;color:#54ff00}
+.item-from .item-tree img{margin:0 auto}
+.item-from .item-depth3 img{width:28px;height:28px}
+.item-from .item-depth4 img,.item-from .item-depth5 img{width:30px;height:30px}
+.item-from .item-depth2 img{width:43px;height:43px}
+.item-from .tree-lv{float:left;width:100%;text-align:center}
+.item-from .tree-lv li{float:left}
+.item-from .line0,.item-from .line1,.item-from .line2{display:block;background:#999;overflow:hidden;margin:0 auto}
+.item-from .tree-count1{width:100%}
+.item-from .tree-count2{width:49.99%}
+.item-from .tree-count3{width:33.33%}
+.item-from .tree-count4{width:25%}
+.item-from .line0{height:1px;}
+.item-from .line1{width:1px;height:12px}
+.item-from .line2{width:1px;height:10px}
+
+
+
+
+.button-normal .button{font-family: 'LoL Display',"\5FAE\8F6F\96C5\9ED1", 'Times New Roman', Times, Baskerville, Georgia, serif;text-transform:uppercase}
+.button-normal .button-wrapper {
+	min-width: inherit;
+	width: inherit;
+	height: 100%
+}
+.button-normal .button-inner {
+	height: 100%
+}
+.button-normal .button {
+	color: #cdbe91;
+	min-width: 90px;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	position: relative;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+	box-sizing: border-box;
+	-webkit-box-pack: center;
+	justify-content: center;
+	white-space: nowrap;
+	padding: 4px 2.3em;
+	min-height: 32px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	box-shadow: 0 0 1px 1px #010a13, inset 0 0 1px 1px #010a13;
+	background: #1e2328;
+	border: 2px solid transparent;
+}
+.button-normal .button *{pointer-events:none}
+.button-normal .button .button-content-wrapper{position:relative}
+.button-normal .button .button-content-wrapper i{margin-right:5px;display:inline-block;vertical-align:middle;position:relative;top:0;}
+.button-normal .button .button-content-wrapper i svg{width:16px;height:14px;fill:rgba(205,190,145,1)}
+.button-normal .button .button-content-wrapper span{position:relative}
+
+.button-normal .button .button-content-add{position:relative;font-size: 16px;top:-1px}
+
+.button-normal .button .button-flare{position:absolute;top:0;left:0;width:100%;height:100%}
+.button-normal .button .button-flare:before{content:'';position:absolute;top:-25px;left:-25px;width:48px;height:48px;opacity:0;}
+.button-normal .button .button-flare:after{content:'';position:absolute;bottom:-25px;right:-25px;width:48px;height:48px;opacity:0;}
+.button-normal .button .button-glow{position:absolute;top:0;left:0;width:100%;height:100%;-webkit-filter:blur(4px)}
+.button-normal .button .button-border-idle{position:absolute;top:-2px;left:-2px;width:100%;height:100%;opacity:1;border:2px solid transparent;border-image:-webkit-gradient(linear,left bottom,left top,from(#785b28),color-stop(55%,#c89c3c),color-stop(71%,#c8a355),to(#c8aa6e));border-image:linear-gradient(0deg,#785b28 0,#c89c3c 55%,#c8a355 71%,#c8aa6e);border-image-slice:1;-webkit-transition:opacity .3s linear;transition:opacity .3s linear}
+.button-normal .button .button-border-transition{position:absolute;top:-2px;left:-2px;width:100%;height:100%;opacity:0;border:2px solid transparent}
+.button-normal .button .button-sheen-wrapper{position:absolute;top:0;left:0;overflow:hidden;width:100%;height:100%}
+.button-normal .button .button-sheen{position:absolute;top:0;left:0;overflow:hidden;width:100%;height:150%;-webkit-transform:translateY(-100%);transform:translateY(-100%);background:-webkit-gradient(linear,left top,left bottom,from(hsla(0,0%,100%,0)),color-stop(92%,hsla(0,0%,100%,.15)),to(hsla(0,0%,100%,0)));background:linear-gradient(180deg,hsla(0,0%,100%,0) 0,hsla(0,0%,100%,.15) 92%,hsla(0,0%,100%,0));-webkit-filter:blur(2px)}
+.button-normal .button .button-bg{position:absolute;top:0;left:0;width:100%;height:100%;-webkit-transition:opacity .4s cubic-bezier(0,0,.33,1);transition:opacity .4s cubic-bezier(0,0,.33,1);opacity:0;-webkit-backface-visibility:hidden;backface-visibility:hidden;background-image:-webkit-gradient(linear,left top,left bottom,from(#1e232a),color-stop(40%,#1e232a),color-stop(140%,rgba(118,97,51,.8)));background-image:linear-gradient(180deg,#1e232a 0,#1e232a 40%,rgba(118,97,51,.8) 140%)}
+.button-normal .button.intro .button-border-transition{border-image:-webkit-gradient(linear,left bottom,left top,from(#fff),color-stop(33%,#fff),color-stop(66%,#fff),to(#fff));border-image:linear-gradient(0deg,#fff 0,#fff 33%,#fff 66%,#fff);border-image-slice:1}
+.button-normal .button.hover,.button-normal .button:hover{color:#f0e6d2;-webkit-animation:.6s cubic-bezier(0,0,.33,1) 1 hoverTextShadow;animation:.6s cubic-bezier(0,0,.33,1) 1 hoverTextShadow}
+.button-normal .button.hover.disabled,.button-normal .button:hover.disabled{color:#5c5b57;-webkit-animation:none;animation:none}
+.button-normal .button.hover .button-border-transition,.button-normal .button:hover .button-border-transition{opacity:1;border-image:-webkit-gradient(linear,left bottom,left top,from(#c89c3c),color-stop(50%,#dcc188),color-stop(71%,#e1c998),to(#f0e6d8));border-image:linear-gradient(0deg,#c89c3c 0,#dcc188 50%,#e1c998 71%,#f0e6d8);border-image-slice:1}
+.button-normal .button.hover .button-glow,.button-normal .button:hover .button-glow{-webkit-animation:.6s cubic-bezier(0,0,.33,1) 1 hoverGlow;animation:.6s cubic-bezier(0,0,.33,1) 1 hoverGlow}
+.button-normal .button.hover .button-bg,.button-normal .button:hover .button-bg{opacity:1}
+.button-normal .button.down{color:#5c5b57;-webkit-transition:color .1s linear;transition:color .1s linear;-webkit-animation:none;animation:none}
+.button-normal .button.down .button-bg{opacity:1}
+.button-normal .button.click{color:#e4e1d8;border-image:-webkit-gradient(linear,left bottom,left top,from(#fff),color-stop(33%,#fff),color-stop(66%,#fff),to(#fff));border-image:linear-gradient(0deg,#fff 0,#fff 33%,#fff 66%,#fff);border-image-slice:1;-webkit-animation:.13s linear clickScale 1,.4s linear 1 hoverTextShadow;animation:.13s linear clickScale 1,.4s linear 1 hoverTextShadow}
+.button-normal .button.click .button-border-transition{border-image:-webkit-gradient(linear,left bottom,left top,from(#c89c3c),color-stop(50%,#dcc188),color-stop(71%,#e1c998),to(#f0e6d8));border-image:linear-gradient(0deg,#c89c3c 0,#dcc188 50%,#e1c998 71%,#f0e6d8);border-image-slice:1;-webkit-transition:opacity .4s linear;transition:opacity .4s linear;opacity:1}
+.button-normal .button.click .button-glow{-webkit-animation:.6s cubic-bezier(0,0,.33,1) hoverGlow 1;animation:.6s cubic-bezier(0,0,.33,1) hoverGlow 1}
+.button-normal .button.click .button-sheen{-webkit-animation:.33s clickSheen 1 linear;animation:.33s clickSheen 1 linear}
+.button-normal .button.click .button-bg{opacity:1}
+.button-normal .button.click .button-flare:before{-webkit-animation:.4s cubic-bezier(0,0,.33,1) 0ms 1 clickFlare;animation:.4s cubic-bezier(0,0,.33,1) 0ms 1 clickFlare}
+.button-normal .button.click .button-flare:after{-webkit-animation:.4s cubic-bezier(0,0,.33,1) 30ms 1 clickFlare;animation:.4s cubic-bezier(0,0,.33,1) 30ms 1 clickFlare}
+.button-normal .button.disabled,.button-normal .button:disabled{cursor:default;color:#5c5b57;background-color:#1e2328;border:2px solid #5c5b57;border-image:initial;-webkit-transition:all .3s linear;transition:all .3s linear}
+.button-normal .button.disabled:hover,.button-normal .button:disabled:hover{cursor:default;color:#5c5b57;background-color:#1e2328;border-color:#5c5b57;border-image:initial;background-image:none;-webkit-animation:none;animation:none}
+.button-normal .button.disabled .button-bg,.button-normal .button.disabled .button-flare,.button-normal .button.disabled .button-glow,.button-normal .button.disabled .button-sheen-wrapper,.button-normal .button:disabled .button-bg,.button-normal .button:disabled .button-flare,.button-normal .button:disabled .button-glow,.button-normal .button:disabled .button-sheen-wrapper{display:none}
+.button-normal .button.disabled .button-border-transition,.button-normal .button:disabled .button-border-transition{-webkit-transition:opacity .3s linear;transition:opacity .3s linear;opacity:0}
+.button-normal .button.disabled .button-border-idle,.button-normal .button:disabled .button-border-idle{opacity:0}
+.button-normal .button.back{background-image:url(//game.gtimg.cn/images/lol/client/lcu/back.png);background-position:50%;background-repeat:no-repeat}
+.button-normal .button.back:hover{background-image:url(//game.gtimg.cn/images/lol/client/lcu/back-hover.png)}
+.button-normal .button.back.disabled,.button-normal .button.back:active{background-image:url(//game.gtimg.cn/images/lol/client/lcu/back-disabled.png)}
+.button-normal .button.utility{text-transform:none;font-family:LoL Body,Arial;font-size:12px;font-weight:400;border:1px solid transparent}
+.button-normal .button.utility.click{border-image-width:0}
+.button-normal .button.utility .button-border-idle{border:1px solid transparent;border-image:-webkit-gradient(linear,left bottom,left top,from(#785b28),color-stop(55%,#c89c3c),color-stop(71%,#c8a355),to(#c8aa6e));border-image:linear-gradient(0deg,#785b28 0,#c89c3c 55%,#c8a355 71%,#c8aa6e);border-image-slice:1}
+.button-normal .button.utility .button-border-transition{position:absolute;top:-2px;left:-2px;width:calc(100% + 4px);height:calc(100% + 4px);pointer-events:none;opacity:0;border:1px solid transparent}
+.button-normal[type=secondary] .button:not(.disabled):not(:disabled){color:#cdfafa}
+.button-normal[type=secondary] .button:not(.disabled):not(:disabled) .button-content-wrapper i svg{width:16px;height:14px;fill:rgba(205,250,250,1)}
+
+.button-normal[type=secondary] .button:not(.disabled):not(:disabled) .button-border-idle{border-image:-webkit-gradient(linear,left bottom,left top,from(#0d404c),color-stop(44%,#0596aa),color-stop(93%,#0596aa),to(#0ac8b9));border-image:linear-gradient(0deg,#0d404c 0,#0596aa 44%,#0596aa 93%,#0ac8b9);border-image-slice:1}
+.button-normal[type=secondary] .button:not(.disabled):not(:disabled).hover,.button-normal[type=secondary] .button:not(.disabled):not(:disabled):hover{color:#cdfafa}
+.button-normal[type=secondary] .button:not(.disabled):not(:disabled).hover .button-border-transition,.button-normal[type=secondary] .button:not(.disabled):not(:disabled):hover .button-border-transition{border-image:-webkit-gradient(linear,left bottom,left top,from(#3295c7),color-stop(49%,#0ac8b9),to(#cdfafa));border-image:linear-gradient(0deg,#3295c7 0,#0ac8b9 49%,#cdfafa);border-image-slice:1}
+/* #t6Hl8#2B164DDC7F52CB9EEDF754FCE82EE8F3 */

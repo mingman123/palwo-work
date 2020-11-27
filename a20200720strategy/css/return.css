@@ -1,0 +1,409 @@
+blockquote,body,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,pre,select,td,textarea,th,ul{padding:0;margin:0}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}
+address,b,caption,cite,code,dfn,em,strong,th,var{font-weight:400;font-style:normal}
+li,ol,ul{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-weight:400;font-size:100%}
+q:after,q:before{content:""}
+abbr,acronym{border:0}
+strong,th{font-weight:700}
+a{text-decoration:none;cursor:pointer;outline:0}
+button,input,option,select,textarea{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;outline:0}
+input:focus,textarea:focus{outline:0}
+body,html{position:relative;overflow:hidden;width:1055px;height:720px}
+body{font:12px 'LoL Display',"\5FAE\8F6F\96C5\9ED1",TimesNewRoman,'Times New Roman',Times,Baskerville,Georgia,serif;color:#a09b8c;background-color:#000;font-family:"Microsoft YaHei",Helvetica,sans-serif;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;-khtml-user-select:none;user-select:none}
+.hid{text-indent:-9999px;font-size:0;overflow:hidden;width:0;height:0;display:block}
+.fl{float:left}
+.fr{float:right}
+a,div,img,input,select{outline:0}
+.wrap{position:relative;width:1055px;height:720px;background:url(../ossweb-img/return/returnbg.jpg) no-repeat left top;background-size:100% auto;overflow:hidden}
+.header{position:fixed;width:985px;margin:0 auto;z-index:1000;top:79px;left:35px}
+.Menu{margin-top:9px}
+.Menu-list{display:-webkit-flex;display:flex;height:40px;text-shadow:0 0 2px #000}
+.Menu-list li{display:flex;position:relative;cursor:pointer;margin-right:30px;min-width:28px;white-space:nowrap;text-overflow:ellipsis}
+.Menu-list a{position:relative;color:#cdbe91;text-align:center;letter-spacing:.1em;-webkit-font-smoothing:subpixel-antialiased;font-family:'LoL Display',"\5FAE\8F6F\96C5\9ED1",'Times New Roman',Times,Baskerville,Georgia,serif}
+.Menu-list li a:hover{color:#f0e6d2}
+.header-esports .esports.active a,.header-hot .hot.active a,.header-ig .ig.active a,.header-video .video.active a{color:#f0e6d2}
+.header-esports .esports.active a:before,.header-hot .hot.active a:before,.header-ig .ig.active a:before,.header-video .video.active a:before{content:'';position:absolute;top:20px;left:0;height:1px;width:100%;background:linear-gradient(to left,transparent,#cdbe91,transparent)}
+.clearfix{zoom:1}
+.clearfix::after{content:'';display:block;height:0;visibility:hidden;clear:both}
+.content{position:absolute;top:104px;left:0;width:100%;height:616px;font-size:0}
+
+.navbox{ width: 100%; height:32px;  margin-bottom: 26px; display: flex; margin-top: 25px;} 
+.navbox .nav1{ width: 217px; color: #f0e6d2; font-size: 22px; font-weight: bold; padding-left: 20px;} 
+.navbox .nav2{ width: 641px; font-size: 15px; color: #c7a96e; font-weight: bold; line-height: 33px;} 
+.navbox .nav3{ width: 179px; font-size: 13px; color: #c7a96e; font-weight: bold;line-height: 38px;} 
+
+.detailbox{ width: 100%; height: 491px;display: flex;}
+.detailbox .leftbox{ width: 237px; height: 100%;position: relative;}
+.detailbox .rightbox{ width: 819px; height: 100%; position: relative;}
+
+.leftul{ width: 132px; height: auto; }
+.leftul li{ height: 32px; width: 100%; position: relative; font-size: 12px; color: #c1b99e; line-height: 32px; position: relative;padding-left: 20px; cursor: pointer;}
+.leftul li.on{ color: #f0e7d3;}
+.leftul li.on::after{ content: ''; width: 4px; height: 32px; background: #c89b3c; position: absolute; top: 0px; left: 0px;}
+
+.msgbox{ width: 818px; height: 421px; margin-bottom: 29px; overflow: hidden;}
+.msgbox .msg{ width: 100%; height: 86px; margin-bottom:20px; display: flex; position: relative;}
+.msgbox .msg .play{ width: 151px; position: relative;}
+.msgbox .msg .play .pic{ width: 136px; height: 75px; padding: 1px 1px; border: 1px solid #3c3c42; background-size: 100%; transition: all 0.3s;}
+.msgbox .msg:hover .play .pic{border: 1px solid #7f7051;}
+.msgbox .msg .play .icon{ opacity: 0; transition: all 0.3s; background: url(../ossweb-img/return/play.png) no-repeat; width: 52px; height: 52px; background-size: 100%; position: absolute; top:44%; left:45%; transform: translate(-50%,-50%);}
+.msgbox .msg:hover .play .icon{opacity: 1;}
+.msgbox .msg .txtbox{ width: 456px; height:auto; margin-right: 24px;}
+.msgbox .msg .txtbox .txt1{ font-size: 13px; color: #cbc4aa; font-weight: bold; margin-bottom: 12px; transition: all 0.3s;}
+.msgbox .msg:hover .txtbox .txt1{ color: #c7a96e;}
+.msgbox .msg .txtbox .txt2{ font-size: 10px; color: #7a7770; }
+.msgbox .msg .timebg{ background: url(../ossweb-img/return/timebg.png) no-repeat; width: 70px; height:78.5px; display: block; background-size: 100%;}
+.msgbox .msg .timebg p{ font-size: 12px; color: #c1b99e; text-align: center;transition: all 0.3s;}
+.msgbox .msg:hover .timebg p{ color: #c7a96e;}
+.msgbox .msg .timebg .year{ padding-top: 23px;}
+
+
+.pagebox{ width:713px; height: 43px; display: flex; justify-content: center;}
+.button-normal .button{font-family: 'LoL Display',"\5FAE\8F6F\96C5\9ED1", 'Times New Roman', Times, Baskerville, Georgia, serif;text-transform:uppercase}
+.button-normal .button-wrapper {
+	min-width: inherit;
+	width: inherit;
+	height: 100%
+}
+.button-normal .button-inner {
+	height: 100%
+}
+.button-normal .button {
+	color: #cdbe91;
+	min-width: 90px;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	position: relative;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+	box-sizing: border-box;
+	-webkit-box-pack: center;
+	justify-content: center;
+	white-space: nowrap;
+	padding: 4px 2.3em;
+	min-height: 32px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	box-shadow: 0 0 1px 1px #010a13, inset 0 0 1px 1px #010a13;
+	background: #1e2328;
+	border: 2px solid transparent;
+}
+.button-normal .button *{pointer-events:none}
+.button-normal .button .button-content-wrapper{position:relative}
+.button-normal .button .button-content-wrapper i{margin-right:5px;display:inline-block;vertical-align:middle;position:relative;top:0;}
+.button-normal .button .button-content-wrapper i svg{width:16px;height:14px;fill:rgba(205,190,145,1)}
+.button-normal .button .button-content-wrapper span{position:relative}
+
+.button-normal .button .button-content-add{position:relative;font-size: 16px;top:-1px}
+
+.button-normal .button .button-flare{position:absolute;top:0;left:0;width:100%;height:100%}
+.button-normal .button .button-flare:before{content:'';position:absolute;top:-25px;left:-25px;width:48px;height:48px;opacity:0;}
+.button-normal .button .button-flare:after{content:'';position:absolute;bottom:-25px;right:-25px;width:48px;height:48px;opacity:0;}
+.button-normal .button .button-glow{position:absolute;top:0;left:0;width:100%;height:100%;-webkit-filter:blur(4px)}
+.button-normal .button .button-border-idle{position:absolute;top:-2px;left:-2px;width:100%;height:100%;opacity:1;border:2px solid transparent;border-image:-webkit-gradient(linear,left bottom,left top,from(#785b28),color-stop(55%,#c89c3c),color-stop(71%,#c8a355),to(#c8aa6e));border-image:linear-gradient(0deg,#785b28 0,#c89c3c 55%,#c8a355 71%,#c8aa6e);border-image-slice:1;-webkit-transition:opacity .3s linear;transition:opacity .3s linear}
+.button-normal .button .button-border-transition{position:absolute;top:-2px;left:-2px;width:100%;height:100%;opacity:0;border:2px solid transparent}
+.button-normal .button .button-sheen-wrapper{position:absolute;top:0;left:0;overflow:hidden;width:100%;height:100%}
+.button-normal .button .button-sheen{position:absolute;top:0;left:0;overflow:hidden;width:100%;height:150%;-webkit-transform:translateY(-100%);transform:translateY(-100%);background:-webkit-gradient(linear,left top,left bottom,from(hsla(0,0%,100%,0)),color-stop(92%,hsla(0,0%,100%,.15)),to(hsla(0,0%,100%,0)));background:linear-gradient(180deg,hsla(0,0%,100%,0) 0,hsla(0,0%,100%,.15) 92%,hsla(0,0%,100%,0));-webkit-filter:blur(2px)}
+.button-normal .button .button-bg{position:absolute;top:0;left:0;width:100%;height:100%;-webkit-transition:opacity .4s cubic-bezier(0,0,.33,1);transition:opacity .4s cubic-bezier(0,0,.33,1);opacity:0;-webkit-backface-visibility:hidden;backface-visibility:hidden;background-image:-webkit-gradient(linear,left top,left bottom,from(#1e232a),color-stop(40%,#1e232a),color-stop(140%,rgba(118,97,51,.8)));background-image:linear-gradient(180deg,#1e232a 0,#1e232a 40%,rgba(118,97,51,.8) 140%)}
+.button-normal .button.intro .button-border-transition{border-image:-webkit-gradient(linear,left bottom,left top,from(#fff),color-stop(33%,#fff),color-stop(66%,#fff),to(#fff));border-image:linear-gradient(0deg,#fff 0,#fff 33%,#fff 66%,#fff);border-image-slice:1}
+.button-normal .button.hover,.button-normal .button:hover{color:#f0e6d2;-webkit-animation:.6s cubic-bezier(0,0,.33,1) 1 hoverTextShadow;animation:.6s cubic-bezier(0,0,.33,1) 1 hoverTextShadow}
+.button-normal .button.hover.disabled,.button-normal .button:hover.disabled{color:#5c5b57;-webkit-animation:none;animation:none}
+.button-normal .button.hover .button-border-transition,.button-normal .button:hover .button-border-transition{opacity:1;border-image:-webkit-gradient(linear,left bottom,left top,from(#c89c3c),color-stop(50%,#dcc188),color-stop(71%,#e1c998),to(#f0e6d8));border-image:linear-gradient(0deg,#c89c3c 0,#dcc188 50%,#e1c998 71%,#f0e6d8);border-image-slice:1}
+.button-normal .button.hover .button-glow,.button-normal .button:hover .button-glow{-webkit-animation:.6s cubic-bezier(0,0,.33,1) 1 hoverGlow;animation:.6s cubic-bezier(0,0,.33,1) 1 hoverGlow}
+.button-normal .button.hover .button-bg,.button-normal .button:hover .button-bg{opacity:1}
+.button-normal .button.down{color:#5c5b57;-webkit-transition:color .1s linear;transition:color .1s linear;-webkit-animation:none;animation:none}
+.button-normal .button.down .button-bg{opacity:1}
+.button-normal .button.click{color:#e4e1d8;border-image:-webkit-gradient(linear,left bottom,left top,from(#fff),color-stop(33%,#fff),color-stop(66%,#fff),to(#fff));border-image:linear-gradient(0deg,#fff 0,#fff 33%,#fff 66%,#fff);border-image-slice:1;-webkit-animation:.13s linear clickScale 1,.4s linear 1 hoverTextShadow;animation:.13s linear clickScale 1,.4s linear 1 hoverTextShadow}
+.button-normal .button.click .button-border-transition{border-image:-webkit-gradient(linear,left bottom,left top,from(#c89c3c),color-stop(50%,#dcc188),color-stop(71%,#e1c998),to(#f0e6d8));border-image:linear-gradient(0deg,#c89c3c 0,#dcc188 50%,#e1c998 71%,#f0e6d8);border-image-slice:1;-webkit-transition:opacity .4s linear;transition:opacity .4s linear;opacity:1}
+.button-normal .button.click .button-glow{-webkit-animation:.6s cubic-bezier(0,0,.33,1) hoverGlow 1;animation:.6s cubic-bezier(0,0,.33,1) hoverGlow 1}
+.button-normal .button.click .button-sheen{-webkit-animation:.33s clickSheen 1 linear;animation:.33s clickSheen 1 linear}
+.button-normal .button.click .button-bg{opacity:1}
+.button-normal .button.click .button-flare:before{-webkit-animation:.4s cubic-bezier(0,0,.33,1) 0ms 1 clickFlare;animation:.4s cubic-bezier(0,0,.33,1) 0ms 1 clickFlare}
+.button-normal .button.click .button-flare:after{-webkit-animation:.4s cubic-bezier(0,0,.33,1) 30ms 1 clickFlare;animation:.4s cubic-bezier(0,0,.33,1) 30ms 1 clickFlare}
+.button-normal .button.disabled,.button-normal .button:disabled{cursor:default;color:#5c5b57;background-color:#1e2328;border:2px solid #5c5b57;border-image:initial;-webkit-transition:all .3s linear;transition:all .3s linear}
+.button-normal .button.disabled:hover,.button-normal .button:disabled:hover{cursor:default;color:#5c5b57;background-color:#1e2328;border-color:#5c5b57;border-image:initial;background-image:none;-webkit-animation:none;animation:none}
+.button-normal .button.disabled .button-bg,.button-normal .button.disabled .button-flare,.button-normal .button.disabled .button-glow,.button-normal .button.disabled .button-sheen-wrapper,.button-normal .button:disabled .button-bg,.button-normal .button:disabled .button-flare,.button-normal .button:disabled .button-glow,.button-normal .button:disabled .button-sheen-wrapper{display:none}
+.button-normal .button.disabled .button-border-transition,.button-normal .button:disabled .button-border-transition{-webkit-transition:opacity .3s linear;transition:opacity .3s linear;opacity:0}
+.button-normal .button.disabled .button-border-idle,.button-normal .button:disabled .button-border-idle{opacity:0}
+.button-normal .button.back{background-image:url(//game.gtimg.cn/images/lol/client/lcu/back.png);background-position:50%;background-repeat:no-repeat}
+.button-normal .button.back:hover{background-image:url(//game.gtimg.cn/images/lol/client/lcu/back-hover.png)}
+.button-normal .button.back.disabled,.button-normal .button.back:active{background-image:url(//game.gtimg.cn/images/lol/client/lcu/back-disabled.png)}
+.button-normal .button.utility{text-transform:none;font-family:LoL Body,Arial;font-size:12px;font-weight:400;border:1px solid transparent}
+.button-normal .button.utility.click{border-image-width:0}
+.button-normal .button.utility .button-border-idle{border:1px solid transparent;border-image:-webkit-gradient(linear,left bottom,left top,from(#785b28),color-stop(55%,#c89c3c),color-stop(71%,#c8a355),to(#c8aa6e));border-image:linear-gradient(0deg,#785b28 0,#c89c3c 55%,#c8a355 71%,#c8aa6e);border-image-slice:1}
+.button-normal .button.utility .button-border-transition{position:absolute;top:-2px;left:-2px;width:calc(100% + 4px);height:calc(100% + 4px);pointer-events:none;opacity:0;border:1px solid transparent}
+.button-normal[type=secondary] .button:not(.disabled):not(:disabled){color:#cdfafa}
+.button-normal[type=secondary] .button:not(.disabled):not(:disabled) .button-content-wrapper i svg{width:16px;height:14px;fill:rgba(205,250,250,1)}
+
+.button-normal[type=secondary] .button:not(.disabled):not(:disabled) .button-border-idle{border-image:-webkit-gradient(linear,left bottom,left top,from(#0d404c),color-stop(44%,#0596aa),color-stop(93%,#0596aa),to(#0ac8b9));border-image:linear-gradient(0deg,#0d404c 0,#0596aa 44%,#0596aa 93%,#0ac8b9);border-image-slice:1}
+.button-normal[type=secondary] .button:not(.disabled):not(:disabled).hover,.button-normal[type=secondary] .button:not(.disabled):not(:disabled):hover{color:#cdfafa}
+.button-normal[type=secondary] .button:not(.disabled):not(:disabled).hover .button-border-transition,.button-normal[type=secondary] .button:not(.disabled):not(:disabled):hover .button-border-transition{border-image:-webkit-gradient(linear,left bottom,left top,from(#3295c7),color-stop(49%,#0ac8b9),to(#cdfafa));border-image:linear-gradient(0deg,#3295c7 0,#0ac8b9 49%,#cdfafa);border-image-slice:1}
+
+.pagebox .btn{ margin: 0 14px;}
+.pagebox .dotbox{display: flex; height: 20px; margin-top: 10px;}
+.pagebox .dot{ width: 7px; height: 7px; box-sizing: border-box; border: 1px solid #91712e; border-radius: 50%; margin: 0 4px; display: block;}
+.pagebox .dot.on{ background: #91712e; width: 10px; height: 10px; margin-top: -2px;}
+
+/* tc */
+.pop{width: 1055px; height: 100%; background: rgba(0, 0,0,.5); position: fixed; z-index: 99999; }
+.returntc{ position: absolute; left: 150px; top:155px;}
+.modal {
+	display: flex;
+  align-items: center;
+  justify-content: center;
+
+color: #a09b8c;
+
+box-shadow: 0 0 0 1px rgba(1, 10, 19, .48);
+z-index: 990
+}
+.modal.modal-small .dialog-frame{
+	width:769px; height: 415px; position: relative;
+}
+.dialog-frame.bottom {
+border: 2px solid transparent;
+border-image: linear-gradient(0deg, #614a1f 0, #463714 5px, #463714) 1 stretch
+}
+.dialog-frame:before {
+content: '';
+position: absolute;
+width: calc(100% + 4px);
+height: calc(100% + 4px);
+top: -2px;
+left: -2px;
+box-shadow: 0 0 10px 1px rgba(0, 0, 0, .5);
+pointer-events: none
+}
+.modal-body {
+font-family: 'LoL Display', "\5FAE\8F6F\96C5\9ED1", 'Times New Roman', Times, Baskerville, Georgia, serif;
+-webkit-flex;
+display: flex;
+-webkit-box-orient: horizontal;
+-webkit-box-direction: normal;
+flex-direction: row;
+position: relative;
+}
+
+.modal-body .modal-left-fold {
+position: relative;
+overflow: hidden;
+height: auto;
+padding: 30px 0
+}
+
+.modal-body .modal-left-fold:after {
+clear: both
+}
+.modal .modal-msg {
+position: relative;
+overflow: hidden;
+height: auto;
+padding: 30px 0;
+width: 100%;
+text-align: center
+}
+.dialog-frame {
+	position: relative;
+	background: #07111b;
+	box-shadow: 0 0 0 1px rgba(1, 10, 19, .48)
+	}
+	
+	.dialog-frame:before {
+	content: '';
+	position: absolute;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	top: -2px;
+	left: -2px;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, .5);
+	pointer-events: none
+	}
+	
+	.dialog-frame .dialog-frame-sub-border:after,
+	.dialog-frame .dialog-frame-sub-border:before {
+	content: '';
+	position: absolute;
+	display: -webkit-box;
+	display: flex;
+	box-sizing: border-box
+	}
+	
+	.close-button {
+	width: 29px;
+	height: 29px;
+	border-radius: 50%;
+	background: -webkit-gradient(linear, left top, left bottom, from(#c89b3c), color-stop(33%, #916c30), color-stop(75%, #c89b3c), to(#cdbe91));
+	background: linear-gradient(180deg, #c89b3c 0, #916c30 33%, #c89b3c 75%, #cdbe91);
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+	cursor: pointer
+	}
+	
+	.close-button .contents {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: #000;
+	-webkit-transition: color .15s ease-out, -webkit-box-shadow .15s ease-out;
+	transition: box-shadow .15s ease-out, color .15s ease-out;
+	margin-left: 2px; margin-top: 2px;
+	}
+	
+	.close-button .contents .x-icon {
+	width: 10px;
+	height: 10px;
+	-webkit-transform: translate(7px, 7px);
+	transform: translate(7px, 7px);
+	background-image: url(//ossweb-img.qq.com/images/lol/client/lcu/x-icon.png)
+	}
+	
+	.close-button.disabled {
+	cursor: default
+	}
+	
+	.close-button:hover .contents {
+	box-shadow: inset 0 -21px 20px -17px rgba(200, 155, 60, .75)
+	}
+	
+	.close-button:hover .x-icon {
+	-webkit-filter: brightness(150%)
+	}
+	
+	.close-button.disabled,
+	.close-button:active {
+	background: none;
+	background-color: #463714
+	}
+	
+	.close-button.disabled .contents,
+	.close-button:active .contents {
+	box-shadow: none;
+	-webkit-transition: none;
+	transition: none
+	}
+	
+	.close-button.disabled .x-icon,
+	.close-button:active .x-icon {
+	-webkit-filter: brightness(50%);
+	-webkit-transition: none;
+	transition: none
+	}
+	
+	.dialog-frame.bottom {
+	border: 2px solid transparent;
+	border-image: linear-gradient(0deg, #614a1f 0, #463714 5px, #463714) 1 stretch
+	}
+	
+	.dialog-frame.dismissable-icon .dialog-frame-toast-close-button {
+	display: block;
+	height: 18px;
+	width: 18px;
+	position: absolute;
+	top: 4px;
+	right: 4px;
+	background-size: contain;
+	cursor: pointer
+	}
+	
+	.dialog-frame.dismissable-close-button .dialog-frame-close-button {
+	display: block
+	}
+	
+	.dialog-frame.dismissable-close-button .dialog-frame-close-button:before {
+	content: '';
+	background-image: url(//ossweb-img.qq.com/images/lol/client/lcu/frame-button-close-top-down.png);
+	position: absolute;
+	width: 37px;
+	height: 62px;
+	top: -20px;
+	right: -21px
+	}
+	
+	.dialog-frame.dismissable-close-button .dialog-frame-close-button .close-button {
+	display: block;
+	position: absolute;
+	top: -16px;
+	right: -17px
+	}
+.dialog-frame.bottom .dialog-frame-sub-border:after,
+.dialog-frame.bottom .dialog-frame-sub-border:before {
+left: 12px;
+width: calc(100% - 24px);
+height: 0;
+border-style: solid;
+border-width: 4px 4px 0;
+border-image-width: 4px 4px 0 4px;
+border-image-slice: 4 4 0 4;
+border-image-repeat: stretch
+}
+
+.dialog-frame.bottom .dialog-frame-sub-border:before {
+top: -6px;
+border-image-source: url(//ossweb-img.qq.com/images/lol/client/lcu/sub-border-secondary-horizontal.png)
+}
+
+.dialog-frame.bottom .dialog-frame-sub-border:after {
+bottom: -6px;
+border-image-source: url(//ossweb-img.qq.com/images/lol/client/lcu/sub-border-primary-horizontal.png)
+}
+
+.dialog-frame-button {
+position: absolute;
+bottom: -2px;
+width: 100%;
+justify-content: center;
+display: inline-flex;
+z-index: 1001
+}
+
+.dialog-frame-button-group {
+position: relative;
+background-color: #010a13;
+padding: 0 2px;
+display: flex
+}
+
+.dialog-frame-button-group .button-normal {
+margin: 0 2px
+}
+
+.dialog-frame-button-group:before {
+content: '';
+position: absolute;
+left: 0;
+bottom: 0;
+border-right: 2px solid #614a1f;
+border-top: 2px solid transparent;
+height: 10px
+}
+
+.dialog-frame-button-group:after {
+content: '';
+position: absolute;
+right: 0;
+bottom: 0;
+border-left: 2px solid #614a1f;
+border-top: 2px solid transparent;
+height: 10px
+}
+.changw{ width: 105px;}
+
+.tc-hero{ width: 607px; height: 468px; background-size: 100%; position: absolute; top: -91px; left: -131px; z-index: 2; pointer-events: none;}
+.tc-box{ width: 156px; height: 155px; background-size: 100%; position: absolute; top: 193px; left:266px;}
+.title{ background: url(../ossweb-img/return/tc-title.png) no-repeat; width: 273px; height: 46px; background-size: 100%; position: absolute; top:36px; right:56px; font-size: 0px;}
+.tc-dec1{ width: 362px; height: 55px; position: absolute; top: 97px; right:0px; color: #d2cab3; font-size: 12px; text-align: center;}
+.tc-paly{ width: 312px; height: 180px; position: absolute; right: 29px;  top: 144px;}
+.tc-paly img{ width: 312px; height: 180px; background-size: 100%; display: block; margin: 0 auto;}
+.tc-palyicon{ background: url(../ossweb-img/return/tc-play.png) no-repeat; width: 42px; height: 42px; background-size: 100%; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);}
+.tc-dec2{ width:312px; text-align: center; font-size: 12px;color: #e0c694; position: absolute; top:335px; right: 29px;}
+.btn-join{display: block;}/* #t6Hl8#7C05DF275E54F8989A038AB5E89791FD */

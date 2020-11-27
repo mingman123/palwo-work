@@ -1,0 +1,239 @@
+blockquote,body,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,pre,select,td,textarea,th,ul{padding:0;margin:0}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}
+address,b,caption,cite,code,dfn,em,strong,th,var{font-weight:400;font-style:normal}
+li,ol,ul{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-weight:400;font-size:100%}
+q:after,q:before{content:""}
+abbr,acronym{border:0}
+strong,th{font-weight:700}
+a{text-decoration:none;cursor:pointer;outline:0}
+button,input,option,select,textarea{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;outline:0}
+input:focus,textarea:focus{outline:0}
+body,html{position:relative;overflow:hidden;width:1055px;height:640px}
+body{font:12px 'LoL Display',"\5FAE\8F6F\96C5\9ED1",TimesNewRoman,'Times New Roman',Times,Baskerville,Georgia,serif;color:#a09b8c;background-color:#000;font-family:"Microsoft YaHei",Helvetica,sans-serif;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;-khtml-user-select:none;user-select:none}
+.hid{text-indent:-9999px;font-size:0;overflow:hidden;width:0;height:0;display:block}
+.fl{float:left}
+.fr{float:right}
+a,div,img,input,select{outline:0}
+.wrap{position:relative;overflow:hidden; width: 100%; height:100%;} 
+#toolbar-bg{display: none;}
+.header{position:fixed;width:985px;margin:0 auto;z-index:1000;top:79px;left:35px}
+.Menu{margin-top:9px}
+.Menu-list{display:-webkit-flex;display:flex;height:40px;text-shadow:0 0 2px #000}
+.Menu-list li{display:flex;position:relative;cursor:pointer;margin-right:30px;min-width:28px;white-space:nowrap;text-overflow:ellipsis}
+.Menu-list a{position:relative;color:#cdbe91;text-align:center;letter-spacing:.1em;-webkit-font-smoothing:subpixel-antialiased;font-family:'LoL Display',"\5FAE\8F6F\96C5\9ED1",'Times New Roman',Times,Baskerville,Georgia,serif}
+.Menu-list li a:hover{color:#f0e6d2}
+.header-esports .esports.active a,.header-hot .hot.active a,.header-ig .ig.active a,.header-video .video.active a{color:#f0e6d2}
+.header-esports .esports.active a:before,.header-hot .hot.active a:before,.header-ig .ig.active a:before,.header-video .video.active a:before{content:'';position:absolute;top:20px;left:0;height:1px;width:100%;background:linear-gradient(to left,transparent,#cdbe91,transparent)}
+.clearfix{zoom:1}
+.clearfix::after{content:'';display:block;height:0;visibility:hidden;clear:both}
+.content{position:absolute;top:18px;left:0;width:100%;height:622px;font-size:0;z-index: 2;}
+
+.wrapbg-box{width:1055px;height:640px; /*background: url(../ossweb-img/hero/bg.png) no-repeat;background-size:100% auto;*/ position: absolute; top: 0px; left: 0px;overflow: hidden;}
+.wrapbg-box .wrapbg{width:1055px;height:auto; background-size:100%;object-fit: cover;opacity: .3;}
+.wrapbg-box i{width:1055px;height:640px; background: url(../ossweb-img/hero/mc.png) no-repeat;background-size:100% auto;position: absolute; top: 80px; left: 0px;z-index: 1;}
+
+.versions-txt{ font-size: 12px; color: #c9a96b; margin: 0px 0 20px 17px; position: relative;}
+.versions-txt::after{ content: ''; background: url(../ossweb-img/hero/sign.png) no-repeat; width: 11px; height: 11px; background-size: 100%; position: absolute; top: 3px; left: -15px;}
+.versions-txt span{ display: inline-block; border-bottom: 1px solid #998357;}
+.box-intro{font-size: 0;width: 985px;height: 154px;padding-left: 32px;}
+.box-intro>div{display: inline-block;*display:inline;*zoom:1;vertical-align:top;box-sizing: border-box;}
+.intro-hero{overflow: hidden;float: left;width: 281px;}
+.intro-hero .hero-head,.intro-hero .hero-txt{float: left;}
+.hero-head{position: relative;background: url(../ossweb-img/hero/bg-head.png) no-repeat;width: 107px;height: 107px;padding-top: 11px;}
+.hero-head img{width: 80px;height: 80px;border-radius: 50%;display: block;margin:0 auto;}
+.hero-head i{background: url(../ossweb-img/hero/head-border.png) no-repeat;width: 86px;height: 86px;position: absolute;top: 8px;left: 10px;}
+.hero-txt{width: 160px;padding-left: 14px;}
+.hero-txt p,.hero-txt span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;width: 100%;}
+.hero-txt p{color:#f0e6d2;font-size: 24px;line-height: 36px;padding-top: 22px;}
+.hero-txt span{color:#a09b8c;font-size: 14px;line-height: 26px;display: block;}
+.hero-skill{width: 703px;text-align: left;float: left;}
+.hero-skill .skill-change{color:#a8a59d;font-size: 12px;line-height: 26px;position: relative;padding-right: 90px;width: 100%;box-sizing: border-box;}
+.hero-skill .skill-change span{display: block;position: absolute;top: 0;right: 0;text-align: right;}
+.hero-skill ul{width: 703px;height: 115px;overflow: scroll;overflow-x:hidden;overflow-y:auto;box-sizing: border-box;background: rgba(1,10,19,.5);border: 1px solid #141e24;padding:6px 10px 6px 12px;}
+/*侧滚动条宽度*/
+.hero-skill ul::-webkit-scrollbar {width: 4px;}
+/*侧滚动条的背景*/
+.hero-skill ul::-webkit-scrollbar-track{background:none;}
+/*侧滚动条滚动的背景*/
+.hero-skill ul::-webkit-scrollbar-thumb{border-radius: 7px; background-color: #785a28;}
+.hero-skill ul li{font-size: 12px;line-height: 20px;}
+.hero-skill ul li span{color: #f0e6d2;display: block;}
+.hero-skill ul li p{color: #a8a59d;text-indent:18px;}
+
+.box{width: 984px;height: 443px;box-sizing: border-box;border: 1px solid #141e24;background: rgba(1,10,19,.5);margin-left: 34px;position: relative;overflow: hidden;}
+.box .skill-img{padding: 5px 0;border-bottom: 1px solid #141e24;}
+.box .skill-img>div{padding: 24px 20px;border-right: 1px solid #141e24;display: inline-block;*display:inline;*zoom:1;vertical-align:top;width: auto;font-size: 0;}
+.box .skill-img>div:last-child{border-right: none;padding: 15px 0px 15px 20px;}
+.box .skill-img>div:last-child img,.box .skill-img>div:last-child i{margin-top: 10px;}
+.box .skill-img .put-on>div{display: inline-block;*display:inline;*zoom:1;vertical-align:top;height: 56px;width: auto;margin-right: 36px;text-align: center;}
+.box .skill-img .put-on>div img.first{margin-right: 18px;}
+.box .skill-img .put-on p{line-height: 50px;}
+.box .skill-img .put-on>div span{color: #a09b8c;font-size: 12px;line-height: 14px;display: block;}
+.box .skill-img p,.box .skill-img img,.box .skill-img i{display: inline-block;*display:inline;*zoom:1;vertical-align:top;}
+.box .skill-img p{color: #cdbe91;font-size: 16px;line-height: 30px;padding-right: 18px;}
+.box .skill-img p.q-w{color: #a09b8c;font-size: 12px;}
+.box .skill-img img{width: 30px;height: 30px;border: 1px solid #444341;box-sizing: border-box;}
+.box .skill-img i{background: url(../ossweb-img/hero/icon.png) no-repeat;width: 20px;height: 30px;}
+.box .skill-img .summoner>img{margin-right: 12px;}
+.box .skill-img .summoner>img:last-child{margin-right: 0;}
+.box .rune-box{font-size: 0;width: 497px;border-right:1px solid #141e24;position: relative;}
+.box .rune-box .rune-txt{color: #cdbe91;font-size: 16px;line-height: 50px;padding-left: 10px;}
+.box .rune-box .rune,.box .rune-box>div{height: 302px;display: inline-block;*display:inline;*zoom:1;vertical-align:top;font-size: 0;position: relative;box-sizing: border-box;}
+.box .rune-box .rune{width: 140px;}
+.box .rune-box>div{width: 190px;}
+.box .rune-box .rune li{margin-bottom: 6px;position: relative;}
+.box .rune-box .rune li.gap{margin-bottom: 6px;}
+.box .rune-box .rune1 li.on p{color: #ffe3ad;font-size: 14px;}
+.box .rune-box .rune2 li.on p{color: #f47381;font-size: 14px;}
+.box .rune-box .rune img,.box .rune-box .rune p{display: inline-block;*display:inline;*zoom:1;vertical-align:top;}
+.box .rune-box .rune img{width:34px;height: 34px;position: relative;z-index: 2;background: #1a1e21;border-radius: 50%;border: 1px solid #ac9871;box-sizing: border-box;margin: 8px 0 0 11px;}
+.box .rune-box .rune li:first-child  img{width: 40px;height: 40px;border: 2px solid #ac9871;margin: 4px 0 0 8px;}
+.box .rune-box .rune p{color: #cac4bd;font-size: 12px;line-height: 52px;padding-left: 6px;}
+.box .rune-box .rune i{width: 2px;height: 34px;background: #d5b27d;opacity: .2;display: block;position: absolute;bottom: -20px;left: 28px;}
+.box .rune-box .rune1 li:last-child i{display: none;}
+.box .rune-box .rune2 li:nth-last-child(2) i{display: none;}
+.box .rune-box .rune .last{margin-top: 10px;padding-left: 10px;}
+.box .rune-box .rune .last img{width: 22px;height: 22px;margin-bottom: 8px;display: block;background: #1a1e21;border-radius: 50%;border: 1px solid #ac9871;box-sizing: border-box;}
+.box .rune-box .rune .last i{width: 2px;height:74px;background: #dbb273;opacity:1;display: block;position: absolute;bottom: 4px;left: 30px;}
+
+/*精密样式*/
+.box .rune-box .rune.yellow li img{border: 1px solid #c8aa6e;}
+.box .rune-box .rune.yellow li:first-child p{color: #c8aa6e;}
+.box .rune-box .rune.yellow li:first-child img{border: 2px solid #c8aa6e;}
+/*主宰样式*/
+.box .rune-box .rune.red li img{border: 1px solid #d44242;}
+.box .rune-box .rune.red li:first-child p{color: #d44242;}
+.box .rune-box .rune.red li:first-child img{border: 2px solid #d44242;}
+
+/*巫术样式*/
+.box .rune-box .rune.purple li img{border: 1px solid #9faafc;}
+.box .rune-box .rune.purple li:first-child p{color: #9faafc;}
+.box .rune-box .rune.purple li:first-child img{border: 2px solid #9faafc;}
+
+/*坚决样式*/
+.box .rune-box .rune.green li img{border: 1px solid #a1d586;}
+.box .rune-box .rune.green li:first-child p{color: #a1d586;}
+.box .rune-box .rune.green li:first-child img{border: 2px solid #a1d586;}
+
+/*启迪样式*/
+.box .rune-box .rune.blue li img{border: 1px solid #49aab9;}
+.box .rune-box .rune.blue li:first-child p{color: #49aab9;}
+.box .rune-box .rune.blue li:first-child img{border: 2px solid #49aab9;}
+
+
+
+.box .rune-box>div p{color: #cdbe91;font-size: 15px;line-height: 48px;padding-top: 66px;text-align: center;}
+.box .rune-box>div p i{background: url(../ossweb-img/hero/icon2.png) no-repeat;width: 14px;height: 48px;display: inline-block;*display:inline;*zoom:1;vertical-align:top;}
+.box .strategy,.box .rune-box{display: inline-block;*display:inline;*zoom:1;vertical-align:top;}
+.box .strategy{width: 484px;height: auto;position: relative;}
+.box .strategy .strategy-txt{padding-top:16px;line-height: 26px;color: #cdbe91;font-size: 16px;word-spacing: 18px;padding-left: 20px;}
+.box .strategy .strategy-txt i{background: url(../ossweb-img/hero/icon3.png) no-repeat;width: 20px;height: 26px;display: none;*display:none;*zoom:1;vertical-align:top;margin:0 8px 0 20px ;}
+.box .strategy .strategy-txt span{color: #a09b8c;font-size: 12px;}
+.box .strategy ul{width: 100%;height: 302px;position: relative;}
+.box .strategy ul li{padding: 13px 0 13px 20px;width: 100%;box-sizing: border-box;height: 151px;font-size: 0;position: relative;}
+.box .strategy ul li:after{content: "";border-bottom: 1px solid #141e24;position: absolute;bottom: 0;left: 0;opacity: 0.4; width: 100%;}
+.box .strategy ul li>div{display: inline-block;*display:inline;*zoom:1;vertical-align:top;height: 123px;}
+.box .strategy ul li .picture{width: 219px;}
+.box .strategy ul li .picture img{width: 100%;height: 100%;object-fit: cover;border:1px solid #3c3c42;box-sizing: border-box;}
+.box .strategy ul li .txt{padding-left: 16px;width: 208px;height: 123px;}
+.box .strategy ul li .txt p{color: #cbc4aa;font-size: 12px;line-height: 16px;width: 100%;height: 83px;padding-top: 6px;text-overflow: -o-ellipsis-lastline;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 5; line-clamp: 5;-webkit-box-orient: vertical;margin-bottom: 7px;}
+.box .strategy ul li .txt span{color: #7a7770;font-size: 12px;line-height: 14px;width: 100%;height: 28px;display: block;text-overflow: -o-ellipsis-lastline;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;line-clamp: 2;-webkit-box-orient: vertical;}
+.box .strategy ul li.on{background: rgba(85,95,104,.2);}
+.box .strategy ul li a{width: 100%;height: 100%;position: absolute;top: 0;left: 0;}
+.box .strategy ul li a:hover{background: rgba(85,95,104,.2);}
+.box .strategy .mc{width:100%; height:21px; background-image:linear-gradient(0deg, rgba(24,24,24,1), rgba(24,24,24,0)); opacity:0.6; position:absolute; bottom:0; left:0;}
+
+/*侧滚动条宽度*/
+.box .strategy ul::-webkit-scrollbar {width: 4px;}
+/*侧滚动条的背景*/
+.box .strategy ul::-webkit-scrollbar-track{background:none;}
+/*侧滚动条滚动的背景*/
+.box .strategy ul::-webkit-scrollbar-thumb{border-radius: 7px; background-color: #785a28;}
+
+.button-normal .button {
+	color: #cdbe91;
+	width: 90px;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	position: relative;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+	box-sizing: border-box;
+	-webkit-box-pack: center;
+	justify-content: center;
+	white-space: nowrap;
+	padding: 4px 2.3em;
+	min-height: 32px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	box-shadow: 0 0 1px 1px #010a13, inset 0 0 1px 1px #010a13;
+	background: #1e2328;
+	border: 2px solid transparent;
+	margin: 0 auto;
+}
+.button-normal .button *{pointer-events:none}
+.button-normal .button .button-content-wrapper{position:relative}
+.button-normal .button .button-content-wrapper i{margin-right:5px;display:inline-block;vertical-align:middle;position:relative;top:0;}
+.button-normal .button .button-content-wrapper i svg{width:16px;height:14px;fill:rgba(205,190,145,1)}
+.button-normal .button .button-content-wrapper span{position:relative}
+
+.button-normal .button .button-content-add{position:relative;font-size: 16px;top:-1px}
+
+.button-normal .button .button-flare{position:absolute;top:0;left:0;width:100%;height:100%}
+.button-normal .button .button-flare:before{content:'';position:absolute;top:-25px;left:-25px;width:48px;height:48px;opacity:0;}
+.button-normal .button .button-flare:after{content:'';position:absolute;bottom:-25px;right:-25px;width:48px;height:48px;opacity:0;}
+.button-normal .button .button-glow{position:absolute;top:0;left:0;width:100%;height:100%;-webkit-filter:blur(4px)}
+.button-normal .button .button-border-idle{position:absolute;top:-2px;left:-2px;width:100%;height:100%;opacity:1;border:2px solid transparent;border-image:-webkit-gradient(linear,left bottom,left top,from(#785b28),color-stop(55%,#c89c3c),color-stop(71%,#c8a355),to(#c8aa6e));border-image:linear-gradient(0deg,#785b28 0,#c89c3c 55%,#c8a355 71%,#c8aa6e);border-image-slice:1;-webkit-transition:opacity .3s linear;transition:opacity .3s linear}
+.button-normal .button .button-border-transition{position:absolute;top:-2px;left:-2px;width:100%;height:100%;opacity:0;border:2px solid transparent}
+.button-normal .button .button-sheen-wrapper{position:absolute;top:0;left:0;overflow:hidden;width:100%;height:100%}
+.button-normal .button .button-sheen{position:absolute;top:0;left:0;overflow:hidden;width:100%;height:150%;-webkit-transform:translateY(-100%);transform:translateY(-100%);background:-webkit-gradient(linear,left top,left bottom,from(hsla(0,0%,100%,0)),color-stop(92%,hsla(0,0%,100%,.15)),to(hsla(0,0%,100%,0)));background:linear-gradient(180deg,hsla(0,0%,100%,0) 0,hsla(0,0%,100%,.15) 92%,hsla(0,0%,100%,0));-webkit-filter:blur(2px)}
+.button-normal .button .button-bg{position:absolute;top:0;left:0;width:100%;height:100%;-webkit-transition:opacity .4s cubic-bezier(0,0,.33,1);transition:opacity .4s cubic-bezier(0,0,.33,1);opacity:0;-webkit-backface-visibility:hidden;backface-visibility:hidden;background-image:-webkit-gradient(linear,left top,left bottom,from(#1e232a),color-stop(40%,#1e232a),color-stop(140%,rgba(118,97,51,.8)));background-image:linear-gradient(180deg,#1e232a 0,#1e232a 40%,rgba(118,97,51,.8) 140%)}
+.button-normal .button.intro .button-border-transition{border-image:-webkit-gradient(linear,left bottom,left top,from(#fff),color-stop(33%,#fff),color-stop(66%,#fff),to(#fff));border-image:linear-gradient(0deg,#fff 0,#fff 33%,#fff 66%,#fff);border-image-slice:1}
+.button-normal .button.hover,.button-normal .button:hover{color:#f0e6d2;-webkit-animation:.6s cubic-bezier(0,0,.33,1) 1 hoverTextShadow;animation:.6s cubic-bezier(0,0,.33,1) 1 hoverTextShadow}
+.button-normal .button.hover.disabled,.button-normal .button:hover.disabled{color:#5c5b57;-webkit-animation:none;animation:none}
+.button-normal .button.hover .button-border-transition,.button-normal .button:hover .button-border-transition{opacity:1;border-image:-webkit-gradient(linear,left bottom,left top,from(#c89c3c),color-stop(50%,#dcc188),color-stop(71%,#e1c998),to(#f0e6d8));border-image:linear-gradient(0deg,#c89c3c 0,#dcc188 50%,#e1c998 71%,#f0e6d8);border-image-slice:1}
+.button-normal .button.hover .button-glow,.button-normal .button:hover .button-glow{-webkit-animation:.6s cubic-bezier(0,0,.33,1) 1 hoverGlow;animation:.6s cubic-bezier(0,0,.33,1) 1 hoverGlow}
+.button-normal .button.hover .button-bg,.button-normal .button:hover .button-bg{opacity:1}
+.button-normal .button.down{color:#5c5b57;-webkit-transition:color .1s linear;transition:color .1s linear;-webkit-animation:none;animation:none}
+.button-normal .button.down .button-bg{opacity:1}
+.button-normal .button.click{color:#e4e1d8;border-image:-webkit-gradient(linear,left bottom,left top,from(#fff),color-stop(33%,#fff),color-stop(66%,#fff),to(#fff));border-image:linear-gradient(0deg,#fff 0,#fff 33%,#fff 66%,#fff);border-image-slice:1;-webkit-animation:.13s linear clickScale 1,.4s linear 1 hoverTextShadow;animation:.13s linear clickScale 1,.4s linear 1 hoverTextShadow}
+.button-normal .button.click .button-border-transition{border-image:-webkit-gradient(linear,left bottom,left top,from(#c89c3c),color-stop(50%,#dcc188),color-stop(71%,#e1c998),to(#f0e6d8));border-image:linear-gradient(0deg,#c89c3c 0,#dcc188 50%,#e1c998 71%,#f0e6d8);border-image-slice:1;-webkit-transition:opacity .4s linear;transition:opacity .4s linear;opacity:1}
+.button-normal .button.click .button-glow{-webkit-animation:.6s cubic-bezier(0,0,.33,1) hoverGlow 1;animation:.6s cubic-bezier(0,0,.33,1) hoverGlow 1}
+.button-normal .button.click .button-sheen{-webkit-animation:.33s clickSheen 1 linear;animation:.33s clickSheen 1 linear}
+.button-normal .button.click .button-bg{opacity:1}
+.button-normal .button.click .button-flare:before{-webkit-animation:.4s cubic-bezier(0,0,.33,1) 0ms 1 clickFlare;animation:.4s cubic-bezier(0,0,.33,1) 0ms 1 clickFlare}
+.button-normal .button.click .button-flare:after{-webkit-animation:.4s cubic-bezier(0,0,.33,1) 30ms 1 clickFlare;animation:.4s cubic-bezier(0,0,.33,1) 30ms 1 clickFlare}
+.button-normal .button.disabled,.button-normal .button:disabled{cursor:default;color:#5c5b57;background-color:#1e2328;border:2px solid #5c5b57;border-image:initial;-webkit-transition:all .3s linear;transition:all .3s linear}
+.button-normal .button.disabled:hover,.button-normal .button:disabled:hover{cursor:default;color:#5c5b57;background-color:#1e2328;border-color:#5c5b57;border-image:initial;background-image:none;-webkit-animation:none;animation:none}
+.button-normal .button.disabled .button-bg,.button-normal .button.disabled .button-flare,.button-normal .button.disabled .button-glow,.button-normal .button.disabled .button-sheen-wrapper,.button-normal .button:disabled .button-bg,.button-normal .button:disabled .button-flare,.button-normal .button:disabled .button-glow,.button-normal .button:disabled .button-sheen-wrapper{display:none}
+.button-normal .button.disabled .button-border-transition,.button-normal .button:disabled .button-border-transition{-webkit-transition:opacity .3s linear;transition:opacity .3s linear;opacity:0}
+.button-normal .button.disabled .button-border-idle,.button-normal .button:disabled .button-border-idle{opacity:0}
+.button-normal .button.back{background-image:url(//game.gtimg.cn/images/lol/client/lcu/back.png);background-position:50%;background-repeat:no-repeat}
+.button-normal .button.back:hover{background-image:url(//game.gtimg.cn/images/lol/client/lcu/back-hover.png)}
+.button-normal .button.back.disabled,.button-normal .button.back:active{background-image:url(//game.gtimg.cn/images/lol/client/lcu/back-disabled.png)}
+.button-normal .button.utility{text-transform:none;font-family:LoL Body,Arial;font-size:12px;font-weight:400;border:1px solid transparent}
+.button-normal .button.utility.click{border-image-width:0}
+.button-normal .button.utility .button-border-idle{border:1px solid transparent;border-image:-webkit-gradient(linear,left bottom,left top,from(#785b28),color-stop(55%,#c89c3c),color-stop(71%,#c8a355),to(#c8aa6e));border-image:linear-gradient(0deg,#785b28 0,#c89c3c 55%,#c8a355 71%,#c8aa6e);border-image-slice:1}
+.button-normal .button.utility .button-border-transition{position:absolute;top:-2px;left:-2px;width:calc(100% + 4px);height:calc(100% + 4px);pointer-events:none;opacity:0;border:1px solid transparent}
+.button-normal[type=secondary] .button:not(.disabled):not(:disabled){color:#cdfafa}
+.button-normal[type=secondary] .button:not(.disabled):not(:disabled) .button-content-wrapper i svg{width:16px;height:14px;fill:rgba(205,250,250,1)}
+
+.button-normal[type=secondary] .button:not(.disabled):not(:disabled) .button-border-idle{border-image:-webkit-gradient(linear,left bottom,left top,from(#0d404c),color-stop(44%,#0596aa),color-stop(93%,#0596aa),to(#0ac8b9));border-image:linear-gradient(0deg,#0d404c 0,#0596aa 44%,#0596aa 93%,#0ac8b9);border-image-slice:1}
+.button-normal[type=secondary] .button:not(.disabled):not(:disabled).hover,.button-normal[type=secondary] .button:not(.disabled):not(:disabled):hover{color:#cdfafa}
+.button-normal[type=secondary] .button:not(.disabled):not(:disabled).hover .button-border-transition,.button-normal[type=secondary] .button:not(.disabled):not(:disabled):hover .button-border-transition{border-image:-webkit-gradient(linear,left bottom,left top,from(#3295c7),color-stop(49%,#0ac8b9),to(#cdfafa));border-image:linear-gradient(0deg,#3295c7 0,#0ac8b9 49%,#cdfafa);border-image-slice:1}
+
+/*tc*/
+.pop{width: 100%; height: 100%; background: rgba(0, 0,0,.5); position: fixed; z-index: 99999; }
+.hreotc{ position: absolute; left: 50%; top:50%;background: url(../ossweb-img/hero/tc-bg.png) no-repeat;width: 340px;height: 96px;transform: translate(-50%,-50%);text-align: center;}
+.hreotc p{color: #cdbe91;font-size: 16px;line-height: 36px;text-align: center;padding-top: 1px;width: auto;margin: 0 auto;display: inline-block;border-bottom: 1px solid #342b14;margin-bottom: 12px;}
+.hreotc .button{padding: 0 2.3em;min-height: 26px;}
+
+
+
+/* #t6Hl8#4B8E7D9192DFBBA6D76761A6A7431467 */

@@ -1,0 +1,216 @@
+blockquote,body,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,pre,select,td,textarea,th,ul{padding:0;margin:0}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}
+address,b,caption,cite,code,dfn,em,strong,th,var{font-weight:400;font-style:normal}
+li,ol,ul{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-weight:400;font-size:100%}
+q:after,q:before{content:""}
+abbr,acronym{border:0}
+strong,th{font-weight:700}
+a{text-decoration:none;cursor:pointer;outline:0}
+button,input,option,select,textarea{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;outline:0}
+input:focus,textarea:focus{outline:0}
+body,html{position:relative;overflow:hidden;width:1055px;height:720px}
+body{font:12px 'LoL Display',"\5FAE\8F6F\96C5\9ED1",TimesNewRoman,'Times New Roman',Times,Baskerville,Georgia,serif;color:#a09b8c;background-color:#000;font-family:"Microsoft YaHei",Helvetica,sans-serif;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;-khtml-user-select:none;user-select:none}
+.hid{text-indent:-9999px;font-size:0;overflow:hidden;width:0;height:0;display:block}
+.fl{float:left}
+.fr{float:right}
+a,div,img,input,select{outline:0}
+.wrap{position:relative;width:1055px;height:720px;background:url(../ossweb-img/gameplay/bg.jpg) no-repeat left top;background-size:100% auto;overflow:hidden}
+.header{position:fixed;width:985px;margin:0 auto;z-index:1000;top:79px;left:35px}
+.Menu{margin-top:9px}
+.Menu-list{display:-webkit-flex;display:flex;height:40px;text-shadow:0 0 2px #000}
+.Menu-list li{display:flex;position:relative;cursor:pointer;margin-right:30px;min-width:28px;white-space:nowrap;text-overflow:ellipsis}
+.Menu-list a{position:relative;color:#cdbe91;text-align:center;letter-spacing:.1em;-webkit-font-smoothing:subpixel-antialiased;font-family:'LoL Display',"\5FAE\8F6F\96C5\9ED1",'Times New Roman',Times,Baskerville,Georgia,serif}
+.Menu-list li a:hover{color:#f0e6d2}
+.header-esports .esports.active a,.header-hot .hot.active a,.header-ig .ig.active a,.header-video .video.active a{color:#f0e6d2}
+.header-esports .esports.active a:before,.header-hot .hot.active a:before,.header-ig .ig.active a:before,.header-video .video.active a:before{content:'';position:absolute;top:20px;left:0;height:1px;width:100%;background:linear-gradient(to left,transparent,#cdbe91,transparent)}
+.clearfix{zoom:1}
+.clearfix::after{content:'';display:block;height:0;visibility:hidden;clear:both}
+.content{position:absolute;top:104px;left:0;width:100%;height:616px;font-size:0}
+
+.versions-txt{ font-size: 12px; color: #c9a96b; margin: 24px 0 22px 49px; position: relative;}
+.versions-txt::after{ content: ''; background: url(../ossweb-img/gameplay/sign.png) no-repeat; width: 11px; height: 11px; background-size: 100%; position: absolute; top: 3px; left: -15px;}
+.versions-txt span{ display: inline-block; border-bottom: 1px solid #998357;}
+
+.tabbox{ width: 100%; height:64px; display: flex; justify-content: center;}
+.tabbox a{ background: url(../ossweb-img/gameplay/btnoff.png) no-repeat; width: 375px; height: 47px; background-size: 100%; font-size: 21px;  color: #8d8577; font-weight: bold; text-align: center; line-height: 47px; margin-right: 62px;}
+.tabbox a.on{ background: url(../ossweb-img/gameplay/btn.png) no-repeat; color: #efe6d2;background-size: 100%;}
+
+.seltabbox{ width: 817px; height:34px; display: flex; margin-left: 116px; margin-top: 30px; border-bottom:1px solid #1f252d;}
+.seltabbox a{ font-size: 13px; color: #cdbe91; padding-left: 19px; line-height: 34px; position: relative;}
+.seltabbox .top::before{ content: ''; background: url(../ossweb-img/gameplay/icon1.png) no-repeat; width: 15px; height: 15px; background-size: 100%; position: absolute; top: 10px; left: 1px; }
+.seltabbox .on:after{content:''; width: 48px; height: 2px; background: #785a28; position: absolute; bottom: 0px; left: 0px}
+.seltabbox .on{  color: #f0e6d2;}
+.seltabbox .jug{ margin-left: 145px;}
+.seltabbox .jug:before{ content: ''; background: url(../ossweb-img/gameplay/icon2.png) no-repeat; width: 17px; height: 19px; background-size: 100%; position: absolute; top: 7px; left: 0px;}
+.seltabbox .mid{ margin-left: 139px;}
+.seltabbox .mid:before{ content: ''; background: url(../ossweb-img/gameplay/icon3.png) no-repeat; width: 15px; height: 15px; background-size: 100%; position: absolute; top: 10px; left: 0px;}
+.seltabbox .adc{ margin-left: 141px;}
+.seltabbox .adc:before{ content: ''; background: url(../ossweb-img/gameplay/icon4.png) no-repeat; width: 15px; height: 15px; background-size: 100%; position: absolute; top: 10px; left: 0px;}
+.seltabbox .sup{ margin-left: 142px;}
+.seltabbox .sup:before{ content: ''; background: url(../ossweb-img/gameplay/icon5.png) no-repeat; width: 19px; height: 15px; background-size: 100%; position: absolute; top: 10px; left: 0px;}
+
+.strategybox{ width: 817px; height: 37px;display: flex; margin-left: 116px; margin-bottom: 20px;}
+.strategybox a{ font-size: 12px; color: #08b2c9; display: inline-block; vertical-align: top; border-bottom: 1px solid #074555; line-height: 50px;}
+.strategybox a:nth-child(2){margin-left: 145px;}
+.strategybox a:nth-child(3){margin-left: 133px;}
+.strategybox a:nth-child(4){margin-left: 141px;}
+.strategybox a:nth-child(5){margin-left: 142px;}
+
+.herobox{ background: url(../ossweb-img/gameplay/contbg.png) no-repeat; width: 852px; height: 301px; background-size: 100%; display: block; margin-left: 100px; overflow: hidden;}
+.heroul{ width: 825px; padding-right: 2px; height: 268px; display:block; margin-top: 20px; overflow-y: auto;padding-left: 14px;}
+.scroll::-webkit-scrollbar {/*滚动条整体样式*/width: 5px;/*高宽分别对应横竖滚动条的尺寸*/height: 1px;}
+.scroll::-webkit-scrollbar-thumb {/*滚动条里面小方块*/border-radius: 5px;-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);background: #785a28;}
+.scroll::-webkit-scrollbar-track {/*滚动条里面轨道*/-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);border-radius: 5px;background: none;}
+
+.heroul li{ width: 82px; height: auto; display: inline-block;vertical-align: top; margin-bottom: 24px;}
+.heroul li img{ width: 54px; height: 54px; display: block; margin: 0 auto 5px; box-sizing: border-box; border: 1px solid #1c2026;}
+.heroul li p{ font-size: 12px; color: #a09b8c; text-align: center;}
+
+.tabcont2{ width: 986px; height: 417px; margin-top: 28px; margin-left: 36px; position: relative;} 
+.tabcont2-cont1{ background: url(../ossweb-img/gameplay/cont1bg.png) no-repeat; width: 232px; height: 411px;background-size: 100%; position: absolute; top: 0px; left: 0px;}
+.tabcont2-cont2{ background: url(../ossweb-img/gameplay/cont2bg.png) no-repeat; width: 361px; height: 411px; background-size: 100%;position: absolute; top: 0px; left: 256px;}
+.tabcont2-cont3{ background: url(../ossweb-img/gameplay/cont3bg.png) no-repeat; width: 338px; height: 411px; background-size: 100%;position: absolute; top: 0px; left: 644px;}
+
+.tabcont2-cont1 .txt{ font-size: 13px; color:#c9a96b; text-align: center; padding: 13px 0px;}
+.tabcont2-cont1 .line{ width: 23px; height: 2px; background: #c9a96b; display: block; margin: 0 auto;}
+.tabcont2-cont1 .btn-play{ width: 208px; height: 116px; display:block; margin: 20px auto 0; position: relative;}
+.tabcont2-cont1 .btn-play img{ width: 208px; height: 116px; display:block; box-sizing: border-box; border: 1px solid #313740;}
+.tabcont2-cont1 .btn-play .playicon{ background: url(../ossweb-img/gameplay/playicon.png) no-repeat; width: 42px; height: 42px; background-size: 100%; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);pointer-events: none;}
+.tabcont2-cont1 .videodec{ font-size: 12px; color: #e0c694; padding-left: 12px; line-height: 20px; padding-top: 10px;}
+.tabcont2-cont1 .videotime{ font-size: 11px; color: #7a7770; padding-left: 12px;}
+.tabcont2-cont1 .btn-look{ width: 89px; height: 32px; display: block; margin: 37px auto 55px;} 
+.sourcetxt{ text-align: center;  font-size: 12px; color: #a09b8c;  justify-content: center;}
+.sourcepic{ width: 16px; height: 16px; border: 2px solid #b4831c; border-radius: 50%; box-sizing: border-box; display: inline-block; vertical-align: top; margin-left: 15px; margin-right: 5px;}
+
+.tabcont2-cont2 .txt{ font-size: 13px; color:#c9a96b; text-align: center; padding: 13px 0px;}
+.tabcont2-cont2 .line{ width: 23px; height: 2px; background: #c9a96b; display: block; margin: 0 auto;}
+.tabcont2-navbox{ width: 330px; height: 33px; display:flex; margin: 0 auto; justify-content: center; border-bottom: 1px solid #1b222c; margin-bottom: 8px;}
+.tabcont2-navbox div{ width: 51px; height: 33px; display: inline-block; font-size: 14px; color: #cdbe91; line-height:33px; margin-right: 17px; text-align: center; cursor: pointer;}
+.tabcont2-navbox div.on{ color: #f0e6d2; border-bottom: 2px solid #785a28;}
+.ultab{ display: flex; width: 344px; height: 26px; margin: 0 auto; font-size: 12px; color: #6a5f46;}
+.ultab span{ line-height: 26px;}
+.ultab span:nth-child(1){ width: 61px; padding-left: 10px;}
+.ultab span:nth-child(2){ width: 134px; }
+.ultab span:nth-child(3){ width: 48px;text-align: center;}
+.ultab span:nth-child(4){ width: 51px; text-align: center; margin-left: 14px;}
+.tabcont2-heroul{ width: 344px; height: auto; display: block; margin: 0 auto;}
+.tabcont2-heroul li{ width: 100%; height: 49px; border-bottom: 1px solid #111b25;}
+.tabcont2-heroul li .btn{ width: 100%; height: 100%;  display: flex;} 
+.tabcont2-heroul li:hover{ background: #121d28;}
+.tabcont2-heroul li .item1{ width: 69px; display: flex; justify-content: center;}
+.tabcont2-heroul li .item2{ width: 138px; position: relative;}
+.tabcont2-heroul li .item3{ width: 48px;}
+.tabcont2-heroul li .item4{ width: 51px; margin-left: 14px;}
+
+.tabcont2-heroul li .item1 .number{ font-size: 13px; color: #a09b8c; line-height: 55px;}
+.tabcont2-heroul li .item1 .status{ width: 7px; height: 2px; background:#2f3332; display: inline-block; margin-top: 26px; margin-left: 10px;}
+.tabcont2-heroul li .item1 .status-txt{ font-size: 12px; color: #6a5f46; line-height: 55px; margin-left: 5px;}
+.tabcont2-heroul li .item1 .up{width: 0;height: 0;border-left: 3px solid transparent;border-right: 3px solid transparent;border-bottom: 6px solid #4a463a; margin-top: 24px; margin-left: 10px;}
+.tabcont2-heroul li .item1 .down{width: 0;height: 0;border-left: 3px solid transparent;border-right: 3px solid transparent;border-top: 6px solid #4a463a; margin-top: 24px; margin-left: 10px;}
+
+.tabcont2-heroul li .item2 .pic{ width: 27px; height: 27px; border: 1px solid #474643; box-sizing: border-box;  position: absolute; top: 10px; left: 0px;}
+.tabcont2-heroul li .item2 .name{ font-size: 13px; color: #c9a96b; position: absolute; top: 5px; left: 36px; width: 102px; overflow: hidden; text-overflow: ellipsis; white-space:nowrap;}
+.tabcont2-heroul li .item2 .signbox{font-size: 12px; color: #a09b8c; position: absolute; left: 33px; top: 23px;}
+.tabcont2-heroul li .item2 .signbox span{ margin-right: 4px;}
+.tabcont2-heroul li .item3 .txt,.tabcont2-heroul li .item4 .txt{ font-size: 12px; color: #a09b8c; text-align: center;}
+.btn-more{ width: 89px; height: 32px; display: block; margin: 3px auto 0;}
+
+.tabcont2-cont3 .txt{ font-size: 13px; color:#c9a96b; text-align: center; padding: 13px 0px;}
+.tabcont2-cont3 .line{ width: 23px; height: 2px; background: #c9a96b; display: block; margin: 0 auto;}
+.tabcont2-cont3 .msgbox{ width: 330px; height: 300px; display: block; margin: 12px auto; overflow: hidden;}
+.tabcont2-cont3 .msgbox .ul{ width: 100%; height:305px; overflow-y: auto;}
+.tabcont2-cont3 .msgbox .ul li{width: 100%; height: 66px; position: relative; overflow: hidden; margin-bottom: 10px;}
+.tabcont2-cont3 .msgbox .ul li a{ width: 100%; height: 100%; display: block;}
+.tabcont2-cont3 .msgbox .ul li:hover{background: #121d28;}
+.tabcont2-cont3 .msgbox .ul li .pic{ width: 98px; height: 55px; padding:1px 1px; border: 1px solid #35373e; position: absolute; left: 10px; top: 5px;}
+.tabcont2-cont3 .msgbox .ul li .txtbox{ width: 207px; height: 58px; position: absolute; top: 5px; left: 118px; overflow: hidden;}
+.tabcont2-cont3 .msgbox .ul li .txtbox .txt1{ font-size: 13px; color: #cbc4aa; margin-bottom: 7px;}
+.tabcont2-cont3 .msgbox .ul li .txtbox .txt2{ font-size: 12px; color: #7a7770;}
+.tabcont2-cont3 .msgbox .ul li .txtbox .omit1{ overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.tabcont2-cont3 .msgbox .ul li .txtbox .omit2{ overflow: hidden;  text-overflow: ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2; }
+
+.button-normal .button{font-family: 'LoL Display',"\5FAE\8F6F\96C5\9ED1", 'Times New Roman', Times, Baskerville, Georgia, serif;text-transform:uppercase}
+.button-normal .button-wrapper {
+	min-width: inherit;
+	width: inherit;
+	height: 100%
+}
+.button-normal .button-inner {
+	height: 100%
+}
+.button-normal .button {
+	color: #cdbe91;
+	min-width: 90px;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	position: relative;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+	box-sizing: border-box;
+	-webkit-box-pack: center;
+	justify-content: center;
+	white-space: nowrap;
+	padding: 4px 2.3em;
+	min-height: 32px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	box-shadow: 0 0 1px 1px #010a13, inset 0 0 1px 1px #010a13;
+	background: #1e2328;
+	border: 2px solid transparent;
+}
+.button-normal .button *{pointer-events:none}
+.button-normal .button .button-content-wrapper{position:relative}
+.button-normal .button .button-content-wrapper i{margin-right:5px;display:inline-block;vertical-align:middle;position:relative;top:0;}
+.button-normal .button .button-content-wrapper i svg{width:16px;height:14px;fill:rgba(205,190,145,1)}
+.button-normal .button .button-content-wrapper span{position:relative}
+
+.button-normal .button .button-content-add{position:relative;font-size: 16px;top:-1px}
+
+.button-normal .button .button-flare{position:absolute;top:0;left:0;width:100%;height:100%}
+.button-normal .button .button-flare:before{content:'';position:absolute;top:-25px;left:-25px;width:48px;height:48px;opacity:0;}
+.button-normal .button .button-flare:after{content:'';position:absolute;bottom:-25px;right:-25px;width:48px;height:48px;opacity:0;}
+.button-normal .button .button-glow{position:absolute;top:0;left:0;width:100%;height:100%;-webkit-filter:blur(4px)}
+.button-normal .button .button-border-idle{position:absolute;top:-2px;left:-2px;width:100%;height:100%;opacity:1;border:2px solid transparent;border-image:-webkit-gradient(linear,left bottom,left top,from(#785b28),color-stop(55%,#c89c3c),color-stop(71%,#c8a355),to(#c8aa6e));border-image:linear-gradient(0deg,#785b28 0,#c89c3c 55%,#c8a355 71%,#c8aa6e);border-image-slice:1;-webkit-transition:opacity .3s linear;transition:opacity .3s linear}
+.button-normal .button .button-border-transition{position:absolute;top:-2px;left:-2px;width:100%;height:100%;opacity:0;border:2px solid transparent}
+.button-normal .button .button-sheen-wrapper{position:absolute;top:0;left:0;overflow:hidden;width:100%;height:100%}
+.button-normal .button .button-sheen{position:absolute;top:0;left:0;overflow:hidden;width:100%;height:150%;-webkit-transform:translateY(-100%);transform:translateY(-100%);background:-webkit-gradient(linear,left top,left bottom,from(hsla(0,0%,100%,0)),color-stop(92%,hsla(0,0%,100%,.15)),to(hsla(0,0%,100%,0)));background:linear-gradient(180deg,hsla(0,0%,100%,0) 0,hsla(0,0%,100%,.15) 92%,hsla(0,0%,100%,0));-webkit-filter:blur(2px)}
+.button-normal .button .button-bg{position:absolute;top:0;left:0;width:100%;height:100%;-webkit-transition:opacity .4s cubic-bezier(0,0,.33,1);transition:opacity .4s cubic-bezier(0,0,.33,1);opacity:0;-webkit-backface-visibility:hidden;backface-visibility:hidden;background-image:-webkit-gradient(linear,left top,left bottom,from(#1e232a),color-stop(40%,#1e232a),color-stop(140%,rgba(118,97,51,.8)));background-image:linear-gradient(180deg,#1e232a 0,#1e232a 40%,rgba(118,97,51,.8) 140%)}
+.button-normal .button.intro .button-border-transition{border-image:-webkit-gradient(linear,left bottom,left top,from(#fff),color-stop(33%,#fff),color-stop(66%,#fff),to(#fff));border-image:linear-gradient(0deg,#fff 0,#fff 33%,#fff 66%,#fff);border-image-slice:1}
+.button-normal .button.hover,.button-normal .button:hover{color:#f0e6d2;-webkit-animation:.6s cubic-bezier(0,0,.33,1) 1 hoverTextShadow;animation:.6s cubic-bezier(0,0,.33,1) 1 hoverTextShadow}
+.button-normal .button.hover.disabled,.button-normal .button:hover.disabled{color:#5c5b57;-webkit-animation:none;animation:none}
+.button-normal .button.hover .button-border-transition,.button-normal .button:hover .button-border-transition{opacity:1;border-image:-webkit-gradient(linear,left bottom,left top,from(#c89c3c),color-stop(50%,#dcc188),color-stop(71%,#e1c998),to(#f0e6d8));border-image:linear-gradient(0deg,#c89c3c 0,#dcc188 50%,#e1c998 71%,#f0e6d8);border-image-slice:1}
+.button-normal .button.hover .button-glow,.button-normal .button:hover .button-glow{-webkit-animation:.6s cubic-bezier(0,0,.33,1) 1 hoverGlow;animation:.6s cubic-bezier(0,0,.33,1) 1 hoverGlow}
+.button-normal .button.hover .button-bg,.button-normal .button:hover .button-bg{opacity:1}
+.button-normal .button.down{color:#5c5b57;-webkit-transition:color .1s linear;transition:color .1s linear;-webkit-animation:none;animation:none}
+.button-normal .button.down .button-bg{opacity:1}
+.button-normal .button.click{color:#e4e1d8;border-image:-webkit-gradient(linear,left bottom,left top,from(#fff),color-stop(33%,#fff),color-stop(66%,#fff),to(#fff));border-image:linear-gradient(0deg,#fff 0,#fff 33%,#fff 66%,#fff);border-image-slice:1;-webkit-animation:.13s linear clickScale 1,.4s linear 1 hoverTextShadow;animation:.13s linear clickScale 1,.4s linear 1 hoverTextShadow}
+.button-normal .button.click .button-border-transition{border-image:-webkit-gradient(linear,left bottom,left top,from(#c89c3c),color-stop(50%,#dcc188),color-stop(71%,#e1c998),to(#f0e6d8));border-image:linear-gradient(0deg,#c89c3c 0,#dcc188 50%,#e1c998 71%,#f0e6d8);border-image-slice:1;-webkit-transition:opacity .4s linear;transition:opacity .4s linear;opacity:1}
+.button-normal .button.click .button-glow{-webkit-animation:.6s cubic-bezier(0,0,.33,1) hoverGlow 1;animation:.6s cubic-bezier(0,0,.33,1) hoverGlow 1}
+.button-normal .button.click .button-sheen{-webkit-animation:.33s clickSheen 1 linear;animation:.33s clickSheen 1 linear}
+.button-normal .button.click .button-bg{opacity:1}
+.button-normal .button.click .button-flare:before{-webkit-animation:.4s cubic-bezier(0,0,.33,1) 0ms 1 clickFlare;animation:.4s cubic-bezier(0,0,.33,1) 0ms 1 clickFlare}
+.button-normal .button.click .button-flare:after{-webkit-animation:.4s cubic-bezier(0,0,.33,1) 30ms 1 clickFlare;animation:.4s cubic-bezier(0,0,.33,1) 30ms 1 clickFlare}
+.button-normal .button.disabled,.button-normal .button:disabled{cursor:default;color:#5c5b57;background-color:#1e2328;border:2px solid #5c5b57;border-image:initial;-webkit-transition:all .3s linear;transition:all .3s linear}
+.button-normal .button.disabled:hover,.button-normal .button:disabled:hover{cursor:default;color:#5c5b57;background-color:#1e2328;border-color:#5c5b57;border-image:initial;background-image:none;-webkit-animation:none;animation:none}
+.button-normal .button.disabled .button-bg,.button-normal .button.disabled .button-flare,.button-normal .button.disabled .button-glow,.button-normal .button.disabled .button-sheen-wrapper,.button-normal .button:disabled .button-bg,.button-normal .button:disabled .button-flare,.button-normal .button:disabled .button-glow,.button-normal .button:disabled .button-sheen-wrapper{display:none}
+.button-normal .button.disabled .button-border-transition,.button-normal .button:disabled .button-border-transition{-webkit-transition:opacity .3s linear;transition:opacity .3s linear;opacity:0}
+.button-normal .button.disabled .button-border-idle,.button-normal .button:disabled .button-border-idle{opacity:0}
+.button-normal .button.back{background-image:url(//game.gtimg.cn/images/lol/client/lcu/back.png);background-position:50%;background-repeat:no-repeat}
+.button-normal .button.back:hover{background-image:url(//game.gtimg.cn/images/lol/client/lcu/back-hover.png)}
+.button-normal .button.back.disabled,.button-normal .button.back:active{background-image:url(//game.gtimg.cn/images/lol/client/lcu/back-disabled.png)}
+.button-normal .button.utility{text-transform:none;font-family:LoL Body,Arial;font-size:12px;font-weight:400;border:1px solid transparent}
+.button-normal .button.utility.click{border-image-width:0}
+.button-normal .button.utility .button-border-idle{border:1px solid transparent;border-image:-webkit-gradient(linear,left bottom,left top,from(#785b28),color-stop(55%,#c89c3c),color-stop(71%,#c8a355),to(#c8aa6e));border-image:linear-gradient(0deg,#785b28 0,#c89c3c 55%,#c8a355 71%,#c8aa6e);border-image-slice:1}
+.button-normal .button.utility .button-border-transition{position:absolute;top:-2px;left:-2px;width:calc(100% + 4px);height:calc(100% + 4px);pointer-events:none;opacity:0;border:1px solid transparent}
+.button-normal[type=secondary] .button:not(.disabled):not(:disabled){color:#cdfafa}
+.button-normal[type=secondary] .button:not(.disabled):not(:disabled) .button-content-wrapper i svg{width:16px;height:14px;fill:rgba(205,250,250,1)}
+
+.button-normal[type=secondary] .button:not(.disabled):not(:disabled) .button-border-idle{border-image:-webkit-gradient(linear,left bottom,left top,from(#0d404c),color-stop(44%,#0596aa),color-stop(93%,#0596aa),to(#0ac8b9));border-image:linear-gradient(0deg,#0d404c 0,#0596aa 44%,#0596aa 93%,#0ac8b9);border-image-slice:1}
+.button-normal[type=secondary] .button:not(.disabled):not(:disabled).hover,.button-normal[type=secondary] .button:not(.disabled):not(:disabled):hover{color:#cdfafa}
+.button-normal[type=secondary] .button:not(.disabled):not(:disabled).hover .button-border-transition,.button-normal[type=secondary] .button:not(.disabled):not(:disabled):hover .button-border-transition{border-image:-webkit-gradient(linear,left bottom,left top,from(#3295c7),color-stop(49%,#0ac8b9),to(#cdfafa));border-image:linear-gradient(0deg,#3295c7 0,#0ac8b9 49%,#cdfafa);border-image-slice:1}/* #t6Hl8#00EF0D09524F68E805016DAA69802B88 */
