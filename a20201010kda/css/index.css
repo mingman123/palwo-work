@@ -1,0 +1,250 @@
+@charset "GBK";
+
+html,body,div,p,ul,li,dl,dt,dd,em,i,span,a,img,input,h1,h2,h3,h4,h5 {margin:0;padding:0}
+a,img,input {border:none;}
+body{font: 14px/1.75 -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+a {text-decoration:none;}
+ul,li{list-style: none}
+/* reset */
+html,body,div,p,ul,li,dl,dt,dd,em,i,span,a,img,input,h1,h2,h3,h4,h5{margin:0;padding:0}
+a,img,input{border:none;}
+body{font-family: '\82F9\65B9','\5FAE\8F6F\96C5\9ED1',"Helvetica Neue", Helvetica, Arial, sans-serif;-webkit-tap-highlight-color:rgba(0,0,0,0);background-color:#edf0f0;}
+a{text-decoration:none;}
+ul,li{list-style:none}
+table{border-collapse:collapse;border-spacing:0}
+td,th,ul,ol{padding:0}
+em,i{font-style:normal;}
+b{font-weight:normal;}
+img,div,a,span{outline: none;}
+/* reset end */
+html {
+    font-size: 50px;/* 兼容不支持vw的系统 */
+    font-size: 13.33333333vw;/* 7.5rem === 100vw */
+}
+@media (max-width: 1024px) {
+    html,body {
+        max-width: 1024px;
+    }
+}
+/* hid */
+.hid{text-indent:-999em;font-size:0;overflow:hidden;width:0;height:0;display:block}
+/* foot */
+#afooter{text-align:center;font-size:.22rem;line-height:1.5;padding:.2rem 0;background-color:#000;}
+#afooter,#afooter a{color:#c0c0c0;text-decoration:none;}
+
+/* spr */
+.spr{display:block; width:0; height:0; background:url(../ossweb-img/spr.png) no-repeat; background-size:7.5rem 10rem;}
+
+.wrap{width:100%;background:url(../ossweb-img/bg.jpg) repeat-y; background-size:100% auto;position: relative;/*overflow: hidden;*/padding-bottom: .6rem;}
+.cont1,.cont2,.cont3,.cont4,.cont5,.cont6,.cont7,.cont8{width: 7.5rem;height: auto;padding-bottom:.5rem;box-sizing: border-box;}
+
+/* KDA最新MV 引爆全场！ */
+.head{width: 7.5rem;height: auto;margin:0 auto;padding-top: 2.2rem;background:url(../ossweb-img/head.png) no-repeat; background-size:100% auto;}
+.head .video_box{width: 6.9rem;height: auto;position: relative;margin:0 auto;}
+.container{width: 6.9rem;height:3.4rem;background:url(../ossweb-img/video-bg.jpg) no-repeat; background-size:100% auto;}
+.head .video_box i{background:url(../ossweb-img/video-border.png) no-repeat; background-size:100% auto;width:6.9rem;height: 3.4rem;position: absolute;top: 0rem;left: 0rem;z-index: 2;}
+.head .video_box .btn_video{background-position:-6.18rem 0;width: .78rem;height: .78rem;position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);z-index: 4;}
+.head .video_box .btn_video_mute{background-position:-2.6rem -.76rem;width: .6rem;height: .6rem;position: absolute;top: .2rem;left: .2rem;z-index: 3;}
+.head .video_box .btn_video_mute.on{background-position:-1.7rem -.76rem;}
+.head .video_txt{width: 100%;height: 1rem;display: flex;justify-content: center;align-items: center;}
+.head .video_txt p{color: #e4e4f6;font-size: .28rem;width: 5.4rem;}
+.head .video_txt a{color: #e4e4f6;font-size: .24rem;width: 1.44rem;height: .48rem;line-height: .44rem;border-radius: .04rem;border: .02rem solid #e4e4f6;text-align: center;box-sizing: border-box;}
+/* 音乐大赏 */
+.cont1{width: 7.5rem;height: auto;background:url(../ossweb-img/music-bg.png) no-repeat; background-size:100% auto;padding-top: .2rem;}
+.cont1 .title_box a{color: #575777;font-size: .24rem;position: absolute;top: 0;right: .4rem;display: block;line-height: 1.14rem;}
+.cont1 .title_box a::after{content: "";width:.3rem;height:1.14rem;background:url(../ossweb-img/icon3.png) no-repeat; background-size:100% auto;position: absolute;top: 0;right: -.4rem;}
+.title_box a.on::after{transform: rotate(180deg);}
+.cont1 .music_box{width: 6.9rem;margin:-.2rem auto 0;height: auto;padding-top: .2rem;}
+.cont1 .music_box li{display: flex;justify-content: center;align-items: center;width: 6.9rem;height:1.6rem;margin-bottom:.4rem;}
+.cont1 .music_box li.music_one{width: 6.6rem;}
+.cont1 .music_box1 li:first-child{background:url(../ossweb-img/bg-record0.png) no-repeat; background-size:100% auto;}
+.cont1 .music_box2 li:nth-child(3n-2){background:url(../ossweb-img/bg-record1.png) no-repeat; background-size:100% auto;}
+.cont1 .music_box2 li:nth-child(3n-1){background:url(../ossweb-img/bg-record2.png) no-repeat; background-size:100% auto;}
+.cont1 .music_box2 li:nth-child(3n){background:url(../ossweb-img/bg-record3.png) no-repeat; background-size:100% auto;}
+.cont1 .music_box .record{width: 1.82rem;height: 1.82rem;background:url(../ossweb-img/record-bg.png) no-repeat; background-size:100% auto;margin-right: .04rem;}
+.cont1 .music_box1 li:first-child .record{position:relative;left: -.1rem;}
+.cont1 .music_box1 li:first-child .music_txt{width: 2.8rem;}
+.cont1 .music_box li:last-child{margin-bottom:0rem;}
+.cont1 .music_box .record img{width: .86rem;height: .86rem;position: relative;top:.48rem;left: .48rem;}
+.cont1 .music_box .music_txt{width:2.5rem;}
+.cont1 .music_box .music_txt p{color: #20212b;font-size: .36rem;letter-spacing: -.02rem;line-height: .44rem;}
+.cont1 .music_box .music_txt span{display: block;color: #20212b;font-size: .24rem;line-height: .44rem;}
+.cont1 .music_box .control_box{width: 2.3rem;font-size: 0;}
+.cont1 .music_box .control_box .btn_prev, .cont1 .music_box .control_box .btn_next{width: .24rem;height:.24rem;background:url(../ossweb-img/btn-switch.png) no-repeat; background-size:100% auto;display: inline-block;vertical-align: middle;}
+.cont1 .music_box .control_box .btn_next{transform: rotate(180deg);}
+.cont1 .music_box .control_box .btn_play{display: inline-block;vertical-align: middle;width: .8rem;height: .8rem;border: 1px solid #8288c7;border-radius: 50%;margin: 0 .34rem;}
+.cont1 .music_box .control_box .btn_play i{width: .38rem;height: .38rem;background:url(../ossweb-img/btn-play.png) no-repeat; background-size:100% auto;display: block;position: relative;top: 50%;left: 50%;transform: translate(-50%,-50%);}
+.cont1 .music_box .control_box .btn_play.on i{background:url(../ossweb-img/btn-pause.png) no-repeat; background-size:100% auto;}
+.cont1 .music_box .control_box .btn_like{width: 1.1rem;text-align: center;display: inline-block;vertical-align: middle;}
+.cont1 .music_box .control_box .btn_like i{width: .24rem;height: .24rem;background:url(../ossweb-img/btn-dislike.png) no-repeat; background-size:100% auto;display: block;margin:.1rem auto .16rem;}
+.cont1 .music_box .control_box .btn_like.on i{background:url(../ossweb-img/btn-like.png) no-repeat; background-size:100% auto;}
+.cont1 .music_box .control_box .btn_like span{display: block;color: #20212b;font-size: .24rem;line-height: .3rem;font-weight: bold;}
+.cont1 .music_box .control_box b{display: inline-block;vertical-align: middle;width:.02rem ;height: .68rem;margin: 0 .16rem;background:#7980a5;}
+.cont1 .music_box .music_one .btn_play{border: none;margin:0;}
+.cont1 .music_box2{display: none;}
+.cont1 .music_box2{height:5.8rem;overflow: scroll;overflow-x:hidden;overflow-y:auto;}
+/* margin:0  0 0 .3rem;padding-right: .3rem; */
+/* 侧滚动条宽度 */
+.cont1 .music_box2::-webkit-scrollbar {width: .04rem;}
+/* 侧滚动条的背景 */
+.cont1 .music_box2::-webkit-scrollbar-track{background-color: #3f4655;border-radius:.04rem;}
+/* 侧滚动条滚动的背景 */
+.cont1 .music_box2::-webkit-scrollbar-thumb{border-radius: .04rem; background-image: linear-gradient(#d6baff, #c2e9f5);}
+.cont1 .music_box li.ani .record img{animation:mymove 8s linear infinite ;}
+@keyframes mymove
+{
+0% {transform:rotate(0deg);}
+100% {transform:rotate(360deg);}
+}
+@-webkit-keyframes mymove{
+    0%{-webkit-transform:rotate(0deg);}
+    100%{-webkit-transform: rotate(360deg)}
+}
+/* 女团花路 */
+.cont2 .title_box a{color: #575777;font-size: .24rem;position: absolute;top: 0;right: .3rem;display: block;line-height: 1.14rem;}
+.cont2 .title_box a::after{content: "";width:.3rem;height:1.14rem;background:url(../ossweb-img/icon3.png) no-repeat; background-size:100% auto;position: absolute;top: 0;right: -.3rem;transform: rotate(-90deg);}
+.cont2  .swiper-container1{width: 6.9rem;height: auto;padding: 0 .3rem;}
+.cont2  .swiper-container1 li{width: 2.9rem;height: auto;}
+.cont2  .swiper-container1 li .img_box{width: 2.9rem;height: 1.7rem;border-radius: .1rem;overflow: hidden;}
+.cont2  .swiper-container1 li .img_box img{width: 100%;height: auto;object-fit: cover;}
+.cont2  .swiper-container1 li p{line-height: .46rem;color: #e4e4f6;font-size: .28rem;padding-top: .1rem;text-align: center;font-weight: bold;}
+.cont2  .swiper-container1 li span{display: block;line-height: .3rem;color: #e4e4f6;font-size: .24rem;text-align: center;font-weight: bold;padding-bottom: .16rem;}
+.cont2  .swiper-container1 li i{display: block;width: .2rem;height: .2rem;background:url(../ossweb-img/icon1.png) no-repeat; background-size:100% auto;margin:0 auto;position: relative;}
+.cont2  .swiper-container1 li i::before{content:"";width: 2.94rem;height: .02rem;background: #2f2f3a;position: absolute;top: .08rem;right: .18rem;}
+.cont2  .swiper-container1 li:first-child i::before{width: 1.4rem;}
+.cont2  .swiper-container1 li:last-child i::after{content:"";width: 1.4rem;height: .02rem;background: #2f2f3a;position: absolute;top: .08rem;left: .2rem;}
+
+/* 粉丝站擂 */
+.cont3{padding-top: .4rem;}
+.cont3  .swiper-container2{width: 6.9rem;height: auto;}
+.cont3  .swiper-container2 li{width: 6.9rem;height: 2rem;border-radius: .1rem;overflow: hidden;background: #000;position: relative;}
+.cont3  .swiper-container2 li  img{width: 100%;height: auto;object-fit: cover;}
+.cont3  .swiper-container2 li a{position: absolute;top: 0;left: 0;width: 100%;height: 100%;z-index: 2;}
+.cont3 .swiper-pagination2{bottom: .2rem;height: .3rem;}
+.cont3 .swiper-pagination-bullet{width:.16rem;height: .04rem;border-radius: .04rem;background: #828287;opacity: 1;margin:0 .06rem;}
+
+.cont3  .swiper-pagination-bullet-active{background: #ffffff;}
+/* 女团动态 */
+.cont4 .trends_box{width: 6.9rem;height: auto;margin:0 auto .4rem;}
+.cont4 .trends_box:last-child{margin:0 auto;}
+.cont4 .trends_box p{font-size: 0;color:#e4e4f6 ;}
+.cont4 .trends_box p.keyword span{font-size: .22rem;border: 1px solid #e4e4f6;border-radius: .04rem;margin-right: .1rem;padding: 0 .16rem;line-height: .42rem;margin-bottom: .1rem;display: inline-block;vertical-align: top;}
+.cont4 .trends_txt{display: flex;justify-content: center;align-items: center;width: 100%;height: auto;margin:.16rem auto .26rem;}
+.cont4 .trends_txt .trands_head{width: .72rem;height: .72rem;margin-right: .2rem;}
+.cont4 .trends_txt .trands_head img{width: 100%;height:100%;object-fit: cover;border-radius: 50%;}
+.cont4 .trends_txt .txt{width: 6.18rem;}
+.cont4 .trends_txt .txt p{font-size:.3rem;line-height: .4rem;color: #e4e4f6;}
+/* .cont4 .trends_txt .txt p b{font-size: .32rem;} */
+.cont4 .trends_txt .txt span{display: inline-block;vertical-align: top;color: #ffffff;font-size: .2rem;width: .3rem;height: .3rem;background: #c5384b;text-align: center;line-height: .3rem;border-radius: .04rem;margin-top: .02rem;}
+.cont4 .trends_pic{width: 6.9rem;height: auto;position: relative;}
+.cont4 .trends_pic img{width: 100%;height: auto;display: block;border-radius:.1rem ;}
+.cont4 .trends_pic a{position: absolute;top: 0;left: 0;width: 100%;height: 100%;z-index: 2;}
+.cont4 .trends_data{width: 100%;height:.9rem;border-bottom:1px solid #30303d ;}
+.cont4 .trends_data p{display: flex;justify-content: center;align-items: center;height:.9rem;}
+.cont4 .trends_data p span{width:2.3rem;line-height:.4rem ;font-size: .22rem;color: #9b9bb9;text-align: center;}
+.cont4 .trends_data p span:before{content: "";display: inline-block;vertical-align: top;width: .34rem;height: .4rem;margin-right: .04rem;}
+.cont4 .trends_data p span.share:before{background:url(../ossweb-img/share.png) no-repeat; background-size:100% auto;}
+.cont4 .trends_data p span.written:before{background:url(../ossweb-img/written.png) no-repeat; background-size:100% auto;}
+.cont4 .trends_data p span.assist:before{background:url(../ossweb-img/assist.png) no-repeat; background-size:100% auto;}
+.cont4 .trends_data p span.assist.on:before{background:url(../ossweb-img/assiston.png) no-repeat; background-size:100% auto;}
+/* 纯享直拍 */
+.cont5  .swiper-container3{width: 6.9rem;height: auto;padding: 0 .3rem .34rem;}
+.cont5  .swiper-container3 li{width: 2.9rem;height: auto;}
+.cont5  .swiper-container3 li .img_box{width: 2.9rem;height: 1.7rem;border-radius: .1rem;overflow: hidden;}
+.cont5  .swiper-container3 li .img_box img{width: 100%;height: auto;object-fit: cover;border-radius: .1rem;}
+.cont5  .swiper-container3 li p{line-height: .46rem;color: #e4e4f6;font-size: .28rem;padding-top: .1rem;text-align: center;font-weight: bold;}
+.cont5 .btn_sale{background-position: 0 -1.62rem;width: 3.04rem;height: .78rem;display: block;margin:0 auto;}
+/* 壁纸写真 */
+.cont6  .swiper_box{width: 6.9rem;height: auto;margin:0 auto;position: relative;}
+.cont6  .swiper-container4{width: 6.9rem;height: auto;}
+.cont6  .swiper-container4 li{width: 6.9rem;height: 3.6rem;border-radius: .1rem;overflow: hidden;background: #000;}
+.cont6  .swiper-container4 li a{position: absolute;top: 0;left: 0;width: 100%;height: 100%;z-index: 4;}
+.cont6  .swiper-container4 li  img{width: 100%;height: auto;object-fit: cover;}
+.cont6 .swiper-pagination4{bottom: .2rem;height: .3rem;}
+.cont6 .swiper-pagination-bullet{width:.16rem;height: .04rem;border-radius: .04rem;background: #828287;opacity: 1;margin:0 .06rem;}
+.cont6  .swiper-pagination-bullet-active{background: #ffffff;}
+.cont6  .btn_change{width: 5.8rem;top: -.86rem;right:-.16rem;position: absolute;text-align: right;}
+ .cont6 .btn_change b{width:auto ;padding: 0 .1rem;background: none;height:.6rem;color: #9b9bb9;font-size: .24rem;position: relative;line-height: .6rem;display: inline-block;vertical-align: top;margin:0 .06rem;}
+ .cont6 .btn_change b.on{font-size: .3rem;color: #e4e4f6;line-height: .6rem;}
+ .cont6 .btn_change b::after{content:"";width: .02rem;height: .24rem;background: #424250;position: absolute;top: .16rem;right: -.06rem;}
+ .cont6 .btn_change b:last-child::after{display: none;}
+.cont6  .swiper_box .tips{line-height: .66rem;color: #e4e4f6;font-size: .24rem;text-align: center;}
+
+/* 姐姐们的个人主站 */
+.cont7{width: 7.5rem;height: auto;background:url(../ossweb-img/sister-bg.png) no-repeat; background-size:100% auto;}
+.cont7 ul{width:6.9rem;height: auto;margin:-.2rem auto 0;position: relative;}
+.cont7 ul li{width: 6.9rem;height:2.1rem;overflow: hidden;background:url(../ossweb-img/bg-sister1.png) no-repeat center .3rem; background-size:100% auto;padding-top: .3rem;position: relative;border-radius: .1rem;}
+.cont7 ul li:nth-child(odd){background:url(../ossweb-img/bg-sister2.png) no-repeat center .3rem; background-size:100% auto;}
+.cont7 ul li a{position: absolute;top: 0;left: 0;width: 100%;height: 100%;z-index: 6;}
+.cont7 ul li p{width: 4.1rem;height: auto;color: #191722;font-size: 0;padding-left: 2.84rem;position: relative;z-index: 6;}
+.cont7 ul li p span{display: inline-block;vertical-align: top;position: relative;}
+.cont7 ul li p.introduce{line-height: .8rem;padding-top: .04rem;padding-left: 0;left: 2.8rem;z-index: 10;}
+.cont7 ul li p.introduce .name{font-size: .32rem;margin-right: .4rem;}
+.cont7 ul li p.introduce .name::after{content:"";width: 1px;height: .3rem;background: #7491a1;position: absolute;top: .26rem;right: -.2rem;}
+.cont7 ul li p.introduce .popularity{font-size: .22rem;}
+.cont7 ul li p.introduce .popularity::before{content:"";width: .24rem;height: .24rem;background:url(../ossweb-img/btn-dislike.png) no-repeat; background-size:100% auto;display: inline-block;vertical-align: middle;margin-right: .06rem;}
+.cont7 ul li p.introduce.on .popularity::before{background:url(../ossweb-img/btn-like.png) no-repeat; background-size:100% auto}
+.cont7 ul li p.label span{font-size: .22rem;border: 1px solid #191722;border-radius: .04rem;margin-right: .1rem;padding: 0 .16rem;line-height: .42rem;margin-bottom: .1rem;}
+.cont7 .sisters_box .people{width:4.68rem;height: 3.3rem;position: absolute;top: .1rem;left:-1.6rem;z-index: 2;display: block;}
+.cont7 .sisters_box .salfeni .people{background:url(../ossweb-img/salfeni.png) no-repeat; background-size:100% auto;}
+.cont7 .sisters_box .ahri .people{background:url(../ossweb-img/ahri2.png) no-repeat; background-size:100% auto;left: -1.32rem;}
+.cont7 .sisters_box .evelynn .people{background:url(../ossweb-img/evelynn.png) no-repeat; background-size:100% auto;}
+.cont7 .sisters_box .akali .people{background:url(../ossweb-img/akali2.png) no-repeat; background-size:100% auto;}
+.cont7 .sisters_box .kaisa .people{background:url(../ossweb-img/kaisa2.png) no-repeat; background-size:100% auto;}
+.cont7 .sisters_box .kaisa{overflow: visible;}
+.cont7 .sisters_box li:first-child{background:url(../ossweb-img/bg-sister0.png) no-repeat center .3rem; background-size:100% auto;height: 2.7rem;}
+.cont7 .sisters_box li:first-child p{padding-left: .4rem;}
+.cont7 .sisters_box li:first-child p.introduce{left: .4rem;padding-left: 0;}
+.cont7 .sisters_box li:first-child .people{position: absolute;top: 0;left: 2.55rem;height: 2.96rem;}
+.cont7 .sisters_box li.ahri:first-child .people{background:url(../ossweb-img/ahri.png) no-repeat; background-size:100% auto;}
+.cont7 .sisters_box li.ahri:first-child .people{background:url(../ossweb-img/ahri.png) no-repeat; background-size:100% auto;}
+.cont7 .sisters_box li.akali:first-child .people{background:url(../ossweb-img/akali.png) no-repeat; background-size:100% auto;}
+.cont7 .sisters_box li.kaisa:first-child .people{background:url(../ossweb-img/kaisa.png) no-repeat; background-size:100% auto;top: -.12rem;height: 3.3rem;}
+
+/* 粉丝应援作品 */
+.cont8 .title_box .rank{position: absolute;top: 0;right: 0rem;display: block;line-height: 1.14rem;}
+.cont8 .title_box .rank a{color: #9b9bb9;font-size: .24rem;display: inline-block; vertical-align: top;position: relative;margin:0  .2rem;}
+.cont8 .title_box .rank a:first-child::after{content: "";width: .02rem;height: .24rem;position: absolute;top: .46rem;right: -.22rem;background: #424250;}
+.cont8 .title_box .rank a.on{color: #e4e4f6;font-size: .3rem;}
+.cont8 ul{width:6.9rem;height: 100%;margin:0 auto;font-size: 0;text-align: center;}
+.cont8 ul li{width: 3.36rem;height: auto;display: inline-block;vertical-align: top;padding-bottom: .36rem;}
+.cont8 ul li:nth-child(odd){margin-right:.18rem;}
+.cont8 ul li .fans_pic_box{width: 100%;height: 2rem;border-radius: .1rem;overflow: hidden;}
+.cont8 ul li .fans_pic_box img{width: 100%;height: auto;object-fit: cover;}
+.cont8 ul li .txt1{line-height: .4rem;color: #e4e4f6;font-size: .28rem;text-overflow: -o-ellipsis-lastline;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;line-clamp: 2;-webkit-box-orient: vertical;padding-top: .14rem;text-align: left;padding-bottom: .14rem;}
+.cont8 ul li .txt2{line-height: .3rem;color: #9b9bb9;font-size:0;text-align: left;}
+.cont8 ul li .txt2 span,.cont8 ul li .txt2 b{display: inline-block;vertical-align: top;font-size: .22rem;}
+.cont8 ul li .txt2 span{width: 2.36rem;}
+.cont8 ul li .txt2 span:before{content: "";width: .24rem;height: .3rem;background:url(../ossweb-img/icon4.png) no-repeat; background-size:100% auto;display: inline-block;vertical-align: top;margin-right: .1rem;}
+.cont8 ul li .txt2 b{width: 1rem;text-align: right;}
+/* 标题 */
+.title_box{width: 6.9rem;height: auto;margin:0 auto;position: relative;}
+.title{line-height: 1.14rem;font-size: .38rem;font-weight: bold;width: 100%;background-image: linear-gradient(to right,#becbe5, #ffffff);-webkit-background-clip: text; color: transparent;-webkit-text-fill-color: transparent;-webkit-background-clip: text;color: transparent;display: inline-block;width: auto;}
+
+/* 底部音乐控件 */
+.music_fix{position: fixed;bottom:0rem;left: 0;z-index: 99;width: 7.5rem;height: 1.3rem;background:url(../ossweb-img/music-fix-bg.png) no-repeat; background-size:100% auto;display: flex;justify-content: center;align-items: center;opacity: 0;transition: all 1.4s;}
+.music_fix.on{opacity: 1;}
+.music_fix .record{width: 1.06rem;height: 1.06rem;background:url(../ossweb-img/record-bg.png) no-repeat; background-size:100% auto;margin-right: .2rem;}
+.music_fix .record img{width: .5rem;height: .5rem;position: relative;top: .28rem;left: .28rem;}
+.music_fix .music_txt{width:3.3rem;}
+.music_fix .music_txt p{color: #20212b;font-size: .28rem;letter-spacing: -.02rem;line-height: .44rem;}
+
+.music_fix .control_box{width: 2.48rem;font-size: 0;}
+.music_fix .control_box .btn_prev,.music_fix .control_box .btn_next{width: .24rem;height:.24rem;background:url(../ossweb-img/btn-switch.png) no-repeat; background-size:100% auto;display: inline-block;vertical-align: middle;}
+.music_fix .control_box .btn_next{transform: rotate(180deg);}
+.music_fix .control_box .btn_play{display: inline-block;vertical-align: middle;width: .7rem;height: .7rem;border: 1px solid #8288c7;border-radius: 50%;margin: 0 .24rem;}
+.music_fix .control_box .btn_play i{width: .38rem;height: .38rem;background:url(../ossweb-img/btn-play.png) no-repeat; background-size:100% auto;display: block;position: relative;top: 50%;left: 50%;transform: translate(-50%,-50%);}
+.music_fix .control_box .btn_play.on i{background:url(../ossweb-img/btn-pause.png) no-repeat; background-size:100% auto;}
+.music_fix.ani .record img{animation:mymove 8s linear infinite ;}
+
+
+
+/*加载*/
+.loading{position: fixed;top:-2rem;width:5.4rem;height:.62rem;}
+/* 弹窗 */
+.dialog{position: relative;}
+.dia-close{color: #fff;font-size: .5rem;font-weight: bold;position: absolute;top: -.7rem;left: 50%;transform: translateX(-50%);}
+.dia1{width: 7.5rem;max-height: 10rem;}
+.dia1 .big_pic{max-width: 7.5rem;max-height: 9.6rem;position: relative;}
+.dia1 .big_pic img{display: block;max-width: 7.5rem;max-height: 10rem;margin:0 auto;}
+.dia1 p{color: #fff;font-size: .24rem;font-weight: bold;line-height: .4rem;text-align: center;}
