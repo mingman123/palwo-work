@@ -1,0 +1,90 @@
+/* reset */
+html,body,div,p,ul,li,dl,dt,dd,em,i,span,a,img,input,h1,h2,h3,h4,h5 {margin:0;padding:0}
+a,img,input {border:none;}
+body{font: 0.14rem/1.75  -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;-webkit-tap-highlight-color: rgba(0,0,0,0);}
+a {text-decoration:none;}
+ul,li{list-style: none}
+a, img {-webkit-touch-callout: none; /* 禁止长按链接与图片弹出菜单，根据需要选择是否删除 */}
+html, body {
+    -webkit-user-select: none;   /* 禁止选中文本（如无文本选中需求，此为必选项） */
+    user-select: none;
+}
+img,div,a{outline: none;}
+html,body{width: 100%;}
+body{background: #07adf2;}
+#afooter{background-color: #191219;text-align: center;font-size:.22rem;padding:.2rem 0;}
+#afooter, #afooter a{color: #c0c0c0;text-decoration: none;}
+.hidden{text-indent:-999em;font-size:0;overflow:hidden;width:0;height:0;display:none} 
+
+.wrap{width:7.5rem;height:auto;background: url(../ossweb-img/m/p2-bg.jpg) no-repeat;background-size: 7.5rem auto;margin:0 auto;position:relative;overflow:hidden;padding-bottom:.4rem;}
+.cont{width: 7.5rem;position: relative;overflow: hidden;}
+.cont .head{background: rgba(8,124,236,.4);width: 7.5rem;height: .6rem;margin: 0 auto .4rem;}
+.cont .head p{color: #FFFFFF;font-size: .28rem;line-height: .6rem;}
+.cont .head p a{background: url(../ossweb-img/m/p2-prev.png) no-repeat center center;background-size: .18rem .3rem;width: .6rem;height: .6rem;display: inline-block;vertical-align: top;}
+.cont .box{width:7.08rem;height: 8.9rem;margin: 0 auto;text-align: center;padding-bottom: .5rem;}
+.cont .box .title1{background: url(../ossweb-img/m/p2-title1.png) no-repeat;background-size: 100% auto;width: 6.04rem;height: 1.12rem;margin: 0 auto;}
+.cont .box .tc-txt1{color: #FFFFFF;font-size: .28rem;line-height: 1.12rem;padding-bottom: .16rem;}
+.cont .box img{width: 3.26rem;height: 4.26rem;object-fit: cover;margin: 0 auto;}
+.cont .box .tc-txt2{color: #ffffff;font-size: .24rem;line-height: 1rem;padding-top:.2rem;}
+.cont .box .tc-btn{width: 100%;height:auto;font-size: 0;text-align: center;margin: 0 auto;}
+.cont .box .tc-btn a{width: 2.98rem;height: .96rem;display: inline-block;vertical-align: top;}
+.cont .box .tc-btn .btn-luck1{background: url(../ossweb-img/m/tc-btn-luck1.png) no-repeat;background-size: 100% auto;margin-right: .2rem;}
+.cont .box .tc-btn .btn-luck4{background: url(../ossweb-img/m/tc-btn-luck4.png) no-repeat;background-size: 100% auto;}
+.cont .award-speed{color: #446f9e;font-size: .24rem;line-height: .9rem;text-align: center;}
+.cont .award-speed span{color: #faa20a;}
+/*卡牌公共样式*/
+.spr{background: url(../ossweb-img/m/spr.png) no-repeat;background-size: 7.5rem 19rem;}
+.card-com{width: 100%;height: auto;font-size: 0;text-align: center;position: relative;}
+.card-com li{display: inline-block;vertical-align: top;width:1.62rem;height: 2.68rem;position: relative;margin-bottom: .1rem;}
+.card-com li img{display: block;width: 100%;height: 100%;margin: 0 auto;}
+.card-com li i{position: absolute;top: -.1rem;right: 0;z-index: 4;background-position: 0rem -12.08rem;width: .38rem;height: .38rem;color: #ffffff;font-size: .24rem;line-height: .38rem;font-weight: bold;font-style: normal;display: none;}
+.card-com li b{background: url(../ossweb-img/m/img1on.png) no-repeat;background-size: 100% 100%;width: 100%;height: 100%;position: absolute;top: 0rem;left: 0;z-index: 2;}
+.card-com li.on i{display: block;}
+.card-com li.on b{display: none;}
+.cont .box2{width:7.35rem;height:8.2rem;background: url(../ossweb-img/m/p2-bg.png) no-repeat;background-size: 7.35rem auto;}
+.cont .box2 .title2{background: url(../ossweb-img/m/p2-title2.png) no-repeat;background-size: 100% auto;width: 6.04rem;height: 1.12rem;margin: 0 auto;}
+/*文字提示*/
+.dia-close{background: url(../ossweb-img/m/tc-close.png) no-repeat;background-size: 100% auto;width:.46rem;height:.46rem;position: absolute;top: 0;right: 0;}
+/*中奖 - 卡牌*/
+.dia3{background: url(../ossweb-img/m/tc-bg3.png) no-repeat;background-size: 100% auto;width:7.5rem;height:11.2rem;text-align: center;position: relative;}
+.dia3 .award-txt{color: #446f9e;font-size: .32rem;line-height: .5rem;font-weight: bold;padding-top: 1.5rem;padding-bottom: .4rem;}
+.dia3 .award-txt span{color: #dd6300;}
+.dia3 .award-box{width: 2.94rem;height: 5.24rem;margin: 0 auto;overflow: hidden;position: relative;}
+.dia3 .award-box img{width: 2.94rem;height: 5.24rem;display: block;object-fit: cover;border-radius: .16rem;}
+.dia3 .award-box i{width: 2.94rem;height: 5.24rem;position: absolute;top: 0;left: 0;z-index: 2;background: url(../ossweb-img/m/tc-award-prop-bg.png) no-repeat;background-size: 100% 100%;}
+.dia3 .card-txt{color: #446f9e;font-size: .24rem;line-height: .36rem;padding: .38rem 0 .44rem 0;} 
+.dia3 .btn-carbag{background: url(../ossweb-img/m/tc-btn-goopen.png) no-repeat;background-size: 100% 100%;width:3.8rem;;height:1.24rem;display: block;margin: 0 auto;}
+.dia3 .btn-carbag.on{background: url(../ossweb-img/m/tc-btn-have.png) no-repeat;background-size: 100% 100%;}
+.dia3 .award-speed{color: #446f9e;font-size: .24rem;line-height: .9rem;}
+.dia3 .award-speed span{color: #faa20a;}
+.dia3 .skin-txt{display: none;}
+.dia3 .gift-address{display: none;}
+.dia3 .send-txt{display: none;}
+.dia3 .dia-close{right: .3rem;}
+/*中奖 - 卡牌*/
+.dia4{background: url(../ossweb-img/m/tc-bg3.png) no-repeat;background-size: 100% auto;width:7.5rem;height:11.2rem;text-align: center;position: relative;}
+.dia4 .award-txt{color: #446f9e;font-size: .32rem;line-height: .5rem;font-weight: bold;padding-top: 1.5rem;padding-bottom: .4rem;}
+.dia4 .award-txt span{color: #dd6300;}
+.dia4 .award-speed{color: #446f9e;font-size: .24rem;line-height: .6rem;padding-top: .3rem;}
+.dia4 .award-speed span{color: #faa20a;}
+.dia4 .card-txt{color: #446f9e;font-size: .24rem;line-height: .4rem;padding-bottom: .38rem;} 
+.dia4 .award-box{width:6.4rem;height: 5.4rem;font-size: 0;text-align: left;position: relative;overflow: scroll;overflow-x:hidden;overflow-y:auto;}
+/*侧滚动条宽度*/
+.dia4 .award-box::-webkit-scrollbar {width: .06rem;}
+/*侧滚动条的背景*/
+.dia4 .award-box::-webkit-scrollbar-track{background: none;border-radius: .06rem;}
+/*侧滚动条滚动的背景*/
+.dia4 .award-box::-webkit-scrollbar-thumb{border-radius: .06rem; background-color: #446f9e;}
+.dia4 .award{width:6.4rem;height: 5.4rem;position: relative;margin-left: .64rem;}
+.dia4 .award-box li{display: inline-block;vertical-align: top;position: relative;margin: 0 .08rem .14rem 0;}
+.dia4 .award-box li:nth-child(4n){margin-right: 0rem;}
+.dia4 .award-box img{width: 1.48rem;height: 2.62rem;display: block;object-fit: cover;border-radius: .06rem;}
+.dia4 .award-box i{width: 1.48rem;height: 2.62rem;position: absolute;top: 0;left: 0;z-index: 2;background: url(../ossweb-img/m/tc-award-prop-bg.png) no-repeat;background-size: 100% 100%;}
+.dia4 .icon{background: url(../ossweb-img/m/tc-icon2.png) no-repeat;background-size: 100% auto;width:.38rem;;height:.34rem;position: absolute;top: 0;left: .4rem;top: -.18rem;left: .32rem;z-index: 4;}
+.dia4 .mc{background: url(../ossweb-img/m/tc-mc.png) no-repeat;background-size: 100% auto;width:6.4rem;;height:.82rem;position: absolute;bottom: -.08rem;left: -.12rem;z-index: 4;}
+.dia4 .btn-carbag{background: url(../ossweb-img/m/tc-btn-goopen.png) no-repeat;background-size: 100% 100%;width:3.8rem;;height:1.24rem;display: block;margin: 0 auto;}
+
+/*大图*/
+.dia10{width:6.5rem;height:11.54rem;padding-top: .7rem;}
+.dia10 img{width:6.5rem;height:11.54rem;display: block;margin: 0 auto;}
+.dia10 .dia-close{top:0rem;right: .5rem;}

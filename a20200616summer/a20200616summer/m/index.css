@@ -1,0 +1,210 @@
+/* reset */
+html,body,div,p,ul,li,dl,dt,dd,em,i,span,a,img,input,h1,h2,h3,h4,h5 {margin:0;padding:0}
+a,img,input {border:none;}
+body{font: 0.14rem/1.75  -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;-webkit-tap-highlight-color: rgba(0,0,0,0);}
+a {text-decoration:none;}
+ul,li{list-style: none}
+a, img {-webkit-touch-callout: none; /* 禁止长按链接与图片弹出菜单，根据需要选择是否删除 */}
+html, body {
+    -webkit-user-select: none;   /* 禁止选中文本（如无文本选中需求，此为必选项） */
+    user-select: none;
+}
+img,div,a{outline: none;}
+html,body{width: 100%;}
+body{background: #07adf2;padding-bottom: 1rem;}
+#afooter{background-color: #191219;text-align: center;font-size:.22rem;padding:.2rem 0;}
+#afooter, #afooter a{color: #c0c0c0;text-decoration: none;}
+.hidden{text-indent:-999em;font-size:0;overflow:hidden;width:0;height:0;display:none} 
+
+.spr{background: url(//game.gtimg.cn/images/lol/act/a20200616summer/m/spr.png) no-repeat;background-size: 7.5rem 19rem;}
+.wrap{width:7.5rem;height:auto;background: url(//game.gtimg.cn/images/lol/act/a20200616summer/m/bg.jpg) no-repeat;background-size: 7.5rem auto;margin:0 auto;position:relative;overflow:hidden;padding-bottom:.9rem;}
+.head,.content,.cont{width: 7.5rem;position: relative;overflow: hidden;}
+.main{width: 7.5rem;position: relative;}
+/*head*/
+.head{height:7rem;text-align: center;}
+.logo-lol{position: absolute;top: .42rem;left: 3.14rem;width: .56rem;height: .56rem;background: url(//game.gtimg.cn/images/lol/act/a20200616summer/m/logo-lol.png) no-repeat;background-size: 100% 100%; z-index: 99;}
+.logo-dy{position: absolute;top: .42rem;left: 3.8rem;width: .56rem;height: .56rem; background: url(//game.gtimg.cn/images/lol/act/a20200616summer/m/logo-dy.png) no-repeat;background-size: 100% 100%; z-index: 99;}
+.head .sub-title{color: #FFFFFF;font-size: 1.02rem;line-height: 1.3rem;font-weight: bold;padding-top: 2.3rem;}
+.head .sub-title span{display: block;font-size:.56rem;line-height: .64rem;}
+.head .txt{color: #FFFFFF;font-size: .26rem;line-height: .38rem;letter-spacing: .02rem;}
+.head .txt span{display: block;font-size: .29rem;}
+.head .act-time{color: #FFFFFF;font-size: .22rem;line-height: .36rem;}
+/*content*/
+.nav-box{background-position: 0 -6.62rem;width: 7.5rem;height: .92rem;font-size: 0;text-align: center;position: relative;z-index: 4;}
+.nav-box.on{background-position: 0 -5.26rem;}
+.nav-box a{display: inline-block;vertical-align: top;width: 3.26rem;height: .92rem;}
+.cont{width:7.5rem;;height:100%;margin:0 auto;overflow: hidden;}
+/*box2*/
+.cont .box2{background: url(//game.gtimg.cn/images/lol/act/a20200616summer/m/bg-box2.png) no-repeat;background-size: 100% auto;width:7.35rem;;height:10.82rem;text-align: center;position: relative;margin: 0 auto .9rem;}
+.login-box{width: 100%;height: auto;color: #7e92a7;font-size: .24rem;line-height: .4rem;text-align: center;padding-top: .24rem;}
+.login-box a{color: #7e92a7;}
+.cont .box2 .txt1{color: #446f9e;font-size: .24rem;line-height: .52rem;padding-bottom: .2rem;}
+.cont .box2 .btn-smoke{background-position: 0 -9.94rem;width: 4.7rem;height: 1.24rem;display: block;margin: 0 auto;}
+.cont .box2 .txt2{color: #446f9e;font-size: .24rem;line-height: .9rem;}
+.cont .box2 .txt2 span{color: #faa20a;font-weight: bold;font-size: .28rem;}
+/*卡牌公共样式*/
+.card-com{width: 100%;height: auto;font-size: 0;text-align: center;position: relative;}
+.card-com li{display: inline-block;vertical-align: top;width:1.62rem;height: 2.68rem;position: relative;margin-bottom: .1rem;}
+.card-com li img{display: block;width: 100%;height: 100%;margin: 0 auto;}
+.card-com li i{position: absolute;top: -.1rem;right: 0;z-index: 4;background-position: 0rem -12.08rem;width: .38rem;height: .38rem;color: #ffffff;font-size: .24rem;line-height: .38rem;font-weight: bold;font-style: normal;display: none;}
+.card-com li b{background: url(//game.gtimg.cn/images/lol/act/a20200616summer/m/img1on.png) no-repeat;background-size: 100% 100%;width: 100%;height: 100%;position: absolute;top: 0rem;left: 0;z-index: 2;}
+.card-com li.on i{display: block;}
+.card-com li.on b{display: none;}
+
+
+/*box3*/
+.cont .box3{background: url(//game.gtimg.cn/images/lol/act/a20200616summer/m/bg-box3.png) no-repeat;background-size: 100% auto;width:7.35rem;;height:12.74rem;margin: 0 auto;position: relative;}
+.cont .box3 .task-box{width: 6.6rem;height: auto;margin: 0 auto;padding-left: .8rem;box-sizing: border-box;padding-top: .54rem;position: relative;}
+.cont .box3 .task-box>div{width: 100%;padding-top: .3rem;padding-bottom: .32rem;border-bottom: 1px solid #cee1e3;font-size: 0;position: relative;}
+.cont .box3 .task-box>div:first-child{border-top:1px solid #cee1e3;}
+.cont .box3 .task-box>div .txt3{font-size: 0;width:4.34rem;display: inline-block;vertical-align: top;position: relative;}
+.cont .box3 .task-box>div .txt3 i{background-position: -1.54rem -12.14rem;width: .42rem;height: .42rem;position: absolute;top: 0;left: -.7rem;}
+.cont .box3 .task-box>div.day-task i{background-position: -.88rem -12.14rem;}
+.cont .box3 .task-box>div .txt3 b,.cont .box3 .task-box>div .txt3 span{display: inline-block;vertical-align: top;color: #446f9e;font-size: .24rem;line-height: .46rem;}
+.cont .box3 .task-box>div .txt3 b{width: 2.8rem;}
+.cont .box3 .task-box>div .txt3 span{width: 1.5rem;}
+.cont .box3 .task-box>div a{display: inline-block;vertical-align: top;line-height: .46rem;border-radius: .5rem;width: 1.46rem;height: .46rem;text-align: center;font-size: .2rem;}
+.cont .box3 .task-box>div .btn-get{color: #ffffff;font-weight: bold;background: #faa20a;}
+.cont .box3 .task-box>div .btn-got{color: #ffffff;background: #bdd6ea;}
+.cont .box3 .task-box>div .btn-geted{color: #bdd6ea;border: 1px solid #bdd6ea;box-sizing: border-box;background: none;}
+
+.cont .box3 .task-box>div .txt4{color: #7e92a7;font-size: .2rem;line-height: .32rem;}
+.cont .box3 .task-box>div .txt6{color: #7e92a7;font-size: .2rem;line-height: .32rem;text-align: right;padding-right: .3rem;}
+.cont .box3 .task-box>div .txt5{color: #7e92a7;font-size: .24rem;line-height: .34rem;padding-top:.1rem;margin-bottom: -.1rem;}
+
+/*差别的地方*/
+/*common*/
+.main1,.main2{width: 7.5rem;position: relative;text-align: center;padding-top: .3rem;box-sizing: border-box;}
+
+.main .btn-check{color: #FFFFFF;font-size: .28rem;line-height: .9rem;display: block;text-decoration: underline;position: relative;z-index: 4;}
+.main .txt1{color: #FFFFFF;font-size: .28rem;line-height: .74rem;}
+/*main1*/
+.main1{height: 10.6rem;}
+.main1 .txt1{color: #FFFFFF;font-size: .24rem;line-height: .44rem;padding-top: .3rem;padding-bottom: .4rem;width: 6.4rem;margin: 0 auto;text-align: left;}
+.main1 .txt1 span{color: #ffe824;font-weight: bold;}
+.main1 .award-box{position: relative;width:7.5rem;height:5.4rem ;}
+.main1 .award-box img{display: block;position: absolute;top: -3rem;left: 0;width: 7.5rem;}
+.main1 .btn-box{background-position: 0 -16.56rem;width: 4.7rem;height: 1.24rem;display: block;margin:0 auto;position: relative;z-index: 4;}
+/*main2*/
+.main2{height: 10.32rem;}
+.main2 .txt1{color: #FFFFFF;font-size: .28rem;line-height: .74rem;}
+.main2 .award-box{position: relative;width:7.5rem;height:5.4rem ;}
+.main2 .award-box img{display: block;position: absolute;top: -3rem;left: 0;width: 7.5rem;}
+.main2 .btn-everyday{background-position: 0 -8.38rem;width: 4.7rem;height: 1.24rem;display: block;margin:0 auto;position: relative;z-index: 4;}
+.main2 .btn-everyday.on{background-position: -2.66rem -11.6rem;pointer-events: none; cursor: initial;}
+.title{width: 7.5rem;height: 1.12rem;margin: 0 auto;}
+
+.main1 .title1{background-position: 0 -15.02rem;}
+.main2 .title1{background-position: 0 0;}
+.title2{background-position: 0 -1.74rem;}
+.title3{background-position: 0 -3.5rem;}
+.foot-nav{width: 7.5rem;height: 1rem;box-sizing: border-box;border-top: .02rem solid #00a5ea;font-size: 0;text-align: center;position: fixed;bottom: 0;left: 0;z-index: 999;}
+.foot-nav a{background-position: 0 -13.18rem;width:1.88rem;box-sizing: border-box;border-right:2px solid #00a5ea;display: inline-block;vertical-align: top;height: 1rem;color: #4471a5;font-size: .26rem;line-height: 1rem;font-weight: bold;}
+.foot-nav a:last-child{border: none;width: 1.86rem;}
+.foot-nav a.on{background-position: -2.3rem -13.18rem;color: #dd6300;}
+
+
+
+
+/*弹窗*/
+.dialog{position: relative;}
+.dia-close{background: url(//game.gtimg.cn/images/lol/act/a20200616summer/m/tc-close.png) no-repeat;background-size: 100% auto;width:.46rem;height:.46rem;position: absolute;top: 0;right: 0;}
+.dialog .tc-btns{width:3.6rem;;height:1.08rem;display: block;margin: 0 auto;}
+/*文字提示*/
+.dia1,.dia2,.dia7,.dia8,.dia9{background: url(//game.gtimg.cn/images/lol/act/a20200616summer/m/tc-bg1.png) no-repeat;background-size: 100% auto;width:7.08rem;height:3.86rem;text-align: center;}
+.dia1 p,.dia2 p,.dia7 p,.dia8 p,.dia9 p{color: #446f9e;font-size: .32rem;line-height: .5rem;font-weight: bold;padding-top: 1.36rem;padding-bottom: .32rem;width: 90%;margin: 0 auto;}
+.dia1 .btn-go{background: url(//game.gtimg.cn/images/lol/act/a20200616summer/m/tc-btn-go.png) no-repeat;background-size: 100% 100%;}
+.dia2 .btn-rask{background: url(//game.gtimg.cn/images/lol/act/a20200616summer/m/tc-btn-rask.png) no-repeat;background-size: 100% 100%;}
+.dia7 .btn-card{background: url(//game.gtimg.cn/images/lol/act/a20200616summer/m/tc-btn-card.png) no-repeat;background-size: 100% 100%;}
+.dia9 .btn-yes{background: url(//game.gtimg.cn/images/lol/act/a20200616summer/m/tc-btn-yes.png) no-repeat;background-size: 100% 100%;}
+/*中奖 - 卡牌*/
+.dia3{background: url(//game.gtimg.cn/images/lol/act/a20200616summer/m/tc-bg3.png) no-repeat;background-size: 100% auto;width:7.5rem;height:11.2rem;text-align: center;}
+.dia3 .award-txt{color: #446f9e;font-size: .32rem;line-height: .5rem;font-weight: bold;padding-top: 1.5rem;padding-bottom: .4rem;}
+.dia3 .award-txt span{color: #dd6300;}
+.dia3 .award-box{width: 2.94rem;height: 5.24rem;margin: 0 auto;overflow: hidden;position: relative;}
+.dia3 .award-box img{width: 2.94rem;height: 5.24rem;display: block;object-fit: cover;border-radius: .16rem;}
+.dia3 .award-box i{width: 2.94rem;height: 5.24rem;position: absolute;top: 0;left: 0;z-index: 2;background: url(//game.gtimg.cn/images/lol/act/a20200616summer/m/tc-award-prop-bg.png) no-repeat;background-size: 100% 100%;}
+.dia3 .card-txt{color: #446f9e;font-size: .24rem;line-height: .36rem;padding: .38rem 0 .44rem 0;} 
+.dia3 .btn-carbag{background: url(//game.gtimg.cn/images/lol/act/a20200616summer/m/tc-btn-rask.png) no-repeat;background-size: 100% 100%;width:3.8rem;;height:1.28rem;display: block;margin: 0 auto;}
+.dia3 .award-speed{color: #446f9e;font-size: .24rem;line-height: .9rem;}
+.dia3 .award-speed span{color: #faa20a;}
+.dia3 .skin-txt{display: none;}
+.dia3 .gift-address{display: none;}
+.dia3 .send-txt{display: none;}
+.dia3 .dia-close{right: .3rem;}
+/*中奖 - 皮肤*/
+.dia3-skin{background: url(//game.gtimg.cn/images/lol/act/a20200616summer/m/tc-bg3-skin.png) no-repeat;background-size: 100% auto;height:10.6;}
+.dia3-skin .card-txt{display: none;}
+.dia3-skin .skin-txt{display: block!important;color: #446f9e;font-size: .24rem;line-height: .36rem;padding: .38rem 0 .4rem 0;}
+.dia3-skin .skin-txt a{color: #446f9e;text-decoration: underline;}
+.dia3-skin .btn-carbag{background: url(//game.gtimg.cn/images/lol/act/a20200616summer/m/tc-btn-get.png) no-repeat;background-size: 100% 100%;}
+.dia3-skin .award-speed{display: none;}
+/*中奖 - 实物*/
+.dia3-gift{background: url(//game.gtimg.cn/images/lol/act/a20200616summer/m/tc-bg3-gift.png) no-repeat;background-size: 100% auto;height:8.8rem;}
+.dia3-gift .card-txt{display: none;}
+.dia3-gift .award-box{width: 100%;height: 3.4rem;margin: 0 auto;text-align: center;}
+.dia3-gift .award-box img{display: block;border-radius: 0;margin: 0 auto;width:5rem;height: auto;}
+.dia3-gift .award-box i{display: none;}
+.dia3-gift .btn-carbag{background: url(//game.gtimg.cn/images/lol/act/a20200616summer/m/tc-btn-address.png) no-repeat;background-size: 100% 100%;width:5.2rem;;height:1.24rem;}
+.dia3-gift .gift-address{display: block!important;width: 100%;height: auto;text-align: center;font-size: 0;}
+.dia3-gift .gift-address span,.dia3 .gift-address>div{display: inline-block;vertical-align: top;height: 1.34rem;}
+.dia3-gift .gift-address span{color: #446f9e;font-size: .24rem;line-height: .44rem;width: 1.22rem;}
+.dia3-gift .gift-address input{display: block;-webkit-appearance:none;-moz-appearance: none;outline:none;background:none;width: 4.4rem;height: 0.44rem;color: #446f9e;font-size: .24rem;line-height: .44rem;text-decoration: underline;}
+.dia3-gift .gift-address input::-webkit-input-placeholder{color:#446f9e;font-size:0.24rem;text-decoration: underline;}
+.dia3-gift .award-speed{display: none;}
+
+/*直接发放邮箱或绑定账号*/
+.dia3-send{background: url(//game.gtimg.cn/images/lol/act/a20200616summer/m/tc-bg3-gift.png) no-repeat;background-size: 100% auto;height:8.8rem;}
+.dia3-send .card-txt{display: none;}
+.dia3-send .award-speed{display: none;}
+.dia3-send .award-box{width: 100%;height: 3.4rem;margin: 0 auto;text-align: center;}
+.dia3-send .award-box img{display: block;border-radius: 0;margin: 0 auto;width:5rem;height: auto;}
+.dia3-send .award-box i{display: none;}
+.dia3-send .send-txt{color: #446f9e;font-size: .24rem;line-height: .36rem;padding: .38rem 0 .44rem 0;display: block!important;}
+.dia3-send .btn-carbag{background: url(//game.gtimg.cn/images/lol/act/a20200616summer/m/tc-btn-yes2.png) no-repeat;background-size: 100% 100%;}
+
+.dia4{background: url(//game.gtimg.cn/images/lol/act/a20200616summer/m/tc-bg4.png) no-repeat;background-size: 100% auto;width:7.08rem;height:8.92rem;text-align: center;}
+.dia4 ul{padding-top: 1.46rem;padding-bottom: .2rem;}
+.dia4 ul li i{background: url(//game.gtimg.cn/images/lol/act/a20200616summer/m/tc-num.png) no-repeat;background-size: 100% 100%;}
+.dia4 ul li span{background: url(//game.gtimg.cn/images/lol/act/a20200616summer/m/tc-cheaked.png) no-repeat;background-size: 100% 100%;width:.76rem;height: .7rem;position: absolute;left: .04rem;bottom: .16rem;z-index:6;display: none;}
+.dia4 ul li a{position: absolute;top: 0;z-index: 2;left: 0;width: 100%;height: 96%;}
+.dia4 ul li.on.checked span{display: block;}
+.dia4 .btn-sure{background: url(//game.gtimg.cn/images/lol/act/a20200616summer/m/tc-btn-sure.png) no-repeat;background-size: 100% 100%;width:3.8rem;;height:1.24rem;display: block;margin: 0 auto;}
+
+
+
+.dia6{background: url(//game.gtimg.cn/images/lol/act/a20200616summer/m/tc-bg6.png) no-repeat;background-size: 100% auto;width:7.5rem;height:13.2rem;text-align: center;padding-top: 1.1rem;box-sizing: border-box;}
+.dia6 .step-txt{color: #446f9e;font-size: .28rem;line-height: .6rem;font-weight: bold;padding-bottom: .08rem;}
+.dia6 .step-txt span{display: inline-block;vertical-align: top;background: url(//game.gtimg.cn/images/lol/act/a20200616summer/m/tc-step-num.png) no-repeat center center;background-size: .5rem .48rem;width: .5rem;height: .56rem;color: #f7edda;font-size: .22rem;line-height: .6rem;margin-right: .1rem;}
+.dia6 .step1{width: 100%;height: auto;padding-bottom: .1rem;}
+.dia6 .step1 img{width: 6.32rem;height: 1.48rem;margin: 0 auto;display: block;}
+.dia6 .step2{width: 100%;height: auto;padding-bottom: .24rem;}
+.dia6 .step2>div{background: url(//game.gtimg.cn/images/lol/act/a20200616summer/m/tc-step2-bg.png) no-repeat;background-size: 100% auto;width:6.08rem;height:2.84rem;margin-left: .68rem;}
+.dia6 .step2>div img{width:6.08rem;display: block;margin: 0 auto;}
+.dia6 .step2>div p{color: #ffffff;font-size: .22rem;line-height: .52rem;}
+.dia6 .step3{width: 100%;height: auto;padding-bottom: .24rem;}
+.dia6 .step3 ul{font-size: 0;text-align: center;}
+.dia6 .step3 ul li{display: inline-block;vertical-align: top;margin: 0 .04rem .1rem;width:1.44rem;height: 1.62rem;background: url(//game.gtimg.cn/images/lol/act/a20200616summer/m/tc-step3-bg.png) no-repeat;background-size: 100% 100%;}
+.dia6 .step3 ul li img{width:1.44rem;display: block;margin: 0 auto;}
+.dia6 .step3 ul li p{color: #ffffff;font-size: .16rem;line-height: .38rem;}
+.dia6 .btn-open{background: url(//game.gtimg.cn/images/lol/act/a20200616summer/m/tc-btn-open.png) no-repeat;background-size: 100% 100%;width:3.9rem;;height:1.24rem;display: block;margin: 0 auto;}
+.dia6 .dia-close{right: .3rem;}
+
+/*分享浮层*/
+.dia-share{background-color: rgba(0,0,0,.8);position: fixed;top: 0;right: 0;height: 100%;width: 100%; z-index: 999999}
+.dia-share1 .share{width: 5.32rem; height: 2.28rem; position: absolute; right: 0.55rem; top: 0.28rem; background: url(//game.gtimg.cn/images/lol/act/a20200616summer/m/share.png) no-repeat;background-size: 100%;}
+.dia-share2 .share{width: 7.05rem; height: 2.24rem; position: absolute; right: 0.1rem; top: 0.28rem; background: url(//game.gtimg.cn/images/lol/act/a20200616summer/m/share2.png) no-repeat;background-size: 100%;}
+
+/*大图*/
+.dia10{width:6.5rem;height:11.54rem;}
+.dia10 img{width:6.5rem;height:11.54rem;display: block;margin: 0 auto;}
+.dia10 .dia-close{top: -.7rem;right: .5rem;}
+/*宝箱奖励列表*/
+.dia12{background: url(//game.gtimg.cn/images/lol/act/a20200616summer/m/tc-bg12.png) no-repeat;background-size: 100% auto;width:7.08rem;height:10.42rem;padding-top: 1rem;box-sizing: border-box;}
+.dia12 ul{width: 6.2rem;margin: 0 auto;}
+.dia12 ul li{width: 100%;height: 1.06rem;border-bottom: .02rem solid #cee1e3;font-size: 0;padding-left: .3rem;box-sizing: border-box;}
+.dia12 ul li b,.dia12 ul li span, .dia12 ul li i{display: inline-block;vertical-align: top;text-align: left;line-height: 1.08rem;font-style: normal;font-size: .24rem;}
+.dia12 ul li b{color: #446f9e;width: 2.96rem;}
+.dia12 ul li span{color: #446f9e;width: 1.78rem;}
+.dia12 ul li i{color: #faa20a;width: 1.16rem;}
+.dia12 ul li.a-title b,.dia12 ul li.a-title span,.dia12 ul li.a-title i{font-weight: normal;color: #7e92a7!important;}
