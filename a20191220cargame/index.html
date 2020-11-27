@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+	<head>
+		<meta charset="gbk">
+		<meta name="applicable-device" content="mobile">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,maximum-scale=1" />
+		<meta name="robots" content="all" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="author" content="Tencent-TGideas" />
+		<meta name="Copyright" content="Tencent" />
+		<meta name="Description" content="跑跑卡丁车，跑跑卡丁车2.0，跑跑卡丁车，不只是漂移，全民漂移" />
+		<meta name="Keywords" content="跑跑卡丁车，跑跑卡丁车2.0，跑跑卡丁车，不只是漂移，全民漂移,道具赛,竞速赛,跑跑卡丁车,世纪天成" />
+		<title>车王大奖赛-跑跑卡丁车官网-腾讯游戏</title>
+		<!-- 设计：cp  | 重构：cp | 创建：2019-10-14-->
+		<!-- //game.gtimg.cn/images/wepop/cp/a20191220cargame/ -->
+		<link rel="stylesheet" href="index.css">
+		<script>
+			// 屏幕适配函数
+			(function(doc, win) {
+				var docEl = doc.documentElement;
+				var resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize';
+				var recalc = function() {
+					var clientWidth = docEl.clientWidth;
+					if(!clientWidth) {
+						return
+					}
+					docEl.style.fontSize = 100 * (clientWidth / 750) + 'px'
+				}
+				if(!doc.addEventListener) {
+					return
+				}
+				recalc();
+				win.addEventListener(resizeEvt, recalc, false)
+				doc.addEventListener('DOMContentLoaded', recalc, false)
+			})(document, window)
+		</script>
+	</head>
+
+	<body>
+		<h1 class="hid">车王大奖赛-跑跑卡丁车官网-腾讯游戏</h1>
+		<div class="wrap">
+			<div class="head">
+				<div class="header">
+					<p class="bg"></p>
+
+				</div>
+				<a class="logo" title="跑跑卡丁车" href="//wepop.qq.com/main.shtml" target="_blank" onclick="PTTSendClick('btn', 'logo', '跑跑卡丁车');"></a>
+				<a class="btn-rule" href="javascript:TGDialogS('dia3');" onclick="PTTSendClick('btn', 'btn-rule', '活动规则');"></a>
+				<div id="ams_loginbar" class="login">
+					<div id="unlogin">
+						您好，请
+						<a id="ptLoginBtn" href="javascript:;" style="cursor: pointer;">【登录】</a>
+						<!--<a id="wxloginBtn" href="javascript:void(0);">[微信登录]</a>-->
+					</div>
+					<div id="logined" style="display: none;">
+						<span>欢迎您，</span>
+						<span id="userinfo">1079682165</span> 【
+						<a id="ptLogoutBtn" href="javascript:;" style="cursor: pointer;">注销</a>】
+					</div>
+				</div>
+			</div>
+			<div class="content">
+				<!--未报名玩家-->
+				<div class="cont1" style="display: none1;">
+					<div class="box1">
+						<!--已报名 添加class  btn-signed-->
+						<a class="btn-sign" href="javascript:;" onclick="PTTSendClick('btn', 'btn-sign', '立即报名');"></a>
+						<ul>
+							<li>
+								<img src="ossweb-img/prop1.png" alt="锦鲤附体车牌×3天" />
+								<p>锦鲤附体车牌×3天</p>
+							</li>
+							<li>
+								<img src="ossweb-img/prop2.png" alt="金币×188" />
+								<p>金币×188</p>
+							</li>
+						</ul>
+					</div>
+					<div class="box2">
+						<ul>
+							<li class="one">
+								<span>1</span>
+								<p>活动时间：2020年1月10日~1月13日</p>
+							</li>
+							<li class="two">
+								<span>2</span>
+								<p>分数取个人竞速赛（房间或者排位）在狮城狂飙地图的最佳10场成绩记录；</p>
+							</li>
+							<li class="three">
+								<span>3</span>
+								<p>完成比赛根据排名，第一名获得25分，第二名获得20分，第三名获得15分，第四名获得10分，第五名获得5分；</p>
+							</li>
+							<li class="two">
+								<span>4</span>
+								<p>单场积分公式=（漂移次数+氮气次数）*0.1+技巧评分*0.2+名次分</p>
+							</li>
+						</ul>
+					</div>
+					<div class="box3">
+						<ul>
+							<li class="img">
+								<img src="ossweb-img/img1.png" alt="独家新春套装" />
+								<img src="ossweb-img/img2.png" alt="赤影威龙" />
+								<img src="ossweb-img/img3.png" alt="服饰勋章" />
+							</li>
+							<li class="rank">
+								<p>第1~10名</p>
+							</li>
+							<li class="rank-desc">
+								<span class="two">独家新春<br />套装×永久</span><span>赤影威龙×永久</span><span>服饰勋章×588</span>
+							</li>
+							<li class="rank">
+								<p>第11~20名</p>
+							</li>
+							<li class="rank-desc">
+								<span class="two">独家新春<br />套装×15天</span><span>赤影威龙×15天</span><span>服饰勋章×388</span>
+							</li>
+							<li class="rank">
+								<p>第21~30名</p>
+							</li>
+							<li class="rank-desc">
+								<span class="two">独家新春<br />套装×7天</span><span>赤影威龙×7天</span><span>服饰勋章×288</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!--已报名玩家-->
+				<div class="cont2" style="display: none;">
+					<div class="box1">
+						<p>活动倒计时：<span class="timespan">X天X小时X分钟</span></p>
+					</div>
+					<div class="box2">
+						<ul>
+							<li class="one">
+								<span>1</span>
+								<p>活动时间：2020年1月10日~1月13日</p>
+							</li>
+							<li class="two">
+								<span>2</span>
+								<p>分数取个人竞速赛（房间或者排位）在狮城狂飙地图的最佳10场成绩记录；</p>
+							</li>
+							<li class="two">
+								<span>3</span>
+								<p>完成比赛根据排名，第一名获得25分，第二名获得20分，第三名获得15分，第四名获得10分，第五名获得5分；</p>
+							</li>
+							<li class="two">
+								<span>4</span>
+								<p>单场积分公式=（漂移次数+氮气次数）*0.1+技巧评分*0.2+<br />名次分</p>
+							</li>
+						</ul>
+						<p class="end-time"></p>
+					</div>
+					<div class="box3">
+						<ul>
+							<li class="img">
+								<img src="ossweb-img/img1.png" alt="独家新春套装" />
+								<img src="ossweb-img/img2.png" alt="赤影威龙" />
+								<img src="ossweb-img/img3.png" alt="服饰勋章" />
+							</li>
+							<li class="rank">
+								<p>第1~10名</p>
+							</li>
+							<li class="rank-desc">
+								<span class="two">独家新春<br />套装×永久</span><span>赤影威龙×永久</span><span>服饰勋章×588</span>
+							</li>
+							<li class="rank">
+								<p>第11~20名</p>
+							</li>
+							<li class="rank-desc">
+								<span class="two">独家新春<br />套装×15天</span><span>赤影威龙×15天</span><span>服饰勋章×388</span>
+							</li>
+							<li class="rank">
+								<p>第21~30名</p>
+							</li>
+							<li class="rank-desc">
+								<span class="two">独家新春<br />套装×7天</span><span>赤影威龙×7天</span><span>服饰勋章×288</span>
+							</li>
+							<li class="rank">
+								<p>报名奖励</p>
+							</li>
+							<li class="rank-desc refer">
+								<span class="two">锦鲤附体车牌<br />×3天</span><span>金币×188</span><span></span>
+								<p class="get1 get"></p>
+								<p class="get2 get"></p>
+
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!--1月14日-1月16日-->
+				<div class="cont3" style="display: none;">
+					<div class="box1">
+						<p>奖励将在2020年1月22日前通过邮箱发放，<br />请您届时登陆游戏查收哦</p>
+					</div>
+					<div class="box2">
+						<div class="table-box">
+							<table width="1.28rem">
+								<tr>
+									<th>排名</th>
+									<th>平台</th>
+									<th>小区</th>
+									<th>游戏呢称</th>
+									<th>成绩积分</th>
+								</tr>
+								<tr>
+									<td>01</td>
+									<td>电信</td>
+									<td>XXX区</td>
+									<td>AOE001</td>
+									<td>45000</td>
+								</tr>
+								<tr>
+									<td>02</td>
+									<td>电信</td>
+									<td>XXX区</td>
+									<td>AOE001</td>
+									<td>45000</td>
+								</tr>
+								<tr>
+									<td>03</td>
+									<td>电信</td>
+									<td>XXX区</td>
+									<td>AOE001</td>
+									<td>45000</td>
+								</tr>
+								<tr>
+									<td>04</td>
+									<td>电信</td>
+									<td>XXX区</td>
+									<td>AOE001</td>
+									<td>45000</td>
+								</tr>
+								<tr>
+									<td>05</td>
+									<td>电信</td>
+									<td>XXX区</td>
+									<td>AOE001</td>
+									<td>45000</td>
+								</tr>
+								<tr>
+									<td>06</td>
+									<td>电信</td>
+									<td>XXX区</td>
+									<td>AOE001</td>
+									<td>45000</td>
+								</tr>
+								<tr>
+									<td>07</td>
+									<td>电信</td>
+									<td>XXX区</td>
+									<td>AOE001</td>
+									<td>45000</td>
+								</tr>
+								<tr>
+									<td>08</td>
+									<td>电信</td>
+									<td>XXX区</td>
+									<td>AOE001</td>
+									<td>45000</td>
+								</tr>
+								<tr>
+									<td>09</td>
+									<td>电信</td>
+									<td>XXX区</td>
+									<td>AOE001</td>
+									<td>45000</td>
+								</tr>
+								<tr>
+									<td>10</td>
+									<td>电信</td>
+									<td>XXX区</td>
+									<td>AOE001</td>
+									<td>45000</td>
+								</tr>
+
+							</table>
+						</div>
+						<a class="btn-prev" href="javascript:;" onclick="PTTSendClick('btn', 'btn-prev', '上一页');">上一页</a>
+						<a class="btn-next" href="javascript:;" onclick="PTTSendClick('btn', 'btn-next', '下一页');">下一页</a>
+					</div>
+					<div class="box3">
+						<div class="qp-box">
+							<p>1月17日~2月9日，每日为<span>车王打call+登陆游戏</span><br />即可领取以下礼包（每日可领1次）；</p>
+						</div>
+						<ul>
+							<li>
+								<img src="ossweb-img/pic1.png" alt="独家新春定制套装×1天" />
+								<p>独家新春定制套装×1天</p>
+							</li>
+							<li>
+								<img src="ossweb-img/pic2.png" alt="锦鲤附体车牌×1天" />
+								<p>锦鲤附体车牌×1天</p>
+							</li>
+							<li>
+								<img src="ossweb-img/pic3.png" alt="金币x288" />
+								<p>金币x288</p>
+							</li>
+						</ul>
+						<a class="btn-call" href="javascript:;" onclick="PTTSendClick('btn', 'btn-call', '为车王打CALL');"></a>
+					</div>
+				</div>
+				<!--1月17日及之后-->
+				<div class="cont4" style="display: none1;">
+					<div class="box1">
+						<p>工作人员正在加紧统计中，成绩将在<span>1月17日</span><br />公布，请您耐心等待</p>
+					</div>
+					<div class="box2">
+						<div class="qp-box">
+							<p>等待放榜期间，宝宝为各位车友 <br />准备了<span>每日登陆游戏礼包</span>哦</p>
+						</div>
+						<ul>
+							<li>
+								<img src="ossweb-img/pic1.png" alt="独家新春定制套装×1天" />
+								<p>独家新春定制套装×1天</p>
+							</li>
+							<li>
+								<img src="ossweb-img/pic2.png" alt="锦鲤附体车牌×1天" />
+								<p>锦鲤附体车牌×1天</p>
+							</li>
+							<li>
+								<img src="ossweb-img/pic3.png" alt="金币x288" />
+								<p>金币x288</p>
+							</li>
+						</ul>
+						<a class="btn-get" href="javascript:;" onclick="PTTSendClick('btn', 'btn-get', '立即领取');"></a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<!--弹窗-->
+		<!--恭喜您成功获得-->
+		<div class="dialog dia1" id="dia1" style="display:none1">
+			<ul>
+				<li>
+					<img src="ossweb-img/tc-pic1.png" alt="独家新春定制套装×1天" />
+					<p>独家新春定制套装×1天</p>
+				</li>
+				<li>
+					<img src="ossweb-img/pic2.png" alt="锦鲤附体车牌×1天" />
+					<p>锦鲤附体车牌×1天</p>
+				</li>
+				<li>
+					<img src="ossweb-img/pic3.png" alt="金币x288" />
+					<p>金币x288</p>
+				</li>
+			</ul>
+			<a class="btn-konw" href="javascript:;" onclick="PTTSendClick('btn', 'btn-know1', '知道了');"></a>
+			<a class="dia-close" href="javascript:showDialog.hide()" title="关闭"></a>
+		</div>
+		<!--请绑定参与活动的角色-->
+		<div class="dialog dia2" id="dia2" style="display:none1">
+			<!--<p class="tc-title1 tc-title">请绑定参与活动的角色</p>-->
+			<div class="sel-box">
+				<div class="sel">
+					<span>选择渠道</span>
+					<select>
+						<option>请选择渠道</option>
+						<option>请选择渠道</option>
+						<option>请选择渠道</option>
+						<option>请选择渠道</option>
+					</select>
+				</div>
+				<div class="sel">
+					<span>选择大区</span>
+					<select>
+						<option>请选择大区</option>
+						<option>请选择大区</option>
+						<option>请选择大区</option>
+						<option>请选择大区</option>
+					</select>
+				</div>
+				<div class="sel">
+					<span>选择角色</span>
+					<select>
+						<option>请选择角色</option>
+						<option>请选择角色</option>
+						<option>请选择角色</option>
+						<option>请选择角色</option>
+					</select>
+				</div>
+			</div>
+
+			<a class="btn-sure" href="javascript:;" onclick="PTTSendClick('btn', 'btn-sure1', '确定');"></a>
+
+			<a class="dia-close" href="javascript:showDialog.hide()" title="关闭"></a>
+		</div>
+
+		<!--活动规则-->
+		<div class="dialog dia3" id="dia3" style="display:none1">
+			<ul>
+				<li>
+					<span>1、</span>活动时间：2020年1月10日~1月13日
+				</li>
+				<li>
+					<span>2、</span>成功报名后，分数取个人竞速赛（房间或者排位）在狮城狂飙地图的最佳10场成绩记录；
+				</li>
+				<li>
+					<span>3、</span>完成比赛根据排名，第一名获得25分，第二名获得20分，第三名获得15分，第四名获得10分，第五名获得5分；
+				</li>
+				<li>
+					<span>4、</span>单场积分公式=（漂移次数+氮气次数）*0.1+技巧评分*0.2+名次分
+				</li>
+				<li>
+					<span>5、</span>若出现同分的情况，则按照用户报名先后顺序进行排序；
+				</li>
+				<li>
+					<span>6、</span>排行榜将在1月17日公布；
+				</li>
+				<li>
+					<span>7、</span>奖励领取：排名公布结束后7个工作日内游戏道具将自动通过邮箱发放，还请登录游戏查收；
+				</li>
+				<li>
+					<span>8、</span>该活动单账号仅限1个角色可参加；
+				</li>
+				<li>
+					<span>9、</span>玩家如果使用外挂、作弊以及其他不正当的方式参加本活动，官方有权收回您非法获得的全部奖励，并就相关行为给与处罚；
+				</li>
+				<li>
+					<span>10、</span>参加本活动需同意
+					<a class="clause" href="//game.qq.com/privacy_guide.shtml" onclick="PTTSendClick('btn','clause','腾讯隐私条款')">腾讯隐私条款</a>；
+				</li>
+			</ul>
+			<a class="dia-close" href="javascript:showDialog.hide()" title="关闭"></a>
+		</div>
+
+		<!--恭喜您成功报名！-->
+		<div class="dialog dia4" id="dia4" style="display:none1">
+			<p>恭喜您成功报名并获得以下奖品，我们将在48小时内<br />邮件给您，记得回到游戏内查收哦。</p>
+			<ul>
+				<li>
+					<img src="ossweb-img/pic2.png" alt="锦鲤附体车牌×3天" />
+					<p>锦鲤附体车牌×3天</p>
+				</li>
+				<li>
+					<img src="ossweb-img/pic3.png" alt="金币x188" />
+					<p>金币x188</p>
+				</li>
+			</ul>
+			<a class="btn-konw" href="javascript:;" onclick="PTTSendClick('btn', 'btn-know2', '知道了');"></a>
+			<a class="dia-close" href="javascript:showDialog.hide()" title="关闭"></a>
+		</div>
+
+		<!--感谢为车王打CALL-->
+		<div class="dialog dia5" id="dia5" style="display:none1">
+			<p>感谢为车王打CALL，今日未登录游戏，<br /> 领取礼包失败。登录游戏后再为车王打<br />CALL，可以获得游戏道具奖励哦。</p>
+
+			<a class="btn-sure" href="javascript:;" onclick="PTTSendClick('btn', 'btn-sure2', '确定');"></a>
+			<a class="dia-close" href="javascript:showDialog.hide()" title="关闭"></a>
+		</div>
+		<div class="dialog dia6" id="dia6" style="display:none1">
+			<div class="land">
+				<a class="btn-wx" href="javascript:;" onclick="PTTSendClick('btn', 'btn-wx', '微信');"></a>
+				<a class="btn-qq" href="javascript:;" onclick="PTTSendClick('btn', 'btn-qq', 'QQ');"></a>
+			</div>
+			<a class="dia-close" href="javascript:showDialog.hide()" title="关闭"></a>
+		</div>
+
+		<script src="//ossweb-img.qq.com/images/js/mobile_bundle/milo.js"></script>
+		<script src="//game.gtimg.cn/images/js/2018foot/foot.js"></script>
+		<script src="//ossweb-img.qq.com/images/js/TGMobileShare/TGMobileShare.min.js"></script>
+		<script src="//ossweb-img.qq.com/images/js/zepto/zepto.modules.min.js"></script>
+		<script src="index.js"></script>
+
+		<!--通用统计代码-->
+		<script src="//ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js"></script>
+		<script>
+			//此段代码不能放到外链JS中，
+			var setSite = { //设置网站属性 
+				siteType: "a20191220cargame", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+				pageType: "index", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN,不支持点(.)、下划线(_)
+				pageName: "首页", //必填项:页面中文名 
+				project: "other", //选填项:如果是官网模块则是必填;按照模块内容，填写固定的对应值;原生官网base;微社区ingame;同人站doujin;赛事match;故事站story;文化站history;粉丝站fans;爆料站coming;论坛bbs;皮肤skin;默认other;
+				osact: 0 //选填项:默认是0。osact=0表示非官网专题；osact=pc表示pc官网/pc官网专题；osact=m表示移动官网/移动官网专题；osact=ingame表示微社区/微社区专题
+			};
+			if(typeof(pgvMain) == 'function') pgvMain(); //千万不能忘记！
+		</script>
+	</body>
+
+</html>
