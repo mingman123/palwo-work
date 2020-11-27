@@ -1,0 +1,133 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,figure{margin:0;padding:0;border:0;vertical-align:baseline;border-radius:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+ol,ul{list-style:none}
+table{border-collapse:collapse;border-spacing:0}
+h1,h2,h3,h4,h5,h6{font-weight:normal}
+h1.seotit{width:100%;height:0;font-size:0;text-indent:-9999em;line-height:500%;overflow:hidden;}
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{font-weight:inherit}
+input,select,form,textarea{vertical-align:middle;outline:none}
+img{display:block;outline:none;}
+strong,b,em,i{font-weight:normal;font-style:normal;}
+a,img,div{text-decoration:none;outline:0;;-webkit-tap-highlight-color: transparent;-webkit-touch-callout: none;-webkit-user-select: none;}
+div,a,input,select,option{outline:none}
+table{border-collapse:collapse;border-spacing:0}
+.clearfix:after,.clearfix:before{content:"";display:table;}
+.clearfix:after{clear:both;}
+.hid{display:none;font-size:0;text-indent:-999em;}
+#loginStatusSyncFrame_ams_ame{display:none;}
+html,body{position: relative; width: 100%;height: auto;background: #000;position: relative;-webkit-user-select: none;user-select: none;overflow: auto;font-family: "OPPOSansB", "Microsoft YaHei", sans-serif;overflow: auto;overflow: auto; -webkit-overflow-scrolling: touch; overflow-scrolling: touch; font-size: 0;}
+.hidden{display: none; font-size: 0; text-indent: -999em; }
+body{background: #202020;}
+body::-webkit-scrollbar {display:none}
+@font-face {
+  font-family: "OPPOSansB";
+  src: url("//assorted.downloads.oppo.com/static/assets/fonts/OPPOSans/OPPOSans-Bold.ttf");
+}
+@font-face {
+  font-family: "OPPOSansH";
+  src: url("//assorted.downloads.oppo.com/static/assets/fonts/OPPOSans/OPPOSans-Heavy.ttf");
+}
+@font-face {
+  font-family: "OPPOSansM";
+  src: url("//assorted.downloads.oppo.com/static/assets/fonts/OPPOSans/OPPOSans-Medium.ttf");
+}
+/* 图片分离路径示例 */
+.pac{display: block; position: absolute;top: 50%;left: 50%; -webkit-transform: translate(-50%,-50%);-ms-transform: translate(-50%,-50%);transform: translate(-50%,-50%);}
+.wrap{max-width: 10.24rem; margin: 0 auto; position: relative; text-align: center; overflow: hidden; height: 32000px; }
+.content{position: fixed; top: 0; left: 0; display: block; width: 100%; height: 100%;}
+.content-bg{display: none;}
+#video2{display: none;}
+/* top */
+.top-box{display: block; width: 6.54rem; height: .38rem; overflow: hidden; font-size: 0; text-align: left; position: relative; z-index: 9; transform: translateY(0); margin: 0 auto; padding-top: .62rem;}
+.top-inno{display: inline-block; *display: inline; *zoom: 1; vertical-align: top; width: 1.5rem; height: .38rem; background: url(../img/inno.png) no-repeat left center; background-size: auto .34rem;}
+.top-oppo{display: inline-block; *display: inline; *zoom: 1; vertical-align: top; height: .38rem; line-height: .38rem; font-size: .28rem;font-family:"OPPOSansM";font-weight:normal;color:rgba(255,255,255,1); float: right;}
+/* cont1 */
+.cont1{display: block; width: 6.74rem; height: 90%; position: absolute; bottom: 0; left: 50%; transform: scale(1); min-width: 6.74rem; margin-left: -3.37rem; transform-origin: bottom center;}
+/* header */
+#video1{display: none;}
+.header{position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url(../img/m-headerbg.png) no-repeat center top; background-size: 100% auto; margin: auto; width: 100%; height: 100%; z-index: 8; transform-origin: center bottom; transform: translate3d(0,0,0); overflow: hidden;}
+.header-bg{position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(../img/m-bg1.png) no-repeat center bottom; background-size: 100% auto;}
+.header-txt1{position: absolute; left: 50%; top: 50%; width: 6.52rem; height: 5.6rem; z-index: 9; pointer-events: none; margin-left: -3.26rem; margin-top: -2.8rem;}
+.header-p1{width:100%;height:auto;color:#ffffff;font-family:"OPPOSansB";font-size:.74rem;font-weight:bold;line-height:1.2rem;text-align:left;margin:0 auto;}
+.header-p1 span{display: inline-block; width: 100%; height: 1.2rem; line-height: 1.2rem;}
+.header-p1 .sp{ height: .84rem; font-size: .52rem; line-height: .52rem; padding-top: .4rem;}
+.header-p2{width:100%;height:.4rem;color:#ffffff;font-family:"OPPOSansB";font-size:.4rem;font-weight:bold;line-height:.4rem;text-align:left;margin:0 auto;}
+.header-txt2{width: 6.4rem; height: 2.2rem; position: absolute; top: 50%; left: 50%; margin-left: -3.2rem; margin-top: -1.1rem; pointer-events: none; transform: translate3d(0,-1624px,0);z-index: 9;}
+.header-p3{font-size: .32rem;line-height: .44rem; width: 6.4rem; height: 2.2rem; color:#ffffff;font-family:"OPPOSansB";}
+.header-txt3{position: absolute; left: 0; top: 0; width: 100%;height:100%;  opacity: 0;}
+.header-txt3-inno{position: absolute; top: 3.06rem; left: 50%; display: block;width: 4rem; margin-left: -2rem; height: .8rem; background: url(../img/m-header-txt3-inno.png) no-repeat center center; background-size: auto 100%;}
+/* 日程 */
+.schedule{position: absolute; top: 0;left: 0; display: block; height: 17.6rem; width: 100%; background: url(../img/m-schedule-bg.png) no-repeat center top; background-size: 100% auto;z-index: 7; overflow: hidden; transform: translate3d(0,0,0)}
+.schedule-title1{position: absolute;top: 2.4rem;left: .4rem; z-index: 2; width:4rem;height:.88rem;font-size:.64rem;font-family:'OPPOSansB';font-weight:bold;color:rgba(255,255,255,1);line-height:.88rem;text-align: left; transform: translate3d(1.8rem,1.2rem,0) scale(1.25);}
+.schedule-title2{position: absolute; top: 3.44rem; left: .4rem;z-index: 2; width:4rem;height:.54rem;font-size:.4rem;font-family:'OPPOSansB';font-weight:bold;color:rgba(255,255,255,1);line-height:.54rem;text-align: left; transform: translate3d(1.5rem,1.4rem,0) scale(1.25);}
+.schedule-box{position: absolute; top: 5.48rem; left: 0.4rem; width: 5.9rem; font-size: 0; text-align: left; display: none;}
+.schedule-item{position: relative; display: block; width: 100%; height: 2.74rem; text-align: left; transform: translate3d(17%,0,0); opacity: 0;}
+.schedule-time{height:.62rem; font-size: .34rem; line-height: .34rem; font-weight:400; font-family:'OPPOSansM'; color: #fff;}
+.schedule-txt{height: .8rem; font-size: .44rem; line-height: .44rem;font-family:'OPPOSansB'; color: #fff; font-weight: bold;}
+.schedule-intr{height: .28rem; font-size: .28rem; line-height: .28rem; font-weight:400;font-family:'OPPOSansM'; color: #fff;}
+/* 嘉宾 */
+.guest{width: 100%; height: 8.6rem; position: absolute; top: 50%; margin-top: -4.3rem; left: 0; display: block;}
+.guest-title{width: 100%; height: 2rem; text-align: center; font-size: .64rem; line-height: .64rem; color: #fff; font-family:'OPPOSansB'; font-weight: bold;}
+.guest-scrollbox{position: relative; display: block; width: 6rem; height: 6.4rem; margin: 0 auto; overflow: visible !important ;}
+.guests{position: relative; display: block; width: 50rem; height: 6.4rem; text-align: left;}
+.guest-box{display: inline-block; *display: inline; *zoom: 1; vertical-align: top; width: 6.4rem; height: 6.4rem; background: #fff;}
+.guest-txt{position: absolute; width: 6rem; top: 0.64rem; left: 0.64rem; height: auto; color: #fff;}
+.guest-name{width: 100%; height: .66rem; font-size: .5rem; line-height: .5rem; font-family:'OPPOSansB'; font-weight: bold;}
+.guest-intr{width: 100%; height: .44rem; font-size: .3rem; line-height: .44rem; font-family:'OPPOSansM';}
+.guest-btns{display: none;}
+.guest1{background: url(../img/m-guestbg1.png) no-repeat center top; background-size: 100% auto;}
+.guest2{background: url(../img/m-guestbg2.png) no-repeat center top; background-size: 100% auto;}
+.guest3{background: url(../img/m-guestbg3.png) no-repeat center top; background-size: 100% auto;}
+.guest4{background: url(../img/m-guestbg4.png) no-repeat center top; background-size: 100% auto;}
+.guest5{background: url(../img/m-guestbg5.png) no-repeat center top; background-size: 100% auto;}
+.guest6{background: url(../img/m-guestbg6.png) no-repeat center top; background-size: 100% auto;}
+.guest7{background: url(../img/m-guestbg7.png) no-repeat center top; background-size: 100% auto;}
+/* 地图 */
+.map{position: absolute; left: 0; top: 100%; display: none; width: 100%; height: 100%; overflow: hidden; text-align: center; transform: translate3d(0,0,0); color: #fff; font-size: 0; background: #000; z-index: 2;}
+.map-title{position: absolute; top: 46%; left: 0; width: 100%; height: .88rem; font-size: .64rem; line-height: .88rem; font-family:'OPPOSansB'; font-weight: bold; color: #fff; text-align: center; transform: translate3d(0,0,0); opacity: 0;}
+.map-txts{display: block; width: 100%; height: 2.4rem; position: absolute; top: 50%; left: 0; transform: translate3d(0,0,0); opacity: 0; z-index: 2; pointer-events: none; font-size: .32rem; line-height: .44rem;}
+.map-txt1{width: 6.6rem; height: 1.8rem; text-align: center; font-family:'OPPOSansB'; font-weight: bold; color: #fff; margin: 0 auto;}
+.map-txt2{height: 0.44rem; font-family:'OPPOSansM'; color:rgba(45,200,77,1);}
+.map-details{position: absolute; top: 50%; left: 50%; width: 100%; height: 100%; transform: translate(-50%, -50%)}
+.map-pics{position: absolute; top: 50%; left: 50%; margin-left: -10rem; margin-top: -10rem; display: block; width: 20rem; height: 20rem; transform: scale(0.32) rotate(-90deg) translate3d(0, 0, 0); background: url(../img/map0.png) no-repeat center center; background-size: 100% 100%;}
+.area{position: absolute; top: 0; right: 0; display: block; width: 11.12rem; height: 5.5rem; margin: auto; opacity: 0;}
+.area1{background: url(../img/map1.png) no-repeat center center; background-size: 100% 100%; opacity: 1;}
+.area2{background: url(../img/map2.png) no-repeat center center; background-size: 100% 100%;}
+.area3{background: url(../img/map3.png) no-repeat center center; background-size: 100% 100%;}
+.area4{background: url(../img/map4.png) no-repeat center center; background-size: 100% 100%;}
+.area5{background: url(../img/map5.png) no-repeat center center; background-size: 100% 100%;}
+.area6{background: url(../img/map6.png) no-repeat center center; background-size: 100% 100%;}
+.area7{background: url(../img/map7.png) no-repeat center center; background-size: 100% 100%;}
+.area-txts{position: absolute; top: 50%; left: .48rem; font-family:'OPPOSansB'; font-weight: bold; text-align: left; width: 6.5rem; height: 3.5rem;}
+.area-txt{position: absolute; top: 0; left: 0; transform: translate3d(0, 15%, 0); display: block; opacity: 0;}
+.area-num{height: 1.7rem; font-size: 1.12rem; color:rgba(85,85,85,1); line-height: 1.12rem;}
+.area-title{height: .82rem; font-size: .48rem; color: #fff; line-height: .66rem;}
+.area-intr{width: 5rem; line-height: .44rem; color: #fff; font-size: .32rem;}
+/* 大会资讯和直播合作 */
+.foot-cont{position: fixed; top: 100%; left: 0; width: 100%; height: auto; background: #0D0D0D; z-index: 9; overflow: hidden; display: none;}
+/* 大会资讯 */
+.news{display: block; width: 100%; height: auto; overflow: hidden; text-align: center; transform: translate3d(0,0,0); color: #fff; font-size: 0; z-index: 1; padding-bottom: .72rem;}
+.news-center{display: block; position: relative; width: 100%; font-size: 0; text-align: center; margin: 0 auto;}
+.news-title{width: 100%; font-family:'OPPOSansB'; font-weight: bold; height: 2.34rem; font-size: .64rem; line-height: .88rem; color: #fff; padding-top: 1.38rem;}
+.news-box{width: 100%; text-align: center; margin: 0 auto;}
+.news-item{display:block; width: 6.54rem; height: 6.24rem; margin: 0 auto;}
+.news-pic{background: #555555;display: block; width: 6.54rem; height: 4rem; overflow: hidden; border-radius: .08rem; margin-bottom: .2rem;}
+.news-pic img{display: block; width: 6.54rem; height: 4rem; overflow: hidden;}
+.news-txt{ font-size: .36rem; line-height: .5rem; height: .66rem; text-align: left; color: #fff; font-family:'OPPOSansB'; font-weight: bold;}
+.news-time{color:rgba(213,213,213,1); font-size: .28rem; line-height: .38rem; text-align: left; font-family:'OPPOSansM';}
+/* 直播合作 */
+.partner{display: block; width: 100%; height: auto; overflow: hidden; text-align: center; transform: translate3d(0,0,0); color: #fff; font-size: 0; z-index: 2; padding-bottom: 3.7rem;}
+.partner-center{display: block; width: 100%; font-size: 0; text-align: center; margin: 0 auto;}
+.partner-title{width: 100%; font-family:'OPPOSansB'; font-weight: bold; height: 2.34rem; font-size: .64rem; line-height: .88rem; color: #fff;}
+.partner-box{display: block; width: 6.32rem; height: 7.3rem; background: url(../img/m-partner.png) no-repeat center top; background-size: 100% auto; text-align: center; font-size: 0; overflow: hidden; margin: 0 auto;}
+.partner-foot{position: absolute; bottom: 0; left: 0; width: 100%; height: 2.7rem; background: #000;}
+/* 底部 */
+.footer{position: relative; width: 6.54rem; margin: .48rem auto 0; }
+.foot-inno{width: 2rem; height: .34rem; background: url(../img/m-header-txt3-inno.png) no-repeat left top; background-size: auto 100%; margin-bottom: .3rem;}
+.foot-line{display: block; position: absolute; top: 1.26rem; left: 0; width: 6.54rem; height: 1px; background-color: #333333;}
+.foot-bottom{width: 100%; height: auto; font-size: 0; text-align: left;}
+.foot-cr{display: block; font-size: .24rem; line-height: .34rem; height: 0.94rem; color: #717171; font-family:'OPPOSansM';}
+.foot-langues{display: block; font-size: 0; color: #717171; height: .34rem; line-height: .34rem;}
+.langue-icon{display: inline-block; *display: inline; *zoom: 1; vertical-align: top; background: url(../img/langue-icon.png) no-repeat center center; background-size: 100% auto; width: .36rem; height: .36rem; margin-right: .16rem;}
+.foot-langues a,.foot-langues span{font-size: .24rem; line-height: .36rem; color: #717171; font-family:'OPPOSansM';}
+.foot-langues span{margin: 0 .1rem;}
