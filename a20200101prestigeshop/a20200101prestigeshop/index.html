@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="GBK">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="robots" content="all">
+		<meta name="author" content="Tencent-CP" />
+		<meta name="Copyright" content="Tencent" />
+		<meta name="Description" content="英雄联盟，至臻2019终章全新上线，英雄联盟官方网站，海量风格各异的英雄，丰富、便捷的物品合成系统，游戏内置的匹配、排行和竞技系统，独创的“召唤师”系统及技能、符文、天赋等系统组合，必将带你进入一个崭新而又丰富多彩的游戏世界。" />
+		<meta name="Keywords" content="英雄联盟,至臻2019终章全新上线,限定皮肤,lol,lol新手礼包,lol攻略,lol视频,lol视频攻略,英雄资料,英雄联盟战争学院,明星解说视频,101战争学院,英雄,攻略,WCG,点亮图标,赛事" />
+		<title>至臻2019终章-英雄联盟官方网站-腾讯游戏</title>
+		<link rel="stylesheet" href="css/index.css" media="screen and (min-device-width: 1025px)">
+		<link rel="stylesheet" href="css/index-m.css" media="screen and (max-device-width: 1024px)">
+		<!--[if lt IE 9]><link rel="stylesheet" href="index.css"> <![endif]-->
+		<!-- 页面设计：cp | 页面制作：cp | 创建：2019-11-26 -->
+		<script>
+			//mode  移动端的适配方式 按需 传参  目前只有两种 px和rem
+			(function(win, doc, mode) {
+				var std = 750;
+				if(/(iPhone|iPad|iPod|iOS|Android|Windows Phone|BlackBerry|SymbianOS)/i.test(navigator.userAgent)) {
+					var h = document.getElementsByTagName("head")[0];
+					h.insertAdjacentHTML('beforeEnd', '<meta name="apple-mobile-web-app-capable" content="yes">');
+					h.insertAdjacentHTML('beforeEnd', '<meta name="apple-mobile-web-app-status-bar-style" content="black">');
+					h.insertAdjacentHTML('beforeEnd', '<meta name="format-detection" content="telephone=no">');
+					h.insertAdjacentHTML('beforeEnd', '<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui" />');
+					if(mode == 'px') {
+						if(!win.addEventListener) return;
+						var html = document.documentElement;
+
+						function setFont() {
+							function adaptVP(a) {
+								function c() {
+									var c, d;
+									return b.uWidth = a.uWidth ? a.uWidth : 750, b.dWidth = a.dWidth ? a.dWidth : window.screen.width || window.screen.availWidth, b.ratio = window.devicePixelRatio ? window.devicePixelRatio : 1, b.userAgent = navigator.userAgent, b.bConsole = a.bConsole ? a.bConsole : !1, a.mode ? (b.mode = a.mode, void 0) : (c = b.userAgent.match(/Android/i), c && (b.mode = "android-2.2", d = b.userAgent.match(/Android\s(\d+.\d+)/i), d && (d = parseFloat(d[1])), 2.2 == d || 2.3 == d ? b.mode = "android-2.2" : 4.4 > d ? b.mode = "android-dpi" : d >= 4.4 && (b.mode = b.dWidth > b.uWidth ? "android-dpi" : "android-scale")), void 0)
+								}
+
+								function d() {
+									var e, f, g, h, c = "",
+										d = !1;
+									switch(b.mode) {
+										case "apple":
+											f = (window.screen.availWidth * b.ratio / b.uWidth) / b.ratio;
+											c = "width=" + b.uWidth + ",initial-scale=" + f + ",minimum-scale=" + f + ",maximum-scale=" + f + ",user-scalable=no";
+											break;
+										case "android-2.2":
+											a.dWidth || (b.dWidth = 2 == b.ratio ? 720 : 1.5 == b.ratio ? 480 : 1 == b.ratio ? 375 : .75 == b.ratio ? 240 : 480), e = window.screen.width || window.screen.availWidth, 375 == e ? b.dWidth = b.ratio * e : 750 > e && (b.dWidth = e), b.mode = "android-dpi", d = !0;
+										case "android-dpi":
+											f = 160 * b.uWidth / b.dWidth * b.ratio, c = "target-densitydpi=" + f + ", width=" + b.uWidth + ", user-scalable=no", d && (b.mode = "android-2.2");
+											break;
+										case "android-scale":
+											c = "width=" + b.uWidth + ", user-scalable=no"
+									}
+									g = document.querySelector("meta[name='viewport']") || document.createElement("meta"), g.name = "viewport", g.content = c, h = document.getElementsByTagName("head"), h.length > 0 && h[0].appendChild(g)
+								}
+
+								function e() {
+									var a = "";
+									for(key in b) a += key + ": " + b[key] + "; ";
+									alert(a)
+								}
+								if(a) {
+									var b = {
+										uWidth: 0,
+										dWidth: 0,
+										ratio: 1,
+										mode: "apple",
+										userAgent: null,
+										bConsole: !1
+									};
+									c(), d(), b.bConsole && e()
+								}
+							};
+							adaptVP({
+								uWidth: 750
+							});
+						}
+						win.addEventListener('resize', setFont, false)
+						setFont();
+					} else if(mode == 'rem') {
+						var docEl = doc.documentElement,
+							resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+							recalc = function() {
+								var clientWidth = docEl.clientWidth;
+								if(!clientWidth) return;
+								docEl.style.fontSize = 100 * (clientWidth / std) + 'px';
+							};
+						if(!doc.addEventListener) return;
+						recalc();
+						win.addEventListener(resizeEvt, recalc, false);
+						doc.addEventListener('DOMContentLoaded', recalc, false);
+					}
+				}
+			})(window, document, 'px');
+		</script>
+	</head>
+
+	<body>
+		<!-- 页面主体代码 -->
+		<div class="wrap">
+			<h1 class="hidden">至臻2019终章</h1>
+			<div class="head">
+				<a href="//lol.qq.com" target="_blank" class="logo" title="英雄联盟" onclick="PTTSendClick('btn','logo','英雄联盟');">英雄联盟</a>
+				<p class="act-time">活动时间  2020年1月1日10：00 —— 2020年2月4日9：59</p>
+			</div>
+			<div class="content">
+				<div class="cont1">
+					<p class="title title1">至臻点兑换时间</p>
+					<p class="txt txt1">元旦已至，恭祝各位召唤师新年快乐！至臻2019终章事件现已限时开放！<br />通过杰作宝箱礼包获取至臻点2019，兑换2019赛季的至臻点商城限定皮肤，更可在2019终章事件商城兑换珍稀限定图标、表情等纪念品！<br />已获得的至臻点2019即将于<span>2020年2月4日9：59过期</span>（略晚于此前公布的2020年1月31日），未消耗的至臻点2019将会失效，敬请及时兑换。<br />如何获取至臻点2019？<span>通过杰作宝箱获得至臻点2019</span>，
+						<a href="//lol.qq.com/act/a20171205hextech/" target="_blank" class="btn-go" onclick="PTTSendClick('btn','btn-go','点击直达');">点击直达</a>；<br />或参与黑夜与黎明2019事件，<span>购买门票完成里程碑任务</span>，最高获取25个至臻点2019。</p>
+					<p class="txt txt2">元旦已至，恭祝各位召唤师新年快乐！<br />至臻2019终章事件现已限时开放！<br />通过杰作宝箱礼包获取至臻点2019，<br />兑换2019赛季的至臻点商城限定皮肤，<br />更可在2019终章事件商城兑换珍稀限定图标、表情等纪念品！<br />已获得的至臻点2019即将于<span>2020年2月4日9：59过期</span><br />（略晚于此前公布的2020年1月31日），<br />未消耗的至臻点2019将会失效，敬请及时兑换。<br />如何获取至臻点2019？<br /><span>通过杰作宝箱获得至臻点2019</span>，
+						<a href="//lol.qq.com/act/a20171205hextech/" target="_blank" class="btn-go" onclick="PTTSendClick('btn','btn-go','点击直达');">点击直达</a>；<br />或参与黑夜与黎明2019事件，<br /><span>购买门票完成里程碑任务</span>，最高获取25个至臻点2019。</p>
+				</div>
+				<div class="cont2">
+					<p class="title title2">至臻点兑换商城</p>
+					<p class="tips">请登录客户端，前往“战利品”进行兑换</p>
+					<p class="title-sub title1-sub">至臻皮肤兑换</p>
+
+					<ul class="skin">
+						<li class="four">
+							<em></em>
+							<p>K/DA 阿狸 至臻</p>
+							<span><i></i>x100</span>
+						</li>
+						<li class="one">
+							<em></em>
+							<p>星之守护者 妮蔻 至臻</p>
+							<span><i></i>x100</span>
+						</li>
+						<li class="two">
+							<em></em>
+							<p>未来战士 锤石 至臻</p>
+							<span><i></i>x100</span>
+						</li>
+						<li class="seven">
+							<em></em>
+							<p>魅惑女巫 厄运小姐 至臻</p>
+							<span><i></i>x100</span>
+						</li>
+						<li class="three">
+							<em></em>
+							<p>腥红之月 亚托克斯 至臻</p>
+							<span><i></i>x100</span>
+						</li>
+
+						<li class="five">
+							<em></em>
+							<p>绒毛 菲兹 至臻</p>
+							<span><i></i>x100</span>
+						</li>
+						<li class="six">
+							<em></em>
+							<p>K/DA 伊芙琳 至臻</p>
+							<span><i></i>x100</span>
+						</li>
+
+					</ul>
+					<p class="title-sub title1-sub">其他至臻战利品兑换</p>
+					<ul class="spoils">
+						<li>
+							<img src="//game.gtimg.cn/images/lol/act/a20200101prestigeshop/pic1.png" alt="源计划2019福袋" />
+							<p>源计划2019福袋</p>
+							<span><i></i>x50</span>
+						</li>
+						<!--<li class="same">
+							<img src="//game.gtimg.cn/images/lol/act/a20200101prestigeshop/pic2.png" alt="2019春节福袋" />
+							<p>2019春节福袋</p>
+							<span><i></i>x50</span>
+						</li>-->
+						<li  class="same">
+							<img src="//game.gtimg.cn/images/lol/act/a20200101prestigeshop/pic3.png" alt="电玩2019福袋" />
+							<p>电玩2019福袋</p>
+							<span><i></i>x50</span>
+						</li>
+						<li>
+							<img src="//game.gtimg.cn/images/lol/act/a20200101prestigeshop/pic4.png" alt="比心！动画表情" />
+							<p>比心！动画表情</p>
+							<span><i></i>x25</span>
+						</li>
+						<li class="same">
+							<img src="//game.gtimg.cn/images/lol/act/a20200101prestigeshop/pic5.png" alt="至臻2019 守卫皮肤" />
+							<p>至臻2019 守卫皮肤</p>
+							<span><i></i>x15</span>
+						</li>
+						<li>
+							<img src="//game.gtimg.cn/images/lol/act/a20200101prestigeshop/pic6.png" alt="至臻2019 图标" />
+							<p>至臻2019 图标</p>
+							<span><i></i>x5</span>
+						</li>
+						<li class="same">
+							<img src="//game.gtimg.cn/images/lol/act/a20200101prestigeshop/pic7.png" alt="试炼2019 黄金图标" />
+							<p>试炼2019 黄金图标</p>
+							<span><i></i>x5</span>
+						</li>
+						<li>
+							<img src="//game.gtimg.cn/images/lol/act/a20200101prestigeshop/pic8.png" alt="金杯 图标" />
+							<p>金杯 图标</p>
+							<span><i></i>x5</span>
+						</li>
+						<li class="same">
+							<img src="//game.gtimg.cn/images/lol/act/a20200101prestigeshop/pic9.png" alt="源计划2019门票至臻图标" />
+							<p>源计划2019门票至臻图标</p>
+							<span><i></i>x5</span>
+						</li>
+						<li>
+							<img src="//game.gtimg.cn/images/lol/act/a20200101prestigeshop/pic10.png" alt="全球总决赛2019黄金图标" />
+							<p>全球总决赛2019黄金图标</p>
+							<span><i></i>x5</span>
+						</li>
+						<li class="same">
+							<img src="//game.gtimg.cn/images/lol/act/a20200101prestigeshop/pic11.png" alt="海克斯科技钥匙" />
+							<p>海克斯科技钥匙</p>
+							<span><i></i>x3</span>
+						</li>
+						<li>
+							<img src="//game.gtimg.cn/images/lol/act/a20200101prestigeshop/pic12.png" alt="140橙色精萃" />
+							<p>140橙色精萃</p>
+							<span><i></i>x1</span>
+						</li>
+					</ul>
+				</div>
+				<div class="cont3">
+					<p class="title title3">杰作宝箱限时销售</p>
+					<p class="title-sub title3-sub">售卖时间：2020年1月1日10：00——2020年2月3日9：59</p>
+					<p class="tips">温馨提示：购买杰作宝箱礼包，可以获得至臻点2019</p>
+					<ul>
+						<li class="same">
+							<div>
+								<img src="//game.gtimg.cn/images/lol/act/a20200101prestigeshop/img1.png" alt="魄罗守卫（7天）100Q币" />
+								<div>
+									<div class="buy-box">
+										<span>购 魄罗守卫（7天）130Q币</span>
+									</div>
+									<p>赠 杰作宝箱 x11、海克斯钥匙 x11、至臻点(2019)x13</p>
+								</div>
+							</div>
+							<a href="//lol.qq.com/act/a20171205hextech/" target="_blank" onclick="PTTSendClick('btn','btn-buy1','立即购买');" class="btn-buy">立即购买</a>
+						</li>
+						<li>
+							<div>
+								<img src="//game.gtimg.cn/images/lol/act/a20200101prestigeshop/img2.png" alt="阴森枯木守卫(7天)50Q币" />
+								<div>
+									<div class="buy-box">
+										<span>购 阴森枯木守卫（7天）65Q币</span>
+									</div>
+									<p>赠 杰作宝箱 x5、海克斯钥匙 x5、橙色精粹 x50、至臻点(2019)x6</p>
+								</div>
+							</div>
+							<a href="//lol.qq.com/act/a20171205hextech/" target="_blank" onclick="PTTSendClick('btn','btn-buy2','立即购买');" class="btn-buy">立即购买</a>
+						</li>
+						<li class="same">
+							<div>
+								<img src="//game.gtimg.cn/images/lol/act/a20200101prestigeshop/img3.png" alt="美味姜饼守卫(7天) 10Q币" />
+								<div>
+									<div class="buy-box">
+										<span>购 美味姜饼守卫（7天）13Q币</span>
+									</div>
+									<p>赠 杰作宝箱 x1、海克斯钥匙 x1、至臻点(2019)x1</p>
+								</div>
+							</div>
+							<a href="//lol.qq.com/act/a20171205hextech/" target="_blank" onclick="PTTSendClick('btn','btn-buy3','立即购买');" class="btn-buy">立即购买</a>
+						</li>
+						<li>
+							<div>
+								<img src="//game.gtimg.cn/images/lol/act/a20200101prestigeshop/img4.png" alt="马年铜锣守卫(7天)10Q币" />
+								<div>
+									<div class="buy-box">
+										<span>购 马年铜锣守卫（7天）8.5Q币</span>
+									</div>
+									<p>赠 杰作宝箱 x1</p>
+								</div>
+							</div>
+							<a href="//lol.qq.com/act/a20171205hextech/" target="_blank" onclick="PTTSendClick('btn','btn-buy4','立即购买');" class="btn-buy">立即购买</a>
+						</li>
+					</ul>
+				</div>
+				<div class="cont4">
+					<p class="faq"></p>
+
+					<div>
+						<p class="question"><span>Q：</span>至臻点2019过期日期是哪天？</p>
+						<p class="answer answer1"><span>A：</span>至臻点2019即将于2020年2月4日9 :59过期（略晚于此前公布的2020年1月31日），未消耗的至臻点将会失效。</p>
+						<p class="answer answer2"><span>A：</span>至臻点2019即将于2020年2月4日9 :59过期（略晚于此前<br />公布的2020年1月31日），未消耗的至臻点将会失效。</p>
+					</div>
+					<div>
+						<p class="question"><span>Q：</span>杰作宝箱销售日期截止到哪天？</p>
+						<p class="answer answer1"><span>A：</span>购买杰作宝箱赠至臻点（2019）的销售截止时间为2020年2月3日9：59 。 </p>
+						<p class="answer answer2"><span>A：</span>购买杰作宝箱赠至臻点（2019）的销售截止时间为<br />2020年2月3日9：59 。 </p>
+					</div>
+					<div>
+						<p class="question"><span>Q：</span>在哪里可以购买杰作宝箱？</p>
+						<p class="answer answer1"><span>A：</span>登录游戏客户端后，直接进入游戏内商城，选择”礼包“类型进行购买 。</p>
+						<p class="answer answer2"><span>A：</span>登录游戏客户端后，直接进入游戏内商城，<br />选择”礼包“类型进行购买 。</p>
+					</div>
+					<div>
+						<p class="question"><span>Q：</span>打开杰作宝箱有什么奖励？</p>
+						<p class="answer answer1"><span>A：</span>使用钥匙开启杰作宝箱，可以获得皮肤、召唤师图标、守卫皮肤及英雄奖励，还有机会获得限定皮肤奖励，具体请在海克斯战利品详情页查看：<a href="//lol.qq.com/act/a20171205hextech/" target="_blank" class="btn-go2" onclick="PTTSendClick('btn','btn-go2','点击前往>>>');">点击前往>>></a></p>
+						<p class="answer answer2"><span>A：</span>使用钥匙开启杰作宝箱，可以获得皮肤、召唤师图标、<br />守卫皮肤及英雄奖励，还有机会获得限定皮肤奖励，<br />具体请在海克斯战利品详情页查看：<a href="//lol.qq.com/act/a20171205hextech/" target="_blank" class="btn-go2" onclick="PTTSendClick('btn','btn-go2','点击前往>>>');">点击前往>>></a></p>
+					</div>
+					<div>
+						<p class="question"><span>Q：</span>杰作宝箱获得的奖励如何领取？</p>
+						<p class="answer answer1"><span>A：</span>开启杰作宝箱发现的奖励，会存放于游戏客户端海克斯战利品库内，请前往客户端解锁。   </p>
+						<p class="answer answer2"><span>A：</span>开启杰作宝箱发现的奖励，会存放于游戏客户端<br />海克斯战利品库内，请前往客户端解锁。   </p>
+					</div>
+					<div>
+						<p class="question"><span>Q：</span>如何从黑夜与黎明2019事件中获取至臻点？</p>
+						<p class="answer answer1"><span>A：</span>通过购买黑夜与黎明2019门票并完成里程碑任务，最多可以获得25个至臻点2019。黑夜与黎明2019事件门票的销售时间为2019年12月13日12:00—2020年1月14日06:59；黑夜与黎明2019事件里程碑任务时间为2019年12月13日12:00—2020年1月14日06:59 。</p>
+						<p class="answer answer2"><span>A：</span>通过购买黑夜与黎明2019门票并完成里程碑任务，最多可以获得25个至臻点2019。黑夜与黎明2019事件门票的销售时间为2019年12月13日12:00—2020年1月14日06:59；黑夜与黎明2019事件里程碑任务时间为2019年12月13日12:00—2020年1月14日06:59 。</p>
+					</div>
+					<div>
+						<p class="question"><span>Q：</span>我已经有期限守卫皮肤了，再次购买后使用期限如何计算？</p>
+						<p class="answer answer1"><span>A：</span>期限守卫皮肤可重复购买，购买之后会直接延长原有效期限。</p>
+						<p class="answer answer2"><span>A：</span>期限守卫皮肤可重复购买，购买之后会直接延长原有效期限。</p>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+
+		<!--安全-->
+		<script src="//js.aq.qq.com/js/aq_common.js"></script>
+				
+		<script>
+			//加载js
+			function loadScripts(t, e) {
+				function a() {
+					var o = document.createElement("script");
+					o.type = "text/javascript";
+					var c = -1 == t[n].indexOf("?") ? t[n] + "?d=" + Math.random() : t[n] + "&d=" + Math.random();
+					o.src = c, document.body.appendChild(o), n++, o.readyState ? o.onreadystatechange = function() {
+						("loaded" == o.readyState || "complete" == o.readyState) && (o.onreadystatechange = null, d++, d < t.length - 1 ? a() : e && e())
+					} : o.onload = function() {
+						d++, d < t.length ? a() : e && e()
+					}
+				}
+				e = e || function() {};
+				var n = 0,
+					d = 0;
+				a()
+			}
+			if(/(iPhone|iPad|iPod|iOS|Android|Windows Phone|BlackBerry|SymbianOS)/i.test(navigator.userAgent)) {
+				loadScripts([
+					"//pub.idqqimg.com/qqmobile/qqapi.js?_bid=152", //用户手Q分享以及在手机上拉起掌盟
+					"//game.gtimg.cn/images/js/2018foot/foot.js", //公共底部
+					"//ossweb-img.qq.com/images/js/zepto/zepto.min.js", //移动端必引，同时分享依赖该文件
+					"//ossweb-img.qq.com/images/js/mobile_bundle/milo.js", //分享依赖该文件
+					"//lol.qq.com/m/public/LOL_App.js" //核心JS
+				], function() {
+					init_ZMApp({
+						'title': '至臻2019终章事件开启',
+						'summery': '至臻点（2019）购买及兑换即将结束，召唤师可在2019终章事件商城兑换珍稀限定图标、表情等纪念品',
+						'subtitle': '至臻2019终章事件开启',
+						'img': 'https://game.gtimg.cn/images/lol/act/a20200101prestigeshop/share.jpg',
+						'url': location.href.split('?')[0],
+						'WXtrigger': function(res) {
+							//微信动作回调
+						},
+						'WXsuccess': function(res) {
+							//微信成功回调
+							if(!res) return;
+							if(res.errMsg == 'sendAppMessage:ok') {
+								//微信分享个人
+								PTTSendClick('btn', 'sharewx1', '分享给好友');
+							} else if(res.errMsg == 'shareTimeline:ok') {
+								//微信分享朋友圈
+								PTTSendClick('btn', 'sharewx2', '分享到朋友圈');
+							} else if(res.errMsg == 'shareQQ:ok') {
+								//微信分享至QQ
+								PTTSendClick('btn', 'shareqq', '分享到QQ');
+							}
+						},
+						'WXcancel': function(res) {
+							//微信分享取消动作回调
+							PTTSendClick('btn', 'sharewx_cancel', '分享取消');
+						},
+						'WXfail': function(res) {
+							//微信分享失败动作回调
+							PTTSendClick('btn', 'sharewx_fail', '分享失败');
+						},
+						'QQtrigger': function(res) {
+							//QQ动作回调
+
+						},
+						'QQcallback': function(res) {
+							//QQ分享成功
+							PTTSendClick('btn', 'shareqq_succ', 'QQ分享成功');
+						},
+						'LOL_APPsuccess': function(res) {
+							//掌盟分享成功
+							PTTSendClick('btn', 'sharezm_succ', '掌盟分享成功');
+						}
+					});
+
+					//移动端脚本逻辑
+					//限制微信字体放大
+					(function() {
+						if(typeof WeixinJSBridge == "object" && typeof WeixinJSBridge.invoke == "function") {
+							handleFontSize();
+						} else {
+							if(document.addEventListener) {
+								document.addEventListener("WeixinJSBridgeReady", handleFontSize, false);
+							} else if(document.attachEvent) {
+								document.attachEvent("WeixinJSBridgeReady", handleFontSize);
+								document.attachEvent("onWeixinJSBridgeReady", handleFontSize);
+							}
+						}
+
+						function handleFontSize() {
+							// 设置网页字体为默认大小
+							WeixinJSBridge.invoke('setFontSizeCallback', {
+								'fontSize': 0
+							});
+							// 重写设置网页字体大小的事件
+							WeixinJSBridge.on('menu:setfont', function() {
+								WeixinJSBridge.invoke('setFontSizeCallback', {
+									'fontSize': 0
+								});
+							});
+						}
+					})();
+				})
+			} else {
+				loadScripts([
+					"//ossweb-img.qq.com/images/lol/title/lol.js",
+					"//game.gtimg.cn/images/js/2018foot/foot.js",
+				], function() {
+
+					//PC端脚本逻辑
+				});
+			}
+		</script>
+
+		<script src="//ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js"></script>
+		<script>
+			//此段代码不能放到外链JS中，
+			var setSite = { //设置网站属性
+				siteType: "a20200101prestigeshop", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+				pageType: "index", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN,不支持点(.)、下划线(_)
+				pageName: "首页", //必填项:页面中文名
+				project: "commerce", //必填项:按照模块内容，填写固定的对应值;皮肤 skin;英雄 hero;商业化 commerce;赛事 match;运营/版本 version;品牌 brand;IP ip;社区 community;网吧投放 netbar;默认other;
+				osact: 0 //选填项:是否是官网专题(在官网运营的专题)boolean；默认是0；可以在链接上加入参数osact=1来灵活设置
+			};
+			if(typeof(pgvMain) == 'function') pgvMain(); //千万不能忘记！
+		</script>
+	</body>
+
+</html>
