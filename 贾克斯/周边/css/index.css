@@ -1,0 +1,807 @@
+/* reset */
+body,
+dl,
+dd,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form,
+header,
+section,
+article,
+footer {
+  margin: 0;
+}
+body,
+button,
+input,
+select,
+textarea {
+  font: 12px/1.5 tahoma, '\5FAE\8F6F\96C5\9ED1', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+}
+em,
+b {
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+a:hover {
+  text-decoration: none;
+}
+img {
+  border: 0;
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  outline: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td,
+th,
+ul,
+ol {
+  padding: 0;
+  list-style: none;
+}
+body {
+  /* padding-top: 42px; */
+  background: #000;
+  padding-bottom: 1.4rem;
+  font-family: "\5FAE\8F6F\96C5\9ED1";
+}
+.hidden {
+  display: none;
+  font-size: 0;
+  text-indent: -999em;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: ' ';
+  clear: both;
+  height: 0;
+}
+.clearfix {
+  *zoom: 1;
+}
+#afooter {
+  text-align: center;
+  line-height: 2em;
+  color: #fff;
+  position: relative;
+  z-index: 2;
+  margin: 0 auto;
+  font-size: 12px;
+  padding: 2em 0;
+  min-width: 1200px;
+  background: transparent;
+}
+#afooter a {
+  color: #fff;
+}
+#ams_user_headimg {
+  display: none;
+}
+
+/* main */
+.wrapper {
+  max-width: 1920px;
+  min-width: 1200px;
+  margin: 0 auto 0;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  font-size: 0;
+  color: #fff;
+  height: 7125px;
+  line-height: 1.5;
+}
+.top-float {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+}
+/* .logo-lol {background: url(//game.gtimg.cn/images/lol/logo/middle.png);width: 200px;height: 72px;display: inline-block;} */
+.bgd {
+  width: 1920px;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin-left: -960px;
+}
+.bg {
+  width: 100%;
+  background-position: top center;
+}
+.bg1 {
+  height: 7017px;
+  background: url(//game.gtimg.cn/images/lolriotmall/act/a20200818godjax/bg.jpg) no-repeat;
+  position: relative;
+  top: 108px;
+}
+.content {
+  position: absolute;
+  width: 1920px;
+  height: auto;
+  left: 50%;
+  top: 0;
+  margin-left: -960px;
+}
+section {
+  position: relative;
+  margin: 0 auto;
+  width: 1200px;
+}
+.header {
+  width: 1200px;
+  position: relative;
+  margin: 0 auto;
+}
+.navbar {
+  height: 108px;
+  width: 1920px;
+  margin-left: -360px;
+  position: relative;
+}
+.navbar.lol-mall {
+  background: url(//game.gtimg.cn/images/lolriotmall/act/a20200818godjax/navbar.jpg) 0/100% 100% no-repeat;
+}
+.navbar.qq-mall {
+  background: url(//game.gtimg.cn/images/lolriotmall/act/a20200818godjax/navbar1.jpg) 0/100% 100% no-repeat;
+}
+.logo-lol {
+  position: absolute;left: 190px;top: 0;height: 100%;width: 140px;
+}
+.logo-zb {
+  position: absolute;left: 350px;top: 0;height: 100%;width: 76px;
+}
+.mall {
+  position: absolute;
+  top: 0;
+  left: 440px;
+  width: 170px;
+  height: 100%;
+}
+.navbar__btns {
+  position: absolute;
+  left: 640px;
+  height: 108px
+}
+.navbar__btn {
+  color: #4a4a5c;
+  font-size: 18px;
+  font-weight: 700;
+  display: inline-block;
+  width: 220px;
+  height: 100%;
+  box-sizing: border-box;
+  padding-top: 15px;
+  vertical-align: top;
+}
+.navbar__btn span {
+  color: #fff;
+  font-size: 24px;
+  display: inline-block;
+  width: 100%;
+  line-height: 1.2;
+}
+.navbar__btn-oneline span {
+  line-height: 2.4;
+}
+.navbar__btn.on,
+.navbar__btn:hover {
+  background: url(//game.gtimg.cn/images/lolriotmall/act/a20200818godjax/navbtn.jpg) 0/100% 100% no-repeat
+}
+.navbar__btn.on,
+.navbar__btn:hover {
+  color: #4b3f28;
+}
+.header__video {
+  position: relative;
+  width: 356px;
+  height: 200px;
+  margin: 870px auto 20px;
+}
+.header__video__btn-play {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url(//game.gtimg.cn/images/lolriotmall/act/a20200818godjax/video.jpg) 0/100% 100% no-repeat;
+}
+.header__video__btn-play:hover {
+  filter: brightness(1.2);
+}
+.header__btn {
+  width: 340px;
+  height: 101px;
+  display: inline-block;
+}
+.header__btn1 {
+  background: url(//game.gtimg.cn/images/lolriotmall/act/a20200818godjax/header-btn1.png) 0/100% 100% no-repeat
+}
+.header__btn2 {
+  background: url(//game.gtimg.cn/images/lolriotmall/act/a20200818godjax/header-btn2.png) 0/100% 100% no-repeat;
+  margin: 0 86px;
+}
+.header__btn3 {
+  background: url(//game.gtimg.cn/images/lolriotmall/act/a20200818godjax/header-btn3.png) 0/100% 100% no-repeat
+}
+.header__btn1.on,
+.header__btn1:hover {
+  background: url(//game.gtimg.cn/images/lolriotmall/act/a20200818godjax/header-btn1-on.png) 0/100% 100% no-repeat
+}
+.header__btn2.on,
+.header__btn2:hover {
+  background: url(//game.gtimg.cn/images/lolriotmall/act/a20200818godjax/header-btn2-on.png) 0/100% 100% no-repeat
+}
+.header__btn3.on,
+.header__btn3:hover {
+  background: url(//game.gtimg.cn/images/lolriotmall/act/a20200818godjax/header-btn3-on.png) 0/100% 100% no-repeat
+}
+.section1 {
+  padding-top: 50px;
+}
+.section1__title {
+  width: 1200px;
+  height: 199px;
+  background: url(//game.gtimg.cn/images/lolriotmall/act/a20200818godjax/title1.png) 0/100% 100% no-repeat;
+  margin-bottom: 30px;
+}
+.section1__left {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 50%;
+  vertical-align: top;
+}
+.section1__swiper {
+  width: 582px;
+  height: 626px;
+  position: relative;
+}
+.section1__swiper-container {
+  width: 578px;
+  height: 618px;
+  position: absolute;
+  top: 4px;
+  left: 2px;
+}
+.swiper-pagination1 {
+  bottom: 30px !important;
+}
+.swiper-pagination1 .swiper-pagination-bullet {
+  width: 17px;
+  height: 15px;
+  background: url(//game.gtimg.cn/images/lolriotmall/act/a20200818godjax/bullet.png) 0/100% 100% no-repeat;
+  opacity: 1;
+}
+.swiper-pagination1 .swiper-pagination-bullet-active {
+  background: url(//game.gtimg.cn/images/lolriotmall/act/a20200818godjax/bullet-on.png) 0/100% 100% no-repeat;
+}
+.section1__swiper__frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 582px;
+  height: 626px;
+  background: url(//game.gtimg.cn/images/lolriotmall/act/a20200818godjax/swiper-dec.png) 0/100% 100% no-repeat;
+  z-index: 9;
+  pointer-events: none;
+}
+.section1__right {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 50%;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+.section1__right::before {
+  content: '九周年限定';
+  position: absolute;
+  top: 25px;
+  right: 120px;
+  width: 52px;
+  height: 138px;
+  background: url(//game.gtimg.cn/images/lolriotmall/act/a20200818godjax/tag.png) 0/100% 100% no-repeat;
+}
+.section1__subtitle {
+  font-size: 40px;
+  color: #e2b770;
+  font-weight: 700;
+  text-align: left;
+}
+.section1__desc {
+  font-size: 18px;
+  color: #e1dfe9;
+  list-style: disc;
+  text-align: left;
+  padding: 30px 0 50px 20px;
+  line-height: 2;
+}
+.section1__slg {
+  width: 539px;
+  height: 93px;
+  background: url(//game.gtimg.cn/images/lolriotmall/act/a20200818godjax/slg.png) 0/100% 100% no-repeat;
+  margin: 0 0 40px;
+}
+.section1__sets {
+  width: 579px;
+  margin: 0 -20px;
+}
+.section1__sets__purchase {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  position: relative;
+  line-height: 1.2;
+  padding-bottom: 100px;
+}
+.section1__price__pre {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 1.1;
+  padding: 2px;
+  position: relative;
+  margin-right: 5px;
+  top: -5px;
+}
+.section1__price__pre1 {
+  color: #e4bd70;
+  border: 2px solid #e4bd70;
+}
+.section1__price__pre2 {
+  color: #df994c;
+  border: 2px solid #df994c;
+}
+.section1__price__num {
+  display: inline-block;
+  font-size: 60px;
+  font-weight: 700;
+}
+.section1__price__num1 {
+  color: #ffedcf;
+}
+.section1__price__num2 {
+  color: #df994c;
+}
+.section1__price__num::after {
+  content: '元';
+  font-size: 24px;
+  display: inline-block;
+  margin-left: 5px;
+}
+.section1__purchase__notice {
+  font-size: 18px;
+  color: #a1a1a1;
+}
+.section1__purchase__notice span {
+  color: #ffdb8d;
+}
+.section1__purchase__btn {
+  position: absolute;
+  top: 110px;
+  left: 50%;
+  width: 246px;
+  height: 74px;
+  margin-left: -123px;
+}
+.section1__purchase__btn:hover {
+  filter: brightness(1.2);
+}
+.purchase__btn-set1 {
+  background: url(//game.gtimg.cn/images/lolriotmall/act/a20200818godjax/btn-set1.png) 0/100% 100% no-repeat
+}
+.purchase__btn-set2 {
+  background: url(//game.gtimg.cn/images/lolriotmall/act/a20200818godjax/btn-set2.png) 0/100% 100% no-repeat
+}
+.section1__plain {
+  position: relative;
+  padding-top: 360px;
+}
+.section1__plain__purchase {
+  position: absolute;
+  top: 760px;
+  left: 890px;
+  color: #e2b770;
+  font-size: 24px;
+  width: 274px;
+}
+.section1__plain__swiper{width: 523px; height: 708px;}
+.section1__plain__swiper .swiper-wrapper{width: 523px; height: 708px;}
+.purchase__btn-plain {
+  width: 274px;
+  height: 81px;
+  background: url(//game.gtimg.cn/images/lolriotmall/act/a20200818godjax/btn-purchase.png) 0/100% 100% no-repeat;
+  display: block;
+  font-size: 0;
+  top: 85px;
+}
+.section1__price__num3 {
+  color: #ffedcf;
+}
+.section1__price__num3::after {
+  color: #e2b770;
+}
+.section1__plain__swiper__con {
+  width: 523px;
+  height: 708px;
+  display: block;
+  margin: 0 auto;
+}
+.section1__plain__swiper__btn-prev {
+  position: absolute;
+  top: 610px;
+  left: 190px;
+  width: 79px;
+  height: 48px;
+  background: url(//game.gtimg.cn/images/lolriotmall/act/a20200818godjax/btn-switch.png) 0/100% 100% no-repeat;
+  z-index: 4;
+}
+.section1__plain__swiper__btn-next {
+  position: absolute;
+  top: 610px;
+  left: 930px;
+  width: 79px;
+  height: 48px;
+  background: url(//game.gtimg.cn/images/lolriotmall/act/a20200818godjax/btn-switch.png) 0/100% 100% no-repeat;
+  transform: rotate(180deg);
+  z-index: 4;
+}
+.section1__plain__swiper__btn-prev:hover,
+.section1__plain__swiper__btn-next:hover {
+  background: url(//game.gtimg.cn/images/lolriotmall/act/a20200818godjax/btn-switch-on.png) 0/100% 100% no-repeat
+}
+.section2 {
+  padding-top: 50px;
+}
+.section2__title {
+  width: 1200px;
+  height: 183px;
+  background: url(//game.gtimg.cn/images/lolriotmall/act/a20200818godjax/title2.png) 0/100% 100% no-repeat;
+  margin-bottom: 60px;
+}
+.section2__bg {
+  width: 1920px;
+  height: 471px;
+  margin-left: -360px;
+  background: url(//game.gtimg.cn/images/lolriotmall/act/a20200818godjax/t.png) 0/100% 100% no-repeat;
+  box-sizing: border-box;
+  padding-top: 320px;
+  position: relative;
+}
+.section2__a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.section2__purchase {
+  color: #e2b770;
+  font-size: 30px;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+}
+.section2__price__num {
+  font-size: 60px;
+  font-weight: 700;
+}
+.section2__btn-purchase {
+  font-size: 0;
+  width: 274px;
+  height: 81px;
+  background: url(//game.gtimg.cn/images/lolriotmall/act/a20200818godjax/btn-purchase.png) 0/100% 100% no-repeat;
+  display: block;
+  margin: 0 auto;
+}
+.section2__btn-purchase:hover {
+  filter: brightness(1.2);
+}
+.section3 {
+  padding-top: 100px;
+}
+.section3__title {
+  width: 1200px;
+  height: 181px;
+  background: url(//game.gtimg.cn/images/lolriotmall/act/a20200818godjax/title3.png) 0/100% 100% no-repeat
+}
+.section3__body {
+  width: 738px;
+  height: 270px;
+  background: url(//game.gtimg.cn/images/lolriotmall/act/a20200818godjax/gift.png) 0/100% 100% no-repeat;
+  margin: 30px auto 0;
+  position: relative;
+}
+.section3__btn {
+  position: absolute;
+  top: 120px;
+  left: 390px;
+}
+.section3__btn-get {
+  width: 340px;
+  height: 101px;
+  background: url(//game.gtimg.cn/images/lolriotmall/act/a20200818godjax/btn-get.png) 0/100% 100% no-repeat;
+  display: block;
+  margin: 0 auto;
+}
+.section3__btn-get:hover {
+  filter: brightness(1.2);
+}
+.section3__link-help {
+  font-size: 18px;
+  text-decoration: underline !important;
+  color: #fff;
+  display: inline-block;
+  margin-top: 20px;
+}
+.section4 {
+  padding-top: 60px;
+}
+.section4__title {
+  width: 1200px;
+  height: 219px;
+  background: url(//game.gtimg.cn/images/lolriotmall/act/a20200818godjax/title4.png) 0/100% 100% no-repeat;
+  margin-bottom: 40px;
+}
+.section4__series1 {
+  width: 1200px;
+  height: 397px;
+  background: url(//game.gtimg.cn/images/lolriotmall/act/a20200818godjax/series1.png) 0/100% 100% no-repeat;
+  margin-bottom: 30px;
+  position: relative;
+}
+.section4__series2 {
+  width: 1200px;
+  height: 404px;
+  background: url(//game.gtimg.cn/images/lolriotmall/act/a20200818godjax/series2.png) 0/100% 100% no-repeat;
+  margin-bottom: 30px;
+  position: relative;
+}
+.section4__price {
+  font-size: 18px;
+  color: #201d16;
+  font-weight: 700;
+}
+.section4__price__num {
+  font-size: 53px;
+  color: #552a1e;
+}
+.section4__purchase {
+  position: absolute;
+  top: 210px;
+}
+.section4__purchase1,
+.section4__purchase3 {
+  left: 350px;
+}
+.section4__purchase2,
+.section4__purchase4 {
+  left: 900px;
+}
+.section4__purchase__btn {
+  display: block;
+  margin: 0 auto;
+  width: 207px;
+  height: 64px;
+  background: url(//game.gtimg.cn/images/lolriotmall/act/a20200818godjax/btn-purchase2.png) 0/100% 100% no-repeat;
+}
+.section4__purchase__btn:hover {
+  filter: brightness(1.2);
+}
+.section4__purchase__btn.runout {
+  background: url(//game.gtimg.cn/images/lolriotmall/act/a20200818godjax/btn-runout.png) 0/100% 100% no-repeat;
+  cursor: default;
+}
+.section4__purchase__btn.runout:hover {
+  filter: brightness(1);
+}
+.section4__purchase__btn.preparing {
+  background: url(//game.gtimg.cn/images/lolriotmall/act/a20200818godjax/btn-preparing.png) 0/100% 100% no-repeat;
+  cursor: default;
+}
+.section4__purchase__btn.preparing:hover {
+  filter: brightness(1);
+}
+.section4__good1 {
+  position: absolute;
+  top: 70px;
+  left: 115px;
+  width: 230px;
+  height: 280px;
+}
+.section4__good2 {
+  position: absolute;
+  top: 12px;
+  left: 783px;
+  width: 236px;
+  height: 223px;
+}
+.section4__good3 {
+  position: absolute;
+  top: 33px;
+  left: 113px;
+  width: 407px;
+  height: 170px;
+}
+.section4__good4 {
+  position: absolute;
+  top: 27px;
+  left: 670px;
+  width: 222px;
+  height: 333px;
+}
+.section4__swiper-container {
+  width: 1200px;
+  height: 218px;
+}
+.swiper-pagination2 .swiper-pagination-bullet {
+  width: 3px;
+  height: 3px;
+  border: 1px solid #6d657c;
+  background: #6d657c;
+  transform: rotate(45deg);
+  border-radius: 0;
+}
+.swiper-pagination2 .swiper-pagination-bullet-active {
+  border: 1px solid #d0aa80;
+  background: none;
+}
+.section5 {
+  padding-top: 30px;
+}
+.section5__title {
+  width: 1203px;
+  height: 147px;
+  background: url(//game.gtimg.cn/images/lolriotmall/act/a20200818godjax/title5.png) 0/100% 100% no-repeat;
+  margin-bottom: 30px;
+}
+.section5__rules {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: left;
+  color: #dcdcdc;
+  font-size: 16px;
+  list-style-type: disc
+}
+.section5__rule {
+  margin-bottom: 12px;
+}
+.section5__rule span {
+  color: #ffcb71;
+}
+.section5__rule a {
+  color: #ffcb71;
+  text-decoration: underline;
+}
+.nav {
+  position: fixed;
+  width: 178px;
+  height: 571px;
+  background: url(//game.gtimg.cn/images/lolriotmall/act/a20200818godjax/nav.png) 0/100% 100% no-repeat;
+  top: 50%;
+  right: 20px;
+  margin-left: -89px;
+  box-sizing: border-box;
+  padding-top: 128px;
+  z-index: 9;
+}
+.nav__btn {
+  display: block;
+  height: 47px;
+  line-height: 50px;
+  font-size: 16px;
+  color: #cfd1ee;
+}
+.nav__btn.on{
+  color: #e1a85b;
+  font-weight: 700;
+}
+.nav__btn-top {
+  display: block;
+  padding-top: 20px;
+  color: #fff;
+  font-size: 16px;
+}
+.nav__btn-top::before {
+  content: '';
+  width: 11px;
+  height: 7px;
+  display: block;
+  margin: 0 auto;
+  background: url(//game.gtimg.cn/images/lolriotmall/act/a20200818godjax/arr.png) 0/100% 100% no-repeat;
+}
+.nav__btn-top:hover {
+  color: #fff;
+  font-weight: 400;
+}
+.dialog-video {
+  width: 1000px;
+  height: 562px;
+  position: relative;
+  background: #000;
+  border: 2px solid #e4bd70;
+}
+.dialog-con,
+.video-container {
+  width: 100%;
+  height: 100%;
+}
+.dialog__btn-close {
+  position: absolute;
+  top: -10px;
+  right: -40px;
+  font-size: 50px;
+  line-height: 1;
+  color: #e4bd70;
+}
+
+.dialog-qr {
+  position: relative;
+  width: 300px;
+  height: 301px;
+  background: url(//game.gtimg.cn/images/lolriotmall/act/a20200818godjax/dialog.png) 0/100% 100% no-repeat;
+  box-sizing: border-box;
+  padding-top: 35px;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+}
+.dialog-qr img {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #4c4e7d;
+}
+
+
+@supports (-webkit-background-clip: text) {
+  .section1__subtitle,
+  .section1__price__num2,
+  .section1__price__pre2,
+  .section2__price {
+    background-image: linear-gradient(#e5c377 30%, #df984a 80%);
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+  .section4__price__num {
+    background-image: linear-gradient(#211d16 30%, #6e3022 80%);
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+  .nav__btn.on{
+    background-image: linear-gradient(#e5c377 30%, #df9649 80%);
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+}
