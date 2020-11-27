@@ -1,0 +1,367 @@
+/* reset */
+html,body,div,p,ul,li,dl,dt,dd,em,i,span,a,img,input,h1,h2,h3,h4,h5 {margin:0;padding:0}
+a,img,input {border:none;}
+body{font: 14px/1.75  -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;-webkit-tap-highlight-color: rgba(0,0,0,0);}
+a {text-decoration:none;}
+ul,li{list-style: none}
+div,img,a{outline: none;}
+a, img {-webkit-touch-callout: none; /* 禁止长按链接与图片弹出菜单，根据需要选择是否删除 */}
+html, body {
+    -webkit-user-select: none;   /* 禁止选中文本（如无文本选中需求，此为必选项） */
+    user-select: none;
+}
+/* reset end */
+html {
+  font-size: 50px;/* 兼容不支持vw的系统 */
+  font-size: 13.33333333vw;/* 7.5rem === 100vw */
+}
+
+@media (max-width: 1024px) {
+  html,body {
+    max-width: 1024px;
+  }
+}
+body{background: #412924;}
+
+#afooter{background-color: #191219;text-align: center;font-size:.22rem;padding:.2rem 0;}
+#afooter, #afooter a{color: #c0c0c0;text-decoration: none;}
+/* 图片分离路径示例 */
+/* .bg{background-image: url(//game.gtimg.cn/images/lol/act/a20190510battle/bg.jpg);} */
+
+.hidden{display: none; font-size: 0; text-indent: -999em;}
+.wrap{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/m-bg.jpg) no-repeat center top;background-size: 100% 100%;width:7.5rem;height: 72.7rem;position: relative;overflow: hidden;}
+.title{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/m-title.png) no-repeat;background-size: 7.5rem 12rem;width:7.5rem;height:12rem;}
+.btn{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/m-btn.png) no-repeat;background-size: 7.5rem 7rem;width: 7.5rem;height: 7rem;}
+.head,.cont1,.cont2,.cont3,.cont4,.cont5{width:7.5rem;overflow: hidden;position: relative;box-sizing: border-box;}
+.head{height: 10.62rem;}
+.cont1{height:22.3rem;}
+.cont2{height:9.4rem;}
+.cont3{height: 11.9rem;}
+.cont4{height:8.8rem;}
+.cont5{height: auto;}
+
+@font-face {
+	font-family:"dinot";
+	src: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/dinot.ttf);
+}
+/*logo  .head*/
+.head{width:7.5rem;margin: 0 auto;font-size: 0;padding-top: 0.34rem;text-align: center;}
+.head a{display: inline-block;vertical-align:top;height: 0.76rem;}
+.head a.logo-lol{width: 2rem; background: url(//game.gtimg.cn/images/lol/logo/middle-white.png) no-repeat center center; background-size: 100% auto;margin-right: 0.1rem;}
+.head a.logo-bar{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/logo2.png) no-repeat center top;background-size: 100% auto;width: 1.51rem;margin-right: 0.3rem;}
+.head a.logo-qq{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/logo3.png) no-repeat center center;background-size: 100% auto;width: 1.29rem;}
+.head .sub-tit{width:5.98rem;height: 0.4rem;position: absolute;top: 7.94rem;left: 50%;transform: translateX(-50%);}
+.head .sub-tit1{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/title-sub1.png) no-repeat;background-size: 100% 100%;}
+.head .sub-tit2{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/title-sub2.png) no-repeat;background-size: 100% 100%;}
+.head .sub-tit.on{display: none;}
+
+/*玩英雄联盟好礼抽不停 .cont1*/
+.cont1 .login-box{color: #e4d7b9;font-size:.2rem;line-height: 0.3rem;width:100%;text-align: center;height:1.24rem;padding-top: .24rem;box-sizing: border-box;}
+.cont1 .login-box a{color: #ffca70;font-weight: bold;}
+.cont1 .rask-box{width:7.1rem;height:8.54rem;margin: 0 auto;}
+.cont1 .rask-box>div{text-align: center;font-size: 0;}
+.cont1 .rask-box .line{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/m-line.png) no-repeat;background-size: 100% auto;width:7.1rem;height:.06rem;}
+.cont1 .rask-box .rask-head,.cont1 .rask-box .rask-txt{display: inline-block;vertical-align:top;padding-top: 0.34rem;height: auto;position: relative;}
+.cont1 .rask-box .rask-head{width: .9rem;height: .9rem;margin-right: 0.36rem;}
+.cont1 .rask-box .rask-txt{width: 5.38rem;text-align: left;}
+.cont1 .rask-box .points{width:100%;text-align: left;padding-left: 1.48rem;font-size: 0;padding-bottom: .4rem;}
+.cont1 .rask-box .rask-head i{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/bg-rask-head.png) no-repeat;background-size: 100% 100%;width:0.9rem;height:0.9rem;position: absolute;top: .34rem;left: 0;}
+.cont1 .rask-box .rask-head img{width: 0.9rem;height: 0.9rem;display: block;}
+.cont1 .rask-box .rask-txt .rask-txt1{color: #fcf0e1;font-size: 0.24rem;line-height:0.3rem;font-weight: bold;padding-bottom: .1rem;}
+.cont1 .rask-box .rask-txt .rask-txt2{color: #f9ca8d;font-size: 0.18rem;line-height:0.26rem;padding-bottom: .2rem;}
+.cont1 .rask-box .points p,.cont1 .rask-box .points span{display: inline-block;vertical-align:top;}
+.cont1 .rask-box .points p{color: #e4d7b9;font-size: 0.2rem;line-height:0.32rem;}
+.cont1 .rask-box .points span{color: #fcf0e1;font-size: 0.24rem;line-height:0.32rem;font-family:"dinot";}
+.cont1 .rask-box .points p strong{font-weight: normal;}
+.cont1 .rask-box .rask3 .points p{display: block;}
+.cont1 .rask-box .points p a{color: #ffca70;}
+.cont1 .rask-box .points p em{width: 0.02rem;height: 0.06rem;background: #8e807d;display: inline-block;vertical-align:middle;margin: -0.04rem 0.1rem 0
+.14rem;}
+.cont1 .rask-box .points .btn-ask,.cont1 .rask-box .points .btn-beask{width: 1.88rem;height: 0.46rem;display: inline-block;vertical-align:top;margin-top: 0.24rem;margin-bottom: .06rem;}
+.cont1 .rask-box .points .btn-ask{background-position: 0rem 0rem;}
+.cont1 .rask-box .points .btn-beask{background-position: -2.56rem 0rem;margin-right: 0.1rem;margin-left: -.2rem;}
+
+
+.cont1 .lottery-box{width:7.5rem;height: auto;margin: 0 auto;position: relative;}
+.cont1 .lottery-box .inte-txt{color: #e4d7b9;font-size: 0.22rem;line-height:0.4rem;text-align: center;font-weight: bold;padding-bottom: 0.34rem;}
+.cont1 .lottery-box .inte-txt span{color: #ffca70;font-size: 0.54rem;font-family:"dinot";letter-spacing: -.02rem;}
+.cont1 .lottery-box .inte-txt em{color: #ffca70;font-style: normal;}
+.cont1 .lottery-box ul{width: 7.5rem;height: 7.2rem;margin: 0 auto 0.4rem;position: relative;font-size: 0;text-align: center;}
+.cont1 .lottery-box ul li:nth-child(2n-1){margin-right:0.08rem;}
+.cont1 .lottery-box ul li:nth-child(7){display: none;}
+.cont1 .lottery-box ul li{width: 3.36rem;height: 1.64rem;display: inline-block;vertical-align:top;position: relative;margin-bottom: 0.14rem;}
+.cont1 .lottery-box ul li img{width: 100%;height: 100%;}
+.cont1 .lottery-box ul li i{width: 3.36rem;height: 1.64rem;position: absolute;top: 0;left: 0;z-index: 2;}
+.cont1 .lottery-box ul li.level-s i{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/bg-lottery1.png) no-repeat;background-size: 100% 100%;}
+.cont1 .lottery-box ul li.level-a i{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/bg-lottery2.png) no-repeat;background-size: 100% 100%;}
+.cont1 .lottery-box ul li.level-b i{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/bg-lottery3.png) no-repeat;background-size: 100% 100%;}
+.cont1 .lottery-box ul li em{width:0.58rem;height:0.58rem;position: absolute;top: 0;left: 0.06rem;z-index:1;display: block;}
+.cont1 .lottery-box ul li.level-s em{background-position: -0.78rem -4.98rem;}
+.cont1 .lottery-box ul li.level-a em{background-position: 0rem -4.98rem;display: none;}
+.cont1 .lottery-box ul li.level-b em{background-position: -1.6rem -4.98rem;display: none;}
+.cont1 .lottery-box ul li p{font-size: 0.18rem;line-height:0.38rem;text-align: center;width:3.06rem;position: absolute;bottom: 0.12rem;z-index: 3;left: 0.1rem;overflow: hidden;height: 0.42rem;}
+.cont1 .lottery-box ul li.level-s p,.cont1 .lottery-box ul li.level-a{color: #ffffff;}
+.cont1 .lottery-box ul li.level-b{color: #342222;}
+.cont1 .lottery-box ul li.on p:before,.cont1 .lottery-box ul li.on p:after{display: inline-block;vertical-align:top;width: 0.3rem;height: 0.38rem;}
+.cont1 .lottery-box ul li.on p:before,.cont1 .lottery-box ul li.on p:after{content: "";background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/icon1.png) no-repeat center center;background-size: 0.1rem 0.1rem;}
+.cont1 .lottery-box ul li.level-b p:before,.cont1 .lottery-box ul li.level-b p:after{content: "";background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/icon2.png) no-repeat center center;background-size: 0.1rem 0.1rem;}
+
+.cont1 .lottery-box .btn-lottery-box{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/m-bg-btn-lottery.png) no-repeat;background-size: 100% 100%;width:7.5rem;height: 1.06rem;margin: 0 auto;text-align: center;}
+.cont1 .lottery-box .btn-lottery-box a{display: inline-block;vertical-align:top;}
+.cont1 .lottery-box .btn-lottery-box a.btn-lottery{background-position: 0rem -.84rem;width: 3.91rem;height: 1.06rem;margin: 0 0.38rem;}
+.cont1 .lottery-box .btn-lottery-box a.btn-check,.cont1 .lottery-box .btn-lottery-box a.btn-record{color: #fbeedd;font-size: 0.2rem;line-height:1.02rem;text-decoration: underline;}
+.cont1 .lottery-box .use-txt{color: #b7b097;font-size: 0.2rem;line-height:0.44rem;text-align: center;}
+
+/*英雄皮肤放肆用，网吧特权享不停  .cont2*/
+.cont2 .txt{font-size:0;background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/m-txt-bar.png) no-repeat;background-size: 100% 100%;width:2.74rem;height:1.28rem;margin: 34px auto 204px;}
+.cont2 .btn-look{display: none;}
+.cont2 .box img{width: 1.66rem;height: 1.6rem;display: block;margin: 0 auto;}
+.cont2 .box p{color: #d5cbbe;font-size: 0.2rem;text-align: center;line-height: .6rem;}
+.cont2 .box p:before,.cont2 .box p:after{content: "";background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/icon1.png) no-repeat center center;background-size: 0.1rem 0.1rem;display: inline-block;vertical-align:top;width: 0.3rem;height: 0.6rem;}
+/*网吧特别福利祝你称霸全谷 cont3*/
+.cont3 .choise-city{width:6.74rem;height: auto;font-size: 0;margin: 0 auto;}
+.cont3 .choise-city p{color: #fcf0e1;font-size: 0.2rem;font-weight: bold;line-height: 0.5rem;padding-top: .16rem;}
+.cont3 .choise-city select{-webkit-appearance:none;appearance:none;border:none;;box-sizing:border-box;background-position: -5.22rem 0rem;width: 1.3rem;height: 0.44rem;color: #30281c;font-size: 0.18rem;line-height:0.44rem;padding-left: 0.1rem;}
+.cont3 .choise-city select.second{margin: 0 0.1rem;}
+.cont3 .choise-city select option{color: #30281c;background: #e8e1d7;}
+
+.cont3 .box{width: 7.5rem;height: auto;margin: 0 auto;font-size: 0;padding-top:.4rem;position: relative;}
+/*.cont3 .box .left,.cont3 .box .right{display: inline-block;vertical-align:top;position: relative;}*/
+.cont3 .box .left{width:7.5rem;height: auto;position: absolute;top:5.7rem;left: 0;box-sizing: border-box;padding-left: .4rem;}
+.cont3 .box .left .tit-txt{color: #e4bc7a;font-size: 0.36rem;line-height:0.5rem;font-weight: bold;}
+.cont3 .box .left .address-txt{color: #f0ecda;font-size: 0.2rem;line-height:0.3rem;}
+.cont3 .box .left .line{width: 0.18rem;height: 0.04rem;background: #896d51;margin: 0.22rem 0;}
+.cont3 .box .left .inner{width: 94%;height: 1rem;color: #cebdaa; font-size: 0; overflow: hidden;}
+/*.cont3 .box .left ul li{padding-bottom: 0.04rem;position: relative; overflow: hidden; font-size: 0;}*/
+.cont3 .box .left .inner p{position: relative;padding-left: 0.5rem;font-size: 0.16rem;line-height: .3rem;font-weight: normal;}
+.cont3 .box .left .inner span{font-size: 0.16rem;position: absolute;top: 0;left: 0; /*display: inline-block;vertical-align: top;*/}
+.cont3 .box .left .inner b{font-size: 0.16rem;color: #f0ecda;font-weight: normal;}
+.cont3 .box .left .tips{color: #f0ecda;font-size: .16rem;display: none;}
+/*.cont3 .box .left ul li em{font-style: normal;}*/
+.cont3 .box .right{width: 6.7rem;height: auto;margin: 0 auto;}
+.cont3 .box .right .swiper-container{width: 100%;height: auto;}
+.cont3 .box .right .swiper-container .swiper-wrapper{width: 100%;height: auto;}
+.cont3 .box .right .swiper-container .swiper-wrapper li{width: 100%;height: auto;}
+.cont3 .box .right .swiper-container .swiper-wrapper li img{width: 6.7rem;height: 5rem;display: block;margin: 0 auto;}
+.cont3 .box .swiper-button-prev,.cont3 .box .swiper-button-next{width: 0.7rem;height: 0.7rem;outline: none;cursor: pointer;opacity:1;}
+.cont3 .box .swiper-button-prev{background-position: -.94rem -2.28rem;left: .2rem;}
+.cont3 .box .swiper-button-next{background-position: -3.4rem -2.28rem;right: .2rem;}
+.cont3 .box .swiper-button-next.swiper-button-disabled{background-position: -2.2rem -2.28rem;opacity:1;}
+.cont3 .box .swiper-button-prev.swiper-button-disabled{background-position: 0 -2.28rem;opacity:1;}
+.cont3 .box .swiper-pagination{color: #c2a471;font-size: 0.24rem;font-weight: bold;width: 1.5rem;height: 1.1rem;left: 5.6rem;top:-1rem;}
+.cont3 .box .swiper-pagination .swiper-pagination-current,.cont3 .box .swiper-pagination .zero{font-size:0.8rem;color: #f0ecda;font-family:"dinot";letter-spacing: -.06rem;}
+
+/*在当前网吧时状态*/
+.cont3 .box.on .right .swiper-pagination{display: none;}
+.cont3 .box.on .right .swiper-button-next,.cont3 .box.on .right .swiper-button-prev{display: none;}
+.cont3 .box.on .left .tips{display: block;}
+
+
+
+
+/*FPX全球总决赛冠军限定皮肤现已上架   cont4*/
+.cont4 .icon-limit{background-position:0rem -6.06rem;width:1.66rem;height: .58rem;position: absolute;top:2.6rem;right:.5rem;z-index:2;}
+.cont4 .box{width:6.72rem;height: auto;margin: 0 auto;position: relative;padding-top: 0.4rem;}
+.cont4 .swiper-container2{width:6.72rem;height: 5rem;margin: 0 auto;position: relative;overflow: hidden;}
+.cont4 .swiper-container2 .swiper-wrapper li{width: 100%;height: auto;}
+.cont4 .swiper-container2 li img{width:6.72rem;height: 3.48rem;margin: 0 auto;display: block;}
+.cont4 .swiper-container2 li .btn-buy{background-position: 0rem -3.42rem;width: 3.91rem;height:1.02rem;display: block;margin: 0 auto;position: relative;left: 0;top: 0.3rem;}
+.cont4 .swiper-button-prev,.cont4 .swiper-button-next{width: 0.7rem;height: 0.7rem;outline: none;cursor: pointer;opacity:1;transform: scale(1.1);}
+.cont4 .swiper-button-prev{background-position: -.94rem -2.28rem;left: -.2rem;margin-top: -.9rem;}
+.cont4 .swiper-button-next{background-position: -3.4rem -2.28rem;right: -.2rem;margin-top: -.9rem;}
+.cont4 .swiper-button-next.swiper-button-disabled{background-position: -2.2rem -2.28rem;opacity:1;}
+.cont4 .swiper-button-prev.swiper-button-disabled{background-position: 0 -2.28rem;opacity:1;}
+
+/*活动规则   cont5*/
+.cont5 ul{width:6.8rem;margin: 0 auto;height: auto;padding-top: 0.7rem;padding-left: .2rem;box-sizing: border-box;}
+.cont5 ul li{width:100%;height: auto;padding-bottom: 0.28rem;line-height: 0.3rem;color: #fcecd8;font-size: 0.18rem;list-style:disc;}
+.cont5 ul li p{color: #d6c0a5;}
+
+/*title*/
+.title{margin: 0 auto;width:7.5rem;font-size: 0;}
+.title1{background-position: 0 0;height: 1.34rem;}
+.title2{background-position: 0 -1.94rem;height: 2.08rem;}
+.title3{background-position: 0 -4.62rem;height: 2.16rem;}
+.title4{background-position: 0 -6.92rem;height: 2.5rem;}
+.title5{background-position: 0 -9.84rem;height: 2.08rem;}
+
+/*旁边二维码*/
+.sid{display: none;}
+
+/*弹窗*/
+.dialog{position: relative;padding-top: 0.62rem;background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/m-tc-bg.png) no-repeat;background-size: 100% 100%;width:6.7rem;height:6.72rem;box-sizing: border-box;}
+.dia-close{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/tc-close.png) no-repeat;width:0.5rem;height:0.5rem;position: absolute;top: -0.6rem;right:0rem;}
+
+/*装饰*/
+.dialog .tc-icon1{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/m-tc-icon1.png) no-repeat;background-size: 100% 100%;width:1.66rem;height:2.22rem;position: absolute;top: -.7rem;left: -.5rem;}
+.dialog .tc-icon2{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/m-tc-icon2.png) no-repeat;background-size: 100% 100%;width:1.08rem;height:1.7rem;position: absolute;bottom: -.6rem;right:-.4rem;}
+.dialog .tc-icon3{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/m-tc-icon3.png) no-repeat;background-size: 100% 100%;width:1.06rem;height:1.7rem;position: absolute;bottom: -0.7rem;left: -.4rem;}
+.dialog .tc-icon4{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/m-tc-icon4.png) no-repeat;background-size: 100% 100%;width:1.34rem;height:2.06rem;position: absolute;top:.5rem;right:-.4rem;}
+.dialog .tc-icon5{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/m-tc-icon5.png) no-repeat;background-size: 100% 100%;width:1.4rem;height:1.78rem;position: absolute;top: -1rem;left: -.4rem;}
+.dialog .tc-icon6{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/m-tc-icon6.png) no-repeat;background-size: 100% 100%;width:1.38rem;height:2.26rem;position: absolute;bottom:-.7rem;right:-.4rem;}
+.dialog .tc-icon7{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/m-tc-icon8.png) no-repeat;background-size: 100% 100%;width:.32rem;height:.44rem;position: absolute;top: 6rem;left: -.14rem;}
+.dialog .tc-icon8{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/m-tc-icon9.png) no-repeat;background-size: 100% 100%;width:.54rem;height:.56rem;position: absolute;top:.8rem;right:-.4rem;}
+
+
+/*common*/
+.dialog .tc-title{width: 3.92rem;height: 0.64rem;margin: 0 auto;}
+.dialog .tc-title1{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/tc-title1.png) no-repeat;background-size: 100% 100%;}
+.dialog .tc-title2{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/tc-title2.png) no-repeat;background-size: 100% 100%;}
+.dialog .tc-title3{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/tc-title3.png) no-repeat;background-size: 100% 100%;}
+.dialog .tc-title4{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/tc-title4.png) no-repeat;background-size: 100% 100%;}
+.dialog .tc-title7{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/tc-title7.png) no-repeat;background-size: 100% 100%;}
+.dialog .tc-title9{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/tc-title9.png) no-repeat;width: 5.26rem;background-size: 100% 100%;}
+
+.dialog .table-box ul{width: 5.82rem;height: 3.8rem;margin: 0.2rem auto 0;overflow: scroll;overflow-x:hidden;overflow-y:auto;}
+/*侧滚动条宽度*/
+.dialog .table-box ul::-webkit-scrollbar {width: 0.04rem;}
+/*侧滚动条的背景*/
+.dialog .table-box ul::-webkit-scrollbar-track{background-color: #321e1a;border-radius: 0.06rem;margin-top: .2rem;margin-bottom: .2rem;}
+/*侧滚动条滚动的背景*/
+.dialog .table-box ul::-webkit-scrollbar-thumb{border-radius: 0.06rem; background-color: #f6f2e7;}
+
+.dialog .table-box .title-box,.dialog .table-box ul li{font-size: 0;text-align: center;}
+.dialog .table-box .title-box{padding-top: 0.28rem;border-bottom: 0.01rem dashed #604e4a;width: 5.82rem;margin: 0 auto;}
+.dialog .table-box span,.dialog .table-box em,.dialog .table-box strong,.dialog .table-box b,.dialog .table-box i{display: inline-block;vertical-align:bottom;font-style: normal;font-weight: normal;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.dialog .table-box .title-box span,.dialog .table-box .title-box em,.dialog .table-box .title-box strong,.dialog .table-box .title-box b,.dialog .table-box .title-box i{font-size: 0.18rem;color: #e7c346;line-height: 0.6rem;}
+.dialog .table-box ul span,.dialog .table-box ul em,.dialog .table-box ul strong,.dialog .table-box ul b,.dialog .table-box ul i{font-size: 0.16rem;color: #fcfdda;line-height: 0.64rem;}
+.dialog .table-box ul li{width:5.78rem;height: 0.64rem;text-align: center;}
+.dialog .no-record{color: #fcfdda;font-size: 0.22rem;line-height:4.2rem;text-align: center;}
+.dialog .no-record.on{display: none;}
+.dialog ul.on{display: none;}
+/*dia1*/
+.dia1 span{width: 0.8rem;display: none!important;}
+.dia1 em{width:1.36rem;}
+/*.dia1 b{width: 1.66rem;}*/
+.dia1 strong{width: 2.8rem;}
+.dia1 i{width: 1.6rem;}
+/*dia2*/
+.dia2 span{width: 0.8rem;display: none;display: none!important;}
+.dia2 b{width:1.8rem;}
+.dia2 strong{width: 2.1rem;}
+.dia2 i{width: 1.8rem;}
+/*dia3*/
+.dia3 span{width:1.68rem;}
+.dia3 b{width: 2.4rem;}
+.dia3 strong{width: 1.7rem;}
+.dia3 strong a{color: #fcfdda;text-decoration: underline;}
+/*dia4*/
+.dia4{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/m-tc-bg4.png) no-repeat;background-size: 100% 100%;width:6.7rem;height:5.52rem;}
+.dia4 .ask-details{width: 6.7rem;height: 2.24rem;padding-top: 0.8rem;margin: 0 auto;box-sizing: border-box;text-align: center;}
+.dia4 .ask-details input{-webkit-appearance:none;-moz-appearance: none;outline:none;border: none;background:#e8e1d7;color: #39221c;font-size: 0.18rem;border-radius: 0.04rem;box-sizing: border-box;padding-left: 0.12rem;width:4.04rem;height: 0.66rem;line-height: .66rem;}
+.dia4 .ask-details input::-webkit-input-placeholder{color:#39221c;font-size: 0.18rem;}
+.dia4 .btn-sure{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/tc-btn-sure.png) no-repeat;background-size: 100% 100%;width: 3.05rem;height: 0.82rem;display: block;margin: 0 auto;}
+.dia4 .tips{color: #fcfdda;font-size: 0.18rem;line-height: 0.4rem;text-align: center;}
+
+/*.dia5*/
+.dia5{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/m-tc-bg5.png) no-repeat;background-size: 100% 100%;width:6.7rem;height:9.72rem;}
+.dia5 .award-tit{color: #fcfdda;font-size: 0.36rem;line-height: 0.5rem;text-align: center;padding-top: 0.1rem;position: relative;z-index: 2;}
+.dia5 .award-tit span{display: block;}
+.dia5 .award{width: 6.7rem;height: 6.2rem;margin: 0 auto;}
+.dia5 img{width: 5.44rem;height: 7.27rem;display: block;margin: -0.4rem auto -1rem;}
+.dia5 .award-tips{color: #cdbba3;font-size: 0.22rem;line-height: 0.32rem;text-align: center;position: relative;z-index: 2;height: .9rem;width: 80%;margin: 0 auto;　text-overflow: -o-ellipsis-lastline;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 3; line-clamp: 3;-webkit-box-orient: vertical;position: relative;z-index: 2;}
+.dia5 .award-tips a{color: #fcfdda;}
+.dia5 .award-tips.on{display: none;}
+.dia5 .btn-lq{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/tc-btn-lq.png) no-repeat;background-size: 100% 100%;width:3.04rem;height:.82rem;display: block;margin: 0 auto;position: relative;z-index: 2;}
+.dia5 .btn-lq.on{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/tc-btn-surelq.png) no-repeat;background-size: 100% 100%;width:3.04rem;height:.82rem;display: block;margin: 0 auto;}
+
+/*.dia6*/
+.dia6{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/m-tc-bg6.png) no-repeat;background-size: 100% 100%;width:6.7rem;height:3.94rem;}
+.dia6 p{color: #cdbba3;font-size: 0.28rem;line-height: 0.46rem;text-align: center;padding-top: 0.4rem;padding-bottom: 0.7rem;}
+.dia6 p span{color: #fcfdda;}
+.dia6 .btns{width: 100%;height: auto;text-align: center;font-size: 0;}
+.dia6 .btns a{width:2.4rem;height:0.64rem;display: inline-block;vertical-align:top;}
+.dia6 .btns .btn-yes{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/tc-btn-yes.png) no-repeat;background-size: 100% 100%;margin-right: 0.1rem;}
+.dia6 .btns .btn-no{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/tc-btn-no.png) no-repeat;background-size: 100% 100%;}
+/*dia7*/
+.dia7 .adress-details{width:6.2rem;height:3.9rem;padding-top: 0.44rem;font-size: 0;padding-left: .44rem;}
+.dia7 .adress-details span{color: #fcfdda;font-size: 0.18rem;}
+.dia7 .adress-details input{-webkit-appearance:none;-moz-appearance: none;outline:none;border: none;background:#e8e1d7;color: #39221c;font-size: 0.18rem;border-radius: 0.04rem;box-sizing: border-box;padding-left: 0.12rem;height: 0.54rem;}
+.dia7 input::-webkit-input-placeholder{color:#39221c;font-size: 0.18rem;}
+.dia7 .adress-details .adress-name span{margin-left: .36rem;}
+.dia7 .adress-details .adress-name input{width: 1.44rem;}
+.dia7 .adress-details .adress-phone span,.dia7 .adress-details .adress span,.dia7 .adress-details .adress-detail span{margin-left: .18rem;}
+.dia7 .adress-details .adress-phone input{width: 1.64rem;}
+.dia7 .adress-details .adress-name,.dia7 .adress-details .adress-phone,.dia7 .adress-details .adress-card,.dia7 .adress-details .adress{padding-bottom: 0.2rem;}
+.dia7 .adress-details .adress-name input,.dia7 .adress-details .adress-phone input,.dia7 .adress-details .adress-card input,.dia7 .adress-details .adress-detail input{width: 3.6rem;}
+/*.dia7 .adress-details .adress-detail input{width: 4.12rem;margin-right: 0.16rem;}*/
+
+.dia7 .adress-details .adress select{-webkit-appearance:none;appearance:none;border:none;;box-sizing:border-box;background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/m-tc-sel.png) no-repeat;background-size: 100% 100%;width: 1.5rem;height: 0.52rem;color: #30281c;font-size: 0.18rem;line-height:0.52rem;padding-left: 0.1rem;}
+.dia7 .adress-details .adress select.second{margin: 0 0.1rem;}
+.dia7 .adress-details .adress select.last{margin-right:0.12rem;}
+.dia7 .adress-details .adress select option{color: #30281c;background: #e8e1d7;}
+.dia7 .btn-yes{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/tc-btn-yes.png) no-repeat;background-size: 100% 100%;width:2.4rem;height:0.64rem;display: block;margin: 0 auto;}
+/*dia8*/
+.dia8{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/m-tc-bg6.png) no-repeat;background-size: 100% 100%;width:6.7rem;height:3.94rem;}
+.dia8 .icon7{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/m-tc-icon7.png) no-repeat;background-size: 100% 100%;width:7.32rem;height:4.6rem;position: absolute;bottom:-0.4rem;right:-.4rem;}
+.dia8 .txt{color: #cdbba3;font-size: 0.28rem;line-height: 0.46rem;text-align: center;padding-top: 0.4rem;padding-bottom: 0.7rem;position: relative;z-index: 2;}
+.dia8 .txt span{color: #fcfdda;}
+.dia8 .btn-finish{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/tc-btn-finish.png) no-repeat;background-size: 100% 100%;width:2.4rem;height:0.64rem;display: block;margin: 0 auto;position: relative;z-index: 2;}
+
+
+
+/*dia9*/
+.dia9{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/m-tc-bg9.png) no-repeat;background-size: 100% 100%;width:6.7rem;height:9.72rem;}
+.dia9 .award-box{width: 6rem;height: 7.5rem;overflow: scroll;overflow-x:hidden;overflow-y:auto;margin: 0.3rem 0  0 0.46rem;position: relative;}
+/*侧滚动条宽度*/
+.dia9 .award-box::-webkit-scrollbar {width: 0.04rem;}
+/*侧滚动条的背景*/
+.dia9 .award-box::-webkit-scrollbar-track{background-color: #67524e;border-radius: 0.06rem;}
+/*侧滚动条滚动的背景*/
+.dia9 .award-box::-webkit-scrollbar-thumb{border-radius: 0.06rem; background-color: #f6f2e7;}
+.dia9 .award-box .box .tit-sub{color: #fcfdda;font-size: 0.24rem;line-height: 0.46rem;font-weight: bold;padding-bottom: 0.2rem;}
+.dia9 .award-box .box ul{width: 99%;height: auto;font-size: 0;position: relative;}
+.dia9 .award-box .box ul li{display: inline-block;*display:inline;*zoom:1;vertical-align:top;position: relative;}
+.dia9 .award-box .box ul li p{color: #fcfdda;font-size: 0.16rem;line-height: 0.3rem;padding-top: 0.08rem;padding-bottom: 0.18rem;text-align: center;width: 100%;}
+
+.dia9 .award{padding-bottom: 0.8rem;}
+.dia9 .award li i{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/tc-award-bg.png) no-repeat;background-size: 100% 100%;width:1.6rem;height:2.56rem;position: absolute;top: 0;left: 0;z-index: 2;}
+.dia9 .award li{margin-right: 0.2rem;width:1.6rem;height:auto;}
+.dia9 .award li img{width:1.6rem;height:2.56rem;display: block;margin: 0 auto;}
+
+.dia9 .prize{padding-bottom: 0.8rem;}
+.dia9 .prize li i{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/tc-prize-bg.png) no-repeat;background-size: 100% 100%;width:1.86rem;height:1.78rem;position: absolute;top: 0;left: 0;z-index: 2;}
+.dia9 .prize li{margin-right: 0.1rem;width:1.86rem;height:auto;}
+.dia9 .prize li span{display: block;}
+.dia9 .prize li img{width:1.86rem;height:1.78rem;display: block;margin: 0 auto;}
+
+.dia9 .reward{padding-bottom: 0.8rem;}
+.dia9 .reward li i{position: absolute;top: 0;left: 0;z-index: 1;}
+.dia9 .reward li:last-child span{display: block;}
+.dia9 .reward li img{display: block;margin: 0 auto;position: relative;z-index: 2;}
+.dia9 .reward li.bg1{margin-right: 0.2rem;}
+.dia9 .reward li.bg1 i{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/tc-reward-bg1.png) no-repeat;background-size: 100% 100%;width:1.6rem;height:2.58rem;}
+.dia9 .reward li.bg1 img{width:1.6rem;height:2.58rem;}
+.dia9 .reward li.bg2{margin-right: 0.14rem;}
+.dia9 .reward li.bg2 i{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/tc-reward-bg2.png) no-repeat;background-size: 100% 100%;width:1.66rem;height:2.58rem;}
+.dia9 .reward li.bg2 img{width:1.66rem;height:2.58rem;}
+.dia9 .reward li.spe img{position: relative;top: -0.12rem;left: 0;height: 2.7rem;}
+.dia9 .reward li.spe p{position: absolute;bottom: -0.44rem;left: 0;}
+.dia9 .reward li.bg3{margin-right: 0.14rem;}
+.dia9 .reward li.bg3 i{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/tc-reward-bg3.png) no-repeat;background-size: 100% 100%;width:1.66rem;height:2.58rem;position: absolute;top: 0;left: 0;z-index: 3;}
+.dia9 .reward li.bg3 img{width:1.66rem;height:2.58rem;}
+.dia9 .reward li.bg4{margin:0 auto;}
+.dia9 .reward li.bg4 i{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/tc-reward-bg4.png) no-repeat;background-size: 100% 100%;width:5.18rem;height:2.58rem;position: absolute;top: 0;left: 0;z-index: 3;}
+.dia9 .reward li.bg4 img{width:5.18rem;height:2.58rem;}
+
+
+.dia9 .award-chance span,.dia9 .award-chance b,.dia9 .award-chance strong{display: inline-block;*display:inline;*zoom:1;vertical-align:top;font-weight: normal;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align: center;}
+.dia9 .title-award{width: 5.78rem;height: 0.54rem;border-bottom: 0.01rem #ffffff dashed;font-size: 0;}
+.dia9 .title-award span,.dia9 .title-award b,.dia9 .title-award strong{font-size: 0.18rem;color: #e7c346;line-height: 0.54rem;}
+.dia9 .award-chance ul{padding-top: 0.2rem;}
+.dia9 .award-chance ul li{font-size: 0;}
+.dia9 .award-chance ul span,.dia9 .award-chance ul b,.dia9 .award-chance ul strong{font-size: 0.16rem;color: #fcfdda;line-height: 0.5rem;}
+.dia9 .award-chance  span{width: 1.9rem;margin-right: 2.2rem;}
+.dia9 .award-chance  b{width:1.6rem;}
+/*.dia9 .award-chance  strong{width:1.9rem;}*/
+
+/*dia10*/
+.dia10{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/m-tc-bg4.png) no-repeat;background-size: 100% 100%;width:6.7rem;height:5.52rem;}
+.dia10 .txt1{color: #cdbba3;font-size:.32rem;line-height: .44rem;text-align: center;padding-top: .4rem;padding-bottom: .5rem;}
+.dia10 img{width: 1.86rem;height: 1.8rem;display: block;margin: 0 auto;}
+.dia10 .txt2{color: #fcfdda;font-size: .22rem;line-height: .66rem;text-align: center;}
+
+/*dia11*/
+.dia11{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/m-tc-bg11.png) no-repeat;background-size: 100% 100%;width:5.5rem;height:3.15rem;}
+.dia11 p{color: #cdbba3;font-size: .36rem;line-height: 1.1rem;text-align: center;padding-bottom: .1rem;padding-left:.4rem;}
+.dia11 .btn-yes{background: url(//game.gtimg.cn/images/lol/act/a20200512backwarm/tc-btn-yes.png) no-repeat;background-size: 100% 100%;width:2.4rem;height:.64rem;margin: 0 auto;display: block;}
