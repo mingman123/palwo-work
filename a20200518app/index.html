@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="GBK">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="robots" content="all">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+		<!-- 为了防止页面数字被识别为电话号码，可根据实际需要添加： -->
+		<meta name="format-detection" content="telephone=no">
+		<!-- 让添加到主屏幕的网页再次打开时全屏展示，可添加：   -->
+		<meta content="yes" name="mobile-web-app-capable">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta name="author" content="Tencent-CP" />
+		<meta name="Copyright" content="Tencent" />
+		<meta name="Description" content="英雄联盟官方网站，风靡全球的MOBA竞技网游，全球召唤师热爱集结地。公平竞技英雄对战，全球角逐电竞荣耀，还有神秘的英雄联盟宇宙等你来探索！无限热爱，无限可能！">
+		<meta name="Keywords" content="英雄联盟,lol,lol新手礼包,lol攻略,lol视频,lol视频攻略,英雄资料,英雄联盟攻略,明星解说视频,英雄,攻略,WCG,点亮图标,赛事">
+		<title>赛事积分</title>
+		<link rel="stylesheet" href="css/index.css">
+		<!-- 页面设计：cp | 页面制作：cp | 创建：2020-05-07 -->
+		<!-- //game.gtimg.cn/images/lol/act/a20200507special -->
+	</head>
+
+	<body>
+		<!-- 页面主体代码 Start -->
+		<h1 class="hid">赛事积分</h1>
+		<div class="main-wrapper">
+			<!-- Nav -->
+			<div class="nav-box">
+				<ul class="navs" id="navUl">
+					<li class="" id="navAll"  onclick="PTTSendClick('btn','nav1','赛事筛选');">赛事筛选</li>
+					<li class="" onclick="PTTSendClick('btn','nav2','入围赛');">入围赛</li>
+					<li onclick="PTTSendClick('btn','nav3','小组赛');">小组赛</li>
+					<li onclick="PTTSendClick('btn','nav4','淘汰赛');">淘汰赛</li>
+				</ul>
+				<div class="nav1-tab" style="display: none1;">
+					<ul id="matchUl">
+						<!--<li id="matchAll" onclick="PTTSendClick('btn','matchall','全部');">全部</li>-->
+						<!--<li onclick="PTTSendClick('btn','match1','2020职业联赛');">2020职业联赛</li>
+						<li onclick="PTTSendClick('btn','match2','九周年盛典');">九周年盛典</li>
+						<li onclick="PTTSendClick('btn','match3','2020发展联赛');">2020发展联赛</li>
+						<li onclick="PTTSendClick('btn','match4','2020季中杯');">2020季中杯</li>
+						<li onclick="PTTSendClick('btn','match5','2019全明星赛');">2019全明星赛</li> -->
+						<li onclick="PTTSendClick('btn','match6','2019全球总决赛');">2019全球总决赛</li>
+					</ul>
+					<a href="javascript:;" id="navBtn" class="btn-sure" onclick="PTTSendClick('btn','btn-sure','确定');">确定</a>
+				</div>
+			</div>
+
+			<!-- content -->
+			<div class="content">
+				<!--入围赛-->
+				<div class="cont cont1" style="display: none;">
+					<div class="finalis-tabs" id="finalis">
+						<a href="javascript:;" onclick="PTTSendClick('btn','finalis-tab1','小组阶段');" class="finalis-tab on">小组阶段</a>
+						<a href="javascript:;" onclick="PTTSendClick('btn','finalis-tab2','淘汰阶段');" class="finalis-tab">淘汰阶段</a>
+					</div>
+					<div class="finalis-box">
+						<!--入围小组-->
+						<div id="group_stage" class="finalis-squad-box finalis-scroll-box" style="display: none1;">
+							<div class="integral-box">
+								 <div class="integral-group">A</div>
+								<div class="integral-lists">
+									<div class="integral-list-header">
+										<div class="integral-list-td integral-list-td1">排名</div>
+										<div class="integral-list-td integral-list-td2">战队</div>
+										<div class="integral-list-td integral-list-td3">胜负</div>
+										<div class="integral-list-td integral-list-td4">积分</div>
+									</div>
+									<div>
+										<div class="integral-list">
+											<div class="integral-list-td integral-list-td1">
+												<span class="din integral-rank integral-rank1">1</span>
+											</div>
+											<div class="integral-list-td integral-list-td2">
+												<div class="integral-team-logo">
+													<img src="ossweb-img/0.png" alt="战队logo" />
+												</div>
+												<span class="integral-team-name">CG</span>
+											</div>
+											<div class="integral-list-td integral-list-td3">
+												<span class="din c-bb9a6c">3</span>/<span class="din">2</span>
+											</div>
+											<div class="integral-list-td integral-list-td4">
+												<span class="din c-d4554c">3</span>
+											</div>
+											<i class="integral-list-line"></i>
+										</div>
+										<div class="integral-list">
+											<div class="integral-list-td integral-list-td1">
+												<span class="din integral-rank integral-rank2">2</span>
+											</div>
+											<div class="integral-list-td integral-list-td2">
+												<div class="integral-team-logo">
+													<img src="ossweb-img/0.png" alt="战队logo" />
+												</div>
+												<span class="integral-team-name">UOL</span>
+											</div>
+											<div class="integral-list-td integral-list-td3"><span class="din c-bb9a6c">3</span>/<span class="din">3</span>
+											</div>
+											<div class="integral-list-td integral-list-td4">
+												<span class="din c-d4554c">3</span>
+											</div>
+											<i class="integral-list-line"></i>
+										</div>
+										<div class="integral-list">
+											<div class="integral-list-td integral-list-td1">
+												<span class="din integral-rank integral-rank3">3</span>
+											</div>
+											<div class="integral-list-td integral-list-td2">
+												<div class="integral-team-logo">
+													<img src="ossweb-img/0.png" alt="战队logo" />
+												</div>
+												<span class="integral-team-name">MMM</span>
+											</div>
+											<div class="integral-list-td integral-list-td3">
+												<span class="din c-bb9a6c">2</span>/<span class="din">3</span>
+											</div>
+											<div class="integral-list-td integral-list-td4">
+												<span class="din c-d4554c">2</span>
+											</div>
+											<i class="integral-list-line"></i>
+										</div>
+										<div class="integral-list">
+											<div class="integral-list-td integral-list-td1">
+												<span class="din integral-rank integral-rank4">4</span>
+											</div>
+											<div class="integral-list-td integral-list-td2">
+												<div class="integral-team-logo">
+													<img src="ossweb-img/0.png" alt="战队logo" />
+												</div>
+												<span class="integral-team-name">MMM</span>
+											</div>
+											<div class="integral-list-td integral-list-td3">
+												<span class="din c-bb9a6c">2</span>/<span class="din">3</span>
+											</div>
+											<div class="integral-list-td integral-list-td4">
+												<span class="din c-d4554c">2</span>
+											</div>
+											<i class="integral-list-line"></i>
+										</div>
+										<div class="integral-list">
+											<div class="integral-list-td integral-list-td1">
+												<span class="din integral-rank integral-rank5">5</span>
+											</div>
+											<div class="integral-list-td integral-list-td2">
+												<div class="integral-team-logo">
+													<img src="ossweb-img/0.png" alt="战队logo" />
+												</div>
+												<span class="integral-team-name">MMM</span>
+											</div>
+											<div class="integral-list-td integral-list-td3">
+												<span class="din c-bb9a6c">2</span>/<span class="din">3</span>
+											</div>
+											<div class="integral-list-td integral-list-td4">
+												<span class="din c-d4554c">2</span>
+											</div>
+											<i class="integral-list-line"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="integral-box">
+								<div class="integral-group">B</div>
+								<div class="integral-lists">
+									<div class="integral-list-header">
+										<div class="integral-list-td integral-list-td1">排名</div>
+										<div class="integral-list-td integral-list-td2">战队</div>
+										<div class="integral-list-td integral-list-td3">胜负</div>
+										<div class="integral-list-td integral-list-td4">积分</div>
+									</div>
+									<div>
+										<div class="integral-list">
+											<div class="integral-list-td integral-list-td1">
+												<span class="din integral-rank integral-rank1">1</span>
+											</div>
+											<div class="integral-list-td integral-list-td2">
+												<div class="integral-team-logo">
+													<img src="ossweb-img/0.png" alt="战队logo" />
+												</div>
+												<span class="integral-team-name">CG</span>
+											</div>
+											<div class="integral-list-td integral-list-td3">
+												<span class="din c-bb9a6c">3</span>/<span class="din">2</span>
+											</div>
+											<div class="integral-list-td integral-list-td4">
+												<span class="din c-d4554c">3</span>
+											</div>
+											<i class="integral-list-line"></i>
+										</div>
+										<div class="integral-list">
+											<div class="integral-list-td integral-list-td1">
+												<span class="din integral-rank integral-rank2">2</span>
+											</div>
+											<div class="integral-list-td integral-list-td2">
+												<div class="integral-team-logo">
+													<img src="ossweb-img/0.png" alt="战队logo" />
+												</div>
+												<span class="integral-team-name">UOL</span>
+											</div>
+											<div class="integral-list-td integral-list-td3"><span class="din c-bb9a6c">3</span>/<span class="din">3</span>
+											</div>
+											<div class="integral-list-td integral-list-td4">
+												<span class="din c-d4554c">3</span>
+											</div>
+											<i class="integral-list-line"></i>
+										</div>
+										<div class="integral-list">
+											<div class="integral-list-td integral-list-td1">
+												<span class="din integral-rank integral-rank3">3</span>
+											</div>
+											<div class="integral-list-td integral-list-td2">
+												<div class="integral-team-logo">
+													<img src="ossweb-img/0.png" alt="战队logo" />
+												</div>
+												<span class="integral-team-name">MMM</span>
+											</div>
+											<div class="integral-list-td integral-list-td3">
+												<span class="din c-bb9a6c">2</span>/<span class="din">3</span>
+											</div>
+											<div class="integral-list-td integral-list-td4">
+												<span class="din c-d4554c">2</span>
+											</div>
+											<i class="integral-list-line"></i>
+										</div>
+										<div class="integral-list">
+											<div class="integral-list-td integral-list-td1">
+												<span class="din integral-rank integral-rank4">4</span>
+											</div>
+											<div class="integral-list-td integral-list-td2">
+												<div class="integral-team-logo">
+													<img src="ossweb-img/0.png" alt="战队logo" />
+												</div>
+												<span class="integral-team-name">MMM</span>
+											</div>
+											<div class="integral-list-td integral-list-td3">
+												<span class="din c-bb9a6c">2</span>/<span class="din">3</span>
+											</div>
+											<div class="integral-list-td integral-list-td4">
+												<span class="din c-d4554c">2</span>
+											</div>
+											<i class="integral-list-line"></i>
+										</div>
+										<div class="integral-list">
+											<div class="integral-list-td integral-list-td1">
+												<span class="din integral-rank integral-rank5">5</span>
+											</div>
+											<div class="integral-list-td integral-list-td2">
+												<div class="integral-team-logo">
+													<img src="ossweb-img/0.png" alt="战队logo" />
+												</div>
+												<span class="integral-team-name">MMM</span>
+											</div>
+											<div class="integral-list-td integral-list-td3">
+												<span class="din c-bb9a6c">2</span>/<span class="din">3</span>
+											</div>
+											<div class="integral-list-td integral-list-td4">
+												<span class="din c-d4554c">2</span>
+											</div>
+											<i class="integral-list-line"></i>
+										</div>
+									</div>
+								</div>
+							</div> 
+
+						</div>
+						<!--入围淘汰-->
+						<div class="finalis-out-box finalis-scroll-box">
+							<div>
+								<div class="finalis-out-line">
+									<div class="outline">
+										<div class="outline-logo"><img src="ossweb-img/0.png" alt="logo" /></div>
+										<p class="outline-txt"><span>B组积分第一出线队伍</span><i></i><span>Team TES</span></p>
+									</div>
+									<div class="outline">
+										<div class="outline-logo"><img src="ossweb-img/0.png" alt="logo" /></div>
+										<p class="outline-txt"><span>B组积分第一出线队伍</span><i></i><span>Team TES</span></p>
+									</div>
+									<div class="outline wait">
+										<div class="outline-logo"><img src="ossweb-img/1.png" alt="logo" /></div>
+										<p class="outline-txt"><span>淘汰阶段出线的队伍</span><i></i><span>待定</span></p>
+									</div>
+									<div class="outline wait">
+										<div class="outline-logo"><img src="ossweb-img/1.png" alt="logo" /></div>
+										<p class="outline-txt"><span>淘汰阶段出线的队伍</span><i></i><span>待定</span></p>
+									</div>
+
+								</div>
+								<p class="finalis-out-txt">入围赛淘汰阶段 bo5</p>
+								<!--<p class="finalis-out-txt-win">晋级队伍</p>-->
+								<div>
+									<div class="finalis-out-list">
+										<div class="finalisout-time">
+											<p>10-07<br>19:00</p>
+										</div>
+										<div class="finalisout-team-box finalisout-team-box1">
+											<div class="finalisout-team win">
+												<div class="finalisout-logo"><img src="ossweb-img/0.png" alt="logo" /></div>
+												<div class="finalisout-name">DWG</div>
+												<div class="finalisout-num din">3</div>
+											</div>
+											<div class="finalisout-team">
+												<div class="finalisout-logo"><img src="ossweb-img/0.png" alt="logo" /></div>
+												<div class="finalisout-name">LK</div>
+												<div class="finalisout-num din">1</div>
+											</div>
+										</div>
+										<div class="finalisout-group-linebox"><i class="finalisout-group-line1"></i><i class="finalisout-group-line2"></i><i class="finalisout-group-line3"></i></div>
+										<div class="finalisout-line-box"><i class="finalisout-line"></i></div>
+										<div class="finalisout-team-box finalisout-team-box2">
+											<div class="finalisout-team win">
+												<div class="finalisout-logo"><img src="ossweb-img/0.png" alt="logo" /></div>
+												<div class="finalisout-name">DWG</div>
+												<div class="finalisout-num din">3</div>
+											</div>
+											<div class="finalisout-team">
+												<div class="finalisout-logo"><img src="ossweb-img/0.png" alt="logo" /></div>
+												<div class="finalisout-name">LK</div>
+												<div class="finalisout-num din">1</div>
+											</div>
+										</div>
+										<div class="finalisout-line-box"><i class="finalisout-line"></i></div>
+										<div class="finalisout-win">
+											<div class="finalisout-team">
+												<div class="finalisout-logo"><img src="ossweb-img/0.png" alt="logo" /></div>
+												<div class="finalisout-name">DWG</div>
+											</div>
+										</div>
+									</div>
+									<div class="finalis-out-list">
+										<div class="finalisout-time">
+											<p>10-07<br>19:00</p>
+										</div>
+										<div class="finalisout-team-box finalisout-team-box1">
+											<div class="finalisout-team win">
+												<div class="finalisout-logo"><img src="ossweb-img/0.png" alt="logo" /></div>
+												<div class="finalisout-name">DWG</div>
+												<div class="finalisout-num din">3</div>
+											</div>
+											<div class="finalisout-team">
+												<div class="finalisout-logo"><img src="ossweb-img/0.png" alt="logo" /></div>
+												<div class="finalisout-name">LK</div>
+												<div class="finalisout-num din">1</div>
+											</div>
+										</div>
+										<div class="finalisout-group-linebox"><i class="finalisout-group-line1"></i><i class="finalisout-group-line2"></i><i class="finalisout-group-line3"></i></div>
+										<div class="finalisout-line-box"><i class="finalisout-line"></i></div>
+										<div class="finalisout-team-box finalisout-team-box2">
+											<div class="finalisout-team win">
+												<div class="finalisout-logo"><img src="ossweb-img/0.png" alt="logo" /></div>
+												<div class="finalisout-name">DWG</div>
+												<div class="finalisout-num din">3</div>
+											</div>
+											<div class="finalisout-team">
+												<div class="finalisout-logo"><img src="ossweb-img/0.png" alt="logo" /></div>
+												<div class="finalisout-name">LK</div>
+												<div class="finalisout-num din">1</div>
+											</div>
+										</div>
+										<div class="finalisout-line-box"><i class="finalisout-line"></i></div>
+										<div class="finalisout-win">
+											<div class="finalisout-team">
+												<div class="finalisout-logo"><img src="ossweb-img/0.png" alt="logo" /></div>
+												<div class="finalisout-name">DWG</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div>
+									
+									<div class="finalis-out-list">
+										<div class="finalisout-time">
+											<p>10-08<br>22:00</p>
+										</div>
+										<div class="finalisout-team-box">
+											<div class="finalisout-team win">
+												<div class="finalisout-logo"><img src="ossweb-img/0.png" alt="logo" /></div>
+												<div class="finalisout-name">SPY</div>
+												<div class="finalisout-num din">3</div>
+											</div>
+											<div class="finalisout-team">
+												<div class="finalisout-logo"><img src="ossweb-img/0.png" alt="logo" /></div>
+												<div class="finalisout-name">UOL</div>
+												<div class="finalisout-num din">2</div>
+											</div>
+										</div>
+										<div class="finalisout-line-box"><i class="finalisout-line"></i></div>
+										<div class="finalisout-win">
+											<div class="finalisout-team">
+												<div class="finalisout-logo"><img src="ossweb-img/0.png" alt="logo" /></div>
+												<div class="finalisout-name">SPY</div>
+											</div>
+										</div>
+									</div>
+									<div class="finalis-out-list">
+										<div class="finalisout-time">
+											<p>10-08<br>22:00</p>
+										</div>
+										<div class="finalisout-team-box">
+											<div class="finalisout-team win">
+												<div class="finalisout-logo"><img src="ossweb-img/0.png" alt="logo" /></div>
+												<div class="finalisout-name">SPY</div>
+												<div class="finalisout-num din">3</div>
+											</div>
+											<div class="finalisout-team">
+												<div class="finalisout-logo"><img src="ossweb-img/0.png" alt="logo" /></div>
+												<div class="finalisout-name">UOL</div>
+												<div class="finalisout-num din">2</div>
+											</div>
+										</div>
+										<div class="finalisout-line-box"><i class="finalisout-line"></i></div>
+										<div class="finalisout-win">
+											<div class="finalisout-team">
+												<div class="finalisout-logo"><img src="ossweb-img/0.png" alt="logo" /></div>
+												<div class="finalisout-name">SPY</div>
+											</div>
+										</div>
+									</div>
+								
+								</div>
+								
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<!--小组赛-->
+				<div class="cont cont2" style="display: none;">
+					<div class="squad-box">
+						<div class="integral-box">
+							<div class="integral-group">A</div>
+							<div class="integral-lists">
+								<div class="integral-list-header">
+									<div class="integral-list-td integral-list-td1">排名</div>
+									<div class="integral-list-td integral-list-td2">战队</div>
+									<div class="integral-list-td integral-list-td3">胜负</div>
+									<div class="integral-list-td integral-list-td4">积分</div>
+								</div>
+								<div>
+									<div class="integral-list">
+										<div class="integral-list-td integral-list-td1"><span class="din integral-rank integral-rank1">1</span></div>
+										<div class="integral-list-td integral-list-td2">
+											<div class="integral-team-logo">
+												<img src="ossweb-img/0.png" alt="战队logo" /></div><span class="integral-team-name">GRF</span></div>
+										<div class="integral-list-td integral-list-td3"><span class="din c-bb9a6c">6</span>/<span class="din">1</span></div>
+										<div class="integral-list-td integral-list-td4"><span class="din c-d4554c">6</span></div><i class="integral-list-line"></i></div>
+									<div class="integral-list">
+										<div class="integral-list-td integral-list-td1"><span class="din integral-rank integral-rank2">2</span></div>
+										<div class="integral-list-td integral-list-td2">
+											<div class="integral-team-logo"><img src="ossweb-img/0.png" alt="战队logo" /></div><span class="integral-team-name">G2</span></div>
+										<div class="integral-list-td integral-list-td3"><span class="din c-bb9a6c">5</span>/<span class="din">2</span></div>
+										<div class="integral-list-td integral-list-td4"><span class="din c-d4554c">5</span></div><i class="integral-list-line"></i></div>
+									<div class="integral-list">
+										<div class="integral-list-td integral-list-td1"><span class="din integral-rank integral-rank3">3</span></div>
+										<div class="integral-list-td integral-list-td2">
+											<div class="integral-team-logo"><img src="ossweb-img/0.png" alt="战队logo" /></div><span class="integral-team-name">C9</span></div>
+										<div class="integral-list-td integral-list-td3"><span class="din c-bb9a6c">2</span>/<span class="din">4</span></div>
+										<div class="integral-list-td integral-list-td4"><span class="din c-d4554c">2</span></div><i class="integral-list-line"></i>
+									</div>
+									<div class="integral-list">
+										<div class="integral-list-td integral-list-td1"><span class="din integral-rank integral-rank4">4</span></div>
+										<div class="integral-list-td integral-list-td2">
+											<div class="integral-team-logo"><img src="ossweb-img/0.png" alt="战队logo" /></div><span class="integral-team-name">HKA</span></div>
+										<div class="integral-list-td integral-list-td3"><span class="din c-bb9a6c">0</span>/<span class="din">6</span></div>
+										<div class="integral-list-td integral-list-td4"><span class="din c-d4554c">0</span></div><i class="integral-list-line"></i>
+									</div>
+									<div class="integral-list">
+										<div class="integral-list-td integral-list-td1"><span class="din integral-rank integral-rank5">5</span></div>
+										<div class="integral-list-td integral-list-td2">
+											<div class="integral-team-logo"><img src="ossweb-img/0.png" alt="战队logo" /></div><span class="integral-team-name">HKA</span></div>
+										<div class="integral-list-td integral-list-td3"><span class="din c-bb9a6c">0</span>/<span class="din">6</span></div>
+										<div class="integral-list-td integral-list-td4"><span class="din c-d4554c">0</span></div><i class="integral-list-line"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="integral-box">
+							<div class="integral-group">B</div>
+							<div class="integral-lists">
+								<div class="integral-list-header">
+									<div class="integral-list-td integral-list-td1">排名</div>
+									<div class="integral-list-td integral-list-td2">战队</div>
+									<div class="integral-list-td integral-list-td3">胜负</div>
+									<div class="integral-list-td integral-list-td4">积分</div>
+								</div>
+								<div>
+									<div class="integral-list">
+										<div class="integral-list-td integral-list-td1"><span class="din integral-rank integral-rank1">1</span></div>
+										<div class="integral-list-td integral-list-td2">
+											<div class="integral-team-logo"><img src="ossweb-img/0.png" alt="战队logo" /></div><span class="integral-team-name">FPX</span></div>
+										<div class="integral-list-td integral-list-td3"><span class="din c-bb9a6c">5</span>/<span class="din">2</span></div>
+										<div class="integral-list-td integral-list-td4"><span class="din c-d4554c">5</span></div><i class="integral-list-line"></i></div>
+									<div class="integral-list">
+										<div class="integral-list-td integral-list-td1"><span class="din integral-rank integral-rank2">2</span></div>
+										<div class="integral-list-td integral-list-td2">
+											<div class="integral-team-logo"><img src="ossweb-img/0.png" alt="战队logo" /></div><span class="integral-team-name">SPY</span></div>
+										<div class="integral-list-td integral-list-td3"><span class="din c-bb9a6c">4</span>/<span class="din">3</span></div>
+										<div class="integral-list-td integral-list-td4"><span class="din c-d4554c">4</span></div><i class="integral-list-line"></i></div>
+									<div class="integral-list">
+										<div class="integral-list-td integral-list-td1"><span class="din integral-rank integral-rank3">3</span></div>
+										<div class="integral-list-td integral-list-td2">
+											<div class="integral-team-logo"><img src="ossweb-img/0.png" alt="战队logo" /></div><span class="integral-team-name">JT</span></div>
+										<div class="integral-list-td integral-list-td3"><span class="din c-bb9a6c">3</span>/<span class="din">3</span></div>
+										<div class="integral-list-td integral-list-td4"><span class="din c-d4554c">3</span></div><i class="integral-list-line"></i></div>
+									<div class="integral-list">
+										<div class="integral-list-td integral-list-td1"><span class="din integral-rank integral-rank4">4</span></div>
+										<div class="integral-list-td integral-list-td2">
+											<div class="integral-team-logo"><img src="ossweb-img/0.png" alt="战队logo" /></div><span class="integral-team-name">GAM</span></div>
+										<div class="integral-list-td integral-list-td3"><span class="din c-bb9a6c">1</span>/<span class="din">5</span></div>
+										<div class="integral-list-td integral-list-td4"><span class="din c-d4554c">1</span></div><i class="integral-list-line"></i></div>
+										<div class="integral-list">
+										<div class="integral-list-td integral-list-td1"><span class="din integral-rank integral-rank5">5</span></div>
+										<div class="integral-list-td integral-list-td2">
+											<div class="integral-team-logo"><img src="ossweb-img/0.png" alt="战队logo" /></div><span class="integral-team-name">HKA</span></div>
+										<div class="integral-list-td integral-list-td3"><span class="din c-bb9a6c">0</span>/<span class="din">6</span></div>
+										<div class="integral-list-td integral-list-td4"><span class="din c-d4554c">0</span></div><i class="integral-list-line"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="integral-box">
+							<div class="integral-group">C</div>
+							<div class="integral-lists">
+								<div class="integral-list-header">
+									<div class="integral-list-td integral-list-td1">排名</div>
+									<div class="integral-list-td integral-list-td2">战队</div>
+									<div class="integral-list-td integral-list-td3">胜负</div>
+									<div class="integral-list-td integral-list-td4">积分</div>
+								</div>
+								<div>
+									<div class="integral-list">
+										<div class="integral-list-td integral-list-td1"><span class="din integral-rank integral-rank1">1</span></div>
+										<div class="integral-list-td integral-list-td2">
+											<div class="integral-team-logo"><img src="ossweb-img/0.png" alt="战队logo" /></div><span class="integral-team-name">SKT</span></div>
+										<div class="integral-list-td integral-list-td3"><span class="din c-bb9a6c">5</span>/<span class="din">1</span></div>
+										<div class="integral-list-td integral-list-td4"><span class="din c-d4554c">5</span></div><i class="integral-list-line"></i></div>
+									<div class="integral-list">
+										<div class="integral-list-td integral-list-td1"><span class="din integral-rank integral-rank2">2</span></div>
+										<div class="integral-list-td integral-list-td2">
+											<div class="integral-team-logo"><img src="ossweb-img/0.png" alt="战队logo" /></div><span class="integral-team-name">FNC</span></div>
+										<div class="integral-list-td integral-list-td3"><span class="din c-bb9a6c">4</span>/<span class="din">2</span></div>
+										<div class="integral-list-td integral-list-td4"><span class="din c-d4554c">4</span></div><i class="integral-list-line"></i></div>
+									<div class="integral-list">
+										<div class="integral-list-td integral-list-td1"><span class="din integral-rank integral-rank3">3</span></div>
+										<div class="integral-list-td integral-list-td2">
+											<div class="integral-team-logo"><img src="ossweb-img/0.png" alt="战队logo" /></div><span class="integral-team-name">RNG</span></div>
+										<div class="integral-list-td integral-list-td3"><span class="din c-bb9a6c">3</span>/<span class="din">3</span></div>
+										<div class="integral-list-td integral-list-td4"><span class="din c-d4554c">3</span></div><i class="integral-list-line"></i></div>
+									<div class="integral-list">
+										<div class="integral-list-td integral-list-td1"><span class="din integral-rank integral-rank4">4</span></div>
+										<div class="integral-list-td integral-list-td2">
+											<div class="integral-team-logo"><img src="ossweb-img/0.png" alt="战队logo" /></div><span class="integral-team-name">CG</span></div>
+										<div class="integral-list-td integral-list-td3"><span class="din c-bb9a6c">0</span>/<span class="din">6</span></div>
+										<div class="integral-list-td integral-list-td4"><span class="din c-d4554c">0</span></div><i class="integral-list-line"></i></div>
+										<div class="integral-list">
+										<div class="integral-list-td integral-list-td1"><span class="din integral-rank integral-rank5">5</span></div>
+										<div class="integral-list-td integral-list-td2">
+											<div class="integral-team-logo"><img src="ossweb-img/0.png" alt="战队logo" /></div><span class="integral-team-name">HKA</span></div>
+										<div class="integral-list-td integral-list-td3"><span class="din c-bb9a6c">0</span>/<span class="din">6</span></div>
+										<div class="integral-list-td integral-list-td4"><span class="din c-d4554c">0</span></div><i class="integral-list-line"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="integral-box">
+							<div class="integral-group">D</div>
+							<div class="integral-lists">
+								<div class="integral-list-header">
+									<div class="integral-list-td integral-list-td1">排名</div>
+									<div class="integral-list-td integral-list-td2">战队</div>
+									<div class="integral-list-td integral-list-td3">胜负</div>
+									<div class="integral-list-td integral-list-td4">积分</div>
+								</div>
+								<div>
+									<div class="integral-list">
+										<div class="integral-list-td integral-list-td1"><span class="din integral-rank integral-rank1">1</span></div>
+										<div class="integral-list-td integral-list-td2">
+											<div class="integral-team-logo"><img src="ossweb-img/0.png" alt="战队logo" /></div><span class="integral-team-name">DWG</span></div>
+										<div class="integral-list-td integral-list-td3"><span class="din c-bb9a6c">5</span>/<span class="din">1</span></div>
+										<div class="integral-list-td integral-list-td4"><span class="din c-d4554c">5</span></div><i class="integral-list-line"></i></div>
+									<div class="integral-list">
+										<div class="integral-list-td integral-list-td1"><span class="din integral-rank integral-rank2">2</span></div>
+										<div class="integral-list-td integral-list-td2">
+											<div class="integral-team-logo"><img src="ossweb-img/0.png" alt="战队logo" /></div><span class="integral-team-name">IG</span></div>
+										<div class="integral-list-td integral-list-td3"><span class="din c-bb9a6c">4</span>/<span class="din">2</span></div>
+										<div class="integral-list-td integral-list-td4"><span class="din c-d4554c">4</span></div><i class="integral-list-line"></i></div>
+									<div class="integral-list">
+										<div class="integral-list-td integral-list-td1"><span class="din integral-rank integral-rank3">3</span></div>
+										<div class="integral-list-td integral-list-td2">
+											<div class="integral-team-logo"><img src="ossweb-img/0.png" alt="战队logo" /></div><span class="integral-team-name">TL</span></div>
+										<div class="integral-list-td integral-list-td3"><span class="din c-bb9a6c">3</span>/<span class="din">3</span></div>
+										<div class="integral-list-td integral-list-td4"><span class="din c-d4554c">3</span></div><i class="integral-list-line"></i></div>
+									<div class="integral-list">
+										<div class="integral-list-td integral-list-td1"><span class="din integral-rank integral-rank4">4</span></div>
+										<div class="integral-list-td integral-list-td2">
+											<div class="integral-team-logo"><img src="ossweb-img/0.png" alt="战队logo" /></div><span class="integral-team-name">AHQ</span></div>
+										<div class="integral-list-td integral-list-td3"><span class="din c-bb9a6c">0</span>/<span class="din">6</span></div>
+										<div class="integral-list-td integral-list-td4"><span class="din c-d4554c">0</span></div><i class="integral-list-line"></i></div>
+										<div class="integral-list">
+										<div class="integral-list-td integral-list-td1"><span class="din integral-rank integral-rank5">5</span></div>
+										<div class="integral-list-td integral-list-td2">
+											<div class="integral-team-logo"><img src="ossweb-img/0.png" alt="战队logo" /></div><span class="integral-team-name">HKA</span></div>
+										<div class="integral-list-td integral-list-td3"><span class="din c-bb9a6c">0</span>/<span class="din">6</span></div>
+										<div class="integral-list-td integral-list-td4"><span class="din c-d4554c">0</span></div><i class="integral-list-line"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="cont cont3" style="display: none;">
+					<div class="gameout-box">
+						<div class="gameout-content-scroll">
+							<div class="gameout-content">
+								<!-- 4分之1淘汰赛 -->
+								<div class="gameout-content1">
+									<p class="gameout-content-txt">四分之一淘汰赛 - BO5</p>
+									<div class="gameout-content-group-box">
+										<div class="gameout-time">
+											<p>10-26<br>18:00</p>
+										</div>
+										<div class="gameout-team-box">
+											<div class="gameout-team ">
+												<div class="gameout-logo"><img src="ossweb-img/0.png" alt="logo" /></div>
+												<div class="gameout-name">GRF</div>
+												<div class="gameout-num din">1</div>
+											</div>
+											<div class="gameout-team win">
+												<div class="gameout-logo"><img src="ossweb-img/0.png" alt="logo" /></div>
+												<div class="gameout-name">IG</div>
+												<div class="gameout-num din">3</div>
+											</div>
+										</div>
+									</div>
+									<div class="gameout-content-group-box">
+										<div class="gameout-time">
+											<p>10-26<br>23:00</p>
+										</div>
+										<div class="gameout-team-box">
+											<div class="gameout-team win">
+												<div class="gameout-logo"><img src="ossweb-img/0.png" alt="logo" /></div>
+												<div class="gameout-name">FPX</div>
+												<div class="gameout-num din">3</div>
+											</div>
+											<div class="gameout-team ">
+												<div class="gameout-logo"><img src="ossweb-img/0.png" alt="logo" /></div>
+												<div class="gameout-name">FNC</div>
+												<div class="gameout-num din">1</div>
+											</div>
+										</div>
+									</div>
+									<div class="gameout-content-group-box">
+										<div class="gameout-time">
+											<p>10-27<br>19:00</p>
+										</div>
+										<div class="gameout-team-box">
+											<div class="gameout-team win">
+												<div class="gameout-logo"><img src="ossweb-img/0.png" alt="logo" /></div>
+												<div class="gameout-name">SKT</div>
+												<div class="gameout-num din">3</div>
+											</div>
+											<div class="gameout-team ">
+												<div class="gameout-logo"><img src="ossweb-img/0.png" alt="logo" /></div>
+												<div class="gameout-name">SPY</div>
+												<div class="gameout-num din">1</div>
+											</div>
+										</div>
+									</div>
+									<div class="gameout-content-group-box">
+										<div class="gameout-time">
+											<p>10-28<br>00:00</p>
+										</div>
+										<div class="gameout-team-box">
+											<div class="gameout-team ">
+												<div class="gameout-logo"><img src="ossweb-img/0.png" alt="logo" /></div>
+												<div class="gameout-name">DWG</div>
+												<div class="gameout-num din">1</div>
+											</div>
+											<div class="gameout-team win">
+												<div class="gameout-logo"><img src="ossweb-img/0.png" alt="logo" /></div>
+												<div class="gameout-name">G2</div>
+												<div class="gameout-num din">3</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- 半决赛 -->
+								<div class="gameout-content2">
+									<p class="gameout-content-txt">半决赛-BO5</p>
+									<div class="gameout-content-group-box">
+										<div class="gameout-group-linebox"><i class="gameout-group-line1"></i><i class="gameout-group-line2"></i><i class="gameout-group-line3"></i></div>
+										<div class="gameout-time">
+											<p>11-02<br>19:00</p><i class="gameout-group-line4"></i></div>
+										<div class="gameout-team-box">
+											<div class="gameout-team ">
+												<div class="gameout-logo"><img src="ossweb-img/0.png" alt="logo" /></div>
+												<div class="gameout-name">IG</div>
+												<div class="gameout-num din">1</div>
+											</div>
+											<div class="gameout-team win">
+												<div class="gameout-logo"><img src="ossweb-img/0.png" alt="logo" /></div>
+												<div class="gameout-name">FPX</div>
+												<div class="gameout-num din">3</div>
+											</div>
+										</div>
+									</div>
+									<div class="gameout-content-group-box">
+										<div class="gameout-group-linebox"><i class="gameout-group-line1"></i><i class="gameout-group-line2"></i><i class="gameout-group-line3"></i></div>
+										<div class="gameout-time">
+											<p>11-03<br>19:00</p><i class="gameout-group-line4"></i></div>
+										<div class="gameout-team-box">
+											<div class="gameout-team ">
+												<div class="gameout-logo"><img src="ossweb-img/0.png" alt="logo" /></div>
+												<div class="gameout-name">SKT</div>
+												<div class="gameout-num din">1</div>
+											</div>
+											<div class="gameout-team win">
+												<div class="gameout-logo"><img src="ossweb-img/0.png" alt="logo" /></div>
+												<div class="gameout-name">G2</div>
+												<div class="gameout-num din">3</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- 决赛 -->
+								<div class="gameout-content3">
+									<p class="gameout-content-txt">决赛-BO5</p>
+									<div class="gameout-content-group-box">
+										<div class="gameout-group-linebox"><i class="gameout-group-line1"></i><i class="gameout-group-line2"></i><i class="gameout-group-line3"></i></div>
+										<div class="gameout-time">
+											<p>11-10<br>20:00</p><i class="gameout-group-line4"></i></div>
+										<div class="gameout-team-box">
+											<div class="gameout-team win">
+												<div class="gameout-logo"><img src="ossweb-img/0.png" alt="logo" /></div>
+												<div class="gameout-name">FPX</div>
+												<div class="gameout-num din">3</div>
+											</div>
+											<div class="gameout-team ">
+												<div class="gameout-logo"><img src="ossweb-img/0.png" alt="logo" /></div>
+												<div class="gameout-name">G2</div>
+												<div class="gameout-num din">0</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 页面主体代码 End -->
+
+		<script src="//js.aq.qq.com/js/aq_common.js"></script>
+		<script src="//ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js"></script>
+		<script>
+			//此段代码不能放到外链JS中，
+			var setSite = { //设置网站属性
+				siteType: "a20200507special", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+				pageType: "index", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN,不支持点(.)、下划线(_)
+				pageName: "热点专题", //必填项:页面中文名
+				project: "other", //必填项:按照模块内容，填写固定的对应值;皮肤 skin;英雄 hero;商业化 commerce;赛事 match;运营/版本 version;品牌 brand;IP ip;社区 community;网吧投放 netbar;默认other;
+				osact: 0 //选填项:是否是官网专题(在官网运营的专题)boolean；默认是0；可以在链接上加入参数osact=1来灵活设置
+			};
+			if(typeof(pgvMain) == 'function') pgvMain(); //千万不能忘记！
+		</script>
+		<!-- <script src="//game.gtimg.cn/images/js/2018foot/foot.js"></script> -->
+		<script src="//pub.idqqimg.com/qqmobile/qqapi.js?_bid=152"></script>
+		<script src="//ossweb-img.qq.com/images/js/zepto/zepto.min.js"></script>
+		<script src="//ossweb-img.qq.com/images/js/mobile_bundle/milo.js"></script>
+		<!-- 页面脚本逻辑 -->
+		<script src="//ossweb-img.qq.com/images/js/jquery/jquery-1.11.3.min.js"></script>
+		<script src="js/index.js" charset="GBK"></script>
+		 <script src="//lol.qq.com/m/public/LOL_App.js"></script> 
+		 <script>
+			init_ZMApp({
+				'title': '热点专题',
+				'summery': '热点专题',
+				'subtitle': '热点专题',
+				'img': 'https:ossweb-img/share.jpg',
+				'url': location.href.split('?')[0],
+				'WXtrigger': function(res) {
+					//微信动作回调
+				},
+				'WXsuccess': function(res) {
+					//微信成功回调
+					if(!res) return;
+					if(res.errMsg == 'sendAppMessage:ok') {
+						//微信分享个人
+						PTTSendClick('btn', 'sharewx1', '分享给好友');
+					} else if(res.errMsg == 'shareTimeline:ok') {
+						//微信分享朋友圈
+						PTTSendClick('btn', 'sharewx2', '分享到朋友圈');
+					} else if(res.errMsg == 'shareQQ:ok') {
+						//微信分享至QQ
+						PTTSendClick('btn', 'shareqq', '分享到QQ');
+					}
+				},
+				'WXcancel': function(res) {
+					//微信分享取消动作回调
+					PTTSendClick('btn', 'sharewx_cancel', '分享取消');
+				},
+				'WXfail': function(res) {
+					//微信分享失败动作回调
+					PTTSendClick('btn', 'sharewx_fail', '分享失败');
+				},
+				'QQtrigger': function(res) {
+					//QQ动作回调
+
+				},
+				'QQcallback': function(res) {
+					//QQ分享成功
+					PTTSendClick('btn', 'shareqq_succ', 'QQ分享成功');
+				},
+				'LOL_APPsuccess': function(res) {
+					//掌盟分享成功
+					PTTSendClick('btn', 'sharezm_succ', '掌盟分享成功');
+				}
+			});
+
+			function delayCookie() {
+				var cookieUin = milo.cookie.get('uin', '');
+				if(cookieUin) {
+					milo.cookie.set('uin_cookie', cookieUin, 365 * 24 * 60 * 60, 'qq.com', '/', false);
+					milo.cookie.set('ied_qq', cookieUin, 365 * 24 * 60 * 60, 'qq.com', '/', false);
+				}
+			}
+			setTimeout(delayCookie, 2000);
+		</script> 
+
+	</body>
+
+</html>

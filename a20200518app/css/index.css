@@ -1,0 +1,184 @@
+@charset "GBK";
+
+html,body,div,p,ul,li,dl,dt,dd,em,i,span,a,img,input,h1,h2,h3,h4,h5 {margin:0;padding:0}
+a,img,input {border:none;}
+body{font: 14px/1.75 -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+a {text-decoration:none;}
+ul,li{list-style: none}
+/* reset */
+html,body,div,p,ul,li,dl,dt,dd,em,i,span,a,img,input,h1,h2,h3,h4,h5{margin:0;padding:0}
+a,img,input{border:none;}
+body{font-family: '\82F9\65B9','\5FAE\8F6F\96C5\9ED1',"Helvetica Neue", Helvetica, Arial, sans-serif;-webkit-tap-highlight-color:rgba(0,0,0,0);background-color:#ffffff;}
+a{text-decoration:none;}
+ul,li{list-style:none}
+table{border-collapse:collapse;border-spacing:0}
+td,th,ul,ol{padding:0}
+em,i{font-style:normal;}
+b{font-weight:normal;}
+/* reset end */
+html {
+    font-size: 50px;/* 兼容不支持vw的系统 */
+    font-size: 13.33333333vw;/* 7.5rem === 100vw */
+}
+@media (max-width: 1024px) {
+    html,body {
+        max-width: 1024px;
+    }
+}
+/* hid */
+.hid{text-indent:-999em;font-size:0;overflow:hidden;width:0;height:0;display:block}
+/* foot */
+#afooter{text-align:center;font-size:.22rem;line-height:1.5;padding:.2rem 0;background-color:#000;}
+#afooter,#afooter a{color:#c0c0c0;text-decoration:none;}
+
+
+
+
+
+/* Nav-box */
+.nav-box{ z-index:10;  width:100%; height:auto; background:#fff;position: fixed; top:0;left: 0;}
+.nav-box ul{font-size:0;width: 100%;text-align: center;}
+.nav-box ul li{display:inline-block; vertical-align:0;position:relative;}
+.nav-box ul.navs{padding-left: .34rem;border-bottom:1px solid #e7e7e7;height: .96rem;}
+.nav-box ul.navs li{ font-size:0.28rem; color:#757e7f; line-height:.96rem;  transition:color 0.3s ease-in-out;width: 1.76rem;text-align: left;}
+.nav-box ul.navs li.on{color:#1c1c1c; font-weight:bold;font-size:0.32rem; }
+.nav-box ul.navs li:first-child{position: relative;width: 2.2rem!important;}
+.nav-box ul.navs li:first-child::after{content:''; display:block; width:.2rem; height:.24rem; display:inline-block; vertical-align:0;background: url(../ossweb-img/nav-icon.png);background-size: 100% auto;margin-left: .1rem;}
+.nav-box ul li::before{content:''; display:block; width:0; height:0.04rem; background:#191919; border-radius:0.02rem; position:absolute; bottom:0.2rem; left:0rem; transition:width 0.3s ease-in-out;}
+.nav-box ul.navs li.on::before{width:0.3rem;}
+.nav-box ul.navs li.on:first-child::after{background: url(../ossweb-img/nav-iconon.png);background-size: 100% auto;}
+.nav-box .nav1-tab{height: auto;border-bottom:1px solid #e7e7e7;padding-bottom: .24rem;}
+.nav-box .nav1-tab ul{width: 7.04rem;height: auto;padding: 0.2rem 0 0.3rem;margin: 0 auto;display: flex;flex-direction: row; flex-wrap: wrap;}
+.nav-box .nav1-tab ul li{ width: 2.11rem;height: 0.52rem;text-align: center;line-height: 0.52rem;color: #1c1c1c;border: 0.02rem solid #e8ebec;border-radius: 0.03rem;overflow: hidden;margin: 0.1rem 0.09rem;font-size: .22rem;}
+.nav-box .nav1-tab .btn-sure{display: block;width: 6.86rem;height: 0.86rem;text-align: center;line-height: 0.86rem;color: #ffffff;overflow: hidden;border-radius: 0.03rem;background-color: #000000;margin:0 auto;font-size: .22rem;}
+.nav-box .nav1-tab ul li.on{border: 0.02rem solid #1997a4;color: #1997a4;}
+
+
+
+
+/*.content .finalis-scroll-box{height: calc(100vh - 5rem);}*/
+.content{padding-top: 1.2rem;width: 7.5rem;overflow: hidden;position: relative;}
+.finalis-tabs{width: 6.96rem;font-size: 0;text-align: center;overflow: hidden;height: 0.54rem;border-radius: 0.06rem;border: 0.02rem solid #989898;margin: 0 auto;box-sizing: border-box;}
+.finalis-tabs a{display: inline-block;vertical-align: top;font-size:0.28rem; color:#757e7f; line-height:.56rem;width: 3.46rem;border-radius: 0.06rem;}
+.finalis-tabs a.on{background: #000;color: #fff;}
+/* 入围赛-小组阶段 */
+.finalis-box{position: relative;width: 15rem;text-align: left;font-size: 0;overflow: hidden;height: auto;transition: left .3s;}
+.finalis-scroll-box{display: inline-block;vertical-align: top; width: 7.5rem;height: 100%;overflow-x: hidden;overflow-y: auto;}
+.integral-box{width: 7.5rem;height:auto;position: relative;background:url(../ossweb-img/integral-bg.png) no-repeat;background-size:100% auto;margin-bottom: .2rem;}
+.integral-group{width: 100%;height: .54rem;line-height: .54rem;font-size: .32rem;text-indent: .32rem;color: #757e7f;/*background:#fdfdfd;*/}
+.integral-list-header{width: 7.5rem;height: 0.56rem;font-size: 0;text-align: left;/*background: #f1f3f7;*/margin-bottom: .3rem;}
+.integral-list{width: 7.5rem;height: .92rem;font-size: 0;text-align: left;/*background: #fcfcfc;*/}
+.integral-list-line{position: absolute;bottom: -.2rem;left:0rem; display: block;width: 7.5rem;height: 1px; background: #edf0f0;}
+.integral-list-td{display: inline-block;vertical-align: top;}
+.integral-list-header .integral-list-td{height: 0.56rem; line-height: .56rem;font-size: .28rem;color: #757e7f;}
+.integral-list .integral-list-td{height: .64rem; line-height: .64rem;padding: .14rem 0;font-size: .32rem;color: #6f7879;}
+.integral-list-td1{margin-left: .32rem;width: 0.84rem;text-align: left;}
+.integral-list-td2{width: 1.7rem;margin-right: 1.84rem;text-align: left;}
+.integral-list-header .integral-list-td2{text-align: center;}
+.integral-list-td3{width: 1rem;text-align: center;}
+.integral-list-td4{width: 1rem;float: right;margin-right: .32rem;text-align: center;}
+.integral-list .integral-list-td3{color: #808486;}
+.integral-list .integral-list-td2{font-size: 0;}
+.integral-list .integral-list-td2 .integral-team-name{font-size: .24rem;}
+.integral-team-logo{display: inline-block;vertical-align: top;width: 0.64rem;height: 0.64rem;/*background: #e8ebec;*/border-radius: 50%;position: relative;margin-right: .14rem;border: 1px solid #e9eaec;}
+.integral-team-logo img{display: block;width: 70%;height: 70%;position: absolute;top: 0;left: 0;right: 0;bottom: 0;margin:  auto;}
+.c-bb9a6c{color: #e9634e;}
+.c-d4554c{color: #d4554c;}
+.c-fd7742{color: #fd7742;}
+.c-f4a93b{color: #f4a93b;}
+.integral-rank{background:url(../ossweb-img/spr1.png) no-repeat;background-size:.4rem 4.06rem;display: inline-block;vertical-align: top; height: 0.64rem; width: 0.4rem;background-position: -11rem -11rem;text-align: center;}
+.integral-rank1{background-position: 0rem .14rem;color: #f1f3f7;}
+.integral-rank2{background-position:0rem -.78rem;color: #fdefef;}
+.integral-rank3{background-position: 0rem -1.72rem;color: #eedfdf;}
+.integral-rank4{background-position: 0rem -2.6rem;color: #fdfefc;}
+.integral-rank5{background-position: 0rem -3.52rem;color: #ffffff;}
+
+
+/* 入围赛-淘汰阶段 */
+.finalis-out-box{background: #fff;position: relative;}
+.finalis-out-box>div{width: 7.2rem;overflow-x: auto;margin-left: .3rem;overflow: scroll;}
+.finalis-out-box .finalis-out-line {padding-top: .3rem;height: auto;}
+.finalis-out-box .finalis-out-line .outline{background:url(../ossweb-img/outline-bg.png) no-repeat;background-size:100% auto; width: 6.4rem; height: 0.65rem;margin-bottom: .4rem;}
+.outline-logo{display: inline-block;width: 0.54rem;height: 0.54rem;vertical-align: top;position: relative;margin: .05rem .3rem;background: #e6e6e6;border-radius: 50%;}
+.outline-logo img{display: block;width: 70%;height: 70%;position: absolute;top: 0;left: 0;right: 0;bottom: 0;margin: auto;}
+.outline-txt{display: inline-block;vertical-align: top;color: #757e7f;font-size: .24rem;line-height: .64rem;width: 5.2rem;}
+.outline-txt i{display: inline-block;vertical-align: middle;width: .6rem;height: 1px;background: #c2c6c7;margin: 0 .1rem;}
+.finalis-out-box .finalis-out-line .outline.wait{background:url(../ossweb-img/waitline-bg.png) no-repeat;background-size:100% auto; }
+
+.finalis-out-txt{color: #a0acb5;font-size: .22rem;line-height: .24rem;/*padding-top: .3rem;*/height: .36rem;text-indent: .8rem;}
+.finalis-out-txt-win{width: 2.3rem; position: absolute;left: 5.06rem; top: 1rem;color: #a0acb5;font-size: .22rem;line-height: .24rem;}
+.finalis-out-list{width: 12rem;height: 1.76rem;overflow: hidden;text-align: left;font-size: 0;position: relative;}
+.finalisout-time,.finalisout-team-box,.finalisout-win,.finalisout-line-box{display: inline-block;vertical-align: top;height: 1.32rem;position: relative;}
+.finalisout-time{width: .78rem;}
+.finalisout-time p{line-height: .3rem;font-size: .2rem;color: #757e7f;height: .7rem;padding-top: .38rem;}
+.finalisout-team-box{width: 3.1rem;}
+.finalisout-team{display: block;width: 3.1rem;height: 0.66rem;background: url(../ossweb-img/lose-bg.png) no-repeat left center; background-size: 3.1rem 100%;font-size: 0;text-align: left;}
+.finalisout-team.win{background: url(../ossweb-img/win-bg.png) no-repeat left center; background-size: 3.1rem 100%;}
+.finalisout-team.same{background: url(../ossweb-img/same-bg.png) no-repeat left center; background-size: 3.1rem 100%;}
+.finalisout-team.wait{background: url(../ossweb-img/wait-bg.png) no-repeat left center; background-size: 3.1rem 100%;}
+.finalisout-logo{display: inline-block;width: 0.64rem;height: 0.64rem;vertical-align: top;position: relative;margin: 0 .1rem;}
+.finalisout-logo img{display: block;width: 70%;height: 70%;position: absolute;top: 0;left: 0;right: 0;bottom: 0;margin: auto;}
+.finalisout-name,.finalisout-num{display: inline-block;vertical-align: top;height: .64rem;line-height: .64rem;text-align: left;color: #6f7879;font-size: .28rem;font-weight: bold;}
+.finalisout-team.win .finalisout-name,.finalisout-team.win .finalisout-num,.finalisout-win .finalisout-name{color: #f0556e;}
+.finalisout-num{font-size: .36rem;width: 0.64rem;float: right;text-align: center;}
+.finalisout-line-box{width: .6rem;overflow: hidden;}
+.finalisout-line{display: block;width:100%;height: 1px;position: absolute;top: 0;left: 0;right: 0;bottom: 0;margin: auto; background: #f0556e;}
+.finalisout-win{width: 2.2rem;position: relative;}
+.finalisout-win .finalisout-team{width: 2.2rem;position: absolute;top: 0;left: 0;right: 0;bottom: 0;margin: auto;background: url(../ossweb-img/win-bg-min.png) no-repeat left center; background-size: 100% 100%;}
+.finalis-out-list .finalisout-group-linebox{display: inline-block;vertical-align: top;width: 0.4rem;height: .7rem;position: relative;margin-top: .32rem;}
+.finalisout-group-line1{position: absolute;top: 0;left: 0; width: 100%;height: 1px; background: #d4b58b;}
+.finalisout-group-line2{position: absolute;bottom: 0;left: 0; width: 100%;height: 1px; background: #d4b58b;}
+.finalisout-group-line3{position: absolute;top: 0;right: 0; width: 1px;height: 100%; background: #d4b58b;}
+
+
+/* 淘汰赛 */
+.gameout-box{display: block;width: 7.5rem;height: auto;overflow: hidden;background: #fff;}
+.gameout-tab-box{width: 7.5rem;height: 1.6rem;overflow: hidden;font-size: 0;text-align: center;position: relative;}
+.gameout-tab-bg{width: 6.44rem;height: 0.32rem;margin: 0 auto;margin-top: .56rem;}
+.gameout-tab-box.on0 .gameout-tab-bg{background-position: 0 -4rem;}
+.gameout-tab-box.on1 .gameout-tab-bg{background-position: 0 -4.5rem;}
+.gameout-tab-box.on2 .gameout-tab-bg{background-position: 0 -5rem;}
+.gameout-tabs{width: 7.5rem;height: 1rem;position: absolute;top: .56rem;left: 0;overflow: hidden;text-align: center;}
+.gameout-tab{display: inline-block;vertical-align: top; width: 1.34rem; height: 1rem; line-height: 1.2rem;color: #5b6c73;font-size: .24rem;}
+.gameout-tab1{float: left;}
+.gameout-tab2{margin: 0 auto;}
+.gameout-tab3{float: right;}
+.gameout-tab-box.on0 .gameout-tab1,.gameout-tab-box.on1 .gameout-tab2,.gameout-tab-box.on2 .gameout-tab3{color: #bb9a6c;}
+.gameout-content-scroll{display: block;width: 7.5rem;height: auto;overflow: auto; position: relative;}
+.gameout-content{display: block;width: 15rem;height: auto;position: relative;padding-top: .1rem;}
+.gameout-content1,.gameout-content2,.gameout-content3{display: inline-block;vertical-align: top;font-size: 0;text-align: left;}
+/* 4分之1淘汰赛 */
+.gameout-content1{width: 3.8rem;margin-left: .32rem;}
+.gameout-content1 .gameout-content-txt{width: 100%;font-size: .22rem;line-height: .24rem;height: 0.36rem;text-indent: .8rem;color: #757e7f;}
+.gameout-content1 .gameout-content-group-box{width: 3.86rem;height: 1.32rem;overflow: hidden;position: relative;margin-bottom: .5rem;}
+.gameout-content1 .gameout-time{display: inline-block;vertical-align: top;height: 1.32rem;position: relative;width: 0.74rem;}
+.gameout-content1 .gameout-time p{font-size: .2rem;width: 0.74rem; height: 0.62rem; line-height: .3rem;color: #757e7f;text-align: left;position: absolute;top: 0;left: 0;right: 0;bottom: 0;margin: auto;}
+.gameout-content1 .gameout-team-box{display: inline-block;vertical-align: top;height: 1.6rem;position: relative;width: 3.1rem;}
+.gameout-team{display: block;width: 3.1rem;height: 0.66rem;background: url(../ossweb-img/lose-bg.png) no-repeat center top; background-size: 100% 100%;}
+.gameout-team.win{background: url(../ossweb-img/win-bg.png) no-repeat center top; background-size: 100% 100%;}
+.gameout-logo{display: inline-block;width: 0.54rem;height: 0.54rem;vertical-align: top;position: relative;margin: .06rem .1rem 0 .26rem;background: #e6e6e6;border-radius: 50%;}
+.gameout-logo img{display: block;width: 70%;height: 70%;position: absolute;top: 0;left: 0;right: 0;bottom: 0;margin: auto;}
+.gameout-name,.gameout-num{display: inline-block;vertical-align: top;height: .66rem;line-height: .66rem;text-align: left;color: #6f7879;font-size: .28rem;font-weight: bold;}
+.gameout-num{font-size: .36rem;width: 0.64rem;float: right;text-align: center;}
+.gameout-team.win .gameout-name,.gameout-team.win .gameout-num{color: #f0556e;}
+/* 半决赛 */
+.gameout-content2{position: relative; width: 4.56rem;}
+.gameout-content2 .gameout-content-group-box{width: 4.5rem;height: 2.88rem;position: relative;font-size: 0;text-align: left;margin-top: 1rem;}
+.gameout-content2 .gameout-group-linebox{display: inline-block;vertical-align: top;width: 0.6rem;height: 1.84rem;position: relative;}
+.gameout-group-line1{position: absolute;top: 0;left: 0; width: 100%;height: 1px; background: #d4b58b;}
+.gameout-group-line2{position: absolute;bottom: 0;left: 0; width: 100%;height: 1px; background: #d4b58b;}
+.gameout-group-line3{position: absolute;top: 0;right: 0; width: 1px;height: 100%; background: #d4b58b;}
+.gameout-content2 .gameout-time{display: inline-block;vertical-align: top; width: 0.9rem; height: 1.72rem;position: relative;}
+.gameout-content2 .gameout-time p{font-size: .22rem;width: 0.9rem; height: 0.62rem; line-height: .3rem;color: #a0acb5;text-align: center;padding-top: .2rem;}
+.gameout-group-line4{position: absolute;top: 50%;left: 0; width: 100%;height: 1px; background: #d4b58b;}
+.gameout-content2 .gameout-team-box{display: inline-block;vertical-align: top;height: 2.4rem;position: relative;width: 3rem;margin-top: .2rem;}
+.gameout-content2 .gameout-content-txt{position: absolute;top: .8rem;left: 1.48rem; width: 100%;color: #a0acb5;font-size: .22rem;line-height: .3rem;height: 0.4rem;}
+/* 决赛 */
+.gameout-content3{width: 4.5rem;position: relative;}
+.gameout-content3 .gameout-content-group-box{width: 4.5rem;height: 4.06rem;position: relative;font-size: 0;text-align: left;margin-top: 1.86rem;}
+.gameout-content3 .gameout-group-linebox{display: inline-block;vertical-align: top;width: 0.6rem;height: 3.9rem;position: relative;}
+.gameout-content3 .gameout-time{display: inline-block;vertical-align: top; width: 0.9rem; height:3.9rem;position: relative;}
+.gameout-content3 .gameout-time p{font-size: .22rem;width: 0.9rem; height: 0.62rem; line-height: .3rem;color: #a0acb5;text-align: center;padding-top: 1.34rem;}
+.gameout-content3 .gameout-team-box{display: inline-block;vertical-align: top;height: 2.82rem;position: relative;width: 3rem;margin-top: 1.3rem;}
+.gameout-content3 .gameout-content-txt{position: absolute;top: 2.76rem;left: 1.48rem;width: 100%;color: #a0acb5;font-size: .22rem;line-height: .3rem;height: 0.4rem;}
+
