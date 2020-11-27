@@ -1,0 +1,291 @@
+/* reset */
+html,body,div,p,ul,li,dl,dt,dd,em,i,span,a,img,input,h1,h2,h3,h4,h5 {margin:0;padding:0}
+a,img,input {border:none;}
+body{font: 14px/1.75  -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;-webkit-tap-highlight-color: rgba(0,0,0,0);}
+a {text-decoration:none;}
+ul,li{list-style: none}
+a, img {-webkit-touch-callout: none; /* 禁止长按链接与图片弹出菜单，根据需要选择是否删除 */}
+html, body {
+    -webkit-user-select: none;   /* 禁止选中文本（如无文本选中需求，此为必选项） */
+    user-select: none;
+}
+/* reset end */
+html {
+  font-size: 50px;/* 兼容不支持vw的系统 */
+  font-size: 13.33333333vw;/* 7.5rem === 100vw */
+}
+
+@media (max-width: 1024px) {
+  html,body {
+    max-width: 1024px;
+  }
+}
+
+#afooter{background-color: #191219;text-align: center;font-size:.22rem;padding:.2rem 0;}
+#afooter, #afooter a{color: #c0c0c0;text-decoration: none;}
+/* 图片分离路径示例 */
+/* .bg{background-image: url(//game.gtimg.cn/images/lol/act/a20200117guardiansofthesand/bg.jpg);} */
+div,img,a{outline: none;}
+.hidden{display: none; font-size: 0; text-indent: -999em;}
+
+/*售卖价格字体*/
+@font-face {
+    font-family: 'sellnum-1';
+    src: url('//game.gtimg.cn/images/lol/common/sell/font/sellnum-1.eot');
+    src: url('//game.gtimg.cnimages/lol/common/sell/font/sellnum-1.woff') format('woff'),url('//game.gtimg.cn/images/lol/common/sell/font/sellnum-1.ttf') format('truetype'),url('//game.gtimg.cn/images/lol/common/sell/font/sellnum-1.svg') format('svg');
+}
+
+
+/* 金色字体示例样式 */
+.gold{
+  position: relative;
+  font-size:0.5rem;/* 字体大小 根据实际情况设置 */
+  color:#9693df;/* 默认色值 低级浏览器下显示 */
+ font-family: 'sellnum-1';
+ font-weight: bold;
+ display: inline-block;
+ width: auto;
+}
+
+@supports (-webkit-background-clip: text) {
+    .gold::before,.gold::after {
+        position: absolute;
+        z-index: 2;
+        top:0;
+        left:0;
+        content: attr(data-num);
+        background-image: linear-gradient(#e298ed, #7492d9);
+        -webkit-background-clip: text;
+        color: transparent;
+        -webkit-text-fill-color: transparent;
+    }
+    .gold::after{
+      z-index: 1;
+      top:0rem;
+      background-image: linear-gradient(#e298ed, #7492d9);
+    }
+}
+
+.spr{background: url(../ossweb-img/pass/spr.png) no-repeat;background-size: 7.5rem 33rem;width: 7.5rem;height: 33rem;}
+.wrap{width:100%;position: relative;overflow: hidden;margin: 0 auto;background: url(../ossweb-img/pass/m-bg0.jpg) center 0 no-repeat, url(../ossweb-img/pass/m-bg1.jpg) center 12.32rem no-repeat,url(../ossweb-img/pass/m-bg2.jpg) center 64.36rem no-repeat,url(../ossweb-img/pass/m-bg3.jpg) center 95.24rem no-repeat,url(../ossweb-img/pass/m-bg4.jpg) center 124.32rem no-repeat;height: 142.5rem; background-size:7.5rem auto;overflow: hidden;}
+.head,.content{width:7.5rem;position: relative;margin: 0 auto;overflow: hidden;}
+.cont{width:7.5rem;height: auto;position: relative;margin: 0 auto;overflow: hidden;}
+.head{height: 12.34rem;overflow: hidden;}
+
+/*头部 head*/
+.head .head-box{display: none;}
+.logo {background: url(//game.gtimg.cn/images/lol/logo/middle-white.png) no-repeat center top;background-size: 100% auto; width: 2rem; height: 0.72rem;  font-size: 0; position: absolute; top: 0.2rem; left: 0.14rem;}
+.spr-link{background: url(../ossweb-img/pass/m-spr-link.png) no-repeat;background-size: 7.16rem 2rem;width:7.16rem;height: 2rem; }
+.btn-links{width: 7.5rem;height: 1rem;position: absolute;bottom: 1.66rem;left:0;font-size: 0;text-align: center;}
+.btn-links a{width:1.76rem;height: 0.72rem; display: inline-block;*display:inline;*zoom:1;vertical-align:top;margin: 0 0.04rem;position: relative;}
+.btn-links a.btn-link1{background-position: 0 -1.04rem;}
+.btn-links a.btn-link2{background-position: -1.8rem -1.04rem;}
+.btn-links a.btn-link3{background-position: -3.6rem -1.04rem;}
+.btn-links a.btn-link4{background-position: -5.4rem -1.04rem;}
+.btn-links a.btn-link1.on{background-position: 0 0;}
+.btn-links a.btn-link2.on{background-position: -1.8rem 0;}
+.btn-links a.btn-link3.on{background-position: -3.6rem 0;}
+.btn-links a.btn-link4.on{background-position: -5.4rem 0;}
+
+/*.btn-links a.on{background-position: 0rem -20.7rem;color: #283947;}
+.btn-links a span{display: block;width: 1.3rem;line-height: .2rem;margin: 0 auto;text-align: center;padding-top: .14rem;}
+.btn-links a span b{display: none;}
+.btn-links a:before{content: ".";color: #847d7b;font-size: 0.2rem;position: absolute;top: -0.06rem;left: -0.14rem;pointer-events: none; cursor: initial;}
+.btn-links a.btn-link3:after{content: ".";color: #847d7b;font-size: 0.26rem;position: absolute;top: -0.08rem;right: -0.14rem;pointer-events: none; cursor: initial;}*/
+
+/*灵魂莲华(2020)通行证*/
+.main1{width:100%;height: 52.18rem;margin: 0 auto;box-sizing: border-box;}
+/*灵魂莲花通行证*/
+.main1 .main1-1{width:100%;height: auto;margin: 0 auto;font-size: 0;text-align: center;position: relative;}
+.main1 .main1-1>div{display: inline-block;*display:inline;*zoom:1;vertical-align:top;height: auto;}
+.main1 .main1-1>div.left{width:7.5rem;}
+.main1 .main1-1>div.right{width: 7.5rem;/*padding-top: .1rem;*/}
+.main1 .main1-1>div.left img{display: block;margin: 0 auto 0.1rem;width: 4.66rem;height: auto;}
+.main1 .main1-1>div.left .price{line-height: .7rem;}
+.main1 .main1-1>div.left .price span{color: #5c96dc;font-size: 0.18rem;font-weight: normal;}
+.main1 .main1-1>div.left b{font-weight: normal;color: #879b91;font-size: 0.2rem;display: block;line-height: 0.3rem;}
+.main1 .main1-1>div.right .video-box{background: url(../ossweb-img/pass/m-bg-video.png) no-repeat;background-size: 100% auto; width: 7.26rem;height: 4.04rem;margin:0 auto .2rem;position: relative;}
+/*.main1 .main1-1>div.right .video-box img{display: block;position: absolute;top: 50%;left: 50%;transform:translate(-50%,-50%)!important;width: 6.76rem;height: 3.54rem;object-fit: cover;}
+.main1 .main1-1>div.right .video-box i{width: 6.76rem;height: 3.54rem;background: #787878;opacity: .5!important;position: absolute;top: 50%;left: 50%;transform:translate(-50%,-50%)!important;}*/
+.main1 .main1-1>div.right .video-box .btn-video1{background-position: 0rem -21.96rem;width: 0.96rem;height: 0.96rem;position: absolute;top: 50%;left: 50%;transform:translate(-50%,-50%)!important;display: block;}
+.main1 .main1-1>div.right .title1-6-desc{color: #1b1c31;font-size: 0.24rem;line-height: 0.48rem;width: 7.5rem;margin: 0 auto;text-align: center;padding-top: .2rem;height: auto;}
+.main1 .main1-1>div.left1{padding-bottom: 7.8rem;}
+.main1 .main1-1>div.left1 b.buy-txt{display: none;}
+.main1 .main1-1>div.left2{position: absolute;top: 8.3rem;left: 0;}
+.main1 .main1-1>div.left2 b.buy-txt{background: url(../ossweb-img/pass/m-buy-txt.png) no-repeat;background-size: 100% auto; width: 7.5rem;height: .52rem;color: #ffffff;font-size: 0.2rem;line-height: 0.5rem;margin-top: .3rem;}
+/*.main1 .main1-1>div.right .container{position: absolute;top: 50%;left: 50%;transform:translate(-50%,-50%) ;width: 6.76rem;height: 3.54rem;}
+*/
+/*好感成就玩法全新亮相*/
+.main1 .main1-2{width:100%;height: auto;margin: 0 auto;font-size: 0;text-align: center;padding-top: 0.5rem;position: relative;}
+.main1 .main1-2 .swiper-container{width:5.1rem;height: auto;margin:0.3rem auto 0;}
+.main1 .main1-2 .swiper-container ul{width:5.1rem;}
+.main1 .main1-2 .swiper-container ul li img{width: 5.1rem;height: auto;display: block;object-fit: cover;}
+.main1 .main1-2 .swiper-button-next,.main1 .main1-2 .swiper-button-prev{width: .52rem;height: 0.4rem;margin-top: 0.78rem;}
+.main1 .main1-2 .swiper-button-next{background-position: -4.82rem -20.7rem;right: .4rem;}
+.main1 .main1-2 .swiper-button-prev{background-position: -5.74rem -20.7rem;left: .4rem;}
+.main1 .main1-2 .swiper-pagination{width:100%;height:.2rem;bottom:-.36rem;}
+.main1 .main1-2 .swiper-pagination span{opacity: .9;}
+.main1 .main1-2 .swiper-pagination-bullet{width:.16rem;height:.16rem;border-radius: 50%;border:.02rem solid #8f98a9;box-sizing:border-box;background:none;margin:0 .22rem;}
+.main1 .main1-2 .swiper-pagination-bullet-active{background: #76d0bf;}
+
+
+/*通行证专属福利*/
+.main1 .main1-3{width: 100%;height: auto;margin: 0 auto;text-align: center;padding-top: 0.6rem;}
+/*common*/
+.main1 .main1-3 ul{width: 100%;height: auto;margin: 0 auto;text-align: center;font-size: 0;}
+.main1 .main1-3 ul li{display: inline-block;*display:inline;*zoom:1;vertical-align:top;width: auto;height: auto;}
+.main1 .main1-3 .num{background-position: -1.4rem -21.96rem;width: 1.22rem;height: 0.38rem;margin: 0 auto;font-size: 0.38rem;line-height: 0.36rem;padding-bottom: 0.18rem;}
+.main1 .main1-3 .num span{font-size: .3rem!important;}
+.main1 .main1-3 .main1-3-txt1{color: #1b1c30;font-size: 0.16rem;line-height: 0.22rem;font-weight: bold;}
+.main1 .main1-3 .main1-3-txt2{color: #1b1c30;font-size: 0.14rem;line-height: 0.28rem;}
+
+.main1 .main1-3 .img-box{background: url(../ossweb-img/pass/img-bg.png) no-repeat;background-size:100% auto ;width: 2.06rem;height: 1.72rem;margin: 0 auto 0;}
+.main1 .main1-3 .pic-box{background: url(../ossweb-img/pass/pic-bg.png) no-repeat;background-size:100% auto ;width:1.92rem;height: 1.92rem;margin: 0 auto 0.08rem;}
+
+.main1 .main1-3 .main-img{padding-top: 0.32rem;}
+.main1 .main1-3 .main-img li{width: 2.06rem;}
+.main1 .main1-3 .main-img li:nth-child(2){margin: 0 .36rem;}
+.main1 .main1-3 .img-box img{display: block;width: 100%;height:auto;margin: 0 auto;}
+.main1 .main1-3 .main-img li p.main1-3-txt1{height: .54rem;width: 77%;margin: 0 auto;}
+.main1 .main1-3 .main-img li p.num{padding-bottom: .1rem;}
+.main1 .main1-3 .btn-gain-txt{color: #879b91;font-size: 0.14rem;text-decoration: underline;position: relative;top: -0.34rem;left: 0;}
+
+.main1 .main1-3 .tips{color: #879b91;font-size: 0.18rem;line-height: 0.56rem;padding-bottom: 0.04rem;}
+.main1 .main1-3 .main-pic li{width: 2.4rem;}
+.main1 .main1-3 .main-pic .pic-box img{display: block;width: 100%;height:auto;margin: 0 auto;}
+
+.main1 .main1-3 .main-prop{padding-top: 0.2rem;}
+.main1 .main1-3 .main-prop li{background: url(../ossweb-img/pass/prop-bg.png) no-repeat;background-size:100% auto;width:1.88rem;height: 1.75rem;margin:0 0.08rem 0.32rem;position: relative;}
+.main1 .main1-3 .main-prop li p{position: absolute;bottom: 0.1rem;left: 0;width: 100%;height:0.4rem;}
+.main1 .main1-3 .main-prop li img{display: block;width: 100%;height:auto;margin: 0 auto;}
+
+.main1 .main1-4{width: 100%;height: 6.8rem;margin: 0 auto;text-align: center;padding-top: 0.3rem;}
+.main1 .main1-4 img{display: block;margin: 0 auto;width: 7.1rem;height: auto;}
+.main1 .main1-4 .award-txt{color: #1b1c31;font-size: 0.2rem;line-height: 0.3rem;text-align: center;font-weight: bold;width:7.5rem;margin: 0 auto;}
+
+
+/*灵魂莲华(2020) 法球礼包 cont2*/
+.cont2{padding-top: 0.56rem;text-align: center;position: relative;padding-bottom: .72rem;height: 14.2rem;box-sizing: border-box;}
+.cont2 .title2-desc{color: #879b91;font-size: 0.2rem;line-height: 0.52rem;padding-bottom: 0.24rem;}
+.cont2 .title2-desc a{display: inline-block;*display:inline;*zoom:1;vertical-align:top;width: 0.92rem;height: 0.3rem;color: #6dd4be;line-height: 0.3rem;box-sizing: border-box;border: 0.02rem solid #6dd4be;margin: 0.1rem 0 0 0.14rem;}
+.cont2 ul{width: 100%;height: auto;margin: 0 auto;text-align: center;font-size: 0;position: relative;padding-top: 5.3rem;}
+.cont2 ul li{display: inline-block;*display:inline;*zoom:1;vertical-align:top;width: 3.5rem;height: auto;text-align: center;position: relative;}
+.cont2 ul li:nth-child(2){padding: 0 0.45rem;width: 4rem;position: absolute;top: 0;left: 1.3rem;}
+.cont2 ul li>div{width: 1.8rem;height: 1.5rem;margin: 0 auto;position: relative;}
+.cont2 ul li>div.on{display: inline-block;*display:inline;*zoom:1;vertical-align:top;}
+.cont2 ul li>div img.spe1{width: 1.26rem;}
+.cont2 ul li>div img{width: 1.42rem;height:auto;display: block;margin: 0 auto;}
+.cont2 ul li>div p{color: #1b1c30;font-size: 0.14rem;line-height: 0.24rem;position: absolute;bottom: 0;left: 0;width: 100%;}
+.cont2 ul li p.price{font-size: 0.5rem;line-height: .9rem;}
+.cont2 ul li p.price span{color: #5c96dc;font-size: 0.18rem;}
+.cont2 ul li a{background-position: -3.16rem -21.96rem;width: 2.84rem;height: 0.84rem;display: block;margin: 0 auto;font-size: 0;}
+.cont2 ul li:nth-child(2):after,.cont2 ul li:nth-child(2):before,.cont2 ul li:nth-child(3):before{content: "";background: url(../ossweb-img/pass/line.png) no-repeat;background-size:100% auto ;width:0.19rem;height: 4.77rem;display: block;position: absolute;top: -0.48rem;}
+.cont2 ul li:nth-child(2):after{right: 0rem;}
+.cont2 ul li:nth-child(2):before{left: 0rem;}
+.cont2 ul li:nth-child(3):before{top: 0rem;left: -.1rem;}
+
+
+/*绽灵币(2020)兑换商城*/
+.cont3{padding-top:0.76rem;position: relative;height:56rem;box-sizing: border-box;}
+.cont3 .title3-desc{color: #879b91;font-size: 0.2rem;line-height: 0.3rem;padding-bottom: 7.8rem;text-align: center;padding-top: .1rem;height: 8.5rem;box-sizing: border-box;overflow: hidden;}
+.cont3 .title3-desc span{border: .02rem solid #cfd7d3;padding: .02rem .04rem;}
+/*灵魂莲华  提莫*/
+.cont3 .main3-1{width: 7.5rem;height:auto;position: relative;}
+.cont3 .main3-1 .btn-video2{background-position: 0rem -23.34rem;width:1.48rem;height:1.48rem;display: block;margin: 0.48rem 0 0 3rem;}
+.cont3 .main3-1 .money{width: 100%;text-align: center;line-height: 0.6rem;padding-top: 0.4rem;height: 0.6rem;}
+.cont3 .main3-1 .money b{font-family: 'sellnum-1';color: #c88676;font-size: 0.52rem;}
+.cont3 .main3-1 .money span{/*display: inline-block;*display:inline;*zoom:1;vertical-align:top;*/color: #c68474;font-size: 0.16rem;font-weight: bold;/*width: 0.62rem;height: 0.4rem;border: 0.02rem solid #ca9083;text-align: center;box-sizing: border-box;border-radius: 0.04rem;line-height: 0.16rem;padding-top: 0.02rem;margin: 0.1rem 0 0 0.1rem;*/}
+.cont3 .main3-1 .tips{width: 100%;text-align: center;line-height: 0.44rem;color: #879b91;font-size: 0.2rem;height: .44rem;}
+.cont3 .main3-1 .tips span{font-weight: bold;}
+
+/*100至臻点(2020)+图标：2200绽灵币*/
+.cont3 .main3-2{width:100%;height:auto;position: relative;padding-top: 0.48rem;}
+.cont3 .main3-2 img{display: block;margin: 0.4rem auto 0;position: relative;left: 50%;transform: translateX(-50%);width: 10.08rem;height: auto;}
+
+/*main3-com*/
+.main3-com{width:100%;height:auto;position: relative;padding-top: 0.64rem;}
+.main3-com ul{width: 100%;height: auto;text-align: center;font-size: 0;margin: 0 auto;}
+.main3-com ul li{display: inline-block;*display:inline;*zoom:1;vertical-align:top;text-align: center;height: auto;}
+.main3-com ul li p{color: #1b1c30;font-size: 0.2rem;line-height: 0.22rem;font-weight: bold;padding-top: 0.16rem;}
+.main3-com ul li span{color: #879b91;font-size: 0.18rem;line-height: 0.34rem;display: block;}
+
+/*灵魂莲华炫彩+图标：300绽灵币/款*/
+.cont3 .main3-3 li{width: 2.41rem;margin-top: 0.4rem;}
+/*.cont3 .main3-3 li:first-child{margin-left: 0.6rem;}*/
+.cont3 .main3-3 li:nth-child(1),.cont3 .main3-3 li:nth-child(3){margin-right: 0.56rem;}
+.cont3 .main3-3 .paint-box{background: url(../ossweb-img/pass/paint-bg.png) no-repeat;background-size:100% auto ;width:2.41rem;height: 2.58rem;margin: 0 auto;}
+.cont3 .main3-3 .paint-box img{display: block;width: 100%;height: auto;margin: 0 auto;}
+/*灵魂莲华图标+边框：250绽灵币/款*/
+.cont3 .main3-4 ul{padding-bottom: 3.5rem;}
+.cont3 .main3-4 li{margin: 0 0.2rem;width: 1.7rem;padding-top: 0.2rem;}
+.cont3 .main3-4 li .mark-box{width: 1.68rem;height: 2.61rem;margin: 0 auto;}
+.cont3 .main3-4 li .mark-box img{display: block;width: 100%;height: auto;margin: 0 auto;}
+.cont3 .main3-4 li p{padding-top: 0;}
+.cont3 .main3-4 li:nth-child(1){position: absolute;left: 1.64rem;bottom: 0;}
+.cont3 .main3-4 li:nth-child(2){position: absolute;right: 1.64rem;bottom: 0;}
+
+/*云顶之弈 小小英雄蛋*/
+.cont3 .main3-5 li{width: 1.7rem;padding-top: 0.16rem;}
+.cont3 .main3-5 li .egg-box{background: url(../ossweb-img/pass/egg-bg.png) no-repeat;background-size:100% auto ;width: 1.57rem;height: 1.57rem;margin: 0 auto;}
+.cont3 .main3-5 li .egg-box img{display: block;width: 100%;height: auto;margin: 0 auto;}
+.cont3 .main3-5 li p{height: 0.5rem;}
+/*海克斯战利品*/
+.cont3 .main3-6 li{width: 1.52rem;margin-top: -0.1rem;}
+.cont3 .main3-6 li .heks-box{background: url(../ossweb-img/pass/heks-bg.png) no-repeat;background-size:100% auto ;width: 1.43rem;height: 1.61rem;margin: 0 auto;}
+.cont3 .main3-6 li .heks-box img{display: block;width: 100%;height: auto;margin: 0 auto;}
+.cont3 .main3-6 li p{padding-top: 0.08rem;height: 0.46rem;}
+.cont3 .main3-6 li p b{display: block;}
+.cont3 .main3-6 li span{padding-bottom: .1rem;}
+
+/*极限闪击*/
+.cont3 .main3-7{width: 100%;height: auto;padding-top: 1.2rem;position: relative;}
+.cont3 .main3-7 p{padding-top: 1.1rem;width: 5.8rem;height: auto;text-align: center;color: #1b1c31;font-size: 0.2rem;line-height: 0.36rem;margin: 0 auto;}
+.cont3 .main3-7 p span{padding-left: .1rem;color: #879b91;font-size: 0.18rem;line-height: 0.3rem;display: block;}
+.cont3 .main3-7 .btn-video3{background-position: -1.86rem -23.34rem;display: block;width: .64rem;height: .64rem;position: absolute;top: 1.56rem;right:1.1rem;}
+
+.title{width: 7.5rem;height: 1.12rem;margin: 0 auto;font-size: 0;}
+.title1{background-position: 0 0;height: 1.99rem;}
+.title2{background-position: 0 -7.78rem;height: 1.99rem;}
+.title3{background-position: 0 -10rem;height: 1.99rem;}
+.title1-1{background-position: 0 -27.82rem;height: 0.82rem;}
+.title1-2{background-position: 0 -3.18rem;}
+.title1-3{background-position: 0 -4.44rem;}
+.title1-4{background-position: 0 -5.86rem;height: 0.24rem;}
+.title1-5{background-position: 0 -6.34rem;}
+.title1-6{background-position: 0 -28.78rem;height: 0.82rem;}
+.title1-7{background-position: 0 -29.74rem;height: 0.82rem;}
+.title3-1{background-position: 0rem -12.24rem;height: 1.42rem;}
+.title3-2{background-position: 0 -14rem;}
+.title3-3{background-position: 0 -15.46rem;}
+.title3-4{background-position: 0 -16.82rem;}
+.title3-5{background-position: 0 -18.08rem;}
+.title3-6{background-position: 0 -19.34rem;}
+
+.sid{display: none;font-size: 0;}
+
+/*弹窗*/
+.dialog{position: relative;}
+.dia-close{background: url(../ossweb-img/pass/tc-close.png) no-repeat;background-size:100% auto ;width: 0.56rem;height: 0.56rem;position: absolute;top: -0.12rem;right: -0.04rem;}
+
+.dia1{background: url(../ossweb-img/pass/m-tc-bg1.png) no-repeat;background-size:100% auto ;width:7.34rem;height: 4.42rem;}
+.dia1 .txt-box{width: 6rem;margin: 0 auto;height: auto;}
+.dia1 span{display:block;text-align: center;margin: 0 auto;color: #ffffff;font-size: 0.24rem;line-height: 0.36rem;font-weight: bold;padding-top: 0.5rem;padding-bottom: 0.28rem;width: auto;margin: 0 auto;border-bottom: 0.02rem solid #474d59;}
+.dia1 p{padding-top: 0.26rem;color: #bcac9e;font-size: 0.18rem;line-height:0.28rem;width: 104%;}
+.dia1 p:last-child{padding-top: 0.26rem;}
+
+.dia2{background: url(../ossweb-img/pass/m-tc-bg2.png) no-repeat;background-size:100% auto ;width:7.14rem;height: 4.32rem;padding-top: 0.2rem;box-sizing: border-box;}
+.dia2 table{width: 6.2rem;height:3.8rem;margin: 0 auto;text-align: center;}
+.dia2 table th{color: #fffff2;font-size: 0.2rem;font-weight: bold;line-height: 0.26rem;border-bottom: 0.01rem solid #474d59;height: 0.66rem;}
+.dia2 table td{color: #bcac9e;font-size: 0.18rem;line-height: 0.26rem;border-bottom: 0.01rem solid #474d59;height: 0.64rem;}
+.dia2 table td:nth-child(-n+3){border-right: 0.01rem solid #474d59;}
+.dia2 table tr:last-child td{border: none;height: 0.7rem;}
+.dia2 table tr:nth-child(4){height: 0.96rem;}
+.dia2 table .spe1{line-height: 0.54rem;}
+.dia2 table th:first-child{width: 21%;}
+.dia2 table th:nth-child(2),.dia2 table th:nth-child(3){width: 28%;}
+.dia2 table th:nth-child(4){width: 25%;}
+
+
+.dia3{position: relative;width: 6.4rem;height: 3.6rem;}
+.dia3 .video-box{width: 6.4rem;height: 3.6rem;}
+.dia3 .dia-close{position: absolute;top: -.7rem;right:0;}
