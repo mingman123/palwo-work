@@ -1,0 +1,91 @@
+/* reset */
+html,body,div,p,ul,li,dl,dt,dd,em,i,span,a,img,input,h1,h2,h3,h4,h5 {margin:0;padding:0}
+a,img,input {border:none;}
+body{font: 14px/1.75  -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;-webkit-tap-highlight-color: rgba(0,0,0,0);}
+a {text-decoration:none;}
+ul,li{list-style: none}
+div,img,a{outline: none;}
+a, img {-webkit-touch-callout: none; /* 禁止长按链接与图片弹出菜单，根据需要选择是否删除 */}
+html, body {
+    -webkit-user-select: none;   /* 禁止选中文本（如无文本选中需求，此为必选项） */
+    user-select: none;
+}
+/* reset end */
+html {
+  font-size: 50px;/* 兼容不支持vw的系统 */
+  font-size: 13.33333333vw;/* 7.5rem === 100vw */
+}
+
+@media (max-width: 1024px) {
+  html,body {
+    max-width: 1024px;
+  }
+}
+body{background: #412924;}
+
+#afooter{background-color: #191219;text-align: center;font-size:.22rem;padding:.2rem 0;}
+#afooter, #afooter a{color: #c0c0c0;text-decoration: none;}
+/* 图片分离路径示例 */
+/* .bg{background-image: url(//game.gtimg.cn/images/lol/act/a20190510battle/bg.jpg);} */
+
+.hidden{display: none; font-size: 0; text-indent: -999em;}
+.wrap{background: url(../ossweb-img/m-bg.jpg) no-repeat center top;background-size: 100% 100%;width:7.5rem;height:35.14rem;position: relative;overflow: hidden;}
+.spr{background: url(../ossweb-img/spr.png) no-repeat;background-size:11.3rem 14rem;width:11.3rem;height: 14rem;}
+.head,.cont{width:7.5rem;overflow: hidden;position: relative;box-sizing: border-box;}
+.head{height: 10.92rem;}
+.cont1{height:10rem;position: relative;text-align: center;}
+.cont2{height:13rem;position: relative;}
+
+/*logo  .head*/
+.head{width:7.5rem;margin: 0 auto;font-size: 0;padding-top: 0.34rem;text-align: center;}
+.head a{display: inline-block;vertical-align:top;height: 0.76rem;}
+.head a.logo-lol{width: 2rem; background: url(//game.gtimg.cn/images/lol/logo/middle-white.png) no-repeat center center; background-size: 100% auto;margin-right: 0.1rem;}
+.head a.logo-bar{background: url(../ossweb-img/logo2.png) no-repeat center top;background-size: 100% auto;width: 1.51rem;margin-right: 0.3rem;}
+.head a.logo-qq{background: url(../ossweb-img/logo3.png) no-repeat center center;background-size: 100% auto;width: 1.29rem;}
+/*.head .sub-tit{width:5.98rem;height: 0.4rem;position: absolute;top: 7.94rem;left: 50%;transform: translateX(-50%);}
+.head .sub-tit1{background: url(../ossweb-img/title-sub1.png) no-repeat;background-size: 100% 100%;}
+.head .sub-tit2{background: url(../ossweb-img/title-sub2.png) no-repeat;background-size: 100% 100%;}
+.head .sub-tit.on{display: none;}*/
+
+/*特权网吧嗨翻天 cont1*/
+.cont1>div{display: inline-block;*display:inline;*zoom:1;vertical-align:top;width: 3.28rem;height: 5rem;}
+.cont1>div.left{margin-right: .24rem;margin-left: .02rem;}
+.cont1>div .sub-tit-txt{color: #f1eee7;font-size: 0.16rem;line-height: 0.28rem;letter-spacing: 0.1rem;}
+.cont1>div .sub-tit{color: #fcf3de;font-size: 0.36rem;line-height: 0.5rem;font-weight: bold;padding-bottom: 0.5rem;}
+/*.cont1>div .sub-tit:before,.cont1>div .sub-tit:after{content: "";background: url(../ossweb-img/icon.png) no-repeat center center;background-size: 0.1rem 0.1rem;width: 0.4rem;height: 0.5rem;display: inline-block;*display:inline;*zoom:1;vertical-align:top;}*/
+.cont1>div>div{position: relative;width: 3rem;height:2.3rem;margin: 0 auto;}
+.cont1>div.left img{width: 1.86rem;height: 1.8rem;}
+.cont1>div.right img{width: 2.86rem;height: 1.8rem;}
+.cont1>div>div img{display: block;margin: 0 auto;}
+.cont1>div>div .btn-play{background: url(../ossweb-img/btn-play.png) no-repeat center center;background-size: 0.66rem 0.6rem; width: 2.86rem;height: 1.8rem;position: absolute;top:0;left:0.07rem;display: block;z-index: 3;}
+.cont1>div .txt{color: #e4d7b9;font-size: 0.18rem;line-height: 0.3rem;}
+.cont1>div .txt span{display: block;}
+.cont1>div.right .txt{padding-top: .14rem;}
+.cont2 .txt1{color: #e4d7b9;font-size: 0.24rem;line-height: 0.34rem;font-weight: bold;padding-top: .76rem;padding-left: .48rem;}
+.cont2 .txt2{color: #e4d7b9;font-size: 0.18rem;line-height: 0.28rem;padding-top: 0.34rem;padding-left: .48rem;}
+.cont2 .txt2 span{color: #f5cd71;}
+.cont2 .btn-order{background-position: -5.08rem -3.88rem;width: 3.91rem;height: 1.02rem;display: block;position: absolute;bottom: 0.9rem;left: 50%;transform: translateX(-50%);}
+/*title*/
+.title{font-size: 0;width: 7.5rem;height: 2.08rem;margin: 0 auto;}
+.title1{background-position: 0 -6.84rem;}
+.title2{background-position: 0 -9.58rem;}
+.title-desc{width:88%;color: #f5e7c6;font-size: 0.22rem;line-height: 0.32rem;padding-bottom: 1rem;padding-top: .34rem;margin: 0 auto;}
+.title-desc span{display: block;}
+
+.dialog{position: relative;}
+.dia-close{background: url(../ossweb-img/tc-close.png) no-repeat;background-size: 100% 100%;width:0.5rem;height:0.5rem;position: absolute;top: -0.6rem;right: 0rem;}
+.dia1{background: url(../ossweb-img/m-tc-bg1.png) no-repeat;background-size: 100% 100%;width: 6.82rem;height: 3.8rem;}
+.dia1 .video{width: 6.62rem;height: 3.72rem;margin: 0.04rem auto 0;}
+.dia2{background: url(../ossweb-img/m-tc-bg2.png) no-repeat;background-size: 100% 100%;width:6.4rem;height:4.92rem;padding-top: 1.28rem;box-sizing: border-box;}
+.dia2 img{display: block;margin: 0 auto;width: 1.86rem;height: 1.8rem;}
+.dia2 p{color: #e4d7b9;font-size: 0.24rem;line-height: 1.1rem;text-align: center;}
+.dia2 .icon1{background: url(../ossweb-img/tc-icon1.png) no-repeat;background-size: 100% 100%;width:2.16rem;height:2.22rem;position: absolute;top: -0.88rem;left: -0.7rem;}
+.dia2 .icon2{background: url(../ossweb-img/tc-icon2.png) no-repeat;background-size: 100% 100%;width:1.52rem;height:1.68rem;position: absolute;bottom: -0.68rem;right:-0.8rem;}
+.dia3{background: url(../ossweb-img/m-tc-bg3.png) no-repeat;background-size: 100% 100%;width: 6.7rem;height:5.76rem;box-sizing: border-box;}
+.dia3 .txt{color: #e4d7b9;font-size: 0.24rem;line-height: 1.4rem;text-align: center;padding-top: 0.3rem;}
+.dia3 .icon3{background: url(../ossweb-img/tc-icon3.png) no-repeat;background-size: 100% 100%;width:1.59rem;height:1.9rem;position: absolute;top: 0.22rem;left: -0.6rem;}
+.dia3 .icon4{background: url(../ossweb-img/tc-icon4.png) no-repeat;background-size: 100% 100%;width:2.13rem;height:2.3rem;position: absolute;bottom: 0.5rem;right:-.6rem;}
+.dia3 .spr{display: block;width: 3.5rem;height: 0.8rem;margin: 0 auto 0.2rem;}
+.dia3 .btn-newbar{background-position: 0 -12.32rem;}
+.dia3 .btn-qqbar{background-position: -3.9rem -12.32rem;}
+.dia3 .btn-privilegebar{background-position: -7.7rem -12.32rem;}
