@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="gbk" /> 
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="format-detection" content="telephone=no"> 
+		<meta content="yes" name="mobile-web-app-capable">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta name="robots" content="all">
+		<meta name="author" content="Tencent-CP" />
+		<meta name="Copyright" content="Tencent" />
+		<meta name="description" content="小鹅营地，为青少年提供科技类赛事报名及游戏化学习课程。">
+        <meta name="keywords" content="小鹅营地，腾讯游戏追梦计划，青少年社区，青少年营地，课程，游戏化学习，游戏化创作，游戏化应用，功能游戏，腾讯扣叮，编程课程，科技课程，机器人课程，编程学习，机器人赛事报名，编程报名，青少年科技课程，赛事报名，青少年赛事报名">
+		<title>小鹅营地-百科</title>
+		<script>
+	        (function (win, doc) {
+	            var std = 750;
+	            var docEl = doc.documentElement,
+	                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+	                recalc = function () {
+	                    var clientWidth = docEl.clientWidth;
+	                    if (!clientWidth) return;
+	                    docEl.style.fontSize = 100 * (clientWidth / std) + 'px';
+	
+	                };
+	            if (!doc.addEventListener) return;
+	            recalc();
+	            win.addEventListener(resizeEvt, recalc, false);
+	            doc.addEventListener('DOMContentLoaded', recalc, false);
+	        
+	        })(window, document);
+	    </script>
+	    <!-- swiper 4.3.3 css -->
+		<link rel="stylesheet" href="//ossweb-img.qq.com/images/js/swiper/swiper-4.3.3.min.css">
+	    <link rel="stylesheet" href="css/index.css" />
+	</head>
+	<body>
+		<div class="wrap">
+			
+			<div class="cont">
+				<a class="btn-prev" href="javascript:;" onclick="PTTSendClick('btn', 'btn-prev', '返回');"></a>
+				<!--<a class="btn-prev" href="javascript:;" onclick="PTTSendClick('btn', 'btn-prev', '返回');"></a>-->
+				<p class="title">今日百科</p>
+				<div class="swiper-container">
+				    <ul class="swiper-wrapper">
+					    <li class="swiper-slide first">
+					    	<div class="box">
+						    	<img src="ossweb-img/img.jpg" alt="道具" class="on" />
+						    	<p class="txt">速度快、无延迟、挤不爆、5G到底是个什么玩意？</p>
+						    	<div class="btns">
+						    		<a class="btn-dislike" href="javascript:;" onclick="PTTSendClick('btn', 'btn-dislike', '不喜欢');"></a>
+						    		<a class="btn-share" href="javascript:saveImg();" onclick="PTTSendClick('btn', 'btn-share', '分享');"></a>
+						    		<a class="btn-like" href="javascript:;" onclick="PTTSendClick('btn', 'btn-like', '喜欢');"></a>
+						    		
+						    	</div>
+						    </div>
+						    <!--<p class="noarise">今后将不会出现此内容</p>-->
+					    </li>
+					    <li class="swiper-slide second">
+					    	<div class="box">
+						    	<img src="ossweb-img/img.jpg" alt="道具"/>
+						    	<p class="txt">速度快、无延迟、挤不爆、5G到底是个什么玩意？</p>
+						    	<div class="btns">
+						    		<a class="btn-dislike" href="javascript:;" onclick="PTTSendClick('btn', 'btn-dislike', '不喜欢');"></a>
+						    		<a class="btn-share" href="javascript:;" onclick="PTTSendClick('btn', 'btn-share', '分享');"></a>
+						    		<a class="btn-like" href="javascript:;" onclick="PTTSendClick('btn', 'btn-like', '喜欢');"></a>
+						    		
+						    	</div>
+						    </div>
+						    <!--<p class="noarise">今后将不会出现此内容</p>-->
+					    </li>
+					    <li class="swiper-slide third">
+					    	<div class="box">
+						    	<img src="ossweb-img/img.jpg" alt="道具"/>
+						    	<p class="txt">速度快、无延迟、挤不爆、5G到底是个什么玩意？</p>
+						    	<div class="btns">
+						    		<a class="btn-dislike" href="javascript:;" onclick="PTTSendClick('btn', 'btn-dislike', '不喜欢');"></a>
+						    		<a class="btn-share" href="javascript:;" onclick="PTTSendClick('btn', 'btn-share', '分享');"></a>
+						    		<a class="btn-like" href="javascript:;" onclick="PTTSendClick('btn', 'btn-like', '喜欢');"></a>
+						    		
+						    	</div>
+						    </div>
+						    <!--<p class="noarise">今后将不会出现此内容</p>-->
+					    </li>
+					    <li class="swiper-slide third">
+					    	<div class="box">
+						    	<img src="ossweb-img/img.jpg" alt="道具"/>
+						    	<p class="txt">速度快、无延迟、挤不爆、5G到底是个什么玩意？</p>
+						    	<div class="btns">
+						    		<a class="btn-dislike" href="javascript:;" onclick="PTTSendClick('btn', 'btn-dislike', '不喜欢');"></a>
+						    		<a class="btn-share" href="javascript:;" onclick="PTTSendClick('btn', 'btn-share', '分享');"></a>
+						    		<a class="btn-like" href="javascript:;" onclick="PTTSendClick('btn', 'btn-like', '喜欢');"></a>
+						    	</div>
+						    </div>
+						    
+					    </li>
+					</ul>
+				</div>
+				<!--不喜欢-->
+				<div class="tc-dislike">
+					 <p class="noarise">再次点击则不再出现此内容</p>
+				</div>
+				<div class="nothing">
+					<p>到<br />底<br />了<br /><i>~</i>到<br />底<br />了<br /><i>~</i></p>
+				</div>
+			</div>
+			
+		</div>
+		
+		<div class="tc-cover" style="display: none;"></div>
+		<div class="screenshot dia1" id="dia1" style="display: block;">
+			<div class="tc-share" id="tc-share">
+				<a href="https://zhuimeng.qq.com/community/" class="logo hid"  onclick="PTTSendClick('btn','logo','小鹅营地');">小鹅营地</a>
+				<div class="tc-box">
+					<div class="left">
+						<p class="sub-txt">动物森林玩家</p>
+						<p class="day txt1"><span>4</span>坚持天数</p>
+						<p class="day txt1"><span>8</span>阅读文章</p>
+					</div>
+					<div class="right">
+						<img src="ossweb-img/tc-code.png" alt="二维码" />
+						<p class="code-txt">扫码围观<br />有趣的科学</p>
+					</div>
+				</div>
+				<img src="ossweb-img/tc-pic.jpg" alt="" class="tc-pic" />
+				<p class="tc-title"></p>
+				<p class="txt2">速度快、无延迟、挤不爆、5G到底是个什么玩意？</p>
+			</div>
+		</div>
+			<!--<div class="tc-share2" id="tc-share2">
+				<img id="screenshotimg" src="" alt="" class="tc-pic1"/>
+				<p>长按图片选择保存</p>
+			</div>
+			<a class="dia-close" href="javascript:;" title="关闭">×</a>
+		</div>-->
+		<div class="dialog dia1 dia10" id="dia10" style="display: none;">
+			<div class="tc-share2" id="tc-share2">
+				<img id="screenshotimg" src="" alt="" class="tc-pic1"/>
+				<p>长按图片选择保存</p>
+			</div>
+			<a class="dia-close" href="javascript:;" title="关闭">×</a>
+		</div>
+		
+		
+		<!-- share -->
+		<div id="s4Share" class="s4_share" style="display: none;">
+			<div class="fenx"></div>
+		</div>
+		
+		<!--分享方式-->
+		<div class="pop pop-share" style="display: none;">
+			<div class="pop-pmask"></div>
+			<div class="share-main">
+				<div class="share-pbox">
+					<a class="btn-wxhy" href="javascript:;">
+						<span class="share-img share-img1"></span>
+						<span class="share-text">微信好友</span>
+					</a>
+					<a class="btn-pyq" href="javascript:;">
+						<span class="share-img share-img2"></span>
+						<span class="share-text">朋友圈</span>
+					</a>
+					<a class="btn-fximg" href="javascript:;">
+						<span class="share-img share-img3"></span>
+						<span class="share-text">生成分享图片</span>
+					</a>
+				</div>
+				<a class="btn-qx" href="javascript:closeDialog();">取消</a>
+			</div>
+		</div>
+		
+		<!--收藏成功提示-->
+		<div class="pop pop-ibox pop-ibox2" style="display: none;">
+			<div class="pop-iflex pop-iflex2">
+				<p class="pop-ibg"></p>
+				<p class="pop-itext">收藏成功</p>
+			</div>
+		</div>
+		
+		<!--取消收藏提示-->
+		<div class="pop pop-ibox pop-ibox3" style="display: none;">
+			<div class="pop-iflex pop-iflex2">
+				<p class="pop-ibg"></p>
+				<p class="pop-itext">取消收藏</p>
+			</div>
+		</div>
+		
+		<!--系统弹窗通用提示-->
+		<div class="pop pop-ibox pop-ity" style="display: none;">
+			<div class="pop-iflex">
+				<p class="pop-ibg"></p>
+				<i class="icon"></i>
+				<p class="pop-itext">请使用浏览器<br />自带分享功能<br />分享哦</p>
+			</div>
+		</div>
+		
+		
+		<!-- 登录弹窗 -->
+		<div class="pop pop-login" id="pop-login" style="display: none;">
+		    <h3>请先登录</h3>
+		    <div class="popCen">
+		        <a href="javascript:;" id="login_qq">
+		            <img src="https://zhuimeng.qq.com/act/1187/4a3e7948d2ca6fb0/m/ossweb-img/qq.png" alt="">
+		            <span>QQ登录</span>
+		        </a>
+		        <a href="javascript:;" id="login_wx">
+		            <img src="https://zhuimeng.qq.com/act/1187/4a3e7948d2ca6fb0/m/ossweb-img/wx.png" alt="">
+		            <span>微信登录</span>
+		        </a>
+		    </div>
+		    <a ontouchend="PTTSendClick('btn','close1','关闭1');" class="close ti" href="javascript:closeDialog();" title="关闭">关闭</a>
+		</div>
+		<!-- 登录弹窗 end-->
+		
+		<script src="//ossweb-img.qq.com/images/js/jquery/jquery-1.11.3.min.js"></script>
+		<script src="//ossweb-img.qq.com/images/js/mobile_bundle/milo.js"></script>
+		<script src="//ossweb-img.qq.com/images/js/TGMobileShare/TGMobileShare.min.js"></script>
+		<!-- swiper4 -->
+		<script src="//ossweb-img.qq.com/images/js/swiper4_component/js/swiper.min.js"></script>
+		<script src="js/html2canvas.js"></script>
+		<script src="js/index.js"></script>
+		
+		
+		<script src="//ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js"></script>
+		<script>
+			var setSite={ //设置网站属性 
+			    siteType:"a20200506baike", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+			    pageType:"index", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN,不支持点(.)、下划线(_)
+			    pageName:"首页", //必填项:页面中文名 
+			    project:"community", //选填项:如果是官网模块则是必填;按照模块内容，填写固定的对应值;官网微社区base;同人站doujin;赛事match;故事站story;文化站history;粉丝站fans;爆料站coming;论坛bbs;皮肤skin;默认other;
+			   	osact:0 //选填项:默认是0。osact=0表示非官网专题；osact=pc表示pc官网/pc官网专题；osact=m表示移动官网/移动官网专题；osact=ingame表示微社区/微社区专题
+			};
+			if(typeof(pgvMain)=='function')pgvMain();//千万不能忘记！
+		</script>
+	</body>
+</html>
