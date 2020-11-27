@@ -1,0 +1,152 @@
+body,dl,dd,ul,ol,h1,h2,h3,h4,h5,h6,p,form,header,section,article,footer{margin:0;}
+body,button,input,select,textarea{font:12px/1.5 tahoma,'\5FAE\8F6F\96C5\9ED1',sans-serif}
+h1,h2,h3,h4,h5,h6{font-size:100%}
+em,b{font-style:normal}
+a{text-decoration:none}
+/*a:hover{text-decoration:underline}*/
+img{border:0}
+body{padding-top:42px}
+button,input,select,textarea{font-size:100%;outline:none}
+table{border-collapse:collapse;border-spacing:0}
+td,th,ul,ol{padding:0}
+/* reset end */
+/* foot */
+#afooter {
+    position: relative;
+    padding: 30px 0;
+    text-align: center;
+    font: normal 12px/19px Tahoma;
+    z-index: 10;
+    background-color: #191219;
+}
+#afooter, #afooter a {
+    color: #c0c0c0;
+    text-decoration: none;
+}
+.hidden{display: none; font-size: 0; text-indent: -999em;}
+/* 图片分离路径示例 */
+/* .bg{background-image: url(//game.gtimg.cn/images/lol/act/a20200117guardiansofthesand/bg.jpg);} */
+.btn{transition: all .2s;}
+.btn:hover{  filter: brightness(1.1); -webkit-filter: brightness(1.1);}
+
+.wrap{min-width:1300px;max-width: 1920px;height: auto;position: relative;background: #121422;overflow: hidden;margin: 0 auto;}
+.main{min-width:1300px;max-width: 1920px;position: relative;overflow: hidden;margin: 0 auto;}
+.main-box{width: 1300px;height: auto;margin: 0 auto;position: relative;}
+.main1{background: url(//game.gtimg.cn/images/lol/act/a20200117guardiansofthesand/bg1.jpg) no-repeat center top;height: 1100px;}
+.main2{background: url(//game.gtimg.cn/images/lol/act/a20200117guardiansofthesand/bg2.jpg) no-repeat center top;height: 1260px;}
+.main3{background: url(//game.gtimg.cn/images/lol/act/a20200117guardiansofthesand/bg3.jpg) no-repeat center top;height: 1270px;}
+.main4{background: url(//game.gtimg.cn/images/lol/act/a20200117guardiansofthesand/bg4.jpg) no-repeat center top;height: 1478px;}
+
+/* common */
+.name{width: 354px;height: 130px;margin-bottom: 20px;}
+
+.main2 .name{background: url(//game.gtimg.cn/images/lol/act/a20200117guardiansofthesand/name1.png) no-repeat;}
+.main3 .name{background: url(//game.gtimg.cn/images/lol/act/a20200117guardiansofthesand/name2.png) no-repeat;}
+.main4 .name{background: url(//game.gtimg.cn/images/lol/act/a20200117guardiansofthesand/name3.png) no-repeat;}
+.btn-play2{background: url(//game.gtimg.cn/images/lol/act/a20200117guardiansofthesand/btn-play2.png) no-repeat;width: 83px;height: 83px;}
+.btn-buy{background: url(//game.gtimg.cn/images/lol/act/a20200117guardiansofthesand/btn-buy.png) no-repeat;width: 366px;height: 128px;display: block;margin-top: 24px;font-size: 0;}
+
+.inner>div{display: inline-block; *display: inline; *zoom: 1; vertical-align: top;}
+.inner .left{width: 490px;padding-top: 36px;padding-left: 16px;}
+.inner .title{width: 426px;height: 80px;}
+.inner .include{font-size: 16px;color: #bc9763;line-height: 20px;padding-left: 20px;padding-bottom: 12px;padding-top: 12px;width: 84%;}
+.inner .tips{font-size: 16px;color: #a2a2a2;line-height: 20px;padding-left: 20px;width: 86%;}
+.inner .tips span{color: #bc9763;}
+.inner .center{width: 410px;position: relative;font-size: 0;}
+.inner .price-txt{font-size: 16px;color: #bc9763;line-height: 24px;padding-left: 8px;}
+.inner .price{width: 358px;height: 66px;}
+.inner .right{width: 370px;}
+.inner .btn-buy{margin-top: 62px;}
+.inner ul{width: 100%;text-align: center;font-size: 0;}
+.inner li{display: inline-block; *display: inline; *zoom: 1; vertical-align: top;width: 180px;height: auto;margin-right: 40px;}
+.inner li:last-child{margin-right: 0;}
+.inner li img{display: block;width: 110px;height: 134px;margin: 0 auto;}
+.inner li p{font-size: 14px;color: #a2a2a2;line-height: 20px;padding-top: 12px;padding-bottom: 6px;}
+.inner li span{font-size: 16px;color: #bc9763;line-height: 20px;display: block;}
+.inner li span.spe{text-align: left;position: relative; width: 100%;}
+.main3 .inner li span.spe{padding-left: 40px;}
+.main4 .inner li span.spe{padding-left: 32px;}
+/* main1 */
+.main1-box{height: 100%;}
+.logo{background: url(//game.gtimg.cn/images/lol/logo/middle.png) no-repeat center top;width: 200px;height:72px;background-size: 100%;font-size: 0;position: absolute;top: 20px;left: 0;z-index: 2;}
+
+/* main2 */
+.main2-box{padding-top: 202px;}
+.main2-box .btn-play2{position: absolute;top: 234px;left: 236px;}
+.main2-box .inner{background: url(//game.gtimg.cn/images/lol/act/a20200117guardiansofthesand/bg-prop1.png) no-repeat;width: 1300px;height: 497px;margin: 46px auto 0;font-size: 0;}
+.title1{background: url(//game.gtimg.cn/images/lol/act/a20200117guardiansofthesand/title1.png) no-repeat;}
+.price1{background: url(//game.gtimg.cn/images/lol/act/a20200117guardiansofthesand/price1.png) no-repeat;margin-top: 56px;}
+.main2-box .inner .btn-buy{margin-top: 52px;}
+.inner .left .title1{margin-top: 12px;}
+.main2-box ul{padding-top: 62px;}
+/* main3 */
+.main3-box{padding-top: 214px;}
+.main3-box .btn-play2{position: absolute;top: 248px;left: 236px;}
+.main3-box .inner{background: url(//game.gtimg.cn/images/lol/act/a20200117guardiansofthesand/bg-prop2.png) no-repeat;width: 1300px;height: 517px;margin: 30px auto 0;font-size: 0;}
+.title2{background: url(//game.gtimg.cn/images/lol/act/a20200117guardiansofthesand/title2.png) no-repeat;}
+.price2{background: url(//game.gtimg.cn/images/lol/act/a20200117guardiansofthesand/price2.png) no-repeat;margin-top: 76px;}
+.main3-box .inner .btn-buy{margin-top: 60px;}
+.main3-box ul{padding-top: 30px;}
+
+/* main4*/
+.main4-box{padding-top: 430px;}
+.main4-box .btn-play2{position: absolute;top: 462px;left: 370px;}
+.main4-box .inner{background: url(//game.gtimg.cn/images/lol/act/a20200117guardiansofthesand/bg-prop3.png) no-repeat;width: 1300px;height: 517px;margin: 30px auto 0;font-size: 0;}
+.title3{background: url(//game.gtimg.cn/images/lol/act/a20200117guardiansofthesand/title3.png) no-repeat;}
+.price3{background: url(//game.gtimg.cn/images/lol/act/a20200117guardiansofthesand/price3.png) no-repeat;margin-top: 76px;}
+.main4-box .inner .btn-buy{margin-top: 60px;}
+.main4-box ul{padding-top: 34px;}
+
+/*金色字体*/
+@font-face {
+    font-family: 'sellnum';
+    src: url('//game.gtimg.cn/images/lol/common/sell/font/sellnum.eot');
+    src: url('//game.gtimg.cn/images/lol/common/sell/font/sellnum.woff') format('woff'),
+          url('//game.gtimg.cn/images/lol/common/sell/font/sellnum.ttf') format('truetype'),
+          url('//game.gtimg.cn/images/lol/common/sell/font/sellnum.svg') format('svg');
+}
+.sellnum{
+    display: inline-block;
+    font-weight: 700;
+    font-family: 'sellnum';
+}
+
+/* 金色字体示例样式 */
+.gold{
+  position: relative;
+  font-size:80px;/* 字体大小 根据实际情况设置 */
+  color:#a37e38;/* 默认色值 低级浏览器下显示 */
+}
+
+@supports (-webkit-background-clip: text) {
+    .gold::before,.gold::after {
+        position: absolute;
+        z-index: 2;
+        top:0;
+        left:0;
+        content: attr(data-num);
+        background-image: linear-gradient(#f9dfa2, #a37e38);
+        -webkit-background-clip: text;
+        color: transparent;
+        -webkit-text-fill-color: transparent;
+    }
+    .gold::after{
+      z-index: 1;
+      top:-1px;
+      background-image: linear-gradient(#fff, #eed562);
+    }
+}
+
+.name-price-box{position: relative;width: 60%;height: auto;padding-left: 36px;}
+.name-price{font-size: 92px;position: relative;line-height: 90px;}
+.price-qb{font-size: 32px;line-height: 36px;text-align: center;margin-top: 8px;font-style: normal;}
+.name-price,.price-qb{display: inline-block; *display: inline; *zoom: 1; vertical-align: top;}
+
+
+.main2 .center{padding-top: 34px;}
+.main3 .center{padding-top: 54px;}
+.main4 .center{padding-top: 56px;}
+/*弹窗*/
+.dia1{position: relative;width: 1000px;height: 564px;}
+.dia1 .video-box{width: 1000px;height: 564px;}
+.dia-close{font-size: 54px;color: #fff;position: absolute;top: -26px;right: -60px;font-weight: bold;}
