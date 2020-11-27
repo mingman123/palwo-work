@@ -1,0 +1,99 @@
+/*reset*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}
+ol,ul{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+q:before,q:after{content:''}url
+abbr,acronym{border:0;font-variant:normal}
+sup{vertical-align:text-top}
+sub{vertical-align:text-bottom}
+a{text-decoration:none;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}
+input,textarea,select{*font-size:100%}
+.hid{text-indent:-9999px;font-size:0px;overflow:hidden;width:0px;height:0px;display:block}
+body{background: #FFFFFF;}
+/* foot */
+#afooter {position: relative;padding: 30px 0;text-align: center;font: normal 12px/19px Tahoma;z-index: 10;background-color: #191219;}
+#afooter, #afooter a {color: #c0c0c0;text-decoration: none;}
+.login{position: absolute;top: 400px;left: 0; display: block; width: 100%; text-align: center; font-size: 14px;  color: #323533;z-index: 99; }  
+.login a{color: #323533;}
+
+.wrap{max-width: 1920px; min-width: 1000px;height: 1710px;background: url(//game.gtimg.cn/images/sg/cp/a20200326computer/bg.jpg) no-repeat 50% 0;background-size:1920px auto;margin: 0 auto;position: relative;overflow: hidden;}
+.header{width: 1000px;height: 520px;margin: 0 auto;position: relative;}
+.logo{position: absolute;top: 60px;left: 436px;background: url(//game.gtimg.cn/images/sg/cp/a20200326computer/logo.png) no-repeat;width: 125px;height: 105px;}
+.changes{width: 1000px;height: auto;margin: 0 auto;background: #ffffff;border-radius:8px;text-align: center;}
+
+/*内容一*/
+.change1{height:780px ;}
+.change1 .box1{width: 814px;height: 334px;margin: 0 auto;border-bottom: 1px solid #f0f0f0;}
+
+.change1 .btns{width: 100%;height: auto;margin: 0 auto;text-align: center;}
+
+.change1 input{-webkit-appearance:none;-moz-appearance: none;outline:none;background:#f0f0f0;width: 240px;height: 56px;border: 2px solid #f0f0f0;box-sizing: border-box;padding: 0 20px;display: block;font-size:14px;color:#828282;}
+.change1 input,.change1 .btn1{display: inline-block;*display:inline;*zoom:1;vertical-align:top;margin-bottom: 30px;}
+.change1 .btns .btn1{width: 160px;height: 56px;line-height: 52px;box-sizing: border-box;border: 2px solid #256dc3;color: #256dc3;font-size: 14px;margin-left: 20px;}
+.change1 .btns .btn{display: inline-block;*display:inline;*zoom:1;vertical-align:top;}
+.change1 .btns .btn2,.change1 .btns .btn3{width: 200px;height: 60px;margin: 0 10px;background: #256dc3;line-height: 60px;color: #ffffff;font-size: 18px;font-weight: bold;}
+
+.change1 .btn:hover{-webkit-filter:brightness(1.1);-o-filter:brightness(1.1);-moz-filter:brightness(1.1);filter:brightness(1.1);}
+/*内容二*/
+.change2{height:710px ;}
+.change2 .box1{width: 814px;height: 258px;margin: 0 auto;border-bottom: 1px solid #f0f0f0;}
+.change2 .btn1{width: 202px;height: 60px;line-height: 60px;background: #256dc3;color: #FFFFFF;font-size: 14px;margin-left: 20px;font-size: 18px;font-weight: bold;display: block;margin:0 auto;border-radius: 2px;}
+
+.change2 .btn1:hover{-webkit-filter:brightness(1.1);-o-filter:brightness(1.1);-moz-filter:brightness(1.1);filter:brightness(1.1);}
+/*内容三*/
+.change3{height:1096px ;}
+.change3 .box1{width: 814px;height: 684px;margin: 0 auto;border-bottom: 1px solid #f0f0f0;}
+.change3 .num{background: url(//game.gtimg.cn/images/sg/cp/a20200326computer/num.png) no-repeat;width: 1000px;height: 258px;margin:  0 auto;text-align: center;position: relative;top: 0;left: -93px;}
+.change3 .num p{display:inline-block;*display:inline;*zoom:1;vertical-align:top;width: 296px;text-align: center;color: #999999;font-size: 14px;padding-top: 180px;line-height: 24px;}
+.change3 table{width: 814px;height:auto;margin: 0 auto;border:1px solid #ffffff;text-align: center;font-size: 14px;}
+.change3 table th{text-align: center;background: #d99976;color: #ffffff;}
+.change3 table th,.change3 table td{line-height: 60px;height: 60px;border: 1px solid #FFFFFF;width: 202px;}
+.change3 table .single{background: #f2f2f2;color:#666666 ;}
+.change3 table .double{background: #fcfcfc;color:#666666 ;}
+.change3 table a{color: #1b74df;border-bottom: 1px solid #1b74df;margin: 0 6px;}
+.change3 table a:hover{-webkit-filter:brightness(1.1);-o-filter:brightness(1.1);-moz-filter:brightness(1.1);filter:brightness(1.1);}
+/*common*/
+.phonenumber{color: #4c4c4c;font-size: 18px;line-height: 50px;width: 100%;padding-top: 52px;padding-bottom: 18px;}
+/*规则*/
+.rule-title{line-height: 66px;color: #666666;font-size: 26px;font-weight: bold;padding-top: 50px;}
+.rule{width: 814px;height: auto;margin: 0 auto;}
+.rule li{color: #666666;font-size: 14px;line-height: 30px;text-align: left;position: relative;padding-left: 34px;}
+.rule li span{position: absolute;top: 0;left: 14px;}
+.rule strong{color: #ea7d42;font-size: 14px;}
+.rule .btn-link{color: #ea7d42;}
+
+
+/*弹窗*/
+.dialog{position: relative;background: #ffffff;border-radius: 6px;font-size: 0;}
+.dialog .tc-title{font-size:26px;color:#d1865d;font-weight: bold;line-height: 82px;padding-top: 40px;}
+.dia1 .tc-title{padding-top: 20px;}
+.btn-sure,.btn-cancel{display: inline-block;*display:inline;*zoom:1;vertical-align:top;color:#ffffff;font-size:18px;font-weight: bold;width: 150px;height: 50px;line-height: 48px;background: #256dc3;margin: 0 16px;}
+.btn-sure:hover{-webkit-filter:brightness(1.1);-o-filter:brightness(1.1);-moz-filter:brightness(1.1);filter:brightness(1.1);}
+.btn-cancel:hover{-webkit-filter:brightness(1.1);-o-filter:brightness(1.1);-moz-filter:brightness(1.1);filter:brightness(1.1);}
+.icon{width: 262px;height: 312px;}
+.dia-close{position: absolute;top: -50px;right: 0px;background: url(//game.gtimg.cn/images/sg/cp/a20200326computer/dia-close.png) no-repeat;width: 30px;height: 30px;}
+.dia1{width: 450px;height: 290px;text-align: center;}
+.dia1 .name{font-size:16px;color:#181818;font-weight: bold;line-height: 48px;padding-right: 6px;}
+.dia1 input{-webkit-appearance:none;-moz-appearance: none;outline:none;background:#f2f2f2;width: 216px;height: 50px;border: 2px solid #f0f0f0;box-sizing: border-box;padding: 0 20px;display: block;font-size:14px;color:#828282;}
+.dia1 input::-webkit-input-placeholder{color:#999999;font-size:14px;}
+.dia1 input,.dia1 .name{display: inline-block;*display:inline;*zoom:1;vertical-align:top;margin-bottom: 30px;}
+
+.dia3{width: 450px;height: 236px;text-align: center;}
+.dia3 .tc-title{padding-bottom: 16px;}
+
+.dia4{width: 450px;height: 300px;text-align: center;}
+.dia4>div{width: 328px;height: auto;}
+.dia4 .tc-txt{font-size:14px;color:#666666;font-weight: bold;line-height: 26px;text-align: left;padding-left: 60px;padding-bottom: 22px;}
+.icon1{background: url(//game.gtimg.cn/images/sg/cp/a20200326computer/icon1.png) no-repeat;position: absolute;top: -4px;right: -72px;}
+
+
+.dia5{width: 382px;height: 236px;text-align: center;}
+.dia5>div{width: 280px;height: auto;}
+.dia5 .btn-sure{margin: 10px 0 0 -10px;}
+.icon2{background: url(//game.gtimg.cn/images/sg/cp/a20200326computer/icon2.png) no-repeat;position: absolute;top: -34px;right: -70px;}
+.icon3{background: url(//game.gtimg.cn/images/sg/cp/a20200326computer/icon3.png) no-repeat;position: absolute;top: -34px;right: -90px;}

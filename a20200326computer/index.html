@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="GBK">
+		<meta name="robots" content="all">
+		<meta name="author" content="Tencent-CP">
+		<meta name="Copyright" content="Tencent">
+		<meta name="Description" content="三国电脑绑定,《QQ三国》是腾讯公司自主研发的第一款2D横版MMORPG游戏,精美细腻的游戏场景,清新悠扬的古典背景音乐,可爱搞笑的骁勇悍将,唯美绚丽的动作特效,还原经典的三国战役,将带您体验无与伦比的战斗乐趣、为您重塑忍俊不禁的奇幻三国。" />
+		<meta name="Keywords" content="三国电脑绑定，感恩回馈，踏春而行,QQ三国,三国,sg,剑侍,豪杰,阴阳士,仙术士,三国志,横版,2D,腾讯游戏,免费,MMOG,转职,冒险家,格斗,跨服,生存战,新赛季,云梦鬼谷" />
+		<title>三国电脑绑定 - QQ三国官方网站 - 腾讯游戏</title>
+		<!-- 页面设计：cp | 页面制作：cp | 创建：2020-03-26 -->
+		<!--//game.gtimg.cn/images/sg/cp/a20200326computer/-->
+		<link rel="stylesheet" href="index.css">
+
+	</head>
+
+	<body>
+		<div class="wrap">
+			<h1 class="hid">三国电脑绑定</h1>
+			<div class="header">
+				<a href="//sg.qq.com/index.shtml" target="_blank" class="logo" onclick="PTTSendClick('link','logo','QQ三国官网');"></a>
+				<!-- 登录栏 -->
+                <div class="login">
+                    <p id="unlogin" style="display: block;"> 亲爱的用户，请<a href="javascript:;" id="dologin">【登录】</a></p>
+                    <p id="logined" style="display:none">欢迎您，<span id="login_qq_span"></span>，
+                        <span id="spanNotBind_525639">
+                            <a href="javascript:amsInit(178183, 525638);">【绑定大区】</a>
+                        </span>
+                        <span id="spanBind_525639" style="display:none">
+                            <span id="area_info_525639"></span>
+                            <span id="role_info_525639"></span>
+                            <a href="javascript:amsInit(178183, 525638);">【更改绑定】</a>
+                        </span>
+                        <a href="javascript:;" id="dologout">【注销】</a>
+                    </p>
+                </div>
+			</div>
+			<div class="changes">
+				<div class="change1 change" style="display: block;">
+					<div class="box1">
+						<p class="phonenumber">请用密保手机<span>152*** ***93 </span>获取短信验证码</p>
+						<div class="btns">
+							<div>
+								<input type="text" placeholder="请输入手机验证码" />
+								<a href="javascript:;" class="btn1 btn" onclick="PTTSendClick('btn','btn1','获取验证码')">获取验证码</a>
+							</div>
+							<div>
+								<a href="javascript:;" class="btn2 btn" onclick="PTTSendClick('btn','btn2','电脑绑定')">电脑绑定</a>
+								<a href="javascript:;" class="btn3 btn" onclick="PTTSendClick('btn','btn3','取消绑定')">取消绑定</a>
+								
+							</div>
+						</div>
+					</div>
+					<div class="box2">
+						<p class="rule-title">常用电脑绑定</p>
+						<ul class="rule">
+							<li>
+								<span>1.</span>您总共可以对5台电脑进行绑定，绑定后您只能够从已绑定的电脑机器上登录游戏；
+							</li>
+							<li>
+								<span>2.</span>如用户绑定机器，<strong>目前每个号码只能对应5个网卡地址 </strong>。同一个号码在同一网卡地址不可重复绑定；
+							</li>
+							<li>
+								<span>3.</span>一个网卡可以对应多个号码；
+							</li>
+							<li>
+								<span>4.</span>用户在后续页面中进行解除绑定以及绑定操作时，只能针对目前登录的QQ进行。不能对应其他号码进行解除绑定和绑定操作；
+							</li>
+							<li>
+								<span>5.</span>电脑申请绑定成功后，系统会<strong>以下一次登录</strong>（QQ号码及密码登录那一步）<strong>使用的电脑作为绑定</strong>，请玩家们注意；玩家可以对您绑定的电脑进行命名，方便您在取消绑定时进行辨认；您可以对已经绑定的电脑进行取消绑定；
+							</li>
+							<li>
+								<span>6.</span>为了保证您的安全绑定，您需要通过您设置的<strong>QQ二代密码保护</strong>后才可以进行设置，没有设置二代密码保护的玩家，请登录<a href="javascript:;" class="btn-link" target="_blank" onclick="PTTSendClick('btn','btn-link','链接')">https://aaccount.qq.com</a>进行密保设置。
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="change change2" style="display: none;">
+					<div class="box1">
+						<p class="phonenumber">当前帐号未绑定手机号，请绑定后操作</p>
+						<a href="javascript:;" class="btn1" onclick="PTTSendClick('btn','btn1','前往绑定手机')">前往绑定手机</a>
+					</div>
+					<div class="box2">
+						<p class="rule-title">常用电脑绑定</p>
+						<ul class="rule">
+							<li>
+								<span>1.</span>您总共可以对5台电脑进行绑定，绑定后您只能够从已绑定的电脑机器上登录游戏；
+							</li>
+							<li>
+								<span>2.</span>如用户绑定机器，<strong>目前每个号码只能对应5个网卡地址 </strong>。同一个号码在同一网卡地址不可重复绑定；
+							</li>
+							<li>
+								<span>3.</span>一个网卡可以对应多个号码；
+							</li>
+							<li>
+								<span>4.</span>用户在后续页面中进行解除绑定以及绑定操作时，只能针对目前登录的QQ进行。不能对应其他号码进行解除绑定和绑定操作；
+							</li>
+							<li>
+								<span>5.</span>电脑申请绑定成功后，系统会<strong>以下一次登录</strong>（QQ号码及密码登录那一步）<strong>使用的电脑作为绑定</strong>，请玩家们注意；玩家可以对您绑定的电脑进行命名，方便您在取消绑定时进行辨认；您可以对已经绑定的电脑进行取消绑定；
+							</li>
+							<li>
+								<span>6.</span>为了保证您的安全绑定，您需要通过您设置的<strong>QQ二代密码保护</strong>后才可以进行设置，没有设置二代密码保护的玩家，请登录<a href="javascript:;" class="btn-link" target="_blank" onclick="PTTSendClick('btn','btn-link','链接')">https://aaccount.qq.com</a>进行密保设置。
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="change change3" style="display: none;">
+					<div class="box1">
+						<div class="num">
+							<p>网页申请绑定，并给电脑命名</p>
+							<p>登录进入QQ三国游戏</p>
+							<p>登录游戏的电脑</br>即可被绑定成功</p>
+						</div>
+						<table>
+							<tr>
+								<th>绑定机器列表</th>
+								<th>命名</th>
+								<th>目前状态</th>
+								<th>你可以进行以下操作</th>
+							</tr>
+							<tr class="single">
+								<td>绑定机器一</td>
+								<td>家里的电脑</td>
+								<td>绑定成功</td>
+								<td>
+									<a href="javascript:;" class="btn-links btn-link1" onclick="PTTSendClick('btn','btn-link1','取消绑定   ')">取消绑定</a>
+									<a href="javascript:;" class="btn-links btn-link2" onclick="PTTSendClick('btn','btn-link2','修改命名   ')">修改命名</a>
+								</td>
+							</tr>
+							<tr class="double">
+								<td>绑定机器二</td>
+								<td>朋友A</td>
+								<td>申请成功，等待绑定中</td>
+								<td>
+									<a href="javascript:TGDialogS('dia6')" class="btn-links btn-link3" onclick="PTTSendClick('btn','btn-link3','取消绑定   ')">取消绑定</a>
+									<a href="javascript:TGDialogS('dia2')" class="btn-links btn-link4" onclick="PTTSendClick('btn','btn-link4','修改命名   ')">修改命名</a>
+								</td>
+							</tr>
+							<tr class="single">
+								<td>绑定机器三</td>
+								<td></td>
+								<td>未申请绑定</td>
+								<td>
+									<a href="javascript:;" class="btn-links btn-link5" onclick="PTTSendClick('btn','btn-link5','申请绑定   ')">申请绑定</a>
+								</td>
+							</tr>
+							<tr class="double">
+								<td>绑定机器四</td>
+								<td></td>
+								<td>未申请绑定</td>
+								<td>
+									<a href="javascript:;" class="btn-links btn-link5" onclick="PTTSendClick('btn','btn-link5','申请绑定   ')">申请绑定</a>
+								</td>
+							</tr>
+							<tr class="single">
+								<td>绑定机器五</td>
+								<td></td>
+								<td>未申请绑定</td>
+								<td>
+									<a href="javascript:;" class="btn-links btn-link5" onclick="PTTSendClick('btn','btn-link5','申请绑定   ')">申请绑定</a>
+								</td>
+							</tr>
+						</table>
+					</div>
+					<div class="box2">
+						<p class="rule-title">操作说明</p>
+						<ul class="rule">
+							<li>
+								<span>1.</span>您总共可以对5台电脑进行绑定，绑定后您只能够从已绑定的电脑机器上登录游戏；
+							</li>
+							<li>
+								<span>2.</span>点击申请绑定即可开始对电脑进行绑定，申请成功后，系统将记录您下一次登录游戏的电脑，并记录为您绑定的电脑；
+							</li>
+							<li>
+								<span>3.</span>您可以对您绑定的电脑进行命名，方便您在取消绑定时进行辨认；如未命名，则为系统默认名称；命名时支持中文、数字、字母，暂不支持符号的命名；命名长度不超过20个字符（10个汉字）长度；
+							</li>
+							<li>
+								<span>4.</span>对于已经绑定过的电脑，不可重复绑定；即如果本台电脑已经被绑定，再次申请此台电脑绑定时则不能成功，需在未绑定过的电脑上登录即可绑定成功；
+							</li>
+							<li>
+								<span>5.</span>您可以对已经绑定的电脑进行取消绑定。
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+		
+		
+		<!--弹窗-->
+		<!--为“绑定机器三”命名-->
+		<div class="dialog dia1" id="dia1" style="display: none;">
+			<p class="tc-title">为“绑定机器三”命名</p>
+			<p class="name">命名:</p>
+			<input type="text" placeholder="如: 家里的电脑" />
+			<div>
+				<a href="javascript:;" class="btn-sure" onclick="PTTSendClick('btn','btn-sure1','确定')">确定</a>
+				<a href="javascript:;" class="btn-cancel" onclick="PTTSendClick('btn','btn-cancel1','取消')">取消</a>
+			</div>
+			
+			<a class="dia-close" href="javascript:showDialog.hide()" title="关闭"></a>
+		</div>
+		<!--修改“绑定机器三”命名-->
+		<div class="dialog dia1" id="dia2" style="display: none;">
+			<p class="tc-title">修改“绑定机器三”命名</p>
+			<p class="name">命名:</p>
+			<input type="text" placeholder="如: 家里的电脑" />
+			<div>
+				<a href="javascript:;" class="btn-sure" onclick="PTTSendClick('btn','btn-sure2','确定')">确定</a>
+				<a href="javascript:;" class="btn-cancel" onclick="PTTSendClick('btn','btn-cancel2','取消')">取消</a>
+			</div>
+			
+			<a class="dia-close" href="javascript:showDialog.hide()" title="关闭"></a>
+		</div>
+		<!--是否取消“绑定机器三”?-->
+		<div class="dialog dia3" id="dia3" style="display: none;">
+			<p class="tc-title">是否取消“绑定机器三”?</p>
+			<a href="javascript:;" class="btn-sure" onclick="PTTSendClick('btn','btn-sure3','确定')">确定</a>
+			<a href="javascript:;" class="btn-cancel" onclick="PTTSendClick('btn','btn-cancel3','取消')">取消</a>
+			<a class="dia-close" href="javascript:showDialog.hide()" title="关闭"></a>
+		</div>
+		
+		<!--申请绑定成功！-->
+		<div class="dialog dia4" id="dia4" style="display: none;">
+			<div>
+				<p class="tc-title">申请绑定成功！</p>
+				<p class="tc-txt">系统将记录您下一次登录游戏的电脑</br>作为绑定，谢谢!</p>
+				<a href="javascript:;" class="btn-sure" onclick="PTTSendClick('btn','btn-sure4','确定')">确定</a>
+			</div>
+			<p class="icon1 icon"></p>
+			
+			<a class="dia-close" href="javascript:showDialog.hide()" title="关闭"></a>
+		</div>
+		
+		<!--重命名成功！-->
+		<div class="dialog dia5" id="dia5" style="display: none;">
+			<div>
+				<p class="tc-title">重命名成功！</p>
+				<a href="javascript:;" class="btn-sure" onclick="PTTSendClick('btn','btn-sure5','确定')">确定</a>
+			</div>
+			<p class="icon2 icon"></p>
+			<a class="dia-close" href="javascript:showDialog.hide()" title="关闭"></a>
+		</div>
+		
+		
+		<!--取消绑定成功！-->
+		<div class="dialog dia5" id="dia6" style="display: none;">
+			<div>
+				<p class="tc-title">取消绑定成功！</p>
+				<a href="javascript:;" class="btn-sure" onclick="PTTSendClick('btn','btn-sure6','确定')">确定</a>
+			</div>
+			<p class="icon3 icon"></p>
+			<a class="dia-close" href="javascript:showDialog.hide()" title="关闭"></a>
+		</div>
+		
+		<script src="//ossweb-img.qq.com/images/js/milo_bundle/milo.js"></script>
+		<script src="//ossweb-img.qq.com/images/js/jquery/jquery-1.11.3.min.js"></script>
+		<!-- QQ三国-titleJS -->
+		<script src="//ossweb-img.qq.com/images/js/top_js/sg_top_201007.js"></script>
+		<!-- footJS -->
+		<script src="//game.gtimg.cn/images/js/2018foot/foot.js"></script>
+
+
+
+		<script>
+		//登录
+            milo.addEvent(g("dologin"), "click", function() {
+                need("biz.login", function(LoginManager){
+                    LoginManager.init({
+                        needReloadPage : true
+                    });
+                    LoginManager.login();
+                });
+                return false;
+            });
+            milo.addEvent(g("dologout"), "click", function() {
+                need("biz.login", function(LoginManager){
+                    LoginManager.logout();
+                });
+                return false;
+            });
+            milo.ready(function() {
+                need("biz.login", function(LoginManager){
+                        LoginManager.checkLogin(function(){
+                            g("login_qq_span").innerText=LoginManager.getUserUin();//获取QQ号
+                            amsInit(178183, 525639);
+                        });
+                    });
+                });
+                
+                 
+                 //弹出层
+                function TGDialogS(e){
+		            // 利用milo库引入dialog组件
+		            need("biz.dialog",function(Dialog){
+		                Dialog.show({
+		                    id:e,
+		                    bgcolor:'#000', //弹出“遮罩”的颜色，格式为"#FF6600"，可修改，默认为"#fff"
+		                    opacity:50 //弹出“遮罩”的透明度，格式为｛10-100｝，可选
+		                });
+		            });
+		        }
+		        function closeDialog(){
+		            // 利用milo库引入dialog组件
+		            need("biz.dialog",function(Dialog){
+		                Dialog.hide();
+		            });
+		        }
+		 
+            </script>
+		<!-- 数据统计 -->
+		<script src="//ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js"></script>
+		<script>
+			//此段代码不能放到外链JS中，
+			var setSite = { //设置网站属性
+				siteType: "a20200326computer", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+				pageType: "index", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN,不支持点(.)、下划线(_)
+				pageName: "首页", //必填项:页面中文名
+				project: "other", //选填项:如果是官网模块则是必填;按照模块内容，填写固定的对应值;官网微社区base;同人站doujin;赛事match;故事站story;文化站history;粉丝站fans;爆料站coming;论坛bbs;皮肤skin;默认other;
+				osact: 0 //选填项:默认是0。osact=0表示非官网专题；osact=pc表示pc官网/pc官网专题；osact=m表示移动官网/移动官网专题；osact=ingame表示微社区/微社区专题
+			};
+			if(typeof(pgvMain) == 'function') pgvMain(); //千万不能忘记！
+		</script>
+	</body>
+
+</html>
