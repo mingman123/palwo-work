@@ -1,0 +1,164 @@
+body,dl,dd,ul,ol,h1,h2,h3,h4,h5,h6,p,form,header,section,article,footer{margin:0;}
+body,button,input,select,textarea{font:12px/1.5 tahoma,'\5FAE\8F6F\96C5\9ED1',sans-serif}
+h1,h2,h3,h4,h5,h6{font-size:100%}
+em,b{font-style:normal}
+a{text-decoration:none}
+/*a:hover{text-decoration:underline}*/
+img{border:0}
+body{padding-top:42px}
+button,input,select,textarea{font-size:100%;outline:none}
+table{border-collapse:collapse;border-spacing:0}
+td,th,ul,ol{padding:0}
+/* reset end */
+/* foot */
+#afooter {
+    position: relative;
+    padding: 30px 0;
+    text-align: center;
+    font: normal 12px/19px Tahoma;
+    z-index: 10;
+    background-color: #191219;
+}
+#afooter, #afooter a {
+    color: #c0c0c0;
+    text-decoration: none;
+}
+.hidden{display: none; font-size: 0; text-indent: -999em;}
+/* 图片分离路径示例 */
+/* .bg{background-image: url(//game.gtimg.cn/images/lol/act/a20200117guardiansofthesand/bg.jpg);} */
+.btn{transition: all .2s;}
+.btn:hover{  filter: brightness(1.1); -webkit-filter: brightness(1.1);}
+
+.wrap{min-width:1210px;max-width: 1920px;height: auto;position: relative;background: #261412;overflow: hidden;margin: 0 auto;}
+.main{min-width:1210px;max-width: 1920px;position: relative;overflow: hidden;margin: 0 auto;}
+.main-box{width: 1210px;height: auto;margin: 0 auto;position: relative;}
+.main1{background: url(../ossweb-img/bg1.jpg) no-repeat center top;height: 876px;}
+.main2{background: url(../ossweb-img/bg2.jpg) no-repeat center top;height: 1510px;}
+.main3{background: url(../ossweb-img/bg3.jpg) no-repeat center top;height: 1538px;}
+.main4{background: url(../ossweb-img/bg4.jpg) no-repeat center top;height: 1523px;}
+
+/* common */
+.name{width: 522px;height: 100px;margin-bottom:50px;}
+.main2 .name{background: url(../ossweb-img/name1.png) no-repeat;}
+.main3 .name{background: url(../ossweb-img/name2.png) no-repeat;}
+.main4 .name{background: url(../ossweb-img/name3.png) no-repeat;}
+.btn-play2{background: url(../ossweb-img/btn-play2.png) no-repeat;width: 84px;height: 84px;}
+.btn-buy{background: url(../ossweb-img/btn-buy.png) no-repeat;width: 334px;height: 126px;display: block;margin-top: 44px;font-size: 0;}
+.name-price{font-size: 76px;line-height: 120px;}
+
+
+
+
+.inner{position: relative;}
+.inner>div{display: inline-block; *display: inline; *zoom: 1; vertical-align: top;}
+.inner .left{width: 530px;padding-top: 80px;}
+.inner .title{width: 535px;height: 82px;}
+.inner .include{font-size: 14px;color: #ed622c;line-height: 22px;padding-left: 6px;padding-bottom: 2px;padding-top: 2px;width: 90%;}
+.inner .tips{font-size: 14px;color: #ce6c67;line-height: 18px;padding-left: 6px;width: 90%;}
+/*.inner .tips span{color: #ed622c;}*/
+.inner .center{width: 340px;position: relative;font-size: 0;}
+.inner .price-txt{font-size: 14px;color: #ed622c;line-height: 24px;}
+.inner .price{width: 358px;height: 66px;}
+.inner .right{width: 334px;}
+.inner .btn-buy{margin-top: 62px;}
+.inner ul{width: 100%;text-align: center;font-size: 0;}
+.inner li{display: inline-block; *display: inline; *zoom: 1; vertical-align: top;width: 168px;height: auto;margin-right: 38px;background: url(../ossweb-img/bg-prop.png) no-repeat;overflow: hidden;}
+.inner li:last-child{margin-right: 0;}
+.inner li img{display: block;width: 168px;height: 200px;margin: 0 auto;}
+.inner li p{font-size: 14px;color: #dd5f2d;line-height: 24px;padding-top: 4px;}
+.inner li span{font-size: 14px;color: #dd5f2d;line-height: 24px;display: block;}
+.inner li .spe{text-align: center;width: 100px;box-sizing: border-box;height: auto;font-size: 14px;color: #ffe8b1;line-height: 18px;border-bottom:1px solid #ffe8b1;padding:4px 0;border-left:1px solid #ffe8b1;border-right:1px solid #ffe8b1;display: block;margin: 8px auto 0;position: relative;}
+.inner li .spe:before{content: "";background: url(../ossweb-img/spe.png) no-repeat center top;position: absolute;top: -4px;left: 0;display: block;width: 99px;height: 5px;}
+.inner .top-line,.inner .bottom-line{background: url(../ossweb-img/line.png) no-repeat;width: 1208px;height: 42px;}
+.inner .top-line{position: absolute;top: 0;left: 0;}
+.inner .bottom-line{position: absolute;bottom: 0;left: 0;}
+.main .price-tit{font-size: 16px;color: #fbd38d;line-height: 18px;width: 24px;height: 48px;border:1px solid #fbd38d;text-align: center;display: inline-block; *display: inline; *zoom: 1; vertical-align: bottom;box-sizing: border-box;padding-top: 4px;margin-bottom: 26px;margin-right: 4px;}
+.inner .price-tit{margin-bottom: 20px;}
+/* main1 */
+.main1-box{height: 100%;}
+.logo{background: url(//game.gtimg.cn/images/lol/logo/middle.png) no-repeat center top;width: 200px;height:72px;background-size: 100%;font-size: 0;position: absolute;top: 20px;left: 0;z-index: 2;}
+
+/* main2 */
+.main2-box{padding-top: 152px;}
+.main2-box .btn-play2{position: absolute;top: 318px;left: 252px;}
+.main2-box .inner{width: 1208px;height: 600px;margin: 250px auto 0;font-size: 0;}
+.title1{background: url(../ossweb-img/title1.png) no-repeat;}
+.price1{background: url(../ossweb-img/price1.png) no-repeat;margin-top: 56px;}
+.main2-box .inner .btn-buy{margin-top: 52px;}
+.main2-box ul{padding-top: 10px;}
+/* main3 */
+.main3-box{padding-top: 162px;}
+.main3-box .name{margin-left: 682px;}
+.main3-box .name-price-box{text-align: right;}
+.main3-box .btn-play2{position: absolute;top: 328px;right: 276px;}
+.main3-box .btn-buy{margin-left: 876px;}
+.main3-box .inner{width: 1208px;height: 620px;margin: 246px auto 0;font-size: 0;}
+.main3-box .inner .left{margin-right: 20px;}
+.main3-box .inner .center{width: 320px;}
+.main3-box .inner .btn-buy{margin-left: 0;}
+.title2{background: url(../ossweb-img/title2.png) no-repeat;}
+.price2{background: url(../ossweb-img/price2.png) no-repeat;margin-top: 76px;}
+.main3-box .inner .btn-buy{margin-top: 60px;}
+.main3-box ul{padding-top: 30px;}
+
+/* main4*/
+.main4-box{padding-top: 160px;}
+.main4-box .btn-play2{position: absolute;top: 326px;left: 244px;}
+.main4-box .inner{width: 1208px;height: 590px;margin: 266px auto 0;font-size: 0;}
+.title3{background: url(../ossweb-img/title3.png) no-repeat;}
+.price3{background: url(../ossweb-img/price3.png) no-repeat;margin-top: 76px;}
+.main4-box .inner .btn-buy{margin-top: 60px;}
+/*.main4-box ul{padding-top: 34px;}*/
+
+/*金色字体*/
+@font-face {
+    font-family: 'sellnum-12';
+    src: url('//game.gtimg.cn/images/lol/common/sell/font/sellnum-12.eot');
+    src: url('//game.gtimg.cn/images/lol/common/sell/font/sellnum-12.woff') format('woff'),url('//game.gtimg.cn/images/lol/common/sell/font/sellnum-12.ttf') format('truetype'),url('//game.gtimg.cn/images/lol/common/sell/font/sellnum-12.svg') format('svg');
+}
+/*.sellnum{
+    display: inline-block;
+    font-weight: 700;
+    font-family: 'sellnum-12';
+}*/
+
+/* 金色字体示例样式 */
+.gold{
+  position: relative;
+  font-size:150px;/* 字体大小 根据实际情况设置 */
+  color:#fce5a7;/* 默认色值 低级浏览器下显示 */
+ font-family: 'sellnum-12';
+}
+
+@supports (-webkit-background-clip: text) {
+    .gold::before,.gold::after {
+        position: absolute;
+        z-index: 2;
+        top:0;
+        left:0;
+        content: attr(data-num);
+        background-image: linear-gradient(#fab95d, #fce1a2);
+        -webkit-background-clip: text;
+        color: transparent;
+        -webkit-text-fill-color: transparent;
+    }
+    .gold::after{
+      z-index: 1;
+      top:-1px;
+      background-image: linear-gradient(#fab95d, #fce1a2);
+    }
+}
+
+.name-price-box{position: relative;width: 98%;height: auto;padding-left: 4px;}
+.name-price{font-size: 115px;position: relative;line-height: 120px;}
+.price-qb{font-size: 24px;line-height: 36px;text-align: center;margin-top:42px;font-style: normal;}
+.name-price,.price-qb{display: inline-block; *display: inline; *zoom: 1; vertical-align: top;}
+.inner .name-price{font-size: 80px;line-height: 90px;}
+.name-price-box .price-qb{margin-top:68px;}
+.main2 .center{padding-top: 74px;}
+.main3 .center{padding-top: 74px;}
+.main4 .center{padding-top: 74px;}
+/*弹窗*/
+.dia1{position: relative;width: 1000px;height: 564px;}
+.dia1 .video-box{width: 1000px;height: 564px;}
+.dia-close{font-size: 54px;color: #fff;position: absolute;top: -26px;right: -60px;font-weight: bold;}
