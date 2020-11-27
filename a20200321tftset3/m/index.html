@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="GBK">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="robots" content="all">
+		<meta name="author" content="Tencent-CP" />
+		<meta name="Copyright" content="Tencent" />
+		<meta name="Description" content="英雄联盟官方网站，海量风格各异的英雄，丰富、便捷的物品合成系统，游戏内置的匹配、排行和竞技系统，独创的“召唤师”系统及技能、符文、天赋等系统组合，必将带你进入一个崭新而又丰富多彩的游戏世界。">
+		<meta name="Keywords" content="英雄联盟,lol,lol新手礼包,lol攻略,lol视频,lol视频攻略,英雄资料,英雄联盟攻略,明星解说视频,英雄,攻略,WCG,点亮图标,赛事">
+		<title>云顶之弈银河战争-英雄联盟官方网站-腾讯游戏</title>
+		<link rel="stylesheet" href="//ossweb-img.qq.com/images/js/swiper/swiper-4.3.3.min.css">
+		<link rel="stylesheet" href="../css/index-m.css">
+		<!-- 页面设计：cp | 页面制作：cp | 创建：2020-03-24 -->
+		<script>
+			//mode  移动端的适配方式 按需 传参  目前只有两种 px和rem
+			(function(win, doc, mode) {
+				var std = 750;
+				if(/(iPhone|iPad|iPod|iOS|Android|Windows Phone|BlackBerry|SymbianOS)/i.test(navigator.userAgent)) {
+					var h = document.getElementsByTagName("head")[0];
+					h.insertAdjacentHTML('beforeEnd', '<meta name="apple-mobile-web-app-capable" content="yes">');
+					h.insertAdjacentHTML('beforeEnd', '<meta name="apple-mobile-web-app-status-bar-style" content="black">');
+					h.insertAdjacentHTML('beforeEnd', '<meta name="format-detection" content="telephone=no">');
+					h.insertAdjacentHTML('beforeEnd', '<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui" />');
+					if(mode == 'px') {
+						if(!win.addEventListener) return;
+						var html = document.documentElement;
+
+						function setFont() {
+							function adaptVP(a) {
+								function c() {
+									var c, d;
+									return b.uWidth = a.uWidth ? a.uWidth : 750, b.dWidth = a.dWidth ? a.dWidth : window.screen.width || window.screen.availWidth, b.ratio = window.devicePixelRatio ? window.devicePixelRatio : 1, b.userAgent = navigator.userAgent, b.bConsole = a.bConsole ? a.bConsole : !1, a.mode ? (b.mode = a.mode, void 0) : (c = b.userAgent.match(/Android/i), c && (b.mode = "android-2.2", d = b.userAgent.match(/Android\s(\d+.\d+)/i), d && (d = parseFloat(d[1])), 2.2 == d || 2.3 == d ? b.mode = "android-2.2" : 4.4 > d ? b.mode = "android-dpi" : d >= 4.4 && (b.mode = b.dWidth > b.uWidth ? "android-dpi" : "android-scale")), void 0)
+								}
+
+								function d() {
+									var e, f, g, h, c = "",
+										d = !1;
+									switch(b.mode) {
+										case "apple":
+											f = (window.screen.availWidth * b.ratio / b.uWidth) / b.ratio;
+											c = "width=" + b.uWidth + ",initial-scale=" + f + ",minimum-scale=" + f + ",maximum-scale=" + f + ",user-scalable=no";
+											break;
+										case "android-2.2":
+											a.dWidth || (b.dWidth = 2 == b.ratio ? 720 : 1.5 == b.ratio ? 480 : 1 == b.ratio ? 375 : .75 == b.ratio ? 240 : 480), e = window.screen.width || window.screen.availWidth, 375 == e ? b.dWidth = b.ratio * e : 750 > e && (b.dWidth = e), b.mode = "android-dpi", d = !0;
+										case "android-dpi":
+											f = 160 * b.uWidth / b.dWidth * b.ratio, c = "target-densitydpi=" + f + ", width=" + b.uWidth + ", user-scalable=no", d && (b.mode = "android-2.2");
+											break;
+										case "android-scale":
+											c = "width=" + b.uWidth + ", user-scalable=no"
+									}
+									g = document.querySelector("meta[name='viewport']") || document.createElement("meta"), g.name = "viewport", g.content = c, h = document.getElementsByTagName("head"), h.length > 0 && h[0].appendChild(g)
+								}
+
+								function e() {
+									var a = "";
+									for(key in b) a += key + ": " + b[key] + "; ";
+									alert(a)
+								}
+								if(a) {
+									var b = {
+										uWidth: 0,
+										dWidth: 0,
+										ratio: 1,
+										mode: "apple",
+										userAgent: null,
+										bConsole: !1
+									};
+									c(), d(), b.bConsole && e()
+								}
+							};
+							adaptVP({
+								uWidth: 750
+							});
+						}
+						win.addEventListener('resize', setFont, false)
+						setFont();
+					} else if(mode == 'rem') {
+						var docEl = doc.documentElement,
+							resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+							recalc = function() {
+								var clientWidth = docEl.clientWidth;
+								if(!clientWidth) return;
+								docEl.style.fontSize = 100 * (clientWidth / std) + 'px';
+							};
+						if(!doc.addEventListener) return;
+						recalc();
+						win.addEventListener(resizeEvt, recalc, false);
+						doc.addEventListener('DOMContentLoaded', recalc, false);
+					}
+				}
+			})(window, document, 'rem');
+		</script>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<!--head-->
+			<div class="head">
+				<!-- Swiper -->
+				<span class="tips">版本10.6</span>
+				<div class="swiper-container head-sw">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img src="//game.gtimg.cn/images/lol/act/a20200321tftset3/m/headbanner2.jpg" alt="" />
+							<p class="txt1">银河战争</p>
+							<p class="txt2">云顶之弈第三赛季现已上线！</p>
+						</div>
+					</div>
+					<!-- Add Pagination -->
+					<div class="swiper-pagination"></div>
+				</div>
+			</div>
+			<!-- cont1-->
+			<div class="cont1">
+				<p class="title">全新游戏机制</p>
+				<ul class="cont1ul">
+					<li>
+						<a href="javascript:;" data-vid="l0938opb5ph" class="border play-video" onclick="PTTSendClick('btn','play-video1','机甲');">
+							<img src="//game.gtimg.cn/images/lol/act/a20200321tftset3/m/cont1-pic3.png" alt="" />
+							<span class="kuan"></span>
+						</a>
+						<p class="txt1">机神</p>
+						<p class="txt2">银河魔装机神</p>
+					</li>
+					<li>
+						<a href="javascript:;" data-vid="g0938gonetj" class="border play-video" onclick="PTTSendClick('btn','play-video2','佣兵');">
+							<img src="//game.gtimg.cn/images/lol/act/a20200321tftset3/m/cont1-pic2.jpg" alt="" />
+							<span class="kuan"></span>
+						</a>
+						<p class="txt1">佣兵</p>
+						<p class="txt2">英雄专属装备</p>
+					</li>
+					<li>
+						<a href="javascript:;" data-vid="e093834aaij" class="border play-video" onclick="PTTSendClick('btn','play-video3','星系');">
+							<img src="//game.gtimg.cn/images/lol/act/a20200321tftset3/m/cont1-pic1.jpg" alt="" />
+							<span class="kuan"></span>
+						</a>
+						<p class="txt1">星系</p>
+						<p class="txt2">遨游异域星系</p>
+					</li>
+				</ul>
+			</div>
+
+			<!--cont2-->
+
+			<div class="cont2">
+				<p class="title">银河英雄军团 <span>（全新英雄展示）</span></p>
+				<div class="cont2-main">
+					<div class="con2-header">
+						<div class="btns">
+							<a href="javascript:;" class="btn btn1 on" onclick="PTTSendClick('btn','tab1','星之守护者');">
+								<span class="icon"></span>
+								<span class="name">星之守护者</span>
+							</a>
+							<a href="javascript:;" class="btn btn2" onclick="PTTSendClick('btn','tab2','未来战士');">
+								<span class="icon"></span>
+								<span class="name">未来战士</span>
+							</a>
+							<a href="javascript:;" class="btn btn3" onclick="PTTSendClick('btn','tab3','源计划');">
+								<span class="icon"></span>
+								<span class="name">源计划</span>
+							</a>
+							<a href="javascript:;" class="btn btn4" onclick="PTTSendClick('btn','tab4','星神');">
+								<span class="icon"></span>
+								<span class="name">星神</span>
+							</a>
+							<a href="javascript:;" class="btn btn5" onclick="PTTSendClick('btn','tab5','银河魔装机神');">
+								<span class="icon"></span>
+								<span class="name">银河魔装机神</span>
+							</a>
+						</div>
+						<div class="scale">
+							<div class="points">
+								<div class="point on"></div>
+								<div class="point"></div>
+								<div class="point"></div>
+								<div class="point"></div>
+								<div class="point"></div>
+							</div>
+						</div>
+					</div>
+					<div class="champions swiper-champions">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="champion champion1">
+									<a href="https://lol.qq.com/act/a20190704tft/herolist.html?ish5pages=1" class="champion-img">
+										<img src="//game.gtimg.cn/images/lol/act/a20200321tftset3/m/pic1.png" >
+										<span class="tag">秘术师</span>
+									</a>
+									<div class="bottom">
+										<div class="text">
+											<div class="name">星之守护者    索卡拉</div>
+											<div class="spell"><img src="//game.gtimg.cn/images/lol/act/a20200321tftset3/m/spell1.png"> 为所有友军治疗生命值。</div>
+										</div>
+										<div class="gap"></div>
+										<div class="gold">4</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="champion champion2">
+									<a href="https://lol.qq.com/act/a20190704tft/herolist.html?ish5pages=1" class="champion-img">
+										<img src="//game.gtimg.cn/images/lol/act/a20200321tftset3/m/pic2.jpg" >
+										<span class="tag">法师</span>
+									</a>
+									<div class="bottom">
+										<div class="text">
+											<div class="name">未来战士    锤石</div>
+											<div class="spell"><img src="//game.gtimg.cn/images/lol/act/a20200321tftset3/m/spell2.png"> 所有友军每4秒获得攻击速度加成。</div>
+										</div>
+										<div class="gap"></div>
+										<div class="gold">5</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="champion champion3">
+									<a href="https://lol.qq.com/act/a20190704tft/herolist.html?ish5pages=1" class="champion-img">
+										<img src="//game.gtimg.cn/images/lol/act/a20200321tftset3/m/pic3.jpg" >
+										<span class="tag">剑士</span>
+									</a>
+									<div class="bottom">
+										<div class="text">
+											<div class="name">源计划    菲欧娜</div>
+											<div class="spell"><img src="//game.gtimg.cn/images/lol/act/a20200321tftset3/m/spell3.png"> 菲奥娜防御姿态，并进行回击。</div>
+										</div>
+										<div class="gap"></div>
+										<div class="gold">1</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="champion champion4">
+									<a href="https://lol.qq.com/act/a20190704tft/herolist.html?ish5pages=1" class="champion-img">
+										<img src="//game.gtimg.cn/images/lol/act/a20200321tftset3/m/pic4.jpg" >
+										<span class="tag">秘术师</span>
+									</a>
+									<div class="bottom">
+										<div class="text">
+											<div class="name">星神    璐璐</div>
+											<div class="spell"><img src="//game.gtimg.cn/images/lol/act/a20200321tftset3/m/spell4.png"> 将敌人变形，使他们无法攻击或施法。</div>
+										</div>
+										<div class="gap"></div>
+										<div class="gold">5</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="champion champion5">
+									<a href="https://lol.qq.com/act/a20190704tft/herolist.html?ish5pages=1" class="champion-img">
+										<img src="//game.gtimg.cn/images/lol/act/a20200321tftset3/m/pic5.jpg" >
+										<span class="tag">法师</span>
+									</a>
+									<div class="bottom">
+										<div class="text">
+											<div class="name">银河魔装机神    安妮</div>
+											<div class="spell"><img src="//game.gtimg.cn/images/lol/act/a20200321tftset3/m/spell5.png"> 投出一团火球，并使敌人晕眩</div>
+										</div>
+										<div class="gap"></div>
+										<div class="gold">2</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!--cont3-->
+			<div class="cont3">
+				<p class="txt1">银河战争特色系统</p>
+				<div class="scrollbox">
+					<div class="swiper-container cont3sw">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<a href="qtpage://video_detail?videoId=5668335137092929195" onclick="PTTSendClick('btn','play1','探索群星');">
+									<img src="//game.gtimg.cn/images/lol/act/a20200321tftset3/m/videopic1.jpg" class="videopic" alt="" />
+									<span class="playicon"></span>
+									<p class="txt">探索群星:全新的星系机制</p>
+								</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="qtpage://video_detail?videoId=14984094686418746087" onclick="PTTSendClick('btn','play2','银河英雄');">
+									<img src="//game.gtimg.cn/images/lol/act/a20200321tftset3/m/videopic2.jpg" class="videopic" alt="" />
+									<span class="playicon"></span>
+									<p class="txt">银河英雄：全新英雄羁绊</p>
+								</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="qtpage://video_detail?videoId=1351032737989226037" onclick="PTTSendClick('btn','play3','银河门票');">
+									<img src="//game.gtimg.cn/images/lol/act/a20200321tftset3/m/videopic3.jpg" class="videopic" alt="" />
+									<span class="playicon"></span>
+									<p class="txt">银河门票：全新任务系统</p>
+								</a>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+
+			<!--cont4-->
+			<div class="cont4">
+				<p class="title">星界小伙伴 小小英雄</p>
+				<a href="qtpage://mall_latest_shelf_all" class="cont4-look" onclick="PTTSendClick('btn','cont4-look','立即购买');" >立即购买<span></span></a>
+				<a href="qtpage://video_detail?videoId=1042959454912478791" class="banner">
+					<img src="//game.gtimg.cn/images/lol/act/a20200321tftset3/m/cont4-banner.jpg"/>
+				</a>
+				<div class="line"></div>
+				
+				<!-- <div class="title">云顶宝典豪华版</div> -->
+				<div class="card">
+					<div class="icon"></div>
+					<div class="text">
+						<div class="title">云顶宝典豪华版</div>
+						<div class="desc">海量奖励等你来拿！</div>
+					</div>
+					<a href="javascript:;" class="btn-buy">请前往客户端购买</a>
+				</div>
+				<div class="line"></div>
+				<div class="title">云顶宝典奖励展示（包含豪华版）</div>
+				<!-- swiper-->
+				<div class="cont4box" id="box4">
+					<div class="swbox2">
+						<!-- Swiper -->
+						<div class="swiper-container cont4sw">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide"><span></span><img src="//game.gtimg.cn/images/lol/act/a20200321tftset3/m/cont4-pic1.jpg" alt="" /></div>
+								<div class="swiper-slide"><span></span><img src="//game.gtimg.cn/images/lol/act/a20200321tftset3/m/cont4-pic2.png" alt="" /></div>
+								<div class="swiper-slide"><span></span><img src="//game.gtimg.cn/images/lol/act/a20200321tftset3/m/cont4-pic3.png" alt="" /></div>
+								<div class="swiper-slide"><span></span><img src="//game.gtimg.cn/images/lol/act/a20200321tftset3/m/cont4-pic4.png" alt="" /></div>
+								<div class="swiper-slide"><span></span><img src="//game.gtimg.cn/images/lol/act/a20200321tftset3/m/cont4-pic5.png" alt="" /></div>
+							</div>
+
+						</div>
+
+					</div>
+					<div class="swbox1">
+						<span class="tab on">全新小小英雄</span>
+						<span class="tab">全新表情</span>
+						<span class="tab">全新棋盘</span>
+						<span class="tab">爆炸特效</span>
+						<span class="tab">小小英雄蛋</span>
+						<span class="line"></span>
+
+					</div>
+				</div>
+
+			</div>
+
+			<div class="foot-notice">注：根据实际运行效果持续优化中。</div>
+
+			<div class="dialog dia-video" id="dia-video" style="display: none;">
+				<div class="dia-con">
+					<div id="pop-video"></div>
+				</div>
+				<a href="javascript:;" class="btn-close"></a>
+			</div>
+
+		</div>
+	
+		
+		<script src="//js.aq.qq.com/js/aq_common.js"></script>
+		<script src="//ossweb-img.qq.com/images/js/jquery/jquery-1.9.1.min.js"></script>
+		<script src="//ossweb-img.qq.com/images/js/zepto/zepto.min.js"></script>
+		<script src="//ossweb-img.qq.com/images/js/mobile_bundle/milo.js"></script>
+		<script src="//lol.qq.com/m/public/LOL_App.js"></script>
+		<script src="//ossweb-img.qq.com/images/js/swiper4_component/js/swiper.min.js"></script>
+		<script src='//vm.gtimg.cn/tencentvideo/txp/js/txplayer.js'></script>
+		<script src="../js/m.js"></script>
+
+		<script src="//ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js"></script>
+		<script>
+			//此段代码不能放到外链JS中，
+			var setSite = { //设置网站属性
+				siteType: "a20200321tftset3", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+				pageType: "index", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN,不支持点(.)、下划线(_)
+				pageName: "首页", //必填项:页面中文名
+				project: "other", //必填项:按照模块内容，填写固定的对应值;皮肤 skin;英雄 hero;商业化 commerce;赛事 match;运营/版本 version;品牌 brand;IP ip;社区 community;网吧投放 netbar;默认other;
+				osact: 0 //选填项:是否是官网专题(在官网运营的专题)boolean；默认是0；可以在链接上加入参数osact=1来灵活设置
+			};
+			if(typeof(pgvMain) == 'function') pgvMain(); //千万不能忘记！
+		</script>
+	</body>
+
+</html><!-- #t6Hl8#DF344F8E99C283F79475286F1874796E -->

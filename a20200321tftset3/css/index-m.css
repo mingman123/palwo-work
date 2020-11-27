@@ -1,0 +1,145 @@
+/* reset */
+html,body,div,p,ul,li,dl,dt,dd,em,i,span,a,img,input,h1,h2,h3,h4,h5 {margin:0;padding:0}
+a,img,input {border:none;}
+body{font: 14px/1.75  -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;-webkit-tap-highlight-color: rgba(0,0,0,0);}
+a {text-decoration:none;}
+ul,li{list-style: none}
+a, img {-webkit-touch-callout: none; /* 禁止长按链接与图片弹出菜单，根据需要选择是否删除 */}
+html, body {
+    -webkit-user-select: none;   /* 禁止选中文本（如无文本选中需求，此为必选项） */
+    user-select: none;
+    background: #f0f3f7;
+}
+/* reset end */
+html {
+  font-size: 50px;/* 兼容不支持vw的系统 */
+  font-size: 13.33333333vw;/* 7.5rem === 100vw */
+}
+
+@media (max-width: 1024px) {
+  html,body {
+    max-width: 1024px;
+  }
+}
+
+.wrap{ width:7.5rem; height:100%; display: block; margin: 0 auto;font-family: '\5FAE\8F6F\96C5\9ED1';}
+
+.head{ width: 100%; height: 3.56rem; background-size: 100% 100%; display: block; margin: 0 auto; position: relative;}
+.head .tips{ background: url(//game.gtimg.cn/images/lol/act/a20200321tftset3/m/headtip.png) no-repeat; width: 0.99rem; height: 0.33rem; background-size: 100% 100%; position: absolute; top:0.2rem; right: 0rem; font-size: 0.18rem; color: #ffffff; z-index: 9; text-align: right; padding-right: 0.1rem;}
+.head-sw{ width: 100%; height: 100%;}
+.head-sw img{width: 100%; height: 100%; background-size: 100%; display: block;}
+.head-sw .txt1{ position:absolute;bottom:0.45rem; left: 0.3rem; font-size: 0.36rem; color: #ffffff;}
+.head-sw .txt2{ position:absolute;bottom:0.2rem; left: 0.3rem; font-size: 0.22rem; color: #ab8959;}
+.head-sw .swiper-pagination{ left: 2.9rem;}
+.head-sw .swiper-pagination-bullet{ border-radius: 3px; opacity: 1; width: 0.17rem; height: 0.05rem; background: #aaaaaa;}
+.head-sw .swiper-pagination-bullet-active{ background: #ffffff;}
+
+.cont1{ width: 100%; height: 4.4rem; display: block; margin: 0 auto 0.09rem; background: #ffffff; overflow: hidden;}
+.cont1 .title{font-size: 0.36rem; color: #1c1c1c; padding-left:0.32rem; padding-top: 0.38rem;}
+.cont1ul{ width: 7.3rem; height: 100%; display: block; margin: 0 auto;}
+.cont1ul li{ background: url(//game.gtimg.cn/images/lol/act/a20200321tftset3/m/cont1li.png) no-repeat; width: 2.32rem; height: 3.09rem; background-size: 100% 100%; float: left; margin-left:0.1rem;}
+.cont1ul li .border{ width: 1.01rem; height: 1.01rem; background-size: 100% 100%; display: block; margin: 0.66rem auto 0.3rem; position: relative;}
+.cont1ul li .border img{ width: 0.91rem; height: 0.91rem; background-size: 100% 100%; position: absolute; left: 50%; transform: translateX(-50%); top: 0.05rem; border-radius: 50%;}
+.cont1ul li .border .kuan{ background: url(//game.gtimg.cn/images/lol/act/a20200321tftset3/m/pick.png) no-repeat; width: 1.01rem; height: 1.01rem; background-size: 100% 100%; position: absolute; top: 0rem; left: 0rem;}
+.cont1ul li .txt1{font-size: 0.28rem; color: #1c1c1c; text-align: center; line-height: 0.25rem;}
+.cont1ul li .txt2{ font-size:0.22rem; color: #a88454; text-align: center;}
+
+
+
+
+.cont2{ width: 100%; height: 8.5rem; display: block; margin: 0 auto 0.09rem; overflow: hidden; background: #FFFFFF;box-sizing: border-box;padding: 0.3rem;}
+.cont2 .title{font-size: 0.36rem; color: #1c1c1c;position: relative;line-height: 0.54rem;margin-bottom: 0.1rem;}
+.cont2 .title .btn-all {position: absolute;top: 0;right: 0;color: #757e7f;padding-right: 0.2rem;font-size: 0.24rem;}
+.cont2 .title .btn-all::after {content: '';width: 0.12rem;height: 0.23rem;position: absolute;top: 0.16rem;right: 0;background: url(//game.gtimg.cn/images/lol/act/a20200321tftset3/m/arr.png) 0 0/100% 100% no-repeat}
+.cont2 .btns {display: flex;justify-content: space-between;padding-top: 0.1rem;}
+.cont2 .btn {display: flex;width: 1.3rem;font-size: 0.2rem;color: #a0acb5;text-align: center;justify-content: center;align-items: center;flex-direction: column;}
+.cont2 .btn.on {color: #000;}
+.cont2 .btn .icon {width: 0.84rem;height: 0.84rem;display: flex;justify-content: center;align-items: center;position: relative;}
+.cont2 .btn .icon::before {content: '';position: relative;display: block;}
+.cont2 .btn.on .icon::after {content: '';position: absolute;width: 0.84rem;height: 0.89rem;background: url(//game.gtimg.cn/images/lol/act/a20200321tftset3/m/series.frame.png) 0/100% 100% no-repeat;top: -0.05rem;left: 0;}
+.cont2 .btn:nth-child(1) .icon::before {width: 0.56rem;height: 0.36rem;background: url(//game.gtimg.cn/images/lol/act/a20200321tftset3/m/series1.png) 0/100% 100% no-repeat}
+.cont2 .btn:nth-child(2) .icon::before {width: 0.35rem;height: 0.35rem;background: url(//game.gtimg.cn/images/lol/act/a20200321tftset3/m/series2.png) 0/100% 100% no-repeat}
+.cont2 .btn:nth-child(3) .icon::before {width: 0.41rem;height: 0.35rem;background: url(//game.gtimg.cn/images/lol/act/a20200321tftset3/m/series3.png) 0/100% 100% no-repeat}
+.cont2 .btn:nth-child(4) .icon::before {width: 0.49rem;height: 0.34rem;background: url(//game.gtimg.cn/images/lol/act/a20200321tftset3/m/series4.png) 0/100% 100% no-repeat}
+.cont2 .btn:nth-child(5) .icon::before {width: 0.31rem;height: 0.35rem;background: url(//game.gtimg.cn/images/lol/act/a20200321tftset3/m/series5.png) 0/100% 100% no-repeat}
+.cont2 .btn.on:nth-child(1) .icon::before {width: 0.56rem;height: 0.36rem;background: url(//game.gtimg.cn/images/lol/act/a20200321tftset3/m/series1-on.png) 0/100% 100% no-repeat}
+.cont2 .btn.on:nth-child(2) .icon::before {width: 0.35rem;height: 0.35rem;background: url(//game.gtimg.cn/images/lol/act/a20200321tftset3/m/series2-on.png) 0/100% 100% no-repeat}
+.cont2 .btn.on:nth-child(3) .icon::before {width: 0.41rem;height: 0.35rem;background: url(//game.gtimg.cn/images/lol/act/a20200321tftset3/m/series3-on.png) 0/100% 100% no-repeat}
+.cont2 .btn.on:nth-child(4) .icon::before {width: 0.49rem;height: 0.34rem;background: url(//game.gtimg.cn/images/lol/act/a20200321tftset3/m/series4-on.png) 0/100% 100% no-repeat}
+.cont2 .btn.on:nth-child(5) .icon::before {width: 0.31rem;height: 0.35rem;background: url(//game.gtimg.cn/images/lol/act/a20200321tftset3/m/series5-on.png) 0/100% 100% no-repeat}
+.cont2 .btn .name {font-size: 0.2rem;line-height: 1.5;margin: 0.1rem 0;color: #a0acb5;}
+.cont2 .btn.on .name  {color: #000}
+.cont2 .scale {width: 100%;position: relative;height: 0.4rem;margin: 0 0 0.2rem ;}
+.cont2 .scale::before {content: '';position: absolute;top: 0.25rem;left: 0;width: 100%;height: 0.02rem;background: #a0acb5;}
+.cont2 .points {z-index: 2;display: flex;justify-content: space-between;align-items: center;width: 86%;margin: 0 auto;}
+.cont2 .point {width: 0.22rem;height: 0.41rem;background: url(//game.gtimg.cn/images/lol/act/a20200321tftset3/m/point.png) 0/0.22rem 0.41rem no-repeat;z-index: 2;margin: 0 0.05rem;}
+.cont2 .point.on {width: 0.31rem;height: 0.41rem;background: url(//game.gtimg.cn/images/lol/act/a20200321tftset3/m/point-on.png) 0/0.31rem 0.41rem no-repeat;margin: 0;}
+.cont2 .champions {width: 7.5rem;margin-left: -0.3rem;}
+.cont2 .champions .swiper-slide {box-sizing: border-box;padding: 0 0.3rem;}
+.cont2 .champion-img {height: 3.56rem;overflow: hidden;border-radius: 0.1rem;position: relative;margin-bottom: 0.1rem;display: block;}
+.cont2 .champion-img .tag {position: absolute;top: 0;right: 0;padding: 0.1rem 0.2rem;line-height: 1;color: #fff;font-size: 0.2rem;background: #169bd5;border-bottom-left-radius: 0.1rem;}
+.cont2 .champion-img img {width: 100%;height: 100%;object-fit: cover;}
+.cont2 .bottom {padding: 0.1rem;display: flex;justify-content: space-between;align-items: center;}
+.cont2 .bottom .text {width: 5rem;}
+.cont2 .bottom .name {font-size: 0.32rem;line-height: 1.5;margin-bottom: 0.1rem;}
+.cont2 .bottom .spell {font-size: 0.24rem;color: #909da7;line-height: 1.2;display: flex;justify-content: start;align-items: center;height: 0.6rem;}
+.cont2 .bottom .spell img {margin-right: 0.1rem;width: 0.55rem;height: 0.55rem;}
+.cont2 .bottom .gap {width: 0.07rem;height: 0.54rem;background: url(//game.gtimg.cn/images/lol/act/a20200321tftset3/m/gap.png) 0/100% 100% no-repeat}
+.cont2 .bottom .gold {width: 0.19rem;height: 0.18rem;background: url(//game.gtimg.cn/images/lol/act/a20200321tftset3/m/gold.png) 0/auto 100% no-repeat;padding-left: 0.3rem;line-height: 0.18rem;font-size: 0.35rem;color: #757e7f;}
+
+.cont3{width: 100%; height: 4.5rem; display: block; margin: 0 auto 0.09rem; overflow: hidden; background: #ffffff;}
+.cont3 .txt1{font-size: 0.36rem; color: #1c1c1c; padding-left:0.32rem; padding-top: 0.4rem; padding-bottom: 0.27rem;}
+.cont3 .scrollbox{ width:7.19rem; height: 3.46rem; margin-left: 0.31rem;}
+.cont3sw{width: 100%; height: 100%;}
+.cont3sw .swiper-wrapper{width: 100%; height: 100%;}
+.cont3sw .swiper-slide{ width: 2.89rem; height: 100%;position: relative;}
+.cont3sw .swiper-slide a{ width: 100%; height: 100%; display: block;}
+.cont3sw .swiper-slide .videopic{ width: 2.84rem; height: 2.11rem; background-size: 100% 100%; display:blok; margin: 0 auto; border-radius: 15px;}
+.cont3sw .swiper-slide .playicon{ background: url(//game.gtimg.cn/images/lol/act/a20200321tftset3/m/play.png) no-repeat; width: 0.73rem; height: 0.73rem; background-size: 100% 100%; position: absolute; left: 50%; transform: translateX(-50%); top:0.68rem;}
+.cont3sw .swiper-slide .txt{font-size: 0.26rem; color: #b59465; line-height: 0.35rem; overflow:hidden;display: -webkit-box;
+-webkit-box-orient: vertical;-webkit-line-clamp: 2;}
+
+
+.cont4 {position: relative;background: #fff;box-sizing: border-box;padding: 0.3rem;}
+.cont4 .title{font-size: 0.36rem; color: #1c1c1c;position: relative;line-height: 1.5;margin-bottom: 0.1rem;}
+.cont4 .card {width: 6.84rem;height: 1.75rem;border-radius: 0.06rem;display: flex;justify-content: space-between;align-items: center;padding-right: 0.4rem;box-sizing: border-box;margin: 0 auto;background: #f0f3f7;overflow: hidden;margin: 0.4rem 0;}
+.cont4 .card .icon {width: 1.74rem;height: 1.74rem;background: url(//game.gtimg.cn/images/lol/act/a20200321tftset3/m/ydbd.jpg) 0/100% 100% no-repeat;border-radius: 0.06rem;overflow: hidden;}
+.cont4 .card .text {width: 2.4rem;}
+.cont4 .card .title {font-size: 0.3rem;color: #252525;margin: 0;}
+.cont4 .card .desc {font-size: 0.2rem;color: #5f6e79;}
+.cont4 .card .btn-buy {width: 2rem;height: 0.43rem;background: none;border-radius: 0.03rem;font-size: 0.23rem;color: #b59465;line-height: 0.43rem;border-radius: 0.04rem;text-align: center;border: 1px solid #b59465;}
+
+.cont4{ width:100%; height: 14rem; display:block; overflow: hidden; position: relative; background: #FFFFFF;}
+.cont4 .title{ font-size: 0.36rem; color: #1c1c1c; margin-top: 0.2rem; margin-bottom: 0.37rem;position: relative;}
+.cont4-look{width: 1.62rem;height: 0.46rem;border-radius: 0.05rem;text-indent: 1em; position: absolute; right:0.3rem; top: 0.55rem; font-size: 0.24rem; color: #fff;background: linear-gradient(to right, #ac9165, #c7a470);line-height: 0.46rem;}
+.cont4-look span{background: url(//game.gtimg.cn/images/lol/act/a20200321tftset3/m/brn-look.png) no-repeat;width: 0.12rem; height: 0.23rem; background-size: 100% 100%; position: absolute; top: 0.12rem; right: 0.14rem;filter: brightness(100);}
+.cont4 .banner{ width: 6.86rem; height: 3.56rem; background-size: 100% 100%; display: block; margin: 0 auto 0.5rem;border-radius: 0.1rem;overflow: hidden;}
+.cont4 .banner img {width: 100%;height: 100%;object-fit: cover;}
+.cont4 .line{ width: 200%; height: 0.1rem; background: #f0f3f7;margin-left: -1rem;}
+.cont4box{ width: 7.19rem; height: 4.85rem; overflow: hidden; margin-top: 0.2rem;} 
+.cont4box .swbox1{ width: 100%; height: 0.72rem; display: flex; position: relative;box-sizing: border-box;padding-right: 0.4rem;margin: 0.2rem 0;}
+.cont4box .swbox1 .line{ width: 5.5rem; height: 1px; background: #a0acb5; position: absolute; right: 1.1rem; top: 0.52rem;}
+.cont4box .swbox1 .tab{ flex: 1;font-size: 0.18rem;color: #a0acb5;position: relative;text-align: center;z-index: 2;line-height: 1.5;}
+.cont4box .swbox1 .tab::before {content: '';width: 0.2rem;height: 0.2rem;background: #a0acb5;border-radius: 50%;position: absolute;left: 50%;top: 0.525rem;margin: -0.1rem;}
+.cont4box .swbox1 .tab::after {content: '';width: 0.12rem;height: 0.12rem;border-radius: 50%;border: 0.02rem solid #fff;position: absolute;left: 50%;top: 0.525rem;margin: -0.08rem;}
+.cont4box .swbox1 .tab.on {font-size: 0.22rem;color: #000;line-height: 1;}
+.cont4box .swbox1 .tab.on::before {width: 0.29rem;height: 0.29rem;margin: -0.145rem;background: #b59465;}
+.cont4box .swbox1 .tab.on::after {width: 0.17rem;height: 0.17rem;margin: -0.125rem;background: #b59465;border: 0.04rem solid #fff}
+.cont4box .swbox2{ width:7rem; height: 3.53rem; position: relative;}
+.cont4box .swbox2 .cont4sw{ position: absolute; top: 0rem; left: 0rem;}
+.cont4box .swbox2 .swiper-container{width:7rem; height: 3.53rem;}
+.cont4box .swbox2 img{ width: 6.36rem; height: 3.53rem; background-size: 100% 100%;}
+.cont4box .swbox2 span{ width: 7rem; height: 3.53rem;  position:absolute; top: 0px; left: 0px; border-radius: 5px; background:#FFFFFF;opacity: 0.5;}
+.swbox2 .swiper-slide{opacity: 1; }
+.swbox2 .swiper-slide-active{ opacity: 1;}
+.swbox2 .swiper-slide-active span{opacity: 0;}
+/*.swbox2 .swiper-slide-next{transform:translate3d(-932px, 0px, -100px) rotateX(0deg) rotateY(0deg) !important;}*/
+/*-webkit-filter: grayscale(80%);*/
+
+.foot-notice {font-size: 0.24rem;color: #b59465;text-align: center;width: 100%;background: #fff;padding-bottom: 1rem;}
+
+.dia-video {width: 6.88rem;height: 3.88rem;border: 2px solid #b59465;position: relative;background: #2c223f;}
+.dia-con {width: 100%;height: 100%;position: relative;}
+#pop-video {position: relative;width: 100%;height: 100%;z-index: 3;}
+.btn-close {width: 0.4rem;height: 0.4rem;background: url(//game.gtimg.cn/images/lol/act/a20200321tftset3/m/close.png) 0/100% 100% no-repeat;position: absolute;top: -0.5rem;right: 0;}
+/* #t6Hl8#E65C1CD9565F28DC6640C24D76A4759E *//* #t6Hl8#EE94735D9DC5486A7C4E589E805F4DED *//* #t6Hl8#34D5EFB982CC2D04EB194E8DECB76B27 *//* #t6Hl8#8D3A6DAEBCFBFA782CA6D6B1148EE0F8 *//* #t6Hl8#48F3A264625A188ACC03CEBDB7E7522D */
