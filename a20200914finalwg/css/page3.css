@@ -1,0 +1,144 @@
+@font-face { font-family: 'sellnum-2'; src: url("//game.gtimg.cn/images/lol/common/sell/font/sellnum-2.eot"); src: url("//game.gtimg.cn/images/lol/common/sell/font/sellnum-2.woff") format("woff"), url("//game.gtimg.cn/images/lol/common/sell/font/sellnum-2.ttf") format("truetype"), url("//game.gtimg.cn/images/lol/common/sell/font/sellnum-2.svg") format("svg"); }
+
+@font-face { font-family: 'sellnum-4'; src: url("//game.gtimg.cn/images/lol/common/sell/font/sellnum-4.eot"); src: url("//game.gtimg.cn/images/lol/common/sell/font/sellnum-4.woff") format("woff"), url("//game.gtimg.cn/images/lol/common/sell/font/sellnum-4.ttf") format("truetype"), url("//game.gtimg.cn/images/lol/common/sell/font/sellnum-4.svg") format("svg"); }
+.dialog-record{width: 5.88rem; height: 9.84rem;}
+
+.dialog-record .dialog-body { width: 5.88rem; height: 9.84rem; padding: 1.56rem 0.2rem 0.15rem 0.15rem; background: url("../ossweb-img/dialog-record-bg.png") no-repeat; background-size: 100% auto; box-sizing: border-box;}
+
+.dialog-record .dialog-desc { line-height: 0.3rem; font-size: 0.2rem; text-align: center; color: #fff; }
+
+.dialog-record .table { margin-top: 0.25rem; }
+
+.dialog-record .scroll-wrap { height: 6.3rem; overflow-y: scroll; }
+
+.dialog-record .scroll-wrap::-webkit-scrollbar { width: 0.04rem; }
+
+.dialog-record .scroll-wrap::-webkit-scrollbar-track { border-radius: 0.02rem; background: rgba(199, 73, 61, 0.5); }
+
+.dialog-record .scroll-wrap::-webkit-scrollbar-thumb { border-radius: 0.02rem; background: #ffcea3; }
+
+.dialog-record .table .row { display: flex; height: 0.45rem; line-height: 0.45rem; margin-right: 0.05rem; }
+
+.dialog-record .table .row:nth-of-type(1) { margin-right: 0.09rem; }
+
+.dialog-record .table .row:nth-of-type(1) .th, .dialog-record .table .row:nth-of-type(even) .th, .dialog-record .table .row:nth-of-type(even) .td { background: rgba(223, 67, 51, 0.38); }
+
+.dialog-record .table .th, .dialog-record .table .td { flex: 1; text-align: center; color: #fff; }
+
+.dialog-record .table .th:nth-of-type(2n), .dialog-record .table .td:nth-of-type(2n) { margin-left: 0.02rem; }
+
+/* µ¯´° */
+.dia1{width: 5.88rem;height:5.42rem;background: url(../ossweb-img/p2-dia1-bg.png) no-repeat;background-size:100% auto;padding-top: .64rem;box-sizing: border-box;}
+.dia1 .tc-title1{width: 5rem;height:.38rem;background: url(../ossweb-img/p2-dia1-title1.png) no-repeat;background-size:100% auto;margin:0 auto .4rem;}
+.dia1 ul{width: 88%;height:auto;margin:0 auto;position: relative;}
+.dia1 ul li{font-size: .2rem;color: #ffffff;line-height:.3rem;padding-bottom: .2rem;position: relative;padding-left: .4rem;}
+.dia1 ul li span{font-size: .28rem;color: #ffd6b1;display: block;position: absolute;top: 0;left: 0;}
+.dia1 ul li span:after{content: "";width: .1rem;height:.3rem;background: url(../ossweb-img/p2-tc-icon.png) no-repeat;background-size:100% auto;position: absolute;top: 0;right: -.14rem;}
+
+.dia2{width: 5.88rem;height:5.74rem;background: url(../ossweb-img/p2-dia2-bg.png) no-repeat;background-size:100% auto;padding-top: .3rem;box-sizing: border-box;}
+.dia2 .txt-box{height:4.2rem;display: flex;align-items: center;justify-content: center;flex-direction: column;}
+.dia2 .txt{font-size: .46rem;background: linear-gradient(to bottom, #ffcea3, #ffffff);-webkit-background-clip: text;color: transparent;font-weight: bold;text-align: center;width: 5rem;margin:0 auto;height: auto;line-height: .6rem;}
+
+.dia2 .sure{width: 100%;height: auto;text-align: center;font-size: 0;}
+.dia2 .sure a{width:2.14rem;height: .64rem;background: url(../ossweb-img/p1-dia3-btn.png) no-repeat;background-size: 100% auto;color: #aa2d23;font-size: .26rem;font-weight: bold;line-height: .62rem;display: block;margin:0 auto;display: inline-block; *display: inline; *zoom: 1; vertical-align: top;}
+
+
+.p3-sprites, .page3 .btn-get::before, .page3 .section1 .btn-list a::before, .page3 .section2 .task-list .awards::before { background-image: url("../ossweb-img/p3-sprites.png"); background-repeat: no-repeat; background-size: 1rem 1rem; }
+
+.page3 { position: relative; min-height: 21rem; padding: 0 0.55rem; background: url("../ossweb-img/p3-bg.jpg") no-repeat; background-size: 100% auto; overflow: hidden; }
+
+.page3 .btn-get { position: absolute; top: 0; right: 0; height: 0.25rem; line-height: 0.22rem; margin-bottom: 0.25rem; padding-left: 0.3rem; font-size: 0.22rem; color: #ffcfa4;z-index: 2; }
+
+.page3 .btn-get::before { content: ''; position: absolute; top: -.02rem; left: 0; width: 0.25rem; height: 0.25rem; background-position: -0.25rem 0; }
+
+.page3 .section1 { display: flex; justify-content: space-between; padding: 0.6rem 0; }
+
+.page3 .section1 .flag-numer { width: 3.5rem; height: 0.84rem; line-height: 0.9rem; font-weight: bold; text-align: center; background: url("../ossweb-img/p3-btn-1.png") no-repeat; background-size: 100% auto; }
+
+.page3 .section1 .flag-numer span { font-size: 0.2rem; color: #fff; }
+
+.page3 .section1 .flag-numer span.number { padding-top: 0.2rem; font-family: 'sellnum-4'; font-size: 0.45rem; letter-spacing: 0.02rem; }
+
+.page3 .section1 .btn-list { width: 1.9rem; }
+
+.page3 .section1 .btn-list a { display: block; position: relative; height: 0.25rem; line-height: 0.25rem; margin-bottom: 0.25rem; padding-left: 0.3rem; font-size: 0.22rem; color: #595757; }
+
+.page3 .section1 .btn-list a::before { content: ''; position: absolute; top: 0; left: 0; width: 0.25rem; height: 0.25rem; background-position: 0 0; }
+
+.page3 .section1 .btn-list a:last-of-type { margin-bottom: 0; }
+
+.page3 .section2 { padding-bottom: 0.7rem; }
+
+.page3 .section2 .section-title { width: 7.5rem; height: 1.56rem; margin-left: -0.55rem; margin-bottom: 0.35rem; font-size: 0; text-indent: -999em; background: url("../ossweb-img/p3-title-1.png") no-repeat; background-size: 100% auto; }
+
+.page3 .section2 .task-list { width: 100%; padding-right: 0.55rem; overflow: hidden; }
+
+.page3 .section2 .task-list li { display: flex; align-items: center; width: 7.66rem; height: 0.51rem; line-height: 0.51rem; margin-top: 0.25rem; padding-left: 0.25rem; padding-right: 1.26rem; background: url("../ossweb-img/p3-task-bg.png") no-repeat; background-size: auto 100%; box-sizing: border-box; }
+
+.page3 .section2 .task-list li:nth-of-type(1) { margin-top: 0; }
+
+.page3 .section2 .task-list .info { flex: 1; font-weight: bold; font-size: 0.22rem; color: #a82c22; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
+
+.page3 .section2 .task-list .awards { position: relative; height: 0.3rem; line-height: 0.4rem; margin-right: 0.25rem; padding-left: 0.35rem; font-family: 'sellnum-4'; font-size: 0.3rem; color: #828283; }
+
+.page3 .section2 .task-list .awards::before { content: ''; position: absolute; top: 0; left: 0; width: 0.3rem; height: 0.3rem; background-position: 0 -0.25rem; }
+
+.page3 .section2 .task-list .btn-join { position: relative; margin-right: 0.7rem; padding-left: 0.15rem; font-weight: bold; font-size: 0.21rem; color: #df4333; }
+
+.page3 .section2 .task-list .btn-join::before { content: ''; position: absolute; top: 50%; left: 0; width: 0.09rem; height: 0.18rem; border: 0.09rem solid transparent; border-left: 0.09rem solid #df4333; transform: translateY(-50%); box-sizing: border-box; }
+
+.page3 .section3 { position: relative; padding-top: 1rem; }
+
+.page3 .section3::before { content: ''; position: absolute; top: 0; right: -1.3rem; width: 4.33rem; height: 1.22rem; background: url("../ossweb-img/p3-title-2.png") no-repeat; background-size: 100% auto; opacity: 0.37; }
+
+.page3 .section3 .open-time .time { line-height: 0.363rem; font-family: 'sellnum-4'; font-size: 0.42rem; color: #ffcfa4; }
+
+.page3 .section3 .open-time .text { font-weight: bold; font-size: 0.2rem; color: #ffcfa4; }
+
+.page3 .section3 .btn-get { top: 1rem; }
+
+.page3 .section3 .lottery { position: relative; width: 7.5rem; height: 7.39rem; margin-top: -1rem; margin-left: -0.55rem; background: url("../ossweb-img/p3-lottery-bg.png") no-repeat; background-size: 100% auto; }
+
+.page3 .section3 .lottery-content { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+
+.page3 .section3 .lottery-content.playing .panel-btn { transform: scale(0.9); }
+
+.page3 .section3 .lottery-content .panel-face { width: 4.72rem; height: 4.72rem; background: url("../ossweb-img/p3-lottery.png") no-repeat; background-size: 100% auto; }
+
+.page3 .section3 .lottery-info { display: flex; flex-direction: column; justify-content: center; position: absolute; top: 50%; left: 50%; width: 1.76rem; height: 2.08rem; text-align: center; transform: translate(-50%, -56%);background: url("../ossweb-img/p3-btn-lottery.png") no-repeat; background-size: 100% auto; }
+
+.page3 .section3 .lottery-info .number { line-height: 0.3rem; font-weight: bold; font-size: 0.24rem; }
+
+.page3 .section3 .lottery-info .number span { padding-left: 0.1rem; }
+
+.page3 .section3 .lottery-info .text { line-height: 0.3rem; font-weight: bold; font-size: 0.24rem; }
+
+.page3 .section4 { position: relative; margin-top: 0.2rem; }
+
+.page3 .section4 .exchange-time { display: flex; }
+
+.page3 .section4 .exchange-time .text { font-weight: bold; font-size: 0.2rem; color: #ffcfa4; }
+
+.page3 .section4 .exchange-time .time { line-height: 0.36rem; margin-left: 0.1rem; font-family: 'sellnum-4'; font-size: 0.42rem; color: #ffcfa4; }
+
+.page3 .section4 .exchange-list { display: flex; flex-wrap: wrap; margin-top: 0.4rem; }
+
+.page3 .section4 .exchange-list li { position: relative; width: 2rem; height: 1.2rem; margin-top: 0.2rem; margin-right: 0.2rem; padding: 0.02rem; border: 0.02rem solid #a0a0a0; box-sizing: border-box; }
+
+.page3 .section4 .exchange-list li::before { content: ''; position: absolute; top: 0.02rem; left: 0.02rem; width: 1.92rem; height: 1.12rem; background: url("../ossweb-img/p3-exchange-bg.jpg") no-repeat; background-position: 0 -1.12rem; background-size: 100% auto; }
+
+.page3 .section4 .exchange-list li:nth-of-type(-n + 3) { margin-top: 0; border: 0.02rem solid #ffd086; }
+
+.page3 .section4 .exchange-list li:nth-of-type(-n + 3)::before { background-position: 0 0; }
+
+.page3 .section4 .exchange-list li:nth-of-type(3n) { margin-right: 0; }
+
+.page3 .section4 .exchange-list .tip { position: absolute; bottom: 0.05rem; left: 0.1rem; z-index: 2; }
+
+.page3 .section4 .exchange-list .tip .text { line-height: 0.2rem; font-weight: bold; font-size: 0.2rem; color: #a82c22; }
+
+.page3 .section4 .exchange-list .tip .number { line-height: 0.3rem; font-family: 'sellnum-2'; font-size: 0.22rem; color: #a82c22; }
+
+.gold-text { color: #FFCEA3; }
+
+@supports (-webkit-background-clip: text) { .gold-text { background-image: linear-gradient(to top, #ffffff, #FFCEA3); -webkit-text-fill-color: transparent; color: transparent; -webkit-background-clip: text; background-clip: text; } }

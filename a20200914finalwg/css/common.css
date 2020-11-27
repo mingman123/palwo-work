@@ -1,0 +1,56 @@
+@charset "GBK";
+
+html,body,div,p,ul,li,dl,dt,dd,em,i,span,a,img,input,h1,h2,h3,h4,h5 {margin:0;padding:0}
+a,img,input {border:none;}
+body{font: 14px/1.75 -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+a {text-decoration:none;}
+ul,li{list-style: none}
+/* reset */
+html,body,div,p,ul,li,dl,dt,dd,em,i,span,a,img,input,h1,h2,h3,h4,h5{margin:0;padding:0}
+a,img,input{border:none;}
+body{font-family: '\82F9\65B9','\5FAE\8F6F\96C5\9ED1',"Helvetica Neue", Helvetica, Arial, sans-serif;-webkit-tap-highlight-color:rgba(0,0,0,0);background-color:#ffffff;}
+a{text-decoration:none;}
+ul,li{list-style:none}
+table{border-collapse:collapse;border-spacing:0}
+td,th,ul,ol{padding:0}
+em,i{font-style:normal;}
+b{font-weight:normal;}
+div,img,a,span{outline:none;}
+/* reset end */
+html {
+    font-size: 50px;/* 兼容不支持vw的系统 */
+    font-size: 13.33333333vw;/* 7.5rem === 100vw */
+}
+@media (max-width: 1024px) {
+    html,body {
+        max-width: 1024px;
+    }
+}
+/* hid */
+.hid{text-indent:-999em;font-size:0;overflow:hidden;width:0;height:0;display:block}
+/* foot */
+#afooter{text-align:center;font-size:.22rem;line-height:1.5;padding:.2rem 0;background-color:#000;}
+#afooter,#afooter a{color:#c0c0c0;text-decoration:none;}
+.head{width: 7.5rem;height: 4.43rem;background: url(../ossweb-img/p1-head.jpg) no-repeat;background-size: 100% auto;}
+.head p{color: #ffffff;font-size: .2rem;line-height: .4rem;padding-top: 3.4rem;text-align: center;}
+.btn-box{width: 100%;display: flex;justify-content: center;align-items: center;height: auto;text-align: center;}
+.btn-box a{width: 2.48rem;height: .66rem;font-weight: bold;position: relative;font-size:.24rem;background: url(../ossweb-img/btn-nav.png) no-repeat;background-size: 100% auto;line-height: .64rem;color: #e5e5e5;}
+.btn-box a.on{background: url(../ossweb-img/btn-navon.png) no-repeat;background-size: 100% auto;color: #ffe0c2;}
+.btn-box a:nth-child(2){margin:0 .03rem;}
+
+.btn-box a.on{
+    position: relative;
+    font-size:.24rem;/* 字体大小 根据实际情况设置 */
+    color:#ffe6ce;/* 默认色值 低级浏览器下显示 */
+  }
+  .btn-box a.on span{background-image: linear-gradient(#ffd3a9, #ffffff);-webkit-background-clip: text; color: transparent;-webkit-text-fill-color: transparent;}
+  .btn-box a span{background-image: linear-gradient(#d1d1d1, #ffffff);-webkit-background-clip: text; color: transparent;-webkit-text-fill-color: transparent;}
+  
+  .btn-box a{
+    color:#e5e5e5;/* 默认色值 低级浏览器下显示 */
+  }
+
+
+  /* 弹窗 */
+  .dialog{position: relative;}
+  .dia-close{position: absolute;top:-.4rem;right: 0rem;background: url(../ossweb-img/dia-close.png) no-repeat;background-size: 100% auto;width: .3rem;height: .3rem;}

@@ -1,0 +1,14 @@
+html,body{width: 100%;height: 100%;overflow: hidden;}
+.main-wrapper{width: 100%;height: 100%;background: url(../ossweb-img/bg.jpg) no-repeat;background-size: 100% auto;position: relative;overflow: hidden;}
+.bg-box{position: relative;width: 7.5rem;height: 100%;}
+.top{background: url(../ossweb-img/bg-top.png) no-repeat;background-size: 100% auto;width: 7.5rem;}
+.top{position:absolute;top: 0;left: 0;width: 7.5rem;height: .4rem;background: url(../ossweb-img/bg-top.png) #000;background-size: 100% auto;}
+.left{position:absolute;top: .4rem;left: 0;width: .4rem;height: 15.86rem;background: url(../ossweb-img/bg-left.png) #000;background-size: 100% auto;}
+.bottom{position:absolute;bottom: .66rem;left: .4rem;width: 7.5rem;height: .4rem;background: url(../ossweb-img/bg-top.png) #000;background-size: 100% auto;}
+.bg{position:absolute;top: 0;left: 0;width: 7.5rem;height: 16.24rem;background: url(../ossweb-img/bg.png) no-repeat;background-size: 100% auto;}
+.btn-box{position: fixed;bottom: 0;left: 0;background: #ffffff;z-index: 66;}
+.content{width: 100%;height: 10rem;position:absolute;top: 50%;left: 0;text-align: center;transform: translateY(-50%);}
+.content .kv-logo{width: 7.5rem;height: 7.22rem;background: url(../ossweb-img/kv-logo.png);background-size: 100% auto;display: block;}
+.content .sub-title{width: 6.16rem;height: .46rem;background: url(../ossweb-img/bg-subtitle.png) no-repeat;background-size: 100% auto;margin:0 auto;line-height: .46rem;color: #ffffff;font-weight: bold;font-size:.24rem;margin-top: .5rem;}
+.content .act-time{line-height: .46rem;color: #ffffff;font-size:.2rem;padding-top: .6rem;}
+

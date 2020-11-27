@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="GBK">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="robots" content="all">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+		<!-- 为了防止页面数字被识别为电话号码，可根据实际需要添加： -->
+		<meta name="format-detection" content="telephone=no">
+		<!-- 让添加到主屏幕的网页再次打开时全屏展示，可添加：   -->
+		<meta content="yes" name="mobile-web-app-capable">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta name="author" content="Tencent-CP" />
+		<meta name="Copyright" content="Tencent" />
+		<meta name="Description" content="英雄联盟官方网站，风靡全球的MOBA竞技网游，全球召唤师热爱集结地。公平竞技英雄对战，全球角逐电竞荣耀，还有神秘的英雄联盟宇宙等你来探索！无限热爱，无限可能！">
+		<meta name="Keywords" content="英雄联盟,lol,lol新手礼包,lol攻略,lol视频,lol视频攻略,英雄资料,英雄联盟攻略,明星解说视频,英雄,攻略,WCG,点亮图标,赛事">
+		<title>LOL总决赛赛事官网-英雄联盟官方网站-腾讯游戏</title>
+		<!-- swiper 4.3.3 css -->
+		<link rel="stylesheet" href="//ossweb-img.qq.com/images/js/swiper/swiper-4.3.3.min.css">
+		<link rel="stylesheet" href="css/common.css">
+		<link rel="stylesheet" href="css/page2.css">
+		<!-- 页面设计：cp | 页面制作：cp | 创建：2020-05-07 -->
+		<!-- //game.gtimg.cn/images/lol/act/a20200507special -->
+	</head>
+
+	<body>
+		<!-- 页面主体代码 Start -->
+		<h1 class="hid">LOL总决赛赛事官网</h1>
+		<div class="main-wrapper">
+			<div class="head">
+				<p>活动时间：xxxx年x月x日——x年x日</p>
+			</div>
+			<div class="btn-box">
+				<a href="page1.html" class="btn_page1" onclick="PTTSendClick('btn','btn_page1','MAX预言家');"><span>MAX预言家</span></a>
+				<a href="javascript:;" class="btn_page2 on" onclick="PTTSendClick('btn','btn_page2','啦啦队后援团');"><span>啦啦队后援团</span></a>
+				<a href="page3.html" class="btn_page3" onclick="PTTSendClick('btn','btn_page3','这么多好礼');"><span>这么多好礼</span></a>
+
+			</div>
+			<div class="conts">
+				<div class="sid">
+					<a href="javascript:;" class="btn_go" onclick="PTTSendClick('btn','btn_go','前往韩服排行榜');"></a>
+					<a href="javascript:;" class="btn_close" onclick="PTTSendClick('btn','btn_close','关闭');"></a>
+				</div>
+				<!-- 出征小组赛 -->
+				<div class="cont1" style="display: none1;">
+					<div class="box1 tit_box">
+						<p class="title1 titles">
+							<span>应援的小队赢得胜利   获得更多旗帜</span>
+						</p>
+						<a href="javascript:TGDialogS('dia1');" class="btn_rule" onclick="PTTSendClick('btn','btn_rule','应援规则');">应援规则</a>
+						<div class="lottery_box">
+							<p>10月2日24:00关闭A小组的应援入口应援超过6666人,应援奖励翻倍</p>
+							<a href="page3.html" class="btn_lottery" onclick="PTTSendClick('btn','btn_lottery','抽奖已开放，前往抽奖');"><span>抽奖已开放，前往抽奖</span></a>
+						</div>
+					</div>
+					<div class="box2">
+						<!-- Swiper -->
+						<div class="swiper-container swiper-container1">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<ul>
+										<!-- 晋级给li添加class promoted ，应援li的class为assistance  应援成功li的class为success  已关闭应援成功li的class为close-->
+										<li class="assistance">
+											<div class="integral">
+												 <p class="txt1">
+													 <span>FPX</span>
+													 <b>56566 <i>人</i></b>
+												 </p>
+												 <img src="ossweb-img/p1-prop1.png" alt="">
+												 <p class="txt2">
+													<em></em><b><i>积分</i>5</b>
+												</p>
+											</div>
+											<div class="btn_box">
+												<a href="javascript:;" data-on="true" class="btn_assistance" onclick="PTTSendClick('btn','btn_assistance1','应援');"><span>应援</span></a>
+											</div>
+											
+										</li>
+										<li class="success promoted">
+											<div class="integral">
+												 <p class="txt1">
+													 <span>FPX</span>
+													 <b>56566 <i>人</i></b>
+												 </p>
+												 <img src="ossweb-img/p1-prop1.png" alt="">
+												 <p class="txt2">
+													<em></em><b><i>积分</i>5</b>
+												</p>
+											</div>
+											<div class="btn_box">
+												<a href="javascript:;" data-on="flase" class="btn_success" onclick="PTTSendClick('btn','btn_success1','应援成功');"><span>应援成功</span></a>
+											</div>
+											
+										</li>
+										<li class="close">
+											<div class="integral">
+												 <p class="txt1">
+													 <span>FPX</span>
+													 <b>56566 <i>人</i></b>
+												 </p>
+												 <img src="ossweb-img/p1-prop1.png" alt="">
+												 <p class="txt2">
+													<em></em><b><i>积分</i>5</b>
+												</p>
+											</div>
+											<div class="btn_box">
+												<a href="javascript:;" class="btn_close" onclick="PTTSendClick('btn','btn_close1','已关闭');"><span>已关闭</span></a>
+											</div>
+										</li>
+										<li class="assistance">
+											<div class="integral">
+												 <p class="txt1">
+													 <span>FPX</span>
+													 <b>56566 <i>人</i></b>
+												 </p>
+												 <img src="ossweb-img/p1-prop1.png" alt="">
+												 <p class="txt2">
+													<em></em><b><i>积分</i>5</b>
+												</p>
+											</div>
+											<div class="btn_box">
+												<a href="javascript:;" class="btn_assistance" onclick="PTTSendClick('btn','btn_assistance2','应援');"><span>应援</span></a>
+											</div>
+											
+										</li>
+									</ul>
+								</div>
+								<div class="swiper-slide">
+									<ul>
+										<li class="assistance">
+											<div class="integral">
+												 <p class="txt1">
+													 <span>FPX</span>
+													 <b>56566 <i>人</i></b>
+												 </p>
+												 <img src="ossweb-img/p1-prop1.png" alt="">
+												 <p class="txt2">
+													<em></em><b><i>积分</i>5</b>
+												</p>
+											</div>
+											<div class="btn_box">
+												<a href="javascript:;" class="btn_assistance" onclick="PTTSendClick('btn','btn_assistance7','应援');"><span>应援</span></a>
+											</div>
+										</li>
+										<li class="success promoted">
+											<div class="integral">
+												 <p class="txt1">
+													 <span>FPX</span>
+													 <b>56566 <i>人</i></b>
+												 </p>
+												 <img src="ossweb-img/p1-prop1.png" alt="">
+												 <p class="txt2">
+													<em></em><b><i>积分</i>5</b>
+												</p>
+											</div>
+											<div class="btn_box">
+												<a href="javascript:;" class="btn_success" onclick="PTTSendClick('btn','btn_success8','应援成功');"><span>应援成功</span></a>
+											</div>
+											
+										</li>
+										<li class="close">
+											<div class="integral">
+												 <p class="txt1">
+													 <span>FPX</span>
+													 <b>56566 <i>人</i></b>
+												 </p>
+												 <img src="ossweb-img/p1-prop1.png" alt="">
+												 <p class="txt2">
+													<em></em><b><i>积分</i>5</b>
+												</p>
+											</div>
+											<div class="btn_box">
+												<a href="javascript:;" class="btn_close" onclick="PTTSendClick('btn','btn_close8','已关闭');"><span>已关闭</span></a>
+											</div>
+											
+										</li>
+										<li class="assistance">
+											<div class="integral">
+												 <p class="txt1">
+													 <span>FPX</span>
+													 <b>56566 <i>人</i></b>
+												 </p>
+												 <img src="ossweb-img/p1-prop1.png" alt="">
+												 <p class="txt2">
+													<em></em><b><i>积分</i>5</b>
+												</p>
+											</div>
+											<div class="btn_box">
+												<a href="javascript:;" class="btn_assistance" onclick="PTTSendClick('btn','btn_assistance8','应援');"><span>应援</span></a>
+											</div>
+											
+										</li>
+									</ul>
+								</div>
+								<div class="swiper-slide">
+									<ul>
+										<li class="assistance">
+											<div class="integral">
+												 <p class="txt1">
+													 <span>FPX</span>
+													 <b>56566 <i>人</i></b>
+												 </p>
+												 <img src="ossweb-img/p1-prop1.png" alt="">
+												 <p class="txt2">
+													<em></em><b><i>积分</i>5</b>
+												</p>
+											</div>
+											<div class="btn_box">
+												<a href="javascript:;" class="btn_assistance" onclick="PTTSendClick('btn','btn_assistance11','应援');"><span>应援</span></a>
+											</div>
+											
+										</li>
+										<li class="success promoted">
+											<div class="integral">
+												 <p class="txt1">
+													 <span>FPX</span>
+													 <b>56566 <i>人</i></b>
+												 </p>
+												 <img src="ossweb-img/p1-prop1.png" alt="">
+												 <p class="txt2">
+													<em></em><b><i>积分</i>5</b>
+												</p>
+											</div>
+											<div class="btn_box">
+												<a href="javascript:;" class="btn_success" onclick="PTTSendClick('btn','btn_success12','应援成功');"><span>应援成功</span></a>
+											</div>
+											
+										</li>
+										<li class="close">
+											<div class="integral">
+												 <p class="txt1">
+													 <span>FPX</span>
+													 <b>56566 <i>人</i></b>
+												 </p>
+												 <img src="ossweb-img/p1-prop1.png" alt="">
+												 <p class="txt2">
+													<em></em><b><i>积分</i>5</b>
+												</p>
+											</div>
+											<div class="btn_box">
+												<a href="javascript:;" class="btn_close" onclick="PTTSendClick('btn','btn_close12','已关闭');"><span>已关闭</span></a>
+											</div>
+											
+										</li>
+										<li class="assistance">
+											<div class="integral">
+												 <p class="txt1">
+													 <span>FPX</span>
+													 <b>56566 <i>人</i></b>
+												 </p>
+												 <img src="ossweb-img/p1-prop1.png" alt="">
+												 <p class="txt2">
+													<em></em><b><i>积分</i>5</b>
+												</p>
+											</div>
+											<div class="btn_box">
+												<a href="javascript:;" class="btn_assistance" onclick="PTTSendClick('btn','btn_assistance12','应援');"><span>应援</span></a>
+											</div>
+											
+										</li>
+									</ul>
+								</div>
+								<div class="swiper-slide">
+									<ul>
+										<li class="assistance">
+											<div class="integral">
+												 <p class="txt1">
+													 <span>FPX</span>
+													 <b>56566 <i>人</i></b>
+												 </p>
+												 <img src="ossweb-img/p1-prop1.png" alt="">
+												 <p class="txt2">
+													<em></em><b><i>积分</i>5</b>
+												</p>
+											</div>
+											<div class="btn_box">
+												<a href="javascript:;" class="btn_assistance" onclick="PTTSendClick('btn','btn_assistance15','应援');"><span>应援</span></a>
+											</div>
+											
+										</li>
+										<li class="success">
+											<div class="integral">
+												 <p class="txt1">
+													 <span>FPX</span>
+													 <b>56566 <i>人</i></b>
+												 </p>
+												 <img src="ossweb-img/p1-prop1.png" alt="">
+												 <p class="txt2">
+													<em></em><b><i>积分</i>5</b>
+												</p>
+											</div>
+											<div class="btn_box">
+												<a href="javascript:;" class="btn_success" onclick="PTTSendClick('btn','btn_success16','应援成功');"><span>应援成功</span></a>
+											</div>
+											
+										</li>
+										<li class="close">
+											<div class="integral">
+												 <p class="txt1">
+													 <span>FPX</span>
+													 <b>56566 <i>人</i></b>
+												 </p>
+												 <img src="ossweb-img/p1-prop1.png" alt="">
+												 <p class="txt2">
+													<em></em><b><i>积分</i>5</b>
+												</p>
+											</div>
+											<div class="btn_box">
+												<a href="javascript:;" class="btn_close" onclick="PTTSendClick('btn','btn_close16','已关闭');"><span>已关闭</span></a>
+											</div>
+											
+										</li>
+										<li class="assistance">
+											<div class="integral">
+												 <p class="txt1">
+													 <span>FPX</span>
+													 <b>56566 <i>人</i></b>
+												 </p>
+												 <img src="ossweb-img/p1-prop1.png" alt="">
+												 <p class="txt2">
+													<em></em><b><i>积分</i>5</b>
+												</p>
+											</div>
+											<div class="btn_box">
+												<a href="javascript:;" class="btn_assistance" onclick="PTTSendClick('btn','btn_assistance16','应援');"><span>应援</span></a>
+											</div>
+											
+										</li>
+									</ul>
+								</div>
+							</div>
+							<!-- Add Pagination -->
+							<div class="swiper-pagination swiper-pagination1"></div>
+						</div>
+						<a href="javascript:;" class="btn_create" onclick="PTTSendClick('btn','btn_create','生成我的应援之路');"><span>生成我的应援之路</span></a>
+					</div> 
+					<div class="box3 support_group">
+						<p class="subtitle">加入BiBi后援团，为喜欢的战队加油！</p>
+						<ul>
+							<li><div><img src="ossweb-img/p1-best-people1.png" alt=""></div><p>FPX小凤凰团</p></li>
+							<li><div><img src="ossweb-img/p1-best-people1.png" alt=""></div><p>FPX小凤凰团</p></li>
+							<li><div><img src="ossweb-img/p1-best-people1.png" alt=""></div><p>FPX小凤凰团</p></li>
+							<li><div><img src="ossweb-img/p1-best-people1.png" alt=""></div><p>FPX小凤凰团</p></li>
+						</ul>
+					</div>
+				</div>
+				<!--决赛内容-->
+				<!--1/4wrap 添加class period1 1/2给cont2 添加class period2  决赛给cont2 添加class period3-->
+				<div class="wrap">
+					<div class="same_title_lotterybox tit_box">
+						<p class="title2 titles">
+							<span>比赛结束后，胜利队伍的BiBi房间将开启红包雨<br/>共庆胜利的喜悦</span>
+						</p>
+						<a href="javascript:TGDialogS('dia1');" class="btn_rule" onclick="PTTSendClick('btn','btn_rule','应援规则');">应援规则</a>
+						<div class="lottery_box">
+							<p><span>2020/10/14-24:00</span>关闭应援出口</p>
+							<a href="page3.html" class="btn_lottery" onclick="PTTSendClick('btn','btn_lottery','抽奖已开放，前往抽奖');"><span>抽奖已开放，前往抽奖</span></a>
+						</div>
+					</div>
+					<!--1/4决赛-->
+					<!--1/4给cont2 添加class phase1 1/2给cont2 添加class phase2  决赛给cont2 添加class phase3-->
+					<div class="cont2 phase1">
+						<div class="home">
+							<p class="home-txt"><span>BiBi</span>点击红包进入粉丝房间，共享胜利</p>
+							<div class="help_box">
+								<!--应援给help添加class state1，应援成功给help添加class state2，已关闭给help添加class state3   红包给help添加class red   win给help添加class win-->
+								<div class="help">
+									<div class="team state1 red">
+										<div>
+											<em></em>
+											<i></i>
+											<p><span>FPX</span></p>
+											<img src="ossweb-img/p1-prop1.png" alt="">
+										</div>
+										<a href="javascript:;" class="btn_support" onclick="PTTSendClick('btn','btn_support1','应援');"><span>应援</span></a>
+									</div>
+									<div class="team state2 win">
+										<div>
+											<em></em>
+											<i></i>
+											<p><span>FPX</span></p>
+											<img src="ossweb-img/p1-prop1.png" alt="">
+										</div>
+										<a href="javascript:;" class="btn_succeed" onclick="PTTSendClick('btn','btn_succeed1','应援成功');"><span>应援成功</span></a>
+									</div>
+								</div>
+								<div class="line_box">
+									<i class="line line1"></i>
+									<i class="line line2"></i>
+									<i class="line line3"></i>
+									<i class="line line4"></i>
+									<i class="line line5"></i>
+									<i class="line line6"></i>
+									<i class="line line7"></i>
+								</div>
+								<div class="help">
+									<div class="team state3">
+										<div>
+											<em></em>
+											<i></i>
+											<p><span>FPX</span></p>
+											<img src="ossweb-img/p1-prop1.png" alt="">
+										</div>
+										<a href="javascript:;" class="btn_shut" onclick="PTTSendClick('btn','btn_shut1','已关闭');"><span>已关闭</span></a>
+									</div>
+									<div class="team state3">
+										<div>
+											<em></em>
+											<i></i>
+											<p><span>FPX</span></p>
+											<img src="ossweb-img/p1-prop1.png" alt="">
+										</div>
+										<a href="javascript:;" class="btn_shut" onclick="PTTSendClick('btn','btn_shut2','已关闭');"><span>已关闭</span></a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<div class="home">
+							<p class="home-txt"><span>BiBi</span>点击红包进入粉丝房间，共享胜利</p>
+							<div class="help_box">
+								<!--应援给help添加class state1，应援成功给help添加class state2，已关闭给help添加class state3-->
+								<div class="help">
+									<div class="team state1 red">
+										<div>
+											<em></em>
+											<i></i>
+											<p><span>FPX</span></p>
+											<img src="ossweb-img/p1-prop1.png" alt="">
+										</div>
+										<a href="javascript:;" class="btn_support" onclick="PTTSendClick('btn','btn_support5','应援');"><span>应援</span></a>
+									</div>
+									<div class="team state2 win">
+										<div>
+											<em></em>
+											<i></i>
+											<p><span>FPX</span></p>
+											<img src="ossweb-img/p1-prop1.png" alt="">
+										</div>
+										<a href="javascript:;" class="btn_succeed" onclick="PTTSendClick('btn','btn_succeed5','应援成功');"><span>应援成功</span></a>
+									</div>
+								</div>
+								<div class="line_box">
+									<i class="line line1"></i>
+									<i class="line line2"></i>
+									<i class="line line3"></i>
+									<i class="line line4"></i>
+									<i class="line line5"></i>
+									<i class="line line6"></i>
+									<i class="line line7"></i>
+								</div>
+								<div class="help">
+									<div class="team state3">
+										<div>
+											<em></em>
+											<i></i>
+											<p><span>FPX</span></p>
+											<img src="ossweb-img/p1-prop1.png" alt="">
+										</div>
+										<a href="javascript:;" class="btn_shut" onclick="PTTSendClick('btn','btn_shut5','已关闭');"><span>已关闭</span></a>
+									</div>
+									<div class="team state3">
+										<div>
+											<em></em>
+											<i></i>
+											<p><span>FPX</span></p>
+											<img src="ossweb-img/p1-prop1.png" alt="">
+										</div>
+										<a href="javascript:;" class="btn_shut" onclick="PTTSendClick('btn','btn_shut6','已关闭');"><span>已关闭</span></a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<!--1/2决赛-->
+					<div class="cont2 phase2">
+						<div class="home">
+							<p class="home-txt"><span>BiBi</span>点击红包进入粉丝房间，共享胜利</p>
+							<div class="help_box">
+								<!--应援给help添加class state1，应援成功给help添加class state2，已关闭给help添加class state3-->
+								<div class="help">
+									<div class="team state1 red">
+										<div>
+											<em></em>
+											<i></i>
+											<p><span>FPX</span></p>
+											<img src="ossweb-img/p1-prop1.png" alt="">
+										</div>
+										<a href="javascript:;" class="btn_support" onclick="PTTSendClick('btn','btn_support9','应援');"><span>应援</span></a>
+									</div>
+									<div class="team state2 win">
+										<div>
+											<em></em>
+											<i></i>
+											<p><span>FPX</span></p>
+											<img src="ossweb-img/p1-prop1.png" alt="">
+										</div>
+										<a href="javascript:;" class="btn_succeed" onclick="PTTSendClick('btn','btn_succeed9','应援成功');"><span>应援成功</span></a>
+									</div>
+								</div>
+								<div class="line_box">
+									<i class="line line1"></i>
+									<i class="line line2"></i>
+									<i class="line line3"></i>
+									<i class="line line4"></i>
+									<i class="line line5"></i>
+									<i class="line line6"></i>
+									<i class="line line7"></i>
+								</div>
+								<div class="help">
+									<div class="team state3">
+										<div>
+											<em></em>
+											<i></i>
+											<p><span>FPX</span></p>
+											<img src="ossweb-img/p1-prop1.png" alt="">
+										</div>
+										<a href="javascript:;" class="btn_shut" onclick="PTTSendClick('btn','btn_shut9','已关闭');"><span>已关闭</span></a>
+									</div>
+									<div class="team state3">
+										<div>
+											<em></em>
+											<i></i>
+											<p><span>FPX</span></p>
+											<img src="ossweb-img/p1-prop1.png" alt="">
+										</div>
+										<a href="javascript:;" class="btn_shut" onclick="PTTSendClick('btn','btn_shut10','已关闭');"><span>已关闭</span></a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<!--决赛-->
+					<div class="cont2 phase3">
+						<div class="box2-2">
+							<div class="choose-team">
+								<p class="txt1">MAX预言家</p>
+								<div>
+									<img src="ossweb-img/p1-prop1.png" alt="MAX预言家" />
+								</div>
+								<p class="txt2">应援人数<span>2322322</span></p>
+							</div>							
+						</div>
+						<div class="aid_box">
+							<!--应援添加class hold
+								应援成功添加class successful
+								已关闭 添加class paralyse
+								红包添加class red
+								win 添加class win
+							-->
+							<div class="aid hold win">
+								<div>
+									<p class="txt1">
+										<span>FPX</span>
+										<b><em>应援次数</em>56566</b>
+									</p>
+									<img src="ossweb-img/p1-prop1.png" alt="">
+									<strong></strong>
+									<i></i>
+								</div>
+								<a href="javascript:;" class="btn_hold" onclick="PTTSendClick('btn','btn_hold1','应援');"><span>应援</span></a>
+								 <p class="aid_who"><i>BiBi </i><span>FPX小凤凰后援团</span></p>
+							</div>
+							<div class="aid successful red">
+								<div>
+									<p class="txt1">
+										<span>FPX</span>
+										<b><em>应援次数</em>56566</b>
+									</p>
+									<img src="ossweb-img/p1-prop1.png" alt="">
+									<strong></strong>
+									<i></i>
+								</div>
+								<a href="javascript:;" class="btn_successful" onclick="PTTSendClick('btn','btn_successful1','应援成功');"><span>应援成功</span></a>
+								 <p class="aid_who"><i>BiBi </i><span>FPX小凤凰后援团</span></p>
+							</div>
+							<div class="aid paralyse">
+								<div>
+									<p class="txt1">
+										<span>FPX</span>
+										<b><em>应援次数</em>56566</b>
+									</p>
+									<img src="ossweb-img/p1-prop1.png" alt="">
+									<strong></strong>
+									<i></i>
+								</div>
+								<a href="javascript:;" class="btn_paralyse" onclick="PTTSendClick('btn','btn_paralyse1','已关闭');"><span>已关闭</span></a>
+								 <p class="aid_who"><i>BiBi </i><span>FPX小凤凰后援团</span></p>
+							</div>
+							<div class="aid hold">
+								<div>
+									<p class="txt1">
+										<span>FPX</span>
+										<b><em>应援次数</em>56566</b>
+									</p>
+									<img src="ossweb-img/p1-prop1.png" alt="">
+									<strong></strong>
+									<i></i>
+								</div>
+								<a href="javascript:;" class="btn_paralyse" onclick="PTTSendClick('btn','btn_paralyse2','已关闭');"><span>已关闭</span></a>
+								 <p class="aid_who"><i>BiBi </i><span>FPX小凤凰后援团</span></p>
+							</div>
+						</div>
+					</div>
+					
+					
+					
+					<a href="javascript:;" class="btn_create" onclick="PTTSendClick('btn','btn_create2','生成我的应援之路');"><span>生成我的应援之路</span></a>
+					<div class="support_group">
+						<p class="subtitle">更多BiBi后援团：</p>
+						<ul>
+							<li><div><img src="ossweb-img/p1-best-people1.png" alt=""></div><p>FPX小凤凰团</p></li>
+							<li><div><img src="ossweb-img/p1-best-people1.png" alt=""></div><p>FPX小凤凰团</p></li>
+							<li><div><img src="ossweb-img/p1-best-people1.png" alt=""></div><p>FPX小凤凰团</p></li>
+							<li><div><img src="ossweb-img/p1-best-people1.png" alt=""></div><p>FPX小凤凰团</p></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 应援规则 Start-->
+		<div class="dialog dia1" id="dia1" style="display:none">
+			<p class="tc-title1"></p>
+			<ul>
+				<li><span>1</span>每场对于,只能应援一方战队球叭夔得七馈胜利,贝啊为应援成功,应援不滁耗旗帜各个赛段应援成功的队伍,小组赛;
+				</li>
+				<li><span>2</span>旗帜四分之一决赛卜一礴00旗帜半决赛卜一礴00旗帜将获得相应的应援奖励;
+				</li>
+				<li><span>3</span>每个赛段,单支队伍应援人数超过6666人,胜利后的应援奖励翻倍;
+				</li>
+				<li><span>4</span>每个赛段,单支队伍应援人数超过6666人,胜利后的应援奖励翻倍。
+				</li>
+			</ul>
+			<a class="dia-close" href="javascript:showDialog.hide()" title="关闭"></a>
+			</div>
+		<!-- 应援规则 End-->
+		
+		<!-- 应援 Start-->
+		<div class="dialog dia2" id="dia2" style="display:none">
+			<p class="tc-slogn">涅槃重生  勇攀高峰</p>
+			<p class="tc-slogn">涅槃重生  勇攀高峰</p>
+			<div class="team">
+				<p><span>FPX</span></p>
+				<img src="ossweb-img/p1-prop1.png" alt="">
+			</div>
+			<div class="sure">
+				<a href="javascript:;" class="btn_sure" onclick="PTTSendClick('btn','btn_sure','确定');">确定</a>
+				<p>入口关闭前，可以重新应援</p>
+			</div>
+			
+			<a class="dia-close" href="javascript:showDialog.hide()" title="关闭"></a>
+		</div>
+		<!-- 应援 End-->
+		<!-- 取消应援 Start-->
+		<div class="dialog dia2" id="dia3" style="display:none">
+			<p class="tc-slogn">涅槃重生  勇攀高峰</p>
+			<p class="tc-slogn">涅槃重生  勇攀高峰</p>
+			<div class="team">
+				<p><span>FPX</span></p>
+				<img src="ossweb-img/p1-prop1.png" alt="">
+			</div>
+			<div class="sure">
+				<a href="javascript:;" class="btn_sure" onclick="PTTSendClick('btn','btn_cancel','取消');">取消</a>
+				<p>入口关闭前，可以重新应援</p>
+			</div>
+			
+			<a class="dia-close" href="javascript:showDialog.hide()" title="关闭"></a>
+		</div>
+		<!-- 取消应援 End-->
+
+		<!-- 页面主体代码 End -->
+
+		<script src="//js.aq.qq.com/js/aq_common.js"></script>
+		<script src="//ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js"></script>
+		<script>
+			//此段代码不能放到外链JS中，
+			var setSite = { //设置网站属性
+				siteType: "a20200914finalwg", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+				pageType: "page2", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN,不支持点(.)、下划线(_)
+				pageName: "啦啦队后援团", //必填项:页面中文名
+				project: "match", //必填项:按照模块内容，填写固定的对应值;皮肤 skin;英雄 hero;商业化 commerce;赛事 match;运营/版本 version;品牌 brand;IP ip;社区 community;网吧投放 netbar;默认other;
+				osact: 0 //选填项:是否是官网专题(在官网运营的专题)boolean；默认是0；可以在链接上加入参数osact=1来灵活设置
+			};
+			if(typeof(pgvMain) == 'function') pgvMain(); //千万不能忘记！
+		</script>
+		<script src="//game.gtimg.cn/images/js/2018foot/foot.js"></script>
+		<script src="//pub.idqqimg.com/qqmobile/qqapi.js?_bid=152"></script>
+		<script src="//ossweb-img.qq.com/images/js/zepto/zepto.min.js"></script>
+		<script src="//ossweb-img.qq.com/images/js/mobile_bundle/milo.js"></script>
+		<!-- 页面脚本逻辑 -->
+		<script src="//ossweb-img.qq.com/images/js/jquery/jquery-1.11.3.min.js"></script>
+		<!-- swiper4 -->
+		<script src="//ossweb-img.qq.com/images/js/swiper4_component/js/swiper.min.js"></script> 
+		<script src="js/index.js" charset="GBK"></script>
+		<script src="//lol.qq.com/m/public/LOL_App.js"></script> 
+		<script>
+			var swiper = new Swiper('.swiper-container1', {
+				slidesPerView: 'auto',
+				// spaceBetween : 20,
+			    pagination: {
+						el: '.swiper-pagination1',
+						clickable: true,
+						renderBullet: function (index, className) {
+			            switch(index){
+			            case 0:text='A组';break;
+			            case 1:text='B组';break;
+			            case 2:text='C组';break;
+			            case 3:text='D组';break;
+			        }
+			        return '<span class="' + className + '">'+'<i>'+ text +'</i></span>';
+			        },
+				},
+				loop:true,
+			});
+			$(function(){
+				$(".sid .btn_close").click(function(){
+					$(".sid").hide();
+				})
+				
+				$(".cont1 .box2 .btn_box a").click(function() {
+					if ($(this).hasClass("btn_assistance")) {
+						$(this).addClass("btn1");
+						TGDialogS('dia2');
+						console.log($(this))
+					} else if($(this).hasClass("btn_success")){
+						$(this).addClass("btn2");
+						TGDialogS('dia3');
+					}
+				})
+				$("#dia2 .btn_sure").click(function(){
+					if ($(".cont1 .box2 .btn_box a").hasClass("btn1")) {
+						$(".btn1").parents("li").removeClass("assistance");
+						$(".btn1").parents("li").addClass("success ");
+						$(".btn1").removeClass("btn_assistance")
+						$(".btn1").addClass("btn_success")
+						$(".btn1").find("span").html("应援成功")
+						showDialog.hide()
+						$(".btn1").removeClass("btn1");
+					} 
+				})
+				$("#dia3 .btn_sure").click(function(){
+					if ($(".cont1 .box2 .btn_box a").hasClass("btn2")) {
+						$(".btn2").parents("li").removeClass("success");
+						$(".btn2").parents("li").addClass("assistance ");
+						$(".btn2").removeClass("btn_success")
+						$(".btn2").addClass("btn_assistance")
+						$(".btn2").find("span").html("应援")
+						showDialog.hide()
+						$(".btn2").removeClass("btn2");
+					} 
+				})
+
+				
+			})
+		
+			init_ZMApp({
+				'title': '热点专题',
+				'summery': '热点专题',
+				'subtitle': '热点专题',
+				'img': 'https:ossweb-img/share.jpg',
+				'url': location.href.split('?')[0],
+				'WXtrigger': function(res) {
+					//微信动作回调
+				},
+				'WXsuccess': function(res) {
+					//微信成功回调
+					if(!res) return;
+					if(res.errMsg == 'sendAppMessage:ok') {
+						//微信分享个人
+						PTTSendClick('btn', 'sharewx1', '分享给好友');
+					} else if(res.errMsg == 'shareTimeline:ok') {
+						//微信分享朋友圈
+						PTTSendClick('btn', 'sharewx2', '分享到朋友圈');
+					} else if(res.errMsg == 'shareQQ:ok') {
+						//微信分享至QQ
+						PTTSendClick('btn', 'shareqq', '分享到QQ');
+					}
+				},
+				'WXcancel': function(res) {
+					//微信分享取消动作回调
+					PTTSendClick('btn', 'sharewx_cancel', '分享取消');
+				},
+				'WXfail': function(res) {
+					//微信分享失败动作回调
+					PTTSendClick('btn', 'sharewx_fail', '分享失败');
+				},
+				'QQtrigger': function(res) {
+					//QQ动作回调
+
+				},
+				'QQcallback': function(res) {
+					//QQ分享成功
+					PTTSendClick('btn', 'shareqq_succ', 'QQ分享成功');
+				},
+				'LOL_APPsuccess': function(res) {
+					//掌盟分享成功
+					PTTSendClick('btn', 'sharezm_succ', '掌盟分享成功');
+				}
+			});
+
+			function delayCookie() {
+				var cookieUin = milo.cookie.get('uin', '');
+				if(cookieUin) {
+					milo.cookie.set('uin_cookie', cookieUin, 365 * 24 * 60 * 60, 'qq.com', '/', false);
+					milo.cookie.set('ied_qq', cookieUin, 365 * 24 * 60 * 60, 'qq.com', '/', false);
+				}
+			}
+			setTimeout(delayCookie, 2000);
+		</script> 
+
+	</body>
+
+</html>

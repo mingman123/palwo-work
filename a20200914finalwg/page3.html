@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="GBK">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="robots" content="all">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+  <!-- 为了防止页面数字被识别为电话号码，可根据实际需要添加： -->
+  <meta name="format-detection" content="telephone=no">
+  <!-- 让添加到主屏幕的网页再次打开时全屏展示，可添加：   -->
+  <meta content="yes" name="mobile-web-app-capable">
+  <meta content="yes" name="apple-mobile-web-app-capable">
+  <meta name="author" content="Tencent-CP" />
+  <meta name="Copyright" content="Tencent" />
+  <meta name="Description" content="英雄联盟官方网站，风靡全球的MOBA竞技网游，全球召唤师热爱集结地。公平竞技英雄对战，全球角逐电竞荣耀，还有神秘的英雄联盟宇宙等你来探索！无限热爱，无限可能！">
+  <meta name="Keywords" content="英雄联盟,lol,lol新手礼包,lol攻略,lol视频,lol视频攻略,英雄资料,英雄联盟攻略,明星解说视频,英雄,攻略,WCG,点亮图标,赛事">
+  <title>LOL总决赛赛事官网-英雄联盟官方网站-腾讯游戏</title>
+  <!-- swiper 4.3.3 css -->
+  <link rel="stylesheet" href="//ossweb-img.qq.com/images/js/swiper/swiper-4.3.3.min.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/page1.css">
+  <link rel="stylesheet" href="css/page3.css">
+  <!-- 页面设计：cp | 页面制作：cp | 创建：2020-05-07 -->
+  <!-- //game.gtimg.cn/images/lol/act/a20200507special -->
+</head>
+<body>
+  <!-- 页面主体代码 Start -->
+  <h1 class="hid">LOL总决赛赛事官网</h1>
+  <div class="main-wrapper">
+    <div class="head">
+      <p>活动时间：xxxx年x月x日——x年x日</p>
+    </div>
+    <div class="btn-box">
+      <a href="page1.html" class="btn_page1" onclick="PTTSendClick('btn','btn_page1','MAX预言家');"><span>MAX预言家</span></a>
+			<a href="page2.html" class="btn_page2" onclick="PTTSendClick('btn','btn_page2','啦啦队后援团');"><span>啦啦队后援团</span></a>
+			<a href="javascript:;" class="btn_page3 on" onclick="PTTSendClick('btn','btn_page3','这么多好礼');"><span>这么多好礼</span></a>
+    </div>
+    <div class="page3">
+      <div class="section1">
+        <div class="flag-numer">
+          <span class="gold-text">我的旗帜数:</span>
+          <span class="gold-text number">30000</span>
+        </div>
+        <div class="btn-list">
+          <a href="javascript:TGDialogS('dia1');" onclick="PTTSendClick('btn', 'btn-rule', '奖励规则');">奖励规则</a>
+          <a href="javascript:TGDialogS('dialogRecord');" onclick="PTTSendClick('btn', 'btn-record', '旗帜获取记录');">旗帜获取记录</a>
+        </div>
+      </div>
+      <div class="section2">
+        <div class="section-title">应援任务</div>
+        <ul class="task-list">
+          <li>
+            <div class="info">任务: 支持一次战队</div>
+            <div class="awards">+200</div>
+            <a class="btn-join" href="javascript:;" onclick="PTTSendClick('btn', 'btn-join', '去完成');">去完成</a>
+          </li>
+          <li>
+            <div class="info">任务: 支持一次战队</div>
+            <div class="awards">+200</div>
+            <a class="btn-join" href="javascript:;" onclick="PTTSendClick('btn', 'btn-join', '去完成');">去完成</a>
+          </li>
+          <li>
+            <div class="info">任务: 支持一次战队</div>
+            <div class="awards">+200</div>
+            <a class="btn-join" href="javascript:;" onclick="PTTSendClick('btn', 'btn-join', '去完成');">去完成</a>
+          </li>
+          <li>
+            <div class="info">任务: 支持一次战队</div>
+            <div class="awards">+200</div>
+            <a class="btn-join" href="javascript:;" onclick="PTTSendClick('btn', 'btn-join', '去完成');">去完成</a>
+          </li>
+        </ul>
+      </div>
+      <div class="section3">
+        <div class="open-time">
+          <div class="time">2020/08/22-2020/08/22</div>
+          <div class="text">抽奖开放时间</div>
+        </div>
+        <a class="btn-get" href="page2.html" onclick="PTTSendClick('btn', 'btn-get', '前往获取旗帜');">前往获取旗帜</a>
+        <div class="lottery">
+          <div id="lotterycontent" class="lottery-content"></div>
+          <div class="lottery-info">
+            <div class="gold-text number">消耗<span>22</span></div>
+            <div class="gold-text text">旗帜次数</div>
+          </div>
+        </div>
+      </div>
+      <div class="section4">
+        <div class="exchange-time">
+          <div class="text">兑奖开放时间</div>
+          <div class="time">2020/08/22</div>
+        </div>
+        <a class="btn-get" href="page2.html" onclick="PTTSendClick('btn', 'btn-get', '前往获取旗帜');">前往获取旗帜</a>
+        <ul class="exchange-list">
+          <li class="exchange" onclick="PTTSendClick('btn', 'exchange1', '旗帜');">
+            <div class="tip">
+              <div class="text">旗帜</div>
+              <div class="number">25000</div>
+            </div>
+          </li>
+           <li class="exchange" onclick="PTTSendClick('btn', 'exchange2', '旗帜');">
+            <div class="tip">
+              <div class="text">旗帜</div>
+              <div class="number">25000</div>
+            </div>
+          </li>
+           <li class="exchange" onclick="PTTSendClick('btn', 'exchange3', '旗帜');">
+            <div class="tip">
+              <div class="text">旗帜</div>
+              <div class="number">25000</div>
+            </div>
+          </li>
+          <li class="exchange" onclick="PTTSendClick('btn', 'exchange4', '旗帜');">
+            <div class="tip">
+              <div class="text">旗帜</div>
+              <div class="number">25000</div>
+            </div>
+          </li>
+          <li class="exchange" onclick="PTTSendClick('btn', 'exchange5', '旗帜');">
+            <div class="tip">
+              <div class="text">旗帜</div>
+              <div class="number">25000</div>
+            </div>
+          </li>
+          <li class="exchange" onclick="PTTSendClick('btn', 'exchange6', '旗帜');">
+            <div class="tip">
+              <div class="text">旗帜</div>
+              <div class="number">25000</div>
+            </div>
+          </li>
+          <li class="exchange" onclick="PTTSendClick('btn', 'exchange7', '旗帜');">
+            <div class="tip">
+              <div class="text">旗帜</div>
+              <div class="number">25000</div>
+            </div>
+          </li>
+          <li class="exchange" onclick="PTTSendClick('btn', 'exchange8', '旗帜');">
+            <div class="tip">
+              <div class="text">旗帜</div>
+              <div class="number">25000</div>
+            </div>
+          </li>
+          <li class="exchange" onclick="PTTSendClick('btn', 'exchange9', '旗帜');">
+            <div class="tip">
+              <div class="text">旗帜</div>
+              <div class="number">25000</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- 弹窗 start -->
+
+  <!-- dialog dialog-record 积分记录 -->
+  <div id="dialogRecord" class="dialog dialog-record" style="display: none;">
+    <a class="dia-close" href="javascript:closeDialog();" onclick="PTTSendClick('btn', 'dialog-close', '关闭弹窗');"></a>
+    <div class="dialog-body">
+      <div class="dialog-desc">个人旗帜记录流水情况(含获得以及消耗)</div>
+      <div class="table">
+        <div class="row">
+          <div class="th">旗帜来源</div>
+          <div class="th">旗帜数</div>
+        </div>
+        <div class="scroll-wrap">
+          <div class="row">
+            <div class="td">小组赛应援</div>
+            <div class="td">+2000</div>
+          </div>
+          <div class="row">
+            <div class="td">8强应援</div>
+            <div class="td">-2000</div>
+          </div>
+          <div class="row">
+            <div class="td">小组赛应援</div>
+            <div class="td">+2000</div>
+          </div>
+          <div class="row">
+            <div class="td">8强应援</div>
+            <div class="td">-2000</div>
+          </div>
+          <div class="row">
+            <div class="td">小组赛应援</div>
+            <div class="td">+2000</div>
+          </div>
+          <div class="row">
+            <div class="td">8强应援</div>
+            <div class="td">-2000</div>
+          </div>
+          <div class="row">
+            <div class="td">8强应援</div>
+            <div class="td">-2000</div>
+          </div>
+          <div class="row">
+            <div class="td">8强应援</div>
+            <div class="td">-2000</div>
+          </div>
+          <div class="row">
+            <div class="td">8强应援</div>
+            <div class="td">-2000</div>
+          </div>
+          <div class="row">
+            <div class="td">8强应援</div>
+            <div class="td">-2000</div>
+          </div>
+          <div class="row">
+            <div class="td">8强应援</div>
+            <div class="td">-2000</div>
+          </div>
+          <div class="row">
+            <div class="td">8强应援</div>
+            <div class="td">-2000</div>
+          </div>
+          <div class="row">
+            <div class="td">8强应援</div>
+            <div class="td">-2000</div>
+          </div>
+          <div class="row">
+            <div class="td">8强应援</div>
+            <div class="td">-2000</div>
+          </div>
+          <div class="row">
+            <div class="td">8强应援</div>
+            <div class="td">-2000</div>
+          </div>
+          <div class="row">
+            <div class="td">8强应援</div>
+            <div class="td">-2000</div>
+          </div>
+          <div class="row">
+            <div class="td">8强应援</div>
+            <div class="td">-2000</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <!-- 奖励规则 Start-->
+		<div class="dialog dia1" id="dia1" style="display:none">
+			<p class="tc-title1"></p>
+			<ul>
+				<li><span>1</span>每场对于,只能应援一方战队球叭夔得七馈胜利,贝啊为应援成功,应援不滁耗旗帜各个赛段应援成功的队伍,小组赛;
+				</li>
+				<li><span>2</span>旗帜四分之一决赛卜一礴00旗帜半决赛卜一礴00旗帜将获得相应的应援奖励;
+				</li>
+				<li><span>3</span>每个赛段,单支队伍应援人数超过6666人,胜利后的应援奖励翻倍;
+				</li>
+				<li><span>4</span>每个赛段,单支队伍应援人数超过6666人,胜利后的应援奖励翻倍。
+				</li>
+			</ul>
+			<a class="dia-close" href="javascript:showDialog.hide()" title="关闭"></a>
+			</div>
+		<!-- 奖励规则 End-->
+  
+  <!-- 取消应援 Start-->
+		<div class="dialog dia2" id="dia2" style="display:none">
+			<div class="txt-box">
+				<p class="tc-txt1 txt">您即将兑换</p>
+				<p class="tc-txt2 txt">涅槃重生  勇攀高峰</p>
+			</div>
+			<div class="sure">
+				<a href="javascript:;" class="btn_sure" onclick="PTTSendClick('btn','btn_sure','确定');">确定</a>
+				<a href="javascript:;" class="btn_thins" onclick="PTTSendClick('btn','btn_thins','再想想');">再想想</a>
+			</div>
+			
+			<a class="dia-close" href="javascript:showDialog.hide()" title="关闭"></a>
+		</div>
+		<!-- 取消应援 End-->
+		
+		<!-- 弹窗 end -->
+
+  <!-- 页面主体代码 End -->
+
+  <script src="//js.aq.qq.com/js/aq_common.js"></script>
+  <script src="//ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js"></script>
+  <script>
+    //此段代码不能放到外链JS中，
+    var setSite = { //设置网站属性
+      siteType: "a20200914finalwg", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+      pageType: "page3", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN,不支持点(.)、下划线(_)
+      pageName: "这么多好礼", //必填项:页面中文名
+      project: "match", //必填项:按照模块内容，填写固定的对应值;皮肤 skin;英雄 hero;商业化 commerce;赛事 match;运营/版本 version;品牌 brand;IP ip;社区 community;网吧投放 netbar;默认other;
+      osact: 0 //选填项:是否是官网专题(在官网运营的专题)boolean；默认是0；可以在链接上加入参数osact=1来灵活设置
+    };
+    if (typeof (pgvMain) == 'function') pgvMain(); //千万不能忘记！
+  </script>
+  <script src="//game.gtimg.cn/images/js/2018foot/foot.js"></script>
+  <script src="//pub.idqqimg.com/qqmobile/qqapi.js?_bid=152"></script>
+  <script src="//ossweb-img.qq.com/images/js/zepto/zepto.min.js"></script>
+  <script src="//ossweb-img.qq.com/images/js/mobile_bundle/milo.js"></script>
+  <!-- 页面脚本逻辑 -->
+  <script src="//ossweb-img.qq.com/images/js/jquery/jquery-1.11.3.min.js"></script>
+  <!-- swiper4 -->
+  <!--<script src="//ossweb-img.qq.com/images/js/swiper4_component/js/swiper.min.js"></script>-->
+  <script src="js/index.js" charset="GBK"></script>
+  <script src="//lol.qq.com/m/public/LOL_App.js"></script>
+  <script>
+    $(function(){
+    	$(".exchange-list .exchange").click(function(){
+    		console.log(111)
+    		TGDialogS('dia2');
+    	})
+    })
+    init_ZMApp({
+      'title': '热点专题',
+      'summery': '热点专题',
+      'subtitle': '热点专题',
+      'img': 'https:ossweb-img/share.jpg',
+      'url': location.href.split('?')[0],
+      'WXtrigger': function (res) {
+        //微信动作回调
+      },
+      'WXsuccess': function (res) {
+        //微信成功回调
+        if (!res) return;
+        if (res.errMsg == 'sendAppMessage:ok') {
+          //微信分享个人
+          PTTSendClick('btn', 'sharewx1', '分享给好友');
+        } else if (res.errMsg == 'shareTimeline:ok') {
+          //微信分享朋友圈
+          PTTSendClick('btn', 'sharewx2', '分享到朋友圈');
+        } else if (res.errMsg == 'shareQQ:ok') {
+          //微信分享至QQ
+          PTTSendClick('btn', 'shareqq', '分享到QQ');
+        }
+      },
+      'WXcancel': function (res) {
+        //微信分享取消动作回调
+        PTTSendClick('btn', 'sharewx_cancel', '分享取消');
+      },
+      'WXfail': function (res) {
+        //微信分享失败动作回调
+        PTTSendClick('btn', 'sharewx_fail', '分享失败');
+      },
+      'QQtrigger': function (res) {
+        //QQ动作回调
+
+      },
+      'QQcallback': function (res) {
+        //QQ分享成功
+        PTTSendClick('btn', 'shareqq_succ', 'QQ分享成功');
+      },
+      'LOL_APPsuccess': function (res) {
+        //掌盟分享成功
+        PTTSendClick('btn', 'sharezm_succ', '掌盟分享成功');
+      }
+    });
+
+    function delayCookie() {
+      var cookieUin = milo.cookie.get('uin', '');
+      if (cookieUin) {
+        milo.cookie.set('uin_cookie', cookieUin, 365 * 24 * 60 * 60, 'qq.com', '/', false);
+        milo.cookie.set('ied_qq', cookieUin, 365 * 24 * 60 * 60, 'qq.com', '/', false);
+      }
+    }
+    setTimeout(delayCookie, 2000);
+  </script>
+  
+  <script src="//game.gtimg.cn/images/js/loteryround/ossweb-img/loteryround.min.js"></script>
+  <script>
+    
+    // 转盘初始化
+    // 第一个参数是奖品的个数
+    // 第二个是用来旋转的圆盘（指针不动）
+    var panel = new PanelLotery({
+      length: 6,
+      el: '#lotterycontent'
+    });
+
+    $('.lottery-info').on('click', function(event) {
+      event.preventDefault();
+      if(panel.playing) return;
+      // 演示用，随机转到奖品n
+      // 初始的指针右侧开始
+      // 顺时针方向开始算
+      // 第一个奖品是n=0
+      var n = Math.floor(Math.random() * 6);
+      console.log(n);
+      panel.playto(n,function(){
+        alert(n);
+      });
+    });
+  </script>
+
+</body>
+
+</html>
