@@ -1,0 +1,53 @@
+/* reset */
+/*嘉宾*/
+.guester{font-size: 30px;color: #ffffff;line-height: 80px;text-align: left;display: block;padding-left: 36px;}
+.guest-box>div{background:rgba(37,36,91,0.7);border-radius: 8px;}
+.guest-box .guest-head{border-radius: 50%;background: #161637;}
+.guest-box .guest-head img{display: block;padding: 4px;}
+.guest-box .guest-txt .name{font-size: 26px;color: #ffffff;line-height: 34px;padding-top: 10px;width: 100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.guest-box .guest-txt .present{font-size: 20px;color: #bdbcc8;width: 100%;}
+.guest-box a{background: #c4a264;border-radius: 8px;color: #ffffff;border: 2px solid #c4a264;}
+.guest-box a.on{background: none;color: #c4a264;}
+/*一个嘉宾*/
+.one-guest-box{width: 678px;height: auto;margin: 0 auto 20px;}
+.one-guest-box>div{text-align: center;font-size: 0;width: 678px;height: auto;padding: 20px 0;}
+.one-guest-box>div>div,.one-guest-box>div>a{display: inline-block;vertical-align:top;}
+.one-guest-box .guest-head{width: 88px;height: 88px;}
+.one-guest-box .guest-head img{width: 80px;height: 80px;}
+.one-guest-box .guest-txt{width: 374px;text-align: left;margin: 0 20px;}
+.one-guest-box .guest-txt .present{line-height: 40px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.one-guest-box a{width: 120px;height: 44px;line-height: 46px;margin-top: 20px;font-size: 24px;}
+
+/*多个嘉宾*/
+.several-guest-box{width: 714px;height: auto;font-size: 0;position: relative;margin: 0  0 20px 36px;overflow: scroll;white-space: nowrap;}
+.several-guest-box>div{display: inline-block;vertical-align:top;width: 186px;height: 216px;position: relative;margin-top: 44px;text-align: center;margin-right: 24px;}
+.several-guest-box .guest-head{position: absolute;top: -36px;left: 58px;}
+.several-guest-box .guest-head{width: 72px;height: 72px;}
+.several-guest-box .guest-head img{width: 64px;height: 64px;}
+.several-guest-box .guest-txt{width: 92%;padding-top: 36px;margin: 0 auto;}
+.several-guest-box .guest-txt .present{line-height: 36px;overflow: hidden;text-overflow: ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;white-space: normal;}
+.several-guest-box a{width: 92px;height: 32px;line-height: 34px;margin: 10px auto 0;font-size: 22px;display: block;}
+.several-guest-box::-webkit-scrollbar {display:none}
+
+
+/*nav*/
+.nav{text-align: center;font-size: 0;position: relative;}
+.nav a{font-size: 30px;color: #ffffff;line-height: 100px;display: inline-block;vertical-align:top;/*margin: 0 54px;*/position: relative;}
+.nav .guest2{margin: 0 100px;}
+.nav a.on{color: #11f1e5;}
+.nav a.on i{background: url(ossweb-img/underline.png) no-repeat;background-size: 100% 100%;width: 118px;height:10px;position: absolute;bottom: 14px;left: 0;}
+
+/*cont3 加关注去掉*/
+.cont3 .guest-news .guest-txt{width: 522px;text-align: left;margin-left:10px;}
+.cont3 .dynamic{width: 100%;height: auto;margin: 0 auto;text-align: center;padding: 26px 0 22px 0;border-bottom: 2px solid #edf1f5;}
+.cont3 .dynamic p{width: 520px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color: #798a8c;font-size: 22px;line-height: 28px;margin-right: 20px;text-align: left;}
+.cont3 .dynamic p span,.cont3 .dynamic p strong{display: inline-block;vertical-align:top;}
+.cont3 .dynamic p span{color: #ffffff;font-size: 18px;width: 46px;height: 26px;background: #1a918b;text-align: center;}
+.cont3 .dynamic p strong{color: #474747;padding: 0 10px;}
+.cont3 .dynamic p,.cont3 .dynamic a{display: inline-block;vertical-align:top;}
+.cont3 .dynamic a{color: #c4a264;font-size: 22px;line-height: 20px;}
+.btn-ask-quiz{position: fixed;bottom: 60px;left: 50%;transform: translateX(-50%); display: block;width: 312px;height: 80px;line-height: 80px;text-align: center;font-size: 32px;color: #ffffff;border-radius: 44px;background-color: #c9a779;z-index: 8;
+}
+/*回复*/
+.textarea-box {background: none;}
+.textarea-box textarea {padding: 16px 26px;height: 230px;resize:none;}

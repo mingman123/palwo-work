@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="GBK">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="robots" content="all">
+		<meta name="author" content="Tencent-CP" />
+		<meta name="Copyright" content="Tencent" />
+		<meta name="Description" content="英雄联盟官方网站，海量风格各异的英雄，丰富、便捷的物品合成系统，游戏内置的匹配、排行和竞技系统，独创的"召唤师"系统及技能、符文、天赋等系统组合，必将带你进入一个崭新而又丰富多彩的游戏世界。" />
+		<meta name="Keywords" content="掌上英雄联盟语音萌答,LOL,掌上英雄联盟,语音问答" />
+		<title>英雄联盟问答活动 - 英雄联盟官方网站 - 腾讯游戏</title>
+		<link rel="stylesheet" href="index-w.css">
+		<!--[if lt IE 9]><link rel="stylesheet" href="index-w.css"> <![endif]-->
+		<!-- 页面设计：cp | 页面制作：cp | 创建：2019-11-26 -->
+	</head>
+
+	<body>
+		<!-- 页面主体代码 -->
+		<div class="wrap">
+			<h1 class="hidden">问答活动页面</h1>
+			<div class="content">
+				<div class="nav-box">
+					<a href="javascript:;" class="nav nav1 on">新增问答</a>
+					<a href="javascript:;" class="nav nav2">活动列表</a>
+					<a href="javascript:;" class="nav nav3">问题筛选</a>
+				</div>
+				<div class="cont1 cont" style="display: block;">
+					<div class="choise-type same">
+						<p><b>* </b>活动类型:</p>
+						<div class="act-type-box">
+							<input type="radio" name="act-type" value="write" class="act-type write" checked="checked" /><span>文字</span> 
+							<input type="radio" name="act-type" value="voice" class="act-type voice" /><span>语音</span>
+						</div>
+					</div>
+					<div class="news">
+						<div class="left">
+							<div class="guest-box">
+								<a href="javascript:;" class="guest1 guest on">嘉宾信息1</a>
+								<a href="javascript:;" class="guest2 guest">嘉宾信息2</a>
+								<a href="javascript:;" class="guest3 guest">嘉宾信息3</a>
+							</div>
+							<a href="javascript:;" class="add-guest">添加嘉宾</a>
+						</div>
+						<div class="right">
+							<div class="news-box">
+								<div class="guest-detail">
+									<!--如果嘉宾QQ 没有填写 guest-detail 添加class on -->
+									<p><b>* </b>嘉宾QQ:</p> <input type="text" class="guest-qq alike" placeholder="请输入嘉宾QQ"/>
+									<p><b>* </b>嘉宾昵称:</p><input type="text" class="guest-pet alike" placeholder="Clearlove" />
+									<span>* 请填写嘉宾QQ</span>
+								</div>
+								<div class="guest-intr">
+									<p><b>* </b>嘉宾简介:</p>
+									<textarea placeholder="请输入嘉宾简介"></textarea>
+								</div>
+								<div class="guest-head">
+									<p><b>* </b>头像:</p>
+									<div class="guest-head-box">
+										<img src="//game.gtimg.cn/images/lol/act/a20160616guest/guest-head.png"  alt="头像"/>
+									</div>
+									<div class="upload-box">
+										<a href="javascript:;" onclick="PTTSendClick('btn','btn-upload1','上传');" class="btn-upload">上传</a>
+										<input type="file" name="filename"  class="upload"/>
+									</div>
+								</div>
+							</div>
+							<div class="btn-revise-box">
+								<!--需要背景是黑色的，添加class on-->
+								<a href="javascript:;" onclick="PTTSendClick('btn','btn-sub','提交修改');" class="btn-sub">提交修改</a>
+								<a href="javascript:;" onclick="PTTSendClick('btn','btn-del','删除嘉宾');" class="btn-del on">删除嘉宾</a>
+							</div>
+						</div>
+					</div>
+					<div class="act-intr ">
+						<p><b>* </b>活动简介:</p>
+						<textarea placeholder="请输入活动介绍"></textarea>
+					</div>
+					<div class="act-state-type same">
+						<p><b>* </b>活动状态:</p>
+						<div class="act-type-box">
+							<input type="radio" name="act-state" value="act1" class="act-state act1" checked="checked" /><span>未上线</span> 
+							<input type="radio" name="act-state" value="act2" class="act-state act2" /><span>征集中</span>
+							<input type="radio" name="act-state" value="act3" class="act-state act3" /><span>回答中</span> 
+							<input type="radio" name="act-state" value="act4" class="act-state act4" /><span>已结束</span>
+						</div>
+					</div>
+					<div class="big-guest-head-box">
+						<p><b>* </b>头像:</p>
+						<div class="guest-head-box">
+							<img src="//game.gtimg.cn/images/lol/act/a20160616guest/big-guest-head.png"  alt="头像"/>
+						</div>
+						<p class="size">（上传尺寸：750x855，底部需过度到纯色）</p>
+						<div class="upload-box">
+							<a href="javascript:;" onclick="PTTSendClick('btn','btn-upload2','上传');" class="btn-upload">上传</a>
+							<input type="file" name="filename"  class="upload"/>
+						</div>
+					</div>
+					<div class="bg-color as">
+						<p><b>* </b>背景底色:</p> <input type="text" class="color-bg" placeholder="请吸取头图最底部颜色"/>
+					</div>
+					<div class="share-title as">
+						<p><b>* </b>背景底色:</p> <input type="text" class="title" placeholder="请输入分享标题"/>
+					</div>
+					<div class="share-cont">
+						<p><b>* </b>嘉宾简介:</p>
+						<textarea placeholder="请输入分享内容"></textarea>
+					</div>
+					<div class="share-pic">
+						<p><b>* </b>头像:</p>
+						<div class="share-pic-box">
+							<img src="//game.gtimg.cn/images/lol/act/a20160616guest/big-guest-head.png"  alt="头像"/>
+						</div>
+						<div class="upload-box">
+							<a href="javascript:;" onclick="PTTSendClick('btn','btn-upload3','上传');" class="btn-upload">上传</a>
+							<input type="file" name="filename"  class="upload"/>
+						</div>
+					</div>
+					<div class="btn-refer-box">
+						<a href="javascript:;" onclick="PTTSendClick('btn','btn-refer1','上传');" class="btn-refer">提交信息</a>
+					</div>
+					
+				</div>
+				<div class="cont2 cont" style="display: none;">
+					<div class="btns-box">
+						<a href="javascript:;" onclick="PTTSendClick('btn','btn-new-built','新建问答');" class="btn-new-built">新建问答</a>
+						<a href="javascript:;" onclick="PTTSendClick('btn','btn-export','新建问答');" class="btn-export">导出数据</a>
+					</div>
+					<table style="table-layout: fixed;">
+						<tr>
+							<th>序号</th>
+							<th>小标题</th>
+							<th>大标题</th>
+							<th>嘉宾</th>
+							<th>活动<br />开始时间</th>
+							<th>活动<br />结束时间</th>
+							<th>PV</th>
+							<th>UV</th>
+							<th>总提<br />问数</th>
+							<th>总提问<br />点赞数</th>
+							<th>嘉宾回答<br />问题数 </th>
+							<th>嘉宾回答<br />总点赞数</th>
+							<th>操作</th>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>#红人来了#</td>
+							<td>春季赛抢分大战开启 榜首之首</td>
+							<td>不吃药还闹</td>
+							<td>2020-04-08 10:00</td>
+							<td>2020-04-15 00:00</td>
+							<td>258988</td>
+							<td>249822</td>
+							<td>1800</td>
+							<td>154892</td>
+							<td>356</td>
+							<td>35687</td>
+							<td><a href="javascript:;" class="btn-edit">编辑 </a><a href="javascript:;" class="btn-del">删除 </a></td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>#红人来了#</td>
+							<td>春季赛抢分大战开启 榜首之首</td>
+							<td>不吃药还闹</td>
+							<td>2020-04-08 10:00</td>
+							<td>2020-04-15 00:00</td>
+							<td>258988</td>
+							<td>249822</td>
+							<td>1800</td>
+							<td>154892</td>
+							<td>356</td>
+							<td>35687</td>
+							<td><a href="javascript:;" class="btn-edit">编辑 </a><a href="javascript:;" class="btn-del">删除 </a></td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>#红人来了#</td>
+							<td>春季赛抢分大战开启 榜首之首</td>
+							<td>不吃药还闹</td>
+							<td>2020-04-08 10:00</td>
+							<td>2020-04-15 00:00</td>
+							<td>258988</td>
+							<td>249822</td>
+							<td>1800</td>
+							<td>154892</td>
+							<td>356</td>
+							<td>35687</td>
+							<td><a href="javascript:;" class="btn-edit">编辑 </a><a href="javascript:;" class="btn-del">删除 </a></td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td>#红人来了#</td>
+							<td>春季赛抢分大战开启 榜首之首</td>
+							<td>不吃药还闹</td>
+							<td>2020-04-08 10:00</td>
+							<td>2020-04-15 00:00</td>
+							<td>258988</td>
+							<td>249822</td>
+							<td>1800</td>
+							<td>154892</td>
+							<td>356</td>
+							<td>35687</td>
+							<td><a href="javascript:;" class="btn-edit">编辑 </a><a href="javascript:;" class="btn-del">删除 </a></td>
+						</tr>
+						<tr>
+							<td>5</td>
+							<td>#红人来了#</td>
+							<td>春季赛抢分大战开启 榜首之首</td>
+							<td>不吃药还闹</td>
+							<td>2020-04-08 10:00</td>
+							<td>2020-04-15 00:00</td>
+							<td>258988</td>
+							<td>249822</td>
+							<td>1800</td>
+							<td>154892</td>
+							<td>356</td>
+							<td>35687</td>
+							<td><a href="javascript:;" class="btn-edit">编辑 </a><a href="javascript:;" class="btn-del">删除 </a></td>
+						</tr>
+						<tr>
+							<td>6</td>
+							<td>#红人来了#</td>
+							<td>春季赛抢分大战开启 榜首之首</td>
+							<td>不吃药还闹</td>
+							<td>2020-04-08 10:00</td>
+							<td>2020-04-15 00:00</td>
+							<td>258988</td>
+							<td>249822</td>
+							<td>1800</td>
+							<td>154892</td>
+							<td>356</td>
+							<td>35687</td>
+							<td><a href="javascript:;" class="btn-edit">编辑 </a><a href="javascript:;" class="btn-del">删除 </a></td>
+						</tr>
+						<tr>
+							<td>7</td>
+							<td>#红人来了#</td>
+							<td>春季赛抢分大战开启 榜首之首</td>
+							<td>不吃药还闹</td>
+							<td>2020-04-08 10:00</td>
+							<td>2020-04-15 00:00</td>
+							<td>258988</td>
+							<td>249822</td>
+							<td>1800</td>
+							<td>154892</td>
+							<td>356</td>
+							<td>35687</td>
+							<td><a href="javascript:;" class="btn-edit">编辑 </a><a href="javascript:;" class="btn-del">删除 </a></td>
+						</tr>
+						<tr>
+							<td>8</td>
+							<td>#红人来了#</td>
+							<td>春季赛抢分大战开启 榜首之首</td>
+							<td>不吃药还闹</td>
+							<td>2020-04-08 10:00</td>
+							<td>2020-04-15 00:00</td>
+							<td>258988</td>
+							<td>249822</td>
+							<td>1800</td>
+							<td>154892</td>
+							<td>356</td>
+							<td>35687</td>
+							<td><a href="javascript:;" class="btn-edit">编辑 </a><a href="javascript:;" class="btn-del">删除 </a></td>
+						</tr>
+						<tr>
+							<td>9</td>
+							<td>#红人来了#</td>
+							<td>春季赛抢分大战开启 榜首之首</td>
+							<td>不吃药还闹</td>
+							<td>2020-04-08 10:00</td>
+							<td>2020-04-15 00:00</td>
+							<td>258988</td>
+							<td>249822</td>
+							<td>1800</td>
+							<td>154892</td>
+							<td>356</td>
+							<td>35687</td>
+							<td><a href="javascript:;" class="btn-edit">编辑 </a><a href="javascript:;" class="btn-del">删除 </a></td>
+						</tr>
+						<tr>
+							<td>10</td>
+							<td>#红人来了#</td>
+							<td>春季赛抢分大战开启 榜首之首</td>
+							<td>不吃药还闹</td>
+							<td>2020-04-08 10:00</td>
+							<td>2020-04-15 00:00</td>
+							<td>258988</td>
+							<td>249822</td>
+							<td>1800</td>
+							<td>154892</td>
+							<td>356</td>
+							<td>35687</td>
+							<td><a href="javascript:;" class="btn-edit">编辑 </a><a href="javascript:;" class="btn-del">删除 </a></td>
+						</tr>
+					</table>
+					<div class="btns">
+						<!--点击按钮添加class on，当前页的序号添加class on-->
+						<a href="javascript:;" class="first btn">首页</a>
+						<a href="javascript:;" class="num num1 on">1</a>
+						<a href="javascript:;" class="num num2">2</a>
+						<a href="javascript:;" class="num num3">3</a>
+						<a href="javascript:;" class="num num4">4</a>
+						<a href="javascript:;" class="num num5">5</a>
+						<a href="javascript:;" class="num more">...</a>
+						<a href="javascript:;" class="next btn">下一页</a>
+						<a href="javascript:;" class="end btn">尾页</a>
+						<p class="all">共<span>2570</span>页</p>
+						<p>到第<input type="text" class="btn-skip" placeholder="9"/>页</p>
+						<a href="javascript:;" class="btn-jump">跳转</a>
+					</div>
+				</div>
+				<div class="cont3 cont" style="display: none;">
+					<div class="num same">
+						<p>问答活动序号: </p>
+						<select>
+							<option>选择序号</option>
+							<option>选择序号</option>
+						</select>
+					</div>
+					<div class="type same">
+						<p>审核状态: </p>
+						<input type="radio" name="audit-state" value="audit1" class="audit-state audit1" checked="checked" /><span>待审核</span> 
+						<input type="radio" name="audit-state" value="audit2" class="audit-state audit2" /><span>已推荐</span>
+						<input type="radio" name="audit-state" value="audit3" class="audit-state audit3" /><span>已删除</span> 
+						<input type="radio" name="audit-state" value="audit4" class="audit-state audit4" /><span>嘉宾已回复</span>
+					</div>
+					<div class="ask same">
+						<p>提问者QQ: </p>
+						<input type="text" class="title" />
+					</div>
+					<div class="search same">
+						<p>问题搜索（支持模糊搜索）:</p>
+						<input type="text" class="title" />
+						<a href="javascript:;" onclick="PTTSendClick('btn','btn-search','搜索');" class="btn-search">搜索</a>
+					</div>
+					<div class="lead">
+						<p class="left">共计<span> 800 </span>个提问</p>
+						<p class="right">排序:<a href="javascript:;" class="positive">正序</a><a href="javascript:;" class="inverted">倒序</a></p>
+					</div>
+					<table style="table-layout: fixed;">
+						<tr>
+							<th>序号</th>
+							<th>QQ</th>
+							<th>提问者/嘉宾</th>
+							<th>问题内容 / 嘉宾回复</th>
+							<th>状态</th>
+							<th>总点赞数</th>
+							<th>发布时间</th>
+							<th>修改时间</th>
+							<th>操作</th>
+						</tr>
+						<tr class="questioner">
+							<td>1</td>
+							<td>1995486819</td>
+							<td>乱世小熊</td>
+							<td>大家也不会因衰减而掉出超凡大师段位。云顶之弈团队希望大家不断尝试登顶，但不希望云顶之弈成为一种附带严重惩罚的日常义务。</td>
+							<td>待审核</td>
+							<td>289279<a href="javascript:;" class="amend">修改</a></td>
+							<td>2020-04-15 10:24</td>
+							<td>2020-04-15 10:24</td>
+							<td><a href="javascript:;" class="recommend">推荐</a><a href="javascript:;" class="compile">编辑</a><a href="javascript:;" class="del">删除</a></td>
+						</tr>
+						<tr class="guest">
+							<td></td>
+							<td></td>
+							<td>回忆的沙漏</td>
+							<td>2020年《英雄联盟》职业联赛春季赛，在3月30日迎来了常规赛第五周的比赛，随着春季赛的赛程已经过半，LPL积分榜的排名竞争更加。OMG在本赛季召了老将Smlz后，队伍目前处于稳步提升阶段，随着春季赛的赛程已经过半，LPL积</td>
+							<td></td>
+							<td>289279<a href="javascript:;" class="amend">修改</a></td>
+							<td>2020-04-15 10:24</td>
+							<td>2020-04-15 10:24</td>
+							<td><a href="javascript:;" class="modify">修改嘉宾回复</a></td>
+						</tr>
+						<tr class="questioner">
+							<td>2</td>
+							<td>1995486819</td>
+							<td>乱世小熊</td>
+							<td>大家也不会因衰减而掉出超凡大师段位。云顶之弈团队希望大家不断尝试登顶，但不希望云顶之弈成为一种附带严重惩罚的日常义务。</td>
+							<td>待审核</td>
+							<td>289279<a href="javascript:;" class="amend">修改</a></td>
+							<td>2020-04-15 10:24</td>
+							<td>2020-04-15 10:24</td>
+							<td><a href="javascript:;" class="recommend">推荐</a><a href="javascript:;" class="compile">编辑</a><a href="javascript:;" class="del">删除</a></td>
+						</tr>
+						<tr class="guest">
+							<td></td>
+							<td></td>
+							<td>回忆的沙漏</td>
+							<td>2020年《英雄联盟》职业联赛春季赛，在3月30日迎来了常规赛第五周的比赛，随着春季赛的赛程已经过半，LPL积分榜的排名竞争更加。OMG在本赛季召了老将Smlz后，队伍目前处于稳步提升阶段，随着春季赛的赛程已经过半，LPL积</td>
+							<td></td>
+							<td>289279<a href="javascript:;" class="amend">修改</a></td>
+							<td>2020-04-15 10:24</td>
+							<td>2020-04-15 10:24</td>
+							<td><a href="javascript:;" class="modify">修改嘉宾回复</a></td>
+						</tr>
+						<tr class="questioner">
+							<td>3</td>
+							<td>1995486819</td>
+							<td>乱世小熊</td>
+							<td>大家也不会因衰减而掉出超凡大师段位。云顶之弈团队希望大家不断尝试登顶，但不希望云顶之弈成为一种附带严重惩罚的日常义务。</td>
+							<td>待审核</td>
+							<td>289279<a href="javascript:;" class="amend">修改</a></td>
+							<td>2020-04-15 10:24</td>
+							<td>2020-04-15 10:24</td>
+							<td><a href="javascript:;" class="recommend">推荐</a><a href="javascript:;" class="compile">编辑</a><a href="javascript:;" class="del">删除</a></td>
+						</tr>
+						<tr class="guest">
+							<td></td>
+							<td></td>
+							<td>回忆的沙漏</td>
+							<td>2020年《英雄联盟》职业联赛春季赛，在3月30日迎来了常规赛第五周的比赛，随着春季赛的赛程已经过半，LPL积分榜的排名竞争更加。OMG在本赛季召了老将Smlz后，队伍目前处于稳步提升阶段，随着春季赛的赛程已经过半，LPL积</td>
+							<td></td>
+							<td>289279<a href="javascript:;" class="amend">修改</a></td>
+							<td>2020-04-15 10:24</td>
+							<td>2020-04-15 10:24</td>
+							<td><a href="javascript:;" class="modify">修改嘉宾回复</a></td>
+						</tr>
+					</table>
+					<div class="btns">
+						<!--点击按钮添加class on，当前页的序号添加class on-->
+						<a href="javascript:;" class="first btn">首页</a>
+						<a href="javascript:;" class="num num1 on">1</a>
+						<a href="javascript:;" class="num num2">2</a>
+						<a href="javascript:;" class="num num3">3</a>
+						<a href="javascript:;" class="num num4">4</a>
+						<a href="javascript:;" class="num num5">5</a>
+						<a href="javascript:;" class="num more">...</a>
+						<a href="javascript:;" class="next btn">下一页</a>
+						<a href="javascript:;" class="end btn">尾页</a>
+						<p class="all">共<span>2570</span>页</p>
+						<p>到第<input type="text" class="btn-skip" placeholder="9"/>页</p>
+						<a href="javascript:;" class="btn-jump">跳转</a>
+					</div>
+				</div>
+			</div>
+			
+			
+		</div>
+
+		<!--安全-->
+		<script src="//js.aq.qq.com/js/aq_common.js"></script>
+		<script src="//ossweb-img.qq.com/images/js/jquery/jquery-1.11.3.min.js"></script>
+		<!--<script src="//ossweb-img.qq.com/images/lol/title/lol.js"></script>
+		<script src="//game.gtimg.cn/images/js/2018foot/foot.js"></script>-->
+				
+		<script>
+			$(".nav-box a").click(function(){
+				$(this).addClass("on").siblings().removeClass("on");
+				$(".cont").hide();
+				$(".cont").eq($(this).index()).show();
+			})
+		</script>
+
+		<script src="//ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js"></script>
+		<script>
+			//此段代码不能放到外链JS中，
+			var setSite = { //设置网站属性
+				siteType: "a20160616guest", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+				pageType: "index", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN,不支持点(.)、下划线(_)
+				pageName: "首页", //必填项:页面中文名
+				project: "commerce", //必填项:按照模块内容，填写固定的对应值;皮肤 skin;英雄 hero;商业化 commerce;赛事 match;运营/版本 version;品牌 brand;IP ip;社区 community;网吧投放 netbar;默认other;
+				osact: 0 //选填项:是否是官网专题(在官网运营的专题)boolean；默认是0；可以在链接上加入参数osact=1来灵活设置
+			};
+			if(typeof(pgvMain) == 'function') pgvMain(); //千万不能忘记！
+		</script>
+	</body>
+
+</html>
