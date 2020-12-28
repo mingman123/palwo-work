@@ -1,0 +1,540 @@
+/* reset */
+html,body,div,p,ul,li,dl,dt,dd,em,i,span,a,img,input,h1,h2,h3,h4,h5 {margin:0;padding:0}
+a,img,input {border:none;}
+body{font: 14px/1.75  -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;-webkit-tap-highlight-color: rgba(0,0,0,0);}
+a {text-decoration:none;}
+ul,li{list-style: none}
+a, img {-webkit-touch-callout: none; /* 禁止长按链接与图片弹出菜单，根据需要选择是否删除 */}
+html, body {
+    -webkit-user-select: none;   /* 禁止选中文本（如无文本选中需求，此为必选项） */
+    user-select: none;
+}
+table{border-collapse:collapse;border-spacing:0}
+td,th,ul,ol{padding:0}
+ul,li{list-style: none}
+html,body{background-color:#fff;}
+em,i{font-style:normal;}
+/* reset end */
+html {
+    font-size: 50px;/* 兼容不支持vw的系统 */
+    font-size: 13.33333333vw;/* 7.5rem === 100vw */
+}
+
+@media (max-width: 1024px) {
+    html,body {
+        max-width: 1024px;
+    }
+}
+/* hid */
+.hid{text-indent:-999em;font-size:0;overflow:hidden;width:0;height:0;display:block}
+/* foot */
+#afooter{background-color: #191219;text-align: center;font-size:.22rem;padding:.2rem 0;}
+#afooter, #afooter a{color: #c0c0c0;text-decoration: none;}
+
+/* spr */
+.title{display:block; width:7.5rem; height:1.37rem; margin:0 auto; background:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/spr-title.png) no-repeat; background-size:10rem 7rem; text-indent:-999em;font-size:0;overflow:hidden;}
+
+/* basic */
+.main-wrapper{width:100%;overflow: hidden;}
+
+/* sellNumber */
+@font-face {
+    font-family: 'sellnum-1';
+    src: url('//game.gtimg.cn/images/lol/common/sell/font/sellnum-1.eot');
+    src: url('//game.gtimg.cn/images/lol/common/sell/font/sellnum-1.woff') format('woff'),url('//game.gtimg.cn/images/lol/common/sell/font/sellnum-1.ttf') format('truetype'),url('//game.gtimg.cn/images/lol/common/sell/font/sellnum-1.svg') format('svg');
+}
+
+/* bg */
+.cont{background-repeat:no-repeat; background-position:50% 0; background-size:7.5rem 100%; width:100%; position:relative;}
+.cont-0{background-image:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/bg-m-0.jpg); height:9.39rem;}
+.cont-1{background-image:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/bg-m-1.jpg); height:22.08rem; margin-top:-0.01rem;}
+.cont-2{background-image:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/bg-m-2.jpg); height:28.78rem; margin-top:-0.01rem;}
+.cont-3{background-image:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/bg-m-3.jpg); height:24.37rem; margin-top:-0.01rem;}
+.cont-4{background-image:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/bg-m-4.jpg); height:24.39rem; margin-top:-0.01rem;}
+.cont-5{background-image:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/bg-m-5.jpg); height:24.07rem; margin-top:-0.01rem;}
+.cont-6{background-image:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/bg-m-6.jpg); height:14.7rem; margin-top:-0.01rem;}
+.cont-7{background-image:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/bg-m-8.jpg); height:11.3rem; margin-top:-0.01rem;}
+.cont-8{background-image:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/bg-m-7.jpg); height:14.38rem; margin-top:-0.01rem;}
+.main-wrapper .show2{background-image:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/bg-m-82.jpg); height:16.76rem; margin-top:-0.01rem;}
+
+.cont-0 .slogan{display: none;}
+.cont-0 .mc{display: none;}
+.cont-0 .bg{display: none;}
+.cont-0 video{display: none;}
+
+/* .cont-7{height:12rem;}
+.cont-7.show2{height:16.24rem;} */
+
+/* SideBar */
+.side-bar{display:none;}
+
+/* KV */
+.btn-logo-lol{display:block; width:1.92rem; height:0.69rem; position:absolute; top:0.2rem; left:0.16rem;}
+.btn-logo-lol img{width:100%; height:100%; object-fit:cover;}
+.btn-ip-description{display:block; width:1.98rem; height:0.48rem; box-sizing:border-box; padding:0.1rem 0 0 1rem; color:#e4cdb6; font:0.13rem / 0.3rem 'Microsoft YaHei'; background:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/ip-desc.png) no-repeat 0 0; background-size:100% 100%; position:absolute; top:0.25rem; right:0.3rem;display: none;}
+.title-1{background-position:-1.25rem 0; position:absolute; bottom:0.75rem; left:0; right:0;}
+.cont-0 .flower-head{display: block;width: 1.42rem;height: 1.67rem;background: url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/flower-m-head.png) no-repeat 0 0;background-size: 100% 100%;position: absolute;bottom: -.2rem;left: .1rem;z-index: 2;}
+/* SkinVideo */
+.skin-video{display:none;}
+/* Skin */
+.line{display:block; width:100%; height:0.35rem; background-position:50% 0; background-size:19.2rem 100%; position:absolute; top:-0.22rem; left:0;}
+.line-passion{background-image:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/line-passion.png);}
+.line-peace{background-image:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/line-peace.png);top: -0.22rem;}
+.line-split{display: none;}
+.btn-skin-go-giftbag{display:none; width:3.26rem; height:2.18rem; box-sizing:border-box; padding:0.77rem 0 0 1.46rem; background:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/btn-gift-bag.png) no-repeat 0 0; background-size:100% 100%; position:absolute; top:0; left:50%; z-index:10; transform:translate3d(3.48rem,-1.14rem,0);}
+.btn-skin-go-giftbag span{display:block; width:0.9rem; height:0.24rem; color:#131223; font:0.12rem / 0.24rem 'Microsoft YaHei'; text-align:center;}
+.btn-skin-go-giftbag b{display:block; padding-left:0.08rem; color:#fff; font:bold 0.2rem / 0.36rem 'Microsoft YaHei'; text-shadow:0 0.02rem 0.02rem rgba(0,0,0,0.43);}
+.line-n{
+    color: transparent;
+    background: linear-gradient(#e77fee,#3a65b3);
+    -webkit-background-clip: text; background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.line-i{
+    color: transparent;
+    background: linear-gradient(#4776d2,#91a8de);
+    -webkit-background-clip: text; background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* Skin-box */
+.btn-buy{display:block; width:2.67rem; height:0.78rem; background:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/btn-buy.png) no-repeat 0 0; background-size:100% 100%; color:#fff; font:bold 0.25rem / 0.78rem 'Microsoft YaHei'; text-align:center; text-shadow:0 0.02rem 0.02rem rgba(0,0,0,0.43);}
+.btn-play{display:block; width:0.91rem; height:0.91rem; background:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/btn-play.png) no-repeat 0 0; background-size:100% 100%; transition:none;}
+
+/* Skin-box-Skin */
+.skin-box-skin{padding-top:7.3rem; width:6.9rem; height:3rem; margin:0 auto; display:flex; justify-content:center; align-items:flex-start; align-content:flex-start; flex-wrap:wrap; position:relative;}
+.skin-box-skin .skin-head{width:1.24rem; height:1.24rem; padding:0 0.32rem 0.2rem 0.4rem;}
+.skin-box-skin .skin-head img{width:100%; height:100%; object-fit:cover; transform:translate3d(0,-0.03rem,0);}
+.skin-box-skin .skin-name{padding-right:0.34rem;}
+.skin-box-skin .skin-name i{display:block; color:#fff; font:lighter 0.3rem / 0.4rem 'Microsoft YaHei';}
+/* .skin-box-skin .skin-name i.legend::after{content:''; display:inline-block; vertical-align:top; width:0.65rem; height:0.33rem; transform:translate3d(0.06rem,0.06rem,0); background:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/icon-legend.png) no-repeat 0 0; background-size:100% 100%;} */
+.skin-box-skin .skin-name b{display:block; color:#eff2f9; font:bold 0.5rem / 1.3 'Microsoft YaHei';}
+.skin-box-skin .skin-play{padding:0.1rem 0.4rem 0 0;}
+/* .skin-box-skin .skin-price{padding-top:0.34rem;} */
+.skin-box-skin .skin-price .sp-1{height:0.84rem; font-size:0; color:#eff2f9;}
+.skin-box-skin .skin-price .sp-1 i{ display: inline-block; vertical-align: top; width: 0.22rem;  font: 0.2rem / 0.24rem 'Microsoft YaHei'; border: .02rem solid #ccc; height: 0.48rem; border-radius: .04rem; margin: 0.14rem 0.1rem 0 0;}
+.skin-box-skin .skin-price .sp-1 span{font:0.67rem / 0.84rem 'sellnum-1'}
+.skin-box-skin .skin-price .sp-1 em{font:0.2rem / 0.84rem 'Microsoft YaHei';}
+.skin-box-skin .skin-price .sp-2{display:inline-block; vertical-align:top; padding:0 0.12rem; margin-left:0.16rem; border:0.01rem solid #c6b4a6; border-radius:0.17rem; color:#c6b4a6; font:0.18rem / 0.34rem 'Microsoft YaHei';}
+.skin-box-skin .skin-buy{margin-left:0.5rem; }
+
+
+
+
+
+ .skin-box-skin .line-n{
+    color: transparent;
+    background: linear-gradient(#fff,#fff);
+    -webkit-background-clip: text; background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.skin-box-skin .line-i{
+    color: transparent;
+    background: linear-gradient(#fff,#91a8de);
+    -webkit-background-clip: text; background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.btn-phase1 {
+    background: url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/btn-phase1.png) no-repeat 0 0;
+    background-size: 0.49rem 0.63rem;
+    position: absolute;
+    top: 1.9rem;
+    left: 0.6rem;
+    width: 0.69rem;
+    height: 0.83rem;
+    animation: phase 1.4s linear infinite;
+}
+@keyframes phase
+{
+0% {left:60px;}
+50% {left:40px;}
+100% {left:60px;}
+}
+/* Skin-box-withHead */
+.skin-box-withhead{width:6.9rem; height:4.4rem; box-sizing:border-box; padding-left:3.16rem; margin:0 auto; position:relative; text-align:center;}
+.skin-box-withhead .skin-nd{padding:0.3rem 0 0; width:3.8rem;}
+.skin-box-withhead .skin-name{padding-bottom:0.2rem;}
+.skin-box-withhead .skin-name b{color:#547dde; font:bold 0.28rem / 0.6rem 'Microsoft YaHei';}
+.skin-box-withhead .skin-name i{color:#d35ddb; font:0.18rem / 0.26rem 'Microsoft YaHei'; display:inline-block; vertical-align:top; padding:0.02rem 0.22rem 0; margin:0.1rem 0 0 0.08rem; border:0.02rem solid #d35ddb; border-radius:0.2rem; box-sizing: border-box;}
+.skin-box-withhead .skin-desc{text-align:left; padding-left:0.2rem;}
+.skin-box-withhead .skin-desc p{color:#547dde; font:0.18rem / 0.24rem 'Microsoft YaHei';}
+.skin-box-withhead .skin-desc em{color:#137092; font-weight:bold;}
+.skin-box-withhead .skin-card{width:3.17rem; height:4.36rem; background:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/card-m-ahri.png) no-repeat 0 0 / 100% 100%; position:absolute; left:0; top:0;}
+.cont-2 .skin-box-withhead .skin-card{background-image:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/card-m-yongen.png);}
+.cont-3 .skin-box-withhead .skin-card{background-image:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/card-m-kindred.png);}
+.cont-4 .skin-box-withhead .skin-card{background-image:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/card-m-riven.png);}
+.cont-5 .skin-box-withhead .skin-card{background-image:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/card-m-cassiopeia.png);}
+.skin-box-withhead .skin-card img{display:none;}
+.skin-box-withhead .skin-price{padding-top:0.2rem;}
+.skin-box-withhead .skin-price .sp-1{height:0.66rem; font-size:0; color:#eff2f9;}
+.skin-box-withhead .skin-price .sp-1 i{display:inline-block; vertical-align:top; width:1em; margin:0.14rem 0.04rem 0 0; font:0.16rem / 0.2rem 'Microsoft YaHei';border: .02rem solid #89a4e3;border-radius:.04rem;padding:0 .02rem;}
+.skin-box-withhead .skin-price .sp-1 span{font:0.55rem / 0.66rem 'sellnum-1'}
+.skin-box-withhead .skin-price .sp-1 em{font:0.2rem / 0.66rem 'Microsoft YaHei';}
+.skin-box-withhead .skin-price .sp-2{color:#89a4e3; font:0.18rem / 0.24rem 'Microsoft YaHei';}
+.skin-box-withhead .skin-buy{padding-top:0.2rem;}
+.skin-box-withhead .skin-buy .btn-buy{margin:0 auto;}
+
+/* Skin-box-Color */
+.skin-box-color{width:6.9rem; height:6.5rem; margin:0 auto; position:relative;}
+.skin-box-color .color-desc{height:2.4rem;}
+.skin-box-color .skin-np{width:6.9rem; margin:0 auto; padding-bottom:0.1rem; text-align:center;}
+.skin-box-color .skin-name b{color:#547dde; font:bold 0.34rem / 0.56rem 'Microsoft YaHei';}
+.skin-box-color .skin-name i{color:#d35ddb; font:0.14rem / 0.22rem 'Microsoft YaHei'; display:inline-block; vertical-align:top; padding:.04rem 0.12rem 0; margin:0.1rem 0 0 0.14rem; border:0.02rem solid #d35ddb; border-radius:0.2rem; box-sizing: border-box;}
+.skin-box-color .skin-price{position:absolute; bottom:0; left:0.9rem;}
+.skin-box-color .skin-price .sp-1{color:#eff2f9; height:0.56rem;}
+.skin-box-color .skin-price .sp-1 i{display:inline-block; vertical-align:top; width:1em; margin:0.14rem 0.04rem 0 0; font:0.16rem / 0.2rem 'Microsoft YaHei';border: .02rem solid #89a4e3;border-radius:.04rem;padding:0 .02rem;}
+.skin-box-color .skin-price .sp-1 span{font:0.55rem / 0.56rem 'sellnum-1'}
+.skin-box-color .skin-price .sp-1 em{font:0.2rem / 0.56rem 'Microsoft YaHei';}
+.skin-box-color .skin-price .sp-2{padding-left:0.24rem; color:#89a4e3; font:0.18rem / 0.32rem 'Microsoft YaHei'; text-align:left;}
+.skin-box-color .skin-desc{padding-top:0.1rem; text-align:left;}
+.skin-box-color .skin-desc p{color:#3e60b1; font:0.18rem / 0.3rem 'Microsoft YaHei';}
+.skin-box-color .skin-desc em{color:#137092; font-weight:bold;}
+.skin-box-color .skin-buy{position:absolute; bottom:0; right:0.54rem;}
+.skin-box-color .color-list{display:flex; justify-content:center; align-items:flex-start; align-content:flex-start; flex-wrap:wrap;}
+.skin-box-color .color-item{width:1.66rem; height:3.2rem; text-align:center;}
+.skin-box-color .color-name{color:#3e60b1; font:0.14rem / 1.2 'Microsoft YaHei'; margin-bottom:0.04rem;}
+.skin-box-color .color-price{color:#137092; font:bold 0.14rem / 0.18rem 'Microsoft YaHei';}
+.skin-box-color .color-price.color-bubble-1{font-weight:normal; box-sizing:border-box; padding:0.12rem 0.12rem 0; width:1.16rem; height:0.36rem; background:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/color-bubble-1.png) no-repeat 0 0; background-size:100% 100%; margin:0 auto;}
+.skin-box-color .color-price.color-bubble-2{font-weight:normal; box-sizing:border-box; padding:0.13rem 0.12rem 0; width:1.36rem; height:0.5rem; background:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/color-bubble-2.png) no-repeat 0 0; background-size:100% 100%; margin:0 auto;}
+
+/* ahri */
+
+.color-list-ahri i{display:block; height:1.96rem; margin:0 auto 0.1rem; background:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/color-ahri.png) no-repeat 0 0; background-size:11.69rem 1.95rem; transform:translate3d(0.06rem,0,0);width: 1.8rem;}
+.color-list-ahri i.color-ahri-1{background-position-x:0;}
+.color-list-ahri i.color-ahri-2{background-position-x:-3.28rem;}
+.color-list-ahri i.color-ahri-3{background-position-x:-6.78rem;}
+.color-list-ahri i.color-ahri-4{background-position-x:-10.14rem;}
+
+
+/* yongen */
+.cont-2 .flower-yongen{display: block;width:.74rem;height: 1.38rem;background: url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/flower-m-yongen.png) no-repeat 0 0;background-size: 100% 100%;position: absolute;top: -.9rem;right: 0rem;z-index: 2;}
+.color-list-yongen i{display:block; height:2.28rem; margin:0 auto 0.1rem; background:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/color-yongen.png) no-repeat 0 0; background-size:12.21rem 2.28rem; transform:translate3d(0.06rem,0,0);width: 1.5rem;}
+.color-list-yongen i.color-yongen-1{ background-position-x:0;}
+.color-list-yongen i.color-yongen-2{ background-position-x:-1.79rem;}
+.color-list-yongen i.color-yongen-3{ background-position-x:-3.58rem;}
+.color-list-yongen i.color-yongen-4{ background-position-x:-5.36rem;}
+.color-list-yongen i.color-yongen-5{ background-position-x:-7.13rem;}
+.color-list-yongen i.color-yongen-6{ background-position-x:-8.93rem;}
+.color-list-yongen i.color-yongen-7{ background-position-x:-10.71rem;}
+
+
+/* Thresh */
+.color-list-thresh i{display:block; height:1.76rem; margin:0 auto 0.1rem; background:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/color-thresh.png) no-repeat 0 0; background-size:10.94rem 1.76rem; transform:translate3d(0.06rem,0,0);}
+.color-list-thresh i.color-thresh-1{width:1.29rem; background-position-x:0;}
+.color-list-thresh i.color-thresh-2{width:1.27rem; background-position-x:-1.65rem;}
+.color-list-thresh i.color-thresh-3{width:1.29rem; background-position-x:-3.22rem;}
+.color-list-thresh i.color-thresh-4{width:1.19rem; background-position-x:-4.82rem;}
+.color-list-thresh i.color-thresh-5{width:1.19rem; background-position-x:-6.48rem;}
+.color-list-thresh i.color-thresh-6{width:1.25rem; background-position-x:-8.04rem;}
+.color-list-thresh i.color-thresh-7{width:1.27rem; background-position-x:-9.67rem;}
+
+/* kindred */
+.color-list-kindred i{display:block; width:1.80rem; height:1.63rem; margin:0 auto 0.24rem; background:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/color-kindred.png) no-repeat 0 0; background-size:12.41rem 1.63rem; transform:translate3d(0.04rem,0,0);}
+.color-list-kindred i.color-kindred-1{background-position-x:0;}
+.color-list-kindred i.color-kindred-2{background-position-x:-1.81rem;}
+.color-list-kindred i.color-kindred-3{background-position-x:-3.58rem;}
+.color-list-kindred i.color-kindred-4{background-position-x:-5.37rem;}
+.color-list-kindred i.color-kindred-5{background-position-x:-7.13rem;}
+.color-list-kindred i.color-kindred-6{background-position-x:-8.91rem;}
+.color-list-kindred i.color-kindred-7{background-position-x:-10.68rem;}
+
+/* riven */
+.cont-4 .flower-riven{display: block;width:1.02rem;height: .68rem;background: url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/flower-m-riven.png) no-repeat 0 0;background-size: 100% 100%;position: absolute;top: -.48rem;left: .58rem;z-index: 2;}
+.color-list-riven i{display:block; width:1.09rem; height:1.54rem; margin:0 auto 0; background:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/color-riven.png) no-repeat 0 0; background-size:10.87rem 1.54rem; transform:translate3d(0.06rem,0,0);}
+.color-list-riven i.color-riven-1{background-position-x:0;}
+.color-list-riven i.color-riven-2{background-position-x:-1.62rem;}
+.color-list-riven i.color-riven-3{background-position-x:-3.24rem;}
+.color-list-riven i.color-riven-4{background-position-x:-4.86rem;}
+.color-list-riven i.color-riven-5{background-position-x:-6.48rem;}
+.color-list-riven i.color-riven-6{background-position-x:-8.1rem;}
+.color-list-riven i.color-riven-7{background-position-x:-9.72rem;}
+
+
+/* cassiopeia */
+.cont-5 .flower-cassiopeia{display: block;width: 1.42rem;height: 1.67rem;background: url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/flower-m-head.png) no-repeat 0 0;background-size: 100% 100%;position: absolute;top: -1.2rem;right: -.8rem;z-index: 2;}
+.color-list-cassiopeia i{display:block; width:1.3rem; height:1.64rem; margin:0 auto ; background:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/color-cassiopeia.png) no-repeat 0 0; background-size:12.04rem 1.64rem; transform:translate3d(0.06rem,0,0);}
+.color-list-cassiopeia i.color-cassiopeia-1{background-position-x:0;}
+.color-list-cassiopeia i.color-cassiopeia-2{background-position-x:-1.78rem;}
+.color-list-cassiopeia i.color-cassiopeia-3{background-position-x:-3.58rem;}
+.color-list-cassiopeia i.color-cassiopeia-4{background-position-x:-5.34rem;}
+.color-list-cassiopeia i.color-cassiopeia-5{background-position-x:-7.14rem;}
+.color-list-cassiopeia i.color-cassiopeia-6{background-position-x:-8.92rem;}
+.color-list-cassiopeia i.color-cassiopeia-7{background-position-x:-10.68rem;}
+
+/* Teemo */
+.flower-teemo{display:block; width:1.06rem; height:0.96rem; background:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/flower-teemo.png) no-repeat 0 0; background-size:100% 100%; position:absolute; top:0; left:50%; transform:translate3d(-8rem,-0.46rem,0);}
+
+/* Lillia */
+.skin-box-buy-together{width:6.9rem; height:4.6rem; margin:0 auto; position:relative;}
+.skin-box-buytoge{width:6.57rem; height:2.52rem; margin:0 auto; background:no-repeat 50% 0.32rem; background-size:6.57rem 1.63rem; position:relative;}
+.skin-box-buytoge:nth-child(1){background-image:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/buy-hero.png);}
+.skin-box-buytoge:nth-child(2){background-image:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/buy-together.png);}
+.skin-box-buytoge .skin-name{position: absolute;top: -0.1rem;left: 0.25rem;}
+.skin-box-buytoge .skin-name b{color:#547dde; font:bold 0.23rem / 0.52rem 'Microsoft YaHei';}
+.skin-box-buytoge .skin-name i{color:#547dde; font:0.14rem / 0.22rem 'Microsoft YaHei'; display:inline-block; vertical-align:top; padding:.02rem 0.12rem 0; margin:0.1rem 0 0 0.14rem; border:.02rem solid #547dde; border-radius:0.2rem;box-sizing: border-box;}
+.skin-box-buytoge .skin-price{height: 0.82rem;
+    padding: 0.12rem 0 0 3.9rem;
+    position: absolute;
+    top: 0.4rem;}
+.skin-box-buytoge .skin-price .sp-1{color:#eff2f9; height:0.5rem; padding-top:0.12rem;}
+.skin-box-buytoge .skin-price .sp-1 i{    display: inline-block;
+    vertical-align: top;
+    width: 0.22rem;
+    font: 0.2rem / 0.24rem 'Microsoft YaHei';
+    border: .02rem solid #FFFFFf;
+    border-radius: .04rem;
+    margin: 0 0.1rem 0 0;
+    line-height: .2rem;
+    text-align: center;
+    }
+.skin-box-buytoge .skin-price .sp-1 span{font:0.46rem / 0.5rem 'sellnum-1'}
+.skin-box-buytoge .skin-price .sp-1 em{font:0.14rem / 0.5rem 'Microsoft YaHei';}
+.skin-box-buytoge .skin-price .sp-2{ color: #547dde; font: 0.14rem / 1.3 'Microsoft YaHei';position: absolute;top: -0.4rem;left: 3.5rem;text-align: right;width: 2.8rem;text-align: left;}
+.skin-box-buytoge .skin-price .sp-2 span{display: block;}
+.skin-box-buytoge .skin-buy{left: 3.9rem;
+    position: absolute;
+    bottom: 0.67rem;}
+
+
+
+
+.skin-box-buytoge  .line-n{
+    color: transparent;
+    background: linear-gradient(#fff,#fff);
+    -webkit-background-clip: text; background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.skin-box-buytoge  .line-i{
+    color: transparent;
+    background: linear-gradient(#fff,#fff);
+    -webkit-background-clip: text; background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cont-2 .skin-box-color{height: 8.5rem;}
+.cont-2 .color-list-yongen li{position: relative;height: 2.28rem;}
+.color-list-yongen p{left: 0;right: 0; margin: 0;}
+.color-list-yongen .color-name{position: absolute;bottom: 0.3rem;}
+.color-list-yongen .color-price{position: absolute;bottom: .14rem;}
+.color-list-yongen .color-price.color-bubble-2{bottom: -.14rem;}
+.color-list-yongen .color-price.color-bubble-1{bottom: -.24rem;}
+
+.cont-3 .skin-box-color{height: 8.5rem;}
+.cont-3 .color-list-kindred li{position: relative;height: 2.28rem;margin-bottom: 0.2rem;}
+.color-list-kindred p{left: 0;right: 0; margin: 0;}
+.color-list-kindred .color-name{position: absolute;bottom: 0.3rem;}
+.color-list-kindred .color-price{position: absolute;bottom: .14rem;}
+.color-list-kindred  .color-price.color-bubble-2{bottom: -.14rem;}
+.color-list-kindred  .color-price.color-bubble-1{bottom: -.24rem;}
+
+
+.cont-4 .skin-box-color{height: 8.5rem;}
+.cont-4 .color-list-riven li{position: relative;height: 2.28rem;margin-bottom: 0.2rem;}
+
+.cont-5 .skin-box-color{height: 8.5rem;}
+.cont-5 .color-list-cassiopeia li{position: relative;height: 2.28rem;margin-bottom: 0.2rem;}
+
+
+.skin-box-buytoge .skin-buy .btn-buy{width:1.66rem; height:0.49rem; font-size:0.15rem; line-height:0.49rem;}
+.color-list-lillia i{display:block; height:1.77rem; margin:0 auto 0.3rem; background:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/color-lillia.png) no-repeat 0 0; background-size:10.83rem 1.77rem; transform:translate3d(0.12rem,0,0);}
+.color-list-lillia i.color-lillia-1{width:1.05rem; background-position-x:0;}
+.color-list-lillia i.color-lillia-2{width:1.05rem; background-position-x:-1.63rem;}
+.color-list-lillia i.color-lillia-3{width:1.05rem; background-position-x:-3.25rem;}
+.color-list-lillia i.color-lillia-4{width:1.05rem; background-position-x:-4.88rem;}
+.color-list-lillia i.color-lillia-5{width:1.05rem; background-position-x:-6.5rem;}
+.color-list-lillia i.color-lillia-6{width:1.07rem; background-position-x:-8.12rem;}
+.color-list-lillia i.color-lillia-7{width:1.11rem; background-position-x:-9.72rem;}
+
+/* SkinGiftBag */
+.title-2{background-position:-1.25rem -1.75rem; position:absolute; top:0; left:0; right:0;}
+.skin-box-allskin{padding-top:10.72rem; width:6.9rem; height:2.9rem; margin:0 auto; display:flex; justify-content:center; align-items:flex-start; align-content:flex-start; flex-wrap:wrap; position:relative;}
+.skin-box-allskin .skin-price .sp-1{color:#eff2f9; height:0.76rem;}
+.skin-box-allskin .skin-price .sp-1 i{display:inline-block; vertical-align:top; width:1em; margin:0.2rem 0.1rem 0 0; font:0.2rem / 0.24rem 'Microsoft YaHei';border: .02rem solid #89a4e3;border-radius:.04rem;padding:0 .02rem;}
+.skin-box-allskin .skin-price .sp-1 span{font:0.67rem / 0.76rem 'sellnum-1';}
+.skin-box-allskin .skin-price .sp-1 em{font:0.2rem / 0.76rem 'Microsoft YaHei'; margin-left:0.1rem;}
+.skin-box-allskin .skin-price .sp-2{margin-left:0.3rem; color:#9689aa; font:0.2rem / 0.3rem 'Microsoft YaHei';}
+.skin-box-allskin .skin-price .sp-3{color:#3e60b1; font:0.16rem / 0.28rem 'Microsoft YaHei'; text-align:center; position:absolute; top:11.42rem; left:0; width:6.9rem;height: .54rem;}
+.skin-box-allskin .skin-price .sp-3:nth-child(3){top:11.62rem;}
+.skin-box-allskin .skin-price .sp-3 i{color:#6287de; font:0.14rem / 0.22rem 'Microsoft YaHei'; display:inline-block; vertical-align:top; padding:0.02rem 0.12rem 0; margin:0.12rem 0.14rem 0 0; border:0.02rem solid #6287de; border-radius:0.2rem;}
+.skin-box-allskin .skin-price .sp-3 span{ display:inline-block; vertical-align:top; width: 4rem;text-align: left;}
+.skin-box-allskin .skin-buy{padding:0.9rem 0 0 0.5rem!important;}
+
+.skin-box-eyes{width:6.9rem; margin:0 auto;}
+.skin-eye{padding:0.8rem 0 0 2.3rem; margin:0 0 0.5rem 0.55rem; width:3.3rem; text-align:center; position:relative;}
+.skin-eye:first-child{margin-right:1.1rem;}
+.skin-eye img{width:2.64rem; height:auto; position:absolute; top:0.2rem; left:0;}
+.skin-eye .skin-name{color:#e0cdb7; font:0.26rem / 0.52rem 'Microsoft YaHei';}
+.skin-eye .skin-name span{margin-right:0.08rem;}
+.skin-eye .skin-name b{color:#fff;}
+.skin-eye .skin-name i{color:#c6b4a6; font:0.14rem / 0.22rem 'Microsoft YaHei'; display:inline-block; vertical-align:top; padding:0 0.12rem; margin:0.15rem 0 0 0.14rem; border:0.01rem solid #c6b4a6; border-radius:0.11rem;}
+.skin-eye .skin-price{margin-bottom:0.2rem;}
+.skin-eye .skin-price .sp-1{color:#eff2f9;}
+.skin-eye .skin-price .sp-1 i{display:inline-block; vertical-align:top; width:1em; padding:0.1rem 0.1rem 0 0; font:0.14rem / 0.18rem 'Microsoft YaHei';}
+.skin-eye .skin-price .sp-1 span{font:0.42rem / 0.48rem 'sellnum-1';}
+.skin-eye .skin-price .sp-1 em{font:0.2rem / 0.48rem 'Microsoft YaHei'; margin-left:0.08rem;}
+.skin-eye .skin-buy .btn-buy{margin:0 auto;}
+.cont-6 .sp-1,.cont-6 .sp-2{display: inline-block;vertical-align: top;}
+.cont-6 .sp-2{padding-top: .46rem;}
+/*.cont-6 .skin-box-allskin .skin-buy{padding-top: .9rem;}*/
+
+/* FettersOfTheSoul */
+.title-3{background-position:-1.25rem -5.44rem; position:absolute; top:0; left:0; right:0; z-index:20;}
+.fetter-box{width:100%; height:11.3rem; position:absolute; top:0; left:0;overflow: hidden;}
+.fetter-box-0{display:none;}
+
+.fetter-img-list{width:100%; height:11.3rem; position:absolute; top:1.46rem; left:0;}
+.fetter-img{width:7.5rem; height:12.97rem; position:absolute; top:0; left:50%; transform:translate3d(-50%,0,0); background:no-repeat 0 0; background-size:100% 100%; opacity:0; transition:opacity 0.3s ease-in-out;}
+.fetter-img.on{opacity:1;}
+.fetter-img-ahri{background-image:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/bg-7-m-01.png);}
+.fetter-img-yongen{background-image:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/bg-7-m-02.png);}
+.fetter-img-kindred{background-image:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/bg-7-m-03.png);}
+.fetter-img-riven{background-image:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/bg-7-m-04.png);}
+.fetter-img-cassiopeia{background-image:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/bg-7-m-05.png);}
+
+.btn-ch-box{position:absolute; width:96%; top:5.3rem; left:2%; z-index:20;}
+.btn-change-hero{width:0.82rem; height:0.62rem; background:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/btn-lr.png) no-repeat 0 0 / 1.8rem 0.62rem; position:absolute; top:0;}
+.btn-change-hero.bch-l{left:0.1rem;}
+.btn-change-hero.bch-r{background-position:-0.98rem 0; right:0.1rem;}
+
+.fetter-img-hover{display:none;}
+ 
+.fetter-buy-box-list{width:6rem; height:2.4rem; position:absolute; bottom:0rem; left:50%; transform:translate3d(-50%,0,0); pointer-events:none;}
+.fetter-buy-box{width:100%; height:100%; position:absolute; top:0; left:0; z-index:1; opacity:0; transition:opacity 0.3s ease-in-out; text-align:center;}
+.fetter-buy-box.on{z-index:10; opacity:1;}
+.fetter-buy-box .skin-price{padding-bottom:0.28rem;}
+.fetter-buy-box .skin-price .sp-1{color:#eff2f9; height:0.84rem;}
+.fetter-buy-box .skin-price .sp-1 i{display:inline-block; vertical-align:top; width:1em; padding:0.2rem 0.04rem 0 0; font:0.2rem / 0.24rem 'Microsoft YaHei';}
+.fetter-buy-box .skin-price .sp-1 span{font:0.67rem / 0.84rem 'sellnum-1';}
+.fetter-buy-box .skin-price .sp-1 em{font:0.2rem / 0.84rem 'Microsoft YaHei'; margin-left:0.1rem;}
+.fetter-buy-box .skin-price .sp-2{color:#c6b4a6; font:0.18rem / 0.34rem 'Microsoft YaHei'; display:inline-block; vertical-align:top; padding:0 0.3rem; border:0.01rem solid #c6b4a6; border-radius:0.17rem;}
+.fetter-buy-box .skin-buy{width:100%; display:flex; justify-content:space-between; align-items:flex-start;}
+.fetter-buy-box .btn-buy{margin:0rem auto 0;}
+.fetter-buy-box.on .btn-buy{pointer-events:all;}
+
+.fetter-box-2{overflow:hidden; height:16.24rem;}
+.fetter-video{display:none;}
+
+.form-switch{display:none;}
+
+.fetter-side-bar{display:none;} 
+
+.fetter-desc-list{width:7.5rem; height:14.97rem;  position:absolute; top:1.1rem; left:0;}
+.fetter-description{width:100%; height:100%; position:absolute; top:0; left:0; opacity:0; transition:opacity 0.3s ease-in-out; z-index:1; overflow:hidden;}
+
+
+.fetter-description:nth-child(1){background:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/bg-7-m-e1.png) no-repeat 0 0 / 100% auto;}
+.fetter-description:nth-child(2){background:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/bg-7-m-e2.png) no-repeat 0 0 / 100% auto;}
+.fetter-description:nth-child(3){background:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/bg-7-m-e3.png) no-repeat 0 0 / 100% auto;}
+.fetter-description:nth-child(4){background:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/bg-7-m-e4.png) no-repeat 0 0 / 100% auto;}
+.fetter-description:nth-child(5){background:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/bg-7-m-e5.png) no-repeat 0 0 / 100% auto;}
+/*.fetter-description:nth-child(5){background:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/bg-7-m-06.png) no-repeat 0 0 / 100% auto;}*/
+.fetter-description.on{opacity:1; z-index:10;}
+.fetter-name{width:5.4rem; height:0.61rem; margin:10.54rem auto 0.2rem; background:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/ip-hero-name2.png) no-repeat 0 0; background-size:5.40rem 4rem;}
+.fetter-name-thresh{background-position-y:0;}
+.fetter-name-yasuo{background-position-y:-0.8rem;}
+.fetter-name-vayne{background-position-y:-1.6rem;}
+.fetter-name-teemo{background-position-y:-2.4rem;}
+.fetter-name-lillia{width:4.12rem; background-position-y:-3.2rem;}
+
+.fetter-desc-text{padding:0.28rem 0 0.26rem; width:6.1rem; margin:0 auto; text-align:center; color:#0f536b; font:0.16rem / 0.26rem 'Microsoft YaHei'; position:relative;}
+.fetter-desc-text::after{content:''; display:block; width:100%; height:0.01rem; background:linear-gradient(90deg,rgba(15,83,107,0),rgba(15,83,107,1),rgba(15,83,107,1),rgba(15,83,107,0)); position:absolute; bottom:0; left:0;}
+
+.fetter-skin-box{width:6.1rem; height:2.38rem; padding-top:0.32rem; margin:0 auto; display:flex; justify-content:space-between; align-items:flex-start;}
+.fetter-skin{width:2.65rem; height:100%; background:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/ip-animate-border.png) no-repeat 0 0.01rem; background-size:2.65rem 2.12rem;}
+.fetter-skin-name{width:0.76rem; height:0.18rem; background:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/ip-animate-name.png) no-repeat 0 0; background-size:2rem 0.18rem;}
+.fetter-skin-name.fsn-1{background-position-x:0;}
+.fetter-skin-name.fsn-2{background-position-x:-1.06rem;}
+.fetter-skin-img{width:2.37rem; height:1.33rem; margin:0.24rem auto 0; background:#292450; cursor:pointer; position:relative; transition:filter 0.3s ease-in-out;}
+.fetter-skin-img img{width:100%; height:100%; object-fit:cover;}
+.fetter-skin-name.fsn-2 + .fetter-skin-img::after{content:''; display:block; width:100%; height:100%; background:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/btn-play.png) no-repeat 50% 50%; background-size:0.6rem 0.6rem; position:absolute; top:0; left:0;}
+.fetter-icon-bl{width:3.64rem; height:2.81rem; background:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/ip-bottom-left.png) no-repeat 0 0; background-size:100% 100%; position:absolute; bottom:0; left:0;}
+.fetter-icon-br{width:3.64rem; height:2.81rem; background:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/ip-bottom-right.png) no-repeat 0 0; background-size:100% 100%; position:absolute; bottom:0; right:0;}
+
+.fetter-flower{display:none;}
+
+ .title-4{background-position: -1.25rem -3.65rem;}
+.zero-lists{overflow: hidden;width: 100%;height: 5.8rem;}
+.zero-title{display: none;}
+.zero-lists li{position: relative;text-align: center;height: 5.17rem;}
+.zero-list i{width: 100%;height: 8.08rem;position: absolute;top: -1rem;left: 0;}
+.zero-list2 i{background: url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/qeq.png) no-repeat;display: block;background-size: 100% 8.08rem;}
+.zero-list div{position: absolute;bottom: -0.4rem;left: 0;right: 0;margin: 0 auto;z-index: 6;}
+
+.zero-list a{width: 1.71rem;height: 0.84rem;background: url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/btn-bg.png) no-repeat 0 0 / 1.71rem 1.68rem;display: inline-block;font-size: 0.24rem;color: #ead5da;text-align: center;line-height: 0.64rem;}
+.zero-list a.on{background: url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/btn-bgon.png) no-repeat 0 0 / 1.71rem 1.68rem;}
+.zero-list .btn-bright{ background-position: 0 0;}
+.zero-list a.on.btn-bright{ background-position: 0 0;}
+.zero-list .btn-night{background-position: 0 -0.84rem;}
+.zero-list a.on.btn-night{background-position: 0 -0.84rem;}
+
+.zero-list .btn-check{display: none;}
+.zero-list .btn-zero-play{display:block; width:0.91rem; height:0.91rem; background:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/btn-play.png) no-repeat 0 0; background-size:100% 100%; transition:none;position: absolute;top: 3.2rem;left: 3.5rem;}
+.zero-list1,.zero-list3{display: none;}
+.cont-8 .btn-prev{
+    width: 0.82rem;
+    height: 0.62rem;
+    background: url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/btn-lr.png) no-repeat 0 0 / 1.8rem 0.62rem;
+    position: absolute;
+    top: 4rem;
+}
+.cont-8 .btn-nex{
+    width: 0.82rem;
+    height: 0.62rem;
+    background: url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/btn-lr.png) no-repeat 0 0 / 1.8rem 0.62rem;
+    position: absolute;
+    top: 4rem;
+}
+.cont-8 .btn-prev{left: 0.1rem;}
+.cont-8 .btn-nex{
+    background-position: -0.98rem 0;
+    right: 0.1rem;
+}
+
+.zero-list1 i{background: url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/mlmq.png) no-repeat;display: block;background-size: 100% 8.08rem;}
+.zero-list3 i{background: url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/jwq.png) no-repeat;display: block;background-size: 100% 8.08rem;}
+.zero-list2 .img-qe1{background: url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/qeh.png) no-repeat;background-size: 100% 8.08rem;}
+.zero-list2 .img-qe2{background: url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/qeb.png) no-repeat;background-size: 100% 8.08rem;}
+
+.zero-list1 .img-mlm1{background: url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/mlmh.png) no-repeat;background-size: 100% 8.08rem;}
+.zero-list1 .img-mlm2{background: url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/mlmb.png) no-repeat;background-size: 100% 8.08rem;}
+
+.zero-list3 .img-jw1{background: url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/jwh.png) no-repeat;background-size: 100% 8.08rem;}
+.zero-list3 .img-jw2{background: url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/jwb.png) no-repeat;background-size: 100% 8.08rem;}
+
+
+
+.zero-checks{position: relative;padding-top: 0.4rem;}
+.zero-checks::before{content: "";background: url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/bt-line.png) no-repeat ;width: 3.43rem;height: 0.2rem;background-size: 3.43rem 0.2rem; position: absolute;top: 0;left: 0;right:0;margin: 0 auto;display: block;}
+
+.zero-desc{width: 100%;height: 0.9rem; font-size: 0.18rem;color: #000;text-align: center;line-height: 0.24rem;}
+.check2 ul{background: url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/qe.png) no-repeat; width: 6.5rem;height: 5.02rem;background-size: 7.5rem 5.02rem;padding-left: 1.13rem;}
+.check1 ul{background: url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/mlm.png) no-repeat; width: 6.5rem;height: 5.02rem;background-size: 7.5rem 5.02rem;padding-left: 1.13rem;}
+.check3 ul{background: url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/jw.png) no-repeat; width: 6.5rem;height: 5.02rem;background-size: 7.5rem 5.02rem;padding-left: 1.13rem;}
+.zero-checks li{float: left; overflow: hidden;width: 1.75rem; height: 0.7rem;text-align: center;font-size: 0.18rem;line-height: 0.24rem;color: #000;padding-top: 1.7rem;}
+
+/*.cont-7::after{content: "";background: url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/bg-befor.png) no-repeat;width: 7.5rem;height: 2.71rem;bottom:  -0.05rem;z-index: 4;background-size: 7.5rem 2.71rem;position: absolute;}*/
+
+.main-wrapper .show2::after{display: none;}
+.fetter-name-ahri{background-position: 0 0;}
+.fetter-name-yongen{background-position: 0 -0.76rem;}
+.fetter-name-kindred{background-position: 0 -1.56rem;}
+.fetter-name-riven{background-position: 0 -2.37rem;}
+.fetter-name-cassiopeia{background-position: 0 -3.09rem;}
+
+
+
+
+
+/* dialog */
+.dialog{outline:none; position:relative;}
+.dia-close{display:block; width:0.56rem; height:0.56rem; background:url(//game.gtimg.cn/images/lol/act/a20200807spiritblossom/btn-close.png) no-repeat 0 0; background-size:100% 100%; position:absolute; right:-0.04rem; top:-0.7rem;}
+
+/* dia-video */
+.dia-playvideo{width:6.9rem; height:3.88rem; background:#000;}
+.dia-playvideo .dia-con{width:100%; height:100%;}
+
+/* dia-picture */
+.dia-picture{width:6.9rem; height:3.88rem; background:#000;}
+.dia-picture .dia-con{width:100%; height:100%;}
+.dia-picture .dia-con img{width:100%; height:100%; object-fit:cover;}/* #t6Hl8#7DE13E0956CDEA66EDAD4BEFBA447607 */
